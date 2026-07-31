@@ -16,6 +16,7 @@ const VAULT = '/Users/xucheng/Documents/c 徐的知识库';
 const TOPICS = [
   { key: 'agent',     name: 'AI Agent工程知识',        dir: 'AI Agent工程知识',              icon: '🤖', color: 'agent' },
   { key: 'enterprise', name: '企业AI与智能体商业化',    dir: '企业AI与智能体商业化',          icon: '🏢', color: 'enterprise' },
+  { key: 'infrastructure', name: 'AI产业链与数字基础设施', dir: 'AI产业链与数字基础设施', icon: '⚡', color: 'enterprise' },
 ];
 const DAILY_DIR = path.join(VAULT, '知识流水线', '每日学习整理');
 const OUT_DIR = process.argv.includes('--out')
@@ -219,11 +220,16 @@ function parseDaily(filePath) {
   return { date, items, judgments };
 }
 
+function nowInChina() {
+  return new Date().toLocaleString('sv-SE', { timeZone: 'Asia/Shanghai', hour12: false }).replace(' ', 'T');
+}
+
 // ========== 主流程 ==========
 function build() {
+  const nowChina = nowInChina();
   const graph = {
-    generatedAt: new Date().toISOString().slice(0, 10),
-    generatedTime: new Date().toISOString().slice(0, 16).replace('T', ' '),
+    generatedAt: nowChina.slice(0, 10),
+    generatedTime: nowChina.slice(0, 16).replace('T', ' '),
     topics: [],
     nodes: [],
   };
@@ -268,6 +274,11 @@ function build() {
     contentHtml: n.contentHtml,
   }));
 
+  const recentCutoff = Date.parse(graph.generatedAt + 'T00:00:00+08:00') - 6 * 24 * 60 * 60 * 1000;
+  const recentNodes = graph.nodes.filter(n => Date.parse(n.updated + 'T00:00:00+08:00') >= recentCutoff);
+  const recentLinks = new Set();
+  recentNodes.forEach(n => n.links.forEach(link => recentLinks.add(n.path + '→' + link)));
+
   // 每日整理
   const dailies = parseDailyFiles().slice(0, 7).map(parseDaily);
   const today = dailies[0] || { date: '', items: [], judgments: [] };
@@ -275,6 +286,9 @@ function build() {
   const data = {
     generatedAt: graph.generatedAt,
     generatedTime: graph.generatedTime,
+    rootTitle: '徐总的知识库',
+    weeklyPages: recentNodes.length,
+    weeklyChanges: recentLinks.size,
     sourceIndex: '知识库索引.md',
     digest: today.date ? ('知识流水线/每日学习整理/' + today.date + '｜AI知识增量整理.md') : '知识流水线/每日学习整理',
     topics: graph.topics,

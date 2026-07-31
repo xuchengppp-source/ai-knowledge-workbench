@@ -431,7 +431,7 @@
 
 <!-- ========== 桌面端：画布陈列 ========== -->
 <div class="canvas-header">
-  <h1>徐总知识库 · AI 知识成长视图 <span class="small">Obsidian 上的成长层 · 移动版原型</span></h1>
+  <h1>徐总的知识库 <span class="small">AI 知识成长视图 · Obsidian 上的成长层</span></h1>
   <div class="sub">定位：以 Obsidian 为知识底座，先把 <strong>AI 知识体系</strong>的每日变化、链接关系、理解路径和能力沉淀呈现出来。它不是独立知识库，也不是学习打卡工具，而是帮助你看清“我每天的知识体系变成了什么”。<br>
   本页在桌面端为设计陈列，在手机浏览器打开即为全屏成长视图：底部四个 Tab 切换「知识状态 / 学习路径 / 复盘沉淀 / 成长」。</div>
 </div>
@@ -449,8 +449,8 @@
           </div>
           <div class="page">
             <div class="head-row">
-              <div class="title">知识状态
-                <span class="sub-line">2026年7月31日 · 周五</span>
+              <div class="title">徐总的知识库
+                <span class="sub-line">知识状态 · 2026年7月31日 · 周五</span>
               </div>
               <div class="avatar">徐</div>
             </div>
@@ -897,9 +897,9 @@ function renderToday() {
   var dateStr = d.date || new Date().toISOString().slice(0,10);
   var weekday = ['日','一','二','三','四','五','六'][new Date(dateStr+'T00:00:00').getDay()];
   var h = '<div class="page">';
-  h += '<div class="head-row"><div class="title">知识状态<span class="sub-line">'+dateStr+' · 周'+weekday+'</span></div><div class="avatar">徐</div></div>';
+  h += '<div class="head-row"><div class="title">'+(OBSIDIAN_GRAPH.rootTitle || '徐总的知识库')+'<span class="sub-line">知识状态 · '+dateStr+' · 周'+weekday+'</span></div><div class="avatar">徐</div></div>';
   h += '<div class="learning-brief"><div class="eyebrow">今日 AI 知识增量 · 来自 Obsidian 知识流水线</div><h3>今天先搞懂：Agent 怎样从“能用”变成“可托付”？</h3><p>把每日整理中的新变化连接到已有专题和项目，形成“理解 → 举例 → 应用”的学习线索。</p><div class="brief-foot"><span class="brief-chip">关联知识网络</span><span class="brief-chip">来自每日整理</span></div></div>';
-  h += '<div class="progress-card"><div class="pc-top"><div class="pc-date">📚 本周知识库状态</div><div class="pc-streak">AI 知识体系正在成形</div></div><div class="pc-main"><div class="pc-num">'+(OBSIDIAN_GRAPH.weeklyChanges||8)+'</div><div class="pc-unit">条链接</div></div><div class="pc-sub">本周更新 '+(OBSIDIAN_GRAPH.weeklyPages||12)+' 个页面 · 每日整理负责呈现变化，学习路径负责组织理解</div><div class="pc-bar"><i style="width:58%;"></i></div></div>';
+  h += '<div class="progress-card"><div class="pc-top"><div class="pc-date">📚 本周知识库状态</div><div class="pc-streak">AI 知识体系正在成形</div></div><div class="pc-main"><div class="pc-num">'+(OBSIDIAN_GRAPH.weeklyChanges||0)+'</div><div class="pc-unit">条链接</div></div><div class="pc-sub">本周更新 '+(OBSIDIAN_GRAPH.weeklyPages||0)+' 个页面 · 每日整理负责呈现变化，学习路径负责组织理解</div><div class="pc-bar"><i style="width:58%;"></i></div></div>';
   h += '<div class="sec-title" style="cursor:pointer;" onclick="showDailyDetail()">今日新增要点 <span class="more">来自每日整理 · '+d.items.length+' 条 ›</span></div>';
   h += '<div class="source-line">真实来源：'+OBSIDIAN_GRAPH.digest+' · 编译于 '+OBSIDIAN_GRAPH.generatedAt+' '+OBSIDIAN_GRAPH.generatedTime+'</div>';
   if (d.judgments && d.judgments.length) {
@@ -938,6 +938,7 @@ function renderTopic() {
   h += '<div class="path-note"><strong>当前学习主线：生产级 AI Agent</strong><span>从业务对象 → 流程状态 → 数据知识 → 工具执行 → 人审评测，逐步形成可交付能力。</span></div>';
   h += '<div class="topic-card" onclick="openTopic(0)"><div class="t-ic agent">🤖</div><div class="t-body"><h3>AI Agent 工程知识</h3><div class="t-meta">'+agentTopic.count+' 篇 · '+graphNodes('AI Agent工程知识').length+' 个核心节点 · 更新 '+graphNodes('AI Agent工程知识').map(function(n){return n.updated;}).sort().slice(-1)[0]+'</div><div class="t-bar"><i class="b1"></i></div></div><div class="t-arrow">›</div></div>';
   h += '<div class="topic-card" onclick="openTopic(1)"><div class="t-ic enterprise">🏢</div><div class="t-body"><h3>企业 AI 与智能体商业化</h3><div class="t-meta">'+enterpriseTopic.count+' 篇 · '+graphNodes('企业AI与智能体商业化').length+' 个核心节点 · 更新 '+graphNodes('企业AI与智能体商业化').map(function(n){return n.updated;}).sort().slice(-1)[0]+'</div><div class="t-bar"><i class="b2"></i></div></div><div class="t-arrow">›</div></div>';
+  h += '<div class="topic-card" onclick="openTopic(2)"><div class="t-ic enterprise">⚡</div><div class="t-body"><h3>AI 产业链与数字基础设施</h3><div class="t-meta">'+infraTopic.count+' 篇 · '+graphNodes('AI产业链与数字基础设施').length+' 个核心节点 · 与 Agent 交叉连接</div><div class="t-bar"><i class="b2"></i></div></div><div class="t-arrow">›</div></div>';
   h += '<div class="sec-title" style="margin-top:18px;">真实链接关系 · 核心节点</div>';
   OBSIDIAN_GRAPH.nodes.slice(0,6).forEach(function(n){ var gi=OBSIDIAN_GRAPH.nodes.indexOf(n); h += '<div class="doc-item" onclick="openGraphNodeByIndex('+gi+')"><div class="d-ic agent">⌘</div><div class="d-body"><h4>'+n.title+'</h4><div class="d-meta">更新 '+n.updated+' · 出链 '+n.links.length+' · 反向链接 '+n.backlinks.length+'</div></div><div class="d-check done">↗</div></div>'; });
   h += '<div class="sec-title" style="margin-top:18px;">能力模块 · 从知识到能力</div><div class="skill-grid"><div class="skill-item"><b>对象与流程</b><span>Ontology · Workflow · 状态机</span></div><div class="skill-item"><b>数据与知识</b><span>事实库 · 文档库 · RAG</span></div><div class="skill-item"><b>执行与治理</b><span>MCP · 权限 · 人审</span></div><div class="skill-item"><b>交付与商业化</b><span>FDE · MVP · ROI</span></div></div>';
@@ -984,14 +985,14 @@ function renderMe() {
 }
 
 function openTopic(idx){
-  var names = ["AI Agent工程知识","企业AI与智能体商业化"];
-  var keys = ["agent","enterprise"];
+  var names = ["AI Agent工程知识","企业AI与智能体商业化","AI产业链与数字基础设施"];
+  var keys = ["agent","enterprise","infrastructure"];
   var t = OBSIDIAN_DATA.topics.find(function(x){ return x.key === keys[idx]; }) || {count:0};
   var files = OBSIDIAN_GRAPH.nodes.filter(function(n){ return n.topic === keys[idx]; })
     .sort(function(a,b){ return (b.updated||'').localeCompare(a.updated||''); });
   var h = '<div class="page">';
   h += '<div class="head-row"><div class="title" style="cursor:pointer;" onclick="switchTab(\'topic\')">‹ 学习地图<span class="sub-line">'+names[idx]+' · '+files.length+' 篇 · Obsidian 编译数据</span></div></div>';
-  h += '<div class="seg"><div class="sg'+(idx===0?' on':'')+'" onclick="openTopic(0)">AI Agent 工程</div><div class="sg'+(idx===1?' on':'')+'" onclick="openTopic(1)">企业 AI</div></div>';
+  h += '<div class="seg"><div class="sg'+(idx===0?' on':'')+'" onclick="openTopic(0)">AI Agent 工程</div><div class="sg'+(idx===1?' on':'')+'" onclick="openTopic(1)">企业 AI</div><div class="sg'+(idx===2?' on':'')+'" onclick="openTopic(2)">AI 基础设施</div></div>';
   h += '<div class="source-line">节点与链接来自真实 Obsidian 编译数据 · '+OBSIDIAN_GRAPH.generatedAt+' '+OBSIDIAN_GRAPH.generatedTime+'</div>';
   files.forEach(function(n, i){
     var done = i < 3;
