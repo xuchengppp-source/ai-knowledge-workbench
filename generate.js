@@ -108,7 +108,7 @@ function parseDaily(filePath) {
   const blockRe = /###\s+([^\n]+)\n([\s\S]*?)(?=\n###|\n## |$)/g;
   let m;
   while ((m = blockRe.exec(sec)) !== null) {
-    const title = m[1].trim();
+    const title = m[1].trim().replace(/^\d+\.\d+\s*/, '');
     const content = m[2].trim();
     // 提取关键事实/判断行
     const lines = content.split('\n')
