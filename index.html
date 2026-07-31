@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>徐总知识库 · AI 学习工作台（移动版）</title>
+<title>徐总的知识库 · AI 知识成长视图</title>
 <style>
   /* ========== 全局 ========== */
   :root {
@@ -450,7 +450,7 @@
           <div class="page">
             <div class="head-row">
               <div class="title">徐总的知识库
-                <span class="sub-line">知识状态 · 2026年7月31日 · 周五</span>
+                <span class="sub-line" id="gallery-date">知识状态 · Obsidian 实时编译状态</span>
               </div>
               <div class="avatar">徐</div>
             </div>
@@ -1113,6 +1113,14 @@ document.querySelectorAll('.sb-date').forEach(function(el){ el.textContent = _dS
 
 
 switchTab('today');
+
+/* 桌面陈列也使用真实编译日期，避免静态样机与手机首页状态漂移 */
+var galleryDate = document.getElementById('gallery-date');
+if (galleryDate && OBSIDIAN_DATA.today && OBSIDIAN_DATA.today.date) {
+  var gd = OBSIDIAN_DATA.today.date;
+  var gw = ['日','一','二','三','四','五','六'][new Date(gd+'T00:00:00').getDay()];
+  galleryDate.textContent = '知识状态 · '+gd+' · 周'+gw;
+}
 </script>
 </body>
 </html>
