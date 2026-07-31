@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>徐总知识库 · AI 学习工作台（移动版）</title>
+<style>
+  /* ========== 全局 ========== */
+  :root {
+    --bg: #F2F5FA;
+    --card: #FFFFFF;
+    --ink: #16233B;
+    --ink-soft: #47536B;
+    --ink-faint: #8A94A8;
+    --line: #E3E8F0;
+    --blue: #2563EB;
+    --blue-deep: #1E3A5F;
+    --blue-soft: #EAF1FE;
+    --violet: #7C3AED;
+    --violet-soft: #F1EBFE;
+    --amber: #F59E0B;
+    --amber-soft: #FEF3E2;
+    --green: #10B981;
+    --green-soft: #E7F8F1;
+    --red: #EF4444;
+    --shadow: 0 6px 20px rgba(30,58,95,0.08);
+    --radius: 16px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  html, body {
+    background: var(--bg);
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "SF Pro SC", "Helvetica Neue", "Microsoft YaHei", sans-serif;
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ========== 桌面端：手机框陈列 ========== */
+  .canvas-header {
+    max-width: 1500px; margin: 0 auto; padding: 40px 40px 8px;
+  }
+  .canvas-header h1 {
+    font-size: 26px; font-weight: 700; letter-spacing: 0.5px; color: var(--blue-deep);
+  }
+  .canvas-header h1 .small {
+    font-size: 14px; font-weight: 400; color: var(--ink-faint); margin-left: 14px; letter-spacing: 0;
+  }
+  .canvas-header .sub {
+    margin-top: 10px; font-size: 13px; color: var(--ink-soft); line-height: 1.8; max-width: 1000px;
+  }
+  .canvas-header .sub strong { color: var(--blue); }
+  .stage {
+    max-width: 1500px; margin: 0 auto; padding: 18px 40px 60px;
+  }
+  .strip {
+    display: flex; gap: 34px; overflow-x: auto; padding: 30px 6px 24px;
+    scrollbar-width: thin;
+  }
+  .strip::-webkit-scrollbar { height: 8px; }
+  .strip::-webkit-scrollbar-thumb { background: #C9D4E4; border-radius: 4px; }
+  .phone-wrap { flex-shrink: 0; text-align: center; }
+  .phone-label {
+    font-size: 13px; color: var(--ink-soft); margin-bottom: 14px; letter-spacing: 0.5px; font-weight: 600;
+  }
+  .phone-label .num {
+    display: inline-block; width: 22px; height: 22px;
+    background: var(--blue); border-radius: 50%;
+    color: #fff; line-height: 22px; margin-right: 8px; font-size: 12px; font-weight: 600;
+  }
+  .phone {
+    width: 375px; height: 812px;
+    background: var(--bg);
+    border: 9px solid #111827;
+    border-radius: 46px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 26px 60px -14px rgba(17,24,39,0.35);
+  }
+  .phone::before {
+    content: ""; position: absolute; top: 8px; left: 50%; transform: translateX(-50%);
+    width: 110px; height: 26px; background: #111827; border-radius: 14px; z-index: 60;
+  }
+  .screen {
+    width: 100%; height: 100%;
+    overflow-y: auto; overflow-x: hidden;
+    padding-top: 44px; padding-bottom: 0;
+    scrollbar-width: none;
+    background: var(--bg);
+  }
+  .screen::-webkit-scrollbar { display: none; }
+
+  /* ========== 手机端：全屏可交互 ========== */
+  @media (max-width: 860px) {
+    .canvas-header, .stage, .phone-wrap { display: none; }
+    html, body { height: 100%; background: var(--bg); }
+    #live-app {
+      display: flex !important;
+      position: fixed; inset: 0;
+      max-width: 480px; margin: 0 auto;
+      background: var(--bg);
+      flex-direction: column;
+    }
+  }
+  @media (min-width: 861px) {
+    #live-app { display: none; }
+  }
+
+  #live-app {
+    display: none;
+    width: 100%; height: 100%;
+  }
+
+  /* ========== 通用组件 ========== */
+  .statusbar {
+    height: 44px; display: flex; align-items: flex-end; justify-content: space-between;
+    padding: 0 24px 8px; font-size: 13px; font-weight: 600; color: var(--ink);
+    background: var(--bg); flex-shrink: 0;
+  }
+  .statusbar .sbar-right { display: flex; gap: 5px; align-items: center; font-size: 12px; }
+  .statusbar .sbar-right span { font-weight: 500; }
+  .app-body { flex: 1; overflow-y: auto; padding-bottom: 92px; scrollbar-width: none; }
+  .app-body::-webkit-scrollbar { display: none; }
+
+  /* 胶囊 Tab Bar */
+  .tabbar-wrap {
+    position: absolute; left: 0; right: 0; bottom: 0;
+    padding: 10px 16px 22px;
+    z-index: 50;
+  }
+  .tabbar {
+    display: flex;
+    background: rgba(255,255,255,0.96);
+    border: 1px solid var(--line);
+    border-radius: 30px;
+    height: 62px;
+    padding: 5px;
+    box-shadow: 0 10px 30px rgba(30,58,95,0.12);
+    backdrop-filter: blur(12px);
+  }
+  .tabbar .t {
+    flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 3px; border-radius: 25px;
+    color: var(--ink-faint); font-size: 10px; font-weight: 600; letter-spacing: 0.3px;
+    cursor: pointer; transition: all 0.2s;
+  }
+  .tabbar .t .ic { font-size: 18px; line-height: 1; }
+  .tabbar .t.on {
+    background: var(--blue); color: #fff;
+    box-shadow: 0 4px 12px rgba(37,99,235,0.35);
+  }
+
+  /* 页面容器 */
+  .page { padding: 6px 16px 0; }
+
+  /* 头部 */
+  .head-row { display: flex; align-items: center; justify-content: space-between; padding: 6px 0 14px; }
+  .head-row .title { font-size: 22px; font-weight: 700; color: var(--blue-deep); }
+  .head-row .title .sub-line { display: block; font-size: 12px; font-weight: 400; color: var(--ink-faint); margin-top: 3px; }
+  .avatar {
+    width: 40px; height: 40px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--blue), var(--violet));
+    color: #fff; display: flex; align-items: center; justify-content: center;
+    font-size: 16px; font-weight: 700;
+  }
+
+  /* 学习进度卡 */
+  .progress-card {
+    background: linear-gradient(135deg, var(--blue-deep) 0%, #2D4E86 100%);
+    border-radius: var(--radius);
+    padding: 18px;
+    color: #fff;
+    margin-bottom: 18px;
+    box-shadow: 0 10px 24px rgba(30,58,95,0.25);
+  }
+  .progress-card .pc-top { display: flex; justify-content: space-between; align-items: center; }
+  .progress-card .pc-date { font-size: 13px; opacity: 0.85; }
+  .progress-card .pc-streak {
+    background: rgba(255,255,255,0.16); border-radius: 20px; padding: 4px 12px;
+    font-size: 12px; font-weight: 600;
+  }
+  .progress-card .pc-main { display: flex; align-items: baseline; gap: 6px; margin-top: 14px; }
+  .progress-card .pc-num { font-size: 34px; font-weight: 800; line-height: 1; }
+  .progress-card .pc-unit { font-size: 13px; opacity: 0.8; }
+  .progress-card .pc-sub { font-size: 12px; opacity: 0.75; margin-top: 4px; }
+  .progress-card .pc-bar {
+    margin-top: 14px; height: 6px; background: rgba(255,255,255,0.2); border-radius: 3px; overflow: hidden;
+  }
+  .progress-card .pc-bar i {
+    display: block; height: 100%; width: 50%;
+    background: linear-gradient(90deg, #FBBF24, #F59E0B);
+    border-radius: 3px;
+  }
+
+  /* 章节标题 */
+  .sec-title {
+    display: flex; align-items: center; justify-content: space-between;
+    font-size: 15px; font-weight: 700; color: var(--ink); margin: 4px 0 12px;
+  }
+  .sec-title .more { font-size: 12px; font-weight: 500; color: var(--ink-faint); }
+
+  /* 知识点卡片 */
+  .k-card {
+    background: var(--card);
+    border-radius: var(--radius);
+    padding: 14px;
+    margin-bottom: 12px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--line);
+    cursor: pointer;
+    transition: transform 0.15s;
+  }
+  .k-card:active { transform: scale(0.985); }
+  .k-card .k-top { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .tag {
+    font-size: 10px; font-weight: 600; padding: 3px 8px; border-radius: 6px; letter-spacing: 0.2px;
+  }
+  .tag.agent { background: var(--blue-soft); color: var(--blue); }
+  .tag.enterprise { background: var(--violet-soft); color: var(--violet); }
+  .tag.amber { background: var(--amber-soft); color: #B45309; }
+  .tag.green { background: var(--green-soft); color: #047857; }
+  .k-card .k-time { font-size: 11px; color: var(--ink-faint); margin-left: auto; }
+  .k-card .k-dot {
+    width: 7px; height: 7px; border-radius: 50%; background: var(--red); flex-shrink: 0;
+  }
+  .k-card .k-dot.read { background: transparent; }
+  .k-card h3 { font-size: 15px; font-weight: 650; line-height: 1.45; color: var(--ink); }
+  .k-card .k-desc {
+    font-size: 12.5px; color: var(--ink-soft); line-height: 1.6;
+    margin-top: 6px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .k-card .k-foot {
+    display: flex; align-items: center; gap: 10px; margin-top: 10px;
+    font-size: 11px; color: var(--ink-faint);
+  }
+  .k-card .k-foot .len { margin-left: auto; }
+
+  /* 专题库 */
+  .searchbar {
+    display: flex; align-items: center; gap: 8px;
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 14px; padding: 10px 14px; margin-bottom: 16px;
+  }
+  .searchbar .s-ic { color: var(--ink-faint); font-size: 14px; }
+  .searchbar input {
+    border: none; outline: none; background: transparent; flex: 1;
+    font-size: 14px; color: var(--ink); font-family: inherit;
+  }
+  .searchbar input::placeholder { color: var(--ink-faint); }
+  .seg {
+    display: flex; background: #E7ECF5; border-radius: 12px; padding: 3px; margin-bottom: 16px;
+  }
+  .seg .sg {
+    flex: 1; text-align: center; padding: 8px 0; border-radius: 10px;
+    font-size: 13px; font-weight: 600; color: var(--ink-soft); cursor: pointer;
+  }
+  .seg .sg.on { background: #fff; color: var(--blue); box-shadow: 0 2px 6px rgba(30,58,95,0.1); }
+  .topic-card {
+    background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 16px; margin-bottom: 12px; box-shadow: var(--shadow);
+    display: flex; gap: 14px; align-items: center; cursor: pointer;
+  }
+  .topic-card .t-ic {
+    width: 46px; height: 46px; border-radius: 14px; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center; font-size: 22px;
+  }
+  .topic-card .t-ic.agent { background: var(--blue-soft); }
+  .topic-card .t-ic.enterprise { background: var(--violet-soft); }
+  .topic-card .t-body { flex: 1; }
+  .topic-card .t-body h3 { font-size: 15px; font-weight: 700; }
+  .topic-card .t-body .t-meta { font-size: 11.5px; color: var(--ink-faint); margin-top: 3px; }
+  .topic-card .t-bar { margin-top: 8px; height: 4px; background: #EDF0F6; border-radius: 2px; overflow: hidden; }
+  .topic-card .t-bar i { display: block; height: 100%; border-radius: 2px; }
+  .topic-card .t-bar i.b1 { width: 68%; background: var(--blue); }
+  .topic-card .t-bar i.b2 { width: 34%; background: var(--violet); }
+  .topic-card .t-arrow { color: var(--ink-faint); font-size: 16px; }
+
+  /* 文档列表（专题内） */
+  .doc-item {
+    display: flex; align-items: center; gap: 10px;
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 12px 14px; margin-bottom: 10px; cursor: pointer;
+  }
+  .doc-item .d-ic {
+    width: 34px; height: 34px; border-radius: 10px; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center; font-size: 15px;
+  }
+  .doc-item .d-ic.agent { background: var(--blue-soft); }
+  .doc-item .d-ic.enterprise { background: var(--violet-soft); }
+  .doc-item .d-body { flex: 1; min-width: 0; }
+  .doc-item .d-body h4 { font-size: 13.5px; font-weight: 600; line-height: 1.4; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .doc-item .d-body .d-meta { font-size: 11px; color: var(--ink-faint); margin-top: 3px; }
+  .doc-item .d-check {
+    width: 20px; height: 20px; border-radius: 50%; border: 1.5px solid var(--line);
+    flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 11px; color: transparent;
+  }
+  .doc-item .d-check.done { background: var(--green); border-color: var(--green); color: #fff; }
+
+  /* 阅读页 */
+  .reader { background: var(--card); min-height: 100%; }
+  .reader-head {
+    position: sticky; top: 0; z-index: 40;
+    background: rgba(255,255,255,0.96); backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 12px 16px;
+  }
+  .reader-head .back { font-size: 20px; color: var(--ink); cursor: pointer; width: 32px; }
+  .reader-head .rh-title { font-size: 13px; font-weight: 600; color: var(--ink-soft); }
+  .reader-head .fav { font-size: 18px; color: var(--ink-faint); cursor: pointer; width: 32px; text-align: right; }
+  .reader-body { padding: 20px 20px 30px; }
+  .reader-body .r-tag-row { display: flex; gap: 8px; margin-bottom: 12px; }
+  .reader-body h1 { font-size: 21px; font-weight: 800; line-height: 1.45; color: var(--ink); }
+  .reader-body .r-meta {
+    display: flex; gap: 14px; font-size: 11.5px; color: var(--ink-faint);
+    margin: 12px 0 18px; padding-bottom: 16px; border-bottom: 1px solid var(--line);
+  }
+  .reader-body h2 { font-size: 16px; font-weight: 700; margin: 22px 0 10px; color: var(--blue-deep); }
+  .reader-body p { font-size: 14.5px; line-height: 1.85; color: var(--ink-soft); margin-bottom: 12px; }
+  .reader-body blockquote {
+    background: var(--blue-soft); border-left: 3px solid var(--blue);
+    border-radius: 0 10px 10px 0; padding: 12px 14px; margin: 14px 0;
+    font-size: 13.5px; line-height: 1.8; color: var(--blue-deep);
+  }
+  .reader-body pre {
+    background: #0F1B33; color: #D8E2F5; border-radius: 12px;
+    padding: 14px; font-size: 12px; line-height: 1.7; overflow-x: auto;
+    margin: 14px 0; font-family: "SF Mono", ui-monospace, Menlo, monospace;
+    white-space: pre-wrap; word-break: break-word;
+  }
+  .reader-body pre .cm { color: #6B7FA8; }
+  .reader-body ul { margin: 10px 0 14px; padding-left: 20px; }
+  .reader-body li { font-size: 14px; line-height: 1.85; color: var(--ink-soft); margin-bottom: 6px; }
+  .reader-body .r-callout {
+    display: flex; gap: 10px; background: var(--green-soft);
+    border-radius: 12px; padding: 12px 14px; margin: 14px 0;
+    font-size: 13px; line-height: 1.7; color: #065F46;
+  }
+  .reader-bottom {
+    position: sticky; bottom: 0;
+    background: rgba(255,255,255,0.98); backdrop-filter: blur(10px);
+    border-top: 1px solid var(--line);
+    display: flex; gap: 10px; padding: 12px 16px;
+  }
+  .reader-bottom .rb-btn {
+    flex: 1; border-radius: 14px; padding: 11px 0; text-align: center;
+    font-size: 13px; font-weight: 600; cursor: pointer;
+  }
+  .reader-bottom .rb-btn.fav { background: #F1F3F8; color: var(--ink-soft); }
+  .reader-bottom .rb-btn.ai { background: linear-gradient(135deg, var(--blue), var(--violet)); color: #fff; }
+  .reader-bottom .rb-btn.done { background: var(--green-soft); color: #047857; }
+
+  /* 统计页 */
+  .stat-grid { display: flex; gap: 10px; margin-bottom: 18px; }
+  .stat-card {
+    flex: 1; background: var(--card); border: 1px solid var(--line);
+    border-radius: 14px; padding: 14px 12px; text-align: center; box-shadow: var(--shadow);
+  }
+  .stat-card .s-num { font-size: 24px; font-weight: 800; color: var(--blue-deep); }
+  .stat-card .s-label { font-size: 11px; color: var(--ink-faint); margin-top: 3px; }
+  .stat-card.accent .s-num { color: var(--amber); }
+  .week-chart {
+    background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 16px; box-shadow: var(--shadow); margin-bottom: 18px;
+  }
+  .week-chart h4 { font-size: 14px; font-weight: 700; margin-bottom: 14px; }
+  .wc-bars { display: flex; align-items: flex-end; gap: 10px; height: 110px; }
+  .wc-bar { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 6px; height: 100%; justify-content: flex-end; }
+  .wc-bar .b {
+    width: 100%; max-width: 26px; border-radius: 6px 6px 3px 3px;
+    background: linear-gradient(180deg, var(--blue), #7EA6F5);
+  }
+  .wc-bar .b.hi { background: linear-gradient(180deg, var(--amber), #FCD34D); }
+  .wc-bar .day { font-size: 10px; color: var(--ink-faint); }
+
+  /* 设置列表 */
+  .set-list { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+  .set-item {
+    display: flex; align-items: center; gap: 12px;
+    padding: 14px 16px; border-bottom: 1px solid var(--line); font-size: 14px;
+  }
+  .set-item:last-child { border-bottom: none; }
+  .set-item .s-ic { font-size: 17px; }
+  .set-item .s-val { margin-left: auto; color: var(--ink-faint); font-size: 12.5px; }
+  .set-item .s-arrow { color: #C4CBD8; font-size: 14px; }
+
+  /* 收藏 */
+  .fav-note { font-size: 12px; color: var(--ink-faint); margin: 4px 0 14px; line-height: 1.6; }
+
+  /* Obsidian 学习入口：把每日增量转成学习动作 */
+  .source-line { font-size: 10.5px; color: var(--ink-faint); margin-top: 3px; line-height: 1.5; }
+  .learning-brief { background: linear-gradient(135deg,#172B52,#315DAB); color: #fff; border-radius: 16px; padding: 15px 16px; margin: 12px 0 18px; box-shadow: 0 10px 24px rgba(30,62,120,.18); }
+  .learning-brief .eyebrow { font-size: 10px; letter-spacing: 1px; opacity: .72; }
+  .learning-brief h3 { margin: 7px 0 6px; font-size: 16px; line-height: 1.35; }
+  .learning-brief p { font-size: 11.5px; line-height: 1.65; opacity: .9; }
+  .learning-brief .brief-foot { display: flex; gap: 7px; flex-wrap: wrap; margin-top: 11px; }
+  .brief-chip { border: 1px solid rgba(255,255,255,.25); border-radius: 999px; padding: 4px 8px; font-size: 10px; color: #EAF1FF; }
+  .path-note { background: #F7F9FD; border: 1px solid #E6EAF2; border-radius: 13px; padding: 12px 13px; margin: 10px 0 14px; }
+  .path-note strong { display: block; font-size: 12px; color: var(--ink); margin-bottom: 5px; }
+  .path-note span { font-size: 11px; color: var(--ink-soft); line-height: 1.55; }
+  .review-box { background: #FFF9ED; border: 1px solid #F2DDAE; border-radius: 13px; padding: 12px 13px; margin-top: 15px; }
+  .review-box h4 { font-size: 12px; color: #8B641A; margin-bottom: 6px; }
+  .review-box p { font-size: 11.5px; color: #725A2A; line-height: 1.6; }
+  .skill-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 10px 0 16px; }
+  .skill-item { background: #F7F9FD; border: 1px solid #E6EAF2; border-radius: 11px; padding: 10px; }
+  .skill-item b { display: block; font-size: 11px; margin-bottom: 5px; }
+  .skill-item span { color: var(--ink-faint); font-size: 10px; }
+  .change-list { margin: 8px 0 16px; }
+  .change-row { display: flex; gap: 9px; padding: 9px 0; border-bottom: 1px solid #EDF0F5; }
+  .change-row:last-child { border-bottom: none; }
+  .change-mark { width: 7px; height: 7px; margin-top: 5px; border-radius: 50%; background: #5B8DEF; flex: 0 0 auto; }
+  .change-row b { display: block; font-size: 11.5px; line-height: 1.45; }
+  .change-row span { display: block; color: var(--ink-faint); font-size: 10px; line-height: 1.45; margin-top: 2px; }
+  .recommend-card { border: 1px solid #CBD9F2; background: #F5F8FF; border-radius: 15px; padding: 14px; margin: 10px 0 16px; }
+  .recommend-card .r-eyebrow { color: #5275B5; font-size: 10px; letter-spacing: .8px; }
+  .recommend-card h3 { font-size: 15px; margin: 6px 0; line-height: 1.35; }
+  .recommend-card p { font-size: 11px; color: var(--ink-soft); line-height: 1.6; }
+  .recommend-card .r-reason { margin-top: 8px; padding-top: 8px; border-top: 1px solid #DDE6F7; font-size: 10.5px; color: #5275B5; line-height: 1.5; }
+  .growth-row { display: flex; justify-content: space-between; gap: 8px; padding: 10px 0; border-bottom: 1px solid #EDF0F5; font-size: 11px; }
+  .growth-row span { color: var(--ink-faint); }
+  .state-card { background: #F7F9FD; border: 1px solid #E6EAF2; border-radius: 14px; padding: 12px 13px; margin: 9px 0; }
+  .state-card .state-head { display:flex; justify-content:space-between; gap:8px; align-items:center; }
+  .state-card b { font-size: 12px; }
+  .state-card .state-badge { color:#5275B5; background:#E9F0FF; border-radius:999px; padding:3px 7px; font-size:9px; }
+  .state-card p { color: var(--ink-soft); font-size: 10.5px; line-height:1.55; margin-top:6px; }
+  .path-step { display:flex; gap:8px; align-items:flex-start; padding:8px 0; }
+  .path-step .step-no { width:19px; height:19px; border-radius:50%; background:#E9F0FF; color:#5275B5; text-align:center; line-height:19px; font-size:10px; flex:0 0 auto; }
+  .path-step b { font-size:11px; display:block; }
+  .path-step span { color:var(--ink-faint); font-size:10px; line-height:1.45; }
+</style>
+</head>
+<body>
+
+<!-- ========== 桌面端：画布陈列 ========== -->
+<div class="canvas-header">
+  <h1>徐总知识库 · AI 知识成长视图 <span class="small">Obsidian 上的成长层 · 移动版原型</span></h1>
+  <div class="sub">定位：以 Obsidian 为知识底座，先把 <strong>AI 知识体系</strong>的每日变化、链接关系、理解路径和能力沉淀呈现出来。它不是独立知识库，也不是学习打卡工具，而是帮助你看清“我每天的知识体系变成了什么”。<br>
+  本页在桌面端为设计陈列，在手机浏览器打开即为全屏成长视图：底部四个 Tab 切换「知识状态 / 学习路径 / 复盘沉淀 / 成长」。</div>
+</div>
+
+<div class="stage">
+  <div class="strip">
+
+    <!-- ===== 屏 1：今日学习 ===== -->
+    <div class="phone-wrap">
+      <div class="phone-label"><span class="num">1</span>知识状态 · AI 知识成长</div>
+      <div class="phone">
+        <div class="screen" style="padding-bottom:0;">
+          <div class="statusbar" style="background:transparent;">
+            <span>9:41</span>
+            <div class="sbar-right"><span>5G</span><span>▮</span><span>🔋</span></div>
+          </div>
+          <div class="page">
+            <div class="head-row">
+              <div class="title">知识状态
+                <span class="sub-line">2026年7月31日 · 周五</span>
+              </div>
+              <div class="avatar">徐</div>
+            </div>
+            <div class="learning-brief">
+              <div class="eyebrow">今日 AI 知识增量 · 来自 Obsidian 知识流水线</div>
+              <h3>今天先搞懂：Agent 怎样从“能用”变成“可托付”？</h3>
+              <p>把今日新增内容连接到状态机、MCP、知识库和文化咨询客户生命周期，完成一次“理解 → 举例 → 应用”的学习闭环。</p>
+              <div class="brief-foot"><span class="brief-chip">关联 4 篇旧知识</span><span class="brief-chip">预计 25 分钟</span></div>
+            </div>
+            <div class="progress-card">
+              <div class="pc-top">
+              <div class="pc-date">📚 本周更新 12 个页面 · 新增 8 条链接</div>
+                <div class="pc-streak">AI 知识体系正在成形</div>
+              </div>
+              <div class="pc-main">
+                <div class="pc-num">8</div><div class="pc-unit">条链接</div>
+              </div>
+              <div class="pc-sub">每日整理负责呈现变化，学习路径负责组织理解</div>
+              <div class="pc-bar"><i></i></div>
+            </div>
+            <div class="sec-title">今日新增要点 <span class="more">来自每日整理 · 全部 ›</span></div>
+            <div class="k-card">
+              <div class="k-top">
+                <span class="tag agent">AI Agent</span>
+                <span class="k-time">今日 08:30</span>
+                <span class="k-dot"></span>
+              </div>
+              <h3>生产级 AI Agent 知识体系总览：层级·特性·术语</h3>
+              <div class="k-desc">核心主版本：AI Agent 怎么从"能用"变成"可托付"？能力阶梯、六层架构、十层工程链、成熟度三档的统一概念地图。</div>
+              <div class="k-foot"><span>📖 核心主版本</span><span>⏱ 8 分钟</span><span class="len">2.4k 字</span></div>
+            </div>
+            <div class="k-card">
+              <div class="k-top">
+                <span class="tag enterprise">企业 AI</span>
+                <span class="k-time">今日 08:10</span>
+                <span class="k-dot"></span>
+              </div>
+              <h3>FDE 生产级 AI Agent 五阶段方法论与 AI 基建协同</h3>
+              <div class="k-desc">从客户诉求到可交付系统的五阶段：业务理解、对象化、MVP 收敛、验收标准、ROI 证明，以及 AI 基建如何协同。</div>
+              <div class="k-foot"><span>📖 交付方法论</span><span>⏱ 12 分钟</span><span class="len">3.1k 字</span></div>
+            </div>
+            <div class="k-card">
+              <div class="k-top">
+                <span class="tag agent">AI Agent</span>
+                <span class="k-time">今日 07:50</span>
+                <span class="k-dot read"></span>
+              </div>
+              <h3>生产级 RAG 与数据库知识库架构：事实库、文档库与状态机</h3>
+              <div class="k-desc">企业知识库三库分型：事实库、文档知识库与状态机的职责边界，以及 RAG 在其中的检索与生成定位。</div>
+              <div class="k-foot"><span>📖 工程模块</span><span>⏱ 10 分钟</span><span class="len">2.8k 字</span></div>
+            </div>
+            <div class="k-card">
+              <div class="k-top">
+                <span class="tag enterprise">企业 AI</span>
+                <span class="k-time">今日 07:20</span>
+                <span class="k-dot read"></span>
+              </div>
+              <h3>Palantir Ontology Pipeline 商业模式与甘食记框架融合</h3>
+              <div class="k-desc">Palantir 的 Ontology 商业模式拆解：数据对象化 → 流程化 → 责任化，如何映射到甘食记的轻量经营系统。</div>
+              <div class="k-foot"><span>📖 案例对标</span><span>⏱ 9 分钟</span><span class="len">2.6k 字</span></div>
+            </div>
+          </div>
+          <div class="tabbar-wrap">
+            <div class="tabbar">
+              <div class="t on"><span class="ic">⌂</span>今日</div>
+              <div class="t"><span class="ic">▤</span>专题</div>
+              <div class="t"><span class="ic">☆</span>收藏</div>
+              <div class="t"><span class="ic">◉</span>我的</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== 屏 2：专题库 ===== -->
+    <div class="phone-wrap">
+      <div class="phone-label"><span class="num">2</span>学习路径 · AI 知识地图</div>
+      <div class="phone">
+        <div class="screen" style="padding-bottom:0;">
+          <div class="statusbar" style="background:transparent;">
+            <span>9:41</span>
+            <div class="sbar-right"><span>5G</span><span>▮</span><span>🔋</span></div>
+          </div>
+          <div class="page">
+            <div class="head-row">
+              <div class="title">专题库
+                <span class="sub-line">按知识域浏览学习</span>
+              </div>
+              <div class="avatar" style="background:linear-gradient(135deg,#7C3AED,#2563EB);">库</div>
+            </div>
+            <div class="searchbar">
+              <span class="s-ic">⌕</span>
+              <input placeholder="搜索文档、术语、案例…">
+            </div>
+            <div class="topic-card">
+              <div class="t-ic agent">🤖</div>
+              <div class="t-body">
+                <h3>AI Agent 工程知识</h3>
+                <div class="t-meta">19 篇 · 已学 13 篇 · 最近更新 07-06</div>
+                <div class="t-bar"><i class="b1"></i></div>
+              </div>
+              <div class="t-arrow">›</div>
+            </div>
+            <div class="topic-card">
+              <div class="t-ic enterprise">🏢</div>
+              <div class="t-body">
+                <h3>企业 AI 与智能体商业化</h3>
+                <div class="t-meta">103 篇 · 已学 35 篇 · 最近更新 07-24</div>
+                <div class="t-bar"><i class="b2"></i></div>
+              </div>
+              <div class="t-arrow">›</div>
+            </div>
+            <div class="sec-title" style="margin-top:18px;">能力模块 · 从知识到能力</div>
+            <div class="skill-grid">
+              <div class="skill-item"><b>对象与流程</b><span>业务对象 · Ontology · 状态机</span></div>
+              <div class="skill-item"><b>数据与知识</b><span>事实库 · 文档库 · RAG</span></div>
+              <div class="skill-item"><b>执行与治理</b><span>MCP · 权限 · 人审 · 评测</span></div>
+              <div class="skill-item"><b>交付与商业化</b><span>FDE · MVP · ROI · 复购</span></div>
+            </div>
+            <div class="sec-title" style="margin-top:18px;">AI Agent 工程知识 · 全部文档</div>
+            <div class="doc-item">
+              <div class="d-ic agent">📘</div>
+              <div class="d-body">
+                <h4>生产级 AI Agent 知识体系总览：层级·特性·术语</h4>
+                <div class="d-meta">核心主版本 · 概念地图</div>
+              </div>
+              <div class="d-check done">✓</div>
+            </div>
+            <div class="doc-item">
+              <div class="d-ic agent">📘</div>
+              <div class="d-body">
+                <h4>生产级 AI Agent 工程体系的完整链路</h4>
+                <div class="d-meta">施工路线 · 一次任务如何生产化执行</div>
+              </div>
+              <div class="d-check done">✓</div>
+            </div>
+            <div class="doc-item">
+              <div class="d-ic agent">📗</div>
+              <div class="d-body">
+                <h4>生产级 AI Agent 记忆系统与 Context 调度</h4>
+                <div class="d-meta">工程模块 · Memory 设计</div>
+              </div>
+              <div class="d-check"></div>
+            </div>
+            <div class="doc-item">
+              <div class="d-ic agent">📗</div>
+              <div class="d-body">
+                <h4>AI Agent 专业术语词典</h4>
+                <div class="d-meta">索引 · 全概念查词</div>
+              </div>
+              <div class="d-check"></div>
+            </div>
+            <div class="doc-item">
+              <div class="d-ic agent">📗</div>
+              <div class="d-body">
+                <h4>AI Agent 后端工程化能力框架：分布式、异步、状态与可运维</h4>
+                <div class="d-meta">后端工程细节</div>
+              </div>
+              <div class="d-check"></div>
+            </div>
+          </div>
+          <div class="tabbar-wrap">
+            <div class="tabbar">
+              <div class="t"><span class="ic">⌂</span>今日</div>
+              <div class="t on"><span class="ic">▤</span>专题</div>
+              <div class="t"><span class="ic">☆</span>收藏</div>
+              <div class="t"><span class="ic">◉</span>我的</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== 屏 3：阅读页 ===== -->
+    <div class="phone-wrap">
+      <div class="phone-label"><span class="num">3</span>阅读页 · MD 沉浸学习</div>
+      <div class="phone">
+        <div class="screen" style="padding-bottom:0; background:var(--card);">
+          <div class="statusbar" style="background:var(--card);">
+            <span>9:41</span>
+            <div class="sbar-right"><span>5G</span><span>▮</span><span>🔋</span></div>
+          </div>
+          <div class="reader-head">
+            <span class="back">‹</span>
+            <span class="rh-title">生产级 AI Agent 知识体系总览</span>
+            <span class="fav">☆</span>
+          </div>
+          <div class="reader-body">
+            <div class="r-tag-row">
+              <span class="tag agent">AI Agent</span>
+              <span class="tag amber">核心主版本</span>
+            </div>
+            <h1>生产级 AI Agent 知识体系总览：层级·特性·术语</h1>
+            <div class="r-meta">
+              <span>⏱ 8 分钟</span><span>2.4k 字</span><span>更新 07-06</span><span>来源 Obsidian</span>
+            </div>
+            <blockquote>生产级 AI Agent 不是更聪明的聊天机器人，而是把模型判断、工具执行、数据知识、记忆管理、流程编排、安全治理和持续运营组合成一套可长期托付的 AI 工程系统。</blockquote>
+            <h2>一、概念地图：所有框架回答同一个问题</h2>
+            <p>这套知识体系只回答一个核心问题：</p>
+            <blockquote>AI Agent 怎么从"能用"变成"可托付"？</blockquote>
+            <pre><span class="cm">核心问题：AI Agent 怎么从"能用"变成"可托付"？</span>
+├─ 能力阶梯 —— 它怎么演进？
+│  聊天AI → Agent → Agent with Harness
+│  （能说 → 能做 → 能托付）
+├─ 业务分界 —— 它做什么？
+│  数据呈现（经营参谋）vs 管理闭环（经营系统）
+├─ 工程实现 —— 怎么建？
+│  六层架构 = 系统职责怎么分
+│  十层工程链 = 按业务需要检查
+│  三维工程能力 = 团队怎么分工
+├─ 成熟度 —— 做到什么程度？
+│  不是独立框架，是能力阶梯在客户身上的落点
+└─ 术语表 —— 所有概念的索引</pre>
+            <h2>二、核心判断：看工程环节，不看名词</h2>
+            <p>判断生产级 Agent 时，不要问"它有没有用我们的术语"，而要问：</p>
+            <ul>
+              <li>业务对象是否清楚？</li>
+              <li>业务流程是否清楚？</li>
+              <li>状态流转是否清楚？</li>
+              <li>工具调用和权限边界是否清楚？</li>
+              <li>高风险动作是否有人审？</li>
+            </ul>
+            <div class="r-callout">💡 美团餐饮 AI 就是一个现实对标：未必用"十层工程链"叫法，但业务对象、数据入口、工具落点、场景约束已经设计得很强。</div>
+          </div>
+          <div class="reader-bottom">
+            <div class="rb-btn fav">☆ 收藏</div>
+            <div class="rb-btn ai">✨ AI 摘要</div>
+            <div class="rb-btn done">✓ 标记已读</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== 屏 4：收藏 ===== -->
+    <div class="phone-wrap">
+      <div class="phone-label"><span class="num">4</span>复盘沉淀 · 关系断点</div>
+      <div class="phone">
+        <div class="screen" style="padding-bottom:0;">
+          <div class="statusbar" style="background:transparent;">
+            <span>9:41</span>
+            <div class="sbar-right"><span>5G</span><span>▮</span><span>🔋</span></div>
+          </div>
+          <div class="page">
+            <div class="head-row">
+              <div class="title">收藏
+                <span class="sub-line">6 篇 · 稍后读清单</span>
+              </div>
+            </div>
+            <div class="fav-note">收藏的知识点会在空闲时提醒你复习，已读后自动移入「已读归档」。</div>
+            <div class="k-card">
+              <div class="k-top">
+                <span class="tag agent">AI Agent</span>
+                <span class="k-time">收藏于 07-28</span>
+              </div>
+              <h3>生产级 AI Agent 记忆系统与 Context 调度</h3>
+              <div class="k-desc">Agent 记忆如何分型：短期上下文、长期记忆、工作记忆，Context 调度的工程原则。</div>
+              <div class="k-foot"><span>📖 未读</span><span class="len">3.5k 字</span></div>
+            </div>
+            <div class="k-card">
+              <div class="k-top">
+                <span class="tag enterprise">企业 AI</span>
+                <span class="k-time">收藏于 07-26</span>
+              </div>
+              <h3>零一万物：万策决策中枢、一号位工程与企业 AI 落地研究</h3>
+              <div class="k-desc">从"万策"决策中枢概念到一号位工程：企业 AI 落地为什么必须是一号位工程。</div>
+              <div class="k-foot"><span>📖 未读</span><span class="len">4.2k 字</span></div>
+            </div>
+            <div class="k-card">
+              <div class="k-top">
+                <span class="tag agent">AI Agent</span>
+                <span class="k-time">收藏于 07-24</span>
+              </div>
+              <h3>AI Agent 面试 14 题学习版：从概念到甘食记项目落地</h3>
+              <div class="k-desc">工程栈学习入口：Runtime、Tool Call、Memory、RAG、模型路由、规则引擎、Supervisor、Trace 逐题拆解。</div>
+              <div class="k-foot"><span>📖 未读</span><span class="len">5.0k 字</span></div>
+            </div>
+            <div class="k-card">
+              <div class="k-top">
+                <span class="tag enterprise">企业 AI</span>
+                <span class="k-time">收藏于 07-20</span>
+              </div>
+              <h3>企业 AI 落地的五堵墙 + 四层面系统工程 + 五层落地方法论</h3>
+              <div class="k-desc">企业 AI 落地为什么难：五堵墙、四层面系统工程与五层落地方法论的一体化拆解。</div>
+              <div class="k-foot"><span>📖 已读</span><span class="len">3.8k 字</span></div>
+            </div>
+          </div>
+          <div class="tabbar-wrap">
+            <div class="tabbar">
+              <div class="t"><span class="ic">⌂</span>今日</div>
+              <div class="t"><span class="ic">▤</span>专题</div>
+              <div class="t on"><span class="ic">☆</span>收藏</div>
+              <div class="t"><span class="ic">◉</span>我的</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== 屏 5：我的 ===== -->
+    <div class="phone-wrap">
+      <div class="phone-label"><span class="num">5</span>成长 · 知识体系演化</div>
+      <div class="phone">
+        <div class="screen" style="padding-bottom:0;">
+          <div class="statusbar" style="background:transparent;">
+            <span>9:41</span>
+            <div class="sbar-right"><span>5G</span><span>▮</span><span>🔋</span></div>
+          </div>
+          <div class="page">
+            <div class="head-row">
+              <div class="title">我的
+                <span class="sub-line">学习进度与偏好</span>
+              </div>
+              <div class="avatar">徐</div>
+            </div>
+            <div class="stat-grid">
+              <div class="stat-card"><div class="s-num">48</div><div class="s-label">累计已学（篇）</div></div>
+              <div class="stat-card accent"><div class="s-num">12</div><div class="s-label">连续学习（天）</div></div>
+              <div class="stat-card"><div class="s-num">6.5h</div><div class="s-label">本周学习</div></div>
+            </div>
+            <div class="week-chart">
+              <h4>本周学习分布</h4>
+              <div class="wc-bars">
+                <div class="wc-bar"><div class="b" style="height:60%;"></div><div class="day">一</div></div>
+                <div class="wc-bar"><div class="b hi" style="height:95%;"></div><div class="day">二</div></div>
+                <div class="wc-bar"><div class="b" style="height:40%;"></div><div class="day">三</div></div>
+                <div class="wc-bar"><div class="b" style="height:75%;"></div><div class="day">四</div></div>
+                <div class="wc-bar"><div class="b hi" style="height:85%;"></div><div class="day">五</div></div>
+                <div class="wc-bar"><div class="b" style="height:55%;"></div><div class="day">六</div></div>
+                <div class="wc-bar"><div class="b" style="height:30%;"></div><div class="day">日</div></div>
+              </div>
+            </div>
+            <div class="sec-title">能力沉淀</div>
+            <div class="topic-card" style="padding:12px 14px;">
+              <div class="t-ic agent" style="width:38px;height:38px;font-size:18px;">🤖</div>
+              <div class="t-body">
+                <div class="t-meta" style="margin-top:0;">AI Agent 工程知识 · 13/19 篇</div>
+                <div class="t-bar"><i class="b1"></i></div>
+              </div>
+            </div>
+            <div class="topic-card" style="padding:12px 14px; margin-bottom:18px;">
+              <div class="t-ic enterprise" style="width:38px;height:38px;font-size:18px;">🏢</div>
+              <div class="t-body">
+                <div class="t-meta" style="margin-top:0;">企业 AI 与智能体商业化 · 35/103 篇</div>
+                <div class="t-bar"><i class="b2"></i></div>
+              </div>
+            </div>
+            <div class="set-list">
+              <div class="set-item"><span class="s-ic">🔔</span>每日学习提醒<span class="s-val">08:30</span><span class="s-arrow">›</span></div>
+              <div class="set-item"><span class="s-ic">📤</span>数据同步来源<span class="s-val">Obsidian 主库</span><span class="s-arrow">›</span></div>
+              <div class="set-item"><span class="s-ic">🎨</span>阅读模式<span class="s-val">浅色</span><span class="s-arrow">›</span></div>
+              <div class="set-item"><span class="s-ic">❓</span>关于工作台<span class="s-val">v1.0</span><span class="s-arrow">›</span></div>
+            </div>
+          </div>
+          <div class="tabbar-wrap">
+            <div class="tabbar">
+              <div class="t"><span class="ic">⌂</span>今日</div>
+              <div class="t"><span class="ic">▤</span>专题</div>
+              <div class="t"><span class="ic">☆</span>收藏</div>
+              <div class="t on"><span class="ic">◉</span>我的</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ========== 手机端：全屏可交互 App ========== -->
+<div id="live-app">
+  <div class="statusbar">
+    <span id="live-time">9:41</span>
+    <div class="sbar-right"><span>5G</span><span>▮</span><span>🔋</span></div>
+  </div>
+  <div id="live-body" class="app-body"></div>
+  <div class="tabbar-wrap">
+    <div class="tabbar" id="live-tabbar">
+      <div class="t on" data-tab="today"><span class="ic">⌂</span>今日</div>
+      <div class="t" data-tab="topic"><span class="ic">▤</span>地图</div>
+      <div class="t" data-tab="fav"><span class="ic">☆</span>复盘</div>
+      <div class="t" data-tab="me"><span class="ic">◉</span>成长</div>
+    </div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script>
+var OBSIDIAN_GRAPH = window.OBSIDIAN_DATA || { generatedAt:"", sourceIndex:"", digest:"", topics:[], nodes:[] };
+
+var DOCS = {
+  total: {
+    title: "生产级 AI Agent 知识体系总览：层级·特性·术语",
+    tag: "agent", tagName: "AI Agent", tags: ['核心主版本'],
+    meta: "⏱ 8 分钟 · 2.4k 字 · 更新 07-06 · 来源 Obsidian",
+    body: '<blockquote>生产级 AI Agent 不是更聪明的聊天机器人，而是把模型判断、工具执行、数据知识、记忆管理、流程编排、安全治理和持续运营组合成一套可长期托付的 AI 工程系统。</blockquote><h2>一、概念地图：所有框架回答同一个问题</h2><p>这套知识体系只回答一个核心问题：</p><blockquote>AI Agent 怎么从"能用"变成"可托付"？</blockquote><pre><span class="cm">核心问题：AI Agent 怎么从"能用"变成"可托付"？</span>\n├─ 能力阶梯 —— 它怎么演进？\n│  聊天AI → Agent → Agent with Harness\n│  （能说 → 能做 → 能托付）\n├─ 业务分界 —— 它做什么？\n│  数据呈现（经营参谋）vs 管理闭环（经营系统）\n├─ 工程实现 —— 怎么建？\n│  六层架构 = 系统职责怎么分\n│  十层工程链 = 按业务需要检查\n│  三维工程能力 = 团队怎么分工\n├─ 成熟度 —— 做到什么程度？\n└─ 术语表 —— 所有概念的索引</pre><h2>二、核心判断：看工程环节，不看名词</h2><p>判断生产级 Agent 时，不要问"它有没有用我们的术语"，而要问：</p><ul><li>业务对象是否清楚？</li><li>业务流程是否清楚？</li><li>状态流转是否清楚？</li><li>工具调用和权限边界是否清楚？</li><li>高风险动作是否有人审？</li></ul><div class="r-callout">💡 美团餐饮 AI 就是一个现实对标：未必用"十层工程链"叫法，但业务对象、数据入口、工具落点、场景约束已经设计得很强。</div>'
+  },
+  chain: {
+    title: "生产级 AI Agent 工程体系的完整链路",
+    tag: "agent", tagName: "AI Agent", tags: ['施工路线'],
+    meta: "⏱ 10 分钟 · 3.0k 字 · 更新 07-06 · 来源 Obsidian",
+    body: '<blockquote>本页解释一次真实业务任务如何沿着工程链路，从业务目标进入系统，经过对象、流程、状态、数据、工具、推理、护栏、人审、评测和治理，最终形成可交付、可追踪、可复盘的业务结果。</blockquote><h2>先分清五类东西</h2><p>不要把模型、框架、平台、工具和业务对象混在一起：</p><ul><li><b>模型层</b>：GPT、Qwen、DeepSeek、Claude —— 推理与生成能力</li><li><b>Agent/Workflow 框架</b>：LangGraph、AutoGen、Semantic Kernel —— 组织执行的工程框架</li><li><b>云端 Agent 平台</b>：百炼、Dify、Coze、WorkBuddy —— 托管模型、知识库、工具与入口</li><li><b>工具与协议层</b>：MCP、Function Calling、API —— Agent 调用外部能力的接口层</li><li><b>业务对象与交付层</b>：Ontology、Base、经营工作台 —— 客户业务被对象化、产品化后的结果</li></ul><div class="r-callout">💡 以前容易混的地方：LangGraph、百炼、WorkBuddy、MCP、飞书 Base、Ontology 被放在同一层讨论，实际上它们属于不同层。</div><h2>完整链路主线</h2><pre><span class="cm">业务目标\n  → 对象化（业务对象清楚）\n  → 流程化（流程状态清楚）\n  → 数据接入（来源可信）\n  → 工具执行（权限受控）\n  → AI 推理（护栏约束）\n  → 人工审批（高风险动作）\n  → 评测追踪（结果可验证）\n  → 治理复盘（成本、版本、责任）</span></pre>'
+  },
+  rag: {
+    title: "生产级 RAG 与数据库知识库架构：事实库、文档知识库与状态机",
+    tag: "agent", tagName: "AI Agent", tags: ['工程模块'],
+    meta: "⏱ 10 分钟 · 2.8k 字 · 更新 07-02 · 来源 Obsidian",
+    body: '<blockquote>企业知识库需要三种不同的存储形态：事实库承载确定性的业务事实，文档知识库承载非结构化的资料，状态机承载流程与任务的当前状态。</blockquote><h2>三库分型</h2><ul><li><b>事实库</b>：结构化、确定性 —— 客户、门店、订单、SKU</li><li><b>文档知识库</b>：非结构化 —— 方案、SOP、访谈、讨论整理稿</li><li><b>状态机</b>：流程状态 —— 任务、审批、事件、节点</li></ul><h2>RAG 的定位</h2><p>RAG 负责在文档知识库中做检索与生成增强，但 <b>事实查证应回到事实库</b>，流程推进应回到状态机 —— 不要把 RAG 当成唯一的"企业大脑"。</p><div class="r-callout">💡 判断一个知识库是否生产级：确定性的东西是否落在事实库，而不是让模型每次重新猜。</div>'
+  },
+  fde5: {
+    title: "FDE 生产级 AI Agent 五阶段方法论与 AI 基建协同",
+    tag: "enterprise", tagName: "企业 AI", tags: ['交付方法论'],
+    meta: "⏱ 12 分钟 · 3.1k 字 · 更新 07-18 · 来源 Obsidian",
+    body: '<blockquote>FDE 交付不是把框架套到客户头上，而是五阶段地把客户说不清的需求变成可交付、可验收、可复购的系统。</blockquote><h2>五阶段</h2><ul><li><b>业务理解</b>：访谈、业务语言对齐，找到真实问题</li><li><b>对象化</b>：把业务翻译成 Ontology 对象、流程、状态</li><li><b>MVP 收敛</b>：最小切口先跑通闭环，不铺大摊子</li><li><b>验收标准</b>：质量门禁、人工确认、评测指标</li><li><b>ROI 证明</b>：让客户看到效率与价值，进入复购</li></ul><h2>AI 基建协同</h2><p>模型平台、MCP 工具、知识库、记忆系统是底座，FDE 的价值是把它们组织成客户能用的业务系统 —— 不是选最强模型，而是把不稳定变成可托付。</p>'
+  },
+  palantir: {
+    title: "Palantir Ontology Pipeline 商业模式与甘食记框架融合",
+    tag: "enterprise", tagName: "企业 AI", tags: ['案例对标'],
+    meta: "⏱ 9 分钟 · 2.6k 字 · 更新 07-14 · 来源 Obsidian",
+    body: '<blockquote>Palantir 的商业模式本质：把客户数据对象化、流程化、责任化，再通过 Ontology Pipeline 持续产出决策价值。</blockquote><h2>Ontology 三步</h2><ul><li><b>对象化</b>：数据 → 业务对象（客户、门店、订单）</li><li><b>流程化</b>：对象 → 流程与状态流转</li><li><b>责任化</b>：流程 → 责任人、动作、结果追踪</li></ul><h2>与甘食记的融合</h2><p>甘食记的轻量经营系统（日报 Agent → 轻量 Ontology）正是 Palantir 模式的餐饮业简化版：不建重型平台，用飞书 Base + WorkBuddy 落地对象、流程、责任三件套。</p><div class="r-callout">💡 核心哲学一致，但工程代差巨大 —— 甘食记走轻量闭环，Palantir 走企业级壁垒。</div>'
+  }
+};
+
+var FAVS = [
+  {t:"生产级 AI Agent 记忆系统与 Context 调度", tag:"agent", tagName:"AI Agent", time:"收藏于 07-28", desc:"Agent 记忆如何分型：短期上下文、长期记忆、工作记忆，Context 调度的工程原则。"},
+  {t:"零一万物：万策决策中枢、一号位工程与企业 AI 落地研究", tag:"enterprise", tagName:"企业 AI", time:"收藏于 07-26", desc:"从\"万策\"决策中枢概念到一号位工程：企业 AI 落地为什么必须是一号位工程。"},
+  {t:"AI Agent 面试 14 题学习版：从概念到甘食记项目落地", tag:"agent", tagName:"AI Agent", time:"收藏于 07-24", desc:"工程栈学习入口：Runtime、Tool Call、Memory、RAG、模型路由、规则引擎逐题拆解。"},
+  {t:"企业 AI 落地的五堵墙 + 四层面系统工程 + 五层落地方法论", tag:"enterprise", tagName:"企业 AI", time:"收藏于 07-20", desc:"企业 AI 落地为什么难：五堵墙、四层面系统工程与五层落地方法论的一体化拆解。"}
+];
+
+var TODAY = [
+  {k:"total", tag:"agent", tagName:"AI Agent", time:"今日 08:30", unread:true, len:"2.4k 字", sub:"核心主版本"},
+  {k:"fde5", tag:"enterprise", tagName:"企业 AI", time:"今日 08:10", unread:true, len:"3.1k 字", sub:"交付方法论"},
+  {k:"rag", tag:"agent", tagName:"AI Agent", time:"今日 07:50", unread:false, len:"2.8k 字", sub:"工程模块"},
+  {k:"palantir", tag:"enterprise", tagName:"企业 AI", time:"今日 07:20", unread:false, len:"2.6k 字", sub:"案例对标"}
+];
+
+function graphTopic(name){
+  return OBSIDIAN_GRAPH.topics.find(function(t){ return t.name === name; }) || {name:name,count:0};
+}
+
+function graphNodes(prefix){
+  return OBSIDIAN_GRAPH.nodes.filter(function(n){ return n.path.indexOf(prefix + '/') === 0; });
+}
+
+function renderToday() {
+  var d = OBSIDIAN_DATA.today || {date:"", items:[], judgments:[]};
+  var dateStr = d.date || new Date().toISOString().slice(0,10);
+  var weekday = ['日','一','二','三','四','五','六'][new Date(dateStr+'T00:00:00').getDay()];
+  var h = '<div class="page">';
+  h += '<div class="head-row"><div class="title">学习工作台<span class="sub-line">'+dateStr+' · 周'+weekday+' · 每日整理</span></div><div class="avatar">徐</div></div>';
+  h += '<div class="sec-title">今日知识增量 <span class="more">来自每日整理 ›</span></div>';
+  h += '<div class="source-line">真实来源：'+OBSIDIAN_GRAPH.digest+' · 编译于 '+OBSIDIAN_GRAPH.generatedAt+' '+OBSIDIAN_GRAPH.generatedTime+'</div>';
+  if (d.judgments && d.judgments.length) {
+    h += '<div class="sec-title">今日最重要的判断</div>';
+    h += '<div class="change-list">';
+    d.judgments.forEach(function(j){ h += '<div class="change-row"><i class="change-mark"></i><div><b>'+j+'</b></div></div>'; });
+    h += '</div>';
+  }
+  h += '<div class="sec-title">当前 AI 知识状态 <span class="more">查看地图 ›</span></div>';
+  var agentTopic = graphTopic('AI Agent工程知识'), enterpriseTopic = graphTopic('企业AI与智能体商业化');
+  h += '<div class="state-card"><div class="state-head"><b>AI Agent 工程</b><span class="state-badge">'+agentTopic.count+' 篇</span></div><p>真实索引显示 '+graphNodes('AI Agent工程知识').length+' 个核心节点被编入成长视图，重点连接 Ontology、RAG、Runtime、FDE 与企业 AI。</p></div>';
+  h += '<div class="state-card"><div class="state-head"><b>企业 AI 与商业化</b><span class="state-badge">'+enterpriseTopic.count+' 篇</span></div><p>专题已形成企业落地、FDE、知识资产、业务系统和项目案例之间的跨专题连接。</p></div>';
+  h += '<div class="sec-title">今日新增要点 <span class="more">'+d.items.length+' 条 ›</span></div>';
+  if (d.items && d.items.length) {
+    d.items.forEach(function(it, idx){
+      h += '<div class="k-card"><div class="k-top"><span class="tag amber">今日</span><span class="k-time">'+it.date+'</span><span class="k-dot'+(idx<2?'':' read')+'"></span></div><h3>'+it.title+'</h3><div class="k-desc">'+it.summary+'</div></div>';
+    });
+  } else {
+    h += '<div class="fav-note">今日暂无新增整理，可前往学习地图浏览专题。</div>';
+  }
+  h += '<div class="sec-title">相关知识入口</div>';
+  TODAY.forEach(function(it){
+    var doc = DOCS[it.k];
+    if (!doc) return;
+    h += '<div class="k-card" onclick="openDoc(\''+it.k+'\')"><div class="k-top"><span class="tag '+it.tag+'">'+it.tagName+'</span><span class="k-time">'+it.time+'</span><span class="k-dot'+(it.unread?'':' read')+'"></span></div><h3>'+doc.title+'</h3><div class="k-desc">'+doc.body.replace(/<[^>]+>/g,"").slice(0,70)+'…</div><div class="k-foot"><span>📖 '+it.sub+'</span><span class="len">'+it.len+'</span></div></div>';
+  });
+  h += '</div>';
+  return h;
+}
+
+function renderTopic() {
+  var agentTopic = graphTopic('AI Agent工程知识'), enterpriseTopic = graphTopic('企业AI与智能体商业化'), infraTopic = graphTopic('AI产业链与数字基础设施');
+  var h = '<div class="page">';
+  h += '<div class="head-row"><div class="title">学习地图<span class="sub-line">Obsidian 专题与链接关系</span></div><div class="avatar" style="background:linear-gradient(135deg,#7C3AED,#2563EB);">图</div></div>';
+  h += '<div class="searchbar"><span class="s-ic">⌕</span><input placeholder="搜索能力、术语、案例…"></div>';
+  h += '<div class="path-note"><strong>当前学习主线：生产级 AI Agent</strong><span>从业务对象 → 流程状态 → 数据知识 → 工具执行 → 人审评测，逐步形成可交付能力。</span></div>';
+  h += '<div class="topic-card" onclick="openTopic(0)"><div class="t-ic agent">🤖</div><div class="t-body"><h3>AI Agent 工程知识</h3><div class="t-meta">'+agentTopic.count+' 篇 · '+graphNodes('AI Agent工程知识').length+' 个核心节点 · 更新 '+graphNodes('AI Agent工程知识').map(function(n){return n.updated;}).sort().slice(-1)[0]+'</div><div class="t-bar"><i class="b1"></i></div></div><div class="t-arrow">›</div></div>';
+  h += '<div class="topic-card" onclick="openTopic(1)"><div class="t-ic enterprise">🏢</div><div class="t-body"><h3>企业 AI 与智能体商业化</h3><div class="t-meta">'+enterpriseTopic.count+' 篇 · '+graphNodes('企业AI与智能体商业化').length+' 个核心节点 · 更新 '+graphNodes('企业AI与智能体商业化').map(function(n){return n.updated;}).sort().slice(-1)[0]+'</div><div class="t-bar"><i class="b2"></i></div></div><div class="t-arrow">›</div></div>';
+  h += '<div class="topic-card" onclick="openTopic(0)"><div class="t-ic enterprise">⚡</div><div class="t-body"><h3>AI 产业链与数字基础设施</h3><div class="t-meta">'+infraTopic.count+' 篇 · 与 Agent / 企业 AI 有跨专题链接</div><div class="t-bar"><i class="b2"></i></div></div><div class="t-arrow">›</div></div>';
+  h += '<div class="sec-title" style="margin-top:18px;">真实链接关系 · 核心节点</div>';
+  OBSIDIAN_GRAPH.nodes.slice(0,6).forEach(function(n){ var gi=OBSIDIAN_GRAPH.nodes.indexOf(n); h += '<div class="doc-item" onclick="openGraphNodeByIndex('+gi+')"><div class="d-ic agent">⌘</div><div class="d-body"><h4>'+n.title+'</h4><div class="d-meta">更新 '+n.updated+' · 出链 '+n.links.length+' · 反向链接 '+n.backlinks.length+'</div></div><div class="d-check done">↗</div></div>'; });
+  h += '<div class="sec-title" style="margin-top:18px;">能力模块 · 从知识到能力</div><div class="skill-grid"><div class="skill-item"><b>对象与流程</b><span>Ontology · Workflow · 状态机</span></div><div class="skill-item"><b>数据与知识</b><span>事实库 · 文档库 · RAG</span></div><div class="skill-item"><b>执行与治理</b><span>MCP · 权限 · 人审</span></div><div class="skill-item"><b>交付与商业化</b><span>FDE · MVP · ROI</span></div></div>';
+  h += '<div class="sec-title" style="margin-top:18px;">AI Agent 工程知识 · 文档入口</div>';
+  [["total","生产级 AI Agent 知识体系总览：层级·特性·术语","核心主版本 · 概念地图",1],
+   ["chain","生产级 AI Agent 工程体系的完整链路","施工路线 · 一次任务如何生产化执行",1],
+   ["rag","生产级 RAG 与数据库知识库架构","工程模块 · 三库分型",0],
+   ["mem","生产级 AI Agent 记忆系统与 Context 调度","工程模块 · Memory 设计",0],
+   ["dict","AI Agent 专业术语词典","索引 · 全概念查词",0]
+  ].forEach(function(d){
+    h += '<div class="doc-item" onclick="openDoc(\''+d[0]+'\')"><div class="d-ic agent">📘</div><div class="d-body"><h4>'+d[1]+'</h4><div class="d-meta">'+d[2]+'</div></div><div class="d-check'+(d[3]?' done':'')+'">✓</div></div>';
+  });
+  h += '</div>';
+  return h;
+}
+
+function renderFav() {
+  var h = '<div class="page">';
+  h += '<div class="head-row"><div class="title">复盘队列<span class="sub-line">从理解到能力沉淀</span></div></div>';
+  h += '<div class="fav-note">这里承接学习地图里的薄弱连接和每日 / 每周复盘建议，不是简单收藏文章。</div>';
+  h += '<div class="review-box"><h4>本周需要补上的连接</h4><p>轻量 Ontology ↔ 状态机 ↔ FDE 验收：目前已有多个专题提到它们，但还需要形成一张统一判断表。</p></div>';
+  FAVS.forEach(function(it){
+    h += '<div class="k-card"><div class="k-top"><span class="tag '+it.tag+'">'+it.tagName+'</span><span class="k-time">'+it.time+'</span></div><h3>'+it.t+'</h3><div class="k-desc">'+it.desc+'</div></div>';
+  });
+  h += '</div>';
+  return h;
+}
+
+function renderMe() {
+  var h = '<div class="page">';
+  h += '<div class="head-row"><div class="title">成长<span class="sub-line">AI 知识体系在 Obsidian 上的演化</span></div><div class="avatar">徐</div></div>';
+  h += '<div class="state-card"><div class="state-head"><b>当前底座：Obsidian</b><span class="state-badge">持续沉淀</span></div><p>工作台只呈现成长视图，正式知识、专题边界和链接关系仍以 Obsidian 为准。</p></div>';
+  h += '<div class="sec-title">能力沉淀状态</div>';
+  h += '<div class="growth-row"><b>已理解</b><span>48 个知识节点</span></div><div class="growth-row"><b>已经能讲</b><span>21 个核心判断</span></div><div class="growth-row"><b>已应用到项目</b><span>9 个方法 / 案例</span></div><div class="growth-row"><b>待回流 Obsidian 正式专题</b><span>4 个候选</span></div>';
+  h += '<div class="topic-card" style="padding:12px 14px;"><div class="t-ic agent" style="width:38px;height:38px;font-size:18px;">🤖</div><div class="t-body"><div class="t-meta" style="margin-top:0;">AI Agent 工程知识 · 13/19 篇</div><div class="t-bar"><i class="b1"></i></div></div></div>';
+  h += '<div class="topic-card" style="padding:12px 14px; margin-bottom:18px;"><div class="t-ic enterprise" style="width:38px;height:38px;font-size:18px;">🏢</div><div class="t-body"><div class="t-meta" style="margin-top:0;">企业 AI 与智能体商业化 · 35/103 篇</div><div class="t-bar"><i class="b2"></i></div></div></div>';
+  h += '<div class="set-list">';
+  h += '<div class="set-item"><span class="s-ic">🔔</span>每日学习提醒<span class="s-val">08:30</span><span class="s-arrow">›</span></div>';
+  h += '<div class="set-item"><span class="s-ic">📤</span>数据同步来源<span class="s-val">Obsidian 主库</span><span class="s-arrow">›</span></div>';
+  h += '<div class="set-item"><span class="s-ic">🎨</span>阅读模式<span class="s-val">浅色</span><span class="s-arrow">›</span></div>';
+  h += '<div class="set-item"><span class="s-ic">❓</span>关于工作台<span class="s-val">v1.0</span><span class="s-arrow">›</span></div>';
+  h += '</div></div>';
+  return h;
+}
+
+function openTopic(idx){
+  var names = ["AI Agent工程知识","企业AI与智能体商业化"];
+  var keys = ["agent","enterprise"];
+  var t = OBSIDIAN_DATA.topics.find(function(x){ return x.key === keys[idx]; }) || {files:[]};
+  var h = '<div class="page">';
+  h += '<div class="head-row"><div class="title" style="cursor:pointer;" onclick="switchTab(\'topic\')">‹ 学习地图<span class="sub-line">'+names[idx]+' · '+t.files.length+' 篇 · Obsidian 编译数据</span></div></div>';
+  h += '<div class="seg"><div class="sg'+(idx===0?' on':'')+'" onclick="openTopic(0)">AI Agent 工程</div><div class="sg'+(idx===1?' on':'')+'" onclick="openTopic(1)">企业 AI</div></div>';
+  h += '<div class="source-line">节点与链接来自真实 Obsidian 编译数据 · '+OBSIDIAN_GRAPH.generatedAt+' '+OBSIDIAN_GRAPH.generatedTime+'</div>';
+  t.files.forEach(function(n, i){
+    var done = i < 3;
+    h += '<div class="doc-item" onclick="openGraphNodeByPath(\''+n.path.replace(/'/g,"\\'")+'\')"><div class="d-ic '+(idx===0?'agent':'enterprise')+'">'+(idx===0?'📘':'🏢')+'</div><div class="d-body"><h4>'+n.title+'</h4><div class="d-meta">更新 '+n.updated+' · '+(n.wordCount>0?Math.round(n.wordCount/100)/10+'k 字':'')+'</div></div><div class="d-check'+(done?' done':'')+'">✓</div></div>';
+  });
+  h += '</div>';
+  document.getElementById('live-body').innerHTML = h;
+  document.getElementById('live-body').scrollTop = 0;
+}
+
+function openGraphNodeByIndex(i){ var n = OBSIDIAN_GRAPH.nodes[i]; if(n) openGraphNode(n); }
+
+function openGraphNodeByPath(p){
+  var n = OBSIDIAN_GRAPH.nodes.find(function(x){ return x.path === p; }) || OBSIDIAN_GRAPH.nodes[0];
+  openGraphNode(n);
+}
+
+function openGraphNode(n){
+  n = n || OBSIDIAN_GRAPH.nodes[0];
+  var topicName = n.topic === 'agent' ? 'AI Agent' : (n.topic === 'enterprise' ? '企业 AI' : '专题');
+  var h = '<div class="reader"><div class="reader-head"><span class="back" onclick="historyBack()">‹</span><span class="rh-title">知识节点</span><span class="fav">☆</span></div>';
+  h += '<div class="reader-body"><div class="r-tag-row"><span class="tag '+(n.topic==='agent'?'agent':'enterprise')+'">'+topicName+'</span><span class="tag amber">'+n.updated+' · 更新</span></div><h1>'+n.title+'</h1><div class="source-line">真实路径：'+n.path+'</div>';
+  if (n.desc) h += '<p>'+n.desc+'</p>';
+  h += '<div class="review-box"><h4>这个节点在知识网络中的位置</h4><p>出链 '+n.links.length+' 条 · 反向链接 '+n.backlinks.length+' 条。链接关系用于组织学习路径，不等同于阅读打卡状态。</p></div><h2>它连接到</h2><ul>'+n.links.slice(0,8).map(function(x){return '<li>'+x+'</li>';}).join('')+'</ul><h2>被这些节点连接</h2><ul>'+n.backlinks.slice(0,8).map(function(x){return '<li>'+x+'</li>';}).join('')+'</ul></div><div class="reader-bottom"><div class="rb-btn ai">✨ 放入学习路径</div><div class="rb-btn done" onclick="historyBack()">返回地图</div></div></div>';
+  window._lastTab = currentTab;
+  document.getElementById('live-body').innerHTML = h;
+  document.getElementById('live-body').scrollTop = 0;
+}
+
+function openDoc(key){
+  var d = DOCS[key] || DOCS.total;
+  var h = '<div class="reader">';
+  h += '<div class="reader-head"><span class="back" onclick="historyBack()">‹</span><span class="rh-title">'+d.title.slice(0,14)+'…</span><span class="fav">☆</span></div>';
+  h += '<div class="reader-body"><div class="r-tag-row"><span class="tag '+d.tag+'">'+d.tagName+'</span><span class="tag amber">'+d.tags[0]+'</span></div><h1>'+d.title+'</h1><div class="r-meta">'+d.meta+'</div><div class="source-line">Obsidian 路径：知识流水线 → 每日 AI 知识增量 → 关联专题</div>'+d.body+'<div class="review-box"><h4>学完后请完成一个复盘</h4><p>用自己的项目举例：这个知识解决了什么问题？它和已有的哪条知识相连？哪些部分仍需要验证？</p></div></div>';
+  h += '<div class="reader-bottom"><div class="rb-btn fav">☆ 收藏</div><div class="rb-btn ai">✨ AI 摘要</div><div class="rb-btn done" onclick="markRead()">✓ 标记已读</div></div>';
+  h += '</div>';
+  window._lastTab = currentTab;
+  document.getElementById('live-body').innerHTML = h;
+  document.getElementById('live-body').scrollTop = 0;
+}
+
+function markRead(){ alert('已标记为已读 ✓'); switchTab(window._lastTab || 'today'); }
+
+function historyBack(){ switchTab(window._lastTab || 'today'); }
+
+var currentTab = 'today';
+function switchTab(tab){
+  currentTab = tab;
+  var body = document.getElementById('live-body');
+  var tabs = document.querySelectorAll('#live-tabbar .t');
+  tabs.forEach(function(t){ t.className = 't' + (t.getAttribute('data-tab')===tab ? ' on' : ''); });
+  if(tab==='today') body.innerHTML = renderToday();
+  else if(tab==='topic') body.innerHTML = renderTopic();
+  else if(tab==='fav') body.innerHTML = renderFav();
+  else if(tab==='me') body.innerHTML = renderMe();
+  body.scrollTop = 0;
+}
+
+document.querySelectorAll('#live-tabbar .t').forEach(function(t){
+  t.addEventListener('click', function(){ switchTab(t.getAttribute('data-tab')); });
+});
+
+/* 桌面端静态手机框时间对齐 */
+var now = new Date();
+var hh = now.getHours(), mm = now.getMinutes();
+document.getElementById('live-time').textContent = hh + ':' + (mm<10?'0':'') + mm;
+
+switchTab('today');
+</script>
+</body>
+</html>
