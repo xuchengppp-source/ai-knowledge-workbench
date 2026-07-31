@@ -24,8 +24,8 @@ const OUT_DIR = process.argv.includes('--out')
 
 // 排除敏感/非精选文件（白名单策略：只发布学习向内容，跳过原始资料、备份、内部维护页）
 const EXCLUDE_PATTERNS = [
-  /^原始资料/, /原始资料$/, /资料池/, /蒸馏笔记/, /研究问题/,
-  /\.bak/, /\.tmp/, /nohup/, /^日志/, /^全局记忆/,
+  /原始资料/, /资料池/, /蒸馏笔记/, /研究问题/,
+  /\.bak/, /\.tmp/, /nohup/, /日志/, /全局记忆/, /^\./,
 ];
 
 // ========== 工具函数 ==========
@@ -33,6 +33,7 @@ function readMDFiles(dir) {
   if (!fs.existsSync(dir)) return [];
   return fs.readdirSync(dir, { withFileTypes: true })
     .filter(e => e.isFile() && e.name.endsWith('.md'))
+    .filter(e => !EXCLUDE_PATTERNS.some(p => p.test(e.name)))
     .map(e => path.join(dir, e.name));
 }
 
@@ -81,10 +82,93 @@ function parseMD(filePath) {
     ? para.replace(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]/g, '$1').replace(/[*_`#]/g, '').trim().slice(0, 90)
     : '';
 
+  // 完整正文（MD → HTML）
+  const contentHtml = mdToHtml(body);
+
   // 字数
   const wordCount = cleanBody.replace(/\s/g, '').length;
 
-  return { path: rel, title, updated, links, desc, wordCount };
+  return { path: rel, title, updated, links, desc, wordCount, contentHtml };
+}
+
+/**
+ * 轻量 MD → HTML 转换器
+ * 支持：#/##/### 标题、- 列表、> 引用、``` 代码块、表格、**加粗**、[[wiki链接]]、水平线
+ */
+function mdToHtml(md) {
+  if (!md) return '';
+  let text = md.replace(/^---[\s\S]*?---/m, '').trim();
+  // 移除 YAML 之后的空行前导
+  let html = '';
+  let inCode = false;
+  let inList = false;
+  let inTable = false;
+  const lines = text.split('\n');
+  const esc = (s) => s
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    // wiki 链接 → 纯文本
+    .replace(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]/g, '$1')
+    // 加粗
+    .replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>')
+    .replace(/__([^_]+)__/g, '<b>$1</b>')
+    // 行内代码
+    .replace(/`([^`]+)`/g, '<code style="background:#EEF1F8;padding:1px 5px;border-radius:4px;font-size:0.9em;color:#2563EB;">$1</code>');
+
+  for (let i = 0; i < lines.length; i++) {
+    let line = lines[i];
+    const t = line.trim();
+
+    // 代码块
+    if (t.startsWith('```')) {
+      if (!inCode) { html += '<pre style="background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;">'; inCode = true; }
+      else { html += '</pre>'; inCode = false; }
+      continue;
+    }
+    if (inCode) { html += esc(line) + '\n'; continue; }
+
+    // 表格行
+    if (t.startsWith('|') && t.endsWith('|')) {
+      if (!inTable) { html += '<div style="overflow-x:auto;margin:14px 0;"><table style="width:100%;border-collapse:collapse;font-size:12.5px;"><tbody>'; inTable = true; }
+      // 分隔行 |---|---| 跳过
+      if (/^\|[\s:|-]+\|$/.test(t) && t.includes('-')) continue;
+      const cells = t.replace(/^\||\|$/g, '').split('|').map(c => esc(c.trim()));
+      html += '<tr>' + cells.map(c => '<td style="border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;">' + c + '</td>').join('') + '</tr>';
+      continue;
+    }
+    if (inTable && !t.startsWith('|')) { html += '</tbody></table></div>'; inTable = false; }
+
+    // 标题
+    if (/^###\s/.test(t)) { html += '<h3 style="font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;">' + esc(t.replace(/^###\s+/, '')) + '</h3>'; continue; }
+    if (/^##\s/.test(t)) { html += '<h2 style="font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;">' + esc(t.replace(/^##\s+/, '')) + '</h2>'; continue; }
+    if (/^#\s/.test(t)) { html += '<h1 style="font-size:19px;font-weight:800;margin:18px 0 10px;color:#16233B;">' + esc(t.replace(/^#\s+/, '')) + '</h1>'; continue; }
+
+    // 列表
+    if (/^[-*]\s/.test(t) || /^\d+\.\s/.test(t)) {
+      if (!inList) { html += '<ul style="margin:10px 0 14px;padding-left:20px;">'; inList = true; }
+      html += '<li style="font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;">' + esc(t.replace(/^[-*]\s+/, '').replace(/^\d+\.\s+/, '')) + '</li>';
+      continue;
+    }
+    if (inList && !/^[-*]\s/.test(t) && !/^\d+\.\s/.test(t)) { html += '</ul>'; inList = false; }
+
+    // 引用
+    if (t.startsWith('>')) {
+      html += '<blockquote style="background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;">' + esc(t.replace(/^>\s*/, '')) + '</blockquote>';
+      continue;
+    }
+
+    // 水平线
+    if (/^(-{3,}|\*{3,})$/.test(t)) { html += '<hr style="border:none;border-top:1px solid #E3E8F0;margin:18px 0;">'; continue; }
+
+    // 空行
+    if (!t) continue;
+
+    // 普通段落
+    html += '<p style="font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;">' + esc(t) + '</p>';
+  }
+  if (inCode) html += '</pre>';
+  if (inList) html += '</ul>';
+  if (inTable) html += '</tbody></table></div>';
+  return html;
 }
 
 function parseDailyFiles() {
@@ -116,7 +200,13 @@ function parseDaily(filePath) {
       .map(l => l.replace(/^[-*]\s*/, '').replace(/^[^：:]+[：:]\s*/, '').trim())
       .filter(Boolean);
     const summary = lines.length ? lines[0].slice(0, 80) : content.replace(/[-*#]/g, '').trim().slice(0, 80);
-    items.push({ title, summary, date });
+    // 完整要点列表（该小节所有 - 开头的行）
+    const points = content.split('\n')
+      .filter(l => /^[-*]\s/.test(l.trim()))
+      .map(l => l.trim().replace(/^[-*]\s*/, '').replace(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]/g, '$1').slice(0, 120))
+      .filter(Boolean)
+      .slice(0, 6);
+    items.push({ title, summary, points, date });
   }
 
   // 解析 "## 3. 今天最重要的 3 个判断"
@@ -174,6 +264,7 @@ function build() {
   graph.nodes = allNodes.map(n => ({
     path: n.path, title: n.title, updated: n.updated,
     topic: n.topic, links: n.links, backlinks: n.backlinks, desc: n.desc, wordCount: n.wordCount,
+    contentHtml: n.contentHtml,
   }));
 
   // 每日整理
@@ -195,9 +286,28 @@ function build() {
     dailies,
   };
 
-  // 写 data.js
-  const js = 'window.OBSIDIAN_DATA = ' + JSON.stringify(data, null, 1) + ';';
+  // 拆分：data.js 只放元数据（不含正文，首屏秒开），docs.js 放正文（延迟加载）
+  const dataLight = JSON.parse(JSON.stringify(data));
+  dataLight.nodes = dataLight.nodes.map(n => {
+    const { contentHtml, ...meta } = n;
+    return meta;
+  });
+  dataLight.topics = dataLight.topics.map(t => {
+    const { files, ...meta } = t;
+    return { ...meta, count: files ? files.length : 0 };
+  });
+
+  // 正文映射：path -> contentHtml
+  const docsMap = {};
+  data.nodes.forEach(n => { docsMap[n.path] = n.contentHtml || ''; });
+
+  // 写 data.js（轻数据）
+  const js = 'window.OBSIDIAN_DATA = ' + JSON.stringify(dataLight, null, 1) + ';';
   fs.writeFileSync(path.join(OUT_DIR, 'data.js'), js, 'utf-8');
+
+  // 写 docs.js（正文，延迟加载）
+  const docsJs = 'window.OBSIDIAN_DOCS = ' + JSON.stringify(docsMap) + ';';
+  fs.writeFileSync(path.join(OUT_DIR, 'docs.js'), docsJs, 'utf-8');
 
   // 汇总统计
   const stats = {
