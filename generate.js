@@ -105,6 +105,7 @@ function mdToHtml(md) {
   let inTable = false;
   const lines = text.split('\n');
   const esc = (s) => s
+    .replace(/\uFFFD+/g, '?') // 源文件损坏字符 → 占位
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
     // wiki 链接 → 纯文本
     .replace(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]/g, '$1')
