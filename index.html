@@ -450,7 +450,7 @@
           <div class="page">
             <div class="head-row">
               <div class="title">徐总的知识库
-                <span class="sub-line" id="gallery-date">知识状态 · Obsidian 实时编译状态</span>
+                <span class="sub-line">AI 知识成长视图 · 每日整理</span>
               </div>
               <div class="avatar">徐</div>
             </div>
@@ -894,13 +894,8 @@ function graphNodes(prefix){
 
 function renderToday() {
   var d = OBSIDIAN_DATA.today || {date:"", items:[], judgments:[]};
-  var dateStr = d.date || new Date().toISOString().slice(0,10);
-  // 统一中文格式：2026年7月31日 周五
-  var dp = dateStr.split('-');
-  var weekday = ['周日','周一','周二','周三','周四','周五','周六'][new Date(dateStr+'T00:00:00').getDay()];
-  var dateFull = (dp.length === 3) ? dp[0] + '年' + parseInt(dp[1],10) + '月' + parseInt(dp[2],10) + '日 ' + weekday : dateStr;
   var h = '<div class="page">';
-  h += '<div class="head-row"><div class="title">'+(OBSIDIAN_GRAPH.rootTitle || '徐总的知识库')+'<span class="sub-line">知识状态 · '+dateFull+'</span></div><div class="avatar">徐</div></div>';
+  h += '<div class="head-row"><div class="title">'+(OBSIDIAN_GRAPH.rootTitle || '徐总的知识库')+'<span class="sub-line">AI 知识成长视图 · 每日整理</span></div><div class="avatar">徐</div></div>';
   h += '<div class="learning-brief"><div class="eyebrow">今日 AI 知识增量 · 来自 Obsidian 知识流水线</div><h3>今天先搞懂：Agent 怎样从“能用”变成“可托付”？</h3><p>把每日整理中的新变化连接到已有专题和项目，形成“理解 → 举例 → 应用”的学习线索。</p><div class="brief-foot"><span class="brief-chip">关联知识网络</span><span class="brief-chip">来自每日整理</span></div></div>';
   h += '<div class="progress-card"><div class="pc-top"><div class="pc-date">📚 本周知识库状态</div><div class="pc-streak">AI 知识体系正在成形</div></div><div class="pc-main"><div class="pc-num">'+(OBSIDIAN_GRAPH.weeklyChanges||0)+'</div><div class="pc-unit">条链接</div></div><div class="pc-sub">本周更新 '+(OBSIDIAN_GRAPH.weeklyPages||0)+' 个页面 · 每日整理负责呈现变化，学习路径负责组织理解</div><div class="pc-bar"><i style="width:58%;"></i></div></div>';
   h += '<div class="sec-title" style="cursor:pointer;" onclick="showDailyDetail()">今日新增要点 <span class="more">来自每日整理 · '+d.items.length+' 条 ›</span></div>';
@@ -1121,16 +1116,6 @@ document.querySelectorAll('.sb-date').forEach(function(el){ el.textContent = fmt
 
 
 switchTab('today');
-
-/* 桌面陈列也使用真实编译日期（统一中文格式） */
-var galleryDate = document.getElementById('gallery-date');
-if (galleryDate && OBSIDIAN_DATA.today && OBSIDIAN_DATA.today.date) {
-  var gd = OBSIDIAN_DATA.today.date;
-  var gp = gd.split('-');
-  var gw = ['周日','周一','周二','周三','周四','周五','周六'][new Date(gd+'T00:00:00').getDay()];
-  var gFull = (gp.length === 3) ? gp[0] + '年' + parseInt(gp[1],10) + '月' + parseInt(gp[2],10) + '日 ' + gw : gd;
-  galleryDate.textContent = '知识状态 · ' + gFull;
-}
 </script>
 </body>
 </html>
