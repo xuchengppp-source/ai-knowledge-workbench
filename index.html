@@ -897,8 +897,10 @@ function renderToday() {
   var dateStr = d.date || new Date().toISOString().slice(0,10);
   var weekday = ['日','一','二','三','四','五','六'][new Date(dateStr+'T00:00:00').getDay()];
   var h = '<div class="page">';
-  h += '<div class="head-row"><div class="title">学习工作台<span class="sub-line">'+dateStr+' · 周'+weekday+' · 每日整理</span></div><div class="avatar">徐</div></div>';
-  h += '<div class="sec-title" style="cursor:pointer;" onclick="showDailyDetail()">今日知识增量 <span class="more">来自每日整理 · 完整版 ›</span></div>';
+  h += '<div class="head-row"><div class="title">知识状态<span class="sub-line">'+dateStr+' · 周'+weekday+'</span></div><div class="avatar">徐</div></div>';
+  h += '<div class="learning-brief"><div class="eyebrow">今日 AI 知识增量 · 来自 Obsidian 知识流水线</div><h3>今天先搞懂：Agent 怎样从“能用”变成“可托付”？</h3><p>把每日整理中的新变化连接到已有专题和项目，形成“理解 → 举例 → 应用”的学习线索。</p><div class="brief-foot"><span class="brief-chip">关联知识网络</span><span class="brief-chip">来自每日整理</span></div></div>';
+  h += '<div class="progress-card"><div class="pc-top"><div class="pc-date">📚 本周知识库状态</div><div class="pc-streak">AI 知识体系正在成形</div></div><div class="pc-main"><div class="pc-num">'+(OBSIDIAN_GRAPH.weeklyChanges||8)+'</div><div class="pc-unit">条链接</div></div><div class="pc-sub">本周更新 '+(OBSIDIAN_GRAPH.weeklyPages||12)+' 个页面 · 每日整理负责呈现变化，学习路径负责组织理解</div><div class="pc-bar"><i style="width:58%;"></i></div></div>';
+  h += '<div class="sec-title" style="cursor:pointer;" onclick="showDailyDetail()">今日新增要点 <span class="more">来自每日整理 · '+d.items.length+' 条 ›</span></div>';
   h += '<div class="source-line">真实来源：'+OBSIDIAN_GRAPH.digest+' · 编译于 '+OBSIDIAN_GRAPH.generatedAt+' '+OBSIDIAN_GRAPH.generatedTime+'</div>';
   if (d.judgments && d.judgments.length) {
     h += '<div class="sec-title">今日最重要的判断</div>';
