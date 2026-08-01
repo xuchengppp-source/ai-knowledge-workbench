@@ -188,33 +188,45 @@ function parseDaily(filePath) {
   const date = dateMatch ? dateMatch[1] : '';
 
   const items = [];
-  // 解析 "### 2.x 标题" 块
+  // 兼容两种小节格式：### 2.1 标题（旧） / 1. 标题（新，有序列表）
   const secMatch = raw.match(/## 2\. 今天新增了什么([\s\S]*?)(?=\n## \d|$)/);
   const sec = secMatch ? secMatch[1] : '';
-  const blockRe = /###\s+([^\n]+)\n([\s\S]*?)(?=\n###|\n## |$)/g;
-  let m;
-  while ((m = blockRe.exec(sec)) !== null) {
-    const title = m[1].trim().replace(/^\d+\.\d+\s*/, '');
-    const content = m[2].trim();
+  // 分离出有序列表条目：标题行（含后续行直到下一个条目/空行）
+  const itemBlocks = [];
+  const lines = sec.split('\n');
+  let cur = null;
+  lines.forEach(line => {
+    const tm = line.match(/^\s*(?:###\s+)?(\d+\.\d*)\s*(.*)$/);
+    if (tm && tm[2] && tm[2].trim()) {
+      if (cur) itemBlocks.push(cur);
+      cur = { title: tm[2].trim(), body: [] };
+    } else if (cur) {
+      cur.body.push(line);
+    }
+  });
+  if (cur) itemBlocks.push(cur);
+
+  itemBlocks.forEach(b => {
+    const content = b.body.join('\n').trim();
     // 提取关键事实/判断行
-    const lines = content.split('\n')
-      .filter(l => /关键事实|关键概念|关键判断|关键因果关系|新增内容/.test(l))
+    const lines2 = content.split('\n')
+      .filter(l => /关键事实|关键概念|关键判断|关键因果关系|新增内容|事实：|概念：|因果关系：/.test(l))
       .map(l => l.replace(/^[-*]\s*/, '').replace(/^[^：:]+[：:]\s*/, '').trim())
       .filter(Boolean);
-    const summary = lines.length ? lines[0].slice(0, 80) : content.replace(/[-*#]/g, '').trim().slice(0, 80);
-    // 完整要点列表（该小节所有 - 开头的行）
+    const summary = lines2.length ? lines2[0].slice(0, 90) : content.replace(/[-*#]/g, '').trim().slice(0, 90);
+    // 完整要点列表（该小节所有 - 或 事实/概念/因果 开头的行）
     const points = content.split('\n')
-      .filter(l => /^[-*]\s/.test(l.trim()))
+      .filter(l => /^[-*]\s/.test(l.trim()) || /^(事实|概念|因果关系|关键判断)[：:]/.test(l.trim()))
       .map(l => l.trim().replace(/^[-*]\s*/, '').replace(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]/g, '$1').slice(0, 120))
       .filter(Boolean)
       .slice(0, 6);
-    items.push({ title, summary, points, date });
-  }
+    items.push({ title: b.title, summary, points, date });
+  });
 
   // 解析 "## 3. 今天最重要的 3 个判断"
   const judgeMatch = raw.match(/## 3\. 今天最重要的[^\n]*([\s\S]*?)(?=\n## \d|$)/);
   const judgments = judgeMatch
-    ? judgeMatch[1].split('\n').map(l => l.replace(/^\d+\.\s*/, '').trim()).filter(Boolean).slice(0, 3)
+    ? judgeMatch[1].split('\n').map(l => l.replace(/^\d+\.\s*/, '').replace(/\*\*/g, '').trim()).filter(Boolean).slice(0, 3)
     : [];
 
   return { date, items, judgments };
