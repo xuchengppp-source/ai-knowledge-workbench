@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-01",
- "generatedTime": "2026-08-01 01:18",
+ "generatedTime": "2026-08-01 22:25",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 32,
- "weeklyChanges": 449,
+ "weeklyPages": 33,
+ "weeklyChanges": 454,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-07-31｜AI知识增量整理.md",
  "topics": [
@@ -1682,7 +1682,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/甘肃庆阳AI算力产业崛起与Token工厂.md",
    "title": "甘肃庆阳AI算力产业崛起与Token工厂",
-   "updated": "2026-06-06",
+   "updated": "2026-08-01",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1699,7 +1699,7 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md"
    ],
    "desc": "AI 算力产业正在从“出租机柜、GPU 和算力时长”，升级为“稳定、低成本地生产标准化 Token”。庆阳等区域智算中心的长期价值，不只在于拥有多少算力，而在于能否形成模型部署、推",
-   "wordCount": 2896
+   "wordCount": 4353
   },
   {
    "path": "企业AI与智能体商业化/甘食记Ontology对象网络设计.md",
@@ -1985,7 +1985,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/知识库索引.md",
    "title": "知识库索引（快速查找版）",
-   "updated": "2026-07-31",
+   "updated": "2026-08-01",
    "topic": "enterprise",
    "links": [
     "徐总的知识库",
@@ -2009,7 +2009,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "上级：徐总的知识库",
-   "wordCount": 27203
+   "wordCount": 27240
   },
   {
    "path": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
@@ -2379,7 +2379,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
    "title": "AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
-   "updated": "2026-07-30",
+   "updated": "2026-08-01",
    "topic": "infrastructure",
    "links": [
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
@@ -2403,7 +2403,7 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md"
    ],
    "desc": "上级：AI产业链与数字基础设施/AI产业链与数字基础设施专题、AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
-   "wordCount": 4325
+   "wordCount": 4807
   },
   {
    "path": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
