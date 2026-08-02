@@ -896,8 +896,10 @@ function renderToday() {
   var d = OBSIDIAN_DATA.today || {date:"", items:[], judgments:[]};
   var h = '<div class="page">';
   h += '<div class="head-row"><div class="title">'+(OBSIDIAN_GRAPH.rootTitle || '徐总的知识库')+'<span class="sub-line">AI 知识成长视图 · 每日整理</span></div><div class="avatar">徐</div></div>';
-  h += '<div class="learning-brief"><div class="eyebrow">今日 AI 知识增量 · 来自 Obsidian 知识流水线</div><h3>今天先搞懂：Agent 怎样从“能用”变成“可托付”？</h3><p>把每日整理中的新变化连接到已有专题和项目，形成“理解 → 举例 → 应用”的学习线索。</p><div class="brief-foot"><span class="brief-chip">关联知识网络</span><span class="brief-chip">来自每日整理</span></div></div>';
+  h += '<div class="learning-brief" style="cursor:pointer" onclick="showDailyDetail()"><div class="eyebrow">今日 AI 知识增量 · 来自 Obsidian 知识流水线</div><h3>今天先搞懂：'+(d.items[0] ? d.items[0].title : 'AI 知识体系今天发生了什么？')+'</h3><p>'+(d.items[0] ? d.items[0].summary : '查看今日整理，了解知识库最近的新增和变化。')+'</p><div class="brief-foot"><span class="brief-chip" onclick="event.stopPropagation();switchTab(\'topic\')">关联知识网络 ›</span><span class="brief-chip" onclick="event.stopPropagation();showDailyDetail()">来自每日整理 ›</span></div></div>';
   h += '<div class="progress-card"><div class="pc-top"><div class="pc-date">📚 本周知识库状态</div><div class="pc-streak">AI 知识体系正在成形</div></div><div class="pc-main"><div class="pc-num">'+(OBSIDIAN_GRAPH.weeklyChanges||0)+'</div><div class="pc-unit">条链接</div></div><div class="pc-sub">本周更新 '+(OBSIDIAN_GRAPH.weeklyPages||0)+' 个页面 · 每日整理负责呈现变化，学习路径负责组织理解</div><div class="pc-bar"><i style="width:58%;"></i></div></div>';
+  var wr = OBSIDIAN_DATA.weeklyReview;
+  if (wr) h += '<div class="review-box" style="cursor:pointer" onclick="showWeeklyReview()"><div class="eyebrow">本周 AI 知识架构复盘 · '+wr.date+'</div><h3>'+wr.title+'</h3><p>'+wr.overview+'</p><div class="brief-foot"><span class="brief-chip">查看本周主线变化 ›</span><span class="brief-chip">回流建议 ›</span></div></div>';
   h += '<div class="sec-title" style="cursor:pointer;" onclick="showDailyDetail()">今日新增要点 <span class="more">来自每日整理 · '+d.items.length+' 条 ›</span></div>';
   var gt = OBSIDIAN_GRAPH.generatedTime || '';
   var gtFull = gt;
@@ -1065,6 +1067,18 @@ function showDailyDetail(){
     h += '<div class="fav-note">今日暂无新增整理。</div>';
   }
   h += '</div><div class="reader-bottom"><div class="rb-btn done" onclick="historyBack()">返回今日</div></div></div>';
+  window._lastTab = currentTab;
+  document.getElementById('live-body').innerHTML = h;
+  document.getElementById('live-body').scrollTop = 0;
+}
+
+function showWeeklyReview(){
+  var w = OBSIDIAN_DATA.weeklyReview;
+  if (!w) return;
+  var h = '<div class="reader"><div class="reader-head"><span class="back" onclick="historyBack()">‹</span><span class="rh-title">本周复盘</span><span class="fav">☆</span></div>';
+  h += '<div class="reader-body"><div class="r-tag-row"><span class="tag green">'+w.date+'</span><span class="tag amber">每周 AI 知识架构复盘</span></div><h1>'+w.title+'</h1>';
+  h += '<h2>本周知识增量</h2><p>'+w.overview+'</p><h2>本周知识主线发生了什么</h2><p>'+w.change+'</p><div class="review-box"><h4>这部分在工作台里负责什么</h4><p>每日增量告诉你“今天变了什么”；每周复盘告诉你“这些变化是否已经形成新的知识主线”，并给出正式专题回流建议。</p></div><p class="source-line">Obsidian 来源：'+w.path+'</p></div>';
+  h += '<div class="reader-bottom"><div class="rb-btn done" onclick="historyBack()">返回今日</div></div></div>';
   window._lastTab = currentTab;
   document.getElementById('live-body').innerHTML = h;
   document.getElementById('live-body').scrollTop = 0;

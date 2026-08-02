@@ -19,6 +19,7 @@ const TOPICS = [
   { key: 'infrastructure', name: 'AI产业链与数字基础设施', dir: 'AI产业链与数字基础设施', icon: '⚡', color: 'enterprise' },
 ];
 const DAILY_DIR = path.join(VAULT, '知识流水线', '每日学习整理');
+const WEEKLY_DIR = path.join(VAULT, '知识流水线', '每周知识复盘');
 const OUT_DIR = process.argv.includes('--out')
   ? process.argv[process.argv.indexOf('--out') + 1]
   : '/Users/xucheng/Documents/知识库工作台-publish';
@@ -232,6 +233,34 @@ function parseDaily(filePath) {
   return { date, items, judgments };
 }
 
+function parseWeeklyReview() {
+  if (!fs.existsSync(WEEKLY_DIR)) return null;
+  const files = fs.readdirSync(WEEKLY_DIR, { withFileTypes: true })
+    .filter(e => e.isFile() && e.name.endsWith('.md'))
+    .map(e => path.join(WEEKLY_DIR, e.name))
+    .sort()
+    .reverse();
+  if (!files.length) return null;
+  const filePath = files[0];
+  const raw = fs.readFileSync(filePath, 'utf-8');
+  const titleMatch = raw.match(/^#\s+(.+)$/m);
+  const title = titleMatch ? titleMatch[1].trim() : path.basename(filePath, '.md');
+  const section = (heading) => {
+    const match = raw.match(new RegExp('##\\s+\\d+\\.\\s*' + heading + '[\\s\\S]*?(?=\\n##\\s+\\d+\\.|$)'));
+    return match ? match[0].replace(/^##[^\n]*\n?/, '').replace(/\s+/g, ' ').trim() : '';
+  };
+  const overview = section('本周知识增量总览');
+  const change = section('本周知识主线发生了什么');
+  const dateMatch = raw.match(/^date:\s*(\d{4}-\d{2}-\d{2})/m);
+  return {
+    title,
+    date: dateMatch ? dateMatch[1] : '',
+    path: path.relative(VAULT, filePath).replace(/\\/g, '/'),
+    overview: overview.slice(0, 220),
+    change: change.slice(0, 260),
+  };
+}
+
 function nowInChina() {
   return new Date().toLocaleString('sv-SE', { timeZone: 'Asia/Shanghai', hour12: false }).replace(' ', 'T');
 }
@@ -294,6 +323,7 @@ function build() {
   // 每日整理
   const dailies = parseDailyFiles().slice(0, 7).map(parseDaily);
   const today = dailies[0] || { date: '', items: [], judgments: [] };
+  const weeklyReview = parseWeeklyReview();
 
   const data = {
     generatedAt: graph.generatedAt,
@@ -311,6 +341,7 @@ function build() {
       judgments: today.judgments,
     },
     dailies,
+    weeklyReview,
   };
 
   // 拆分：data.js 只放元数据（不含正文，首屏秒开），docs.js 放正文（延迟加载）
