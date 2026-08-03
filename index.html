@@ -961,12 +961,15 @@ function renderTopic() {
 
 function renderFav() {
   var h = '<div class="page">';
-  h += '<div class="head-row"><div class="title">复盘队列<span class="sub-line">从理解到能力沉淀</span></div></div>';
-  h += '<div class="fav-note">这里承接学习地图里的薄弱连接和每日 / 每周复盘建议，不是简单收藏文章。</div>';
-  h += '<div class="review-box"><h4>本周需要补上的连接</h4><p>轻量 Ontology ↔ 状态机 ↔ FDE 验收：目前已有多个专题提到它们，但还需要形成一张统一判断表。</p></div>';
-  FAVS.forEach(function(it){
-    h += '<div class="k-card"><div class="k-top"><span class="tag '+it.tag+'">'+it.tagName+'</span><span class="k-time">'+it.time+'</span></div><h3>'+it.t+'</h3><div class="k-desc">'+it.desc+'</div></div>';
-  });
+  h += '<div class="head-row"><div class="title">架构复盘<span class="sub-line">不是复习文章，而是检查 AI 知识体系缺什么</span></div></div>';
+  h += '<div class="review-box"><h4>本周复盘的核心问题</h4><p>当前知识库已经形成了哪些层？哪些层只是零散提及？下一阶段应该补哪一块，才能让 AI Agent 从“能用”走向“可托付”？</p></div>';
+  var layers = OBSIDIAN_DATA.architectureLayers || [];
+  h += '<div class="sec-title">当前 AI 知识架构</div>';
+  layers.forEach(function(l){ var cls = l.status==='已形成'?'done':(l.status==='正在形成'?'warm':''); h += '<div class="state-card" style="margin:8px 0"><div class="state-head"><b>'+l.name+'</b><span class="state-badge '+cls+'">'+l.status+'</span></div><p>当前索引命中 '+l.matched+' 个相关节点 · '+(l.status==='待补齐'?'需要进入后续知识建设':'已有内容，但还需要继续补链和归纳')+'</p></div>'; });
+  var w = OBSIDIAN_DATA.weeklyReview;
+  if (w) h += '<div class="sec-title">本周架构变化</div><div class="review-box" style="cursor:pointer" onclick="showWeeklyReview()"><h4>'+w.title+'</h4><p>'+w.change+'</p><span class="brief-chip">查看完整架构复盘 ›</span></div>';
+  h += '<div class="sec-title">下一阶段建设重点</div><div class="path-note"><strong>先补结构，再补内容</strong><span>评测与可观测性 · 安全权限与责任链 · 多 Agent 协作 · 业务结果评价 · 政务 Agent 真实案例</span></div>';
+  h += '<div class="fav-note">日常抖音、分享链接和原始资料先进入输入层，标注主题、来源和待验证状态；不要求立即读完，但必须先放进正确的知识框架。</div>';
   h += '</div>';
   return h;
 }
@@ -975,8 +978,12 @@ function renderMe() {
   var h = '<div class="page">';
   h += '<div class="head-row"><div class="title">成长<span class="sub-line">AI 知识体系在 Obsidian 上的演化</span></div><div class="avatar">徐</div></div>';
   h += '<div class="state-card"><div class="state-head"><b>当前底座：Obsidian</b><span class="state-badge">持续沉淀</span></div><p>工作台只呈现成长视图，正式知识、专题边界和链接关系仍以 Obsidian 为准。</p></div>';
-  h += '<div class="sec-title">能力沉淀状态</div>';
-  h += '<div class="growth-row"><b>已理解</b><span>48 个知识节点</span></div><div class="growth-row"><b>已经能讲</b><span>21 个核心判断</span></div><div class="growth-row"><b>已应用到项目</b><span>9 个方法 / 案例</span></div><div class="growth-row"><b>待回流 Obsidian 正式专题</b><span>4 个候选</span></div>';
+  var layers = OBSIDIAN_DATA.architectureLayers || [];
+  var formed = layers.filter(function(l){return l.status==='已形成';}).length;
+  var forming = layers.filter(function(l){return l.status==='正在形成';}).length;
+  var gaps = layers.filter(function(l){return l.status==='待补齐';}).length;
+  h += '<div class="sec-title">知识体系成长状态</div>';
+  h += '<div class="growth-row"><b>知识节点</b><span>'+OBSIDIAN_GRAPH.nodes.length+' 个真实节点</span></div><div class="growth-row"><b>已形成知识层</b><span>'+formed+' 层</span></div><div class="growth-row"><b>正在形成</b><span>'+forming+' 层</span></div><div class="growth-row"><b>架构待补齐</b><span>'+gaps+' 层</span></div><div class="growth-row"><b>最近周复盘</b><span>'+(OBSIDIAN_DATA.weeklyReview ? OBSIDIAN_DATA.weeklyReview.date : '暂无')+'</span></div>';
   h += '<div class="topic-card" style="padding:12px 14px;"><div class="t-ic agent" style="width:38px;height:38px;font-size:18px;">🤖</div><div class="t-body"><div class="t-meta" style="margin-top:0;">AI Agent 工程知识 · 13/19 篇</div><div class="t-bar"><i class="b1"></i></div></div></div>';
   h += '<div class="topic-card" style="padding:12px 14px; margin-bottom:18px;"><div class="t-ic enterprise" style="width:38px;height:38px;font-size:18px;">🏢</div><div class="t-body"><div class="t-meta" style="margin-top:0;">企业 AI 与智能体商业化 · 35/103 篇</div><div class="t-bar"><i class="b2"></i></div></div></div>';
   h += '<div class="set-list">';

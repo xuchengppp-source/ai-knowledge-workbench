@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-03",
- "generatedTime": "2026-08-03 11:23",
+ "generatedTime": "2026-08-03 11:31",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 80,
  "weeklyChanges": 808,
@@ -2674,5 +2674,57 @@ window.OBSIDIAN_DATA = {
   "path": "知识流水线/每周知识复盘/2026-W31｜AI知识学习架构.md",
   "overview": "本周增量可以归并为四组，而不是 7 篇日报的简单相加： 1. **上游供给层**：能源、数据中心、GPU/NPU、训练与推理、区域智算中心、Token 工厂。 2. **中间服务层**：模型部署、推理优化、调度、计量、SLA、合规出口和 Token 服务化。 3. **下游交付层**：Agent Runtime、Workflow、State、权限、日志、评测、运维、业务系统和 FDE。 4. **组织与知识层**：企业知识资产、组织记忆",
   "change": "本周主线从“AI 基础设施建设”推进到“AI 能力如何被生产、计量、交付和变现”： ```text 能源 / 算力供给 → 训练、微调、推理与模型部署 → 调度、计量、SLA、合规形成 Token 服务 → Agent Runtime / Workflow 组织模型能力 → FDE 把业务对象、流程和权限翻译成可交付系统 → AaaS / RaaS 以业务任务或结果承接价值 ``` 这条链补上了过去容易断开的两个中间环节：一是“智算中心如何从硬件投入变成推理服务收入”，二是“企业知识资产如何从文档/RAG进入业务对"
- }
+ },
+ "architectureLayers": [
+  {
+   "name": "能源与算力",
+   "matched": 3,
+   "status": "正在形成"
+  },
+  {
+   "name": "模型与推理",
+   "matched": 5,
+   "status": "已形成"
+  },
+  {
+   "name": "数据与知识资产",
+   "matched": 17,
+   "status": "已形成"
+  },
+  {
+   "name": "Agent Runtime",
+   "matched": 12,
+   "status": "已形成"
+  },
+  {
+   "name": "工具与协议",
+   "matched": 5,
+   "status": "已形成"
+  },
+  {
+   "name": "记忆与上下文",
+   "matched": 1,
+   "status": "正在形成"
+  },
+  {
+   "name": "安全、权限与治理",
+   "matched": 4,
+   "status": "正在形成"
+  },
+  {
+   "name": "评测与可观测性",
+   "matched": 0,
+   "status": "待补齐"
+  },
+  {
+   "name": "业务交付与 FDE",
+   "matched": 55,
+   "status": "已形成"
+  },
+  {
+   "name": "商业化与组织能力",
+   "matched": 52,
+   "status": "已形成"
+  }
+ ]
 };

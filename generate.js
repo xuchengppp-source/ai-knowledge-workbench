@@ -261,6 +261,26 @@ function parseWeeklyReview() {
   };
 }
 
+function buildArchitectureLayers(nodes) {
+  const layers = [
+    ['能源与算力', /能源|算力|GPU|NPU|智算|数据中心|Token工厂/i],
+    ['模型与推理', /模型|推理|训练|微调|Token/i],
+    ['数据与知识资产', /数据|知识资产|RAG|数据库|知识库/i],
+    ['Agent Runtime', /Runtime|Workflow|Agent工程|执行链|状态机/i],
+    ['工具与协议', /MCP|Tool|工具调用|Function Calling|API/i],
+    ['记忆与上下文', /记忆|Memory|Context|上下文/i],
+    ['安全、权限与治理', /权限|安全|治理|审计|合规|人审/i],
+    ['评测与可观测性', /评测|观测|Trace|监控|SLA|日志/i],
+    ['业务交付与 FDE', /FDE|业务流程|Ontology|企业AI|交付|MVP/i],
+    ['商业化与组织能力', /商业化|ROI|组织|经营|结果服务|RaaS/i],
+  ];
+  return layers.map(([name, pattern]) => {
+    const matched = nodes.filter(n => pattern.test(n.title + ' ' + n.desc)).length;
+    const status = matched >= 5 ? '已形成' : (matched >= 1 ? '正在形成' : '待补齐');
+    return { name, matched, status };
+  });
+}
+
 function nowInChina() {
   return new Date().toLocaleString('sv-SE', { timeZone: 'Asia/Shanghai', hour12: false }).replace(' ', 'T');
 }
@@ -324,6 +344,7 @@ function build() {
   const dailies = parseDailyFiles().slice(0, 7).map(parseDaily);
   const today = dailies[0] || { date: '', items: [], judgments: [] };
   const weeklyReview = parseWeeklyReview();
+  const architectureLayers = buildArchitectureLayers(graph.nodes);
 
   const data = {
     generatedAt: graph.generatedAt,
@@ -342,6 +363,7 @@ function build() {
     },
     dailies,
     weeklyReview,
+    architectureLayers,
   };
 
   // 拆分：data.js 只放元数据（不含正文，首屏秒开），docs.js 放正文（延迟加载）
