@@ -20,6 +20,7 @@ const TOPICS = [
 ];
 const DAILY_DIR = path.join(VAULT, '知识流水线', '每日学习整理');
 const WEEKLY_DIR = path.join(VAULT, '知识流水线', '每周知识复盘');
+const QUESTION_DIR = path.join(VAULT, '徐总问题专题库');
 const OUT_DIR = process.argv.includes('--out')
   ? process.argv[process.argv.indexOf('--out') + 1]
   : '/Users/xucheng/Documents/知识库工作台-publish';
@@ -37,6 +38,57 @@ function readMDFiles(dir) {
     .filter(e => e.isFile() && e.name.endsWith('.md'))
     .filter(e => !EXCLUDE_PATTERNS.some(p => p.test(e.name)))
     .map(e => path.join(dir, e.name));
+}
+
+function readMDFilesRecursive(dir) {
+  if (!fs.existsSync(dir)) return [];
+  const out = [];
+  fs.readdirSync(dir, { withFileTypes: true }).forEach(e => {
+    const full = path.join(dir, e.name);
+    if (e.isDirectory()) out.push(...readMDFilesRecursive(full));
+    else if (e.isFile() && e.name.endsWith('.md') && !EXCLUDE_PATTERNS.some(p => p.test(full))) out.push(full);
+  });
+  return out;
+}
+
+function frontmatterValue(raw, key) {
+  const fmMatch = raw.match(/^---\n([\s\S]*?)\n---/);
+  if (!fmMatch) return '';
+  const match = fmMatch[1].match(new RegExp('^' + key + ':\\s*(.+)$', 'm'));
+  return match ? match[1].trim().replace(/^["']|["']$/g, '') : '';
+}
+
+function sectionText(raw, heading) {
+  const lines = raw.split('\n');
+  let start = -1;
+  let level = 0;
+  for (let i = 0; i < lines.length; i++) {
+    const match = lines[i].match(/^(#+)\s+(.+)$/);
+    if (match && match[2].includes(heading)) {
+      start = i + 1;
+      level = match[1].length;
+      break;
+    }
+  }
+  if (start < 0) return '';
+  const out = [];
+  for (let i = start; i < lines.length; i++) {
+    const match = lines[i].match(/^(#+)\s+(.+)$/);
+    if (match && match[1].length <= level) break;
+    out.push(lines[i]);
+  }
+  return out.join('\n').trim();
+}
+
+function stripMd(text, maxLen) {
+  const clean = (text || '')
+    .replace(/^---[\s\S]*?---/m, '')
+    .replace(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]/g, '$1')
+    .replace(/```[\s\S]*?```/g, ' ')
+    .replace(/[>*_`#|-]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  return maxLen ? clean.slice(0, maxLen) : clean;
 }
 
 function parseMD(filePath) {
@@ -261,6 +313,60 @@ function parseWeeklyReview() {
   };
 }
 
+function parseQuestionTopic(filePath) {
+  const raw = fs.readFileSync(filePath, 'utf-8');
+  const base = parseMD(filePath);
+  const rel = path.relative(VAULT, filePath).replace(/\\/g, '/');
+  const originalQuestion = sectionText(raw, '原始提问') || sectionText(raw, '原始提问（逐字保留）');
+  const direction = sectionText(raw, '提问方向') || sectionText(raw, '提问方向（徐总真正在问什么）');
+  const formalNotes = sectionText(raw, '关联的正式笔记')
+    .match(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]/g) || [];
+  const rawMaterials = sectionText(raw, '关联的原始资料')
+    .match(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]/g) || [];
+  const distillItems = sectionText(raw, '待蒸馏项').split('\n')
+    .map(l => l.trim())
+    .filter(l => /^-\s+\[[ xX]\]/.test(l))
+    .map(l => l.replace(/^-\s+\[[ xX]\]\s*/, '').replace(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]/g, '$1'))
+    .slice(0, 8);
+  const nextQuestions = (sectionText(raw, '下次可追问的方向') || sectionText(raw, '下一步可追问')).split('\n')
+    .map(l => l.trim().replace(/^\d+\.\s*/, '').replace(/^-\s*/, ''))
+    .filter(Boolean)
+    .slice(0, 8);
+  const categoryFromPath = rel.split('/')[1] || frontmatterValue(raw, '所属分类') || '未分类';
+  const status = frontmatterValue(raw, '状态') || '已回答';
+  const questionType = frontmatterValue(raw, '问题类型') || '';
+  const answer = sectionText(raw, '我的回答（核心结构）') || sectionText(raw, '回答摘要');
+  const summary = stripMd(answer || direction || originalQuestion || base.desc, 180);
+
+  return {
+    path: base.path,
+    title: base.title.replace(/^\d{4}-\d{2}-\d{2}｜/, ''),
+    date: frontmatterValue(raw, 'date') || base.updated,
+    updated: base.updated,
+    category: categoryFromPath.replace(/^\d+_/, '').replace(/_/g, ' '),
+    status,
+    questionType,
+    originalQuestion: stripMd(originalQuestion, 260),
+    direction: stripMd(direction, 260),
+    summary,
+    formalNotes: formalNotes.map(x => x.replace(/^\[\[|\]\]$/g, '')).slice(0, 10),
+    rawMaterials: rawMaterials.map(x => x.replace(/^\[\[|\]\]$/g, '')).slice(0, 10),
+    distillItems,
+    nextQuestions,
+    links: base.links,
+    wordCount: base.wordCount,
+    contentHtml: base.contentHtml,
+  };
+}
+
+function parseQuestionTopics() {
+  const files = readMDFilesRecursive(QUESTION_DIR)
+    .filter(f => !/00_问题专题库总览\.md$/.test(f))
+    .sort()
+    .reverse();
+  return files.map(parseQuestionTopic);
+}
+
 function buildArchitectureLayers(nodes) {
   const layers = [
     ['能源与算力', /能源|算力|GPU|NPU|智算|数据中心|Token工厂/i],
@@ -345,6 +451,7 @@ function build() {
   const today = dailies[0] || { date: '', items: [], judgments: [] };
   const weeklyReview = parseWeeklyReview();
   const architectureLayers = buildArchitectureLayers(graph.nodes);
+  const questionTopics = parseQuestionTopics();
 
   const data = {
     generatedAt: graph.generatedAt,
@@ -364,6 +471,7 @@ function build() {
     dailies,
     weeklyReview,
     architectureLayers,
+    questionTopics,
   };
 
   // 拆分：data.js 只放元数据（不含正文，首屏秒开），docs.js 放正文（延迟加载）
@@ -376,10 +484,15 @@ function build() {
     const { files, ...meta } = t;
     return { ...meta, count: files ? files.length : 0 };
   });
+  dataLight.questionTopics = dataLight.questionTopics.map(q => {
+    const { contentHtml, ...meta } = q;
+    return meta;
+  });
 
   // 正文映射：path -> contentHtml
   const docsMap = {};
   data.nodes.forEach(n => { docsMap[n.path] = n.contentHtml || ''; });
+  data.questionTopics.forEach(q => { docsMap[q.path] = q.contentHtml || ''; });
 
   // 写 data.js（轻数据）
   const js = 'window.OBSIDIAN_DATA = ' + JSON.stringify(dataLight, null, 1) + ';';
@@ -398,6 +511,7 @@ function build() {
     todayJudgments: today.judgments.length,
     dailyFiles: dailies.length,
     totalNodes: graph.nodes.length,
+    questionTopics: questionTopics.length,
   };
   console.log('✅ 生成完成:', JSON.stringify(stats, null, 2));
 }

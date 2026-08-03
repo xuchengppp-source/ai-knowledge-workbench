@@ -1072,16 +1072,26 @@ function renderDesktopToday() {
   var layers = OBSIDIAN_DATA.architectureLayers || [];
   var gaps = layers.filter(function(l){ return l.status === '待补齐'; });
   var forming = layers.filter(function(l){ return l.status === '正在形成'; });
-  var h = '<div class="desktop-page"><nav class="desktop-nav"><div class="desktop-brand"><h1>徐总的知识库</h1><p>个人 AI 知识工作台<br>Obsidian · Codex · 成长视图</p></div><div class="desktop-nav-item active">⌂ 总览<span>AI 知识体系全貌</span></div><div class="desktop-nav-item" onclick="switchTab(\'topic\')">▤ 知识地图<span>三大主线与上下游关系</span></div><div class="desktop-nav-item" onclick="switchTab(\'fav\')">☆ 架构复盘<span>缺口、断点与结构变化</span></div><div class="desktop-nav-item" onclick="switchTab(\'me\')">◉ 未来建设<span>下一阶段学习路线</span></div><div class="desktop-nav-item" onclick="showDailyDetail()">◷ 每日增量<span>今天发生了什么</span></div></nav><main class="desktop-main">';
+  var h = '<div class="desktop-page"><nav class="desktop-nav"><div class="desktop-brand"><h1>徐总的知识库</h1><p>个人 AI 知识工作台<br>Obsidian · Codex · 成长视图</p></div><div class="desktop-nav-item active">⌂ 总览<span>AI 知识体系全貌</span></div><div class="desktop-nav-item" onclick="switchTab(\'topic\')">▤ 知识地图<span>三大主线与上下游关系</span></div><div class="desktop-nav-item" onclick="showQuestionHub()">？ 问题专题<span>提问如何串联知识</span></div><div class="desktop-nav-item" onclick="switchTab(\'fav\')">☆ 架构复盘<span>缺口、断点与结构变化</span></div><div class="desktop-nav-item" onclick="switchTab(\'me\')">◉ 未来建设<span>下一阶段学习路线</span></div><div class="desktop-nav-item" onclick="showDailyDetail()">◷ 每日增量<span>今天发生了什么</span></div></nav><main class="desktop-main">';
   h += '<div class="desktop-hero"><div class="eyebrow">徐总的知识库 · Codex AI 梳理视图</div><h2>把 AI 从上游能力，拉通到 Agent 工程和客户结果</h2><p>工作台不是 Obsidian 的镜像。它根据 Obsidian 的专题、正文和链接，重新组织你的个人 AI 知识体系，告诉你当前形成了什么、哪里断开了、下一步该补什么。</p><div class="desktop-search"><input id="desktop-query" placeholder="搜索知识，或问：Token 工厂和 Agent 有什么关系？" onkeydown="handleKnowledgeSearch(event)"><button class="primary" onclick="runKnowledgeSearch()">搜索知识</button><button onclick="askKnowledge()">问知识库</button></div><div class="desktop-source">最新编译：'+OBSIDIAN_GRAPH.generatedTime+' · 真实节点 '+OBSIDIAN_GRAPH.nodes.length+' 个 · 来源：Obsidian</div></div>';
   h += '<section class="desktop-section"><div class="desktop-section-title"><h3>三大知识主线</h3><span>基础设施 → 工程系统 → 客户落地</span></div><div class="pillar-grid">';
   topics.forEach(function(t){ var g=OBSIDIAN_DATA.topics.find(function(x){return x.key===t.key;}) || {count:0}; h += '<div class="pillar-card" onclick="openTopic('+(['agent','enterprise','infrastructure'].indexOf(t.key))+')"><h4>'+t.name+'</h4><p>'+t.desc+'</p><span class="pc-link">'+g.count+' 个真实节点 · 查看体系 ›</span></div>'; });
   h += '</div></section>';
   h += '<section class="desktop-section"><div class="desktop-section-title"><h3>当前 AI 上下游路径</h3><span>Codex 根据三大主线重新组织</span></div><div class="desktop-panel"><div class="desktop-route"><div class="route-node"><b>基础设施</b><span>能源、算力中心、模型与 Token 服务</span></div><div class="route-arrow">→</div><div class="route-node"><b>工程系统</b><span>Runtime、Tool、State、RAG、治理与评测</span></div><div class="route-arrow">→</div><div class="route-node"><b>客户落地</b><span>FDE、业务流程、验收、ROI 与商业化</span></div></div><div class="bridge" style="margin-top:14px"><b>这条路径解决的问题</b><span>AI 能力从哪里来 → 怎样变成可托付的系统 → 如何进入客户业务产生结果</span></div></div></section>';
+  var questions = OBSIDIAN_DATA.questionTopics || [];
+  h += '<section class="desktop-section"><div class="desktop-section-title"><h3>徐总的问题专题库</h3><span>把真实提问变成可复用的知识专题</span></div><div class="desktop-panel">';
+  if (questions.length) {
+    questions.slice(0,3).forEach(function(q){ h += '<div class="bridge" style="cursor:pointer" onclick="openQuestionTopicByPath(\''+q.path.replace(/'/g,"\\'")+'\')"><b>'+q.title+'</b><span>'+q.summary+'</span><span style="color:var(--blue);margin-top:6px;">'+q.category+' · '+q.status+' · '+q.formalNotes.length+' 条正式笔记关联</span></div>'; });
+    h += '<div class="pc-link" style="margin-top:12px;cursor:pointer" onclick="showQuestionHub()">查看全部问题专题 ›</div>';
+  } else {
+    h += '<p>暂无问题专题。后续通过 OpenClaw、微信或 Codex 提出的综合问题，可以沉淀为这里的学习入口。</p>';
+  }
+  h += '</div></section>';
   h += '<section class="desktop-section"><div class="desktop-section-title"><h3>最近知识变化</h3><span>从每日整理和周复盘汇总</span></div><div class="desktop-timeline"><div class="timeline-card"><b>今日新增</b><p>来自 Obsidian 每日 AI 知识增量整理的 '+((OBSIDIAN_DATA.today||{}).items||[]).length+' 条内容。</p></div><div class="timeline-card"><b>本周变化</b><p>本周更新 '+(OBSIDIAN_GRAPH.weeklyPages||0)+' 个页面，链接网络发生 '+(OBSIDIAN_GRAPH.weeklyChanges||0)+' 条变化。</p></div><div class="timeline-card"><b>下一步</b><p>先补评测、可观测性、安全权限和多 Agent 协作，再连接企业结果评价。</p></div></div></section>';
   h += '</main><aside class="desktop-side">';
   h += '<div class="desktop-panel"><h3>当前知识架构状态</h3><p>已形成 '+layers.filter(function(l){return l.status==='已形成';}).length+' 层 · 正在形成 '+forming.length+' 层 · 待补齐 '+gaps.length+' 层</p><div style="margin-top:10px">'+layers.slice(0,7).map(function(l){return '<div class="gap-item"><b>'+l.name+'</b><span>'+l.status+'</span></div>';}).join('')+'</div><div class="pc-link" style="margin-top:12px;cursor:pointer" onclick="switchTab(\'fav\')">进入架构复盘 ›</div></div>';
   h += '<div class="desktop-panel"><h3>未来建设重点</h3><div class="gap-item"><b>评测与可观测性</b><span>待补齐</span></div><div class="gap-item"><b>安全权限与责任链</b><span>待补链</span></div><div class="gap-item"><b>多 Agent 协作</b><span>待建设</span></div><div class="gap-item"><b>企业结果评价</b><span>待建设</span></div><div class="pc-link" style="margin-top:12px;cursor:pointer" onclick="switchTab(\'me\')">查看建设路线 ›</div></div>';
+  h += '<div class="desktop-panel" style="cursor:pointer" onclick="showQuestionHub()"><h3>问题驱动层</h3><p>已沉淀 '+questions.length+' 个问题专题。它负责回答“我提出的问题，如何把 Obsidian 的多篇知识串成一个判断框架”。</p><div class="pc-link" style="margin-top:12px;">进入问题专题库 ›</div></div>';
   var w=OBSIDIAN_DATA.weeklyReview; if(w) h += '<div class="desktop-panel" style="cursor:pointer" onclick="showWeeklyReview()"><h3>本周架构变化</h3><p>'+w.change+'</p><div class="pc-link">查看完整周复盘 ›</div></div>';
   h += '</aside></div>';
   return h;
@@ -1093,6 +1103,8 @@ function renderTopic() {
   h += '<div class="head-row"><div class="title"><span class="back" onclick="returnToWorkspace()">‹</span>学习地图<span class="sub-line">Obsidian 专题与链接关系</span></div><div class="avatar" style="background:linear-gradient(135deg,#7C3AED,#2563EB);">图</div></div>';
   h += '<div class="searchbar"><span class="s-ic">⌕</span><input id="knowledge-query" placeholder="搜索能力、术语、案例…" onkeydown="handleKnowledgeSearch(event)"></div>';
   h += '<div class="path-note"><strong>当前学习主线：生产级 AI Agent</strong><span>从业务对象 → 流程状态 → 数据知识 → 工具执行 → 人审评测，逐步形成可交付能力。</span></div>';
+  var questions = OBSIDIAN_DATA.questionTopics || [];
+  h += '<div class="topic-card" onclick="showQuestionHub()"><div class="t-ic enterprise">？</div><div class="t-body"><h3>徐总的问题专题库</h3><div class="t-meta">'+questions.length+' 个问题专题 · 用提问串联 Obsidian 知识</div><div class="t-bar"><i class="b2"></i></div></div><div class="t-arrow">›</div></div>';
   h += '<div class="topic-card" onclick="openTopic(0)"><div class="t-ic agent">🤖</div><div class="t-body"><h3>AI Agent 工程知识</h3><div class="t-meta">'+agentTopic.count+' 篇 · '+graphNodes('AI Agent工程知识').length+' 个核心节点 · 更新 '+graphNodes('AI Agent工程知识').map(function(n){return n.updated;}).sort().slice(-1)[0]+'</div><div class="t-bar"><i class="b1"></i></div></div><div class="t-arrow">›</div></div>';
   h += '<div class="topic-card" onclick="openTopic(1)"><div class="t-ic enterprise">🏢</div><div class="t-body"><h3>企业 AI 与智能体商业化</h3><div class="t-meta">'+enterpriseTopic.count+' 篇 · '+graphNodes('企业AI与智能体商业化').length+' 个核心节点 · 更新 '+graphNodes('企业AI与智能体商业化').map(function(n){return n.updated;}).sort().slice(-1)[0]+'</div><div class="t-bar"><i class="b2"></i></div></div><div class="t-arrow">›</div></div>';
   h += '<div class="topic-card" onclick="openTopic(2)"><div class="t-ic enterprise">⚡</div><div class="t-body"><h3>AI 产业链与数字基础设施</h3><div class="t-meta">'+infraTopic.count+' 篇 · '+graphNodes('AI产业链与数字基础设施').length+' 个核心节点 · 与 Agent 交叉连接</div><div class="t-bar"><i class="b2"></i></div></div><div class="t-arrow">›</div></div>';
@@ -1142,6 +1154,44 @@ function renderMe() {
   h += '<div class="set-item"><span class="s-ic">❓</span>关于工作台<span class="s-val">v1.0</span><span class="s-arrow">›</span></div>';
   h += '</div></div>';
   return h;
+}
+
+function showQuestionHub(){
+  var questions = OBSIDIAN_DATA.questionTopics || [];
+  var h = '<div class="page">';
+  h += '<div class="head-row"><div class="title"><span class="back" onclick="returnToWorkspace()">‹</span>问题专题库<span class="sub-line">把一次提问沉淀成可复用的知识串联</span></div><div class="avatar">问</div></div>';
+  h += '<div class="review-box"><h4>这一层负责什么</h4><p>问题专题不是 Obsidian 原文列表，而是把“你问过的问题”作为入口，反向串联正式笔记、原始资料、判断框架、待蒸馏项和下一步追问。</p></div>';
+  h += '<div class="sec-title">已沉淀问题 <span class="more">'+questions.length+' 条</span></div>';
+  if (questions.length) {
+    questions.forEach(function(q){
+      h += '<div class="state-card" style="cursor:pointer;margin:10px 0" onclick="openQuestionTopicByPath(\''+q.path.replace(/'/g,"\\'")+'\')"><div class="state-head"><b>'+escapeHtml(q.title)+'</b><span class="state-badge">'+escapeHtml(q.status)+'</span></div><p>'+escapeHtml(q.summary || q.direction || q.originalQuestion)+'</p><div class="source-line">'+escapeHtml(q.category)+' · '+escapeHtml(q.date)+' · 正式笔记 '+q.formalNotes.length+' 条 · 原始资料 '+q.rawMaterials.length+' 条</div></div>';
+    });
+  } else {
+    h += '<div class="fav-note">暂无问题专题。等 OpenClaw / Codex 产出符合规格的问题笔记后，重新编译工作台即可显示。</div>';
+  }
+  h += '</div>';
+  window._lastTab = currentTab;
+  document.getElementById('live-body').innerHTML = h;
+  document.getElementById('live-body').scrollTop = 0;
+}
+
+function openQuestionTopicByPath(path){
+  var q = (OBSIDIAN_DATA.questionTopics || []).find(function(x){ return x.path === path; });
+  if (!q) return;
+  var contentHtml = (window.OBSIDIAN_DOCS || {})[q.path] || '';
+  var h = '<div class="reader"><div class="reader-head"><span class="back" onclick="showQuestionHub()">‹</span><span class="rh-title">问题专题</span><span class="fav">☆</span></div>';
+  h += '<div class="reader-body"><div class="r-tag-row"><span class="tag amber">'+escapeHtml(q.category)+'</span><span class="tag green">'+escapeHtml(q.status)+'</span></div><h1>'+escapeHtml(q.title)+'</h1>';
+  h += '<div class="r-meta"><span>'+escapeHtml(q.date)+'</span><span>'+escapeHtml(q.questionType || '问题串联')+'</span><span>来源 Obsidian</span></div><div class="source-line">真实路径：'+escapeHtml(q.path)+'</div>';
+  h += '<div class="review-box"><h4>核心判断</h4><p>'+escapeHtml(q.summary || q.direction || q.originalQuestion)+'</p></div>';
+  if (q.formalNotes && q.formalNotes.length) h += '<h2>关联的正式笔记</h2><ul>'+q.formalNotes.map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
+  if (q.rawMaterials && q.rawMaterials.length) h += '<h2>关联的原始资料</h2><ul>'+q.rawMaterials.slice(0,6).map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
+  if (q.distillItems && q.distillItems.length) h += '<h2>待蒸馏项</h2><ul>'+q.distillItems.map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
+  if (q.nextQuestions && q.nextQuestions.length) h += '<h2>下一步可追问</h2><ul>'+q.nextQuestions.map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
+  if (contentHtml && contentHtml.length > 50) h += '<h2>完整问题笔记</h2><div class="reader-full">'+contentHtml+'</div>';
+  h += '</div><div class="reader-bottom"><div class="rb-btn done" onclick="showQuestionHub()">返回问题库</div></div></div>';
+  window._lastTab = currentTab;
+  document.getElementById('live-body').innerHTML = h;
+  document.getElementById('live-body').scrollTop = 0;
 }
 
 function openTopic(idx){
