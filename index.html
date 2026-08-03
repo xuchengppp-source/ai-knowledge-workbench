@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>徐总的知识库 · AI 知识成长视图</title>
+<link rel="icon" href="data:,">
 <style>
   /* ========== 全局 ========== */
   :root {
@@ -1164,7 +1165,7 @@ function showQuestionHub(){
   h += '<div class="sec-title">已沉淀问题 <span class="more">'+questions.length+' 条</span></div>';
   if (questions.length) {
     questions.forEach(function(q){
-      h += '<div class="state-card" style="cursor:pointer;margin:10px 0" onclick="openQuestionTopicByPath(\''+q.path.replace(/'/g,"\\'")+'\')"><div class="state-head"><b>'+escapeHtml(q.title)+'</b><span class="state-badge">'+escapeHtml(q.status)+'</span></div><p>'+escapeHtml(q.summary || q.direction || q.originalQuestion)+'</p><div class="source-line">'+escapeHtml(q.category)+' · '+escapeHtml(q.date)+' · 正式笔记 '+q.formalNotes.length+' 条 · 原始资料 '+q.rawMaterials.length+' 条</div></div>';
+      h += '<div class="state-card" style="cursor:pointer;margin:10px 0" onclick="openQuestionTopicByPath(\''+q.path.replace(/'/g,"\\'")+'\')"><div class="state-head"><b>'+escapeHtml(q.title)+'</b><span class="state-badge">'+escapeHtml(q.status)+'</span></div><p>'+escapeHtml(q.direction || q.originalQuestion || q.summary)+'</p><div class="source-line">'+escapeHtml(q.category)+' · '+escapeHtml(q.date)+' · 下一步追问 '+q.nextQuestions.length+' 个</div></div>';
     });
   } else {
     h += '<div class="fav-note">暂无问题专题。等 OpenClaw / Codex 产出符合规格的问题笔记后，重新编译工作台即可显示。</div>';
@@ -1182,12 +1183,16 @@ function openQuestionTopicByPath(path){
   var h = '<div class="reader"><div class="reader-head"><span class="back" onclick="showQuestionHub()">‹</span><span class="rh-title">问题专题</span><span class="fav">☆</span></div>';
   h += '<div class="reader-body"><div class="r-tag-row"><span class="tag amber">'+escapeHtml(q.category)+'</span><span class="tag green">'+escapeHtml(q.status)+'</span></div><h1>'+escapeHtml(q.title)+'</h1>';
   h += '<div class="r-meta"><span>'+escapeHtml(q.date)+'</span><span>'+escapeHtml(q.questionType || '问题串联')+'</span><span>来源 Obsidian</span></div><div class="source-line">真实路径：'+escapeHtml(q.path)+'</div>';
-  h += '<div class="review-box"><h4>核心判断</h4><p>'+escapeHtml(q.summary || q.direction || q.originalQuestion)+'</p></div>';
-  if (q.formalNotes && q.formalNotes.length) h += '<h2>关联的正式笔记</h2><ul>'+q.formalNotes.map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
-  if (q.rawMaterials && q.rawMaterials.length) h += '<h2>关联的原始资料</h2><ul>'+q.rawMaterials.slice(0,6).map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
-  if (q.distillItems && q.distillItems.length) h += '<h2>待蒸馏项</h2><ul>'+q.distillItems.map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
+  h += '<div class="review-box"><h4>我这次到底在问什么</h4><p>'+escapeHtml(q.direction || q.originalQuestion || '这条问题笔记暂未提取到提问方向。')+'</p></div>';
+  if (q.originalQuestion) h += '<h2>原始提问</h2><blockquote>'+escapeHtml(q.originalQuestion)+'</blockquote>';
+  h += '<h2>回答框架</h2><div class="review-box"><h4>核心回答</h4><p>'+escapeHtml(q.summary || '这条问题笔记暂未提取到回答摘要。')+'</p></div>';
   if (q.nextQuestions && q.nextQuestions.length) h += '<h2>下一步可追问</h2><ul>'+q.nextQuestions.map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
-  if (contentHtml && contentHtml.length > 50) h += '<h2>完整问题笔记</h2><div class="reader-full">'+contentHtml+'</div>';
+  if (q.distillItems && q.distillItems.length) h += '<h2>下一步沉淀动作</h2><ul>'+q.distillItems.map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
+  h += '<h2>资料依据</h2><details class="review-box"><summary>展开关联正式笔记和原始资料</summary>';
+  if (q.formalNotes && q.formalNotes.length) h += '<h3>关联的正式笔记</h3><ul>'+q.formalNotes.map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
+  if (q.rawMaterials && q.rawMaterials.length) h += '<h3>关联的原始资料</h3><ul>'+q.rawMaterials.slice(0,6).map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
+  h += '</details>';
+  if (contentHtml && contentHtml.length > 50) h += '<details class="review-box"><summary>展开完整 Obsidian 问题笔记</summary><div class="reader-full">'+contentHtml+'</div></details>';
   h += '</div><div class="reader-bottom"><div class="rb-btn done" onclick="showQuestionHub()">返回问题库</div></div></div>';
   window._lastTab = currentTab;
   document.getElementById('live-body').innerHTML = h;
