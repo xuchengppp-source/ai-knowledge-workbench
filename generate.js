@@ -335,8 +335,10 @@ function parseQuestionTopic(filePath) {
   const categoryFromPath = rel.split('/')[1] || frontmatterValue(raw, '所属分类') || '未分类';
   const status = frontmatterValue(raw, '状态') || '已回答';
   const questionType = frontmatterValue(raw, '问题类型') || '';
-  const answer = sectionText(raw, '我的回答（核心结构）') || sectionText(raw, '回答摘要');
+  const answer = sectionText(raw, '我的回答（核心结构）') || sectionText(raw, '我的回答') || sectionText(raw, '回答摘要');
   const summary = stripMd(answer || direction || originalQuestion || base.desc, 180);
+  const directionHtml = mdToHtml(direction);
+  const answerHtml = mdToHtml(answer);
 
   return {
     path: base.path,
@@ -348,7 +350,9 @@ function parseQuestionTopic(filePath) {
     questionType,
     originalQuestion: stripMd(originalQuestion, 260),
     direction: stripMd(direction, 260),
+    directionHtml,
     summary,
+    answerHtml,
     formalNotes: formalNotes.map(x => x.replace(/^\[\[|\]\]$/g, '')).slice(0, 10),
     rawMaterials: rawMaterials.map(x => x.replace(/^\[\[|\]\]$/g, '')).slice(0, 10),
     distillItems,

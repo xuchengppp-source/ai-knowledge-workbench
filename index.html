@@ -1183,9 +1183,9 @@ function openQuestionTopicByPath(path){
   var h = '<div class="reader"><div class="reader-head"><span class="back" onclick="showQuestionHub()">‹</span><span class="rh-title">问题专题</span><span class="fav">☆</span></div>';
   h += '<div class="reader-body"><div class="r-tag-row"><span class="tag amber">'+escapeHtml(q.category)+'</span><span class="tag green">'+escapeHtml(q.status)+'</span></div><h1>'+escapeHtml(q.title)+'</h1>';
   h += '<div class="r-meta"><span>'+escapeHtml(q.date)+'</span><span>'+escapeHtml(q.questionType || '问题串联')+'</span><span>来源 Obsidian</span></div><div class="source-line">真实路径：'+escapeHtml(q.path)+'</div>';
-  h += '<div class="review-box"><h4>我这次到底在问什么</h4><p>'+escapeHtml(q.direction || q.originalQuestion || '这条问题笔记暂未提取到提问方向。')+'</p></div>';
+  h += '<div class="review-box"><h4>我这次到底在问什么</h4>'+(q.directionHtml || '<p>'+escapeHtml(q.direction || q.originalQuestion || '这条问题笔记暂未提取到提问方向。')+'</p>')+'</div>';
   if (q.originalQuestion) h += '<h2>原始提问</h2><blockquote>'+escapeHtml(q.originalQuestion)+'</blockquote>';
-  h += '<h2>回答框架</h2><div class="review-box"><h4>核心回答</h4><p>'+escapeHtml(q.summary || '这条问题笔记暂未提取到回答摘要。')+'</p></div>';
+  h += '<h2>回答框架</h2><div class="reader-full">'+(q.answerHtml || '<div class="review-box"><h4>核心回答</h4><p>'+escapeHtml(q.summary || '这条问题笔记暂未提取到回答摘要。')+'</p></div>')+'</div>';
   if (q.nextQuestions && q.nextQuestions.length) h += '<h2>下一步可追问</h2><ul>'+q.nextQuestions.map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
   if (q.distillItems && q.distillItems.length) h += '<h2>下一步沉淀动作</h2><ul>'+q.distillItems.map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
   h += '<h2>资料依据</h2><details class="review-box"><summary>展开关联正式笔记和原始资料</summary>';
