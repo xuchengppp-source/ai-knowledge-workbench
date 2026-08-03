@@ -319,9 +319,10 @@ function parseQuestionTopic(filePath) {
   const rel = path.relative(VAULT, filePath).replace(/\\/g, '/');
   const originalQuestion = sectionText(raw, '原始提问') || sectionText(raw, '原始提问（逐字保留）');
   const direction = sectionText(raw, '提问方向') || sectionText(raw, '提问方向（徐总真正在问什么）');
-  const formalNotes = sectionText(raw, '关联的正式笔记')
+  const appendix = sectionText(raw, '关联笔记 / 原始资料') || sectionText(raw, '关联笔记');
+  const formalNotes = (sectionText(raw, '关联的正式笔记') || appendix)
     .match(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]/g) || [];
-  const rawMaterials = sectionText(raw, '关联的原始资料')
+  const rawMaterials = (sectionText(raw, '关联的原始资料') || appendix)
     .match(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]/g) || [];
   const distillItems = sectionText(raw, '待蒸馏项').split('\n')
     .map(l => l.trim())
@@ -333,9 +334,21 @@ function parseQuestionTopic(filePath) {
     .filter(Boolean)
     .slice(0, 8);
   const categoryFromPath = rel.split('/')[1] || frontmatterValue(raw, '所属分类') || '未分类';
-  const status = frontmatterValue(raw, '状态') || '已回答';
+  const status = frontmatterValue(raw, '状态') || frontmatterValue(raw, 'status') || '已回答';
   const questionType = frontmatterValue(raw, '问题类型') || '';
-  const answer = sectionText(raw, '我的回答（核心结构）') || sectionText(raw, '我的回答') || sectionText(raw, '回答摘要');
+  const answerSections = [
+    ['我的回答（微信原文版）', '微信原文版'],
+    ['我的回答（结构化提炼版）', '结构化提炼版'],
+    ['可复用框架 / 下一步验证', '可复用框架 / 下一步验证'],
+  ]
+    .map(([heading, label]) => {
+      const text = sectionText(raw, heading);
+      return text ? `## ${label}\n\n${text}` : '';
+    })
+    .filter(Boolean);
+  const answer = answerSections.length
+    ? answerSections.join('\n\n')
+    : (sectionText(raw, '我的回答（核心结构）') || sectionText(raw, '我的回答') || sectionText(raw, '回答摘要'));
   const summary = stripMd(answer || direction || originalQuestion || base.desc, 180);
   const directionHtml = mdToHtml(direction);
   const answerHtml = mdToHtml(answer);
