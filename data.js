@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-03",
- "generatedTime": "2026-08-03 16:08",
+ "generatedTime": "2026-08-03 16:21",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 81,
  "weeklyChanges": 825,
@@ -2819,6 +2819,29 @@ window.OBSIDIAN_DATA = {
     "原始资料/待整理｜2026-08-03｜抖音豆包｜味精公司砸6亿搞算力一台没摸到"
    ],
    "wordCount": 6455
+  },
+  {
+   "path": "徐总问题专题库/00_搭建机制与角色分工.md",
+   "title": "徐总问题专题库｜搭建机制与角色分工",
+   "date": "2026-08-03",
+   "updated": "2026-08-03",
+   "category": "搭建机制与角色分工.md",
+   "status": "已搭建",
+   "questionType": "",
+   "originalQuestion": "",
+   "direction": "",
+   "directionHtml": "",
+   "summary": "上级：徐总问题专题库/00问题专题库总览、全局记忆/11Obsidian知识库协作与Skills使用规则",
+   "answerHtml": "",
+   "formalNotes": [],
+   "rawMaterials": [],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "徐总问题专题库/00_问题专题库总览",
+    "全局记忆/11_Obsidian知识库协作与Skills使用规则"
+   ],
+   "wordCount": 2998
   }
  ]
 };

@@ -91,6 +91,17 @@ function stripMd(text, maxLen) {
   return maxLen ? clean.slice(0, maxLen) : clean;
 }
 
+function updateAssetVersions(outDir, version) {
+  ['index.html', 'mobile.html'].forEach(file => {
+    const full = path.join(outDir, file);
+    if (!fs.existsSync(full)) return;
+    const html = fs.readFileSync(full, 'utf-8')
+      .replace(/<script src="data\.js(?:\?v=[^"]*)?"><\/script>/, `<script src="data.js?v=${version}"></script>`)
+      .replace(/<script src="docs\.js(?:\?v=[^"]*)?" defer><\/script>/, `<script src="docs.js?v=${version}" defer></script>`);
+    fs.writeFileSync(full, html, 'utf-8');
+  });
+}
+
 function parseMD(filePath) {
   const raw = fs.readFileSync(filePath, 'utf-8');
   const rel = path.relative(VAULT, filePath).replace(/\\/g, '/');
@@ -518,6 +529,10 @@ function build() {
   // 写 docs.js（正文，延迟加载）
   const docsJs = 'window.OBSIDIAN_DOCS = ' + JSON.stringify(docsMap) + ';';
   fs.writeFileSync(path.join(OUT_DIR, 'docs.js'), docsJs, 'utf-8');
+
+  // 更新页面脚本版本号，避免手机浏览器继续使用旧 data.js / docs.js 缓存
+  const assetVersion = data.generatedTime.replace(/\D/g, '');
+  updateAssetVersions(OUT_DIR, assetVersion);
 
   // 汇总统计
   const stats = {

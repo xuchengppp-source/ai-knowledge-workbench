@@ -402,7 +402,7 @@
     position: sticky; bottom: 0;
     background: rgba(255,255,255,0.98); backdrop-filter: blur(10px);
     border-top: 1px solid var(--line);
-    display: flex; gap: 10px; padding: 12px 16px;
+    display: flex; gap: 10px; padding: 12px 16px calc(14px + env(safe-area-inset-bottom));
   }
   .reader-bottom .rb-btn {
     flex: 1; border-radius: 14px; padding: 11px 0; text-align: center;
@@ -507,11 +507,13 @@
     width: auto; height: 44px; max-width: none; margin: 0; padding: 0 24px 8px;
   }
   body.mobile-app #live-app .app-body {
-    width: auto; max-width: none; margin: 0; padding: 0 0 92px;
+    width: auto; max-width: none; margin: 0; padding: 0 0 calc(118px + env(safe-area-inset-bottom));
   }
   body.mobile-app #live-app .tabbar-wrap {
     display: block;
-    left: 0; right: 0; transform: none; width: auto; bottom: 0;
+    left: 0; right: 0; transform: none; width: auto;
+    bottom: max(14px, env(safe-area-inset-bottom));
+    padding: 8px 16px 0;
   }
   body.mobile-app #live-app .tabbar { padding: 5px; box-shadow: 0 10px 30px rgba(30,58,95,0.12); }
   body.mobile-app #live-app .tabbar .t { font-size: 10px; }
@@ -918,8 +920,8 @@
   </div>
 </div>
 
-<script src="data.js"></script>
-<script src="docs.js" defer></script>
+<script src="data.js?v=202608031621"></script>
+<script src="docs.js?v=202608031621" defer></script>
 <script>
 var OBSIDIAN_GRAPH = window.OBSIDIAN_DATA || { generatedAt:"", sourceIndex:"", digest:"", topics:[], nodes:[] };
 
@@ -1199,6 +1201,7 @@ function showQuestionHub(){
   h += '</div>';
   window._lastTab = currentTab;
   document.getElementById('live-body').innerHTML = h;
+  setReadingMode(false);
   document.getElementById('live-body').scrollTop = 0;
 }
 
@@ -1222,6 +1225,7 @@ function openQuestionTopicByPath(path){
   h += '</div><div class="reader-bottom"><div class="rb-btn done" onclick="showQuestionHub()">返回问题库</div></div></div>';
   window._lastTab = currentTab;
   document.getElementById('live-body').innerHTML = h;
+  setReadingMode(true);
   document.getElementById('live-body').scrollTop = 0;
 }
 
@@ -1241,6 +1245,7 @@ function openTopic(idx){
   });
   h += '</div>';
   document.getElementById('live-body').innerHTML = h;
+  setReadingMode(false);
   document.getElementById('live-body').scrollTop = 0;
 }
 
@@ -1270,6 +1275,7 @@ function openGraphNode(n){
   h += '</div><div class="reader-bottom"><div class="rb-btn ai" onclick="showAiInterpretation(\''+n.path.replace(/'/g,"\\'")+'\')">✨ AI 怎么学</div><div class="rb-btn done" onclick="historyBack()">返回地图</div></div></div>';
   window._lastTab = currentTab;
   document.getElementById('live-body').innerHTML = h;
+  setReadingMode(true);
   document.getElementById('live-body').scrollTop = 0;
 }
 
@@ -1297,6 +1303,7 @@ function showAiInterpretation(path){
   var h = '<div class="reader"><div class="reader-head"><span class="back" onclick="historyBack()">‹</span><span class="rh-title">AI 学习建议</span><span class="fav">☆</span></div><div class="reader-body"><div class="r-tag-row"><span class="tag agent">AI 编排</span><span class="tag amber">基于 Obsidian 链接</span></div><h1>怎样把「'+n.title+'」学进去</h1><div class="review-box"><h4>第一步：先定位</h4><p>这篇内容属于 '+(n.topic==='agent'?'AI Agent 工程':n.topic==='enterprise'?'企业 AI 与智能体商业化':'AI 产业链与数字基础设施')+' 主线，当前有 '+n.links.length+' 条出链和 '+n.backlinks.length+' 条反向链接。不要孤立记忆，先理解它在知识网络中的位置。</p></div><h2>第二步：沿关系继续</h2><ol>'+(related.length ? related.map(function(r){ return '<li><b>'+r.label+'：'+r.node.title+'</b><br><span>'+r.reason+'</span></li>'; }).join('') : '<li>暂时没有足够关联，先回到专题地图查看邻近节点。</li>')+'</ol><h2>第三步：完成一次复盘</h2><ul><li>它解决了哪个问题？</li><li>它和哪一个已有概念形成了因果或上下游关系？</li><li>如果放到你的 AI Agent 或企业 AI 项目里，下一步能转成什么动作？</li></ul><div class="review-box"><h4>学习闭环</h4><p>理解当前页 → 点击一个推荐节点 → 用自己的项目举例 → 回到 Obsidian 正式专题沉淀。</p></div></div><div class="reader-bottom"><div class="rb-btn done" onclick="historyBack()">返回知识节点</div></div></div>';
   window._lastTab = currentTab;
   document.getElementById('live-body').innerHTML = h;
+  setReadingMode(true);
   document.getElementById('live-body').scrollTop = 0;
 }
 
@@ -1314,6 +1321,7 @@ function openDailyItem(idx){
   h += '</div><div class="reader-bottom"><div class="rb-btn done" onclick="historyBack()">返回今日</div></div></div>';
   window._lastTab = currentTab;
   document.getElementById('live-body').innerHTML = h;
+  setReadingMode(true);
   document.getElementById('live-body').scrollTop = 0;
 }
 
@@ -1338,6 +1346,7 @@ function showDailyDetail(){
   h += '</div><div class="reader-bottom"><div class="rb-btn done" onclick="historyBack()">返回今日</div></div></div>';
   window._lastTab = currentTab;
   document.getElementById('live-body').innerHTML = h;
+  setReadingMode(true);
   document.getElementById('live-body').scrollTop = 0;
 }
 
@@ -1350,6 +1359,7 @@ function showWeeklyReview(){
   h += '<div class="reader-bottom"><div class="rb-btn done" onclick="historyBack()">返回今日</div></div></div>';
   window._lastTab = currentTab;
   document.getElementById('live-body').innerHTML = h;
+  setReadingMode(true);
   document.getElementById('live-body').scrollTop = 0;
 }
 
@@ -1362,6 +1372,7 @@ function openDoc(key){
   h += '</div>';
   window._lastTab = currentTab;
   document.getElementById('live-body').innerHTML = h;
+  setReadingMode(true);
   document.getElementById('live-body').scrollTop = 0;
 }
 
@@ -1369,11 +1380,17 @@ function markRead(){ alert('已标记为已读 ✓'); switchTab(window._lastTab 
 
 function returnToWorkspace(){ window._nodeReturn = null; switchTab('today'); }
 
+function setReadingMode(isReading){
+  var wrap = document.querySelector('#live-app .tabbar-wrap');
+  if (wrap) wrap.style.display = isReading ? 'none' : 'block';
+}
+
 function historyBack(){
   if (window._nodeReturn) {
     var view = window._nodeReturn;
     window._nodeReturn = null;
     document.getElementById('live-body').innerHTML = view.kind === 'search' ? renderSearchResults(view.query) : renderKnowledgeAnswer(view.query);
+    setReadingMode(false);
     document.getElementById('live-body').scrollTop = 0;
     return;
   }
@@ -1390,6 +1407,7 @@ function switchTab(tab){
   else if(tab==='topic') body.innerHTML = renderTopic();
   else if(tab==='fav') body.innerHTML = renderFav();
   else if(tab==='me') body.innerHTML = renderMe();
+  setReadingMode(false);
   body.scrollTop = 0;
 }
 
