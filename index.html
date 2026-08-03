@@ -953,7 +953,8 @@ function knowledgeMatches(query){
 
 function renderSearchResults(query){
   var results = knowledgeMatches(query);
-  var h = '<div class="page"><div class="head-row"><div class="title">知识搜索<span class="sub-line">在 Obsidian 的真实节点、专题和链接关系中定位</span></div></div>';
+  window._nodeReturn = {kind:'search', query:query, tab:currentTab};
+  var h = '<div class="page"><div class="head-row"><div class="title"><span class="back" onclick="returnToWorkspace()">‹</span>知识搜索<span class="sub-line">在 Obsidian 的真实节点、专题和链接关系中定位</span></div></div>';
   h += '<div class="searchbar"><span class="s-ic">⌕</span><input id="knowledge-query" value="'+escapeHtml(query)+'" placeholder="搜索能力、术语、案例…" onkeydown="handleKnowledgeSearch(event)"></div>';
   h += '<div class="path-note"><strong>搜索结果不是孤立文章</strong><span>打开一个节点后，可以继续沿出链、反向链接和推荐节点学习。</span></div>';
   h += '<div class="sec-title">'+(results.length ? '找到 '+results.length+' 个相关节点' : '暂时没有直接命中')+'</div>';
@@ -973,7 +974,8 @@ function renderKnowledgeAnswer(query){
   else if(/agent|mcp|runtime|rag|记忆|工具|状态|评测|权限/.test(lower)){ label='中游：AI Agent 工程知识'; answer='Agent 工程的关键不是模型会不会聊天，而是业务对象、流程状态、数据知识、工具执行、记忆上下文、权限、人审、评测和可观测性是否连成闭环。只有工程链完整，AI 才会从“能用”走向“可托付”。'; }
   else if(/客户|商业|fde|企业|落地|roi|业务|ontology/.test(lower)){ label='下游：企业 AI 与智能体商业化'; answer='企业落地要把客户业务对象化、流程化、责任化，再用 FDE 把模型、知识库、工具和治理组合成最小可验收闭环。最终评价不是模型多强，而是流程是否真的产生了可追踪的业务结果。'; }
   var evidence = knowledgeMatches(q).slice(0,3);
-  var h = '<div class="page"><div class="head-row"><div class="title">问知识库<span class="sub-line">回答来自当前 Obsidian 编译数据，不替代 Codex 深度整理</span></div></div>';
+  window._nodeReturn = {kind:'answer', query:q, tab:currentTab};
+  var h = '<div class="page"><div class="head-row"><div class="title"><span class="back" onclick="returnToWorkspace()">‹</span>问知识库<span class="sub-line">回答来自当前 Obsidian 编译数据，不替代 Codex 深度整理</span></div></div>';
   h += '<div class="searchbar"><span class="s-ic">⌕</span><input id="knowledge-query" value="'+escapeHtml(q)+'" placeholder="问一个关于知识体系的问题…" onkeydown="handleKnowledgeSearch(event)"></div>';
   h += '<div class="answer-box"><div class="eyebrow">'+label+'</div><h3>'+escapeHtml(q || 'AI 知识体系应该怎样理解？')+'</h3><p>'+answer+'</p></div>';
   h += '<div class="sec-title">建议继续查看</div>';
@@ -1284,7 +1286,18 @@ function openDoc(key){
 
 function markRead(){ alert('已标记为已读 ✓'); switchTab(window._lastTab || 'today'); }
 
-function historyBack(){ switchTab(window._lastTab || 'today'); }
+function returnToWorkspace(){ window._nodeReturn = null; switchTab(window._lastTab || 'today'); }
+
+function historyBack(){
+  if (window._nodeReturn) {
+    var view = window._nodeReturn;
+    window._nodeReturn = null;
+    document.getElementById('live-body').innerHTML = view.kind === 'search' ? renderSearchResults(view.query) : renderKnowledgeAnswer(view.query);
+    document.getElementById('live-body').scrollTop = 0;
+    return;
+  }
+  switchTab(window._lastTab || 'today');
+}
 
 var currentTab = 'today';
 function switchTab(tab){
