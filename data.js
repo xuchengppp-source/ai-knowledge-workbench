@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-08-02",
- "generatedTime": "2026-08-02 22:42",
+ "generatedAt": "2026-08-03",
+ "generatedTime": "2026-08-03 11:23",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 80,
  "weeklyChanges": 808,

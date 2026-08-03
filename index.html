@@ -1016,16 +1016,48 @@ function openGraphNodeByPath(p){
 
 function openGraphNode(n){
   n = n || OBSIDIAN_GRAPH.nodes[0];
-  var topicName = n.topic === 'agent' ? 'AI Agent' : (n.topic === 'enterprise' ? '企业 AI' : '专题');
+  var topicName = n.topic === 'agent' ? 'AI Agent' : (n.topic === 'enterprise' ? '企业 AI' : 'AI 基础设施');
   var wc = n.wordCount || 0;
   var readMin = wc > 0 ? Math.max(1, Math.round(wc / 400)) : '—';
   var h = '<div class="reader"><div class="reader-head"><span class="back" onclick="historyBack()">‹</span><span class="rh-title">知识节点</span><span class="fav">☆</span></div>';
   h += '<div class="reader-body"><div class="r-tag-row"><span class="tag '+(n.topic==='agent'?'agent':'enterprise')+'">'+topicName+'</span><span class="tag amber">'+n.updated+' · 更新</span></div><h1>'+n.title+'</h1><div class="r-meta"><span>⏱ 约 '+readMin+' 分钟</span><span>'+(wc>0?wc+' 字':'')+'</span><span>来源 Obsidian</span></div><div class="source-line">真实路径：'+n.path+'</div>';
   var contentHtml = (window.OBSIDIAN_DOCS || {})[n.path] || '';
+  var related = recommendNextNodes(n);
   h += (contentHtml && contentHtml.length > 50)
     ? '<div class="reader-full">'+contentHtml+'</div>'
     : '<div class="review-box"><h4>这个节点在知识网络中的位置</h4><p>出链 '+n.links.length+' 条 · 反向链接 '+n.backlinks.length+' 条。链接关系用于组织学习路径，不等同于阅读打卡状态。</p></div><h2>它连接到</h2><ul>'+n.links.slice(0,8).map(function(x){return '<li>'+x+'</li>';}).join('')+'</ul><h2>被这些节点连接</h2><ul>'+n.backlinks.slice(0,8).map(function(x){return '<li>'+x+'</li>';}).join('')+'</ul>';
-  h += '</div><div class="reader-bottom"><div class="rb-btn ai">✨ AI 摘要</div><div class="rb-btn done" onclick="historyBack()">返回地图</div></div></div>';
+  h += '<div class="review-box" style="margin-top:18px;"><h4>✨ AI 学习编排</h4><p>这篇内容不是终点。下面的推荐根据真实双向链接、共同专题和标题语义生成，帮助你从当前节点继续理解。</p></div><div class="related-list">';
+  if (related.length) related.forEach(function(r){ h += '<div class="state-card" style="cursor:pointer;margin:8px 0" onclick="openGraphNodeByPath(\''+r.node.path.replace(/'/g,"\\'")+'\')"><div class="state-head"><b>'+r.label+'</b><span class="state-badge">'+r.node.updated+'</span></div><p>'+r.reason+'</p></div>'; });
+  else h += '<div class="fav-note">暂时没有足够的链接关系，建议先回到专题地图补充关联。</div>';
+  h += '</div>';
+  h += '</div><div class="reader-bottom"><div class="rb-btn ai" onclick="showAiInterpretation(\''+n.path.replace(/'/g,"\\'")+'\')">✨ AI 怎么学</div><div class="rb-btn done" onclick="historyBack()">返回地图</div></div></div>';
+  window._lastTab = currentTab;
+  document.getElementById('live-body').innerHTML = h;
+  document.getElementById('live-body').scrollTop = 0;
+}
+
+function recommendNextNodes(current){
+  var links = current.links || [], backlinks = current.backlinks || [];
+  var candidates = OBSIDIAN_GRAPH.nodes.filter(function(n){ return n.path !== current.path; }).map(function(n){
+    var sharedLinks = links.filter(function(x){ return n.links.indexOf(x) >= 0; }).length;
+    var direct = links.indexOf(n.path) >= 0 || links.indexOf(n.title) >= 0 || backlinks.indexOf(n.path) >= 0;
+    var sameTopic = n.topic === current.topic;
+    var semantic = /基础|概念|术语|总览|框架|架构|方法论|工程|流程|治理|案例|商业化|部署|RAG|Ontology|Runtime|FDE/i.test(n.title);
+    var score = (direct ? 8 : 0) + sharedLinks * 3 + (sameTopic ? 2 : 0) + (semantic ? 1 : 0);
+    if (!score) return null;
+    var label = direct ? '直接相连 · 下一步' : (sameTopic ? '同一主线 · 补充理解' : '跨专题 · 建立连接');
+    var reason = direct ? '当前页面的 Obsidian 链接关系直接指向这里，适合顺着原作者的知识路径继续。' : (sharedLinks ? '与当前页面共享 '+sharedLinks+' 个关联节点，可以把两个概念放在同一张知识图里理解。' : '它和当前页面处于相近的知识主线，适合在读完当前内容后补齐背景或应用。');
+    return {node:n, score:score, label:label, reason:reason};
+  }).filter(Boolean).sort(function(a,b){ return b.score-a.score; });
+  var seen = {};
+  return candidates.filter(function(r){ if(seen[r.node.path]) return false; seen[r.node.path] = true; return true; }).slice(0,4);
+}
+
+function showAiInterpretation(path){
+  var n = OBSIDIAN_GRAPH.nodes.find(function(x){ return x.path === path; });
+  if (!n) return;
+  var related = recommendNextNodes(n);
+  var h = '<div class="reader"><div class="reader-head"><span class="back" onclick="historyBack()">‹</span><span class="rh-title">AI 学习建议</span><span class="fav">☆</span></div><div class="reader-body"><div class="r-tag-row"><span class="tag agent">AI 编排</span><span class="tag amber">基于 Obsidian 链接</span></div><h1>怎样把「'+n.title+'」学进去</h1><div class="review-box"><h4>第一步：先定位</h4><p>这篇内容属于 '+(n.topic==='agent'?'AI Agent 工程':n.topic==='enterprise'?'企业 AI 与智能体商业化':'AI 产业链与数字基础设施')+' 主线，当前有 '+n.links.length+' 条出链和 '+n.backlinks.length+' 条反向链接。不要孤立记忆，先理解它在知识网络中的位置。</p></div><h2>第二步：沿关系继续</h2><ol>'+(related.length ? related.map(function(r){ return '<li><b>'+r.label+'：'+r.node.title+'</b><br><span>'+r.reason+'</span></li>'; }).join('') : '<li>暂时没有足够关联，先回到专题地图查看邻近节点。</li>')+'</ol><h2>第三步：完成一次复盘</h2><ul><li>它解决了哪个问题？</li><li>它和哪一个已有概念形成了因果或上下游关系？</li><li>如果放到你的 AI Agent 或企业 AI 项目里，下一步能转成什么动作？</li></ul><div class="review-box"><h4>学习闭环</h4><p>理解当前页 → 点击一个推荐节点 → 用自己的项目举例 → 回到 Obsidian 正式专题沉淀。</p></div></div><div class="reader-bottom"><div class="rb-btn done" onclick="historyBack()">返回知识节点</div></div></div>';
   window._lastTab = currentTab;
   document.getElementById('live-body').innerHTML = h;
   document.getElementById('live-body').scrollTop = 0;
