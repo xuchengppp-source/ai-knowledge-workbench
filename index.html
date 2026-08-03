@@ -1090,7 +1090,7 @@ function renderDesktopToday() {
 function renderTopic() {
   var agentTopic = graphTopic('AI Agent工程知识'), enterpriseTopic = graphTopic('企业AI与智能体商业化'), infraTopic = graphTopic('AI产业链与数字基础设施');
   var h = '<div class="page">';
-  h += '<div class="head-row"><div class="title">学习地图<span class="sub-line">Obsidian 专题与链接关系</span></div><div class="avatar" style="background:linear-gradient(135deg,#7C3AED,#2563EB);">图</div></div>';
+  h += '<div class="head-row"><div class="title"><span class="back" onclick="returnToWorkspace()">‹</span>学习地图<span class="sub-line">Obsidian 专题与链接关系</span></div><div class="avatar" style="background:linear-gradient(135deg,#7C3AED,#2563EB);">图</div></div>';
   h += '<div class="searchbar"><span class="s-ic">⌕</span><input id="knowledge-query" placeholder="搜索能力、术语、案例…" onkeydown="handleKnowledgeSearch(event)"></div>';
   h += '<div class="path-note"><strong>当前学习主线：生产级 AI Agent</strong><span>从业务对象 → 流程状态 → 数据知识 → 工具执行 → 人审评测，逐步形成可交付能力。</span></div>';
   h += '<div class="topic-card" onclick="openTopic(0)"><div class="t-ic agent">🤖</div><div class="t-body"><h3>AI Agent 工程知识</h3><div class="t-meta">'+agentTopic.count+' 篇 · '+graphNodes('AI Agent工程知识').length+' 个核心节点 · 更新 '+graphNodes('AI Agent工程知识').map(function(n){return n.updated;}).sort().slice(-1)[0]+'</div><div class="t-bar"><i class="b1"></i></div></div><div class="t-arrow">›</div></div>';
@@ -1114,7 +1114,7 @@ function renderTopic() {
 
 function renderFav() {
   var h = '<div class="page">';
-  h += '<div class="head-row"><div class="title">架构复盘<span class="sub-line">不是复习文章，而是检查 AI 知识体系缺什么</span></div></div>';
+  h += '<div class="head-row"><div class="title"><span class="back" onclick="returnToWorkspace()">‹</span>架构复盘<span class="sub-line">不是复习文章，而是检查 AI 知识体系缺什么</span></div></div>';
   h += '<div class="review-box"><h4>本周复盘的核心问题</h4><p>当前知识库已经形成了哪些层？哪些层只是零散提及？下一阶段应该补哪一块，才能让 AI Agent 从“能用”走向“可托付”？</p></div>';
   var layers = OBSIDIAN_DATA.architectureLayers || [];
   h += '<div class="sec-title">当前 AI 知识架构</div>';
@@ -1129,7 +1129,7 @@ function renderFav() {
 
 function renderMe() {
   var h = '<div class="page">';
-  h += '<div class="head-row"><div class="title">未来建设<span class="sub-line">让个人 AI 知识体系继续长出来</span></div><div class="avatar">徐</div></div>';
+  h += '<div class="head-row"><div class="title"><span class="back" onclick="returnToWorkspace()">‹</span>未来建设<span class="sub-line">让个人 AI 知识体系继续长出来</span></div><div class="avatar">徐</div></div>';
   h += '<div class="state-card"><div class="state-head"><b>建设原则：先补结构，再补内容</b><span class="state-badge">持续演化</span></div><p>日常分享先归类，周复盘找缺口，工作台把“还应该学习什么”变成下一阶段的建设路线。</p></div>';
   h += '<div class="sec-title">下一阶段学习建设路线</div>';
   [['评测与可观测性','让 Agent 的质量、成本、延迟和失败原因可验证。'],['安全、权限与责任链','把身份、工具边界、高风险动作、人审和审计连起来。'],['多 Agent 协作','理解 Agent Team、任务分派、组织记忆和上下级调度。'],['企业结果评价','把 Agent 能力连接到流程替代率、ROI、SLA 和客户验收。'],['政务 Agent 案例','补充公共数据、私有化、跨部门权限与责任留痕的真实案例。']].forEach(function(x,i){ h += '<div class="state-card" style="margin:8px 0"><div class="state-head"><b>'+(i+1)+' · '+x[0]+'</b><span class="state-badge">待建设</span></div><p>'+x[1]+'</p></div>'; });
@@ -1286,7 +1286,7 @@ function openDoc(key){
 
 function markRead(){ alert('已标记为已读 ✓'); switchTab(window._lastTab || 'today'); }
 
-function returnToWorkspace(){ window._nodeReturn = null; switchTab(window._lastTab || 'today'); }
+function returnToWorkspace(){ window._nodeReturn = null; switchTab('today'); }
 
 function historyBack(){
   if (window._nodeReturn) {
