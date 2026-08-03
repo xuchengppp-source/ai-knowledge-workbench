@@ -682,9 +682,9 @@
       </div>
     </div>
 
-    <!-- ===== 屏 4：收藏 ===== -->
+    <!-- ===== 屏 4：架构复盘 ===== -->
     <div class="phone-wrap">
-      <div class="phone-label"><span class="num">4</span>复盘沉淀 · 关系断点</div>
+      <div class="phone-label"><span class="num">4</span>架构复盘 · AI 知识缺口</div>
       <div class="phone">
         <div class="screen" style="padding-bottom:0;">
           <div class="statusbar" style="background:transparent;">
@@ -692,11 +692,11 @@
           </div>
           <div class="page">
             <div class="head-row">
-              <div class="title">收藏
-                <span class="sub-line">6 篇 · 稍后读清单</span>
+              <div class="title">架构复盘
+                <span class="sub-line">当前体系 · 缺口 · 下一阶段</span>
               </div>
             </div>
-            <div class="fav-note">收藏的知识点会在空闲时提醒你复习，已读后自动移入「已读归档」。</div>
+            <div class="fav-note">不是复习文章，而是检查 AI 知识体系已经形成什么、还缺什么。</div>
             <div class="k-card">
               <div class="k-top">
                 <span class="tag agent">AI Agent</span>
@@ -738,7 +738,7 @@
             <div class="tabbar">
               <div class="t"><span class="ic">⌂</span>今日</div>
               <div class="t"><span class="ic">▤</span>专题</div>
-              <div class="t on"><span class="ic">☆</span>收藏</div>
+              <div class="t on"><span class="ic">☆</span>架构</div>
               <div class="t"><span class="ic">◉</span>我的</div>
             </div>
           </div>
@@ -746,9 +746,9 @@
       </div>
     </div>
 
-    <!-- ===== 屏 5：我的 ===== -->
+    <!-- ===== 屏 5：未来建设 ===== -->
     <div class="phone-wrap">
-      <div class="phone-label"><span class="num">5</span>成长 · 知识体系演化</div>
+      <div class="phone-label"><span class="num">5</span>未来建设 · 知识体系路线</div>
       <div class="phone">
         <div class="screen" style="padding-bottom:0;">
           <div class="statusbar" style="background:transparent;">
@@ -756,18 +756,14 @@
           </div>
           <div class="page">
             <div class="head-row">
-              <div class="title">我的
-                <span class="sub-line">学习进度与偏好</span>
+              <div class="title">未来建设
+                <span class="sub-line">下一阶段该补什么</span>
               </div>
               <div class="avatar">徐</div>
             </div>
-            <div class="stat-grid">
-              <div class="stat-card"><div class="s-num">48</div><div class="s-label">累计已学（篇）</div></div>
-              <div class="stat-card accent"><div class="s-num">12</div><div class="s-label">连续学习（天）</div></div>
-              <div class="stat-card"><div class="s-num">6.5h</div><div class="s-label">本周学习</div></div>
-            </div>
+            <div class="review-box"><h4>建设原则：先补结构，再补内容</h4><p>日常资料先归类，周复盘找缺口，再决定下一阶段应该补哪一层知识。</p></div>
             <div class="week-chart">
-              <h4>本周学习分布</h4>
+              <h4>下一阶段学习路线</h4>
               <div class="wc-bars">
                 <div class="wc-bar"><div class="b" style="height:60%;"></div><div class="day">一</div></div>
                 <div class="wc-bar"><div class="b hi" style="height:95%;"></div><div class="day">二</div></div>
@@ -778,18 +774,18 @@
                 <div class="wc-bar"><div class="b" style="height:30%;"></div><div class="day">日</div></div>
               </div>
             </div>
-            <div class="sec-title">能力沉淀</div>
+            <div class="sec-title">优先补齐</div>
             <div class="topic-card" style="padding:12px 14px;">
               <div class="t-ic agent" style="width:38px;height:38px;font-size:18px;">🤖</div>
               <div class="t-body">
-                <div class="t-meta" style="margin-top:0;">AI Agent 工程知识 · 13/19 篇</div>
+                <div class="t-meta" style="margin-top:0;">评测与可观测性 · 让质量可验证</div>
                 <div class="t-bar"><i class="b1"></i></div>
               </div>
             </div>
             <div class="topic-card" style="padding:12px 14px; margin-bottom:18px;">
               <div class="t-ic enterprise" style="width:38px;height:38px;font-size:18px;">🏢</div>
               <div class="t-body">
-                <div class="t-meta" style="margin-top:0;">企业 AI 与智能体商业化 · 35/103 篇</div>
+                <div class="t-meta" style="margin-top:0;">安全权限与责任链 · 让 Agent 可托付</div>
                 <div class="t-bar"><i class="b2"></i></div>
               </div>
             </div>
@@ -826,8 +822,8 @@
     <div class="tabbar" id="live-tabbar">
       <div class="t on" data-tab="today"><span class="ic">⌂</span>今日</div>
       <div class="t" data-tab="topic"><span class="ic">▤</span>地图</div>
-      <div class="t" data-tab="fav"><span class="ic">☆</span>复盘</div>
-      <div class="t" data-tab="me"><span class="ic">◉</span>成长</div>
+      <div class="t" data-tab="fav"><span class="ic">☆</span>架构</div>
+      <div class="t" data-tab="me"><span class="ic">◉</span>建设</div>
     </div>
   </div>
 </div>
@@ -896,6 +892,7 @@ function renderToday() {
   var d = OBSIDIAN_DATA.today || {date:"", items:[], judgments:[]};
   var h = '<div class="page">';
   h += '<div class="head-row"><div class="title">'+(OBSIDIAN_GRAPH.rootTitle || '徐总的知识库')+'<span class="sub-line">AI 知识成长视图 · 每日整理</span></div><div class="avatar">徐</div></div>';
+  h += '<div class="review-box"><div class="eyebrow">AI 知识体系总览 · Codex 梳理视图</div><h3>基础设施 → Agent 工程 → 企业 AI 落地</h3><p>工作台不是 Obsidian 的镜像，而是把你的三条知识主线重新组织成上下游关系：AI 能力从哪里来、怎样变成可运行系统、最后怎样进入客户业务并产生结果。</p><div class="brief-foot"><span class="brief-chip" onclick="event.stopPropagation();switchTab(\'topic\')">查看主线地图 ›</span><span class="brief-chip" onclick="event.stopPropagation();switchTab(\'fav\')">查看架构缺口 ›</span></div></div>';
   h += '<div class="learning-brief" style="cursor:pointer" onclick="showDailyDetail()"><div class="eyebrow">今日 AI 知识增量 · 来自 Obsidian 知识流水线</div><h3>今天先搞懂：'+(d.items[0] ? d.items[0].title : 'AI 知识体系今天发生了什么？')+'</h3><p>'+(d.items[0] ? d.items[0].summary : '查看今日整理，了解知识库最近的新增和变化。')+'</p><div class="brief-foot"><span class="brief-chip" onclick="event.stopPropagation();switchTab(\'topic\')">关联知识网络 ›</span><span class="brief-chip" onclick="event.stopPropagation();showDailyDetail()">来自每日整理 ›</span></div></div>';
   h += '<div class="progress-card"><div class="pc-top"><div class="pc-date">📚 本周知识库状态</div><div class="pc-streak">AI 知识体系正在成形</div></div><div class="pc-main"><div class="pc-num">'+(OBSIDIAN_GRAPH.weeklyChanges||0)+'</div><div class="pc-unit">条链接</div></div><div class="pc-sub">本周更新 '+(OBSIDIAN_GRAPH.weeklyPages||0)+' 个页面 · 每日整理负责呈现变化，学习路径负责组织理解</div><div class="pc-bar"><i style="width:58%;"></i></div></div>';
   var wr = OBSIDIAN_DATA.weeklyReview;
@@ -976,16 +973,12 @@ function renderFav() {
 
 function renderMe() {
   var h = '<div class="page">';
-  h += '<div class="head-row"><div class="title">成长<span class="sub-line">AI 知识体系在 Obsidian 上的演化</span></div><div class="avatar">徐</div></div>';
-  h += '<div class="state-card"><div class="state-head"><b>当前底座：Obsidian</b><span class="state-badge">持续沉淀</span></div><p>工作台只呈现成长视图，正式知识、专题边界和链接关系仍以 Obsidian 为准。</p></div>';
-  var layers = OBSIDIAN_DATA.architectureLayers || [];
-  var formed = layers.filter(function(l){return l.status==='已形成';}).length;
-  var forming = layers.filter(function(l){return l.status==='正在形成';}).length;
-  var gaps = layers.filter(function(l){return l.status==='待补齐';}).length;
-  h += '<div class="sec-title">知识体系成长状态</div>';
-  h += '<div class="growth-row"><b>知识节点</b><span>'+OBSIDIAN_GRAPH.nodes.length+' 个真实节点</span></div><div class="growth-row"><b>已形成知识层</b><span>'+formed+' 层</span></div><div class="growth-row"><b>正在形成</b><span>'+forming+' 层</span></div><div class="growth-row"><b>架构待补齐</b><span>'+gaps+' 层</span></div><div class="growth-row"><b>最近周复盘</b><span>'+(OBSIDIAN_DATA.weeklyReview ? OBSIDIAN_DATA.weeklyReview.date : '暂无')+'</span></div>';
-  h += '<div class="topic-card" style="padding:12px 14px;"><div class="t-ic agent" style="width:38px;height:38px;font-size:18px;">🤖</div><div class="t-body"><div class="t-meta" style="margin-top:0;">AI Agent 工程知识 · 13/19 篇</div><div class="t-bar"><i class="b1"></i></div></div></div>';
-  h += '<div class="topic-card" style="padding:12px 14px; margin-bottom:18px;"><div class="t-ic enterprise" style="width:38px;height:38px;font-size:18px;">🏢</div><div class="t-body"><div class="t-meta" style="margin-top:0;">企业 AI 与智能体商业化 · 35/103 篇</div><div class="t-bar"><i class="b2"></i></div></div></div>';
+  h += '<div class="head-row"><div class="title">未来建设<span class="sub-line">让个人 AI 知识体系继续长出来</span></div><div class="avatar">徐</div></div>';
+  h += '<div class="state-card"><div class="state-head"><b>建设原则：先补结构，再补内容</b><span class="state-badge">持续演化</span></div><p>日常分享先归类，周复盘找缺口，工作台把“还应该学习什么”变成下一阶段的建设路线。</p></div>';
+  h += '<div class="sec-title">下一阶段学习建设路线</div>';
+  [['评测与可观测性','让 Agent 的质量、成本、延迟和失败原因可验证。'],['安全、权限与责任链','把身份、工具边界、高风险动作、人审和审计连起来。'],['多 Agent 协作','理解 Agent Team、任务分派、组织记忆和上下级调度。'],['企业结果评价','把 Agent 能力连接到流程替代率、ROI、SLA 和客户验收。'],['政务 Agent 案例','补充公共数据、私有化、跨部门权限与责任留痕的真实案例。']].forEach(function(x,i){ h += '<div class="state-card" style="margin:8px 0"><div class="state-head"><b>'+(i+1)+' · '+x[0]+'</b><span class="state-badge">待建设</span></div><p>'+x[1]+'</p></div>'; });
+  h += '<div class="sec-title">三大主线的长期方向</div><div class="path-note"><strong>基础设施 → 工程系统 → 客户落地</strong><span>每一条日常分享都先放入这条上下游主线，再判断它是补概念、补工程、补案例还是补商业化。</span></div>';
+  h += '<div class="review-box"><h4>输入层怎么处理</h4><p>抖音、分享链接和原始资料不要求马上读完。先标注主题、来源、可信度和待验证状态；等架构复盘判断它确实补上了知识缺口，再沉淀为正式专题。</p></div>';
   h += '<div class="set-list">';
   h += '<div class="set-item"><span class="s-ic">🔔</span>每日学习提醒<span class="s-val">08:30</span><span class="s-arrow">›</span></div>';
   h += '<div class="set-item"><span class="s-ic">📤</span>数据同步来源<span class="s-val">Obsidian 主库</span><span class="s-arrow">›</span></div>';
