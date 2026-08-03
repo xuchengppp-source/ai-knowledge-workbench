@@ -2,13 +2,14 @@
 
 ## 当前状态
 
-工作台已接入 Obsidian 三大 AI 知识主线、每日增量、每周架构复盘，并新增“徐总问题专题库”作为问题驱动的知识串联层。
+工作台已拆分为桌面网页版 `index.html` 和移动学习版 `mobile.html`，两端共用 Obsidian 编译数据，并接入三大 AI 知识主线、每日增量、每周架构复盘和“徐总问题专题库”。
 
 ## 已完成
 
 - [x] 扫描 `AI Agent工程知识`、`企业AI与智能体商业化`、`AI产业链与数字基础设施`
 - [x] 生成 `data.js` 轻量索引和 `docs.js` 延迟正文
 - [x] 桌面端首页改为横向知识工作台
+- [x] 拆分 `index.html` 桌面版与 `mobile.html` 移动版，内容同步但界面分开维护
 - [x] 接入搜索、问知识库、节点详情和返回链路
 - [x] 接入 `徐总问题专题库`，展示问题专题、关联正式笔记、原始资料、待蒸馏项和下一步追问
 
@@ -24,7 +25,9 @@
 - Obsidian 是只读来源，工作台编译过程不修改 Obsidian 笔记。
 - GitHub Pages 仍是静态托管，适合展示和浏览；考试、记录、跨设备同步需要额外数据层。
 - “问题专题库”不是原文镜像，而是把用户真实提问转成可复用的知识入口。
-- 当前线上地址为 `https://xuchengppp-source.github.io/ai-knowledge-workbench/?desktop=1`。
+- 桌面线上地址为 `https://xuchengppp-source.github.io/ai-knowledge-workbench/`。
+- 移动线上地址为 `https://xuchengppp-source.github.io/ai-knowledge-workbench/mobile.html`。
+- 手机宽度访问桌面入口会自动跳转到移动版；`?desktop=1` 可强制查看桌面版。
 
 ## 遇到的问题
 

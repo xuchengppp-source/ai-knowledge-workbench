@@ -1,6 +1,13 @@
-# 知识库 AI 学习工作台（移动版）
+# 知识库 AI 学习工作台
 
-将 Obsidian 知识库中 AI 相关专题、每日增量和双向链接，编译成移动端学习工作台，通过 GitHub Pages 部署，手机浏览器即可访问。
+将 Obsidian 知识库中 AI 相关专题、每日增量、每周复盘、问题专题和双向链接，编译成个人 AI 知识工作台，通过 GitHub Pages 部署。
+
+## 页面入口
+
+- 桌面网页版：`index.html`
+- 移动学习版：`mobile.html`
+- 两个页面共用 `data.js` 和 `docs.js`，内容同步，界面分开维护。
+- 手机宽度访问 `index.html` 会自动跳转到 `mobile.html`；带 `?desktop=1` 可强制查看桌面版。
 
 ## 数据流
 
@@ -11,7 +18,8 @@ Obsidian 知识库（本地，唯一正式来源，只读）
    ↓ git push
 GitHub Pages 自动部署
    ↓
-手机浏览器访问
+电脑浏览器访问 `index.html`
+手机浏览器访问 `mobile.html`
 ```
 
 ## 使用

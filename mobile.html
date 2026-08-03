@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>徐总的知识库 · AI 知识成长视图</title>
+<title>徐总的知识库 · 移动学习视图</title>
 <link rel="icon" href="data:,">
 <style>
   /* ========== 全局 ========== */
@@ -489,9 +489,35 @@
   .path-step .step-no { width:19px; height:19px; border-radius:50%; background:#E9F0FF; color:#5275B5; text-align:center; line-height:19px; font-size:10px; flex:0 0 auto; }
   .path-step b { font-size:11px; display:block; }
   .path-step span { color:var(--ink-faint); font-size:10px; line-height:1.45; }
+
+  body.mobile-app .canvas-header,
+  body.mobile-app .stage,
+  body.mobile-app .phone-wrap { display: none !important; }
+  body.mobile-app,
+  body.mobile-app html { height: 100%; background: var(--bg); }
+  body.mobile-app #live-app {
+    display: flex !important;
+    position: fixed; inset: 0;
+    max-width: 480px; margin: 0 auto;
+    background: var(--bg);
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  body.mobile-app #live-app > .statusbar {
+    width: auto; height: 44px; max-width: none; margin: 0; padding: 0 24px 8px;
+  }
+  body.mobile-app #live-app .app-body {
+    width: auto; max-width: none; margin: 0; padding: 0 0 92px;
+  }
+  body.mobile-app #live-app .tabbar-wrap {
+    display: block;
+    left: 0; right: 0; transform: none; width: auto; bottom: 0;
+  }
+  body.mobile-app #live-app .tabbar { padding: 5px; box-shadow: 0 10px 30px rgba(30,58,95,0.12); }
+  body.mobile-app #live-app .tabbar .t { font-size: 10px; }
 </style>
 </head>
-<body class="desktop-app">
+<body class="mobile-app">
 
 <!-- ========== 桌面端：画布陈列 ========== -->
 <div class="canvas-header">
@@ -896,9 +922,6 @@
 <script src="docs.js" defer></script>
 <script>
 var OBSIDIAN_GRAPH = window.OBSIDIAN_DATA || { generatedAt:"", sourceIndex:"", digest:"", topics:[], nodes:[] };
-if (window.innerWidth < 700 && !/[?&]desktop=1\b/.test(window.location.search)) {
-  window.location.replace('mobile.html' + window.location.search + window.location.hash);
-}
 
 var DOCS = {
   total: {
@@ -1363,7 +1386,7 @@ function switchTab(tab){
   var body = document.getElementById('live-body');
   var tabs = document.querySelectorAll('#live-tabbar .t');
   tabs.forEach(function(t){ t.className = 't' + (t.getAttribute('data-tab')===tab ? ' on' : ''); });
-  if(tab==='today') body.innerHTML = renderDesktopToday();
+  if(tab==='today') body.innerHTML = renderToday();
   else if(tab==='topic') body.innerHTML = renderTopic();
   else if(tab==='fav') body.innerHTML = renderFav();
   else if(tab==='me') body.innerHTML = renderMe();
