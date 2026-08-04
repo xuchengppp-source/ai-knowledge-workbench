@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-04",
- "generatedTime": "2026-08-04 11:09",
+ "generatedTime": "2026-08-04 14:07",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 82,
  "weeklyChanges": 853,
@@ -2888,6 +2888,34 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "questionTopics": [
+  {
+   "path": "徐总问题专题库/06_跨专题综合/2026-08-04_Lucas飞书长连接故障与修复.md",
+   "title": "Lucas/QoderWork 飞书长连接故障与修复",
+   "date": "2026-08-04",
+   "updated": "2026-08-04",
+   "category": "跨专题综合",
+   "status": "已修复 → 已入库",
+   "questionType": "",
+   "originalQuestion": "QoderWork 搭载的飞书机器人 Lucas（卢卡斯）长连接连不上，飞书后台显示\"长连接失败\"，但 QoderWork 显示已连接、就是收不到消息；重新扫码、重启都无效。",
+   "direction": "为什么\"显示已连接\"却收不到消息？是密钥、权限、代理还是应用自身的问题？如何区分和修复？",
+   "directionHtml": "<p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">为什么\"显示已连接\"却收不到消息？是密钥、权限、代理还是应用自身的问题？如何区分和修复？</p>",
+   "summary": "为什么\"显示已连接\"却收不到消息？是密钥、权限、代理还是应用自身的问题？如何区分和修复？",
+   "answerHtml": "",
+   "formalNotes": [
+    "Codex工作区/飞书多智能体连接基线与故障域",
+    "Codex工作区/2026-08-04_QoderWork_Lucas飞书长连接修复",
+    "OpenClaw克里斯记忆库/工作纪要/2026-08-04_飞书长连接代理故障修复"
+   ],
+   "rawMaterials": [],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "Codex工作区/飞书多智能体连接基线与故障域",
+    "Codex工作区/2026-08-04_QoderWork_Lucas飞书长连接修复",
+    "OpenClaw克里斯记忆库/工作纪要/2026-08-04_飞书长连接代理故障修复"
+   ],
+   "wordCount": 737
+  },
   {
    "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海.md",
    "title": "算力工厂与算力出海（多轮深化）",
