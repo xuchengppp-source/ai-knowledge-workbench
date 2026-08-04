@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-04",
- "generatedTime": "2026-08-04 14:07",
+ "generatedTime": "2026-08-04 17:05",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 82,
  "weeklyChanges": 853,
@@ -2888,6 +2888,36 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "questionTopics": [
+  {
+   "path": "徐总问题专题库/06_跨专题综合/2026-08-04_WorkBuddy伊森飞书长连接假connected故障与修复.md",
+   "title": "WorkBuddy/伊森 飞书长连接假 connected故障与修复",
+   "date": "2026-08-04",
+   "updated": "2026-08-04",
+   "category": "跨专题综合",
+   "status": "已修复 → 已入库",
+   "questionType": "",
+   "originalQuestion": "群里出现两个叠加症状：一是\"@ 其他 bot 的消息也会进 WorkBuddy 会话\"，二是 WorkBuddy 的伊森切到长连接后实际收不到消息——界面显示 connected，但群消息完全没有进来。",
+   "direction": "为什么\"显示 connected\"却收不到消息？为什么\"@ 别人\"的消息会进 WorkBuddy？是密钥、权限、网络、占位冲突还是配置残留？如何区分和修复？",
+   "directionHtml": "<blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">为什么\"显示 connected\"却收不到消息？为什么\"@ 别人\"的消息会进 WorkBuddy？是密钥、权限、网络、占位冲突还是配置残留？如何区分和修复？</blockquote>",
+   "summary": "为什么\"显示 connected\"却收不到消息？为什么\"@ 别人\"的消息会进 WorkBuddy？是密钥、权限、网络、占位冲突还是配置残留？如何区分和修复？",
+   "answerHtml": "",
+   "formalNotes": [
+    "Codex工作区/飞书多智能体连接基线与故障域",
+    "Codex工作区/2026-08-04_WorkBuddy_伊森飞书长连接假connected修复",
+    "Codex工作区/2026-08-04_QoderWork_Lucas飞书长连接修复",
+    "OpenClaw克里斯记忆库/工作纪要/2026-08-04_飞书长连接代理故障修复"
+   ],
+   "rawMaterials": [],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "Codex工作区/飞书多智能体连接基线与故障域",
+    "Codex工作区/2026-08-04_WorkBuddy_伊森飞书长连接假connected修复",
+    "Codex工作区/2026-08-04_QoderWork_Lucas飞书长连接修复",
+    "OpenClaw克里斯记忆库/工作纪要/2026-08-04_飞书长连接代理故障修复"
+   ],
+   "wordCount": 1262
+  },
   {
    "path": "徐总问题专题库/06_跨专题综合/2026-08-04_Lucas飞书长连接故障与修复.md",
    "title": "Lucas/QoderWork 飞书长连接故障与修复",
