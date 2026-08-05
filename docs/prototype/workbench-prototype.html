@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>知识学习工作台 · 原型</title>
+<style>
+  :root {
+    --ink: #1c2433;
+    --ink-soft: #5a6478;
+    --ink-faint: #9aa3b5;
+    --line: #e6e9f0;
+    --bg: #f4f6fa;
+    --card: #ffffff;
+    --blue: #2563eb;
+    --blue-soft: #e8efff;
+    --orange: #f59e0b;
+    --orange-soft: #fff4e0;
+    --green: #10b981;
+    --green-soft: #e4f7ef;
+    --red: #ef4444;
+    --radius: 10px;
+    --shadow: 0 1px 3px rgba(28,36,51,.06), 0 8px 24px rgba(28,36,51,.05);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif; color: var(--ink); background: var(--bg); }
+  button { font-family: inherit; cursor: pointer; border: none; background: none; }
+
+  .topbar { display: flex; align-items: center; justify-content: space-between; padding: 14px 22px; background: var(--card); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 20; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 15px; }
+  .brand .logo { width: 30px; height: 30px; border-radius: 8px; background: linear-gradient(135deg, var(--blue), #7c3aed); display: grid; place-items: center; color: #fff; font-size: 15px; }
+  .viewswitch { display: flex; gap: 4px; background: var(--bg); padding: 3px; border-radius: 9px; }
+  .viewswitch button { padding: 6px 14px; border-radius: 7px; font-size: 13px; color: var(--ink-soft); }
+  .viewswitch button.active { background: var(--card); color: var(--ink); font-weight: 700; box-shadow: var(--shadow); }
+
+  .desktop { display: grid; grid-template-columns: 210px 1fr; max-width: 1240px; margin: 0 auto; gap: 0; min-height: calc(100vh - 60px); }
+  .sidebar { border-right: 1px solid var(--line); padding: 22px 14px; }
+  .nav-item { display: flex; align-items: center; gap: 10px; padding: 11px 14px; border-radius: 9px; color: var(--ink-soft); font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+  .nav-item .ic { font-size: 16px; width: 22px; text-align: center; }
+  .nav-item.active { background: var(--blue-soft); color: var(--blue); }
+  .nav-caption { font-size: 11px; color: var(--ink-faint); margin: 18px 14px 8px; font-weight: 600; letter-spacing: .02em; }
+
+  .main { padding: 26px 30px 40px; }
+  .main-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 18px; }
+  .main-head h2 { font-size: 22px; font-weight: 800; }
+  .main-head .sub { color: var(--ink-faint); font-size: 13px; margin-top: 4px; }
+  .actions { display: flex; gap: 8px; }
+  .btn { display: inline-flex; align-items: center; gap: 6px; padding: 9px 14px; border-radius: 9px; font-size: 13px; font-weight: 700; }
+  .btn.primary { background: var(--blue); color: #fff; }
+  .btn.ghost { background: var(--card); color: var(--ink-soft); border: 1px solid var(--line); }
+  .btn:active { transform: scale(.97); }
+
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .dir-card { background: var(--card); border-radius: var(--radius); border: 1.5px solid var(--line); padding: 18px; position: relative; box-shadow: var(--shadow); transition: border-color .2s; }
+  .dir-card.today { border-color: var(--orange); box-shadow: 0 0 0 3px var(--orange-soft), var(--shadow); }
+  .dir-top { display: flex; align-items: flex-start; gap: 12px; }
+  .dir-ic { width: 42px; height: 42px; border-radius: 10px; display: grid; place-items: center; font-size: 20px; flex-shrink: 0; }
+  .dir-title { font-weight: 800; font-size: 15px; line-height: 1.35; }
+  .dir-why { color: var(--ink-soft); font-size: 12.5px; margin-top: 3px; line-height: 1.5; }
+  .dir-badge { position: absolute; top: 14px; right: 14px; background: var(--orange-soft); color: #b45309; font-size: 10.5px; font-weight: 800; padding: 3px 8px; border-radius: 20px; }
+
+  .state-row { display: flex; align-items: center; justify-content: space-between; margin-top: 14px; }
+  .heat { display: flex; gap: 5px; align-items: center; }
+  .heat .dot { width: 9px; height: 9px; border-radius: 50%; background: #d7dbe4; }
+  .heat .dot.hi { background: var(--orange); }
+  .heat .dot.mid { background: var(--blue); }
+  .heat .dot.live { animation: pulse 1.6s infinite; }
+  @keyframes pulse { 0%,100% { box-shadow: 0 0 0 0 rgba(245,158,11,.35);} 50% { box-shadow: 0 0 0 6px rgba(245,158,11,0);} }
+  .heat-label { font-size: 11px; color: var(--ink-faint); margin-left: 4px; }
+
+  .last-update { font-size: 11.5px; color: var(--ink-faint); }
+  .last-update b { color: var(--ink-soft); font-weight: 700; }
+  .last-update.stale { color: #b45309; }
+  .last-update.stale b { color: #b45309; }
+
+  .materials { display: flex; gap: 14px; margin-top: 14px; }
+  .mat { display: flex; align-items: center; gap: 5px; font-size: 12px; color: var(--ink-soft); background: var(--bg); padding: 5px 10px; border-radius: 8px; }
+  .mat b { color: var(--ink); }
+
+  .dir-foot { display: flex; align-items: center; justify-content: space-between; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+  .ask-btn { font-size: 12.5px; color: var(--blue); font-weight: 700; }
+  .ask-btn:hover { text-decoration: underline; }
+
+  .new-card { border: 2px dashed #c8cfdd; background: transparent; box-shadow: none; display: grid; place-items: center; color: var(--ink-faint); font-size: 13.5px; font-weight: 700; cursor: pointer; min-height: 170px; transition: all .2s; }
+  .new-card:hover { border-color: var(--blue); color: var(--blue); background: var(--blue-soft); }
+
+  .inbox-pill { position: sticky; bottom: 18px; margin-top: 22px; display: inline-flex; align-items: center; gap: 8px; background: var(--ink); color: #fff; padding: 10px 16px; border-radius: 30px; font-size: 13px; font-weight: 700; box-shadow: var(--shadow); }
+  .inbox-pill .cnt { background: var(--orange); color: #fff; border-radius: 20px; padding: 1px 8px; font-size: 11px; }
+
+  /* inbox panel */
+  .inbox-panel { position: fixed; right: 26px; bottom: 70px; width: 360px; background: var(--card); border-radius: 14px; box-shadow: 0 12px 40px rgba(28,36,51,.18); border: 1px solid var(--line); padding: 16px; display: none; z-index: 30; }
+  .inbox-panel.open { display: block; }
+  .inbox-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+  .inbox-head h4 { font-size: 14px; }
+  .inbox-item { display: flex; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--line); align-items: center; }
+  .inbox-item:last-child { border-bottom: none; }
+  .inbox-item .fi { width: 30px; height: 30px; border-radius: 8px; background: var(--orange-soft); display: grid; place-items: center; font-size: 14px; }
+  .inbox-item .tt { font-size: 12.5px; font-weight: 600; flex: 1; line-height: 1.4; }
+  .inbox-item select { font-size: 12px; border: 1px solid var(--line); border-radius: 7px; padding: 5px 6px; background: var(--bg); color: var(--ink-soft); }
+
+  /* modal */
+  .modal-mask { position: fixed; inset: 0; background: rgba(28,36,51,.4); display: none; place-items: center; z-index: 40; }
+  .modal-mask.open { display: grid; }
+  .modal { background: var(--card); border-radius: 14px; padding: 22px; width: 360px; box-shadow: 0 20px 60px rgba(0,0,0,.2); }
+  .modal h4 { font-size: 16px; margin-bottom: 14px; }
+  .modal input, .modal textarea { width: 100%; border: 1px solid var(--line); border-radius: 9px; padding: 10px 12px; font-size: 13.5px; margin-bottom: 10px; font-family: inherit; }
+  .modal textarea { height: 64px; resize: none; }
+  .modal .row { display: flex; gap: 8px; justify-content: flex-end; }
+
+  /* page switch */
+  .page { display: none; }
+  .page.active { display: block; }
+
+  /* knowledge base */
+  .base-topics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 22px; }
+  .base-topic { background: var(--card); border: 1.5px solid var(--line); border-radius: var(--radius); padding: 16px; cursor: pointer; box-shadow: var(--shadow); transition: border-color .2s; }
+  .base-topic:hover { border-color: var(--blue); }
+  .bt-top { display: flex; align-items: center; gap: 10px; }
+  .bt-ic { width: 38px; height: 38px; border-radius: 10px; display: grid; place-items: center; font-size: 18px; }
+  .bt-name { font-weight: 800; font-size: 14px; line-height: 1.3; }
+  .bt-meta { color: var(--ink-faint); font-size: 12px; margin-top: 10px; }
+  .bt-meta b { color: var(--ink-soft); }
+  .base-sec { font-size: 13px; color: var(--ink-soft); font-weight: 800; margin: 20px 0 10px; display: flex; align-items: center; gap: 8px; }
+  .base-sec .more { margin-left: auto; color: var(--ink-faint); font-weight: 600; font-size: 12px; }
+  .base-list { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+  .base-item { display: flex; align-items: center; gap: 12px; padding: 13px 16px; border-bottom: 1px solid var(--line); cursor: pointer; }
+  .base-item:last-child { border-bottom: none; }
+  .base-item:hover { background: var(--bg); }
+  .bi-ic { width: 34px; height: 34px; border-radius: 9px; display: grid; place-items: center; font-size: 15px; flex-shrink: 0; }
+  .bi-body { flex: 1; min-width: 0; }
+  .bi-title { font-weight: 700; font-size: 13.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .bi-meta { color: var(--ink-faint); font-size: 11.5px; margin-top: 3px; }
+  .bi-tag { font-size: 10.5px; font-weight: 700; padding: 3px 9px; border-radius: 12px; flex-shrink: 0; }
+
+  /* topic digest page */
+  .topic-digest { background: var(--card); border: 1.5px solid var(--line); border-radius: var(--radius); padding: 18px; box-shadow: var(--shadow); margin-bottom: 12px; cursor: pointer; }
+  .topic-digest:hover { border-color: var(--blue); }
+  .td-top { display: flex; align-items: center; gap: 10px; }
+  .td-title { font-weight: 800; font-size: 14.5px; flex: 1; }
+  .td-desc { color: var(--ink-soft); font-size: 12.5px; margin-top: 6px; line-height: 1.5; }
+  .td-foot { display: flex; align-items: center; gap: 10px; margin-top: 12px; padding-top: 11px; border-top: 1px solid var(--line); font-size: 11.5px; color: var(--ink-faint); }
+  .empty-guide { background: var(--blue-soft); border: 1px dashed var(--blue); border-radius: var(--radius); padding: 16px 18px; color: var(--blue); font-size: 13px; font-weight: 600; line-height: 1.6; margin-top: 14px; }
+
+  /* rhythm page */
+  .rhythm-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .rhythm-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow); }
+  .rc-num { font-size: 26px; font-weight: 800; }
+  .rc-label { color: var(--ink-soft); font-size: 12.5px; font-weight: 700; margin-top: 4px; }
+  .rc-sub { color: var(--ink-faint); font-size: 11.5px; margin-top: 6px; line-height: 1.5; }
+  .rhythm-note { background: var(--card); border-left: 4px solid var(--orange); border-radius: var(--radius); padding: 15px 18px; box-shadow: var(--shadow); margin-top: 14px; font-size: 13px; color: var(--ink-soft); line-height: 1.7; }
+  .rhythm-note b { color: var(--ink); }
+
+  /* reader */
+  .reader-mask { position: fixed; inset: 0; background: rgba(28,36,51,.45); display: none; place-items: center; z-index: 50; }
+  .reader-mask.open { display: grid; }
+  .reader { width: 660px; max-width: calc(100vw - 40px); max-height: 82vh; background: var(--card); border-radius: 14px; padding: 24px 26px; overflow: auto; box-shadow: 0 24px 70px rgba(0,0,0,.24); }
+  .reader-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+  .reader-head h4 { font-size: 17px; font-weight: 800; line-height: 1.4; }
+  .reader-meta { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+  .reader-body { margin-top: 16px; font-size: 14px; color: var(--ink-soft); line-height: 1.85; }
+  .reader-body p { margin-bottom: 12px; }
+  .reader-links { margin-top: 16px; border-top: 1px solid var(--line); padding-top: 12px; font-size: 12.5px; color: var(--ink-faint); line-height: 1.9; }
+  .reader-links b { color: var(--ink-soft); }
+
+  /* mobile */
+  .mobile { display: none; max-width: 430px; margin: 0 auto; background: var(--bg); min-height: calc(100vh - 60px); padding-bottom: 70px; position: relative; }
+  .m-head { display: flex; align-items: center; justify-content: space-between; padding: 18px 16px 8px; }
+  .m-head h3 { font-size: 19px; font-weight: 800; }
+  .m-add { width: 34px; height: 34px; border-radius: 10px; background: var(--blue); color: #fff; font-size: 18px; display: grid; place-items: center; }
+  .m-changes { margin: 8px 16px; background: var(--blue-soft); color: var(--blue); font-size: 12px; font-weight: 700; padding: 9px 12px; border-radius: 9px; }
+  .m-list { padding: 0 16px; display: flex; flex-direction: column; gap: 12px; }
+  .m-base-topic { display: flex; align-items: center; gap: 10px; background: var(--card); border: 1.5px solid var(--line); border-radius: var(--radius); padding: 13px 14px; margin-bottom: 10px; }
+  .m-base-item { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 13px 14px; cursor: pointer; }
+  .m-base-item .bi-title { white-space: normal; }
+  .m-topic-card { background: var(--card); border: 1.5px solid var(--line); border-radius: var(--radius); padding: 14px; }
+  .m-rhythm-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; }
+  .m-rhythm-card .rc-num { font-size: 22px; }
+  .m-card { background: var(--card); border-radius: var(--radius); border: 1.5px solid var(--line); padding: 14px; }
+  .m-card.today { border-color: var(--orange); }
+  .m-card-top { display: flex; align-items: center; gap: 10px; }
+  .m-card-top .t { font-weight: 800; font-size: 14px; flex: 1; }
+  .m-card .meta { display: flex; align-items: center; gap: 12px; margin-top: 10px; }
+  .m-tabbar { position: fixed; bottom: 0; left: 50%; transform: translateX(-50%); width: 100%; max-width: 430px; background: var(--card); border-top: 1px solid var(--line); display: flex; justify-content: space-around; padding: 8px 0 calc(8px + env(safe-area-inset-bottom)); z-index: 20; }
+  .m-tab { display: flex; flex-direction: column; align-items: center; gap: 3px; font-size: 10px; color: var(--ink-faint); padding: 4px 16px; }
+  .m-tab .ic { font-size: 18px; }
+  .m-tab.active { color: var(--blue); font-weight: 700; }
+
+  @media (max-width: 860px) { .desktop { display: none; } .mobile { display: block; } }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand"><div class="logo">知</div>知识学习工作台 <span style="color:var(--ink-faint);font-weight:500;font-size:12px;">原型 v0.1</span></div>
+  <div class="viewswitch">
+    <button data-v="desktop" class="active">桌面</button>
+    <button data-v="mobile">移动</button>
+  </div>
+</div>
+
+<div class="desktop">
+  <aside class="sidebar">
+    <div class="nav-caption">工作区</div>
+    <div class="nav-item active" data-page="direction"><span class="ic">🧭</span>方向墙</div>
+    <div class="nav-item" data-page="topics"><span class="ic">🧩</span>专题理解</div>
+    <div class="nav-item" data-page="base"><span class="ic">🗄️</span>知识基座</div>
+    <div class="nav-caption">我的</div>
+    <div class="nav-item" data-page="mine"><span class="ic">⭐</span>学习节奏</div>
+  </aside>
+  <main class="main">
+    <section class="page active" id="page-direction">
+      <div class="main-head">
+        <div>
+          <h2>最近在琢磨</h2>
+          <div class="sub">学习方向从养料里长出来，静置太久的方向会自己现形</div>
+        </div>
+        <div class="actions">
+          <button class="btn primary" id="btn-new">＋ 新建方向</button>
+        </div>
+      </div>
+      <div class="grid" id="dir-grid"></div>
+      <div class="inbox-pill" id="inbox-pill">📥 待归类 <span class="cnt" id="inbox-cnt">3</span> 条视频文案 ›</div>
+    </section>
+    <section class="page" id="page-topics"></section>
+    <section class="page" id="page-base"></section>
+    <section class="page" id="page-mine"></section>
+  </main>
+</div>
+
+<div class="mobile">
+  <div class="m-head">
+    <h3 id="m-title-h">方向</h3>
+    <button class="m-add" id="m-add">＋</button>
+  </div>
+  <div class="m-changes" id="m-changes">📈 今日变化 · 算力专题新增 1 条</div>
+  <div class="m-list" id="m-list"></div>
+  <div class="m-tabbar">
+    <div class="m-tab active" data-page="direction"><span class="ic">🧭</span>方向</div>
+    <div class="m-tab" data-page="topics"><span class="ic">🧩</span>学习</div>
+    <div class="m-tab" data-page="base"><span class="ic">🗄️</span>基座</div>
+    <div class="m-tab" data-page="mine"><span class="ic">👤</span>我的</div>
+  </div>
+</div>
+
+<div class="reader-mask" id="reader">
+  <div class="reader">
+    <div class="reader-head"><h4 id="r-title"></h4><button class="btn ghost" id="r-close" style="padding:6px 10px;">关闭</button></div>
+    <div class="reader-meta" id="r-meta"></div>
+    <div class="reader-body" id="r-body"></div>
+    <div class="reader-links" id="r-links"></div>
+  </div>
+</div>
+
+<div class="inbox-panel" id="inbox-panel">
+  <div class="inbox-head"><h4>待归类的视频文案</h4><button class="btn ghost" style="padding:6px 10px;" id="inbox-close">关闭</button></div>
+  <div id="inbox-list"></div>
+</div>
+
+<div class="modal-mask" id="modal">
+  <div class="modal">
+    <h4>新建学习方向</h4>
+    <input id="m-title" placeholder="方向标题，如：政务智能体">
+    <textarea id="m-why" placeholder="为什么关注（一句话）"></textarea>
+    <div class="row">
+      <button class="btn ghost" id="modal-cancel">取消</button>
+      <button class="btn primary" id="modal-ok">创建</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const directions = [
+  { id: 1, ic: "⚡", color: "#fff4e0", title: "算力 / Token 工厂 / 出海", why: "视频推送多，想了解产业链", heat: 3, heatLabel: "高热", lastAt: "今天", lastNote: "新增 1 条专题", today: true, mats: { topic: 3, note: 12, doc: 8 } },
+  { id: 2, ic: "🏛️", color: "#e8efff", title: "AI 智能体工程 + 政务智能体", why: "刷到视频，觉得重要", heat: 2, heatLabel: "中热", lastAt: "3 天前", lastNote: "新增 2 条视频", today: false, mats: { topic: 0, note: 1, doc: 0 } },
+  { id: 3, ic: "🧩", color: "#e4f7ef", title: "FDE 一线落地实战", why: "一线真实问题反复思考", heat: 2, heatLabel: "中热", lastAt: "1 周前", lastNote: "新增 1 篇笔记", today: false, mats: { topic: 1, note: 6, doc: 4 } },
+  { id: 4, ic: "🛠️", color: "#f3e8ff", title: "AI 工作台与项目落地", why: "建项目流程与实施状态", heat: 1, heatLabel: "静置", lastAt: "26 天前", lastNote: "最近没有新东西", today: false, mats: { topic: 0, note: 3, doc: 2 } }
+];
+const inboxItems = [
+  { t: "南吴NANWU：Codex 五级用法（抖音）", dir: "" },
+  { t: "Token 工厂三层拆分（豆包提取）", dir: "算力 / Token 工厂 / 出海" },
+  { t: "电网数字化是腐败重灾区（抖音）", dir: "" }
+];
+let baseFilter = null;
+
+const baseTopics = [
+  { key: "agent", icon: "🤖", name: "AI Agent 工程知识", count: 19, last: "07-28", color: "#e8efff", tag: "color:#2563eb;background:#e8efff" },
+  { key: "enterprise", icon: "🏢", name: "企业AI与智能体商业化", count: 73, last: "08-02", color: "#fff4e0", tag: "color:#b45309;background:#fff4e0" },
+  { key: "infrastructure", icon: "⚡", name: "AI产业链与数字基础设施", count: 6, last: "08-04", color: "#e4f7ef", tag: "color:#047857;background:#e4f7ef" }
+];
+
+const baseNodes = [
+  { title: "算力网络与Token工厂：从芯片到出海", topic: "infrastructure", updated: "08-04", words: 1200, excerpt: "近期围绕算力网络与 Token 出海刷到的视频内容整理：从芯片供给、Token 生产成本到出海路径的分层拆解，先形成问题意识，正文还在持续喂养。" },
+  { title: "飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环", topic: "enterprise", updated: "08-02", words: 3100, excerpt: "用飞书打通销售生产与经营任务闭环的案例复盘，关注流程控制器如何把 Prompt 规则变成可运行的 MCP 流程。" },
+  { title: "生产级AI Agent工程体系的完整链路", topic: "agent", updated: "07-28", words: 2400, excerpt: "从需求拆解、业务对象建模到后端工程化交付的完整链路，包含分布式、异步、状态与可运维的工程能力框架。" },
+  { title: "FDE商业级智能体交付框架", topic: "enterprise", updated: "07-26", words: 2600, excerpt: "FDE 在一线落地时的交付框架：从客户沟通、行业语言对齐到 Ontology 对象建设，沉淀可复用的五阶段方法论。" },
+  { title: "AI基础设施发展路径：从服务器到智算中心再到AI算力网络", topic: "infrastructure", updated: "07-21", words: 1800, excerpt: "AI 基础设施从单机到算力网络的发展路径，理解 Token 供给侧的物理基础与结构性约束。" },
+  { title: "AI Agent后端工程化能力框架：分布式、异步、状态与可运维", topic: "agent", updated: "07-18", words: 2900, excerpt: "工程侧的能力框架：如何让 Agent 系统可运维、可观测、可演进，是项目落地时心里有数的基础。" },
+  { title: "甘食记经营日报：从 Prompt 规则到 MCP 流程控制器", topic: "enterprise", updated: "07-14", words: 2100, excerpt: "经营日报从 Prompt 规则升级为 MCP 流程控制器的过程，用轻量 Ontology 把日常经营数据组织成可追问的结构。" },
+  { title: "WorkBuddy稳定智能体架构搭建框架", topic: "agent", updated: "07-09", words: 1700, excerpt: "稳定智能体架构的搭建框架，聚焦运行时的稳定边界与故障恢复，是矩阵智能体落地时的参考。" }
+];
+
+const topicDigests = [
+  { icon: "⚡", color: "#fff4e0", title: "算力 / Token 工厂 / 出海", updated: "今天", topic: 3, note: 12, doc: 8, desc: "从产业链视频长出来的专题，先理解 Token 供给侧的物理约束，再拆出海路径。" }
+];
+
+function heatDots(d) {
+  let h = "";
+  for (let i = 1; i <= 3; i++) {
+    const cls = i <= d.heat ? (d.heat === 3 ? "hi live" : "mid") : "";
+    h += `<span class="dot ${cls}"></span>`;
+  }
+  return `<div class="heat">${h}<span class="heat-label">${d.heatLabel}</span></div>`;
+}
+
+function card(d) {
+  return `
+  <div class="dir-card ${d.today ? "today" : ""}">
+    ${d.today ? '<span class="dir-badge">今天</span>' : ""}
+    <div class="dir-top">
+      <div class="dir-ic" style="background:${d.color}">${d.ic}</div>
+      <div>
+        <div class="dir-title">${d.title}</div>
+        <div class="dir-why">${d.why}</div>
+      </div>
+    </div>
+    <div class="state-row">
+      ${heatDots(d)}
+      <span class="last-update ${d.heat === 1 ? "stale" : ""}"><b>${d.lastAt}</b> · ${d.lastNote}</span>
+    </div>
+    <div class="materials">
+      <span class="mat">📘 专题 <b>${d.mats.topic}</b></span>
+      <span class="mat">📝 笔记 <b>${d.mats.note}</b></span>
+      <span class="mat">📎 资料 <b>${d.mats.doc}</b></span>
+    </div>
+    <div class="dir-foot"><button class="ask-btn" data-id="${d.id}">＋ 想搞清楚的问题</button></div>
+  </div>`;
+}
+
+function renderDesktop() {
+  document.getElementById("dir-grid").innerHTML = directions.map(card).join("") +
+    `<button class="dir-card new-card" id="new-card">＋ 新建学习方向</button>`;
+  document.querySelectorAll(".dir-card.new-card").forEach(b => b.addEventListener("click", openModal));
+  document.querySelectorAll(".ask-btn").forEach(b => b.addEventListener("click", () => alert("追加「想搞清楚的问题」→ 原型演示，正式版写入 Supabase")));
+}
+
+function renderMobile() {
+  document.getElementById("m-list").innerHTML = directions.map(d => `
+    <div class="m-card ${d.today ? "today" : ""}">
+      <div class="m-card-top"><div class="dir-ic" style="background:${d.color};width:34px;height:34px;font-size:16px;">${d.ic}</div>
+        <span class="t">${d.title}</span>${d.today ? '<span class="dir-badge" style="position:static;">今天有更新</span>' : ""}</div>
+      <div class="meta">${heatDots(d)}<span class="last-update ${d.heat === 1 ? "stale" : ""}"><b>${d.lastAt}</b> · ${d.lastNote}</span></div>
+    </div>`).join("");
+}
+
+function baseNodeHtml(n, i) {
+  const t = baseTopics.find(x => x.key === n.topic);
+  return `<div class="base-item" data-i="${i}">
+    <div class="bi-ic" style="background:${t.color}">${t.icon}</div>
+    <div class="bi-body"><div class="bi-title">${n.title}</div><div class="bi-meta">更新 ${n.updated} · ${n.words > 0 ? Math.round(n.words / 100) / 10 + "k 字" : ""} · 来自 Obsidian</div></div>
+    <span class="bi-tag" style="${t.tag}">${t.name}</span>
+  </div>`;
+}
+
+function bindBaseItems() {
+  document.querySelectorAll("#page-base .base-item, #m-list .base-item").forEach(el => el.addEventListener("click", () => {
+    const n = baseNodes[+el.dataset.i];
+    if (n) openReader(n);
+  }));
+}
+
+function renderBase() {
+  const t = baseFilter ? baseTopics.find(x => x.key === baseFilter) : null;
+  const nodes = baseFilter ? baseNodes.filter(n => n.topic === baseFilter) : baseNodes;
+  document.getElementById("page-base").innerHTML = `
+    <div class="main-head">
+      <div>
+        <h2>${t ? t.name : "知识基座"}</h2>
+        <div class="sub">${t ? "Obsidian 全部笔记 · 只看这条主线" : "Obsidian 的全部笔记，按主线和最近更新浏览"}</div>
+      </div>
+      ${baseFilter ? '<div class="actions"><button class="btn ghost" id="base-clear">← 回到全部</button></div>' : ""}
+    </div>
+    <div class="base-topics">${baseTopics.map(x => `
+      <div class="base-topic" data-key="${x.key}">
+        <div class="bt-top"><div class="bt-ic" style="background:${x.color}">${x.icon}</div><div class="bt-name">${x.name}</div></div>
+        <div class="bt-meta"><b>${x.count}</b> 篇 · 最近更新 ${x.last}</div>
+      </div>`).join("")}</div>
+    <div class="base-sec">${t ? "这条主线下的笔记" : "最近更新"}<span class="more">${nodes.length} 篇 ›</span></div>
+    <div class="base-list">${nodes.map(baseNodeHtml).join("") || '<div class="bi-meta" style="padding:14px;">这条主线还没有笔记。</div>'}</div>`;
+  document.querySelectorAll("#page-base .base-topic").forEach(el => el.addEventListener("click", () => { baseFilter = el.dataset.key; renderBase(); }));
+  const clr = document.getElementById("base-clear");
+  if (clr) clr.addEventListener("click", () => { baseFilter = null; renderBase(); });
+  bindBaseItems();
+}
+
+function renderTopics() {
+  document.getElementById("page-topics").innerHTML = `
+    <div class="main-head">
+      <div><h2>专题理解</h2><div class="sub">从方向里长出来的沉淀，还少，但会慢慢回流知识底座</div></div>
+    </div>
+    ${topicDigests.map(d => `
+      <div class="topic-digest">
+        <div class="td-top"><div class="dir-ic" style="background:${d.color};width:38px;height:38px;font-size:18px;">${d.icon}</div><div class="td-title">${d.title}</div></div>
+        <div class="td-desc">${d.desc}</div>
+        <div class="td-foot"><span>📘 专题 ${d.topic}</span><span>📝 笔记 ${d.note}</span><span>📎 资料 ${d.doc}</span><span style="margin-left:auto;">更新 ${d.updated}</span></div>
+      </div>`).join("")}
+    <div class="empty-guide">专题还很薄。养料先进知识基座，等对某个方向有了真问题、问过一遍、还愿意继续学，再让它长成专题。</div>`;
+}
+
+function renderMine() {
+  document.getElementById("page-mine").innerHTML = `
+    <div class="main-head">
+      <div><h2>学习节奏</h2><div class="sub">不问学了多少，只看最近有没有在动</div></div>
+    </div>
+    <div class="rhythm-grid">
+      <div class="rhythm-card"><div class="rc-num">3<span style="font-size:14px;color:var(--ink-faint);">/4</span></div><div class="rc-label">方向还在喂料</div><div class="rc-sub">4 个方向里 3 个最近有新东西</div></div>
+      <div class="rhythm-card"><div class="rc-num">7</div><div class="rc-label">本周新增养料</div><div class="rc-sub">视频文案 + 聊天深聊</div></div>
+      <div class="rhythm-card"><div class="rc-num">2</div><div class="rc-label">本周提问</div><div class="rc-sub">通过微信问过克里斯 2 次</div></div>
+    </div>
+    <div class="rhythm-note"><b>AI 工作台与项目落地</b> 已经静置 26 天——没有新养料，也没有提问。要么今天捡起来，要么先放一放，别让它占着方向墙的位置。</div>`;
+}
+
+function renderMobilePage(page) {
+  const titles = { direction: "方向", topics: "学习", base: "基座", mine: "我的" };
+  document.getElementById("m-title-h").textContent = titles[page] || "方向";
+  document.getElementById("m-add").style.display = page === "direction" ? "grid" : "none";
+  document.getElementById("m-changes").style.display = page === "direction" ? "block" : "none";
+  const list = document.getElementById("m-list");
+  if (page === "direction") { renderMobile(); return; }
+  if (page === "topics") {
+    list.innerHTML = topicDigests.map(d => `
+      <div class="m-topic-card">
+        <div class="m-card-top"><div class="dir-ic" style="background:${d.color};width:34px;height:34px;font-size:16px;">${d.icon}</div><span class="t">${d.title}</span></div>
+        <div class="td-desc" style="margin-top:8px;">${d.desc}</div>
+        <div class="td-foot">📘 ${d.topic} · 📝 ${d.note} · 📎 ${d.doc} · 更新 ${d.updated}</div>
+      </div>`).join("") +
+      '<div class="empty-guide" style="margin-top:0;">专题还很薄，养料先进基座，有真问题再长成专题。</div>';
+    return;
+  }
+  if (page === "base") {
+    list.innerHTML = baseTopics.map(t => `
+      <div class="m-base-topic" data-key="${t.key}">
+        <div class="bt-ic" style="background:${t.color};width:34px;height:34px;font-size:16px;">${t.icon}</div>
+        <div><div class="bi-title">${t.name}</div><div class="bi-meta">${t.count} 篇 · 更新 ${t.last}</div></div>
+      </div>`).join("") +
+      baseNodes.map((n, i) => `<div class="m-base-item" data-i="${i}">${baseNodeHtml(n, i)}</div>`).join("");
+    document.querySelectorAll("#m-list .m-base-topic").forEach(el => el.addEventListener("click", () => { baseFilter = el.dataset.key; renderMobilePage("base"); }));
+    bindBaseItems();
+    return;
+  }
+  list.innerHTML = `
+    <div class="m-rhythm-card"><div class="rc-num">3/4</div><div class="rc-label">方向还在喂料</div><div class="rc-sub">4 个方向里 3 个最近有新东西</div></div>
+    <div class="m-rhythm-card"><div class="rc-num">7</div><div class="rc-label">本周新增养料</div><div class="rc-sub">视频文案 + 聊天深聊</div></div>
+    <div class="m-rhythm-card"><div class="rc-num">2</div><div class="rc-label">本周提问</div><div class="rc-sub">通过微信问过克里斯 2 次</div></div>
+    <div class="rhythm-note"><b>AI 工作台与项目落地</b> 静置 26 天，要么捡起来，要么先放下。</div>`;
+}
+
+function openReader(n) {
+  const t = baseTopics.find(x => x.key === n.topic);
+  document.getElementById("r-title").textContent = n.title;
+  document.getElementById("r-meta").innerHTML = `<span class="bi-tag" style="${t.tag}">${t.name}</span><span class="bi-tag" style="background:var(--bg);color:var(--ink-soft);">更新 ${n.updated}</span><span class="bi-tag" style="background:var(--bg);color:var(--ink-soft);">${Math.round(n.words / 100) / 10}k 字</span>`;
+  document.getElementById("r-body").innerHTML = `<p>${n.excerpt}</p><p style="color:var(--ink-faint);font-size:12.5px;">原型演示：正式版这里展示 Obsidian 编译后的完整正文，可直接阅读和跳转关联笔记。</p>`;
+  document.getElementById("r-links").innerHTML = `<b>关联笔记：</b>${["知识库索引", "每日整理"].map(l => ` <span style="cursor:pointer;color:var(--blue);">${l} ›</span>`).join(" ")}`;
+  document.getElementById("reader").classList.add("open");
+}
+function closeReader() { document.getElementById("reader").classList.remove("open"); }
+
+function renderInbox() {
+  document.getElementById("inbox-cnt").textContent = inboxItems.filter(i => !i.dir).length;
+  document.getElementById("inbox-list").innerHTML = inboxItems.map((it, i) => `
+    <div class="inbox-item">
+      <div class="fi">🎬</div>
+      <div class="tt">${it.t}</div>
+      <select data-i="${i}">
+        <option value="">归入方向…</option>
+        ${directions.map(d => `<option ${it.dir === d.title ? "selected" : ""}>${d.title}</option>`).join("")}
+      </select>
+    </div>`).join("");
+  document.querySelectorAll("#inbox-list select").forEach(s => s.addEventListener("change", () => {
+    const it = inboxItems[+s.dataset.i];
+    it.dir = s.value;
+    renderInbox();
+  }));
+}
+
+function openModal() { document.getElementById("modal").classList.add("open"); }
+function closeModal() { document.getElementById("modal").classList.remove("open"); }
+document.getElementById("btn-new").addEventListener("click", openModal);
+document.getElementById("m-add").addEventListener("click", openModal);
+// new-card 由 renderDesktop() 动态创建，监听器在其内部绑定
+document.getElementById("modal-cancel").addEventListener("click", closeModal);
+document.getElementById("modal-ok").addEventListener("click", () => {
+  const t = document.getElementById("m-title").value.trim();
+  const w = document.getElementById("m-why").value.trim();
+  if (!t) return;
+  directions.unshift({ id: Date.now(), ic: "✨", color: "#e8efff", title: t, why: w || "还没想清楚为什么", heat: 1, heatLabel: "静置", lastAt: "刚刚", lastNote: "还没有内容", today: false, mats: { topic: 0, note: 0, doc: 0 } });
+  document.getElementById("m-title").value = "";
+  document.getElementById("m-why").value = "";
+  closeModal();
+  renderDesktop(); renderMobile();
+});
+
+document.getElementById("inbox-pill").addEventListener("click", () => {
+  const p = document.getElementById("inbox-panel");
+  p.classList.toggle("open");
+  if (p.classList.contains("open")) renderInbox();
+});
+document.getElementById("inbox-close").addEventListener("click", () => document.getElementById("inbox-panel").classList.remove("open"));
+document.getElementById("r-close").addEventListener("click", closeReader);
+document.getElementById("reader").addEventListener("click", e => { if (e.target.id === "reader") closeReader(); });
+
+function switchPage(page) {
+  document.querySelectorAll(".nav-item").forEach(n => n.classList.toggle("active", n.dataset.page === page));
+  document.querySelectorAll(".desktop .page").forEach(s => s.classList.toggle("active", s.id === "page-" + page));
+  document.querySelectorAll(".m-tab").forEach(t => t.classList.toggle("active", t.dataset.page === page));
+  renderMobilePage(page);
+}
+document.querySelectorAll(".nav-item").forEach(n => n.addEventListener("click", () => switchPage(n.dataset.page)));
+document.querySelectorAll(".m-tab").forEach(t => t.addEventListener("click", () => switchPage(t.dataset.page)));
+
+document.querySelectorAll(".viewswitch button").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll(".viewswitch button").forEach(x => x.classList.remove("active"));
+  b.classList.add("active");
+  document.querySelector(".desktop").style.display = b.dataset.v === "desktop" ? "grid" : "none";
+  document.querySelector(".mobile").style.display = b.dataset.v === "mobile" ? "block" : "none";
+}));
+
+renderDesktop(); renderMobilePage("direction"); renderBase(); renderTopics(); renderMine();
+</script>
+</body>
+</html>
