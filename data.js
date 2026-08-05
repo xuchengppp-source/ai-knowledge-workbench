@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-08-04",
- "generatedTime": "2026-08-04 23:04",
+ "generatedAt": "2026-08-05",
+ "generatedTime": "2026-08-05 10:42",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 82,
- "weeklyChanges": 853,
+ "weeklyPages": 83,
+ "weeklyChanges": 864,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-04｜AI知识增量整理.md",
  "topics": [
@@ -17,7 +17,7 @@ window.OBSIDIAN_DATA = {
    "name": "企业AI与智能体商业化",
    "key": "enterprise",
    "icon": "🏢",
-   "count": 73
+   "count": 74
   },
   {
    "name": "AI产业链与数字基础设施",
@@ -572,7 +572,8 @@ window.OBSIDIAN_DATA = {
     "原始资料/已整理｜2026-08-03｜抖音豆包｜电网数字化是腐败重灾区"
    ],
    "backlinks": [
-    "企业AI与智能体商业化/企业AI与智能体商业化专题.md"
+    "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+    "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md"
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
    "wordCount": 1897
@@ -1160,6 +1161,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/FDE与AI架构师核心资产能力.md",
     "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
     "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+    "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
     "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
     "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
     "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
@@ -1646,6 +1648,28 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "上级：企业AI与智能体商业化专题",
    "wordCount": 3074
+  },
+  {
+   "path": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
+   "title": "政务AI Agent工程化与上海6598万招标研究",
+   "updated": "2026-08-04",
+   "topic": "enterprise",
+   "links": [
+    "生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "生产级AI Agent融合架构：AI推理+企业级数据治理",
+    "可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "AI产业链与数字基础设施/算力工厂与算力出海",
+    "法律/中国立法体系总览",
+    "企业AI与智能体商业化/AI数字化招标与合规治理框架",
+    "政府资源配置与政策落地机制",
+    "徐总的知识库",
+    "企业AI与智能体商业化/企业AI与智能体商业化专题"
+   ],
+   "backlinks": [],
+   "desc": "今天（2026-08-04 23:50 ~ 2026-08-05 00:34）的对话覆盖了5 段相互关联但角度不同的内容：",
+   "wordCount": 12513
   },
   {
    "path": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3.md",
@@ -2911,7 +2935,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "Agent Runtime",
-   "matched": 12,
+   "matched": 13,
    "status": "已形成"
   },
   {
