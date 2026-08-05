@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-05",
- "generatedTime": "2026-08-05 16:37",
+ "generatedTime": "2026-08-05 19:35",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 84,
- "weeklyChanges": 871,
+ "weeklyPages": 85,
+ "weeklyChanges": 882,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-04｜AI知识增量整理.md",
  "topics": [
@@ -17,7 +17,7 @@ window.OBSIDIAN_DATA = {
    "name": "企业AI与智能体商业化",
    "key": "enterprise",
    "icon": "🏢",
-   "count": 75
+   "count": 76
   },
   {
    "name": "AI产业链与数字基础设施",
@@ -473,6 +473,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
     "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
     "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径.md",
+    "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md",
     "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
     "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差.md",
     "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent.md"
@@ -571,13 +572,14 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
     "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
     "AI Agent工程知识/AI Agent工程知识专题",
+    "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
     "徐总的知识库"
    ],
    "backlinks": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题.md"
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
-   "wordCount": 1844
+   "wordCount": 1895
   },
   {
    "path": "企业AI与智能体商业化/AI数字化招标与合规治理框架.md",
@@ -614,6 +616,7 @@ window.OBSIDIAN_DATA = {
     "甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
     "企业AI与生产级Agent总框架",
     "行业视频原稿：交付结果而非交付工具，Vibe Coding打开企业付费意愿",
+    "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
     "FDE业务需求访谈SOP",
     "FDE商业级智能体交付框架"
    ],
@@ -622,7 +625,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/零一万物企业AI落地专题.md"
    ],
    "desc": "上级：企业AI与智能体商业化专题",
-   "wordCount": 5367
+   "wordCount": 5418
   },
   {
    "path": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法.md",
@@ -736,6 +739,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/FDE交付方法论与甘食记案例.md",
     "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
     "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+    "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md",
     "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
     "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md"
    ],
@@ -1079,13 +1083,14 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图.md",
    "title": "从甘食记 MVP 到可交付 B 端产品：FDE 产品化路线图",
-   "updated": "2026-08-03",
+   "updated": "2026-08-05",
    "topic": "enterprise",
    "links": [
     "甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
     "FDE商业级智能体交付框架",
     "Palantir Ontology Pipeline商业模式与甘食记框架融合",
     "可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
     "AI时代的FDE变体：从Palantir驻场模式到Agent工厂"
    ],
    "backlinks": [
@@ -1093,7 +1098,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md"
    ],
    "desc": "创建日期：2026-07-01",
-   "wordCount": 8201
+   "wordCount": 8252
   },
   {
    "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
@@ -1125,6 +1130,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/AI数字化招标与合规治理框架",
     "原始资料/已整理｜2026-08-03｜抖音豆包｜电网数字化是腐败重灾区",
     "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机",
+    "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析",
+    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
     "AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
     "小型文化咨询公司 AI Agent 整体落地方案",
     "文化咨询公司AI Agent主方案V4.3",
@@ -1175,7 +1182,6 @@ window.OBSIDIAN_DATA = {
     "OpenClaw统一调用入口与委派规则",
     "甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线",
     "企业AI与智能体商业化/原始资料/美团AI经营参谋与甘食记内部经营系统边界讨论",
-    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
     "企业AI与智能体商业化/FDE业务需求访谈SOP",
     "Codex工作区/Codex工作区"
    ],
@@ -1186,6 +1192,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
     "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
     "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
+    "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md",
     "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
     "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
     "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
@@ -1199,7 +1206,7 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md"
    ],
    "desc": "上级：徐总的知识库",
-   "wordCount": 17693
+   "wordCount": 17913
   },
   {
    "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
@@ -1260,7 +1267,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
    "title": "企业 AI 从试点到可交付项目：商业化与组织落地实战",
-   "updated": "2026-08-03",
+   "updated": "2026-08-05",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1272,6 +1279,7 @@ window.OBSIDIAN_DATA = {
     "按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
     "从甘食记MVP到可交付B端产品：FDE产品化路线图",
     "科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
     "企业AI与生产级Agent总框架关系图",
     "原始资料/行业视频原稿：交付结果而非交付工具，Vibe Coding打开企业付费意愿",
     "企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
@@ -1291,10 +1299,11 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/AI Agent工程知识专题.md",
     "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
     "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
-    "企业AI与智能体商业化/AI数字化招标与合规治理框架.md"
+    "企业AI与智能体商业化/AI数字化招标与合规治理框架.md",
+    "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md"
    ],
    "desc": "创建日期：2026-07-02",
-   "wordCount": 18151
+   "wordCount": 18202
   },
   {
    "path": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图.md",
@@ -1676,7 +1685,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
    "title": "政务AI Agent工程化与上海6598万招标研究",
-   "updated": "2026-08-04",
+   "updated": "2026-08-05",
    "topic": "enterprise",
    "links": [
     "生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
@@ -1689,11 +1698,12 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/AI数字化招标与合规治理框架",
     "政府资源配置与政策落地机制",
     "徐总的知识库",
-    "企业AI与智能体商业化/企业AI与智能体商业化专题"
+    "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度"
    ],
    "backlinks": [],
    "desc": "今天（2026-08-04 23:50 ~ 2026-08-05 00:34）的对话覆盖了5 段相互关联但角度不同的内容：",
-   "wordCount": 12513
+   "wordCount": 12570
   },
   {
    "path": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3.md",
@@ -1755,6 +1765,25 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "上级：企业AI与智能体商业化专题",
    "wordCount": 4012
+  },
+  {
+   "path": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md",
+   "title": "案例-美团小团Agent工程化差距分析",
+   "updated": "2026-08-05",
+   "topic": "enterprise",
+   "links": [
+    "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
+    "原始资料/已整理｜2026-08-05｜ChatGPT｜美团小团Agent架构与Ontology分析"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/企业AI与智能体商业化专题.md"
+   ],
+   "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
+   "wordCount": 1716
   },
   {
    "path": "企业AI与智能体商业化/甘食记Ontology对象网络设计.md",
@@ -2960,7 +2989,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "Agent Runtime",
-   "matched": 13,
+   "matched": 14,
    "status": "已形成"
   },
   {
@@ -2985,73 +3014,53 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 58,
+   "matched": 59,
    "status": "已形成"
   },
   {
    "name": "商业化与组织能力",
-   "matched": 54,
+   "matched": 55,
    "status": "已形成"
   }
  ],
  "questionTopics": [
   {
-   "path": "徐总问题专题库/06_跨专题综合/2026-08-04_WorkBuddy伊森飞书长连接假connected故障与修复.md",
-   "title": "WorkBuddy/伊森 飞书长连接假 connected故障与修复",
-   "date": "2026-08-04",
-   "updated": "2026-08-04",
+   "path": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度.md",
+   "title": "AI智能体的工程化与前端交付的困难度",
+   "date": "2026-08-05",
+   "updated": "2026-08-05",
    "category": "跨专题综合",
-   "status": "已修复 → 已入库",
+   "status": "已蒸馏 → 待徐总确认",
    "questionType": "",
-   "originalQuestion": "群里出现两个叠加症状：一是\"@ 其他 bot 的消息也会进 WorkBuddy 会话\"，二是 WorkBuddy 的伊森切到长连接后实际收不到消息——界面显示 connected，但群消息完全没有进来。",
-   "direction": "为什么\"显示 connected\"却收不到消息？为什么\"@ 别人\"的消息会进 WorkBuddy？是密钥、权限、网络、占位冲突还是配置残留？如何区分和修复？",
-   "directionHtml": "<blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">为什么\"显示 connected\"却收不到消息？为什么\"@ 别人\"的消息会进 WorkBuddy？是密钥、权限、网络、占位冲突还是配置残留？如何区分和修复？</blockquote>",
-   "summary": "为什么\"显示 connected\"却收不到消息？为什么\"@ 别人\"的消息会进 WorkBuddy？是密钥、权限、网络、占位冲突还是配置残留？如何区分和修复？",
+   "originalQuestion": "",
+   "direction": "",
+   "directionHtml": "",
+   "summary": "本页由克里斯（OpenClaw）按口述建占位骨架并登记任务卡 KNOWLEDGEPIP31，实质内容由 Codex 作为知识管理员完成六步收口蒸馏。",
    "answerHtml": "",
    "formalNotes": [
-    "Codex工作区/飞书多智能体连接基线与故障域",
-    "Codex工作区/2026-08-04_WorkBuddy_伊森飞书长连接假connected修复",
-    "Codex工作区/2026-08-04_QoderWork_Lucas飞书长连接修复",
-    "OpenClaw克里斯记忆库/工作纪要/2026-08-04_飞书长连接代理故障修复"
+    "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析",
+    "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究",
+    "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机",
+    "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "Codex/Codex五级用法演进模型",
+    "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图",
+    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语"
    ],
    "rawMaterials": [],
    "distillItems": [],
    "nextQuestions": [],
    "links": [
-    "Codex工作区/飞书多智能体连接基线与故障域",
-    "Codex工作区/2026-08-04_WorkBuddy_伊森飞书长连接假connected修复",
-    "Codex工作区/2026-08-04_QoderWork_Lucas飞书长连接修复",
-    "OpenClaw克里斯记忆库/工作纪要/2026-08-04_飞书长连接代理故障修复"
+    "Codex/Codex五级用法演进模型",
+    "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图",
+    "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析",
+    "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究",
+    "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机",
+    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语"
    ],
-   "wordCount": 1262
-  },
-  {
-   "path": "徐总问题专题库/06_跨专题综合/2026-08-04_Lucas飞书长连接故障与修复.md",
-   "title": "Lucas/QoderWork 飞书长连接故障与修复",
-   "date": "2026-08-04",
-   "updated": "2026-08-04",
-   "category": "跨专题综合",
-   "status": "已修复 → 已入库",
-   "questionType": "",
-   "originalQuestion": "QoderWork 搭载的飞书机器人 Lucas（卢卡斯）长连接连不上，飞书后台显示\"长连接失败\"，但 QoderWork 显示已连接、就是收不到消息；重新扫码、重启都无效。",
-   "direction": "为什么\"显示已连接\"却收不到消息？是密钥、权限、代理还是应用自身的问题？如何区分和修复？",
-   "directionHtml": "<p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">为什么\"显示已连接\"却收不到消息？是密钥、权限、代理还是应用自身的问题？如何区分和修复？</p>",
-   "summary": "为什么\"显示已连接\"却收不到消息？是密钥、权限、代理还是应用自身的问题？如何区分和修复？",
-   "answerHtml": "",
-   "formalNotes": [
-    "Codex工作区/飞书多智能体连接基线与故障域",
-    "Codex工作区/2026-08-04_QoderWork_Lucas飞书长连接修复",
-    "OpenClaw克里斯记忆库/工作纪要/2026-08-04_飞书长连接代理故障修复"
-   ],
-   "rawMaterials": [],
-   "distillItems": [],
-   "nextQuestions": [],
-   "links": [
-    "Codex工作区/飞书多智能体连接基线与故障域",
-    "Codex工作区/2026-08-04_QoderWork_Lucas飞书长连接修复",
-    "OpenClaw克里斯记忆库/工作纪要/2026-08-04_飞书长连接代理故障修复"
-   ],
-   "wordCount": 737
+   "wordCount": 4930
   },
   {
    "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海.md",
