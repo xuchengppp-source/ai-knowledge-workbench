@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-05",
- "generatedTime": "2026-08-05 10:42",
+ "generatedTime": "2026-08-05 16:37",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 83,
- "weeklyChanges": 864,
+ "weeklyPages": 84,
+ "weeklyChanges": 871,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-04｜AI知识增量整理.md",
  "topics": [
@@ -17,7 +17,7 @@ window.OBSIDIAN_DATA = {
    "name": "企业AI与智能体商业化",
    "key": "enterprise",
    "icon": "🏢",
-   "count": 74
+   "count": 75
   },
   {
    "name": "AI产业链与数字基础设施",
@@ -216,6 +216,7 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
     "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象.md",
+    "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
     "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
     "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
     "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
@@ -560,6 +561,25 @@ window.OBSIDIAN_DATA = {
    "wordCount": 8634
   },
   {
+   "path": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
+   "title": "AI交付行业观察：走访7个团队后的困境机会与危机",
+   "updated": "2026-08-05",
+   "topic": "enterprise",
+   "links": [
+    "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "AI Agent工程知识/AI Agent工程知识专题",
+    "徐总的知识库"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/企业AI与智能体商业化专题.md"
+   ],
+   "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
+   "wordCount": 1844
+  },
+  {
    "path": "企业AI与智能体商业化/AI数字化招标与合规治理框架.md",
    "title": "AI数字化招标与合规治理框架",
    "updated": "2026-08-03",
@@ -775,6 +795,7 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/AI Agent工程知识框架.md",
     "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现.md",
     "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
+    "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
     "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
     "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
     "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
@@ -868,6 +889,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [
     "AI Agent工程知识/AI Agent专业术语词典.md",
+    "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
     "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
     "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构.md",
     "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环.md",
@@ -1076,7 +1098,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
    "title": "企业 AI 与智能体商业化专题",
-   "updated": "2026-08-03",
+   "updated": "2026-08-05",
    "topic": "enterprise",
    "links": [
     "徐总的知识库",
@@ -1102,6 +1124,7 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
     "企业AI与智能体商业化/AI数字化招标与合规治理框架",
     "原始资料/已整理｜2026-08-03｜抖音豆包｜电网数字化是腐败重灾区",
+    "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机",
     "AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
     "小型文化咨询公司 AI Agent 整体落地方案",
     "文化咨询公司AI Agent主方案V4.3",
@@ -1157,6 +1180,7 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/Codex工作区"
    ],
    "backlinks": [
+    "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
     "企业AI与智能体商业化/AI数字化招标与合规治理框架.md",
     "企业AI与智能体商业化/FDE与AI架构师核心资产能力.md",
     "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
@@ -1175,7 +1199,7 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md"
    ],
    "desc": "上级：徐总的知识库",
-   "wordCount": 17508
+   "wordCount": 17693
   },
   {
    "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
@@ -2065,6 +2089,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [
     "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
+    "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
     "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢.md",
     "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
     "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
@@ -2960,12 +2985,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 57,
+   "matched": 58,
    "status": "已形成"
   },
   {
    "name": "商业化与组织能力",
-   "matched": 53,
+   "matched": 54,
    "status": "已形成"
   }
  ],
