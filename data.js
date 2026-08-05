@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-05",
- "generatedTime": "2026-08-05 19:35",
+ "generatedTime": "2026-08-05 22:33",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 85,
- "weeklyChanges": 882,
+ "weeklyPages": 87,
+ "weeklyChanges": 889,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-04｜AI知识增量整理.md",
  "topics": [
@@ -11,7 +11,7 @@ window.OBSIDIAN_DATA = {
    "name": "AI Agent工程知识",
    "key": "agent",
    "icon": "🤖",
-   "count": 19
+   "count": 21
   },
   {
    "name": "企业AI与智能体商业化",
@@ -72,6 +72,19 @@ window.OBSIDIAN_DATA = {
    "wordCount": 40023
   },
   {
+   "path": "AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史.md",
+   "title": "AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史",
+   "updated": "2026-08-05",
+   "topic": "agent",
+   "links": [
+    "AI模型选型与订阅历史",
+    "AI Agent发展路径：从会说到会做再到能操作业务"
+   ],
+   "backlinks": [],
+   "desc": "",
+   "wordCount": 241
+  },
+  {
    "path": "AI Agent工程知识/AI Agent全面理解.md",
    "title": "AI Agent 全面理解",
    "updated": "2026-07-05",
@@ -98,7 +111,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
    "title": "AI Agent发展路径：从会说到会做再到能操作业务",
-   "updated": "2026-08-03",
+   "updated": "2026-08-05",
    "topic": "agent",
    "links": [
     "AI Agent工程知识/AI Agent工程知识专题",
@@ -108,6 +121,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
     "企业AI与智能体商业化/甘食记经营系统完整演进时间线",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史",
     "AI Agent工程知识/生产级AI Agent记忆系统与Context调度",
     "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
     "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象"
@@ -118,7 +132,7 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md"
    ],
    "desc": "上级：AI Agent工程知识/AI Agent工程知识专题",
-   "wordCount": 6641
+   "wordCount": 7181
   },
   {
    "path": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维.md",
@@ -215,6 +229,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [
     "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
+    "AI Agent工程知识/AI模型选型与订阅历史.md",
     "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象.md",
     "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
     "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
@@ -244,6 +259,7 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准"
    ],
    "backlinks": [
+    "AI Agent工程知识/AI模型选型与订阅历史.md",
     "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
     "企业AI与智能体商业化/企业AI与生产级Agent总框架.md"
    ],
@@ -294,6 +310,21 @@ window.OBSIDIAN_DATA = {
    "backlinks": [],
    "desc": "实践中通常混用：大体上先有 Plan，执行细节中遇到异常再切到 ReAct 做局部调整。",
    "wordCount": 12749
+  },
+  {
+   "path": "AI Agent工程知识/AI模型选型与订阅历史.md",
+   "title": "AI 模型选型与订阅历史",
+   "updated": "2026-08-05",
+   "topic": "agent",
+   "links": [
+    "AI Agent工程知识/AI Agent工程知识专题",
+    "AI Agent工程知识/AI Agent工程知识框架",
+    "OpenClaw克里斯记忆库/00_总览",
+    "AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史"
+   ],
+   "backlinks": [],
+   "desc": "- 平台：阿里云百炼 Coding Plan",
+   "wordCount": 6459
   },
   {
    "path": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现.md",
@@ -2979,7 +3010,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "模型与推理",
-   "matched": 5,
+   "matched": 7,
    "status": "已形成"
   },
   {
