@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-06",
- "generatedTime": "2026-08-06 10:19",
+ "generatedTime": "2026-08-06 16:14",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 85,
  "weeklyChanges": 867,
@@ -74,7 +74,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史.md",
    "title": "AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史",
-   "updated": "2026-08-05",
+   "updated": "2026-08-06",
    "topic": "agent",
    "links": [
     "AI模型选型与订阅历史",
@@ -111,7 +111,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
    "title": "AI Agent发展路径：从会说到会做再到能操作业务",
-   "updated": "2026-08-05",
+   "updated": "2026-08-06",
    "topic": "agent",
    "links": [
     "AI Agent工程知识/AI Agent工程知识专题",
@@ -137,7 +137,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维.md",
    "title": "AI Agent 后端工程化能力框架：分布式、异步、状态与可运维",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -189,7 +189,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/AI Agent工程知识专题.md",
    "title": "AI Agent 工程知识专题",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "agent",
    "links": [
     "徐总的知识库",
@@ -246,7 +246,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/AI Agent工程知识框架.md",
    "title": "AI Agent 工程知识框架",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -269,7 +269,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地.md",
    "title": "AI Agent 面试 14 题学习版：从概念到甘食记项目落地",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -294,7 +294,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/AI Agent面试知识地图.md",
    "title": "AI Agent 面试知识地图",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "agent",
    "links": [
     "AI Agent专业术语词典",
@@ -329,7 +329,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现.md",
    "title": "FDE 业务输出到后端工程的翻译映射：从业务对象到工程实现",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -345,7 +345,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象.md",
    "title": "Ontology基础概念：从本体论到企业业务对象",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "agent",
    "links": [
     "AI Agent工程知识/AI Agent工程知识专题",
@@ -368,7 +368,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/三层知识库与RAG基础设施分型.md",
    "title": "三层知识库与 RAG 基础设施分型",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -390,7 +390,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）.md",
    "title": "整理稿｜ChatGPT 生产级 AI Agent 框架（2026-06-11）",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "agent",
    "links": [
     "AI Agent工程知识框架",
@@ -535,7 +535,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
    "title": "生产级 RAG 与数据库知识库架构：事实库、文档知识库与状态机",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -570,7 +570,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈.md",
    "title": "生产级知识库工程的 8 大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -615,7 +615,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/AI数字化招标与合规治理框架.md",
    "title": "AI数字化招标与合规治理框架",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -661,7 +661,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法.md",
    "title": "FDE 访谈到业务关系模型的编译方法",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -683,7 +683,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/FDE与AI架构师核心资产能力.md",
    "title": "FDE与AI架构师核心资产能力",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -709,7 +709,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢.md",
    "title": "FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -747,7 +747,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
    "title": "FDE业务需求访谈SOP",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -780,7 +780,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/FDE交付方法论与甘食记案例.md",
    "title": "FDE 交付方法论与甘食记案例",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -810,7 +810,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/FDE商业级智能体交付框架.md",
    "title": "FDE 商业级智能体交付框架：业务需求、落地架构、使用体验",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
@@ -844,7 +844,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）.md",
    "title": "FDE 在甲方搭建 Ontology Objects 的完整工作流（含客户沟通+行业语言对齐）",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -868,7 +868,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收.md",
    "title": "FDE 建设轻量业务 Ontology：从关系模型设计到飞书实施验收",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -891,7 +891,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/FDE搭建智能体落地：企业分级、平台选型与合规交付.md",
    "title": "FDE搭建智能体落地：企业分级、平台选型与合规交付",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI落地的五堵墙+四层面系统工程+五层落地方法论"
@@ -905,7 +905,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
    "title": "FDE生产级AI Agent五阶段方法论与AI基建协同",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -937,7 +937,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/OpenClaw统一调用入口与委派规则.md",
    "title": "OpenClaw统一调用入口与委派规则",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -951,7 +951,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合.md",
    "title": "Palantir Ontology Pipeline商业模式与甘食记框架融合",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -988,7 +988,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架.md",
    "title": "WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1005,7 +1005,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP.md",
    "title": "WorkBuddy专家包与专家团搭建SOP",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1026,7 +1026,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架.md",
    "title": "WorkBuddy稳定智能体架构搭建框架",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1046,7 +1046,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试.md",
    "title": "WorkBuddy经营主理人搭建与甘食记模拟数据测试",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1070,7 +1070,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性.md",
    "title": "WorkBuddy自动化任务与手动会话运行一致性",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1089,7 +1089,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/WorkBuddy调用百炼Agent与Workflow的组合打法.md",
    "title": "WorkBuddy 调用百炼 Agent / Workflow 的组合打法",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题"
@@ -1101,7 +1101,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/WorkBuddy连接图谱.md",
    "title": "WorkBuddy 连接图谱",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "徐总每日随记/当日记录/2026-06-10",
@@ -1114,7 +1114,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图.md",
    "title": "从甘食记 MVP 到可交付 B 端产品：FDE 产品化路线图",
-   "updated": "2026-08-05",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
@@ -1134,7 +1134,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
    "title": "企业 AI 与智能体商业化专题",
-   "updated": "2026-08-05",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "徐总的知识库",
@@ -1242,7 +1242,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
    "title": "企业 AI 与生产级 Agent 总框架",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "徐总的知识库",
@@ -1298,7 +1298,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
    "title": "企业 AI 从试点到可交付项目：商业化与组织落地实战",
-   "updated": "2026-08-05",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1339,7 +1339,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图.md",
    "title": "企业AI知识资产与RAG工程关系图",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1424,7 +1424,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
    "title": "企业AI蓝图：经营、知识、AI架构与工程",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1461,7 +1461,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径.md",
    "title": "企业应用架构六阶段演化与 AI Agent 融合路径",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1488,7 +1488,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统.md",
    "title": "企业智能体架构层次：框架、服务器、模型平台与业务系统",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1517,7 +1517,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构.md",
    "title": "企业级部门智能体全景到跨部门落地架构",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1543,7 +1543,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes.md",
    "title": "内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1561,7 +1561,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁.md",
    "title": "可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1592,7 +1592,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构.md",
    "title": "多门店经营智能体的批量分析与扩展性架构",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1611,7 +1611,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP.md",
    "title": "客户业务API到经营分析与飞书多维表格闭环SOP",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1631,7 +1631,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案.md",
    "title": "小型文化咨询公司 AI Agent 整体落地方案",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1653,7 +1653,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/小程序数据结构与API接入调研框架.md",
    "title": "小程序数据结构与API接入调研框架",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1670,7 +1670,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团.md",
    "title": "己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1716,7 +1716,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
    "title": "政务AI Agent工程化与上海6598万招标研究",
-   "updated": "2026-08-05",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
@@ -1764,7 +1764,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环.md",
    "title": "文化咨询公司甲方最小切口：咨询后服务记录闭环",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1783,7 +1783,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架.md",
    "title": "本地智能体项目文件分层与产品交付框架",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1819,7 +1819,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/甘食记Ontology对象网络设计.md",
    "title": "甘食记 Ontology 对象网络 — 完整版（2026-06-17）",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
@@ -1840,7 +1840,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
    "title": "甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1883,7 +1883,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时.md",
    "title": "甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1901,7 +1901,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/甘食记经营工作台建设与验收.md",
    "title": "甘食记经营工作台建设与验收",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1920,7 +1920,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器.md",
    "title": "甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1941,7 +1941,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线.md",
    "title": "甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时",
@@ -1954,7 +1954,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/甘食记经营智能体需求诊断清单.md",
    "title": "甘食记经营智能体需求诊断清单",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "FDE交付方法论与甘食记案例",
@@ -1971,7 +1971,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作.md",
    "title": "甘食记经营智能体：从规则补丁到三角色协作",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1989,7 +1989,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/甘食记经营系统1.0框架总结.md",
    "title": "甘食记经营系统 1.0 框架总结",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "甘食记经营工作台建设与验收",
@@ -2010,7 +2010,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/甘食记经营系统完整演进时间线.md",
    "title": "甘食记经营系统完整演进时间线",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线",
@@ -2034,7 +2034,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执.md",
    "title": "甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2055,7 +2055,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
    "title": "生产级 AI Agent 的三层标准：方法标准、实现标准与对标标准",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "AI Agent工程知识/AI Agent工程知识专题",
@@ -2100,7 +2100,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/知识库索引.md",
    "title": "知识库索引（快速查找版）",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "徐总的知识库",
@@ -2129,7 +2129,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
    "title": "科技咨询公司 FDE 访谈样本：从业务线选择到项目交付 Agent",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -2190,7 +2190,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/腾讯Marvis与操作系统级Agent产品思维.md",
    "title": "腾讯 Marvis 与操作系统级 Agent 产品思维",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2203,7 +2203,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/阿里云百炼与FDE智能体项目沉淀索引.md",
    "title": "阿里云百炼与 FDE 智能体项目沉淀索引",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2220,7 +2220,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
    "title": "集成商AI基础设施布局到AI Agent生产企业演进路径",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2253,7 +2253,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
    "title": "零一万物CTO视角：从万策概念到私有化部署与数据库工程",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/零一万物企业AI落地专题",
@@ -2275,7 +2275,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式.md",
    "title": "零一万物、FDE 与企业 AI 落地模式",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "徐总的知识库",
@@ -2295,7 +2295,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/零一万物企业AI落地专题.md",
    "title": "零一万物企业AI落地专题",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -2357,7 +2357,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/飞书企业管理模块接入甘食记经营系统融合方案.md",
    "title": "飞书企业管理模块接入甘食记经营系统融合方案",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
@@ -2415,7 +2415,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent.md",
    "title": "餐饮客户已有基础设施后的 AI Agent",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2440,7 +2440,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架.md",
    "title": "餐饮经营智能体模板与FDE客户对接知识框架",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2463,7 +2463,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
    "title": "AI产业链与数字基础设施专题",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "infrastructure",
    "links": [
     "徐总的知识库",
@@ -2513,7 +2513,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
    "title": "AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "infrastructure",
    "links": [
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
@@ -2549,7 +2549,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
    "title": "AI时代演进史与数字基础设施总纲",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "infrastructure",
    "links": [
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
@@ -2584,7 +2584,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
    "title": "AI时代资本支出链：从电力、算力、存储到Agent应用",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "infrastructure",
    "links": [
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
@@ -2615,7 +2615,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
    "title": "甘肃庆阳AI算力产业崛起与Token工厂",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "infrastructure",
    "links": [
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
@@ -2650,7 +2650,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
    "title": "算力工厂与算力出海：从基础设施到跨境交付的完整链路",
-   "updated": "2026-08-03",
+   "updated": "2026-08-06",
    "topic": "infrastructure",
    "links": [
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
@@ -2771,7 +2771,7 @@ window.OBSIDIAN_DATA = {
     "date": "2026-08-05"
    },
    {
-    "title": "非 AI 主线（仅记录，不展开）：`个人能力提升/组织信任与闭环执行：从执行者到共谋者.md`（14:27 新建）+ 核心能力框架更新、`个人健康/体重管理.md`（10:27）、`个人出行/美签/美签管理.md`（16:48）、`OpenClaw克里斯记忆库/工作纪要/2026-08-04_飞书群历史查询能力调研与封装.md`（08-04 23:45）。",
+    "title": "非 AI 主线（仅记录，不展开）：`个人能力提升/组织信任与闭环执行：从执行者到共谋者.md`（14:27 新建）+ 核心能力框架更新、`个人健康/体重管理.md`（10:27）、`个人出行/美签/美签管理.md`（16:48）、`OpenClaw克里斯记忆库/工作能力/飞书群历史查询能力调用说明.md`（08-04 23:45）。",
     "summary": "",
     "points": [],
     "date": "2026-08-05"
@@ -2872,7 +2872,7 @@ window.OBSIDIAN_DATA = {
      "date": "2026-08-05"
     },
     {
-     "title": "非 AI 主线（仅记录，不展开）：`个人能力提升/组织信任与闭环执行：从执行者到共谋者.md`（14:27 新建）+ 核心能力框架更新、`个人健康/体重管理.md`（10:27）、`个人出行/美签/美签管理.md`（16:48）、`OpenClaw克里斯记忆库/工作纪要/2026-08-04_飞书群历史查询能力调研与封装.md`（08-04 23:45）。",
+     "title": "非 AI 主线（仅记录，不展开）：`个人能力提升/组织信任与闭环执行：从执行者到共谋者.md`（14:27 新建）+ 核心能力框架更新、`个人健康/体重管理.md`（10:27）、`个人出行/美签/美签管理.md`（16:48）、`OpenClaw克里斯记忆库/工作能力/飞书群历史查询能力调用说明.md`（08-04 23:45）。",
      "summary": "",
      "points": [],
      "date": "2026-08-05"
@@ -3239,7 +3239,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海.md",
    "title": "算力工厂与算力出海（多轮深化）",
    "date": "2026-08-03",
-   "updated": "2026-08-04",
+   "updated": "2026-08-06",
    "category": "AI产业链与基础设施",
    "status": "已回答 → 已入库 → 实操展开追加（2026-08-04）",
    "questionType": "🧠 概念理解 + 🔗 跨专题串联 + ⚖️ 行业角色定位",
@@ -3290,5 +3290,11920 @@ window.OBSIDIAN_DATA = {
    ],
    "wordCount": 20536
   }
- ]
+ ],
+ "ontology": {
+  "version": "0.1",
+  "generatedBy": "generate.js",
+  "nodes": [
+   {
+    "id": "AI Agent工程知识/AI Agent专业术语词典",
+    "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+    "title": "AI Agent 专业术语词典",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史",
+    "path": "AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史.md",
+    "title": "AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/AI Agent全面理解",
+    "path": "AI Agent工程知识/AI Agent全面理解.md",
+    "title": "AI Agent 全面理解",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
+    "path": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
+    "title": "AI Agent发展路径：从会说到会做再到能操作业务",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "path": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维.md",
+    "title": "AI Agent 后端工程化能力框架：分布式、异步、状态与可运维",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
+    "title": "AI Agent 工程的行业语言映射：从内部术语到 Palantir / FDE / 数据治理标准",
+    "type": "knowledge_note",
+    "domain": "fde",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/AI Agent工程知识专题",
+    "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+    "title": "AI Agent 工程知识专题",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/AI Agent工程知识框架",
+    "path": "AI Agent工程知识/AI Agent工程知识框架.md",
+    "title": "AI Agent 工程知识框架",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地",
+    "path": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地.md",
+    "title": "AI Agent 面试 14 题学习版：从概念到甘食记项目落地",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/AI Agent面试知识地图",
+    "path": "AI Agent工程知识/AI Agent面试知识地图.md",
+    "title": "AI Agent 面试知识地图",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/AI模型选型与订阅历史",
+    "path": "AI Agent工程知识/AI模型选型与订阅历史.md",
+    "title": "AI 模型选型与订阅历史",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现",
+    "path": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现.md",
+    "title": "FDE 业务输出到后端工程的翻译映射：从业务对象到工程实现",
+    "type": "knowledge_note",
+    "domain": "fde",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
+    "path": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象.md",
+    "title": "Ontology基础概念：从本体论到企业业务对象",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/三层知识库与RAG基础设施分型",
+    "path": "AI Agent工程知识/三层知识库与RAG基础设施分型.md",
+    "title": "三层知识库与 RAG 基础设施分型",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）",
+    "path": "AI Agent工程知识/原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）.md",
+    "title": "整理稿｜ChatGPT 生产级 AI Agent 框架（2026-06-11）",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "path": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制.md",
+    "title": "显性知识与隐性知识的工程化入库机制",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
+    "title": "生产级 AI Agent 工程体系的完整链路",
+    "type": "formal_topic",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+    "title": "生产级 AI Agent 知识体系总览：层级·特性·术语（含 Palantir Ontology 对标）",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度",
+    "path": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度.md",
+    "title": "生产级 AI Agent 记忆系统与 Context 调度",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "path": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
+    "title": "生产级 RAG 与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
+    "path": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈.md",
+    "title": "生产级知识库工程的 8 大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机",
+    "path": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
+    "title": "AI交付行业观察：走访7个团队后的困境机会与危机",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/AI数字化招标与合规治理框架",
+    "path": "企业AI与智能体商业化/AI数字化招标与合规治理框架.md",
+    "title": "AI数字化招标与合规治理框架",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "path": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂.md",
+    "title": "AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "type": "knowledge_note",
+    "domain": "fde",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法",
+    "path": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法.md",
+    "title": "FDE 访谈到业务关系模型的编译方法",
+    "type": "knowledge_note",
+    "domain": "fde",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
+    "path": "企业AI与智能体商业化/FDE与AI架构师核心资产能力.md",
+    "title": "FDE与AI架构师核心资产能力",
+    "type": "knowledge_note",
+    "domain": "fde",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "path": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢.md",
+    "title": "FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "type": "knowledge_note",
+    "domain": "fde",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "path": "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
+    "title": "FDE业务需求访谈SOP",
+    "type": "knowledge_note",
+    "domain": "fde",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "path": "企业AI与智能体商业化/FDE交付方法论与甘食记案例.md",
+    "title": "FDE 交付方法论与甘食记案例",
+    "type": "formal_topic",
+    "domain": "fde",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "path": "企业AI与智能体商业化/FDE商业级智能体交付框架.md",
+    "title": "FDE 商业级智能体交付框架：业务需求、落地架构、使用体验",
+    "type": "knowledge_note",
+    "domain": "fde",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "path": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）.md",
+    "title": "FDE 在甲方搭建 Ontology Objects 的完整工作流（含客户沟通+行业语言对齐）",
+    "type": "knowledge_note",
+    "domain": "fde",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "path": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收.md",
+    "title": "FDE 建设轻量业务 Ontology：从关系模型设计到飞书实施验收",
+    "type": "knowledge_note",
+    "domain": "fde",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/FDE搭建智能体落地：企业分级、平台选型与合规交付",
+    "path": "企业AI与智能体商业化/FDE搭建智能体落地：企业分级、平台选型与合规交付.md",
+    "title": "FDE搭建智能体落地：企业分级、平台选型与合规交付",
+    "type": "knowledge_note",
+    "domain": "fde",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
+    "title": "FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "type": "formal_topic",
+    "domain": "fde",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/OpenClaw统一调用入口与委派规则",
+    "path": "企业AI与智能体商业化/OpenClaw统一调用入口与委派规则.md",
+    "title": "OpenClaw统一调用入口与委派规则",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "path": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合.md",
+    "title": "Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
+    "path": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架.md",
+    "title": "WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
+    "path": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP.md",
+    "title": "WorkBuddy专家包与专家团搭建SOP",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "path": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架.md",
+    "title": "WorkBuddy稳定智能体架构搭建框架",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试",
+    "path": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试.md",
+    "title": "WorkBuddy经营主理人搭建与甘食记模拟数据测试",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性",
+    "path": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性.md",
+    "title": "WorkBuddy自动化任务与手动会话运行一致性",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/WorkBuddy调用百炼Agent与Workflow的组合打法",
+    "path": "企业AI与智能体商业化/WorkBuddy调用百炼Agent与Workflow的组合打法.md",
+    "title": "WorkBuddy 调用百炼 Agent / Workflow 的组合打法",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/WorkBuddy连接图谱",
+    "path": "企业AI与智能体商业化/WorkBuddy连接图谱.md",
+    "title": "WorkBuddy 连接图谱",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图",
+    "path": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图.md",
+    "title": "从甘食记 MVP 到可交付 B 端产品：FDE 产品化路线图",
+    "type": "knowledge_note",
+    "domain": "fde",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+    "title": "企业 AI 与智能体商业化专题",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+    "title": "企业 AI 与生产级 Agent 总框架",
+    "type": "formal_topic",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/企业AI专题轻量编译流程",
+    "path": "企业AI与智能体商业化/企业AI专题轻量编译流程.md",
+    "title": "企业 AI 专题轻量编译流程",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
+    "title": "企业 AI 从试点到可交付项目：商业化与组织落地实战",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
+    "path": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图.md",
+    "title": "企业AI知识资产与RAG工程关系图",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利",
+    "path": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利.md",
+    "title": "企业AI知识资产：从知识库到组织能力与AI复利",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+    "title": "企业 AI 落地的五堵墙 + 四层面系统工程 + 五层落地方法论",
+    "type": "formal_topic",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "path": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
+    "title": "企业AI蓝图：经营、知识、AI架构与工程",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
+    "path": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径.md",
+    "title": "企业应用架构六阶段演化与 AI Agent 融合路径",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "path": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统.md",
+    "title": "企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构",
+    "path": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构.md",
+    "title": "企业级部门智能体全景到跨部门落地架构",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes",
+    "path": "企业AI与智能体商业化/内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes.md",
+    "title": "内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "path": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁.md",
+    "title": "可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "type": "formal_topic",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/多智能体双向连接架构_20260610",
+    "path": "企业AI与智能体商业化/多智能体双向连接架构_20260610.md",
+    "title": "多智能体双向连接架构（2026-06-10 实现）",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构",
+    "path": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构.md",
+    "title": "多门店经营智能体的批量分析与扩展性架构",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "path": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP.md",
+    "title": "客户业务API到经营分析与飞书多维表格闭环SOP",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案",
+    "path": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案.md",
+    "title": "小型文化咨询公司 AI Agent 整体落地方案",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/小程序数据结构与API接入调研框架",
+    "path": "企业AI与智能体商业化/小程序数据结构与API接入调研框架.md",
+    "title": "小程序数据结构与API接入调研框架",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
+    "path": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团.md",
+    "title": "己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
+    "path": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
+    "title": "按业务形态设计 AI Agent 架构：日经营型、项目制与生产制造型",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究",
+    "path": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
+    "title": "政务AI Agent工程化与上海6598万招标研究",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3",
+    "path": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3.md",
+    "title": "文化咨询公司AI Agent主方案V4.3",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环",
+    "path": "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环.md",
+    "title": "文化咨询公司甲方最小切口：咨询后服务记录闭环",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架",
+    "path": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架.md",
+    "title": "本地智能体项目文件分层与产品交付框架",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析",
+    "path": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md",
+    "title": "案例-美团小团Agent工程化差距分析",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/甘食记Ontology对象网络设计",
+    "path": "企业AI与智能体商业化/甘食记Ontology对象网络设计.md",
+    "title": "甘食记 Ontology 对象网络 — 完整版（2026-06-17）",
+    "type": "knowledge_note",
+    "domain": "fde",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+    "title": "甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时",
+    "path": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时.md",
+    "title": "甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/甘食记经营工作台建设与验收",
+    "path": "企业AI与智能体商业化/甘食记经营工作台建设与验收.md",
+    "title": "甘食记经营工作台建设与验收",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "path": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器.md",
+    "title": "甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线",
+    "path": "企业AI与智能体商业化/甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线.md",
+    "title": "甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/甘食记经营智能体需求诊断清单",
+    "path": "企业AI与智能体商业化/甘食记经营智能体需求诊断清单.md",
+    "title": "甘食记经营智能体需求诊断清单",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作",
+    "path": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作.md",
+    "title": "甘食记经营智能体：从规则补丁到三角色协作",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
+    "path": "企业AI与智能体商业化/甘食记经营系统1.0框架总结.md",
+    "title": "甘食记经营系统 1.0 框架总结",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/甘食记经营系统完整演进时间线",
+    "path": "企业AI与智能体商业化/甘食记经营系统完整演进时间线.md",
+    "title": "甘食记经营系统完整演进时间线",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执",
+    "path": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执.md",
+    "title": "甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "path": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
+    "title": "生产级 AI Agent 的三层标准：方法标准、实现标准与对标标准",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/生产级AI Agent融合架构：AI推理+企业级数据治理",
+    "path": "企业AI与智能体商业化/生产级AI Agent融合架构：AI推理+企业级数据治理.md",
+    "title": "生产级 AI Agent 融合架构：AI 推理 + 企业级数据治理",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/知识库索引",
+    "path": "企业AI与智能体商业化/知识库索引.md",
+    "title": "知识库索引（快速查找版）",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "path": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
+    "title": "科技咨询公司 FDE 访谈样本：从业务线选择到项目交付 Agent",
+    "type": "knowledge_note",
+    "domain": "fde",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案",
+    "path": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
+    "title": "科技咨询公司业务AI系统落地方案",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/腾讯Marvis与操作系统级Agent产品思维",
+    "path": "企业AI与智能体商业化/腾讯Marvis与操作系统级Agent产品思维.md",
+    "title": "腾讯 Marvis 与操作系统级 Agent 产品思维",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/阿里云百炼与FDE智能体项目沉淀索引",
+    "path": "企业AI与智能体商业化/阿里云百炼与FDE智能体项目沉淀索引.md",
+    "title": "阿里云百炼与 FDE 智能体项目沉淀索引",
+    "type": "knowledge_note",
+    "domain": "fde",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "path": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
+    "title": "集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程",
+    "path": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
+    "title": "零一万物CTO视角：从万策概念到私有化部署与数据库工程",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式",
+    "path": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式.md",
+    "title": "零一万物、FDE 与企业 AI 落地模式",
+    "type": "knowledge_note",
+    "domain": "fde",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/零一万物企业AI落地专题",
+    "path": "企业AI与智能体商业化/零一万物企业AI落地专题.md",
+    "title": "零一万物企业AI落地专题",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "path": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md",
+    "title": "零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/飞书企业管理模块接入甘食记经营系统融合方案",
+    "path": "企业AI与智能体商业化/飞书企业管理模块接入甘食记经营系统融合方案.md",
+    "title": "飞书企业管理模块接入甘食记经营系统融合方案",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环",
+    "path": "企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环.md",
+    "title": "飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差",
+    "path": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差.md",
+    "title": "跨生态融合策略：用三层体系低成本复制 Palantir 的 Ontology + AI 闭环",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent",
+    "path": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent.md",
+    "title": "餐饮客户已有基础设施后的 AI Agent",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架",
+    "path": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架.md",
+    "title": "餐饮经营智能体模板与FDE客户对接知识框架",
+    "type": "knowledge_note",
+    "domain": "fde",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+    "title": "AI产业链与数字基础设施专题",
+    "type": "knowledge_note",
+    "domain": "ai_infrastructure",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "path": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
+    "title": "AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "type": "knowledge_note",
+    "domain": "ai_infrastructure",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "path": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
+    "title": "AI时代演进史与数字基础设施总纲",
+    "type": "knowledge_note",
+    "domain": "ai_infrastructure",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "path": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
+    "title": "AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "type": "knowledge_note",
+    "domain": "ai_infrastructure",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "path": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
+    "title": "甘肃庆阳AI算力产业崛起与Token工厂",
+    "type": "knowledge_note",
+    "domain": "ai_infrastructure",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "path": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+    "title": "算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "type": "knowledge_note",
+    "domain": "ai_infrastructure",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
+    "path": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度.md",
+    "title": "AI智能体的工程化与前端交付的困难度",
+    "type": "question_topic",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海",
+    "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海.md",
+    "title": "算力工厂与算力出海（多轮深化）",
+    "type": "question_topic",
+    "domain": "ai_infrastructure",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   }
+  ],
+  "relations": [
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "AI Agent工程知识/AI Agent工程知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "AI Agent工程知识/AI Agent全面理解",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "AI Agent工程知识/三层知识库与RAG基础设施分型",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "AI Agent工程知识/AI Agent面试知识地图",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史",
+    "to": "AI Agent工程知识/AI模型选型与订阅历史",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史",
+    "to": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent全面理解",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent全面理解.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent全面理解",
+    "to": "AI Agent工程知识/AI Agent专业术语词典",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent全面理解.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent全面理解",
+    "to": "AI Agent工程知识/AI Agent工程知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent全面理解.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent全面理解",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent全面理解.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent全面理解",
+    "to": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent全面理解.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent全面理解",
+    "to": "AI Agent工程知识/AI Agent面试知识地图",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent全面理解.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent全面理解",
+    "to": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent全面理解.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent全面理解",
+    "to": "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent全面理解.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
+    "to": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
+    "to": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
+    "to": "企业AI与智能体商业化/甘食记经营系统完整演进时间线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
+    "to": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
+    "to": "AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
+    "to": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
+    "to": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "to": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "to": "AI Agent工程知识/AI Agent专业术语词典",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "to": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "to": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "to": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "to": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "to": "AI Agent工程知识/AI Agent工程知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "to": "AI Agent工程知识/AI Agent专业术语词典",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "to": "AI Agent工程知识/AI Agent全面理解",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "to": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "to": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "to": "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "AI Agent工程知识/AI Agent工程知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "AI Agent工程知识/AI Agent专业术语词典",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "AI Agent工程知识/AI Agent全面理解",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "AI Agent工程知识/原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "AI Agent工程知识/AI Agent面试知识地图",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识框架",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识框架",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识框架",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识框架",
+    "to": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识框架",
+    "to": "AI Agent工程知识/原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识框架",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识框架",
+    "to": "AI Agent工程知识/AI Agent全面理解",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识框架",
+    "to": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地",
+    "to": "AI Agent工程知识/AI Agent面试知识地图",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地",
+    "to": "AI Agent工程知识/AI Agent专业术语词典",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地",
+    "to": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地",
+    "to": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地",
+    "to": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地",
+    "to": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地",
+    "to": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试知识地图",
+    "to": "AI Agent工程知识/AI Agent专业术语词典",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试知识地图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试知识地图",
+    "to": "AI Agent工程知识/AI Agent工程知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试知识地图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试知识地图",
+    "to": "AI Agent工程知识/原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试知识地图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试知识地图",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试知识地图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试知识地图",
+    "to": "AI Agent工程知识/AI Agent全面理解",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试知识地图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试知识地图",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试知识地图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试知识地图",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试知识地图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试知识地图",
+    "to": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试知识地图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent面试知识地图",
+    "to": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent面试知识地图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI模型选型与订阅历史",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI模型选型与订阅历史.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI模型选型与订阅历史",
+    "to": "AI Agent工程知识/AI Agent工程知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI模型选型与订阅历史.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI模型选型与订阅历史",
+    "to": "AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI模型选型与订阅历史.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现",
+    "to": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现",
+    "to": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现",
+    "to": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
+    "to": "AI Agent工程知识/AI Agent专业术语词典",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
+    "to": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
+    "to": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/三层知识库与RAG基础设施分型",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/三层知识库与RAG基础设施分型.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/三层知识库与RAG基础设施分型",
+    "to": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/三层知识库与RAG基础设施分型.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/三层知识库与RAG基础设施分型",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/三层知识库与RAG基础设施分型.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/三层知识库与RAG基础设施分型",
+    "to": "AI Agent工程知识/AI Agent专业术语词典",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/三层知识库与RAG基础设施分型.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/三层知识库与RAG基础设施分型",
+    "to": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/三层知识库与RAG基础设施分型.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）",
+    "to": "AI Agent工程知识/AI Agent工程知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）",
+    "to": "AI Agent工程知识/AI Agent专业术语词典",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）",
+    "to": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）",
+    "to": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "to": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "to": "AI Agent工程知识/三层知识库与RAG基础设施分型",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "to": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "to": "AI Agent工程知识/AI Agent工程知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "to": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "to": "AI Agent工程知识/AI Agent专业术语词典",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "to": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "to": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "to": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "to": "AI Agent工程知识/原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "to": "AI Agent工程知识/AI Agent全面理解",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "to": "AI Agent工程知识/AI Agent面试知识地图",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "to": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "to": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "to": "AI Agent工程知识/AI Agent工程知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "to": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "to": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "to": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "to": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "to": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "to": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "to": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "to": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "to": "AI Agent工程知识/AI Agent全面理解",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "to": "AI Agent工程知识/AI Agent专业术语词典",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "to": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "to": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "to": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度",
+    "to": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "to": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "to": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "to": "AI Agent工程知识/AI Agent专业术语词典",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "to": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "to": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "to": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "to": "AI Agent工程知识/三层知识库与RAG基础设施分型",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
+    "to": "AI Agent工程知识/三层知识库与RAG基础设施分型",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
+    "to": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
+    "to": "AI Agent工程知识/AI Agent专业术语词典",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机",
+    "to": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机",
+    "to": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机",
+    "to": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI数字化招标与合规治理框架",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI数字化招标与合规治理框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI数字化招标与合规治理框架",
+    "to": "企业AI与智能体商业化/FDE搭建智能体落地：企业分级、平台选型与合规交付",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI数字化招标与合规治理框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI数字化招标与合规治理框架",
+    "to": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI数字化招标与合规治理框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI数字化招标与合规治理框架",
+    "to": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI数字化招标与合规治理框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "to": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "to": "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "to": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "to": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "to": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "to": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "to": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法",
+    "to": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法",
+    "to": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法",
+    "to": "企业AI与智能体商业化/甘食记经营工作台建设与验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法",
+    "to": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE与AI架构师核心资产能力.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
+    "to": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE与AI架构师核心资产能力.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
+    "to": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE与AI架构师核心资产能力.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
+    "to": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE与AI架构师核心资产能力.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
+    "to": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE与AI架构师核心资产能力.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
+    "to": "AI Agent工程知识/AI Agent全面理解",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE与AI架构师核心资产能力.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
+    "to": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE与AI架构师核心资产能力.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "to": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "to": "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "to": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "to": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "to": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "to": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "to": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "to": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "to": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "to": "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "to": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "to": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "to": "企业AI与智能体商业化/零一万物企业AI落地专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "to": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "to": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "to": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "to": "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "to": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "to": "AI Agent工程知识/AI Agent全面理解",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE交付方法论与甘食记案例.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "to": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE交付方法论与甘食记案例.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "to": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE交付方法论与甘食记案例.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "to": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE交付方法论与甘食记案例.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "to": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE交付方法论与甘食记案例.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "to": "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE交付方法论与甘食记案例.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "to": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE交付方法论与甘食记案例.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "to": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE交付方法论与甘食记案例.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE交付方法论与甘食记案例.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "to": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE交付方法论与甘食记案例.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "to": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE商业级智能体交付框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "to": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE商业级智能体交付框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "to": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE商业级智能体交付框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "to": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE商业级智能体交付框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE商业级智能体交付框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE商业级智能体交付框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "to": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE商业级智能体交付框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "to": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE商业级智能体交付框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "to": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE商业级智能体交付框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "to": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "to": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "to": "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "to": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "to": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "to": "AI Agent工程知识/AI Agent工程知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "to": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "to": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "to": "企业AI与智能体商业化/甘食记经营工作台建设与验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "to": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE搭建智能体落地：企业分级、平台选型与合规交付",
+    "to": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE搭建智能体落地：企业分级、平台选型与合规交付.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "to": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "to": "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "to": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "to": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "to": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "to": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "to": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "to": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "to": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/OpenClaw统一调用入口与委派规则",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/OpenClaw统一调用入口与委派规则.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/OpenClaw统一调用入口与委派规则",
+    "to": "企业AI与智能体商业化/内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/OpenClaw统一调用入口与委派规则.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/OpenClaw统一调用入口与委派规则",
+    "to": "企业AI与智能体商业化/甘食记经营工作台建设与验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/OpenClaw统一调用入口与委派规则.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "to": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "to": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "to": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "to": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "to": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "to": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "to": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "to": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "to": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "to": "企业AI与智能体商业化/甘食记经营工作台建设与验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "to": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
+    "to": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
+    "to": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
+    "to": "企业AI与智能体商业化/甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
+    "to": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
+    "to": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
+    "to": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
+    "to": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
+    "to": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
+    "to": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
+    "to": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
+    "to": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "to": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "to": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "to": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "to": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试",
+    "to": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试",
+    "to": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试",
+    "to": "企业AI与智能体商业化/小程序数据结构与API接入调研框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试",
+    "to": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试",
+    "to": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试",
+    "to": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试",
+    "to": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性",
+    "to": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性",
+    "to": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性",
+    "to": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性",
+    "to": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy调用百炼Agent与Workflow的组合打法",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy调用百炼Agent与Workflow的组合打法.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy连接图谱",
+    "to": "企业AI与智能体商业化/多智能体双向连接架构_20260610",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy连接图谱.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图",
+    "to": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图",
+    "to": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图",
+    "to": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/零一万物企业AI落地专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/AI数字化招标与合规治理框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/小程序数据结构与API接入调研框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/FDE搭建智能体落地：企业分级、平台选型与合规交付",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/腾讯Marvis与操作系统级Agent产品思维",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/甘食记经营工作台建设与验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/企业AI专题轻量编译流程",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/知识库索引",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/OpenClaw统一调用入口与委派规则",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "AI Agent工程知识/AI Agent工程知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "AI Agent工程知识/AI Agent全面理解",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "AI Agent工程知识/AI Agent专业术语词典",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI专题轻量编译流程",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI专题轻量编译流程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI专题轻量编译流程",
+    "to": "企业AI与智能体商业化/知识库索引",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI专题轻量编译流程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "to": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "to": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "to": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "to": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "to": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "to": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "to": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "to": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "to": "企业AI与智能体商业化/FDE搭建智能体落地：企业分级、平台选型与合规交付",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "to": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "to": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "to": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
+    "to": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
+    "to": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
+    "to": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
+    "to": "AI Agent工程知识/三层知识库与RAG基础设施分型",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
+    "to": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利",
+    "to": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利",
+    "to": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利",
+    "to": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利",
+    "to": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "to": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "to": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "to": "企业AI与智能体商业化/FDE搭建智能体落地：企业分级、平台选型与合规交付",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "to": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "to": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "to": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "to": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "to": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "to": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "to": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "to": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "to": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "to": "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "to": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "to": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "to": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "to": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "to": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "to": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "to": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "to": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "to": "企业AI与智能体商业化/零一万物企业AI落地专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "to": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "to": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "to": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
+    "to": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
+    "to": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
+    "to": "企业AI与智能体商业化/飞书企业管理模块接入甘食记经营系统融合方案",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
+    "to": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
+    "to": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "to": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "to": "企业AI与智能体商业化/小程序数据结构与API接入调研框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "to": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "to": "企业AI与智能体商业化/内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "to": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "to": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "to": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "to": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构",
+    "to": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构",
+    "to": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构",
+    "to": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构",
+    "to": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构",
+    "to": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes",
+    "to": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes",
+    "to": "企业AI与智能体商业化/FDE搭建智能体落地：企业分级、平台选型与合规交付",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "to": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "to": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "to": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构",
+    "to": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构",
+    "to": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构",
+    "to": "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "to": "企业AI与智能体商业化/小程序数据结构与API接入调研框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "to": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "to": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "to": "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案",
+    "to": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案",
+    "to": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案",
+    "to": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案",
+    "to": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案",
+    "to": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案",
+    "to": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/小程序数据结构与API接入调研框架",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/小程序数据结构与API接入调研框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/小程序数据结构与API接入调研框架",
+    "to": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/小程序数据结构与API接入调研框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/小程序数据结构与API接入调研框架",
+    "to": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/小程序数据结构与API接入调研框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/小程序数据结构与API接入调研框架",
+    "to": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/小程序数据结构与API接入调研框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
+    "to": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
+    "to": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
+    "to": "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
+    "to": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
+    "to": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
+    "to": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
+    "to": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
+    "to": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
+    "to": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
+    "to": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
+    "to": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究",
+    "to": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究",
+    "to": "企业AI与智能体商业化/生产级AI Agent融合架构：AI推理+企业级数据治理",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究",
+    "to": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究",
+    "to": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究",
+    "to": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究",
+    "to": "企业AI与智能体商业化/AI数字化招标与合规治理框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究",
+    "to": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3",
+    "to": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3",
+    "to": "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3",
+    "to": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3",
+    "to": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3",
+    "to": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3",
+    "to": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3",
+    "to": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3",
+    "to": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环",
+    "to": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环",
+    "to": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环",
+    "to": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环",
+    "to": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环",
+    "to": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架",
+    "to": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架",
+    "to": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析",
+    "to": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析",
+    "to": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析",
+    "to": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记Ontology对象网络设计",
+    "to": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记Ontology对象网络设计.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记Ontology对象网络设计",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记Ontology对象网络设计.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记Ontology对象网络设计",
+    "to": "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记Ontology对象网络设计.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记Ontology对象网络设计",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记Ontology对象网络设计.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记Ontology对象网络设计",
+    "to": "企业AI与智能体商业化/甘食记经营工作台建设与验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记Ontology对象网络设计.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记Ontology对象网络设计",
+    "to": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记Ontology对象网络设计.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/甘食记经营工作台建设与验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/甘食记Ontology对象网络设计",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/甘食记经营系统完整演进时间线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "to": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时",
+    "to": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时",
+    "to": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时",
+    "to": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营工作台建设与验收",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营工作台建设与验收.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营工作台建设与验收",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营工作台建设与验收.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营工作台建设与验收",
+    "to": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营工作台建设与验收.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营工作台建设与验收",
+    "to": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营工作台建设与验收.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营工作台建设与验收",
+    "to": "企业AI与智能体商业化/甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营工作台建设与验收.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "to": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "to": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "to": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "to": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "to": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线",
+    "to": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线",
+    "to": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营智能体需求诊断清单",
+    "to": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营智能体需求诊断清单.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营智能体需求诊断清单",
+    "to": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营智能体需求诊断清单.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营智能体需求诊断清单",
+    "to": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营智能体需求诊断清单.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营智能体需求诊断清单",
+    "to": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营智能体需求诊断清单.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作",
+    "to": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作",
+    "to": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作",
+    "to": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作",
+    "to": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
+    "to": "企业AI与智能体商业化/甘食记经营工作台建设与验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统1.0框架总结.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统1.0框架总结.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
+    "to": "企业AI与智能体商业化/甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统1.0框架总结.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
+    "to": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统1.0框架总结.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
+    "to": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统1.0框架总结.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统完整演进时间线",
+    "to": "企业AI与智能体商业化/甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统完整演进时间线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统完整演进时间线",
+    "to": "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统完整演进时间线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统完整演进时间线",
+    "to": "企业AI与智能体商业化/甘食记经营工作台建设与验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统完整演进时间线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统完整演进时间线",
+    "to": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统完整演进时间线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统完整演进时间线",
+    "to": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统完整演进时间线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统完整演进时间线",
+    "to": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统完整演进时间线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统完整演进时间线",
+    "to": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统完整演进时间线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统完整演进时间线",
+    "to": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统完整演进时间线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统完整演进时间线",
+    "to": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统完整演进时间线.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执",
+    "to": "企业AI与智能体商业化/甘食记经营系统完整演进时间线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执",
+    "to": "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执",
+    "to": "企业AI与智能体商业化/甘食记经营工作台建设与验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执",
+    "to": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执",
+    "to": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "to": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "to": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "to": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "to": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "to": "AI Agent工程知识/AI Agent专业术语词典",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "to": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/生产级AI Agent融合架构：AI推理+企业级数据治理",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/生产级AI Agent融合架构：AI推理+企业级数据治理.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/生产级AI Agent融合架构：AI推理+企业级数据治理",
+    "to": "AI Agent工程知识/AI Agent工程知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/生产级AI Agent融合架构：AI推理+企业级数据治理.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/生产级AI Agent融合架构：AI推理+企业级数据治理",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/生产级AI Agent融合架构：AI推理+企业级数据治理.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/生产级AI Agent融合架构：AI推理+企业级数据治理",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/生产级AI Agent融合架构：AI推理+企业级数据治理.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/生产级AI Agent融合架构：AI推理+企业级数据治理",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/生产级AI Agent融合架构：AI推理+企业级数据治理.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/生产级AI Agent融合架构：AI推理+企业级数据治理",
+    "to": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/生产级AI Agent融合架构：AI推理+企业级数据治理.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/生产级AI Agent融合架构：AI推理+企业级数据治理",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/生产级AI Agent融合架构：AI推理+企业级数据治理.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/知识库索引",
+    "to": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/知识库索引.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/知识库索引",
+    "to": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/知识库索引.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/知识库索引",
+    "to": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/知识库索引.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/知识库索引",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/知识库索引.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/知识库索引",
+    "to": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/知识库索引.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/知识库索引",
+    "to": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/知识库索引.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/知识库索引",
+    "to": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/知识库索引.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/知识库索引",
+    "to": "企业AI与智能体商业化/甘食记经营智能体需求诊断清单",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/知识库索引.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/知识库索引",
+    "to": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/知识库索引.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/知识库索引",
+    "to": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/知识库索引.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/知识库索引",
+    "to": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/知识库索引.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/知识库索引",
+    "to": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/知识库索引.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/知识库索引",
+    "to": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/知识库索引.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/知识库索引",
+    "to": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/知识库索引.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/知识库索引",
+    "to": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/知识库索引.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "to": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "to": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "to": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "to": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "to": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "to": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "to": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案",
+    "to": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案",
+    "to": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案",
+    "to": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案",
+    "to": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案",
+    "to": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案",
+    "to": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案",
+    "to": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/腾讯Marvis与操作系统级Agent产品思维",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/腾讯Marvis与操作系统级Agent产品思维.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/阿里云百炼与FDE智能体项目沉淀索引",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/阿里云百炼与FDE智能体项目沉淀索引.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/阿里云百炼与FDE智能体项目沉淀索引",
+    "to": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/阿里云百炼与FDE智能体项目沉淀索引.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/阿里云百炼与FDE智能体项目沉淀索引",
+    "to": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/阿里云百炼与FDE智能体项目沉淀索引.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/阿里云百炼与FDE智能体项目沉淀索引",
+    "to": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/阿里云百炼与FDE智能体项目沉淀索引.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "to": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "to": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "to": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "to": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "to": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "to": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "to": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "to": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "to": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程",
+    "to": "企业AI与智能体商业化/零一万物企业AI落地专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程",
+    "to": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程",
+    "to": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程",
+    "to": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程",
+    "to": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式",
+    "to": "企业AI与智能体商业化/零一万物企业AI落地专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式",
+    "to": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式",
+    "to": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物企业AI落地专题",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物企业AI落地专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物企业AI落地专题",
+    "to": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物企业AI落地专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物企业AI落地专题",
+    "to": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物企业AI落地专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物企业AI落地专题",
+    "to": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物企业AI落地专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物企业AI落地专题",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物企业AI落地专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物企业AI落地专题",
+    "to": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物企业AI落地专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物企业AI落地专题",
+    "to": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物企业AI落地专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物企业AI落地专题",
+    "to": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物企业AI落地专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物企业AI落地专题",
+    "to": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物企业AI落地专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物企业AI落地专题",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物企业AI落地专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "to": "企业AI与智能体商业化/零一万物企业AI落地专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "to": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "to": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "to": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "to": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "to": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "to": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/飞书企业管理模块接入甘食记经营系统融合方案",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/飞书企业管理模块接入甘食记经营系统融合方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/飞书企业管理模块接入甘食记经营系统融合方案",
+    "to": "企业AI与智能体商业化/甘食记Ontology对象网络设计",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/飞书企业管理模块接入甘食记经营系统融合方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/飞书企业管理模块接入甘食记经营系统融合方案",
+    "to": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/飞书企业管理模块接入甘食记经营系统融合方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/飞书企业管理模块接入甘食记经营系统融合方案",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/飞书企业管理模块接入甘食记经营系统融合方案.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环",
+    "to": "企业AI与智能体商业化/甘食记经营工作台建设与验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环",
+    "to": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环",
+    "to": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差",
+    "to": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差",
+    "to": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差",
+    "to": "企业AI与智能体商业化/飞书企业管理模块接入甘食记经营系统融合方案",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差",
+    "to": "企业AI与智能体商业化/甘食记Ontology对象网络设计",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent",
+    "to": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent",
+    "to": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent",
+    "to": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架",
+    "to": "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架",
+    "to": "企业AI与智能体商业化/小程序数据结构与API接入调研框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架",
+    "to": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架",
+    "to": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架",
+    "to": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "to": "企业AI与智能体商业化/知识库索引",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "to": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "to": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "to": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "to": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "to": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "to": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "to": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "to": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "to": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "to": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "to": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "to": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "to": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "to": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "to": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "to": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "to": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "to": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "to": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "to": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "to": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "to": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "to": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "to": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "to": "企业AI与智能体商业化/甘食记经营系统完整演进时间线",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "to": "AI Agent工程知识/三层知识库与RAG基础设施分型",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "to": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "to": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "to": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "to": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "to": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "to": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "to": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "to": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "to": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "to": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "to": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "to": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "to": "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "to": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "to": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "to": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "to": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "to": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "to": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "to": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "to": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
+    "to": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "type": "references",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度.md",
+     "anchor": "关联笔记 / 原始资料"
+    }
+   },
+   {
+    "from": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
+    "to": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图",
+    "type": "references",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度.md",
+     "anchor": "关联笔记 / 原始资料"
+    }
+   },
+   {
+    "from": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
+    "to": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析",
+    "type": "references",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度.md",
+     "anchor": "关联笔记 / 原始资料"
+    }
+   },
+   {
+    "from": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
+    "to": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究",
+    "type": "references",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度.md",
+     "anchor": "关联笔记 / 原始资料"
+    }
+   },
+   {
+    "from": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
+    "to": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "type": "references",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度.md",
+     "anchor": "关联笔记 / 原始资料"
+    }
+   },
+   {
+    "from": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
+    "to": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机",
+    "type": "references",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度.md",
+     "anchor": "关联笔记 / 原始资料"
+    }
+   },
+   {
+    "from": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "references",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度.md",
+     "anchor": "关联笔记 / 原始资料"
+    }
+   },
+   {
+    "from": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海",
+    "to": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "type": "references",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海.md",
+     "anchor": "关联笔记 / 原始资料"
+    }
+   },
+   {
+    "from": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海",
+    "to": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海",
+    "to": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "type": "references",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海.md",
+     "anchor": "关联笔记 / 原始资料"
+    }
+   },
+   {
+    "from": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海",
+    "to": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "type": "references",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海.md",
+     "anchor": "关联笔记 / 原始资料"
+    }
+   },
+   {
+    "from": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海",
+    "to": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "type": "references",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海.md",
+     "anchor": "关联笔记 / 原始资料"
+    }
+   },
+   {
+    "from": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海",
+    "to": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "type": "references",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海.md",
+     "anchor": "关联笔记 / 原始资料"
+    }
+   },
+   {
+    "from": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海",
+    "to": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "type": "references",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海.md",
+     "anchor": "关联笔记 / 原始资料"
+    }
+   }
+  ]
+ }
 };
