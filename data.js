@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-06",
- "generatedTime": "2026-08-06 16:14",
+ "generatedTime": "2026-08-06 19:18",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 85,
  "weeklyChanges": 867,
@@ -2124,7 +2124,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "上级：徐总的知识库",
-   "wordCount": 26950
+   "wordCount": 26956
   },
   {
    "path": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
@@ -3292,7 +3292,7 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "ontology": {
-  "version": "0.1",
+  "version": "0.2",
   "generatedBy": "generate.js",
   "nodes": [
    {
@@ -4448,6 +4448,162 @@ window.OBSIDIAN_DATA = {
     "evidence": {
      "source": "structured",
      "status": "confirmed"
+    }
+   },
+   {
+    "id": "ontology/常规AI Agent工程架构",
+    "path": "ontology/常规AI Agent工程架构",
+    "title": "常规 AI Agent 工程架构",
+    "type": "reference_architecture",
+    "domain": "agent",
+    "role": "baseline_architecture",
+    "evidence": {
+     "source": "semantic",
+     "status": "suggested",
+     "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md"
+    }
+   },
+   {
+    "id": "ontology/政务智能体顶配工程架构样板",
+    "path": "ontology/政务智能体顶配工程架构样板",
+    "title": "政务智能体顶配工程架构样板",
+    "type": "reference_architecture",
+    "domain": "agent",
+    "role": "high_constraint_benchmark",
+    "evidence": {
+     "source": "semantic",
+     "status": "suggested",
+     "path": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md"
+    }
+   },
+   {
+    "id": "ontology/企业AI落地",
+    "path": "ontology/企业AI落地",
+    "title": "企业 AI 落地",
+    "type": "ontology_object",
+    "domain": "enterprise_ai",
+    "role": "enterprise_ai_delivery",
+    "evidence": {
+     "source": "semantic",
+     "status": "suggested",
+     "path": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md"
+    }
+   },
+   {
+    "id": "ontology/AI框架落地平面",
+    "path": "ontology/AI框架落地平面",
+    "title": "AI 框架落地平面",
+    "type": "delivery_plane",
+    "domain": "enterprise_ai",
+    "role": "intelligence_system_plane",
+    "evidence": {
+     "source": "semantic",
+     "status": "suggested",
+     "path": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md"
+    }
+   },
+   {
+    "id": "ontology/硬件基础设施落地平面",
+    "path": "ontology/硬件基础设施落地平面",
+    "title": "硬件基础设施落地平面",
+    "type": "delivery_plane",
+    "domain": "ai_infrastructure",
+    "role": "infrastructure_plane",
+    "evidence": {
+     "source": "semantic",
+     "status": "suggested",
+     "path": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md"
+    }
+   },
+   {
+    "id": "ontology/CAIO",
+    "path": "ontology/CAIO",
+    "title": "CAIO",
+    "type": "organization_role",
+    "domain": "enterprise_ai",
+    "role": "ai_transformation_owner",
+    "evidence": {
+     "source": "semantic",
+     "status": "suggested",
+     "path": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md"
+    }
+   },
+   {
+    "id": "ontology/CIO-CTO",
+    "path": "ontology/CIO-CTO",
+    "title": "CIO / CTO",
+    "type": "organization_role",
+    "domain": "ai_infrastructure",
+    "role": "infrastructure_owner",
+    "evidence": {
+     "source": "semantic",
+     "status": "suggested",
+     "path": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md"
+    }
+   },
+   {
+    "id": "ontology/企业AI运行治理与绩效诊断",
+    "path": "ontology/企业AI运行治理与绩效诊断",
+    "title": "企业 AI 运行治理与绩效诊断",
+    "type": "diagnostic_framework",
+    "domain": "enterprise_ai",
+    "role": "operating_diagnostic",
+    "evidence": {
+     "source": "semantic",
+     "status": "suggested",
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md"
+    }
+   },
+   {
+    "id": "ontology/企业当前AI运行架构",
+    "path": "ontology/企业当前AI运行架构",
+    "title": "企业当前 AI 运行架构",
+    "type": "diagnostic_target",
+    "domain": "enterprise_ai",
+    "role": "current_state",
+    "evidence": {
+     "source": "semantic",
+     "status": "suggested",
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md"
+    }
+   },
+   {
+    "id": "ontology/FDE交付路径",
+    "path": "ontology/FDE交付路径",
+    "title": "FDE 交付路径",
+    "type": "delivery_path",
+    "domain": "fde",
+    "role": "market_delivery_path",
+    "evidence": {
+     "source": "semantic",
+     "status": "suggested",
+     "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md"
+    }
+   },
+   {
+    "id": "ontology/工程架构改造",
+    "path": "ontology/工程架构改造",
+    "title": "工程架构改造",
+    "type": "delivery_path",
+    "domain": "agent",
+    "role": "engineering_upgrade_path",
+    "evidence": {
+     "source": "semantic",
+     "status": "suggested",
+     "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md"
+    }
+   },
+   {
+    "id": "ontology/AI历史路径",
+    "path": "ontology/AI历史路径",
+    "title": "AI 历史路径",
+    "type": "timeline",
+    "domain": "ai_infrastructure",
+    "role": "industry_timeline",
+    "evidence": {
+     "source": "semantic",
+     "status": "suggested",
+     "path": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md"
     }
    }
   ],
@@ -15202,6 +15358,426 @@ window.OBSIDIAN_DATA = {
     "evidence": {
      "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海.md",
      "anchor": "关联笔记 / 原始资料"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "to": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "type": "decomposes_to",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
+     "anchor": "Agent engineering capability sample"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "to": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度",
+    "type": "decomposes_to",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
+     "anchor": "Agent memory capability sample"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "decomposes_to",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
+     "anchor": "Agent knowledge retrieval capability sample"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "to": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
+    "type": "decomposes_to",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
+     "anchor": "Knowledge base engineering module sample"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究",
+    "to": "企业AI与智能体商业化/AI数字化招标与合规治理框架",
+    "type": "constrained_by",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
+     "anchor": "Government agent governance sample"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究",
+    "to": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "type": "requires",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
+     "anchor": "Government agent delivery requirement sample"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "requires",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
+     "anchor": "Government agent knowledge infrastructure sample"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/AI数字化招标与合规治理框架",
+    "to": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究",
+    "type": "supports",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "企业AI与智能体商业化/AI数字化招标与合规治理框架.md",
+     "anchor": "Governance case evidence sample"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "to": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "type": "applies_to",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
+     "anchor": "FDE enterprise delivery sample"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE业务需求访谈SOP",
+    "to": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法",
+    "type": "implemented_by",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
+     "anchor": "FDE interview to ontology sample"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "to": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收",
+    "type": "elaborates",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）.md",
+     "anchor": "FDE ontology workflow sample"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "to": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "type": "decomposes_to",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "anchor": "Enterprise agent architecture layer sample"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "to": "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "type": "supports",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md",
+     "anchor": "01AI top-down enterprise AI sample"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "to": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程",
+    "type": "decomposes_to",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md",
+     "anchor": "01AI concept to engineering layer sample"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程",
+    "to": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "type": "requires",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
+     "anchor": "01AI semantic data layer sample"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程",
+    "to": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "type": "constrained_by",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
+     "anchor": "01AI private deployment infrastructure sample"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "to": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
+    "type": "requires",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
+     "anchor": "FDE infrastructure delivery plane sample"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "to": "企业AI与智能体商业化/甘食记经营工作台建设与验收",
+    "type": "evaluated_by",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁.md",
+     "anchor": "Delivery acceptance sample"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "to": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
+    "type": "constrained_by",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架.md",
+     "anchor": "Runtime governance sample"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "to": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "type": "elaborates",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
+     "anchor": "Infrastructure evolution sample"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "to": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "type": "elaborates",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
+     "anchor": "AI history path sample"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "to": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "type": "supports",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
+     "anchor": "Infrastructure case evidence sample"
+    }
+   },
+   {
+    "from": "ontology/政务智能体顶配工程架构样板",
+    "to": "ontology/常规AI Agent工程架构",
+    "type": "stress_tests",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "ontology/政务智能体顶配工程架构样板",
+     "anchor": "Government agent high-constraint benchmark"
+    }
+   },
+   {
+    "from": "ontology/政务智能体顶配工程架构样板",
+    "to": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究",
+    "type": "supports",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "ontology/政务智能体顶配工程架构样板",
+     "anchor": "Government agent reference architecture evidence"
+    }
+   },
+   {
+    "from": "ontology/企业AI落地",
+    "to": "ontology/AI框架落地平面",
+    "type": "decomposes_to",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "ontology/企业AI落地",
+     "anchor": "Enterprise AI software delivery plane"
+    }
+   },
+   {
+    "from": "ontology/企业AI落地",
+    "to": "ontology/硬件基础设施落地平面",
+    "type": "decomposes_to",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "ontology/企业AI落地",
+     "anchor": "Enterprise AI infrastructure delivery plane"
+    }
+   },
+   {
+    "from": "ontology/AI框架落地平面",
+    "to": "ontology/CAIO",
+    "type": "operated_by",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "ontology/AI框架落地平面",
+     "anchor": "CAIO owns intelligence system plane"
+    }
+   },
+   {
+    "from": "ontology/硬件基础设施落地平面",
+    "to": "ontology/CIO-CTO",
+    "type": "operated_by",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "ontology/硬件基础设施落地平面",
+     "anchor": "CIO and CTO own infrastructure plane"
+    }
+   },
+   {
+    "from": "ontology/AI框架落地平面",
+    "to": "ontology/硬件基础设施落地平面",
+    "type": "requires_infrastructure",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "ontology/AI框架落地平面",
+     "anchor": "AI framework requires infrastructure plane"
+    }
+   },
+   {
+    "from": "ontology/企业AI运行治理与绩效诊断",
+    "to": "ontology/企业当前AI运行架构",
+    "type": "diagnoses",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "ontology/企业AI运行治理与绩效诊断",
+     "anchor": "Enterprise AI operating diagnosis target"
+    }
+   },
+   {
+    "from": "ontology/企业AI运行治理与绩效诊断",
+    "to": "ontology/FDE交付路径",
+    "type": "recommends",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "ontology/企业AI运行治理与绩效诊断",
+     "anchor": "Diagnosis recommends FDE delivery path"
+    }
+   },
+   {
+    "from": "ontology/企业AI运行治理与绩效诊断",
+    "to": "ontology/工程架构改造",
+    "type": "recommends",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "ontology/企业AI运行治理与绩效诊断",
+     "anchor": "Diagnosis recommends engineering upgrade path"
+    }
+   },
+   {
+    "from": "ontology/AI历史路径",
+    "to": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "type": "elaborates",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "ontology/AI历史路径",
+     "anchor": "AI timeline source evidence"
+    }
+   },
+   {
+    "from": "ontology/AI历史路径",
+    "to": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "type": "evolves_to",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "ontology/AI历史路径",
+     "anchor": "AI infrastructure evolution path"
+    }
+   },
+   {
+    "from": "ontology/AI历史路径",
+    "to": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "type": "drives",
+    "source": "semantic",
+    "confidence": 0.72,
+    "status": "suggested",
+    "evidence": {
+     "path": "ontology/AI历史路径",
+     "anchor": "AI timeline drives capital expenditure chain"
     }
    }
   ]
