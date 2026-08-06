@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-06",
- "generatedTime": "2026-08-06 19:18",
+ "generatedTime": "2026-08-06 22:26",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 85,
  "weeklyChanges": 867,
@@ -3236,6 +3236,31 @@ window.OBSIDIAN_DATA = {
    "wordCount": 4930
   },
   {
+   "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_远景乌兰察布算力基地分析.md",
+   "title": "远景乌兰察布算力基地分析（国产芯片 + 推理定位 + 结构性错配）",
+   "date": "2026-08-06",
+   "updated": "2026-08-06",
+   "category": "AI产业链与基础设施",
+   "status": "已回答 → 已入库",
+   "questionType": "🧠 概念理解 + 🔗 跨专题串联 + ⚖️ 行业角色定位",
+   "originalQuestion": "20:04 提问 「远景科技集团（以下简称\"远景\"）宣布在乌兰察布建成全球最大的AI算力超级单体，标志着远景乌兰察布星河基地正式投产。该超级单体采用超高比例绿电直连，以12万平方米的建筑体量（约20个标准足球场）、百万卡并行能力、百万P算力规模，成为全球Token产出能力最强的单体AI数据中心，刷新了AI基础设施的密度纪录。 远景乌兰察布星河基地是远景在戈壁建设的超级算力枢纽，该园区总规划容量超2GW，将成为全国最大的AI算力园区和Token工厂。作为\"戈壁使命\"落地的首个旗舰项目，该基地精准契合国内百万卡互联需求",
+   "direction": "",
+   "directionHtml": "",
+   "summary": "20:04 提问 「远景科技集团（以下简称\"远景\"）宣布在乌兰察布建成全球最大的AI算力超级单体，标志着远景乌兰察布星河基地正式投产。该超级单体采用超高比例绿电直连，以12万平方米的建筑体量（约20个标准足球场）、百万卡并行能力、百万P算力规模，成为全球Token产出能力最强的单体AI数据中心，刷新了AI基础设施的密度纪录。 远景乌兰察布星河基地是远景在戈壁",
+   "answerHtml": "",
+   "formalNotes": [],
+   "rawMaterials": [],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用"
+   ],
+   "wordCount": 3381
+  },
+  {
    "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海.md",
    "title": "算力工厂与算力出海（多轮深化）",
    "date": "2026-08-03",
@@ -4434,6 +4459,17 @@ window.OBSIDIAN_DATA = {
     "title": "AI智能体的工程化与前端交付的困难度",
     "type": "question_topic",
     "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_远景乌兰察布算力基地分析",
+    "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_远景乌兰察布算力基地分析.md",
+    "title": "远景乌兰察布算力基地分析（国产芯片 + 推理定位 + 结构性错配）",
+    "type": "question_topic",
+    "domain": "ai_infrastructure",
     "evidence": {
      "source": "structured",
      "status": "confirmed"
@@ -15274,6 +15310,54 @@ window.OBSIDIAN_DATA = {
     "evidence": {
      "path": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度.md",
      "anchor": "关联笔记 / 原始资料"
+    }
+   },
+   {
+    "from": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_远景乌兰察布算力基地分析",
+    "to": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_远景乌兰察布算力基地分析.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_远景乌兰察布算力基地分析",
+    "to": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_远景乌兰察布算力基地分析.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_远景乌兰察布算力基地分析",
+    "to": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_远景乌兰察布算力基地分析.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_远景乌兰察布算力基地分析",
+    "to": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_远景乌兰察布算力基地分析.md",
+     "anchor": "wikilink"
     }
    },
    {
