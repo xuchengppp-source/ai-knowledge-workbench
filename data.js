@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-08-05",
- "generatedTime": "2026-08-05 23:00",
+ "generatedAt": "2026-08-06",
+ "generatedTime": "2026-08-06 10:19",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 87,
- "weeklyChanges": 889,
+ "weeklyPages": 85,
+ "weeklyChanges": 867,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-05｜AI知识增量整理.md",
  "topics": [
