@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-08-06",
- "generatedTime": "2026-08-06 23:00",
+ "generatedAt": "2026-08-07",
+ "generatedTime": "2026-08-07 11:45",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 85,
- "weeklyChanges": 867,
+ "weeklyPages": 86,
+ "weeklyChanges": 884,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-06｜AI知识增量整理.md",
  "topics": [
@@ -17,13 +17,13 @@ window.OBSIDIAN_DATA = {
    "name": "企业AI与智能体商业化",
    "key": "enterprise",
    "icon": "🏢",
-   "count": 76
+   "count": 77
   },
   {
    "name": "AI产业链与数字基础设施",
    "key": "infrastructure",
    "icon": "⚡",
-   "count": 6
+   "count": 7
   }
  ],
  "nodes": [
@@ -36,6 +36,7 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识专题",
     "AI Agent工程知识框架",
     "AI Agent全面理解",
+    "Agent系统架构模式选型：从单Agent到Graph Workflow",
     "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
     "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法",
     "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合",
@@ -69,20 +70,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
-   "wordCount": 40023
-  },
-  {
-   "path": "AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史.md",
-   "title": "AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史",
-   "updated": "2026-08-06",
-   "topic": "agent",
-   "links": [
-    "AI模型选型与订阅历史",
-    "AI Agent发展路径：从会说到会做再到能操作业务"
-   ],
-   "backlinks": [],
-   "desc": "",
-   "wordCount": 241
+   "wordCount": 40916
   },
   {
    "path": "AI Agent工程知识/AI Agent全面理解.md",
@@ -103,7 +91,8 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "企业AI与智能体商业化/FDE与AI架构师核心资产能力.md",
     "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
-    "企业AI与智能体商业化/企业AI与生产级Agent总框架.md"
+    "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+    "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 9126
@@ -111,7 +100,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
    "title": "AI Agent发展路径：从会说到会做再到能操作业务",
-   "updated": "2026-08-06",
+   "updated": "2026-08-07",
    "topic": "agent",
    "links": [
     "AI Agent工程知识/AI Agent工程知识专题",
@@ -121,7 +110,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP",
     "企业AI与智能体商业化/甘食记经营系统完整演进时间线",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
-    "AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史",
+    "AI模型选型与订阅历史",
     "AI Agent工程知识/生产级AI Agent记忆系统与Context调度",
     "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
     "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象"
@@ -132,7 +121,7 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md"
    ],
    "desc": "上级：AI Agent工程知识/AI Agent工程知识专题",
-   "wordCount": 7181
+   "wordCount": 7154
   },
   {
    "path": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维.md",
@@ -199,6 +188,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
     "生产级AI Agent知识体系总览：层级·特性·术语",
     "生产级AI Agent工程体系的完整链路",
+    "Agent系统架构模式选型：从单Agent到Graph Workflow",
     "生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
     "生产级AI Agent记忆系统与Context调度",
     "AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
@@ -241,7 +231,7 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md"
    ],
    "desc": "上级：徐总的知识库",
-   "wordCount": 12799
+   "wordCount": 13048
   },
   {
    "path": "AI Agent工程知识/AI Agent工程知识框架.md",
@@ -319,12 +309,31 @@ window.OBSIDIAN_DATA = {
    "links": [
     "AI Agent工程知识/AI Agent工程知识专题",
     "AI Agent工程知识/AI Agent工程知识框架",
-    "OpenClaw克里斯记忆库/00_总览",
-    "AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史"
+    "OpenClaw克里斯记忆库/00_总览"
    ],
    "backlinks": [],
    "desc": "- 平台：阿里云百炼 Coding Plan",
-   "wordCount": 6459
+   "wordCount": 6530
+  },
+  {
+   "path": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
+   "title": "Agent系统架构模式选型：从单Agent到Graph Workflow",
+   "updated": "2026-08-06",
+   "topic": "agent",
+   "links": [
+    "AI Agent工程知识专题",
+    "生产级AI Agent知识体系总览：层级·特性·术语",
+    "生产级AI Agent工程体系的完整链路",
+    "AI Agent工程知识框架",
+    "AI Agent专业术语词典",
+    "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移",
+    "原始资料/已整理｜2026-08-06｜抖音豆包｜张宇技术栈Agent系统7种架构"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md"
+   ],
+   "desc": "上级：AI Agent工程知识专题",
+   "wordCount": 3891
   },
   {
    "path": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现.md",
@@ -462,6 +471,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构.md",
     "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
     "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
+    "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
     "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
     "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
     "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md"
@@ -836,7 +846,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
     "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
     "企业AI与智能体商业化/知识库索引.md",
-    "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md"
+    "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
+    "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md"
    ],
    "desc": "日期：2026-06-01",
    "wordCount": 12402
@@ -998,7 +1009,9 @@ window.OBSIDIAN_DATA = {
     "甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线",
     "企业AI落地的五堵墙+四层面系统工程+五层落地方法论"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md"
+   ],
    "desc": "上级：企业AI与智能体商业化专题",
    "wordCount": 4198
   },
@@ -1171,6 +1184,7 @@ window.OBSIDIAN_DATA = {
     "餐饮客户已有基础设施后的AI Agent",
     "企业AI从试点到可交付项目：商业化与组织落地实战",
     "企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "黄仁勋Harness工程论：企业AI落地的范式转移",
     "AI数字化招标与合规治理框架",
     "原始资料/行业视频原稿：交付结果而非交付工具，Vibe Coding打开企业付费意愿",
     "零一万物FDE与企业AI落地模式",
@@ -1231,13 +1245,14 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/零一万物企业AI落地专题.md",
     "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md",
     "企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环.md",
+    "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
     "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
     "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
     "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md"
    ],
    "desc": "上级：徐总的知识库",
-   "wordCount": 17913
+   "wordCount": 18039
   },
   {
    "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
@@ -1331,7 +1346,8 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
     "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
     "企业AI与智能体商业化/AI数字化招标与合规治理框架.md",
-    "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md"
+    "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md",
+    "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md"
    ],
    "desc": "创建日期：2026-07-02",
    "wordCount": 18202
@@ -1416,7 +1432,8 @@ window.OBSIDIAN_DATA = {
     "餐饮客户已有基础设施后的AI Agent"
    ],
    "backlinks": [
-    "企业AI与智能体商业化/知识库索引.md"
+    "企业AI与智能体商业化/知识库索引.md",
+    "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md"
    ],
    "desc": "上级：企业AI与智能体商业化专题",
    "wordCount": 9455
@@ -1508,6 +1525,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/FDE与AI架构师核心资产能力.md",
     "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
     "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
+    "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
     "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
     "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md"
    ],
@@ -2461,9 +2479,31 @@ window.OBSIDIAN_DATA = {
    "wordCount": 3592
   },
   {
+   "path": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
+   "title": "黄仁勋Harness工程论：企业AI落地的范式转移",
+   "updated": "2026-08-06",
+   "topic": "enterprise",
+   "links": [
+    "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "AI Agent工程知识/AI Agent全面理解",
+    "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
+    "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
+    "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md"
+   ],
+   "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题、企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+   "wordCount": 3418
+  },
+  {
    "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
    "title": "AI产业链与数字基础设施专题",
-   "updated": "2026-08-06",
+   "updated": "2026-08-07",
    "topic": "infrastructure",
    "links": [
     "徐总的知识库",
@@ -2476,6 +2516,8 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
     "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
     "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离",
+    "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
     "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
     "原始资料/已整理｜2026-08-02｜抖音豆包｜Token工厂三大玩家",
     "原始资料/已整理｜2026-08-02｜抖音豆包｜看懂三类商业模式理清Token发展路线",
@@ -2504,11 +2546,12 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
     "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
     "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
+    "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md",
     "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
     "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md"
    ],
    "desc": "上级：徐总的知识库、知识库索引",
-   "wordCount": 4161
+   "wordCount": 4410
   },
   {
    "path": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
@@ -2540,6 +2583,7 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
     "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
     "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
+    "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md",
     "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
     "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md"
    ],
@@ -2549,7 +2593,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
    "title": "AI时代演进史与数字基础设施总纲",
-   "updated": "2026-08-06",
+   "updated": "2026-08-07",
    "topic": "infrastructure",
    "links": [
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
@@ -2579,7 +2623,7 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md"
    ],
    "desc": "上级：AI产业链与数字基础设施/AI产业链与数字基础设施专题",
-   "wordCount": 9267
+   "wordCount": 9958
   },
   {
    "path": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
@@ -2591,6 +2635,7 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
     "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
     "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离",
     "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
     "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利",
     "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
@@ -2606,11 +2651,31 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
     "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
     "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
+    "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md",
     "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
     "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md"
    ],
    "desc": "上级：AI产业链与数字基础设施/AI产业链与数字基础设施专题、AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
-   "wordCount": 9275
+   "wordCount": 9318
+  },
+  {
+   "path": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md",
+   "title": "吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离",
+   "updated": "2026-08-06",
+   "topic": "infrastructure",
+   "links": [
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移"
+   ],
+   "backlinks": [
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+    "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md"
+   ],
+   "desc": "上级：AI产业链与数字基础设施/AI产业链与数字基础设施专题、AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+   "wordCount": 3454
   },
   {
    "path": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
@@ -2812,7 +2877,7 @@ window.OBSIDIAN_DATA = {
      "date": "2026-08-05"
     },
     {
-     "title": "`AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史.md`（20:10 新建 → 20:36 合并）— 已并入上一条主文档，保留为跳转锚点，避免双份维护漂移。",
+     "title": "原 `AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史.md`（20:10 新建 → 20:36 合并 → 2026-08-07 删除空壳页）— 已并入上一条主文档 [[AI Agent工程知识/AI模型选型与订阅历史]]，后续不再作为独立页维护。",
      "summary": "",
      "points": [],
      "date": "2026-08-05"
@@ -3141,12 +3206,12 @@ window.OBSIDIAN_DATA = {
  "architectureLayers": [
   {
    "name": "能源与算力",
-   "matched": 4,
-   "status": "正在形成"
+   "matched": 5,
+   "status": "已形成"
   },
   {
    "name": "模型与推理",
-   "matched": 7,
+   "matched": 6,
    "status": "已形成"
   },
   {
@@ -3156,7 +3221,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "Agent Runtime",
-   "matched": 14,
+   "matched": 15,
    "status": "已形成"
   },
   {
@@ -3181,12 +3246,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 59,
+   "matched": 60,
    "status": "已形成"
   },
   {
    "name": "商业化与组织能力",
-   "matched": 55,
+   "matched": 56,
    "status": "已形成"
   }
  ],
@@ -3255,6 +3320,35 @@ window.OBSIDIAN_DATA = {
    "wordCount": 3381
   },
   {
+   "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断.md",
+   "title": "智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
+   "date": "2026-08-06",
+   "updated": "2026-08-07",
+   "category": "AI产业链与基础设施",
+   "status": "已回答 → 已入库",
+   "questionType": "🧠 概念理解 + 🔗 跨专题串联 + ⚖️ 行业判断",
+   "originalQuestion": "「那乌兰察布现在如果做一个节点进行推理的话，那它跟成都现在建的这种智算中心，它又有什么样的区别呢？因为每个城市现在都在投入，对吧？而且你也分了很多个修建者的一个背景，比如乌兰察布的这一个项目，它可能是哪个集团？民营或者央企。成都市的可能是政府修建的，关于政务、科研相关的。那还有一些就是大型的模型厂商，比如说 DeepSeek、千问，他们自己去修建的。那比如 DeepSeek 他们怎么样去部署自己的训练模型？推理的怎么样覆盖全国？他肯定有自己的合作方。」 「那现在真的很拉锯，就是新闻上说的，投资算力中心的资本很热，但",
+   "direction": "",
+   "directionHtml": "",
+   "summary": "「那乌兰察布现在如果做一个节点进行推理的话，那它跟成都现在建的这种智算中心，它又有什么样的区别呢？因为每个城市现在都在投入，对吧？而且你也分了很多个修建者的一个背景，比如乌兰察布的这一个项目，它可能是哪个集团？民营或者央企。成都市的可能是政府修建的，关于政务、科研相关的。那还有一些就是大型的模型厂商，比如说 DeepSeek、千问，他们自己去修建的。那比如 ",
+   "answerHtml": "",
+   "formalNotes": [],
+   "rawMaterials": [],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "徐总问题专题库/00_问题专题库总览",
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_远景乌兰察布算力基地分析",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离",
+    "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂"
+   ],
+   "wordCount": 4399
+  },
+  {
    "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海.md",
    "title": "算力工厂与算力出海（多轮深化）",
    "date": "2026-08-03",
@@ -3318,17 +3412,6 @@ window.OBSIDIAN_DATA = {
     "id": "AI Agent工程知识/AI Agent专业术语词典",
     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
     "title": "AI Agent 专业术语词典",
-    "type": "knowledge_note",
-    "domain": "agent",
-    "evidence": {
-     "source": "structured",
-     "status": "confirmed"
-    }
-   },
-   {
-    "id": "AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史",
-    "path": "AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史.md",
-    "title": "AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史",
     "type": "knowledge_note",
     "domain": "agent",
     "evidence": {
@@ -3428,6 +3511,17 @@ window.OBSIDIAN_DATA = {
     "id": "AI Agent工程知识/AI模型选型与订阅历史",
     "path": "AI Agent工程知识/AI模型选型与订阅历史.md",
     "title": "AI 模型选型与订阅历史",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow",
+    "path": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
+    "title": "Agent系统架构模式选型：从单Agent到Graph Workflow",
     "type": "knowledge_note",
     "domain": "agent",
     "evidence": {
@@ -4382,6 +4476,17 @@ window.OBSIDIAN_DATA = {
     }
    },
    {
+    "id": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移",
+    "path": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
+    "title": "黄仁勋Harness工程论：企业AI落地的范式转移",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
     "id": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
     "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
     "title": "AI产业链与数字基础设施专题",
@@ -4426,6 +4531,17 @@ window.OBSIDIAN_DATA = {
     }
    },
    {
+    "id": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离",
+    "path": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md",
+    "title": "吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离",
+    "type": "knowledge_note",
+    "domain": "ai_infrastructure",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
     "id": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
     "path": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
     "title": "甘肃庆阳AI算力产业崛起与Token工厂",
@@ -4462,6 +4578,17 @@ window.OBSIDIAN_DATA = {
     "id": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_远景乌兰察布算力基地分析",
     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_远景乌兰察布算力基地分析.md",
     "title": "远景乌兰察布算力基地分析（国产芯片 + 推理定位 + 结构性错配）",
+    "type": "question_topic",
+    "domain": "ai_infrastructure",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
+    "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断.md",
+    "title": "智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
     "type": "question_topic",
     "domain": "ai_infrastructure",
     "evidence": {
@@ -4665,6 +4792,18 @@ window.OBSIDIAN_DATA = {
    {
     "from": "AI Agent工程知识/AI Agent专业术语词典",
     "to": "AI Agent工程知识/AI Agent全面理解",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent专业术语词典",
+    "to": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow",
     "type": "related_to",
     "source": "explicit",
     "confidence": 1,
@@ -4963,30 +5102,6 @@ window.OBSIDIAN_DATA = {
     }
    },
    {
-    "from": "AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史",
-    "to": "AI Agent工程知识/AI模型选型与订阅历史",
-    "type": "related_to",
-    "source": "explicit",
-    "confidence": 1,
-    "status": "confirmed",
-    "evidence": {
-     "path": "AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史.md",
-     "anchor": "wikilink"
-    }
-   },
-   {
-    "from": "AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史",
-    "to": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
-    "type": "related_to",
-    "source": "explicit",
-    "confidence": 1,
-    "status": "confirmed",
-    "evidence": {
-     "path": "AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史.md",
-     "anchor": "wikilink"
-    }
-   },
-   {
     "from": "AI Agent工程知识/AI Agent全面理解",
     "to": "AI Agent工程知识/AI Agent工程知识专题",
     "type": "related_to",
@@ -5168,7 +5283,7 @@ window.OBSIDIAN_DATA = {
    },
    {
     "from": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
-    "to": "AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史",
+    "to": "AI Agent工程知识/AI模型选型与订阅历史",
     "type": "related_to",
     "source": "explicit",
     "confidence": 1,
@@ -5505,6 +5620,18 @@ window.OBSIDIAN_DATA = {
    {
     "from": "AI Agent工程知识/AI Agent工程知识专题",
     "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/AI Agent工程知识专题",
+    "to": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow",
     "type": "related_to",
     "source": "explicit",
     "confidence": 1,
@@ -6175,14 +6302,74 @@ window.OBSIDIAN_DATA = {
     }
    },
    {
-    "from": "AI Agent工程知识/AI模型选型与订阅历史",
-    "to": "AI Agent工程知识/AI Agent使用经验：从千问到MiniMax再到Token Plan的踩坑史",
+    "from": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow",
+    "to": "AI Agent工程知识/AI Agent工程知识专题",
     "type": "related_to",
     "source": "explicit",
     "confidence": 1,
     "status": "confirmed",
     "evidence": {
-     "path": "AI Agent工程知识/AI模型选型与订阅历史.md",
+     "path": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow",
+    "to": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow",
+    "to": "AI Agent工程知识/AI Agent工程知识框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow",
+    "to": "AI Agent工程知识/AI Agent专业术语词典",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow",
+    "to": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
      "anchor": "wikilink"
     }
    },
@@ -9405,6 +9592,18 @@ window.OBSIDIAN_DATA = {
    {
     "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
     "to": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "to": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移",
     "type": "related_to",
     "source": "explicit",
     "confidence": 1,
@@ -14539,6 +14738,102 @@ window.OBSIDIAN_DATA = {
     }
    },
    {
+    "from": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移",
+    "to": "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移",
+    "to": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移",
+    "to": "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移",
+    "to": "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移",
+    "to": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移",
+    "to": "AI Agent工程知识/AI Agent全面理解",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移",
+    "to": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移",
+    "to": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
     "from": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
     "to": "企业AI与智能体商业化/知识库索引",
     "type": "related_to",
@@ -14625,6 +14920,30 @@ window.OBSIDIAN_DATA = {
    {
     "from": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
     "to": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "to": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "to": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
     "type": "related_to",
     "source": "explicit",
     "confidence": 1,
@@ -14984,6 +15303,18 @@ window.OBSIDIAN_DATA = {
    },
    {
     "from": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "to": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
     "to": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径",
     "type": "related_to",
     "source": "explicit",
@@ -15027,6 +15358,66 @@ window.OBSIDIAN_DATA = {
     "status": "confirmed",
     "evidence": {
      "path": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离",
+    "to": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离",
+    "to": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离",
+    "to": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离",
+    "to": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离",
+    "to": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md",
      "anchor": "wikilink"
     }
    },
@@ -15351,6 +15742,90 @@ window.OBSIDIAN_DATA = {
     "status": "confirmed",
     "evidence": {
      "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_远景乌兰察布算力基地分析.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
+    "to": "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
+    "to": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_远景乌兰察布算力基地分析",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
+    "to": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
+    "to": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
+    "to": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
+    "to": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
+    "to": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断.md",
      "anchor": "wikilink"
     }
    },
