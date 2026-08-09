@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-08-08",
- "generatedTime": "2026-08-08 23:17",
+ "generatedAt": "2026-08-09",
+ "generatedTime": "2026-08-09 11:12",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 87,
  "weeklyChanges": 901,
@@ -622,7 +622,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/企业AI与智能体商业化专题.md"
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
-   "wordCount": 1895
+   "wordCount": 1962
   },
   {
    "path": "企业AI与智能体商业化/AI数字化招标与合规治理框架.md",
@@ -959,7 +959,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "日期：2026-06-18",
-   "wordCount": 1484
+   "wordCount": 1551
   },
   {
    "path": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合.md",
@@ -1352,7 +1352,7 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md"
    ],
    "desc": "创建日期：2026-07-02",
-   "wordCount": 18202
+   "wordCount": 18269
   },
   {
    "path": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图.md",
@@ -1754,7 +1754,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "今天（2026-08-04 23:50 ~ 2026-08-05 00:34）的对话覆盖了5 段相互关联但角度不同的内容：",
-   "wordCount": 12570
+   "wordCount": 12636
   },
   {
    "path": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3.md",
@@ -1834,7 +1834,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/企业AI与智能体商业化专题.md"
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
-   "wordCount": 1716
+   "wordCount": 1782
   },
   {
    "path": "企业AI与智能体商业化/甘食记Ontology对象网络设计.md",
@@ -2687,7 +2687,7 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率.md"
    ],
    "desc": "上级：AI产业链与数字基础设施/AI产业链与数字基础设施专题、AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
-   "wordCount": 3454
+   "wordCount": 3521
   },
   {
    "path": "AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率.md",
@@ -3329,6 +3329,26 @@ window.OBSIDIAN_DATA = {
  ],
  "questionTopics": [
   {
+   "path": "徐总问题专题库/06_跨专题综合/Agent工程化与前端交付的困难度.md",
+   "title": "Agent工程化与前端交付的困难度（问题专题库蒸馏）",
+   "date": "2026-08-08",
+   "updated": "2026-08-08",
+   "category": "跨专题综合",
+   "status": "working",
+   "questionType": "",
+   "originalQuestion": "",
+   "direction": "",
+   "directionHtml": "",
+   "summary": "Task: KNOWLEDGEPIP31",
+   "answerHtml": "",
+   "formalNotes": [],
+   "rawMaterials": [],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [],
+   "wordCount": 462
+  },
+  {
    "path": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度.md",
    "title": "AI智能体的工程化与前端交付的困难度",
    "date": "2026-08-05",
@@ -3419,6 +3439,26 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂"
    ],
    "wordCount": 4399
+  },
+  {
+   "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化.md",
+   "title": "智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
+   "date": "2026-08-08",
+   "updated": "2026-08-08",
+   "category": "AI产业链与基础设施",
+   "status": "working",
+   "questionType": "",
+   "originalQuestion": "",
+   "direction": "",
+   "directionHtml": "",
+   "summary": "Task: KNOWLEDGEPIP53",
+   "answerHtml": "",
+   "formalNotes": [],
+   "rawMaterials": [],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [],
+   "wordCount": 469
   },
   {
    "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海.md",
@@ -4649,6 +4689,17 @@ window.OBSIDIAN_DATA = {
     }
    },
    {
+    "id": "徐总问题专题库/06_跨专题综合/Agent工程化与前端交付的困难度",
+    "path": "徐总问题专题库/06_跨专题综合/Agent工程化与前端交付的困难度.md",
+    "title": "Agent工程化与前端交付的困难度（问题专题库蒸馏）",
+    "type": "question_topic",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
     "id": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度",
     "path": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度.md",
     "title": "AI智能体的工程化与前端交付的困难度",
@@ -4673,6 +4724,17 @@ window.OBSIDIAN_DATA = {
    {
     "id": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断.md",
+    "title": "智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
+    "type": "question_topic",
+    "domain": "ai_infrastructure",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化",
+    "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化.md",
     "title": "智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
     "type": "question_topic",
     "domain": "ai_infrastructure",
