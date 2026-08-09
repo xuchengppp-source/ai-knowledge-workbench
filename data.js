@@ -1,23 +1,23 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-09",
- "generatedTime": "2026-08-09 11:12",
+ "generatedTime": "2026-08-09 23:04",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 87,
- "weeklyChanges": 901,
+ "weeklyPages": 89,
+ "weeklyChanges": 906,
  "sourceIndex": "知识库索引.md",
- "digest": "知识流水线/每日学习整理/2026-08-08｜AI知识增量整理.md",
+ "digest": "知识流水线/每日学习整理/2026-08-09｜AI知识增量整理.md",
  "topics": [
   {
    "name": "AI Agent工程知识",
    "key": "agent",
    "icon": "🤖",
-   "count": 21
+   "count": 22
   },
   {
    "name": "企业AI与智能体商业化",
    "key": "enterprise",
    "icon": "🏢",
-   "count": 77
+   "count": 78
   },
   {
    "name": "AI产业链与数字基础设施",
@@ -605,6 +605,16 @@ window.OBSIDIAN_DATA = {
    "wordCount": 8634
   },
   {
+   "path": "AI Agent工程知识/飞书多智能体连接故障恢复手册.md",
+   "title": "飞书多智能体连接故障恢复手册（外部智能体执行版）",
+   "updated": "2026-08-09",
+   "topic": "agent",
+   "links": [],
+   "backlinks": [],
+   "desc": "快速判定\"谁在线\"：查看有哪些进程持有到飞书长连接服务器（125.64.35.248 / 125.64.35.249 / 182.x / msg-frontier.feishu.c",
+   "wordCount": 4027
+  },
+  {
    "path": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
    "title": "AI交付行业观察：走访7个团队后的困境机会与危机",
    "updated": "2026-08-05",
@@ -747,6 +757,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构.md",
     "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3.md",
     "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环.md",
+    "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
     "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
     "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
     "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
@@ -1818,6 +1829,22 @@ window.OBSIDIAN_DATA = {
    "wordCount": 4012
   },
   {
+   "path": "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
+   "title": "李开复企业AI认知：从基座大模型到一号位工程",
+   "updated": "2026-08-09",
+   "topic": "enterprise",
+   "links": [
+    "企业AI与智能体商业化/零一万物企业AI落地专题",
+    "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "企业AI与智能体商业化/零一万物FDE与企业AI落地模式",
+    "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "知识流水线/己未文化AI落地-首次接触沟通作战卡-测试版"
+   ],
+   "backlinks": [],
+   "desc": "上级：企业AI与智能体商业化/零一万物企业AI落地专题、企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+   "wordCount": 2407
+  },
+  {
    "path": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md",
    "title": "案例-美团小团Agent工程化差距分析",
    "updated": "2026-08-05",
@@ -2306,6 +2333,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合"
    ],
    "backlinks": [
+    "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
     "企业AI与智能体商业化/零一万物企业AI落地专题.md",
     "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md"
    ],
@@ -2334,6 +2362,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
     "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
     "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
+    "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
     "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
     "企业AI与智能体商业化/零一万物FDE与企业AI落地模式.md",
     "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md"
@@ -2366,6 +2395,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
     "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
     "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构.md",
+    "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
     "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
     "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
     "企业AI与智能体商业化/零一万物FDE与企业AI落地模式.md",
@@ -2786,61 +2816,110 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "today": {
-  "date": "2026-08-08",
+  "date": "2026-08-09",
   "items": [
    {
-    "title": "4 条豆包短视频原始资料回流（19:15 前完成）",
-    "summary": "政治成熟优先级匹配精力 → 回流个人能力提升/权重识别与精力分配；用本体重塑企业 AI 语义基座 → 补强 Ontology 基础概念；美国 AI 基建东数西算、三十亿智算中心利用",
-    "points": [
-     "事实：政治成熟优先级匹配精力 → 回流个人能力提升/权重识别与精力分配；用本体重塑企业 AI 语义基座 → 补强 Ontology 基础概念；美国 AI 基建东数西算、三十亿智算中心利用率 → 补强有效算力核验清单与算力出海链路。",
-     "概念：Ontology 是企业 AI 的语义控制层（业务对象/状态/规则/动作边界/审计约束）；AI 基建从\"建设完成\"转向\"有效产出\"核验，投资额/机柜/P 值/上架率不等同于有效算力与商业回收。"
-    ],
-    "date": "2026-08-08"
+    "title": "**李开复企业 AI 认知：从基座大模型到一号位工程**（新建，08-09，KNOWLEDGEPIP-80）：公开报道汇编，补全零一万物厂商研究的\"为什么\"层——效率陷阱（财报改善 = 执行效率 × 决策质量）、AI 是一号位工程不是 CIO 项目、企业 AI 下半场服务决策者（董事会/投决会）、零一万物 Palantir 式订阅+私有化轻资产模式与 2.5 亿/15 亿订单数据。",
+    "summary": "",
+    "points": [],
+    "date": "2026-08-09"
    },
    {
-    "title": "Agent Ontology 1.0 升级为运行时本体（副手矩阵建设总结，21:26）",
-    "summary": "智能体副手矩阵明确 DK-One/DK-Two 内部副手 + Ethan/Chris/Oliver/Lucas 外部副手；Agent Ontology 拆为六类核心对象（Agent",
-    "points": [
-     "事实：智能体副手矩阵明确 DK-One/DK-Two 内部副手 + Ethan/Chris/Oliver/Lucas 外部副手；Agent Ontology 拆为六类核心对象（Agent / ModelBinding / TaskResul",
-     "概念：Agent Ontology 从静态能力清单变为\"任务-结果-运行状态-能力证据-路由-审核\"动态运行本体；运行事实（SQLite）/协作审计（Taskboard）/长期知识（Obsidian）三层分离，飞书不作为主数据库。"
-    ],
-    "date": "2026-08-08"
+    "title": "**Agent Ontology 1.0 运行数据库与闭环落地**（08-09 累计更新，KNOWLEDGEPIP-72）：把 Oliver、Lucas 能力按五层模型（Identity/Capability/Resource/Relationship/Runtime）入库；首次记录\"模型层主动性差异\"假设（Oliver 会话内主动 vs 混元单样本未观察）；沉淀 Oliver 模型绑定实测（Free 档、~2500 积分/天、压缩快、大额任务 >5 积分/次建议路由）。运行数据库总量 claims=14 / resources=17 / relationships=7。",
+    "summary": "",
+    "points": [],
+    "date": "2026-08-09"
    },
    {
-    "title": "多 bot 自我身份声明固化为通用协作规范（智能体协作共享问答，21:41）",
-    "summary": "卢卡斯能读到完整 mentions 但不知自己=Lucas（自我身份缺失）导致误判\"未点名我\"而沉默；与伊森 08-06 的 mentions 透传缺失是不同层级故障。",
-    "points": [
-     "事实：卢卡斯能读到完整 mentions 但不知自己=Lucas（自我身份缺失）导致误判\"未点名我\"而沉默；与伊森 08-06 的 mentions 透传缺失是不同层级故障。",
-     "概念：通用解法 = 每个 bot 固化\"我是 X，飞书 open_id Y，@X 即点名我\" + \"进会话即视为点名、直接回应\"；建议 Codex 固化为所有 bot 通用规范，写入操作手册/skill 副本。"
-    ],
-    "date": "2026-08-08"
+    "title": "**己未文化 AI 落地：首次接触沟通作战卡（测试版）**（新建，08-09，KNOWLEDGEPIP-80）：客户 AI 落地沟通方法样本（阶段一已发 PPT、阶段二当面沟通、阶段三填 Ontology），作者明确\"测试版先落知识流水线，实质内容后迁企业AI\"。属待验证工作草稿。",
+    "summary": "",
+    "points": [],
+    "date": "2026-08-09"
    },
    {
-    "title": "跨智能体执行能力评估机制建立（21:09）",
-    "summary": "记录不同智能体真实环境端到端执行差异；本次主控 Codex 未完成 Obsidian CLI 配置，而千问办公/QoderWork 完成（用户反馈，待证据复核）。",
-    "points": [
-     "事实：记录不同智能体真实环境端到端执行差异；本次主控 Codex 未完成 Obsidian CLI 配置，而千问办公/QoderWork 完成（用户反馈，待证据复核）。",
-     "概念：评估重点是端到端完成率/验证质量/工具选择/失败恢复，不只比较回答内容；外部结果标\"对照实验/待复核\"，不默认当作已验证事实；主控未完成时如实记\"未完成\"而非\"方案已出\"。"
-    ],
-    "date": "2026-08-08"
+    "title": "**Codex 会话级 Agent 协作协议 v0.1**（新建 draft，08-09，KNOWLEDGEPIP-79）：定义 Codex 内部会话框智能体化的四件套——Agent Registry / Message Bus / Worklog / Taskboard + Obsidian 作为真相层；明确与外部 Agent Ontology（调用谁）分工不合并。",
+    "summary": "",
+    "points": [],
+    "date": "2026-08-09"
    },
    {
-    "title": "CAI→Obsidian CLI 通道验收通过 + Obsidian CLI 统一操作规则（21:13 / 21:29）",
-    "summary": "CAI 已通过 Obsidian CLI 对正式 Vault 受控读写；03_工作规则新增\"Obsidian CLI 统一操作规则\"，所有智能体优先通过 CLI 操作知识库。",
-    "points": [
-     "事实：CAI 已通过 Obsidian CLI 对正式 Vault 受控读写；03_工作规则新增\"Obsidian CLI 统一操作规则\"，所有智能体优先通过 CLI 操作知识库。",
-     "概念：CLI 是正式知识库写入的统一受控入口，取代直接修改本地 Markdown 文件。"
-    ],
-    "date": "2026-08-08"
+    "title": "**内部多智能体协作机制系列持续沉淀**（08-09 修改）：Codex 多智能体副手矩阵与任务编排-完整建设总结、副手通信闭环验收、Codex-DeepSeek 内部智能体通信与编排、DeepSeek Codex 搭建与双模型并行机制、多智能体分派框架复核；多为近几日构建、今日回写。属\"本库多智能体治理\"架构演进。",
+    "summary": "",
+    "points": [],
+    "date": "2026-08-09"
+   },
+   {
+    "title": "**任务面板与知识库/ 新顶层目录**（08-09 11:19–11:35，徐总确认建立）：00_总入口 + 3 份核心文档（操作手册/同步文档/共享问答）+ 历史遗留目录。08-09 巡检已记录：用户拍板\"不处理归属/重复\"，仅作背景观察项。属工具链协作结构，非 AI 知识增量。",
+    "summary": "",
+    "points": [],
+    "date": "2026-08-09"
+   },
+   {
+    "title": "**DK 子 Agent 设计系列**（08-08 23:40 写入、08-09 06:46 主控验收）：Agent任务-DK-One（架构与入口/稳定性与成本/审核）、DK-Two（isolated-write 方案/风险与验收），属生产级子 Agent 工程实践样本。",
+    "summary": "",
+    "points": [],
+    "date": "2026-08-09"
    }
   ],
   "judgments": [
-   "Agent Ontology 1.0 把\"能力描述\"升级为\"运行事实\"——智能体能否被可靠调用由真实 TaskResult + CapabilityEvidence 决定，而非主观标签；这是企业 AI 多智能体落地的关键工程底座。",
-   "多 bot 协作的可靠前提不是\"都能读到 mentions\"，而是每个 bot 先有清晰的\"自我身份声明\"——透传缺失与自我身份缺失是两个不同层级的故障，必须分别治理，不能混修。",
-   "跨智能体能力评估必须基于真实端到端执行证据（配置/验证命令/耗时/失败点），主控未完成应如实记录；外部 Agent 的成功先作\"待复核\"，避免把对照实验当作已验证事实。"
+   "李开复\"效率陷阱 + 一号位工程 + 决策 AI 下半场\"把厂商研究从\"做什么\"推进到\"为什么\"，并强化了知识库既有主线：企业 AI 真正价值在决策场景（经营/销售/投资）而非执行提效，且必须由一号位亲自使用才能落地——这与本库 FDE、AI 经营中枢、零一万物万策决策中枢主线互相印证，是可回流的\"厂商认知 + 价值公式\"增量。",
+   "Agent Ontology 从\"能力清单\"升级为\"五层运行数据库\"，并首次提出\"模型层主动性差异\"假设：五层（Identity/Capability/Resource/Relationship/Runtime）让 Ontology 成为可路由的生产级运行底座；Oliver 会话内主动 vs 混元未观察引出\"模型层差异需控制变量验证\"的方法论纪律（同源推定标 suggested、单样本标非能力缺失）。这是 Ontology/Autonomy 主线的方法论推进。",
+   "内部多智能体协作机制（Codex 会话级协议 + DK 子 Agent + 任务面板与知识库）持续成型，但属于\"我们自己的系统架构\"而非外部 AI 知识：这些文档服务\"生产级 Agent 工程实践\"，落点是本库多智能体治理，不宜与\"企业 AI 外部知识\"混同回流到企业 AI 专题，应保留在 Codex 工作区 / 知识流水线，避免污染外部知识口径。"
   ]
  },
  "dailies": [
+  {
+   "date": "2026-08-09",
+   "items": [
+    {
+     "title": "**李开复企业 AI 认知：从基座大模型到一号位工程**（新建，08-09，KNOWLEDGEPIP-80）：公开报道汇编，补全零一万物厂商研究的\"为什么\"层——效率陷阱（财报改善 = 执行效率 × 决策质量）、AI 是一号位工程不是 CIO 项目、企业 AI 下半场服务决策者（董事会/投决会）、零一万物 Palantir 式订阅+私有化轻资产模式与 2.5 亿/15 亿订单数据。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-09"
+    },
+    {
+     "title": "**Agent Ontology 1.0 运行数据库与闭环落地**（08-09 累计更新，KNOWLEDGEPIP-72）：把 Oliver、Lucas 能力按五层模型（Identity/Capability/Resource/Relationship/Runtime）入库；首次记录\"模型层主动性差异\"假设（Oliver 会话内主动 vs 混元单样本未观察）；沉淀 Oliver 模型绑定实测（Free 档、~2500 积分/天、压缩快、大额任务 >5 积分/次建议路由）。运行数据库总量 claims=14 / resources=17 / relationships=7。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-09"
+    },
+    {
+     "title": "**己未文化 AI 落地：首次接触沟通作战卡（测试版）**（新建，08-09，KNOWLEDGEPIP-80）：客户 AI 落地沟通方法样本（阶段一已发 PPT、阶段二当面沟通、阶段三填 Ontology），作者明确\"测试版先落知识流水线，实质内容后迁企业AI\"。属待验证工作草稿。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-09"
+    },
+    {
+     "title": "**Codex 会话级 Agent 协作协议 v0.1**（新建 draft，08-09，KNOWLEDGEPIP-79）：定义 Codex 内部会话框智能体化的四件套——Agent Registry / Message Bus / Worklog / Taskboard + Obsidian 作为真相层；明确与外部 Agent Ontology（调用谁）分工不合并。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-09"
+    },
+    {
+     "title": "**内部多智能体协作机制系列持续沉淀**（08-09 修改）：Codex 多智能体副手矩阵与任务编排-完整建设总结、副手通信闭环验收、Codex-DeepSeek 内部智能体通信与编排、DeepSeek Codex 搭建与双模型并行机制、多智能体分派框架复核；多为近几日构建、今日回写。属\"本库多智能体治理\"架构演进。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-09"
+    },
+    {
+     "title": "**任务面板与知识库/ 新顶层目录**（08-09 11:19–11:35，徐总确认建立）：00_总入口 + 3 份核心文档（操作手册/同步文档/共享问答）+ 历史遗留目录。08-09 巡检已记录：用户拍板\"不处理归属/重复\"，仅作背景观察项。属工具链协作结构，非 AI 知识增量。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-09"
+    },
+    {
+     "title": "**DK 子 Agent 设计系列**（08-08 23:40 写入、08-09 06:46 主控验收）：Agent任务-DK-One（架构与入口/稳定性与成本/审核）、DK-Two（isolated-write 方案/风险与验收），属生产级子 Agent 工程实践样本。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-09"
+    }
+   ],
+   "judgments": [
+    "李开复\"效率陷阱 + 一号位工程 + 决策 AI 下半场\"把厂商研究从\"做什么\"推进到\"为什么\"，并强化了知识库既有主线：企业 AI 真正价值在决策场景（经营/销售/投资）而非执行提效，且必须由一号位亲自使用才能落地——这与本库 FDE、AI 经营中枢、零一万物万策决策中枢主线互相印证，是可回流的\"厂商认知 + 价值公式\"增量。",
+    "Agent Ontology 从\"能力清单\"升级为\"五层运行数据库\"，并首次提出\"模型层主动性差异\"假设：五层（Identity/Capability/Resource/Relationship/Runtime）让 Ontology 成为可路由的生产级运行底座；Oliver 会话内主动 vs 混元未观察引出\"模型层差异需控制变量验证\"的方法论纪律（同源推定标 suggested、单样本标非能力缺失）。这是 Ontology/Autonomy 主线的方法论推进。",
+    "内部多智能体协作机制（Codex 会话级协议 + DK 子 Agent + 任务面板与知识库）持续成型，但属于\"我们自己的系统架构\"而非外部 AI 知识：这些文档服务\"生产级 Agent 工程实践\"，落点是本库多智能体治理，不宜与\"企业 AI 外部知识\"混同回流到企业 AI 专题，应保留在 Codex 工作区 / 知识流水线，避免污染外部知识口径。"
+   ]
+  },
   {
    "date": "2026-08-08",
    "items": [
@@ -3226,46 +3305,6 @@ window.OBSIDIAN_DATA = {
     "“Token 是新型电力出口”是有启发性的产业比喻，但不能直接当事实使用。需要拆成绿电、算力、模型推理、跨境 API、数据合规、客户结算和本地化服务几个环节分别验证。",
     "企业 AI Agent 落地不能只看模型能力，还要看采购透明度、验收口径、运行日志、权限审计和后评估机制。电网数字化采购风险可以作为 AI Agent 项目治理的反面案例来源。"
    ]
-  },
-  {
-   "date": "2026-08-02",
-   "items": [
-    {
-     "title": "新增 5 条 Token 工厂相关短视频原始资料。",
-     "summary": "来源形态：抖音视频、豆包 / WorkBuddy 整理、部分为豆包检索还原或标题检索延展。来源形态不决定内容价值，只影响后续事实核验方式。\n    主题集中在 Token 工厂三类",
-     "points": [
-      "来源形态：抖音视频、豆包 / WorkBuddy 整理、部分为豆包检索还原或标题检索延展。来源形态不决定内容价值，只影响后续事实核验方式。",
-      "主题集中在 Token 工厂三类玩家、中国算力供需错配、运营商入局词元聚合、TaaS/AaaS/RaaS 商业模式，以及厦门 Token 工厂 / 跨境出海口岸叙事。",
-      "这些内容已经进入 知识流水线/A_原始资料 指针表，但仍应按原始资料和待验证信息处理。"
-     ],
-     "date": "2026-08-02"
-    },
-    {
-     "title": "[[AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络]] 增补了“Token 经济的商业层分化”。",
-     "summary": "页面新增 TaaS、AaaS、RaaS 三层商业模式，并把 Token 经济从基础资源层延伸到智能体服务层和业务结果层。",
-     "points": [
-      "事实：页面新增 TaaS、AaaS、RaaS 三层商业模式，并把 Token 经济从基础资源层延伸到智能体服务层和业务结果层。",
-      "概念：Token 不只是模型计费单位，也可以成为企业 AI 服务商业化的底层资源；但长期利润更可能在 Agent 服务和结果交付层。",
-      "因果关系：运营商和云厂商压低 TaaS 基础价格后，中小团队必须向垂直行业 Agent、工作流、知识库、实施和运维转型。"
-     ],
-     "date": "2026-08-02"
-    },
-    {
-     "title": "[[AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂]] 已从企业 AI 商业化侧纠偏到 AI 产业链与数字基础设施侧。",
-     "summary": "该页上级已调整为 AI 产业链与数字基础设施专题，并补充“短视频资料补充：Token 工厂赛道分层与待核验观察”。",
-     "points": [
-      "事实：该页上级已调整为 AI 产业链与数字基础设施专题，并补充“短视频资料补充：Token 工厂赛道分层与待核验观察”。",
-      "概念：庆阳案例的主问题是算力产业、智算中心、Token 工厂和数字基础设施，不是狭义企业 AI 落地案例。",
-      "因果关系：算力基地、合规出口、模型服务、运营商渠道和下游 Agent 服务构成一条更完整的 Token 工厂产业链。"
-     ],
-     "date": "2026-08-02"
-    }
-   ],
-   "judgments": [
-    "Token 工厂赛道已经从“有没有算力”转向“算力能否被客户持续购买”。",
-    "单纯机柜、GPU 数量和 P 值不足以说明商业价值；关键是模型部署、调度、利用率、SLA、单 Token 成本、客户订单和持续推理需求。",
-    "中小团队不宜重仓纯 TaaS 价差，应向 AaaS / RaaS 转型。"
-   ]
   }
  ],
  "weeklyReview": {
@@ -3283,7 +3322,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "模型与推理",
-   "matched": 6,
+   "matched": 7,
    "status": "已形成"
   },
   {
@@ -3318,12 +3357,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 60,
+   "matched": 61,
    "status": "已形成"
   },
   {
    "name": "商业化与组织能力",
-   "matched": 56,
+   "matched": 57,
    "status": "已形成"
   }
  ],
@@ -3746,6 +3785,17 @@ window.OBSIDIAN_DATA = {
     "id": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
     "path": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈.md",
     "title": "生产级知识库工程的 8 大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
+    "type": "knowledge_note",
+    "domain": "agent",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "AI Agent工程知识/飞书多智能体连接故障恢复手册",
+    "path": "AI Agent工程知识/飞书多智能体连接故障恢复手册.md",
+    "title": "飞书多智能体连接故障恢复手册（外部智能体执行版）",
     "type": "knowledge_note",
     "domain": "agent",
     "evidence": {
@@ -4263,6 +4313,17 @@ window.OBSIDIAN_DATA = {
     "id": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架",
     "path": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架.md",
     "title": "本地智能体项目文件分层与产品交付框架",
+    "type": "knowledge_note",
+    "domain": "enterprise_ai",
+    "evidence": {
+     "source": "structured",
+     "status": "confirmed"
+    }
+   },
+   {
+    "id": "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程",
+    "path": "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
+    "title": "李开复企业AI认知：从基座大模型到一号位工程",
     "type": "knowledge_note",
     "domain": "enterprise_ai",
     "evidence": {
@@ -12373,6 +12434,54 @@ window.OBSIDIAN_DATA = {
     "status": "confirmed",
     "evidence": {
      "path": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程",
+    "to": "企业AI与智能体商业化/零一万物企业AI落地专题",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程",
+    "to": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程",
+    "to": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
+     "anchor": "wikilink"
+    }
+   },
+   {
+    "from": "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程",
+    "to": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "type": "related_to",
+    "source": "explicit",
+    "confidence": 1,
+    "status": "confirmed",
+    "evidence": {
+     "path": "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
      "anchor": "wikilink"
     }
    },
