@@ -901,12 +901,13 @@
 <script src="data.js?v=202608092349"></script>
 <script src="docs.js?v=202608092349" defer></script>
 <script>
-/* 悬浮式底部控制条浏览器（华为/UC/夸克/小米等）会覆盖页面底部，给 html 打标记以便上抬底部栏 */
+/* 悬浮式底部控制条浏览器（华为/UC/夸克/小米/百度等）会覆盖页面底部，给 html 打标记以便上抬底部栏 */
 (function () {
   var ua = navigator.userAgent;
-  if (/HuaweiBrowser|UCBrowser|Quark|MiuiBrowser|Baidu|Sogou/i.test(ua) && window.innerHeight && document.documentElement.clientHeight < window.innerHeight) {
-    document.documentElement.className += ' has-floating-bar';
-  }
+  var vv = window.visualViewport;
+  var hasFloating = /HuaweiBrowser|UCBrowser|Quark|MiuiBrowser|Baidu|Sogou|2345Explorer/i.test(ua);
+  if (!hasFloating && vv && window.innerHeight && vv.height < window.innerHeight - 30) hasFloating = true;
+  if (hasFloating) document.documentElement.className += ' has-floating-bar';
 })();
 var OBSIDIAN_GRAPH = window.OBSIDIAN_DATA || { generatedAt:"", sourceIndex:"", digest:"", topics:[], nodes:[] };
 if (window.innerWidth < 700 && !/[?&]desktop=1\b/.test(window.location.search)) {
