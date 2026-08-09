@@ -181,19 +181,16 @@
   }
   .statusbar .sbar-right { display: flex; gap: 5px; align-items: center; font-size: 12px; }
   .statusbar .sbar-right span { font-weight: 500; }
-  .app-body { flex: 1; overflow-y: auto; padding-bottom: calc(100px + env(safe-area-inset-bottom, 0px)); scrollbar-width: none; }
+  .app-body { flex: 1; overflow-y: auto; padding-bottom: 24px; scrollbar-width: none; }
   .app-body::-webkit-scrollbar { display: none; }
 
-  /* 胶囊 Tab Bar */
+  /* 顶部胶囊 Tab Bar（固定于页面顶部，避开移动端底部控制条） */
   .tabbar-wrap {
-    position: absolute; left: 0; right: 0; bottom: max(env(safe-area-inset-bottom, 0px), 8px);
-    padding: 10px 16px 22px;
+    position: relative;
+    padding: 6px 16px 10px;
     z-index: 50;
+    flex-shrink: 0;
   }
-  /* 悬浮式浏览器控制条适配：整体上抬，避免遮挡 */
-  html.has-floating-bar #live-app .tabbar-wrap { bottom: 70px; }
-  html.has-floating-bar #live-app .app-body { padding-bottom: 175px; }
-  html.has-floating-bar .reader-bottom { bottom: 70px; }
   .tabbar {
     display: flex;
     background: rgba(255,255,255,0.96);
@@ -405,10 +402,10 @@
     font-size: 13px; line-height: 1.7; color: #065F46;
   }
   .reader-bottom {
-    position: sticky; bottom: max(env(safe-area-inset-bottom, 0px), 6px);
+    position: static;
     background: rgba(255,255,255,0.98); backdrop-filter: blur(10px);
     border-top: 1px solid var(--line);
-    display: flex; gap: 10px; padding: 12px 16px calc(12px + env(safe-area-inset-bottom, 0px));
+    display: flex; gap: 10px; padding: 12px 16px;
   }
   .reader-bottom .rb-btn {
     flex: 1; border-radius: 14px; padding: 11px 0; text-align: center;
@@ -887,7 +884,6 @@
     <span id="live-date"></span>
     <div class="sbar-right" id="live-clock"></div>
   </div>
-  <div id="live-body" class="app-body"></div>
   <div class="tabbar-wrap">
     <div class="tabbar" id="live-tabbar">
       <div class="t on" data-tab="today"><span class="ic">⌂</span>今日</div>
@@ -896,6 +892,7 @@
       <div class="t" data-tab="me"><span class="ic">◉</span>建设</div>
     </div>
   </div>
+  <div id="live-body" class="app-body"></div>
 </div>
 
 <script src="data.js?v=202608092349"></script>
