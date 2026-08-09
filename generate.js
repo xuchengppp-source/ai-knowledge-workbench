@@ -17,6 +17,7 @@ const TOPICS = [
   { key: 'agent',     name: 'AI Agent工程知识',        dir: 'AI Agent工程知识',              icon: '🤖', color: 'agent' },
   { key: 'enterprise', name: '企业AI与智能体商业化',    dir: '企业AI与智能体商业化',          icon: '🏢', color: 'enterprise' },
   { key: 'infrastructure', name: 'AI产业链与数字基础设施', dir: 'AI产业链与数字基础设施', icon: '⚡', color: 'enterprise' },
+  { key: 'pipeline', name: '知识流水线',              dir: '知识流水线',                    icon: '📚', color: 'pipeline' },
 ];
 const DAILY_DIR = path.join(VAULT, '知识流水线', '每日学习整理');
 const WEEKLY_DIR = path.join(VAULT, '知识流水线', '每周知识复盘');
