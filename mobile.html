@@ -923,8 +923,8 @@
   <div id="live-body" class="app-body"></div>
 </div>
 
-<script src="data.js?v=202608101149"></script>
-<script src="docs.js?v=202608101149" defer></script>
+<script src="data.js?v=202608101223"></script>
+<script src="docs.js?v=202608101223" defer></script>
 <script>
 /* 悬浮式底部控制条浏览器（华为/UC/夸克/小米/百度等）会覆盖页面底部，给 html 打标记以便上抬底部栏 */
 (function () {
@@ -1064,28 +1064,21 @@ function renderToday() {
   var d = OBSIDIAN_DATA.today || {date:"", items:[], judgments:[]};
   var h = '<div class="page">';
   h += '<div class="head-row"><div class="title">'+(OBSIDIAN_GRAPH.rootTitle || '徐总的知识库')+'<span class="sub-line">AI 知识成长视图 · 每日整理</span></div><div class="avatar">徐</div></div>';
-  h += '<div class="review-box"><div class="eyebrow">AI 知识体系总览 · Codex 梳理视图</div><h3>基础设施 → Agent 工程 → 企业 AI 落地</h3><p>工作台不是 Obsidian 的镜像，而是把你的三条知识主线重新组织成上下游关系：AI 能力从哪里来、怎样变成可运行系统、最后怎样进入客户业务并产生结果。</p><div class="brief-foot"><span class="brief-chip" onclick="event.stopPropagation();switchTab(\'topic\')">查看主线地图 ›</span><span class="brief-chip" onclick="event.stopPropagation();switchTab(\'fav\')">查看架构缺口 ›</span></div></div>';
   h += '<div class="learning-brief" style="cursor:pointer" onclick="showDailyDetail()"><div class="eyebrow">今日 AI 知识增量 · 来自 Obsidian 知识流水线</div><h3>今天先搞懂：'+(d.items[0] ? d.items[0].title : 'AI 知识体系今天发生了什么？')+'</h3><p>'+(d.items[0] ? d.items[0].summary : '查看今日整理，了解知识库最近的新增和变化。')+'</p><div class="brief-foot"><span class="brief-chip" onclick="event.stopPropagation();switchTab(\'topic\')">关联知识网络 ›</span><span class="brief-chip" onclick="event.stopPropagation();showDailyDetail()">来自每日整理 ›</span></div></div>';
-  h += '<div class="progress-card"><div class="pc-top"><div class="pc-date">📚 本周知识库状态</div><div class="pc-streak">AI 知识体系正在成形</div></div><div class="pc-main"><div class="pc-num">'+(OBSIDIAN_GRAPH.weeklyChanges||0)+'</div><div class="pc-unit">条链接</div></div><div class="pc-sub">本周更新 '+(OBSIDIAN_GRAPH.weeklyPages||0)+' 个页面 · 每日整理负责呈现变化，学习路径负责组织理解</div><div class="pc-bar"><i style="width:58%;"></i></div></div>';
+  h += '<div class="progress-card"><div class="pc-top"><div class="pc-date">📚 本周知识库状态</div><div class="pc-streak">AI 知识体系正在成形</div></div><div class="pc-main"><div class="pc-num">'+(OBSIDIAN_GRAPH.weeklyChanges||0)+'</div><div class="pc-unit">条链接</div></div><div class="pc-sub">本周更新 '+(OBSIDIAN_GRAPH.weeklyPages||0)+' 个页面</div><div class="pc-bar"><i style="width:58%;"></i></div></div>';
   var wr = OBSIDIAN_DATA.weeklyReview;
   if (wr) h += '<div class="review-box" style="cursor:pointer" onclick="showWeeklyReview()"><div class="eyebrow">本周 AI 知识架构复盘 · '+wr.date+'</div><h3>'+wr.title+'</h3><p>'+wr.overview+'</p><div class="brief-foot"><span class="brief-chip">查看本周主线变化 ›</span><span class="brief-chip">回流建议 ›</span></div></div>';
-  h += '<div class="sec-title" style="cursor:pointer;" onclick="showDailyDetail()">今日新增要点 <span class="more">来自每日整理 · '+d.items.length+' 条 ›</span></div>';
   var gt = OBSIDIAN_GRAPH.generatedTime || '';
   var gtFull = gt;
   var gm = gt.match(/^(\d{4})-(\d{2})-(\d{2}) (\d{2}:\d{2})/);
   if (gm) gtFull = gm[1] + '年' + parseInt(gm[2],10) + '月' + parseInt(gm[3],10) + '日 ' + gm[4];
-  h += '<div class="source-line">真实来源：'+OBSIDIAN_GRAPH.digest+' · 编译于 '+gtFull+'</div>';
+  h += '<div class="sec-title">今日要点 <span class="more" style="cursor:pointer;" onclick="showDailyDetail()">'+d.items.length+' 条 · 完整整理 ›</span></div>';
+  h += '<div class="source-line">来源：'+OBSIDIAN_GRAPH.digest+' · 编译于 '+gtFull+'</div>';
   if (d.judgments && d.judgments.length) {
-    h += '<div class="sec-title">今日最重要的判断</div>';
-    h += '<div class="change-list">';
-    d.judgments.forEach(function(j){ h += '<div class="change-row"><i class="change-mark"></i><div><b>'+j+'</b></div></div>'; });
+    h += '<div class="review-box"><div class="eyebrow">今日重要判断</div>';
+    d.judgments.forEach(function(j){ h += '<p style="margin:5px 0 0;">· '+j+'</p>'; });
     h += '</div>';
   }
-  h += '<div class="sec-title" style="cursor:pointer;" onclick="switchTab(\'topic\')">当前 AI 知识状态 <span class="more">查看地图 ›</span></div>';
-  var agentTopic = graphTopic('AI Agent工程知识'), enterpriseTopic = graphTopic('企业AI与智能体商业化');
-  h += '<div class="state-card" style="cursor:pointer;" onclick="switchTab(\'topic\')"><div class="state-head"><b>AI Agent 工程</b><span class="state-badge">'+agentTopic.count+' 篇</span></div><p>真实索引显示 '+graphNodes('AI Agent工程知识').length+' 个核心节点被编入成长视图，重点连接 Ontology、RAG、Runtime、FDE 与企业 AI。</p></div>';
-  h += '<div class="state-card" style="cursor:pointer;" onclick="switchTab(\'topic\')"><div class="state-head"><b>企业 AI 与商业化</b><span class="state-badge">'+enterpriseTopic.count+' 篇</span></div><p>专题已形成企业落地、FDE、知识资产、业务系统和项目案例之间的跨专题连接。</p></div>';
-  h += '<div class="sec-title" style="cursor:pointer;" onclick="showDailyDetail()">今日新增要点 <span class="more">'+d.items.length+' 条 · 查看完整整理 ›</span></div>';
   if (d.items && d.items.length) {
     d.items.forEach(function(it, idx){
       h += '<div class="k-card" onclick="openDailyItem('+idx+')"><div class="k-top"><span class="tag amber">今日</span><span class="k-time">'+it.date+'</span><span class="k-dot'+(idx<2?'':' read')+'"></span></div><h3>'+it.title+'</h3><div class="k-desc">'+it.summary+'</div><div class="k-foot"><span>📖 点击阅读完整要点</span><span class="len">›</span></div></div>';
@@ -1093,6 +1086,10 @@ function renderToday() {
   } else {
     h += '<div class="fav-note">今日暂无新增整理，可前往学习地图浏览专题。</div>';
   }
+  var agentTopic = graphTopic('AI Agent工程知识'), enterpriseTopic = graphTopic('企业AI与智能体商业化');
+  h += '<div class="sec-title" style="cursor:pointer;" onclick="switchTab(\'topic\')">知识地图 <span class="more">查看专题 ›</span></div>';
+  h += '<div class="state-card" style="cursor:pointer;padding:10px 14px;" onclick="switchTab(\'topic\')"><div class="state-head"><b>AI Agent 工程</b><span class="state-badge">'+agentTopic.count+' 篇</span></div><p>Ontology · RAG · Runtime · FDE 主线</p></div>';
+  h += '<div class="state-card" style="cursor:pointer;padding:10px 14px;" onclick="switchTab(\'topic\')"><div class="state-head"><b>企业 AI 与商业化</b><span class="state-badge">'+enterpriseTopic.count+' 篇</span></div><p>企业落地 · FDE · 知识资产 · 项目案例</p></div>';
   h += '<div class="sec-title">相关知识入口</div>';
   TODAY.forEach(function(it){
     var doc = DOCS[it.k];
