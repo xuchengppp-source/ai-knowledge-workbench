@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-10",
- "generatedTime": "2026-08-10 14:23",
+ "generatedTime": "2026-08-10 15:54",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 129,
  "weeklyChanges": 1160,
@@ -4405,10 +4405,17 @@ window.OBSIDIAN_DATA = {
   "summary": {
    "in_progress": 8,
    "todo": 4,
-   "in_review": 1,
+   "in_review": 0,
    "blocked": 2
   },
   "recent": [
+   {
+    "id": "KNOWLEDGEPIP-83",
+    "title": "知识工作台前端重构与炫酷化改版",
+    "status": "in_progress",
+    "priority": "high",
+    "assignee": "伊森（WorkBuddy）"
+   },
    {
     "id": "KNOWLEDGEPIP-84",
     "title": "腾讯FDE报告研究＋生产级AI Agent工程化知识录入",
@@ -4424,13 +4431,6 @@ window.OBSIDIAN_DATA = {
     "assignee": "Oliver（千问办公）"
    },
    {
-    "id": "KNOWLEDGEPIP-83",
-    "title": "知识工作台前端重构与炫酷化改版",
-    "status": "in_progress",
-    "priority": "high",
-    "assignee": "Oliver（千问办公）"
-   },
-   {
     "id": "KNOWLEDGEPIP-79",
     "title": "Codex 的内部合作机制",
     "status": "in_progress",
@@ -4438,21 +4438,21 @@ window.OBSIDIAN_DATA = {
     "assignee": "伊森（WorkBuddy）"
    },
    {
-    "id": "KNOWLEDGEPIP-72",
-    "title": "Agent Ontology 1.0 运行数据库与闭环落地",
-    "status": "in_review",
-    "priority": "high",
-    "assignee": "Codex Agent"
-   },
-   {
     "id": "KNOWLEDGEPIP-71",
     "title": "Agent Ontology 1.0 动态能力本体与自动路由",
     "status": "in_progress",
     "priority": "high",
     "assignee": "Codex Agent"
+   },
+   {
+    "id": "KNOWLEDGEPIP-81",
+    "title": "每日例会（持续进行）",
+    "status": "in_progress",
+    "priority": "high",
+    "assignee": "伊森（WorkBuddy）"
    }
   ],
   "total": 61,
-  "fetchedAt": "2026-08-10T14:23:08"
+  "fetchedAt": "2026-08-10T15:54:30"
  }
 };
