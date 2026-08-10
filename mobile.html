@@ -510,7 +510,7 @@
     width: auto; height: 44px; max-width: none; margin: 0; padding: 0 24px 8px;
   }
   body.mobile-app #live-app .app-body {
-    width: auto; max-width: none; margin: 0; padding: 0 0 24px;
+    width: auto; max-width: none; margin: 0; padding: 0 0 56px;
   }
   body.mobile-app #live-app .tabbar-wrap {
     display: block;
@@ -648,6 +648,76 @@
   .kp-shine::before { content:""; position:absolute; top:0; bottom:0; width:46%; left:0; z-index:1;
     background:linear-gradient(105deg,transparent,rgba(255,255,255,.28),transparent);
     animation:kp-shine 3.6s ease-in-out infinite; pointer-events:none; }
+
+  /* ========== 知识地图：三阶段链路 ========== */
+  .kp-map-note { font-size:10.5px; color:var(--ink-faint); line-height:1.6; margin:0 4px 13px; }
+  .kp-flow { position:relative; padding:0 0 4px; }
+  .kp-flow::before { content:""; position:absolute; left:17px; top:30px; bottom:30px; width:2px;
+    background:linear-gradient(180deg,#0EA5E9,#2563EB,#7C3AED); opacity:.28; }
+  .kp-flow-node { position:relative; margin:0 0 14px; border-radius:18px; padding:14px; color:#fff;
+    overflow:hidden; box-shadow:0 12px 26px -10px rgba(20,40,90,.42); animation:kp-rise .45s ease both; }
+  .kp-flow-node::before { content:""; position:absolute; left:9px; top:10px; bottom:10px; width:16px; border-radius:8px; background:rgba(255,255,255,.15); }
+  .kp-flow-node::after { content:""; position:absolute; right:-26px; top:-26px; width:90px; height:90px; border-radius:50%; background:rgba(255,255,255,.11); }
+  .kp-flow-node .fn-head { position:relative; display:flex; align-items:center; gap:8px; padding-left:24px; }
+  .kp-flow-node .fi { width:26px; height:26px; border-radius:9px; background:rgba(255,255,255,.22); display:flex; align-items:center; justify-content:center; font-size:13px; flex-shrink:0; }
+  .kp-flow-node .fn-head b { font-size:14px; font-weight:800; letter-spacing:.4px; }
+  .kp-flow-node .fn-head span { margin-left:auto; font-size:10px; opacity:.85; font-weight:600; }
+  .kp-flow-node .fn-go { position:relative; margin-top:12px; padding-left:24px; font-size:10.5px; opacity:.95; font-weight:700; cursor:pointer; }
+  .kp-layer { position:relative; display:flex; align-items:center; gap:9px; background:rgba(255,255,255,.13); border-radius:11px; padding:7px 10px; margin:7px 0 0 24px; }
+  .kp-layer .l-dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
+  .kp-layer.done .l-dot { background:#34D399; box-shadow:0 0 8px rgba(52,211,153,.9); }
+  .kp-layer.warm .l-dot { background:#FBBF24; box-shadow:0 0 8px rgba(251,191,36,.9); }
+  .kp-layer.gap .l-dot { background:transparent; border:1.5px dashed rgba(255,255,255,.7); }
+  .kp-layer .l-name { font-size:11px; font-weight:600; flex-shrink:0; }
+  .kp-layer .l-track { flex:1; height:5px; border-radius:3px; background:rgba(255,255,255,.16); overflow:hidden; }
+  .kp-layer .l-track i { display:block; height:100%; border-radius:3px; }
+  .kp-layer.done .l-track i { background:linear-gradient(90deg,#34D399,#10B981); }
+  .kp-layer.warm .l-track i { background:linear-gradient(90deg,#FDE68A,#F59E0B); }
+  .kp-layer.gap .l-track i { background:repeating-linear-gradient(90deg,rgba(255,255,255,.55) 0 4px,transparent 4px 8px); }
+  .kp-layer .l-st { font-size:8.5px; opacity:.8; flex-shrink:0; }
+  .kp-base { position:relative; overflow:hidden; border-radius:18px; padding:14px; color:#fff;
+    background:linear-gradient(135deg,#059669,#065F46); box-shadow:0 12px 26px -10px rgba(5,150,105,.5);
+    cursor:pointer; animation:kp-rise .45s ease both; }
+  .kp-base::after { content:""; position:absolute; right:-26px; top:-26px; width:90px; height:90px; border-radius:50%; background:rgba(255,255,255,.14); }
+  .kp-base .fn-head { position:relative; display:flex; align-items:center; gap:8px; }
+  .kp-base .fi { width:26px; height:26px; border-radius:9px; background:rgba(255,255,255,.22); display:flex; align-items:center; justify-content:center; font-size:13px; }
+  .kp-base .fn-head b { font-size:14px; font-weight:800; letter-spacing:.4px; }
+  .kp-base .fn-head span { margin-left:auto; font-size:10px; opacity:.85; }
+  .kp-base .fn-go { position:relative; margin-top:10px; font-size:10.5px; opacity:.92; font-weight:700; }
+
+  /* 架构健康度 */
+  .kp-health { display:flex; gap:8px; margin-bottom:14px; }
+  .kp-health .hx { flex:1; border-radius:15px; padding:11px 8px; text-align:center; animation:kp-rise .45s ease both; }
+  .kp-health .hx .v { font-size:21px; font-weight:800; line-height:1; font-variant-numeric:tabular-nums; }
+  .kp-health .hx .l { font-size:9.5px; margin-top:5px; opacity:.85; }
+  .kp-health .hx.ok { background:linear-gradient(135deg,#E7F8F1,#D1FAE5); color:#047857; }
+  .kp-health .hx.warm { background:linear-gradient(135deg,#FEF3E2,#FDE68A); color:#B45309; }
+  .kp-health .hx.gap { background:linear-gradient(135deg,#F1F3F8,#E5E7EF); color:#6B7280; }
+  .kp-layers { background:#fff; border:1px solid var(--line); border-radius:18px; padding:14px 14px 6px; box-shadow:var(--shadow); }
+  .kp-layer-row { display:flex; align-items:center; gap:9px; padding:8px 0; border-bottom:1px solid #F1F4F9; }
+  .kp-layer-row:last-child { border-bottom:none; }
+  .kp-layer-row .l-dot { width:9px; height:9px; border-radius:50%; flex-shrink:0; }
+  .kp-layer-row.done .l-dot { background:#10B981; box-shadow:0 0 8px rgba(16,185,129,.6); }
+  .kp-layer-row.warm .l-dot { background:#F59E0B; box-shadow:0 0 8px rgba(245,158,11,.6); }
+  .kp-layer-row.gap .l-dot { background:transparent; border:1.5px dashed #9CA3AF; }
+  .kp-layer-row .l-name { font-size:11.5px; font-weight:600; color:var(--ink); flex-shrink:0; }
+  .kp-layer-row .l-track { flex:1; height:6px; border-radius:3px; background:#EFF2F7; overflow:hidden; }
+  .kp-layer-row .l-track i { display:block; height:100%; border-radius:3px; background:linear-gradient(90deg,#3B82F6,#6366F1); }
+  .kp-layer-row.warm .l-track i { background:linear-gradient(90deg,#FBBF24,#F59E0B); }
+  .kp-layer-row.gap .l-track i { background:repeating-linear-gradient(90deg,#C4CBD8 0 4px,transparent 4px 8px); }
+  .kp-layer-row .l-st { font-size:9px; color:var(--ink-faint); flex-shrink:0; }
+
+  /* 建设路线 */
+  .kp-road { position:relative; padding-left:24px; }
+  .kp-road::before { content:""; position:absolute; left:10px; top:12px; bottom:12px; width:2px;
+    background:linear-gradient(180deg,#2563EB,#7C3AED,#10B981); opacity:.3; }
+  .kp-road-step { position:relative; background:#fff; border:1px solid var(--line); border-radius:16px;
+    padding:12px 13px; margin-bottom:10px; box-shadow:var(--shadow); animation:kp-rise .45s ease both; }
+  .kp-road-step::before { content:""; position:absolute; left:-24px; top:14px; width:13px; height:13px; border-radius:50%;
+    background:linear-gradient(135deg,#60A5FA,#8B5CF6); box-shadow:0 0 0 3px #fff, 0 0 12px rgba(99,102,241,.7); }
+  .kp-road-step h4 { font-size:13px; font-weight:800; display:flex; align-items:center; gap:7px; }
+  .kp-road-step h4 .st-badge { margin-left:auto; font-size:8.5px; font-weight:700; color:#5275B5; background:#E9F0FF; border-radius:999px; padding:2.5px 7px; }
+  .kp-road-step p { font-size:10.5px; color:var(--ink-soft); line-height:1.55; margin-top:5px; }
 </style>
 </head>
 <body class="mobile-app">
@@ -1043,9 +1113,9 @@
   <div class="tabbar-wrap">
     <div class="tabbar" id="live-tabbar">
       <div class="t on" data-tab="today"><span class="ic">⌂</span>今日</div>
-      <div class="t" data-tab="topic"><span class="ic">▤</span>地图</div>
       <div class="t" data-tab="fav"><span class="ic">☆</span>架构</div>
       <div class="t" data-tab="me"><span class="ic">◉</span>建设</div>
+      <div class="t" data-tab="topic"><span class="ic">▤</span>地图</div>
     </div>
   </div>
   <div id="live-body" class="app-body"></div>
@@ -1349,51 +1419,95 @@ function renderDesktopToday() {
 }
 
 function renderTopic() {
+  var layers = OBSIDIAN_DATA.architectureLayers || [];
+  var groups = [
+    {key:'up', name:'上游 · 供给', icon:'⚡', color:'linear-gradient(135deg,#0EA5E9,#0369A1)', topic:'infrastructure', pick:['能源与算力','模型与推理','数据与知识资产']},
+    {key:'mid', name:'中游 · 工程', icon:'🤖', color:'linear-gradient(135deg,#2563EB,#1E40AF)', topic:'agent', pick:['Agent Runtime','工具与协议','记忆与上下文','安全、权限与治理','评测与可观测性']},
+    {key:'down', name:'下游 · 落地', icon:'🏢', color:'linear-gradient(135deg,#7C3AED,#5B21B6)', topic:'enterprise', pick:['业务交付与 FDE','商业化与组织能力']}
+  ];
+  function topicOf(key){ return (OBSIDIAN_DATA.topics||[]).find(function(x){ return x.key === key; }) || {name:'专题', count:0}; }
+  function statusOf(name){ var l = layers.find(function(x){ return x.name === name; }); return l ? l.status : '待补齐'; }
+  function layerRow(name){
+    var st = statusOf(name);
+    var cls = st === '已形成' ? 'done' : (st === '正在形成' ? 'warm' : 'gap');
+    var stTxt = st === '已形成' ? '已形成' : (st === '正在形成' ? '形成中' : '待补齐');
+    var pct = st === '已形成' ? 100 : (st === '正在形成' ? 45 : 0);
+    return '<div class="kp-layer '+cls+'"><span class="l-dot"></span><span class="l-name">'+name+'</span><span class="l-track"><i style="width:'+pct+'%"></i></span><span class="l-st">'+stTxt+'</span></div>';
+  }
   var h = '<div class="page">';
-  h += '<div class="head-row"><div class="title"><span class="back" onclick="returnToWorkspace()">‹</span>专题与文档<span class="sub-line">Obsidian 四专题 · 数据驱动</span></div><div class="avatar" style="background:linear-gradient(135deg,#7C3AED,#2563EB);">图</div></div>';
+  h += '<div class="head-row"><div class="title"><span class="back" onclick="returnToWorkspace()">‹</span>知识地图<span class="sub-line">上下游全景 · 一层一层看体系长到哪</span></div><div class="avatar" style="background:linear-gradient(135deg,#0EA5E9,#7C3AED);">图</div></div>';
   h += '<div class="searchbar"><span class="s-ic">⌕</span><input id="knowledge-query" placeholder="搜索文档、术语、案例…" onkeydown="handleKnowledgeSearch(event)"></div>';
-  var questions = OBSIDIAN_DATA.questionTopics || [];
-  if (questions.length) h += '<div class="topic-card" onclick="showQuestionHub()"><div class="t-ic enterprise">？</div><div class="t-body"><h3>徐总的问题专题库</h3><div class="t-meta">'+questions.length+' 个问题专题 · 用提问串联知识</div><div class="t-arrow">›</div></div>';
-  (OBSIDIAN_DATA.topics || []).forEach(function(t){
-    var nodes = OBSIDIAN_GRAPH.nodes.filter(function(n){ return n.topic === t.key; }).sort(function(a,b){ return (b.updated||'').localeCompare(a.updated||''); });
-    var latest = nodes[0] ? nodes[0].updated : '';
-    h += '<div class="topic-card" onclick="openTopicByKey(\''+t.key+'\')"><div class="t-ic '+(t.color||'agent')+'">'+(t.icon||'📚')+'</div><div class="t-body"><h3>'+t.name+'</h3><div class="t-meta">'+t.count+' 篇 · 最近更新 '+(latest||'—')+'</div></div><div class="t-arrow">›</div></div>';
+  h += '<div class="kp-map-note">这不是文档列表，是知识结构：上游供给 → 中游工程 → 下游落地，每一层都标了当前形成状态，缺口一眼可见。</div>';
+  h += '<div class="kp-flow">';
+  groups.forEach(function(g, gi){
+    h += '<div class="kp-flow-node" style="background:'+g.color+';animation-delay:'+(gi*0.07)+'s">';
+    h += '<div class="fn-head"><span class="fi">'+g.icon+'</span><b>'+g.name+'</b><span>'+topicOf(g.topic).count+' 篇</span></div>';
+    g.pick.forEach(function(name){ h += layerRow(name); });
+    h += '<div class="fn-go" onclick="openTopicByKey(\''+g.topic+'\')">进入「'+topicOf(g.topic).name+'」专题 →</div>';
+    h += '</div>';
   });
-  h += '<div class="sec-title" style="margin-top:18px;">最近更新</div>';
-  var recent = OBSIDIAN_GRAPH.nodes.slice().sort(function(a,b){ return (b.updated||'').localeCompare(a.updated||''); }).slice(0,8);
-  recent.forEach(function(n){ var gi=OBSIDIAN_GRAPH.nodes.indexOf(n); h += '<div class="doc-item" onclick="openGraphNodeByIndex('+gi+')"><div class="d-ic '+(n.topic||'agent')+'">📄</div><div class="d-body"><h4>'+n.title+'</h4><div class="d-meta">'+n.updated+' · '+(n.path||'').split('/')[0]+'</div></div><div class="d-check done">↗</div></div>'; });
+  h += '</div>';
+  var pipe = topicOf('pipeline');
+  h += '<div class="kp-base" onclick="openTopicByKey(\'pipeline\')"><div class="fn-head"><span class="fi">📚</span><b>知识流水线 · 底座</b><span>'+pipe.count+' 篇</span></div><div class="fn-go">每日整理 · 周复盘 · 问题专题（'+(OBSIDIAN_DATA.questionTopics||[]).length+' 个）→</div></div>';
+  var questions = OBSIDIAN_DATA.questionTopics || [];
+  if (questions.length) h += '<div class="kp-review" style="margin-top:10px" onclick="showQuestionHub()"><span class="reyebrow">问题专题库</span><h4>用真实提问串联知识 · '+questions.length+' 个专题</h4><span class="rarrow">›</span></div>';
   h += '</div>';
   return h;
 }
 
 function renderFav() {
-  var h = '<div class="page">';
-  h += '<div class="head-row"><div class="title"><span class="back" onclick="returnToWorkspace()">‹</span>架构复盘<span class="sub-line">不是复习文章，而是检查 AI 知识体系缺什么</span></div></div>';
-  h += '<div class="review-box"><h4>本周复盘的核心问题</h4><p>当前知识库已经形成了哪些层？哪些层只是零散提及？下一阶段应该补哪一块，才能让 AI Agent 从“能用”走向“可托付”？</p></div>';
   var layers = OBSIDIAN_DATA.architectureLayers || [];
-  h += '<div class="sec-title">当前 AI 知识架构</div>';
-  layers.forEach(function(l){ var cls = l.status==='已形成'?'done':(l.status==='正在形成'?'warm':''); h += '<div class="state-card" style="margin:8px 0"><div class="state-head"><b>'+l.name+'</b><span class="state-badge '+cls+'">'+l.status+'</span></div><p>当前索引命中 '+l.matched+' 个相关节点 · '+(l.status==='待补齐'?'需要进入后续知识建设':'已有内容，但还需要继续补链和归纳')+'</p></div>'; });
+  var ok = layers.filter(function(l){ return l.status === '已形成'; }).length;
+  var warm = layers.filter(function(l){ return l.status === '正在形成'; }).length;
+  var gap = layers.filter(function(l){ return l.status === '待补齐'; }).length;
+  var maxMatched = 1;
+  layers.forEach(function(l){ maxMatched = Math.max(maxMatched, l.matched || 0); });
+  var h = '<div class="page">';
+  h += '<div class="head-row"><div class="title"><span class="back" onclick="returnToWorkspace()">‹</span>架构复盘<span class="sub-line">不是复习文章，是检查知识体系缺什么</span></div><div class="avatar">架</div></div>';
+  h += '<div class="kp-health">';
+  h += '<div class="hx ok" style="animation-delay:.05s"><div class="v">'+ok+'</div><div class="l">已形成</div></div>';
+  h += '<div class="hx warm" style="animation-delay:.12s"><div class="v">'+warm+'</div><div class="l">正在形成</div></div>';
+  h += '<div class="hx gap" style="animation-delay:.19s"><div class="v">'+gap+'</div><div class="l">待补齐</div></div>';
+  h += '</div>';
+  h += '<div class="kp-zone-title"><span class="dot"></span><b>架构健康度</b><span>'+layers.length+' 个层级 · 逐层体检</span></div>';
+  h += '<div class="kp-layers">';
+  layers.forEach(function(l){
+    var cls = l.status === '已形成' ? 'done' : (l.status === '正在形成' ? 'warm' : 'gap');
+    var stTxt = l.status === '已形成' ? '已形成' : (l.status === '正在形成' ? '形成中' : '待补齐');
+    var pct = l.status === '已形成' ? Math.max(35, Math.round((l.matched||0)/maxMatched*100)) : (l.status === '正在形成' ? 45 : 8);
+    h += '<div class="kp-layer-row '+cls+'"><span class="l-dot"></span><span class="l-name">'+l.name+'</span><span class="l-track"><i style="width:'+Math.min(pct,100)+'%"></i></span><span class="l-st">'+stTxt+'</span></div>';
+  });
+  h += '</div>';
   var w = OBSIDIAN_DATA.weeklyReview;
-  if (w) h += '<div class="sec-title">本周架构变化</div><div class="review-box" style="cursor:pointer" onclick="showWeeklyReview()"><h4>'+w.title+'</h4><p>'+w.change+'</p><span class="brief-chip">查看完整架构复盘 ›</span></div>';
-  h += '<div class="sec-title">下一阶段建设重点</div><div class="path-note"><strong>先补结构，再补内容</strong><span>评测与可观测性 · 安全权限与责任链 · 多 Agent 协作 · 业务结果评价 · 政务 Agent 真实案例</span></div>';
-  h += '<div class="fav-note">日常抖音、分享链接和原始资料先进入输入层，标注主题、来源和待验证状态；不要求立即读完，但必须先放进正确的知识框架。</div>';
+  if (w) h += '<div class="kp-review" style="margin-top:12px" onclick="showWeeklyReview()"><span class="reyebrow">本周架构变化 · '+escapeHtml(w.date)+'</span><h4>'+escapeHtml(w.title)+'</h4><span class="rarrow">›</span></div>';
   h += '</div>';
   return h;
 }
 
 function renderMe() {
+  var steps = [
+    ['评测与可观测性','让 Agent 的质量、成本、延迟和失败原因可验证。'],
+    ['安全、权限与责任链','把身份、工具边界、高风险动作、人审和审计连起来。'],
+    ['多 Agent 协作','理解 Agent Team、任务分派、组织记忆和上下级调度。'],
+    ['企业结果评价','把 Agent 能力连接到流程替代率、ROI、SLA 和客户验收。'],
+    ['政务 Agent 案例','补充公共数据、私有化、跨部门权限与责任留痕的真实案例。']
+  ];
   var h = '<div class="page">';
-  h += '<div class="head-row"><div class="title"><span class="back" onclick="returnToWorkspace()">‹</span>未来建设<span class="sub-line">让个人 AI 知识体系继续长出来</span></div><div class="avatar">徐</div></div>';
-  h += '<div class="state-card"><div class="state-head"><b>建设原则：先补结构，再补内容</b><span class="state-badge">持续演化</span></div><p>日常分享先归类，周复盘找缺口，工作台把“还应该学习什么”变成下一阶段的建设路线。</p></div>';
-  h += '<div class="sec-title">下一阶段学习建设路线</div>';
-  [['评测与可观测性','让 Agent 的质量、成本、延迟和失败原因可验证。'],['安全、权限与责任链','把身份、工具边界、高风险动作、人审和审计连起来。'],['多 Agent 协作','理解 Agent Team、任务分派、组织记忆和上下级调度。'],['企业结果评价','把 Agent 能力连接到流程替代率、ROI、SLA 和客户验收。'],['政务 Agent 案例','补充公共数据、私有化、跨部门权限与责任留痕的真实案例。']].forEach(function(x,i){ h += '<div class="state-card" style="margin:8px 0"><div class="state-head"><b>'+(i+1)+' · '+x[0]+'</b><span class="state-badge">待建设</span></div><p>'+x[1]+'</p></div>'; });
-  h += '<div class="sec-title">三大主线的长期方向</div><div class="path-note"><strong>基础设施 → 工程系统 → 客户落地</strong><span>每一条日常分享都先放入这条上下游主线，再判断它是补概念、补工程、补案例还是补商业化。</span></div>';
-  h += '<div class="review-box"><h4>输入层怎么处理</h4><p>抖音、分享链接和原始资料不要求马上读完。先标注主题、来源、可信度和待验证状态；等架构复盘判断它确实补上了知识缺口，再沉淀为正式专题。</p></div>';
-  h += '<div class="set-list">';
+  h += '<div class="head-row"><div class="title"><span class="back" onclick="returnToWorkspace()">‹</span>未来建设<span class="sub-line">让个人 AI 知识体系继续长出来</span></div><div class="avatar">建</div></div>';
+  h += '<div class="kp-review" style="margin-top:2px"><span class="reyebrow">建设原则 · 先补结构 再补内容</span><h4>日常分享先归类，周复盘找缺口，路线图决定下一阶段补哪一块。</h4></div>';
+  h += '<div class="kp-zone-title"><span class="dot"></span><b>建设路线</b><span>5 步 · 按序推进</span></div>';
+  h += '<div class="kp-road">';
+  steps.forEach(function(s, i){
+    h += '<div class="kp-road-step" style="animation-delay:'+(i*0.06)+'s"><h4>'+(i+1)+' · '+s[0]+'<span class="st-badge">待建设</span></h4><p>'+s[1]+'</p></div>';
+  });
+  h += '</div>';
+  h += '<div class="kp-zone-title"><span class="dot"></span><b>主线方向</b></div>';
+  h += '<div class="kp-base" style="margin-top:0" onclick="switchTab(\'topic\')"><div class="fn-head"><span class="fi">🧭</span><b>基础设施 → 工程系统 → 客户落地</b></div><div class="fn-go">每一条新知识先放入这条上下游主线 → 打开知识地图 ›</div></div>';
+  h += '<div class="set-list" style="margin-top:14px">';
   h += '<div class="set-item"><span class="s-ic">🔔</span>每日学习提醒<span class="s-val">08:30</span><span class="s-arrow">›</span></div>';
   h += '<div class="set-item"><span class="s-ic">📤</span>数据同步来源<span class="s-val">Obsidian 主库</span><span class="s-arrow">›</span></div>';
   h += '<div class="set-item"><span class="s-ic">🎨</span>阅读模式<span class="s-val">浅色</span><span class="s-arrow">›</span></div>';
-  h += '<div class="set-item"><span class="s-ic">❓</span>关于工作台<span class="s-val">v1.0</span><span class="s-arrow">›</span></div>';
+  h += '<div class="set-item"><span class="s-ic">❓</span>关于工作台<span class="s-val">v1.2</span><span class="s-arrow">›</span></div>';
   h += '</div></div>';
   return h;
 }
