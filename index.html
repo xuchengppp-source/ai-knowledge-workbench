@@ -1383,41 +1383,11 @@ function renderToday() {
     h += '<div class="kp-judge" onclick="showDailyDetail()"><div class="ji">⚡</div><div><b>今日判断</b><p>'+escapeHtml(d.judgments[0])+'</p></div></div>';
   }
 
-  /* —— 今日脉冲：时间轴要点（区分知识增长 / 任务进展） —— */
-  h += '<div class="kp-zone-title"><span class="dot"></span><b>今日脉冲</b><span>'+(todayCount ? todayCount+' 条增量 · '+gtFull : '今日待更新')+'</span></div>';
-  if (items.length) {
-    h += '<div class="kp-tl">';
-    items.forEach(function(it, i){
-      var st = it.taskId ? taskStatusOf(it.taskId) : '';
-      var stName = st === 'in_progress' ? '进行中' : (st === 'todo' ? '待办' : (st === 'in_review' ? '审核中' : (st === 'blocked' ? '阻塞' : '')));
-      var stCls = st === 'in_progress' ? 'blue' : (st === 'todo' ? 'violet' : (st === 'in_review' ? 'amber' : (st === 'blocked' ? 'red' : '')));
-      h += '<div class="kp-item" style="animation-delay:'+(i*0.06)+'s" onclick="openDailyItem('+i+')">';
-      h += '<div class="kp-meta" style="margin-bottom:6px;margin-top:0"><span class="kind-tag '+(it.task?'task':'know')+'">'+(it.task?'任务进展':'知识增长')+'</span>';
-      if (it.taskId && st) h += '<span class="kp-chip '+stCls+'">'+it.taskId+' · '+stName+'</span>';
-      else if (it.taskId) h += '<span class="kp-chip new">'+it.taskId+'</span>';
-      h += '</div>';
-      h += '<h4>'+escapeHtml(it.title)+'</h4>';
-      if (it.desc) h += '<p>'+escapeHtml(it.desc)+'</p>';
-      h += '<div class="kp-meta">';
-      if (it.rel.length) h += '<span class="kp-rel" onclick="event.stopPropagation();openGraphNodeByPath(\''+it.rel[0].path.replace(/'/g,"\\'")+'\')">🔗 <span class="rp">'+escapeHtml(it.rel[0].title)+'</span></span>';
-      h += '<span class="kp-chip grn">'+(d.date||'')+'</span><span class="kp-go">›</span></div></div>';
-    });
-    h += '</div>';
-  } else {
-    h += '<div class="fav-note">今日暂无新增整理，可前往专题浏览。</div>';
-  }
-
-  /* —— 知识进化：柱状图 + 统计 —— */
-  h += '<div class="kp-zone-title"><span class="dot"></span><b>知识进化</b><span>近 7 天 · 每天都在长</span></div>';
-  h += '<div class="kp-evo"><div class="kp-evo-head"><div class="ei">📈</div><b>每日知识增量</b><span>'+weekPages+' 页更新</span></div><div class="kp-bars">'+bars+'</div><div class="kp-evo-foot"><div class="kp-mini"><div class="v">'+weekPages+'</div><div class="l">本周更新页</div></div><div class="kp-mini"><div class="v">'+weekLink+'</div><div class="l">本周新链接</div></div><div class="kp-mini"><div class="v">'+totalNodes+'</div><div class="l">四专题节点</div></div></div></div>';
-  var wr = OBSIDIAN_DATA.weeklyReview;
-  if (wr) h += '<div class="kp-review" onclick="showWeeklyReview()"><span class="reyebrow">本周复盘 · '+escapeHtml(wr.date)+'</span><h4>'+escapeHtml(wr.title)+'</h4><span class="rarrow">›</span></div>';
-
   /* —— 任务面板：智能体协作进展（编译时快照，与知识流并行） —— */
   if (ts) {
-    h += '<div class="kp-zone-title"><span class="dot"></span><b>任务面板</b><span>进行中 '+ts.summary.in_progress+' · 快照 '+escapeHtml(ts.fetchedAt)+'</span></div>';
+    h += '<div class="kp-zone-title"><span class="dot"></span><b>徐总的智能体任务面板</b><span>进行中 '+ts.summary.in_progress+' · 快照 '+escapeHtml(ts.fetchedAt)+'</span></div>';
     h += '<div class="kp-taskbar">';
-    h += '<div class="kt-head"><div class="ei">📋</div><b>智能体协作面板</b><span>'+ts.total+' 张卡</span></div>';
+    h += '<div class="kt-head"><div class="ei">📋</div><b>徐总的智能体任务面板</b><span>'+ts.total+' 张卡</span></div>';
     var segs = [
       ['in_progress', ts.summary.in_progress || 0],
       ['todo', ts.summary.todo || 0],
@@ -1447,6 +1417,37 @@ function renderToday() {
     }
     h += '</div>';
   }
+
+
+  /* —— 今日脉冲：时间轴要点（区分知识增长 / 任务进展） —— */
+  h += '<div class="kp-zone-title"><span class="dot"></span><b>今日脉冲</b><span>'+(todayCount ? todayCount+' 条增量 · '+gtFull : '今日待更新')+'</span></div>';
+  if (items.length) {
+    h += '<div class="kp-tl">';
+    items.forEach(function(it, i){
+      var st = it.taskId ? taskStatusOf(it.taskId) : '';
+      var stName = st === 'in_progress' ? '进行中' : (st === 'todo' ? '待办' : (st === 'in_review' ? '审核中' : (st === 'blocked' ? '阻塞' : '')));
+      var stCls = st === 'in_progress' ? 'blue' : (st === 'todo' ? 'violet' : (st === 'in_review' ? 'amber' : (st === 'blocked' ? 'red' : '')));
+      h += '<div class="kp-item" style="animation-delay:'+(i*0.06)+'s" onclick="openDailyItem('+i+')">';
+      h += '<div class="kp-meta" style="margin-bottom:6px;margin-top:0"><span class="kind-tag '+(it.task?'task':'know')+'">'+(it.task?'任务进展':'知识增长')+'</span>';
+      if (it.taskId && st) h += '<span class="kp-chip '+stCls+'">'+it.taskId+' · '+stName+'</span>';
+      else if (it.taskId) h += '<span class="kp-chip new">'+it.taskId+'</span>';
+      h += '</div>';
+      h += '<h4>'+escapeHtml(it.title)+'</h4>';
+      if (it.desc) h += '<p>'+escapeHtml(it.desc)+'</p>';
+      h += '<div class="kp-meta">';
+      if (it.rel.length) h += '<span class="kp-rel" onclick="event.stopPropagation();openGraphNodeByPath(\''+it.rel[0].path.replace(/'/g,"\\'")+'\')">🔗 <span class="rp">'+escapeHtml(it.rel[0].title)+'</span></span>';
+      h += '<span class="kp-chip grn">'+(d.date||'')+'</span><span class="kp-go">›</span></div></div>';
+    });
+    h += '</div>';
+  } else {
+    h += '<div class="fav-note">今日暂无新增整理，可前往专题浏览。</div>';
+  }
+
+  /* —— 知识进化：柱状图 + 统计 —— */
+  h += '<div class="kp-zone-title"><span class="dot"></span><b>知识进化</b><span>近 7 天 · 每天都在长</span></div>';
+  h += '<div class="kp-evo"><div class="kp-evo-head"><div class="ei">📈</div><b>每日知识增长</b><span>'+weekPages+' 页更新</span></div><div class="kp-bars">'+bars+'</div><div class="kp-evo-foot"><div class="kp-mini"><div class="v">'+weekPages+'</div><div class="l">本周更新页</div></div><div class="kp-mini"><div class="v">'+weekLink+'</div><div class="l">本周新链接</div></div><div class="kp-mini"><div class="v">'+totalNodes+'</div><div class="l">四专题节点</div></div></div></div>';
+  var wr = OBSIDIAN_DATA.weeklyReview;
+  if (wr) h += '<div class="kp-review" onclick="showWeeklyReview()"><span class="reyebrow">本周复盘 · '+escapeHtml(wr.date)+'</span><h4>'+escapeHtml(wr.title)+'</h4><span class="rarrow">›</span></div>';
 
   /* —— 专题星系：渐变宫格 —— */
   h += '<div class="kp-zone-title" style="cursor:pointer" onclick="switchTab(\'topic\')"><span class="dot"></span><b>专题星系</b><span>查看全部 ›</span></div>';
