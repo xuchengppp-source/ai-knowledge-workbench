@@ -352,6 +352,7 @@
   }
   .doc-item .d-ic.agent { background: var(--blue-soft); }
   .doc-item .d-ic.enterprise { background: var(--violet-soft); }
+  .doc-item .d-ic.pipeline { background: var(--green-soft); }
   .doc-item .d-body { flex: 1; min-width: 0; }
   .doc-item .d-body h4 { font-size: 13.5px; font-weight: 600; line-height: 1.4; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
   .doc-item .d-body .d-meta { font-size: 11px; color: var(--ink-faint); margin-top: 3px; }
@@ -895,8 +896,8 @@
   <div id="live-body" class="app-body"></div>
 </div>
 
-<script src="data.js?v=202608101223"></script>
-<script src="docs.js?v=202608101223" defer></script>
+<script src="data.js?v=202608101237"></script>
+<script src="docs.js?v=202608101237" defer></script>
 <script>
 /* 悬浮式底部控制条浏览器（华为/UC/夸克/小米/百度等）会覆盖页面底部，给 html 打标记以便上抬底部栏 */
 (function () {
@@ -1038,17 +1039,13 @@ function graphNodes(prefix){
 function renderToday() {
   var d = OBSIDIAN_DATA.today || {date:"", items:[], judgments:[]};
   var h = '<div class="page">';
-  h += '<div class="head-row"><div class="title">'+(OBSIDIAN_GRAPH.rootTitle || '徐总的知识库')+'<span class="sub-line">AI 知识成长视图 · 每日整理</span></div><div class="avatar">徐</div></div>';
-  h += '<div class="learning-brief" style="cursor:pointer" onclick="showDailyDetail()"><div class="eyebrow">今日 AI 知识增量 · 来自 Obsidian 知识流水线</div><h3>今天先搞懂：'+(d.items[0] ? d.items[0].title : 'AI 知识体系今天发生了什么？')+'</h3><p>'+(d.items[0] ? d.items[0].summary : '查看今日整理，了解知识库最近的新增和变化。')+'</p><div class="brief-foot"><span class="brief-chip" onclick="event.stopPropagation();switchTab(\'topic\')">关联知识网络 ›</span><span class="brief-chip" onclick="event.stopPropagation();showDailyDetail()">来自每日整理 ›</span></div></div>';
-  h += '<div class="progress-card"><div class="pc-top"><div class="pc-date">📚 本周知识库状态</div><div class="pc-streak">AI 知识体系正在成形</div></div><div class="pc-main"><div class="pc-num">'+(OBSIDIAN_GRAPH.weeklyChanges||0)+'</div><div class="pc-unit">条链接</div></div><div class="pc-sub">本周更新 '+(OBSIDIAN_GRAPH.weeklyPages||0)+' 个页面</div><div class="pc-bar"><i style="width:58%;"></i></div></div>';
-  var wr = OBSIDIAN_DATA.weeklyReview;
-  if (wr) h += '<div class="review-box" style="cursor:pointer" onclick="showWeeklyReview()"><div class="eyebrow">本周 AI 知识架构复盘 · '+wr.date+'</div><h3>'+wr.title+'</h3><p>'+wr.overview+'</p><div class="brief-foot"><span class="brief-chip">查看本周主线变化 ›</span><span class="brief-chip">回流建议 ›</span></div></div>';
+  h += '<div class="head-row"><div class="title">'+(OBSIDIAN_GRAPH.rootTitle || '徐总的知识库')+'<span class="sub-line">今天 · 知识库每天在长什么</span></div><div class="avatar">徐</div></div>';
+  h += '<div class="learning-brief" style="cursor:pointer" onclick="showDailyDetail()"><div class="eyebrow">今日 AI 知识增量 · '+ (d.date || '') +' · 每日整理持续运行</div><h3>今天先搞懂：'+(d.items[0] ? d.items[0].title : 'AI 知识体系今天发生了什么？')+'</h3><p>'+(d.items[0] ? d.items[0].summary : '查看今日整理，了解知识库最近的新增和变化。')+'</p><div class="brief-foot"><span class="brief-chip" onclick="event.stopPropagation();showDailyDetail()">查看完整整理 ›</span></div></div>';
   var gt = OBSIDIAN_GRAPH.generatedTime || '';
   var gtFull = gt;
   var gm = gt.match(/^(\d{4})-(\d{2})-(\d{2}) (\d{2}:\d{2})/);
   if (gm) gtFull = gm[1] + '年' + parseInt(gm[2],10) + '月' + parseInt(gm[3],10) + '日 ' + gm[4];
-  h += '<div class="sec-title">今日要点 <span class="more" style="cursor:pointer;" onclick="showDailyDetail()">'+d.items.length+' 条 · 完整整理 ›</span></div>';
-  h += '<div class="source-line">来源：'+OBSIDIAN_GRAPH.digest+' · 编译于 '+gtFull+'</div>';
+  h += '<div class="sec-title">今日要点 <span class="more">'+d.items.length+' 条 · 编译于 '+gtFull+'</span></div>';
   if (d.judgments && d.judgments.length) {
     h += '<div class="review-box"><div class="eyebrow">今日重要判断</div>';
     d.judgments.forEach(function(j){ h += '<p style="margin:5px 0 0;">· '+j+'</p>'; });
@@ -1059,20 +1056,29 @@ function renderToday() {
       h += '<div class="k-card" onclick="openDailyItem('+idx+')"><div class="k-top"><span class="tag amber">今日</span><span class="k-time">'+it.date+'</span><span class="k-dot'+(idx<2?'':' read')+'"></span></div><h3>'+it.title+'</h3><div class="k-desc">'+it.summary+'</div><div class="k-foot"><span>📖 点击阅读完整要点</span><span class="len">›</span></div></div>';
     });
   } else {
-    h += '<div class="fav-note">今日暂无新增整理，可前往学习地图浏览专题。</div>';
+    h += '<div class="fav-note">今日暂无新增整理，可前往专题浏览。</div>';
   }
-  var agentTopic = graphTopic('AI Agent工程知识'), enterpriseTopic = graphTopic('企业AI与智能体商业化');
-  h += '<div class="sec-title" style="cursor:pointer;" onclick="switchTab(\'topic\')">知识地图 <span class="more">查看专题 ›</span></div>';
-  h += '<div class="state-card" style="cursor:pointer;padding:10px 14px;" onclick="switchTab(\'topic\')"><div class="state-head"><b>AI Agent 工程</b><span class="state-badge">'+agentTopic.count+' 篇</span></div><p>Ontology · RAG · Runtime · FDE 主线</p></div>';
-  h += '<div class="state-card" style="cursor:pointer;padding:10px 14px;" onclick="switchTab(\'topic\')"><div class="state-head"><b>企业 AI 与商业化</b><span class="state-badge">'+enterpriseTopic.count+' 篇</span></div><p>企业落地 · FDE · 知识资产 · 项目案例</p></div>';
-  h += '<div class="sec-title">相关知识入口</div>';
-  TODAY.forEach(function(it){
-    var doc = DOCS[it.k];
-    if (!doc) return;
-    h += '<div class="k-card" onclick="openDoc(\''+it.k+'\')"><div class="k-top"><span class="tag '+it.tag+'">'+it.tagName+'</span><span class="k-time">'+it.time+'</span><span class="k-dot'+(it.unread?'':' read')+'"></span></div><h3>'+doc.title+'</h3><div class="k-desc">'+doc.body.replace(/<[^>]+>/g,"").slice(0,70)+'…</div><div class="k-foot"><span>📖 '+it.sub+'</span><span class="len">'+it.len+'</span></div></div>';
+  h += '<div class="sec-title">知识库进化 <span class="more">本周 · 每天都在长</span></div>';
+  h += '<div class="progress-card"><div class="pc-top"><div class="pc-date">📚 本周知识库</div><div class="pc-streak">更新 '+(OBSIDIAN_GRAPH.weeklyPages||0)+' 页</div></div><div class="pc-main"><div class="pc-num">'+(OBSIDIAN_GRAPH.weeklyChanges||0)+'</div><div class="pc-unit">条新链接</div></div><div class="pc-sub">四专题共 '+OBSIDIAN_GRAPH.nodes.length+' 篇文档持续沉淀</div><div class="pc-bar"><i style="width:58%;"></i></div></div>';
+  var wr = OBSIDIAN_DATA.weeklyReview;
+  if (wr) h += '<div class="review-box" style="cursor:pointer" onclick="showWeeklyReview()"><div class="eyebrow">本周 AI 知识架构复盘 · '+wr.date+'</div><h3>'+wr.title+'</h3><p>'+wr.overview+'</p><div class="brief-foot"><span class="brief-chip">查看本周主线变化 ›</span><span class="brief-chip">回流建议 ›</span></div></div>';
+  h += '<div class="sec-title" style="cursor:pointer;" onclick="switchTab(\'topic\')">专题与文档 <span class="more">查看全部 ›</span></div>';
+  (OBSIDIAN_DATA.topics || []).forEach(function(t){
+    var nodes = OBSIDIAN_GRAPH.nodes.filter(function(n){ return n.topic === t.key; }).sort(function(a,b){ return (b.updated||'').localeCompare(a.updated||''); });
+    var latest = nodes[0] ? nodes[0].updated : '';
+    h += '<div class="topic-card" onclick="openTopicByKey(\''+t.key+'\')"><div class="t-ic '+(t.color||'agent')+'">'+(t.icon||'📚')+'</div><div class="t-body"><h3>'+t.name+'</h3><div class="t-meta">'+t.count+' 篇 · 最近更新 '+(latest||'—')+'</div></div><div class="t-arrow">›</div></div>';
   });
+  h += '<div class="sec-title">常用入口</div>';
+  h += '<div class="k-card" onclick="openGraphNodeByPath(\'企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md\')"><div class="k-top"><span class="tag enterprise">己未</span><span class="k-time">沟通作战卡</span></div><h3>己未文化 AI 落地 · 首次接触沟通作战卡</h3><div class="k-desc">三段式开框架 · 四问清单 · 零一万物权威背书</div><div class="k-foot"><span>📖 当面沟通前必读</span><span class="len">›</span></div></div>';
+  h += '<div class="k-card" onclick="openGraphNodeByPath(\'企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md\')"><div class="k-top"><span class="tag enterprise">背书</span><span class="k-time">李开复</span></div><h3>李开复企业 AI 认知</h3><div class="k-desc">转型背景 · 效率陷阱公式 · 一号位工程</div><div class="k-foot"><span>📖 开框架权威素材</span><span class="len">›</span></div></div>';
   h += '</div>';
   return h;
+}
+
+function openTopicByKey(key){
+  var topics = OBSIDIAN_DATA.topics || [];
+  for (var i = 0; i < topics.length; i++) { if (topics[i].key === key) { openTopic(i); return; } }
+  openTopic(0);
 }
 
 function renderDesktopToday() {
@@ -1110,29 +1116,19 @@ function renderDesktopToday() {
 }
 
 function renderTopic() {
-  var agentTopic = graphTopic('AI Agent工程知识'), enterpriseTopic = graphTopic('企业AI与智能体商业化'), infraTopic = graphTopic('AI产业链与数字基础设施'), pipelineTopic = graphTopic('知识流水线');
   var h = '<div class="page">';
-  h += '<div class="head-row"><div class="title"><span class="back" onclick="returnToWorkspace()">‹</span>学习地图<span class="sub-line">Obsidian 专题与链接关系</span></div><div class="avatar" style="background:linear-gradient(135deg,#7C3AED,#2563EB);">图</div></div>';
-  h += '<div class="searchbar"><span class="s-ic">⌕</span><input id="knowledge-query" placeholder="搜索能力、术语、案例…" onkeydown="handleKnowledgeSearch(event)"></div>';
-  h += '<div class="path-note"><strong>当前学习主线：生产级 AI Agent</strong><span>从业务对象 → 流程状态 → 数据知识 → 工具执行 → 人审评测，逐步形成可交付能力。</span></div>';
+  h += '<div class="head-row"><div class="title"><span class="back" onclick="returnToWorkspace()">‹</span>专题与文档<span class="sub-line">Obsidian 四专题 · 数据驱动</span></div><div class="avatar" style="background:linear-gradient(135deg,#7C3AED,#2563EB);">图</div></div>';
+  h += '<div class="searchbar"><span class="s-ic">⌕</span><input id="knowledge-query" placeholder="搜索文档、术语、案例…" onkeydown="handleKnowledgeSearch(event)"></div>';
   var questions = OBSIDIAN_DATA.questionTopics || [];
-  h += '<div class="topic-card" onclick="showQuestionHub()"><div class="t-ic enterprise">？</div><div class="t-body"><h3>徐总的问题专题库</h3><div class="t-meta">'+questions.length+' 个问题专题 · 用提问串联 Obsidian 知识</div><div class="t-bar"><i class="b2"></i></div></div><div class="t-arrow">›</div></div>';
-  h += '<div class="topic-card" onclick="openTopic(0)"><div class="t-ic agent">🤖</div><div class="t-body"><h3>AI Agent 工程知识</h3><div class="t-meta">'+agentTopic.count+' 篇 · '+graphNodes('AI Agent工程知识').length+' 个核心节点 · 更新 '+graphNodes('AI Agent工程知识').map(function(n){return n.updated;}).sort().slice(-1)[0]+'</div><div class="t-bar"><i class="b1"></i></div></div><div class="t-arrow">›</div></div>';
-  h += '<div class="topic-card" onclick="openTopic(1)"><div class="t-ic enterprise">🏢</div><div class="t-body"><h3>企业 AI 与智能体商业化</h3><div class="t-meta">'+enterpriseTopic.count+' 篇 · '+graphNodes('企业AI与智能体商业化').length+' 个核心节点 · 更新 '+graphNodes('企业AI与智能体商业化').map(function(n){return n.updated;}).sort().slice(-1)[0]+'</div><div class="t-bar"><i class="b2"></i></div></div><div class="t-arrow">›</div></div>';
-  h += '<div class="topic-card" onclick="openTopic(2)"><div class="t-ic enterprise">⚡</div><div class="t-body"><h3>AI 产业链与数字基础设施</h3><div class="t-meta">'+infraTopic.count+' 篇 · '+graphNodes('AI产业链与数字基础设施').length+' 个核心节点 · 与 Agent 交叉连接</div><div class="t-bar"><i class="b2"></i></div></div><div class="t-arrow">›</div></div>';
-  h += '<div class="topic-card" onclick="openTopic(3)"><div class="t-ic pipeline">📚</div><div class="t-body"><h3>知识流水线</h3><div class="t-meta">'+pipelineTopic.count+' 篇 · '+graphNodes('知识流水线').length+' 个核心节点 · 增量整理与项目实践</div><div class="t-bar"><i class="b1"></i></div></div><div class="t-arrow">›</div></div>';
-  h += '<div class="sec-title" style="margin-top:18px;">真实链接关系 · 核心节点</div>';
-  OBSIDIAN_GRAPH.nodes.slice(0,6).forEach(function(n){ var gi=OBSIDIAN_GRAPH.nodes.indexOf(n); h += '<div class="doc-item" onclick="openGraphNodeByIndex('+gi+')"><div class="d-ic agent">⌘</div><div class="d-body"><h4>'+n.title+'</h4><div class="d-meta">更新 '+n.updated+' · 出链 '+n.links.length+' · 反向链接 '+n.backlinks.length+'</div></div><div class="d-check done">↗</div></div>'; });
-  h += '<div class="sec-title" style="margin-top:18px;">能力模块 · 从知识到能力</div><div class="skill-grid"><div class="skill-item"><b>对象与流程</b><span>Ontology · Workflow · 状态机</span></div><div class="skill-item"><b>数据与知识</b><span>事实库 · 文档库 · RAG</span></div><div class="skill-item"><b>执行与治理</b><span>MCP · 权限 · 人审</span></div><div class="skill-item"><b>交付与商业化</b><span>FDE · MVP · ROI</span></div></div>';
-  h += '<div class="sec-title" style="margin-top:18px;">AI Agent 工程知识 · 文档入口</div>';
-  [["total","生产级 AI Agent 知识体系总览：层级·特性·术语","核心主版本 · 概念地图",1],
-   ["chain","生产级 AI Agent 工程体系的完整链路","施工路线 · 一次任务如何生产化执行",1],
-   ["rag","生产级 RAG 与数据库知识库架构","工程模块 · 三库分型",0],
-   ["mem","生产级 AI Agent 记忆系统与 Context 调度","工程模块 · Memory 设计",0],
-   ["dict","AI Agent 专业术语词典","索引 · 全概念查词",0]
-  ].forEach(function(d){
-    h += '<div class="doc-item" onclick="openDoc(\''+d[0]+'\')"><div class="d-ic agent">📘</div><div class="d-body"><h4>'+d[1]+'</h4><div class="d-meta">'+d[2]+'</div></div><div class="d-check'+(d[3]?' done':'')+'">✓</div></div>';
+  if (questions.length) h += '<div class="topic-card" onclick="showQuestionHub()"><div class="t-ic enterprise">？</div><div class="t-body"><h3>徐总的问题专题库</h3><div class="t-meta">'+questions.length+' 个问题专题 · 用提问串联知识</div><div class="t-arrow">›</div></div>';
+  (OBSIDIAN_DATA.topics || []).forEach(function(t){
+    var nodes = OBSIDIAN_GRAPH.nodes.filter(function(n){ return n.topic === t.key; }).sort(function(a,b){ return (b.updated||'').localeCompare(a.updated||''); });
+    var latest = nodes[0] ? nodes[0].updated : '';
+    h += '<div class="topic-card" onclick="openTopicByKey(\''+t.key+'\')"><div class="t-ic '+(t.color||'agent')+'">'+(t.icon||'📚')+'</div><div class="t-body"><h3>'+t.name+'</h3><div class="t-meta">'+t.count+' 篇 · 最近更新 '+(latest||'—')+'</div></div><div class="t-arrow">›</div></div>';
   });
+  h += '<div class="sec-title" style="margin-top:18px;">最近更新</div>';
+  var recent = OBSIDIAN_GRAPH.nodes.slice().sort(function(a,b){ return (b.updated||'').localeCompare(a.updated||''); }).slice(0,8);
+  recent.forEach(function(n){ var gi=OBSIDIAN_GRAPH.nodes.indexOf(n); h += '<div class="doc-item" onclick="openGraphNodeByIndex('+gi+')"><div class="d-ic '+(n.topic||'agent')+'">📄</div><div class="d-body"><h4>'+n.title+'</h4><div class="d-meta">'+n.updated+' · '+(n.path||'').split('/')[0]+'</div></div><div class="d-check done">↗</div></div>'; });
   h += '</div>';
   return h;
 }
