@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-08-09",
- "generatedTime": "2026-08-09 23:49",
+ "generatedAt": "2026-08-10",
+ "generatedTime": "2026-08-10 12:47",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 128,
- "weeklyChanges": 1148,
+ "weeklyChanges": 1152,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-09｜AI知识增量整理.md",
  "topics": [
@@ -337,7 +337,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
    "title": "Agent系统架构模式选型：从单Agent到Graph Workflow",
-   "updated": "2026-08-08",
+   "updated": "2026-08-10",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -347,14 +347,16 @@ window.OBSIDIAN_DATA = {
     "AI Agent专业术语词典",
     "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移",
     "原始资料/已整理｜2026-08-06｜抖音豆包｜张宇技术栈Agent系统7种架构",
-    "原始资料/已整理｜2026-08-07｜抖音豆包｜AI大模型果果姐AIAgent框架选错白忙三个月"
+    "原始资料/已整理｜2026-08-07｜抖音豆包｜AI大模型果果姐AIAgent框架选错白忙三个月",
+    "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架",
+    "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同"
    ],
    "backlinks": [
     "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
     "知识流水线/知识库健康巡检.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
-   "wordCount": 4643
+   "wordCount": 6740
   },
   {
    "path": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现.md",
@@ -980,6 +982,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [
     "AI Agent工程知识/AI Agent专业术语词典.md",
+    "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
     "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
     "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
     "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构.md",
@@ -1097,6 +1100,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [
     "AI Agent工程知识/AI Agent工程知识专题.md",
+    "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
     "企业AI与智能体商业化/知识库索引.md"
    ],
    "desc": "日期：2026-06-08",
@@ -2961,12 +2965,12 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/Agent Ontology 1.0运行数据库与闭环落地.md",
    "title": "Agent Ontology 1.0 运行数据库与闭环落地",
-   "updated": "2026-08-09",
+   "updated": "2026-08-10",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
    "desc": "- Task: KNOWLEDGEPIP-72",
-   "wordCount": 6258
+   "wordCount": 7280
   },
   {
    "path": "知识流水线/Agent Ontology历史任务-关系与证据模型.md",
@@ -3101,22 +3105,22 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/Agent任务-架构与入口分析.md",
    "title": "子Agent：架构与入口分析",
-   "updated": "2026-08-09",
+   "updated": "2026-08-10",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
    "desc": "- Task: KNOWLEDGEPIP-74",
-   "wordCount": 524
+   "wordCount": 861
   },
   {
    "path": "知识流水线/Agent任务-风险与验收分析.md",
    "title": "子Agent：风险与验收分析",
-   "updated": "2026-08-09",
+   "updated": "2026-08-10",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
    "desc": "- Task: KNOWLEDGEPIP-75",
-   "wordCount": 512
+   "wordCount": 849
   },
   {
    "path": "知识流水线/B_知识蒸馏.md",
@@ -3356,18 +3360,20 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/知识库健康巡检.md",
    "title": "知识库健康巡检",
-   "updated": "2026-08-09",
+   "updated": "2026-08-10",
    "topic": "pipeline",
    "links": [
+    "任务面板与知识库/智能体协作-任务面板操作手册",
     "任务面板与知识库/00_总入口",
     "Codex工作区/Codex会话级Agent协作协议-v0.1",
     "Codex工作区/Codex的内部合作机制",
     "Codex工作区/每日跨项目复盘/2026-08-09",
-    "徐总的知识库",
     "知识库索引",
+    "徐总的知识库",
     "Codex工作区/Codex工作区",
     "全局记忆/03_工作规则",
     "全局记忆/08_多平台知识库治理",
+    "知识流水线/每日学习整理/2026-08-09｜AI知识增量整理",
     "知识流水线/Obsidian知识底座治理与知识自主生长方案",
     "知识流水线/知识流水线",
     "AI Agent工程知识/AI Agent工程知识专题",
@@ -3469,8 +3475,8 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识库健康巡检执行规范.md",
     "知识流水线/知识库架构判断原则：从资料到概念、方法论、案例与专题归属.md"
    ],
-   "desc": "- 新建一级目录 任务面板与知识库/00总入口：2026-08-09 徐总确认建立，定位\"任务面板 × Obsidian 协同主题的知识文档主位置\"，内含 3 份核心文档（操作手册",
-   "wordCount": 33698
+   "desc": "- 操作手册 任务面板与知识库/智能体协作-任务面板操作手册.md：动作 4 新增强制条款、「标题与状态一致（强制）」由\"优先调用\"升级为\"唯一允许的改状态路径\"、变更记录新增 2",
+   "wordCount": 35087
   },
   {
    "path": "知识流水线/知识库健康巡检执行规范.md",
@@ -3488,7 +3494,7 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/AI Agent专业术语词典",
     "知识流水线/Mac Codex Obsidian知识库健康巡检专员启动提示词",
     "Codex工作区/任务面板每日工作日志机制：从执行态到日级进展档案",
-    "Codex工作区/智能体协作-任务面板操作手册",
+    "任务面板与知识库/智能体协作-任务面板操作手册",
     "知识流水线/知识库健康巡检执行规范",
     "全局记忆/10_徐总个人画像与协作基线",
     "全局记忆/13_Obsidian新增更新内容强制收口协作规则",
@@ -3537,7 +3543,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/知识流水线.md",
    "title": "知识流水线",
-   "updated": "2026-08-08",
+   "updated": "2026-08-10",
    "topic": "pipeline",
    "links": [
     "徐总的知识库",
@@ -3553,9 +3559,9 @@ window.OBSIDIAN_DATA = {
     "AI知识自动化整理入口",
     "AI知识学习与复盘工作台",
     "支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作",
-    "Codex工作区/智能体协作共享问答",
+    "任务面板与知识库/智能体协作共享问答",
     "正式专题/蒸馏页",
-    "Codex工作区/智能体协作-任务面板操作手册",
+    "任务面板与知识库/智能体协作-任务面板操作手册",
     "徐总问题专题库/00_问题专题库总览",
     "低空经济/低空经济专题",
     "法律/法律专题",
@@ -3634,52 +3640,54 @@ window.OBSIDIAN_DATA = {
   "date": "2026-08-09",
   "items": [
    {
-    "title": "**李开复企业 AI 认知：从基座大模型到一号位工程**（新建，08-09，KNOWLEDGEPIP-80）：公开报道汇编，补全零一万物厂商研究的\"为什么\"层——效率陷阱（财报改善 = 执行效率 × 决策质量）、AI 是一号位工程不是 CIO 项目、企业 AI 下半场服务决策者（董事会/投决会）、零一万物 Palantir 式订阅+私有化轻资产模式与 2.5 亿/15 亿订单数据。",
-    "summary": "",
-    "points": [],
+    "title": "**DeepSeek Codex 双模型并行机制固化（KNOWLEDGEPIP-78，08-09 补修复小节）**",
+    "summary": "官方 Codex（`~/.codex`，gpt-5.6-luna）与 DeepSeek Codex（独立 `CODEX_HOME` + 独立 `user-data-dir` + 独",
+    "points": [
+     "事实：官方 Codex（`~/.codex`，gpt-5.6-luna）与 DeepSeek Codex（独立 `CODEX_HOME` + 独立 `user-data-dir` + 独立 provider 段）双开并存；核心教训是不能在官",
+     "概念：双入口隔离 = 配置全部收进 `codex-home`；API 侧限流（503）与本地配置错误要分开诊断；未知模型 / 401 / 无持久化告警为非致命告警，不阻塞对话。"
+    ],
     "date": "2026-08-09"
    },
    {
-    "title": "**Agent Ontology 1.0 运行数据库与闭环落地**（08-09 累计更新，KNOWLEDGEPIP-72）：把 Oliver、Lucas 能力按五层模型（Identity/Capability/Resource/Relationship/Runtime）入库；首次记录\"模型层主动性差异\"假设（Oliver 会话内主动 vs 混元单样本未观察）；沉淀 Oliver 模型绑定实测（Free 档、~2500 积分/天、压缩快、大额任务 >5 积分/次建议路由）。运行数据库总量 claims=14 / resources=17 / relationships=7。",
-    "summary": "",
-    "points": [],
+    "title": "**Codex 会话级 Agent 协作协议 v0.1（KNOWLEDGEPIP-79，draft，08-09 进总纲进索引）**",
+    "summary": "把 Codex 线程当作可持续 Agent 运行单位；首批三角色 MC-001 主控 / PA-001 规划 / DE-001 开发；明确\"注册（角色契约）≠ 绑定（具体 thre",
+    "points": [
+     "事实：把 Codex 线程当作可持续 Agent 运行单位；首批三角色 MC-001 主控 / PA-001 规划 / DE-001 开发；明确\"注册（角色契约）≠ 绑定（具体 thread_id + run_id）\"。",
+     "概念：Agent Registry / Message Bus / Worklog / Taskboard / Obsidian 五件套；与外部 Agent Ontology 边界：内部线程不暴露给外部路由，只允许受控 evidence e"
+    ],
     "date": "2026-08-09"
    },
    {
-    "title": "**己未文化 AI 落地：首次接触沟通作战卡（测试版）**（新建，08-09，KNOWLEDGEPIP-80）：客户 AI 落地沟通方法样本（阶段一已发 PPT、阶段二当面沟通、阶段三填 Ontology），作者明确\"测试版先落知识流水线，实质内容后迁企业AI\"。属待验证工作草稿。",
-    "summary": "",
-    "points": [],
+    "title": "**Codex 的内部合作机制（视频口播稿，伊森转录入 08-09，内部机制资料）**",
+    "summary": "外部博主玩法——规划/开发/验收三 Agent 分工、跨会话消息自动交接、Agent 身份证注册表、Worklog/Workspace 留痕、责任回溯。",
+    "points": [
+     "事实：外部博主玩法——规划/开发/验收三 Agent 分工、跨会话消息自动交接、Agent 身份证注册表、Worklog/Workspace 留痕、责任回溯。",
+     "概念：上下文隔离既是并行与流水线的价值来源，也是避免上下文污染的隔离墙；\"管理 / 执行 / 验收\"三分层避免同一 Agent 既当球员又当裁判。"
+    ],
     "date": "2026-08-09"
    },
    {
-    "title": "**Codex 会话级 Agent 协作协议 v0.1**（新建 draft，08-09，KNOWLEDGEPIP-79）：定义 Codex 内部会话框智能体化的四件套——Agent Registry / Message Bus / Worklog / Taskboard + Obsidian 作为真相层；明确与外部 Agent Ontology（调用谁）分工不合并。",
-    "summary": "",
-    "points": [],
+    "title": "**WorkBuddy 巡检专员专家创建 + 首次实战巡检 + 边界校准（08-09）**",
+    "summary": "WorkBuddy 专家中心注册 `obsidian-health-inspector`（12 步巡检流程、八段式输出、能力边界不拍板）；首次巡检发现\"任务面板与知识库\"新目录悬空",
+    "points": [
+     "事实：WorkBuddy 专家中心注册 `obsidian-health-inspector`（12 步巡检流程、八段式输出、能力边界不拍板）；首次巡检发现\"任务面板与知识库\"新目录悬空孤岛、`.workbuddy` 记忆误复制、口播稿未入",
+     "概念：外部巡检员输出规则补强——\"用户已拍板结构不重复当错误上报\"\"CLI 是通道不是授权\"\"客观发现 / 结构判断 / 执行动作分离\"。"
+    ],
     "date": "2026-08-09"
    },
    {
-    "title": "**内部多智能体协作机制系列持续沉淀**（08-09 修改）：Codex 多智能体副手矩阵与任务编排-完整建设总结、副手通信闭环验收、Codex-DeepSeek 内部智能体通信与编排、DeepSeek Codex 搭建与双模型并行机制、多智能体分派框架复核；多为近几日构建、今日回写。属\"本库多智能体治理\"架构演进。",
-    "summary": "",
-    "points": [],
-    "date": "2026-08-09"
-   },
-   {
-    "title": "**任务面板与知识库/ 新顶层目录**（08-09 11:19–11:35，徐总确认建立）：00_总入口 + 3 份核心文档（操作手册/同步文档/共享问答）+ 历史遗留目录。08-09 巡检已记录：用户拍板\"不处理归属/重复\"，仅作背景观察项。属工具链协作结构，非 AI 知识增量。",
-    "summary": "",
-    "points": [],
-    "date": "2026-08-09"
-   },
-   {
-    "title": "**DK 子 Agent 设计系列**（08-08 23:40 写入、08-09 06:46 主控验收）：Agent任务-DK-One（架构与入口/稳定性与成本/审核）、DK-Two（isolated-write 方案/风险与验收），属生产级子 Agent 工程实践样本。",
-    "summary": "",
-    "points": [],
+    "title": "**Obsidian 指认方式统一 + 任务面板新顶层目录（08-09 徐总拍板）**",
+    "summary": "评论 / 描述 / 笔记 Task link 一律写笔记相对路径（`.md`），废弃 `obsidian://open` URI；新一级目录\"任务面板与知识库\"定位为任务面板 × ",
+    "points": [
+     "事实：评论 / 描述 / 笔记 Task link 一律写笔记相对路径（`.md`），废弃 `obsidian://open` URI；新一级目录\"任务面板与知识库\"定位为任务面板 × Obsidian 协同主题文档主位置；协议 v0.1 "
+    ],
     "date": "2026-08-09"
    }
   ],
   "judgments": [
-   "李开复\"效率陷阱 + 一号位工程 + 决策 AI 下半场\"把厂商研究从\"做什么\"推进到\"为什么\"，并强化了知识库既有主线：企业 AI 真正价值在决策场景（经营/销售/投资）而非执行提效，且必须由一号位亲自使用才能落地——这与本库 FDE、AI 经营中枢、零一万物万策决策中枢主线互相印证，是可回流的\"厂商认知 + 价值公式\"增量。",
-   "Agent Ontology 从\"能力清单\"升级为\"五层运行数据库\"，并首次提出\"模型层主动性差异\"假设：五层（Identity/Capability/Resource/Relationship/Runtime）让 Ontology 成为可路由的生产级运行底座；Oliver 会话内主动 vs 混元未观察引出\"模型层差异需控制变量验证\"的方法论纪律（同源推定标 suggested、单样本标非能力缺失）。这是 Ontology/Autonomy 主线的方法论推进。",
-   "内部多智能体协作机制（Codex 会话级协议 + DK 子 Agent + 任务面板与知识库）持续成型，但属于\"我们自己的系统架构\"而非外部 AI 知识：这些文档服务\"生产级 Agent 工程实践\"，落点是本库多智能体治理，不宜与\"企业 AI 外部知识\"混同回流到企业 AI 专题，应保留在 Codex 工作区 / 知识流水线，避免污染外部知识口径。"
+   "双模型 Codex 并存的前提是环境完全隔离：独立 `CODEX_HOME` + `user-data-dir` + provider 段，官方 `model_catalog_json` 不可覆盖；模型接入的坑大多来自配置越界，而不是 API 本身。",
+   "多 Agent 团队协作的工程底座是注册表身份证 + 结构化消息 + Worklog 留痕：让规划→开发→验收闭环可追溯；上下文隔离既是并行价值来源，也是防止污染的隔离墙。",
+   "外部辅助 Agent（巡检员）的价值取决于输出规则先于执行能力：能识别\"用户已拍板结构\"、区分客观发现与执行动作、把 CLI 当通道而非授权，才不会把合规状态当错误反复上报。"
   ]
  },
  "dailies": [
@@ -3687,52 +3695,54 @@ window.OBSIDIAN_DATA = {
    "date": "2026-08-09",
    "items": [
     {
-     "title": "**李开复企业 AI 认知：从基座大模型到一号位工程**（新建，08-09，KNOWLEDGEPIP-80）：公开报道汇编，补全零一万物厂商研究的\"为什么\"层——效率陷阱（财报改善 = 执行效率 × 决策质量）、AI 是一号位工程不是 CIO 项目、企业 AI 下半场服务决策者（董事会/投决会）、零一万物 Palantir 式订阅+私有化轻资产模式与 2.5 亿/15 亿订单数据。",
-     "summary": "",
-     "points": [],
+     "title": "**DeepSeek Codex 双模型并行机制固化（KNOWLEDGEPIP-78，08-09 补修复小节）**",
+     "summary": "官方 Codex（`~/.codex`，gpt-5.6-luna）与 DeepSeek Codex（独立 `CODEX_HOME` + 独立 `user-data-dir` + 独",
+     "points": [
+      "事实：官方 Codex（`~/.codex`，gpt-5.6-luna）与 DeepSeek Codex（独立 `CODEX_HOME` + 独立 `user-data-dir` + 独立 provider 段）双开并存；核心教训是不能在官",
+      "概念：双入口隔离 = 配置全部收进 `codex-home`；API 侧限流（503）与本地配置错误要分开诊断；未知模型 / 401 / 无持久化告警为非致命告警，不阻塞对话。"
+     ],
      "date": "2026-08-09"
     },
     {
-     "title": "**Agent Ontology 1.0 运行数据库与闭环落地**（08-09 累计更新，KNOWLEDGEPIP-72）：把 Oliver、Lucas 能力按五层模型（Identity/Capability/Resource/Relationship/Runtime）入库；首次记录\"模型层主动性差异\"假设（Oliver 会话内主动 vs 混元单样本未观察）；沉淀 Oliver 模型绑定实测（Free 档、~2500 积分/天、压缩快、大额任务 >5 积分/次建议路由）。运行数据库总量 claims=14 / resources=17 / relationships=7。",
-     "summary": "",
-     "points": [],
+     "title": "**Codex 会话级 Agent 协作协议 v0.1（KNOWLEDGEPIP-79，draft，08-09 进总纲进索引）**",
+     "summary": "把 Codex 线程当作可持续 Agent 运行单位；首批三角色 MC-001 主控 / PA-001 规划 / DE-001 开发；明确\"注册（角色契约）≠ 绑定（具体 thre",
+     "points": [
+      "事实：把 Codex 线程当作可持续 Agent 运行单位；首批三角色 MC-001 主控 / PA-001 规划 / DE-001 开发；明确\"注册（角色契约）≠ 绑定（具体 thread_id + run_id）\"。",
+      "概念：Agent Registry / Message Bus / Worklog / Taskboard / Obsidian 五件套；与外部 Agent Ontology 边界：内部线程不暴露给外部路由，只允许受控 evidence e"
+     ],
      "date": "2026-08-09"
     },
     {
-     "title": "**己未文化 AI 落地：首次接触沟通作战卡（测试版）**（新建，08-09，KNOWLEDGEPIP-80）：客户 AI 落地沟通方法样本（阶段一已发 PPT、阶段二当面沟通、阶段三填 Ontology），作者明确\"测试版先落知识流水线，实质内容后迁企业AI\"。属待验证工作草稿。",
-     "summary": "",
-     "points": [],
+     "title": "**Codex 的内部合作机制（视频口播稿，伊森转录入 08-09，内部机制资料）**",
+     "summary": "外部博主玩法——规划/开发/验收三 Agent 分工、跨会话消息自动交接、Agent 身份证注册表、Worklog/Workspace 留痕、责任回溯。",
+     "points": [
+      "事实：外部博主玩法——规划/开发/验收三 Agent 分工、跨会话消息自动交接、Agent 身份证注册表、Worklog/Workspace 留痕、责任回溯。",
+      "概念：上下文隔离既是并行与流水线的价值来源，也是避免上下文污染的隔离墙；\"管理 / 执行 / 验收\"三分层避免同一 Agent 既当球员又当裁判。"
+     ],
      "date": "2026-08-09"
     },
     {
-     "title": "**Codex 会话级 Agent 协作协议 v0.1**（新建 draft，08-09，KNOWLEDGEPIP-79）：定义 Codex 内部会话框智能体化的四件套——Agent Registry / Message Bus / Worklog / Taskboard + Obsidian 作为真相层；明确与外部 Agent Ontology（调用谁）分工不合并。",
-     "summary": "",
-     "points": [],
+     "title": "**WorkBuddy 巡检专员专家创建 + 首次实战巡检 + 边界校准（08-09）**",
+     "summary": "WorkBuddy 专家中心注册 `obsidian-health-inspector`（12 步巡检流程、八段式输出、能力边界不拍板）；首次巡检发现\"任务面板与知识库\"新目录悬空",
+     "points": [
+      "事实：WorkBuddy 专家中心注册 `obsidian-health-inspector`（12 步巡检流程、八段式输出、能力边界不拍板）；首次巡检发现\"任务面板与知识库\"新目录悬空孤岛、`.workbuddy` 记忆误复制、口播稿未入",
+      "概念：外部巡检员输出规则补强——\"用户已拍板结构不重复当错误上报\"\"CLI 是通道不是授权\"\"客观发现 / 结构判断 / 执行动作分离\"。"
+     ],
      "date": "2026-08-09"
     },
     {
-     "title": "**内部多智能体协作机制系列持续沉淀**（08-09 修改）：Codex 多智能体副手矩阵与任务编排-完整建设总结、副手通信闭环验收、Codex-DeepSeek 内部智能体通信与编排、DeepSeek Codex 搭建与双模型并行机制、多智能体分派框架复核；多为近几日构建、今日回写。属\"本库多智能体治理\"架构演进。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-09"
-    },
-    {
-     "title": "**任务面板与知识库/ 新顶层目录**（08-09 11:19–11:35，徐总确认建立）：00_总入口 + 3 份核心文档（操作手册/同步文档/共享问答）+ 历史遗留目录。08-09 巡检已记录：用户拍板\"不处理归属/重复\"，仅作背景观察项。属工具链协作结构，非 AI 知识增量。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-09"
-    },
-    {
-     "title": "**DK 子 Agent 设计系列**（08-08 23:40 写入、08-09 06:46 主控验收）：Agent任务-DK-One（架构与入口/稳定性与成本/审核）、DK-Two（isolated-write 方案/风险与验收），属生产级子 Agent 工程实践样本。",
-     "summary": "",
-     "points": [],
+     "title": "**Obsidian 指认方式统一 + 任务面板新顶层目录（08-09 徐总拍板）**",
+     "summary": "评论 / 描述 / 笔记 Task link 一律写笔记相对路径（`.md`），废弃 `obsidian://open` URI；新一级目录\"任务面板与知识库\"定位为任务面板 × ",
+     "points": [
+      "事实：评论 / 描述 / 笔记 Task link 一律写笔记相对路径（`.md`），废弃 `obsidian://open` URI；新一级目录\"任务面板与知识库\"定位为任务面板 × Obsidian 协同主题文档主位置；协议 v0.1 "
+     ],
      "date": "2026-08-09"
     }
    ],
    "judgments": [
-    "李开复\"效率陷阱 + 一号位工程 + 决策 AI 下半场\"把厂商研究从\"做什么\"推进到\"为什么\"，并强化了知识库既有主线：企业 AI 真正价值在决策场景（经营/销售/投资）而非执行提效，且必须由一号位亲自使用才能落地——这与本库 FDE、AI 经营中枢、零一万物万策决策中枢主线互相印证，是可回流的\"厂商认知 + 价值公式\"增量。",
-    "Agent Ontology 从\"能力清单\"升级为\"五层运行数据库\"，并首次提出\"模型层主动性差异\"假设：五层（Identity/Capability/Resource/Relationship/Runtime）让 Ontology 成为可路由的生产级运行底座；Oliver 会话内主动 vs 混元未观察引出\"模型层差异需控制变量验证\"的方法论纪律（同源推定标 suggested、单样本标非能力缺失）。这是 Ontology/Autonomy 主线的方法论推进。",
-    "内部多智能体协作机制（Codex 会话级协议 + DK 子 Agent + 任务面板与知识库）持续成型，但属于\"我们自己的系统架构\"而非外部 AI 知识：这些文档服务\"生产级 Agent 工程实践\"，落点是本库多智能体治理，不宜与\"企业 AI 外部知识\"混同回流到企业 AI 专题，应保留在 Codex 工作区 / 知识流水线，避免污染外部知识口径。"
+    "双模型 Codex 并存的前提是环境完全隔离：独立 `CODEX_HOME` + `user-data-dir` + provider 段，官方 `model_catalog_json` 不可覆盖；模型接入的坑大多来自配置越界，而不是 API 本身。",
+    "多 Agent 团队协作的工程底座是注册表身份证 + 结构化消息 + Worklog 留痕：让规划→开发→验收闭环可追溯；上下文隔离既是并行价值来源，也是防止污染的隔离墙。",
+    "外部辅助 Agent（巡检员）的价值取决于输出规则先于执行能力：能识别\"用户已拍板结构\"、区分客观发现与执行动作、把 CLI 当通道而非授权，才不会把合规状态当错误反复上报。"
    ]
   },
   {

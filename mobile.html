@@ -521,6 +521,133 @@
   }
   body.mobile-app #live-app .tabbar { padding: 5px; box-shadow: 0 10px 30px rgba(30,58,95,0.12); }
   body.mobile-app #live-app .tabbar .t { font-size: 10px; }
+
+  /* ========== 炫酷化：知识脉冲（视觉优先 · 降低文字密度） ========== */
+  @keyframes kp-rise { from { opacity:0; transform: translateY(16px) scale(.98); } to { opacity:1; transform:none; } }
+  @keyframes kp-float { 0%,100% { transform:translate(0,0); } 50% { transform:translate(16px,-18px); } }
+  @keyframes kp-ring { 0% { transform:scale(.3); opacity:.9; } 100% { transform:scale(1.7); opacity:0; } }
+  @keyframes kp-bar { from { transform:scaleY(0); } to { transform:scaleY(1); } }
+  @keyframes kp-shine { 0% { transform:translateX(-160%) skewX(-18deg); } 60%,100% { transform:translateX(320%) skewX(-18deg); } }
+  @keyframes kp-glow { 0%,100% { opacity:.6; } 50% { opacity:1; } }
+  .kp-rise { animation: kp-rise .45s ease both; }
+
+  /* Hero：知识脉搏 */
+  .kp-hero { position:relative; overflow:hidden; border-radius:22px; margin:2px 0 4px; padding:20px 18px 16px; color:#fff;
+    background:linear-gradient(135deg,#0A1B3F 0%,#14306E 46%,#4C1D95 100%);
+    box-shadow:0 18px 40px -12px rgba(20,48,110,.55); }
+  .kp-hero::before { content:""; position:absolute; width:230px; height:230px; right:-80px; top:-100px; border-radius:50%;
+    background:radial-gradient(circle,rgba(99,102,241,.5),transparent 65%); animation:kp-float 9s ease-in-out infinite; }
+  .kp-hero::after { content:""; position:absolute; width:190px; height:190px; left:-70px; bottom:-90px; border-radius:50%;
+    background:radial-gradient(circle,rgba(16,185,129,.32),transparent 65%); animation:kp-float 11s ease-in-out infinite reverse; }
+  .kp-eyebrow { position:relative; font-size:10px; letter-spacing:2px; opacity:.78; display:flex; align-items:center; gap:7px; }
+  .kp-pulse { width:13px; height:13px; border-radius:50%; background:#34D399; position:relative; flex-shrink:0; }
+  .kp-pulse::before,.kp-pulse::after { content:""; position:absolute; inset:0; border-radius:50%; background:rgba(52,211,153,.55); }
+  .kp-pulse::before { animation:kp-ring 2.2s ease-out infinite; }
+  .kp-pulse::after { animation:kp-ring 2.2s ease-out .75s infinite; }
+  .kp-focus { position:relative; margin:12px 0 2px; font-size:17px; font-weight:800; line-height:1.42; letter-spacing:.2px; }
+  .kp-focus em { font-style:normal; background:linear-gradient(90deg,#FDE68A,#F59E0B); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .kp-stats { position:relative; display:flex; gap:8px; margin-top:14px; }
+  .kp-stat { flex:1; background:rgba(255,255,255,.09); border:1px solid rgba(255,255,255,.15); border-radius:14px; padding:9px 10px; backdrop-filter:blur(4px); animation:kp-rise .45s ease both; }
+  .kp-stat .v { font-size:21px; font-weight:800; line-height:1; font-variant-numeric:tabular-nums; }
+  .kp-stat .v small { font-size:10px; font-weight:700; opacity:.8; margin-left:2px; }
+  .kp-stat .l { font-size:9.5px; opacity:.72; margin-top:5px; letter-spacing:.4px; }
+  .kp-trend { position:relative; margin-top:13px; }
+  .kp-trend svg { display:block; width:100%; height:46px; }
+
+  /* 区块标题 */
+  .kp-zone-title { display:flex; align-items:center; gap:8px; margin:20px 2px 12px; }
+  .kp-zone-title .dot { width:9px; height:9px; border-radius:50%; background:linear-gradient(135deg,#2563EB,#7C3AED); box-shadow:0 0 10px rgba(99,102,241,.85); animation:kp-glow 2.6s ease-in-out infinite; }
+  .kp-zone-title b { font-size:15px; font-weight:800; letter-spacing:.3px; }
+  .kp-zone-title span { margin-left:auto; font-size:11px; color:var(--ink-faint); }
+
+  /* 今日脉冲时间轴 */
+  .kp-tl { position:relative; padding-left:22px; }
+  .kp-tl::before { content:""; position:absolute; left:8px; top:10px; bottom:10px; width:2px;
+    background:linear-gradient(180deg,#2563EB,#7C3AED 62%,transparent); opacity:.35; }
+  .kp-item { position:relative; background:#fff; border:1px solid var(--line); border-radius:16px;
+    padding:12px 13px 11px; margin-bottom:10px; box-shadow:var(--shadow); cursor:pointer;
+    animation:kp-rise .45s ease both; transition:transform .15s; }
+  .kp-item:active { transform:scale(.98); }
+  .kp-item::before { content:""; position:absolute; left:-22px; top:15px; width:11px; height:11px; border-radius:50%;
+    background:linear-gradient(135deg,#60A5FA,#8B5CF6); box-shadow:0 0 0 3px #fff, 0 0 12px rgba(99,102,241,.75); }
+  .kp-item h4 { font-size:13.5px; font-weight:700; line-height:1.45; color:var(--ink); }
+  .kp-item p { font-size:11px; color:var(--ink-soft); line-height:1.55; margin-top:5px;
+    display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  .kp-meta { display:flex; align-items:center; gap:6px; margin-top:8px; }
+  .kp-chip { font-size:9.5px; font-weight:600; padding:2.5px 8px; border-radius:999px; letter-spacing:.3px; }
+  .kp-chip.new { background:var(--blue-soft); color:var(--blue); }
+  .kp-chip.upd { background:var(--violet-soft); color:var(--violet); }
+  .kp-chip.case { background:var(--amber-soft); color:#B45309; }
+  .kp-chip.grn { background:var(--green-soft); color:#047857; }
+  .kp-go { margin-left:auto; color:var(--ink-faint); font-size:13px; }
+
+  /* 今日判断横幅 */
+  .kp-judge { position:relative; overflow:hidden; display:flex; gap:10px; align-items:flex-start;
+    background:linear-gradient(135deg,#F5F3FF,#EEF2FF); border:1px solid #E4E1FB; border-radius:16px;
+    padding:12px 13px; margin:2px 0 4px; cursor:pointer; animation:kp-rise .45s ease both; }
+  .kp-judge .ji { width:30px; height:30px; flex-shrink:0; border-radius:10px; display:flex; align-items:center; justify-content:center;
+    font-size:14px; background:linear-gradient(135deg,#7C3AED,#4F46E5); box-shadow:0 6px 14px -4px rgba(124,58,237,.55); }
+  .kp-judge b { font-size:11.5px; color:#5B21B6; display:block; }
+  .kp-judge p { font-size:10.5px; color:#6D5FA8; line-height:1.55; margin-top:3px;
+    display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+
+  /* 知识进化卡 */
+  .kp-evo { position:relative; overflow:hidden; background:linear-gradient(180deg,#fff,#F8FAFF);
+    border:1px solid var(--line); border-radius:20px; padding:16px; box-shadow:var(--shadow); }
+  .kp-evo::after { content:""; position:absolute; top:-42px; right:-42px; width:130px; height:130px; border-radius:50%;
+    background:radial-gradient(circle,rgba(37,99,235,.13),transparent 70%); }
+  .kp-evo-head { position:relative; display:flex; align-items:center; gap:10px; }
+  .kp-evo-head .ei { width:34px; height:34px; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:16px;
+    background:linear-gradient(135deg,#DBEAFE,#EDE9FE); box-shadow:inset 0 0 0 1px rgba(99,102,241,.15); }
+  .kp-evo-head b { font-size:14px; font-weight:800; }
+  .kp-evo-head span { margin-left:auto; font-size:10.5px; color:var(--ink-faint); }
+  .kp-bars { position:relative; display:flex; align-items:flex-end; gap:7px; height:86px; margin-top:14px; }
+  .kp-bar { flex:1; display:flex; flex-direction:column; align-items:center; gap:5px; height:100%; justify-content:flex-end; }
+  .kp-bar .b { width:100%; max-width:22px; border-radius:7px 7px 3px 3px; transform-origin:bottom;
+    background:linear-gradient(180deg,#3B82F6,#1D4ED8); animation:kp-bar .6s ease both;
+    box-shadow:0 6px 14px -6px rgba(37,99,235,.6); }
+  .kp-bar .b.hi { background:linear-gradient(180deg,#F59E0B,#D97706); box-shadow:0 6px 14px -6px rgba(245,158,11,.6); }
+  .kp-bar .d { font-size:9px; color:var(--ink-faint); }
+  .kp-bar .n { font-size:8.5px; font-weight:700; color:var(--ink-faint); }
+  .kp-evo-foot { position:relative; display:flex; gap:8px; margin-top:13px; }
+  .kp-mini { flex:1; text-align:center; background:#F1F5FE; border-radius:12px; padding:9px 4px; }
+  .kp-mini .v { font-size:17px; font-weight:800; color:var(--blue-deep); font-variant-numeric:tabular-nums; }
+  .kp-mini .l { font-size:9px; color:var(--ink-faint); margin-top:3px; letter-spacing:.4px; }
+  .kp-review { position:relative; overflow:hidden; margin-top:10px; border:1px solid #F2DDAE; border-radius:16px; cursor:pointer;
+    background:linear-gradient(135deg,#FFF9ED,#FFF4DC); padding:12px 13px; animation:kp-rise .45s ease both; }
+  .kp-review::after { content:""; position:absolute; right:-30px; top:-30px; width:90px; height:90px; border-radius:50%;
+    background:radial-gradient(circle,rgba(245,158,11,.18),transparent 70%); }
+  .kp-review .reyebrow { font-size:9px; letter-spacing:1.2px; color:#B45309; font-weight:700; }
+  .kp-review h4 { position:relative; font-size:13px; font-weight:800; color:#7C5A12; margin-top:5px; line-height:1.4; }
+  .kp-review .rarrow { position:absolute; right:13px; top:50%; transform:translateY(-50%); color:#D9A24A; font-size:16px; }
+
+  /* 专题星系宫格 */
+  .kp-tiles { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  .kp-tile { position:relative; overflow:hidden; border-radius:18px; padding:15px 14px 13px; cursor:pointer; color:#fff;
+    box-shadow:0 12px 26px -10px rgba(20,40,90,.45); animation:kp-rise .45s ease both; transition:transform .15s; }
+  .kp-tile:active { transform:scale(.97); }
+  .kp-tile::after { content:""; position:absolute; right:-26px; top:-26px; width:90px; height:90px; border-radius:50%; background:rgba(255,255,255,.14); }
+  .kp-tile .ti { font-size:26px; filter:drop-shadow(0 4px 8px rgba(0,0,0,.25)); }
+  .kp-tile h4 { position:relative; font-size:12.5px; font-weight:800; margin-top:9px; line-height:1.3; }
+  .kp-tile .cnt { position:absolute; right:11px; top:11px; background:rgba(255,255,255,.22); border-radius:999px;
+    font-size:10px; font-weight:700; padding:2.5px 8px; backdrop-filter:blur(2px); }
+  .kp-tile .more { position:relative; font-size:9.5px; opacity:.85; margin-top:6px; display:block; }
+
+  /* 常用入口金刚区 */
+  .kp-dock { display:grid; grid-template-columns:repeat(4,1fr); gap:9px; }
+  .kp-dock-item { background:#fff; border:1px solid var(--line); border-radius:15px; padding:12px 4px 10px;
+    text-align:center; cursor:pointer; box-shadow:var(--shadow); animation:kp-rise .45s ease both; transition:transform .15s; }
+  .kp-dock-item:active { transform:scale(.95); }
+  .kp-dock-item .di { width:40px; height:40px; margin:0 auto 7px; border-radius:13px; display:flex; align-items:center; justify-content:center; font-size:19px; }
+  .kp-dock-item b { display:block; font-size:10.5px; font-weight:700; color:var(--ink); }
+  .kp-dock-item span { display:block; font-size:8.5px; color:var(--ink-faint); margin-top:2px; }
+
+  /* Tab 栏升级：渐变指示 + 光条 */
+  .tabbar .t.on { background:linear-gradient(135deg,#2563EB,#7C3AED); box-shadow:0 6px 18px rgba(99,102,241,.45); }
+  .kp-shine { position:relative; overflow:hidden; }
+  .kp-shine::before { content:""; position:absolute; top:0; bottom:0; width:46%; left:0; z-index:1;
+    background:linear-gradient(105deg,transparent,rgba(255,255,255,.28),transparent);
+    animation:kp-shine 3.6s ease-in-out infinite; pointer-events:none; }
 </style>
 </head>
 <body class="mobile-app">
@@ -924,8 +1051,8 @@
   <div id="live-body" class="app-body"></div>
 </div>
 
-<script src="data.js?v=202608101237"></script>
-<script src="docs.js?v=202608101237" defer></script>
+<script src="data.js?v=202608101247"></script>
+<script src="docs.js?v=202608101247" defer></script>
 <script>
 /* 悬浮式底部控制条浏览器（华为/UC/夸克/小米/百度等）会覆盖页面底部，给 html 打标记以便上抬底部栏 */
 (function () {
@@ -1063,39 +1190,120 @@ function graphNodes(prefix){
 
 function renderToday() {
   var d = OBSIDIAN_DATA.today || {date:"", items:[], judgments:[]};
-  var h = '<div class="page">';
-  h += '<div class="head-row"><div class="title">'+(OBSIDIAN_GRAPH.rootTitle || '徐总的知识库')+'<span class="sub-line">今天 · 知识库每天在长什么</span></div><div class="avatar">徐</div></div>';
-  h += '<div class="learning-brief" style="cursor:pointer" onclick="showDailyDetail()"><div class="eyebrow">今日 AI 知识增量 · '+ (d.date || '') +' · 每日整理持续运行</div><h3>今天先搞懂：'+(d.items[0] ? d.items[0].title : 'AI 知识体系今天发生了什么？')+'</h3><p>'+(d.items[0] ? d.items[0].summary : '查看今日整理，了解知识库最近的新增和变化。')+'</p><div class="brief-foot"><span class="brief-chip" onclick="event.stopPropagation();showDailyDetail()">查看完整整理 ›</span></div></div>';
+  var dl = OBSIDIAN_DATA.dailies || [];
   var gt = OBSIDIAN_GRAPH.generatedTime || '';
-  var gtFull = gt;
   var gm = gt.match(/^(\d{4})-(\d{2})-(\d{2}) (\d{2}:\d{2})/);
-  if (gm) gtFull = gm[1] + '年' + parseInt(gm[2],10) + '月' + parseInt(gm[3],10) + '日 ' + gm[4];
-  h += '<div class="sec-title">今日要点 <span class="more">'+d.items.length+' 条 · 编译于 '+gtFull+'</span></div>';
-  if (d.judgments && d.judgments.length) {
-    h += '<div class="review-box"><div class="eyebrow">今日重要判断</div>';
-    d.judgments.forEach(function(j){ h += '<p style="margin:5px 0 0;">· '+j+'</p>'; });
-    h += '</div>';
+  var gtFull = gm ? gm[1] + '年' + parseInt(gm[2],10) + '月' + parseInt(gm[3],10) + '日 ' + gm[4] : gt;
+
+  /* 从 items 提取「粗体标题 + 剩余描述」，降低文字密度 */
+  function splitItem(it){
+    var t = String(it.title || '');
+    var m = t.match(/\*\*(.+?)\*\*/);
+    var title = m ? m[1].trim() : t.replace(/\*\*/g,'').trim();
+    var desc = m ? t.split('**').slice(2).join('**') : '';
+    desc = desc.replace(/^[：:\s]+/, '').trim();
+    if (!desc) desc = it.summary || '';
+    return {title:title, desc:desc};
   }
-  if (d.items && d.items.length) {
-    d.items.forEach(function(it, idx){
-      h += '<div class="k-card" onclick="openDailyItem('+idx+')"><div class="k-top"><span class="tag amber">今日</span><span class="k-time">'+it.date+'</span><span class="k-dot'+(idx<2?'':' read')+'"></span></div><h3>'+it.title+'</h3><div class="k-desc">'+it.summary+'</div><div class="k-foot"><span>📖 点击阅读完整要点</span><span class="len">›</span></div></div>';
+
+  var items = (d.items || []).slice(0, 5).map(splitItem);
+  var todayCount = (d.items || []).length;
+  var weekLink = OBSIDIAN_GRAPH.weeklyChanges || 0;
+  var totalNodes = OBSIDIAN_GRAPH.nodes.length;
+  var weekPages = OBSIDIAN_GRAPH.weeklyPages || 0;
+
+  /* 近 7 天趋势：Sparkline（SVG 渐变面积 + 流光 + 呼吸光点） */
+  var trend = dl.slice().reverse();
+  var maxN = 1;
+  trend.forEach(function(x){ maxN = Math.max(maxN, (x.items||[]).length); });
+  var sw = 168, sh = 44;
+  var pts = trend.map(function(x, i){
+    var n = (x.items||[]).length;
+    return { n:n, h:Math.max(4, Math.round(n/maxN*(sh-8))),
+             x:Math.round(7 + i*((sw-14)/Math.max(trend.length-1,1))),
+             date:(x.date||'').slice(5) };
+  });
+  var spark = '';
+  if (pts.length > 1) {
+    var line = pts.map(function(p,i){ return (i?'L':'M')+p.x+' '+(sh-p.h); }).join(' ');
+    var area = 'M'+pts[0].x+' '+sh+' '+line+' L'+pts[pts.length-1].x+' '+sh+' Z';
+    var dots = pts.map(function(p){ return '<circle cx="'+p.x+'" cy="'+(sh-p.h)+'" r="2.4" fill="#fff"><animate attributeName="r" values="2;3.4;2" dur="2.6s" repeatCount="indefinite"/></circle>'; }).join('');
+    spark = '<svg viewBox="0 0 '+sw+' '+sh+'" preserveAspectRatio="none"><defs><linearGradient id="kpg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8B5CF6" stop-opacity=".55"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></linearGradient></defs><path d="'+area+'" fill="url(#kpg)"/><path d="'+line+'" fill="none" stroke="#C4B5FD" stroke-width="1.8" stroke-linecap="round"/><path d="'+line+'" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 13" opacity=".55"><animate attributeName="stroke-dashoffset" values="0;-144" dur="3s" repeatCount="indefinite"/></path>'+dots+'</svg>';
+  } else {
+    spark = '<svg viewBox="0 0 '+sw+' '+sh+'"><path d="M7 '+sh+' L7 14 L30 22 L53 12 L76 26 L99 18 L122 8 L145 16 L161 10 L161 '+sh+' Z" fill="#8B5CF6" opacity=".28"/><path d="M7 14 L30 22 L53 12 L76 26 L99 18 L122 8 L145 16 L161 10" fill="none" stroke="#C4B5FD" stroke-width="1.8" stroke-linecap="round"/></svg>';
+  }
+
+  /* 近 7 天柱状图：每日增量条数 */
+  var barMax = 1;
+  trend.forEach(function(x){ barMax = Math.max(barMax, (x.items||[]).length); });
+  var bars = trend.map(function(x, i){
+    var n = (x.items||[]).length;
+    var bh = n ? Math.max(14, Math.round(n/barMax*58)) : 5;
+    return '<div class="kp-bar"><div class="b'+(i===trend.length-1?' hi':'')+'" style="height:'+bh+'%;animation-delay:'+(i*0.06)+'s"></div><div class="n">'+n+'</div><div class="d">'+(x.date||'').slice(5)+'</div></div>';
+  }).join('');
+
+  var h = '<div class="page">';
+
+  /* —— Hero：知识脉搏 —— */
+  var focus = items[0] || {title:'AI 知识体系今天又长了一点', desc:''};
+  h += '<div class="kp-hero kp-shine">';
+  h += '<div class="kp-eyebrow"><span class="kp-pulse"></span>知识脉冲 · '+escapeHtml(d.date || '')+' · 每日整理运行中</div>';
+  h += '<div class="kp-focus">今天先搞懂：<em>'+escapeHtml(focus.title)+'</em></div>';
+  h += '<div class="kp-stats">';
+  h += '<div class="kp-stat" style="animation-delay:.05s"><div class="v">'+todayCount+'<small>条</small></div><div class="l">今日增量</div></div>';
+  h += '<div class="kp-stat" style="animation-delay:.12s"><div class="v">'+weekLink+'<small>条</small></div><div class="l">本周新链接</div></div>';
+  h += '<div class="kp-stat" style="animation-delay:.19s"><div class="v">'+totalNodes+'<small>篇</small></div><div class="l">知识库节点</div></div>';
+  h += '</div>';
+  h += '<div class="kp-trend">'+spark+'</div>';
+  h += '</div>';
+
+  /* —— 今日判断横幅 —— */
+  if (d.judgments && d.judgments.length) {
+    h += '<div class="kp-judge" onclick="showDailyDetail()"><div class="ji">⚡</div><div><b>今日判断</b><p>'+escapeHtml(d.judgments[0])+'</p></div></div>';
+  }
+
+  /* —— 今日脉冲：时间轴要点 —— */
+  h += '<div class="kp-zone-title"><span class="dot"></span><b>今日脉冲</b><span>'+(todayCount ? todayCount+' 条增量 · '+gtFull : '今日待更新')+'</span></div>';
+  if (items.length) {
+    h += '<div class="kp-tl">';
+    items.forEach(function(it, i){
+      var kind = /新建|新增|新建，/.test(it.title) ? 'new' : (/更新|累计|推进|运行/.test(it.title) ? 'upd' : 'case');
+      var kindName = kind==='new'?'新建':(kind==='upd'?'更新':'进展');
+      h += '<div class="kp-item" style="animation-delay:'+(i*0.06)+'s" onclick="openDailyItem('+i+')"><h4>'+escapeHtml(it.title)+'</h4>'+(it.desc?'<p>'+escapeHtml(it.desc)+'</p>':'')+'<div class="kp-meta"><span class="kp-chip '+(kind==='new'?'new':kind==='upd'?'upd':'case')+'">'+kindName+'</span><span class="kp-chip grn">'+(d.date||'')+'</span><span class="kp-go">›</span></div></div>';
     });
+    h += '</div>';
   } else {
     h += '<div class="fav-note">今日暂无新增整理，可前往专题浏览。</div>';
   }
-  h += '<div class="sec-title">知识库进化 <span class="more">本周 · 每天都在长</span></div>';
-  h += '<div class="progress-card"><div class="pc-top"><div class="pc-date">📚 本周知识库</div><div class="pc-streak">更新 '+(OBSIDIAN_GRAPH.weeklyPages||0)+' 页</div></div><div class="pc-main"><div class="pc-num">'+(OBSIDIAN_GRAPH.weeklyChanges||0)+'</div><div class="pc-unit">条新链接</div></div><div class="pc-sub">四专题共 '+OBSIDIAN_GRAPH.nodes.length+' 篇文档持续沉淀</div><div class="pc-bar"><i style="width:58%;"></i></div></div>';
+
+  /* —— 知识进化：柱状图 + 统计 —— */
+  h += '<div class="kp-zone-title"><span class="dot"></span><b>知识进化</b><span>近 7 天 · 每天都在长</span></div>';
+  h += '<div class="kp-evo"><div class="kp-evo-head"><div class="ei">📈</div><b>每日知识增量</b><span>'+weekPages+' 页更新</span></div><div class="kp-bars">'+bars+'</div><div class="kp-evo-foot"><div class="kp-mini"><div class="v">'+weekPages+'</div><div class="l">本周更新页</div></div><div class="kp-mini"><div class="v">'+weekLink+'</div><div class="l">本周新链接</div></div><div class="kp-mini"><div class="v">'+totalNodes+'</div><div class="l">四专题节点</div></div></div></div>';
   var wr = OBSIDIAN_DATA.weeklyReview;
-  if (wr) h += '<div class="review-box" style="cursor:pointer" onclick="showWeeklyReview()"><div class="eyebrow">本周 AI 知识架构复盘 · '+wr.date+'</div><h3>'+wr.title+'</h3><p>'+wr.overview+'</p><div class="brief-foot"><span class="brief-chip">查看本周主线变化 ›</span><span class="brief-chip">回流建议 ›</span></div></div>';
-  h += '<div class="sec-title" style="cursor:pointer;" onclick="switchTab(\'topic\')">专题与文档 <span class="more">查看全部 ›</span></div>';
-  (OBSIDIAN_DATA.topics || []).forEach(function(t){
-    var nodes = OBSIDIAN_GRAPH.nodes.filter(function(n){ return n.topic === t.key; }).sort(function(a,b){ return (b.updated||'').localeCompare(a.updated||''); });
-    var latest = nodes[0] ? nodes[0].updated : '';
-    h += '<div class="topic-card" onclick="openTopicByKey(\''+t.key+'\')"><div class="t-ic '+(t.color||'agent')+'">'+(t.icon||'📚')+'</div><div class="t-body"><h3>'+t.name+'</h3><div class="t-meta">'+t.count+' 篇 · 最近更新 '+(latest||'—')+'</div></div><div class="t-arrow">›</div></div>';
+  if (wr) h += '<div class="kp-review" onclick="showWeeklyReview()"><span class="reyebrow">本周复盘 · '+escapeHtml(wr.date)+'</span><h4>'+escapeHtml(wr.title)+'</h4><span class="rarrow">›</span></div>';
+
+  /* —— 专题星系：渐变宫格 —— */
+  h += '<div class="kp-zone-title" style="cursor:pointer" onclick="switchTab(\'topic\')"><span class="dot"></span><b>专题星系</b><span>查看全部 ›</span></div>';
+  h += '<div class="kp-tiles">';
+  var tileBg = {
+    agent:'linear-gradient(135deg,#2563EB,#1E40AF)',
+    enterprise:'linear-gradient(135deg,#7C3AED,#5B21B6)',
+    infrastructure:'linear-gradient(135deg,#0EA5E9,#0369A1)',
+    pipeline:'linear-gradient(135deg,#10B981,#047857)'
+  };
+  (OBSIDIAN_DATA.topics || []).slice(0,4).forEach(function(t, i){
+    h += '<div class="kp-tile" style="background:'+(tileBg[t.key]||tileBg.agent)+';animation-delay:'+(i*0.06)+'s" onclick="openTopicByKey(\''+t.key+'\')"><span class="cnt">'+t.count+'</span><div class="ti">'+(t.icon||'📚')+'</div><h4>'+escapeHtml(t.name)+'</h4><span class="more">进入专题 ›</span></div>';
   });
-  h += '<div class="sec-title">常用入口</div>';
-  h += '<div class="k-card" onclick="openGraphNodeByPath(\'企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md\')"><div class="k-top"><span class="tag enterprise">己未</span><span class="k-time">沟通作战卡</span></div><h3>己未文化 AI 落地 · 首次接触沟通作战卡</h3><div class="k-desc">三段式开框架 · 四问清单 · 零一万物权威背书</div><div class="k-foot"><span>📖 当面沟通前必读</span><span class="len">›</span></div></div>';
-  h += '<div class="k-card" onclick="openGraphNodeByPath(\'企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md\')"><div class="k-top"><span class="tag enterprise">背书</span><span class="k-time">李开复</span></div><h3>李开复企业 AI 认知</h3><div class="k-desc">转型背景 · 效率陷阱公式 · 一号位工程</div><div class="k-foot"><span>📖 开框架权威素材</span><span class="len">›</span></div></div>';
+  h += '</div>';
+
+  /* —— 常用入口：金刚区 —— */
+  h += '<div class="kp-zone-title"><span class="dot"></span><b>常用入口</b></div>';
+  h += '<div class="kp-dock">';
+  h += '<div class="kp-dock-item" onclick="openGraphNodeByPath(\'企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md\')"><div class="di" style="background:linear-gradient(135deg,#FDE68A,#F59E0B)">🗺</div><b>己未作战卡</b><span>当面沟通前必读</span></div>';
+  h += '<div class="kp-dock-item" onclick="openGraphNodeByPath(\'企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md\')"><div class="di" style="background:linear-gradient(135deg,#DDD6FE,#8B5CF6)">🏛</div><b>李开复认知</b><span>开框架权威素材</span></div>';
+  h += '<div class="kp-dock-item" onclick="showDailyDetail()"><div class="di" style="background:linear-gradient(135deg,#BFDBFE,#3B82F6)">📥</div><b>每日整理</b><span>今日完整流水线</span></div>';
+  h += '<div class="kp-dock-item" onclick="showWeeklyReview()"><div class="di" style="background:linear-gradient(135deg,#A7F3D0,#10B981)">🔄</div><b>周复盘</b><span>本周主线变化</span></div>';
+  h += '</div>';
   h += '</div>';
   return h;
 }
