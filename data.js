@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-10",
- "generatedTime": "2026-08-10 23:00",
+ "generatedTime": "2026-08-10 23:49",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 129,
  "weeklyChanges": 1160,
@@ -4462,6 +4462,20 @@ window.OBSIDIAN_DATA = {
   },
   "recent": [
    {
+    "id": "KNOWLEDGEPIP-47",
+    "title": "Knowledge OS 通用 Ontology 底座设计",
+    "status": "todo",
+    "priority": "high",
+    "assignee": "Codex Agent"
+   },
+   {
+    "id": "KNOWLEDGEPIP-28",
+    "title": "2026-08-13~14 沈阳美签面签准备（徐驰 + 徐梓航）",
+    "status": "in_progress",
+    "priority": "high",
+    "assignee": "本地用户"
+   },
+   {
     "id": "KNOWLEDGEPIP-83",
     "title": "知识工作台前端重构与炫酷化改版",
     "status": "in_progress",
@@ -4488,23 +4502,9 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "urgent",
     "assignee": "伊森（WorkBuddy）"
-   },
-   {
-    "id": "KNOWLEDGEPIP-71",
-    "title": "Agent Ontology 1.0 动态能力本体与自动路由",
-    "status": "in_progress",
-    "priority": "high",
-    "assignee": "Codex Agent"
-   },
-   {
-    "id": "KNOWLEDGEPIP-81",
-    "title": "每日例会（持续进行）",
-    "status": "in_progress",
-    "priority": "high",
-    "assignee": "伊森（WorkBuddy）"
    }
   ],
   "total": 61,
-  "fetchedAt": "2026-08-10T23:00:01"
+  "fetchedAt": "2026-08-10T23:49:27"
  }
 };
