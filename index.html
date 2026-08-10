@@ -691,6 +691,47 @@
   .kp-road-step h4 .st-badge { margin-left:auto; font-size:8.5px; font-weight:700; color:#5275B5; background:#E9F0FF; border-radius:999px; padding:2.5px 7px; }
   .kp-road-step p { font-size:10.5px; color:var(--ink-soft); line-height:1.55; margin-top:5px; }
 
+/* ========== 任务面板 ========== */
+  .kp-taskbar { position:relative; overflow:hidden; background:#fff; border:1px solid var(--line); border-radius:20px; padding:16px; box-shadow:var(--shadow); }
+  .kp-taskbar::after { content:""; position:absolute; top:-42px; right:-42px; width:130px; height:130px; border-radius:50%; background:radial-gradient(circle,rgba(124,58,237,.12),transparent 70%); }
+  .kt-head { position:relative; display:flex; align-items:center; gap:10px; }
+  .kt-head .ei { width:34px; height:34px; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:16px; background:linear-gradient(135deg,#EDE9FE,#DBEAFE); box-shadow:inset 0 0 0 1px rgba(99,102,241,.15); }
+  .kt-head b { font-size:14px; font-weight:800; }
+  .kt-head span { margin-left:auto; font-size:10.5px; color:var(--ink-faint); }
+  .kt-strip { position:relative; display:flex; height:10px; border-radius:6px; overflow:hidden; margin-top:14px; background:#EFF2F7; }
+  .kt-seg { height:100%; }
+  .kt-seg.in_progress { background:linear-gradient(90deg,#3B82F6,#2563EB); }
+  .kt-seg.todo { background:linear-gradient(90deg,#8B5CF6,#7C3AED); }
+  .kt-seg.in_review { background:linear-gradient(90deg,#FBBF24,#F59E0B); }
+  .kt-seg.blocked { background:linear-gradient(90deg,#F87171,#EF4444); }
+  .kt-stats { position:relative; display:flex; gap:6px; margin-top:12px; }
+  .kt-stat { flex:1; text-align:center; background:#F8FAFD; border-radius:11px; padding:7px 2px; }
+  .kt-stat .v { font-size:15px; font-weight:800; font-variant-numeric:tabular-nums; }
+  .kt-stat .v.blue { color:#2563EB; }
+  .kt-stat .v.violet { color:#7C3AED; }
+  .kt-stat .v.amber { color:#D97706; }
+  .kt-stat .v.red { color:#DC2626; }
+  .kt-stat .l { font-size:8.5px; color:var(--ink-faint); margin-top:2px; }
+  .kt-list { position:relative; margin-top:12px; border-top:1px solid #F1F4F9; padding-top:4px; }
+  .kt-item { display:flex; align-items:center; gap:8px; padding:8px 0; border-bottom:1px solid #F5F7FB; }
+  .kt-item:last-child { border-bottom:none; }
+  .kt-item .kt-id { flex-shrink:0; font-size:8.5px; font-weight:800; color:#5275B5; background:#E9F0FF; border-radius:6px; padding:2px 6px; letter-spacing:.2px; }
+  .kt-item b { flex:1; min-width:0; font-size:11px; font-weight:600; color:var(--ink); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .kt-item .kt-st { flex-shrink:0; font-size:8.5px; font-weight:700; padding:2px 7px; border-radius:999px; }
+  .kt-item .kt-st.blue { color:#2563EB; background:var(--blue-soft); }
+  .kt-item .kt-st.violet { color:#7C3AED; background:var(--violet-soft); }
+  .kt-item .kt-st.amber { color:#B45309; background:var(--amber-soft); }
+  .kt-item .kt-st.red { color:#DC2626; background:#FEE2E2; }
+  .kt-item .kt-who { flex-shrink:0; font-size:8.5px; color:var(--ink-faint); }
+
+  /* 今日脉冲：知识/任务分区 */
+  .kp-item .kind-tag { font-size:9px; font-weight:700; padding:2.5px 8px; border-radius:999px; letter-spacing:.3px; }
+  .kp-item .kind-tag.know { color:#047857; background:var(--green-soft); }
+  .kp-item .kind-tag.task { color:#2563EB; background:var(--blue-soft); }
+  .kp-rel { display:inline-flex; align-items:center; gap:3px; font-size:9px; font-weight:700; color:var(--blue); background:var(--blue-soft); border-radius:999px; padding:2px 8px; cursor:pointer; }
+  .kp-rel .rp { max-width:64px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+
+
 </style>
 </head>
 <body class="desktop-app">
@@ -1094,8 +1135,8 @@
   <div id="live-body" class="app-body"></div>
 </div>
 
-<script src="data.js?v=202608101247"></script>
-<script src="docs.js?v=202608101247" defer></script>
+<script src="data.js?v=202608101423"></script>
+<script src="docs.js?v=202608101423" defer></script>
 <script>
 /* 悬浮式底部控制条浏览器（华为/UC/夸克/小米/百度等）会覆盖页面底部，给 html 打标记以便上抬底部栏 */
 (function () {
@@ -1252,7 +1293,36 @@ function renderToday() {
     return {title:title, desc:desc};
   }
 
-  var items = (d.items || []).slice(0, 5).map(splitItem);
+  /* 任务类 vs 知识类：任务卡更新（KNOWLEDGEPIP 等）与知识增长分开 */
+  function isTaskItem(t){
+    return /KNOWLEDGEPIP|任务卡|运行数据库|闭环落地|机制固化|补修复|调研|采集|沟通推进/.test(t.title);
+  }
+  function taskIdOf(t){ var m = t.title.match(/KNOWLEDGEPIP-\d+/); return m ? m[1] : ''; }
+  /* 关联知识节点：item 文本包含节点标题前段关键词则建立链接 */
+  function findRelatedNodes(it){
+    var hay = (it.title + ' ' + (it.summary || '')).replace(/\*\*/g,'').replace(/\s+/g,'');
+    var out = [];
+    OBSIDIAN_GRAPH.nodes.forEach(function(n){
+      var probe = n.title.replace(/[：:].*$/,'').replace(/\s+/g,'');
+      if (probe.length >= 5 && hay.indexOf(probe.slice(0, 6)) >= 0) out.push(n);
+    });
+    return out.slice(0, 2);
+  }
+  function taskStatusOf(id){
+    var ts = OBSIDIAN_DATA.tasks || null;
+    if (!ts || !ts.recent) return '';
+    var t = ts.recent.filter(function(x){ return x.id === id; })[0];
+    return t ? t.status : '';
+  }
+
+  var ts = OBSIDIAN_DATA.tasks || null;
+  var items = (d.items || []).slice(0, 5).map(function(it){
+    var sp = splitItem(it);
+    sp.task = isTaskItem(it);
+    sp.taskId = taskIdOf(it);
+    sp.rel = findRelatedNodes(it);
+    return sp;
+  });
   var todayCount = (d.items || []).length;
   var weekLink = OBSIDIAN_GRAPH.weeklyChanges || 0;
   var totalNodes = OBSIDIAN_GRAPH.nodes.length;
@@ -1291,10 +1361,15 @@ function renderToday() {
   var h = '<div class="page">';
 
   /* —— Hero：知识脉搏 —— */
-  var focus = items[0] || {title:'AI 知识体系今天又长了一点', desc:''};
+  var focus = null;
+  for (var fi = 0; fi < items.length; fi++) { if (!items[fi].task) { focus = items[fi]; break; } }
+  if (!focus && items.length) focus = items[0];
+  var focusHtml = focus
+    ? '今日焦点：<em>'+escapeHtml(focus.title)+'</em>'
+    : '知识库本周新增 <em>'+weekPages+' 页</em> · 持续进化中';
   h += '<div class="kp-hero kp-shine">';
   h += '<div class="kp-eyebrow"><span class="kp-pulse"></span>知识脉冲 · '+escapeHtml(d.date || '')+' · 每日整理运行中</div>';
-  h += '<div class="kp-focus">今天先搞懂：<em>'+escapeHtml(focus.title)+'</em></div>';
+  h += '<div class="kp-focus">'+focusHtml+'</div>';
   h += '<div class="kp-stats">';
   h += '<div class="kp-stat" style="animation-delay:.05s"><div class="v">'+todayCount+'<small>条</small></div><div class="l">今日增量</div></div>';
   h += '<div class="kp-stat" style="animation-delay:.12s"><div class="v">'+weekLink+'<small>条</small></div><div class="l">本周新链接</div></div>';
@@ -1308,14 +1383,24 @@ function renderToday() {
     h += '<div class="kp-judge" onclick="showDailyDetail()"><div class="ji">⚡</div><div><b>今日判断</b><p>'+escapeHtml(d.judgments[0])+'</p></div></div>';
   }
 
-  /* —— 今日脉冲：时间轴要点 —— */
+  /* —— 今日脉冲：时间轴要点（区分知识增长 / 任务进展） —— */
   h += '<div class="kp-zone-title"><span class="dot"></span><b>今日脉冲</b><span>'+(todayCount ? todayCount+' 条增量 · '+gtFull : '今日待更新')+'</span></div>';
   if (items.length) {
     h += '<div class="kp-tl">';
     items.forEach(function(it, i){
-      var kind = /新建|新增|新建，/.test(it.title) ? 'new' : (/更新|累计|推进|运行/.test(it.title) ? 'upd' : 'case');
-      var kindName = kind==='new'?'新建':(kind==='upd'?'更新':'进展');
-      h += '<div class="kp-item" style="animation-delay:'+(i*0.06)+'s" onclick="openDailyItem('+i+')"><h4>'+escapeHtml(it.title)+'</h4>'+(it.desc?'<p>'+escapeHtml(it.desc)+'</p>':'')+'<div class="kp-meta"><span class="kp-chip '+(kind==='new'?'new':kind==='upd'?'upd':'case')+'">'+kindName+'</span><span class="kp-chip grn">'+(d.date||'')+'</span><span class="kp-go">›</span></div></div>';
+      var st = it.taskId ? taskStatusOf(it.taskId) : '';
+      var stName = st === 'in_progress' ? '进行中' : (st === 'todo' ? '待办' : (st === 'in_review' ? '审核中' : (st === 'blocked' ? '阻塞' : '')));
+      var stCls = st === 'in_progress' ? 'blue' : (st === 'todo' ? 'violet' : (st === 'in_review' ? 'amber' : (st === 'blocked' ? 'red' : '')));
+      h += '<div class="kp-item" style="animation-delay:'+(i*0.06)+'s" onclick="openDailyItem('+i+')">';
+      h += '<div class="kp-meta" style="margin-bottom:6px;margin-top:0"><span class="kind-tag '+(it.task?'task':'know')+'">'+(it.task?'任务进展':'知识增长')+'</span>';
+      if (it.taskId && st) h += '<span class="kp-chip '+stCls+'">'+it.taskId+' · '+stName+'</span>';
+      else if (it.taskId) h += '<span class="kp-chip new">'+it.taskId+'</span>';
+      h += '</div>';
+      h += '<h4>'+escapeHtml(it.title)+'</h4>';
+      if (it.desc) h += '<p>'+escapeHtml(it.desc)+'</p>';
+      h += '<div class="kp-meta">';
+      if (it.rel.length) h += '<span class="kp-rel" onclick="event.stopPropagation();openGraphNodeByPath(\''+it.rel[0].path.replace(/'/g,"\\'")+'\')">🔗 <span class="rp">'+escapeHtml(it.rel[0].title)+'</span></span>';
+      h += '<span class="kp-chip grn">'+(d.date||'')+'</span><span class="kp-go">›</span></div></div>';
     });
     h += '</div>';
   } else {
@@ -1327,6 +1412,41 @@ function renderToday() {
   h += '<div class="kp-evo"><div class="kp-evo-head"><div class="ei">📈</div><b>每日知识增量</b><span>'+weekPages+' 页更新</span></div><div class="kp-bars">'+bars+'</div><div class="kp-evo-foot"><div class="kp-mini"><div class="v">'+weekPages+'</div><div class="l">本周更新页</div></div><div class="kp-mini"><div class="v">'+weekLink+'</div><div class="l">本周新链接</div></div><div class="kp-mini"><div class="v">'+totalNodes+'</div><div class="l">四专题节点</div></div></div></div>';
   var wr = OBSIDIAN_DATA.weeklyReview;
   if (wr) h += '<div class="kp-review" onclick="showWeeklyReview()"><span class="reyebrow">本周复盘 · '+escapeHtml(wr.date)+'</span><h4>'+escapeHtml(wr.title)+'</h4><span class="rarrow">›</span></div>';
+
+  /* —— 任务面板：智能体协作进展（编译时快照，与知识流并行） —— */
+  if (ts) {
+    h += '<div class="kp-zone-title"><span class="dot"></span><b>任务面板</b><span>进行中 '+ts.summary.in_progress+' · 快照 '+escapeHtml(ts.fetchedAt)+'</span></div>';
+    h += '<div class="kp-taskbar">';
+    h += '<div class="kt-head"><div class="ei">📋</div><b>智能体协作面板</b><span>'+ts.total+' 张卡</span></div>';
+    var segs = [
+      ['in_progress', ts.summary.in_progress || 0],
+      ['todo', ts.summary.todo || 0],
+      ['in_review', ts.summary.in_review || 0],
+      ['blocked', ts.summary.blocked || 0]
+    ];
+    var activeTotal = segs.reduce(function(a, s){ return a + s[1]; }, 0);
+    if (activeTotal) {
+      h += '<div class="kt-strip">';
+      segs.forEach(function(s){ if (s[1]) h += '<div class="kt-seg '+s[0]+'" style="width:'+Math.round(s[1]/activeTotal*100)+'%"></div>'; });
+      h += '</div>';
+    }
+    h += '<div class="kt-stats">';
+    h += '<div class="kt-stat"><div class="v blue">'+(ts.summary.in_progress||0)+'</div><div class="l">进行中</div></div>';
+    h += '<div class="kt-stat"><div class="v violet">'+(ts.summary.todo||0)+'</div><div class="l">待办</div></div>';
+    h += '<div class="kt-stat"><div class="v amber">'+(ts.summary.in_review||0)+'</div><div class="l">审核中</div></div>';
+    h += '<div class="kt-stat"><div class="v red">'+(ts.summary.blocked||0)+'</div><div class="l">阻塞</div></div>';
+    h += '</div>';
+    if (ts.recent && ts.recent.length) {
+      h += '<div class="kt-list">';
+      ts.recent.forEach(function(t){
+        var cls = t.status === 'in_progress' ? 'blue' : (t.status === 'todo' ? 'violet' : (t.status === 'in_review' ? 'amber' : 'red'));
+        var name = t.status === 'in_progress' ? '进行中' : (t.status === 'todo' ? '待办' : (t.status === 'in_review' ? '审核中' : '阻塞'));
+        h += '<div class="kt-item"><span class="kt-id">'+escapeHtml(t.id)+'</span><b>'+escapeHtml(t.title)+'</b><span class="kt-st '+cls+'">'+name+'</span><span class="kt-who">'+escapeHtml(t.assignee)+'</span></div>';
+      });
+      h += '</div>';
+    }
+    h += '</div>';
+  }
 
   /* —— 专题星系：渐变宫格 —— */
   h += '<div class="kp-zone-title" style="cursor:pointer" onclick="switchTab(\'topic\')"><span class="dot"></span><b>专题星系</b><span>查看全部 ›</span></div>';

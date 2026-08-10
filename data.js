@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-10",
- "generatedTime": "2026-08-10 12:47",
+ "generatedTime": "2026-08-10 14:23",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 128,
- "weeklyChanges": 1152,
+ "weeklyPages": 129,
+ "weeklyChanges": 1160,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-09｜AI知识增量整理.md",
  "topics": [
@@ -17,7 +17,7 @@ window.OBSIDIAN_DATA = {
    "name": "企业AI与智能体商业化",
    "key": "enterprise",
    "icon": "🏢",
-   "count": 79
+   "count": 80
   },
   {
    "name": "AI产业链与数字基础设施",
@@ -1768,7 +1768,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md",
    "title": "己未文化AI落地：首次接触沟通作战卡（测试版）",
-   "updated": "2026-08-09",
+   "updated": "2026-08-10",
    "topic": "enterprise",
    "links": [
     "知识流水线/知识流水线",
@@ -1786,7 +1786,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md"
    ],
    "desc": "上级：知识流水线/知识流水线",
-   "wordCount": 4956
+   "wordCount": 6526
   },
   {
    "path": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
@@ -2306,6 +2306,25 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
    "wordCount": 3517
+  },
+  {
+   "path": "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md",
+   "title": "腾讯FDE模式行业观察与实践报告研究",
+   "updated": "2026-08-10",
+   "topic": "enterprise",
+   "links": [
+    "企业AI与智能体商业化专题",
+    "零一万物FDE与企业AI落地模式",
+    "FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "FDE商业级智能体交付框架",
+    "FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "FDE搭建智能体落地：企业分级、平台选型与合规交付",
+    "生产级AI Agent知识体系总览：层级·特性·术语",
+    "可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁"
+   ],
+   "backlinks": [],
+   "desc": "上级：企业AI与智能体商业化专题",
+   "wordCount": 3636
   },
   {
    "path": "企业AI与智能体商业化/腾讯Marvis与操作系统级Agent产品思维.md",
@@ -4182,12 +4201,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 70,
+   "matched": 71,
    "status": "已形成"
   },
   {
    "name": "商业化与组织能力",
-   "matched": 57,
+   "matched": 58,
    "status": "已形成"
   }
  ],
@@ -4381,5 +4400,59 @@ window.OBSIDIAN_DATA = {
    ],
    "wordCount": 26705
   }
- ]
+ ],
+ "tasks": {
+  "summary": {
+   "in_progress": 8,
+   "todo": 4,
+   "in_review": 1,
+   "blocked": 2
+  },
+  "recent": [
+   {
+    "id": "KNOWLEDGEPIP-84",
+    "title": "腾讯FDE报告研究＋生产级AI Agent工程化知识录入",
+    "status": "in_progress",
+    "priority": "medium",
+    "assignee": "Codex Agent"
+   },
+   {
+    "id": "KNOWLEDGEPIP-80",
+    "title": "己未文化AI落地沟通推进",
+    "status": "todo",
+    "priority": "medium",
+    "assignee": "Oliver（千问办公）"
+   },
+   {
+    "id": "KNOWLEDGEPIP-83",
+    "title": "知识工作台前端重构与炫酷化改版",
+    "status": "in_progress",
+    "priority": "high",
+    "assignee": "Oliver（千问办公）"
+   },
+   {
+    "id": "KNOWLEDGEPIP-79",
+    "title": "Codex 的内部合作机制",
+    "status": "in_progress",
+    "priority": "urgent",
+    "assignee": "伊森（WorkBuddy）"
+   },
+   {
+    "id": "KNOWLEDGEPIP-72",
+    "title": "Agent Ontology 1.0 运行数据库与闭环落地",
+    "status": "in_review",
+    "priority": "high",
+    "assignee": "Codex Agent"
+   },
+   {
+    "id": "KNOWLEDGEPIP-71",
+    "title": "Agent Ontology 1.0 动态能力本体与自动路由",
+    "status": "in_progress",
+    "priority": "high",
+    "assignee": "Codex Agent"
+   }
+  ],
+  "total": 61,
+  "fetchedAt": "2026-08-10T14:23:08"
+ }
 };

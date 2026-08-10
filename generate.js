@@ -420,8 +420,39 @@ function nowInChina() {
   return new Date().toLocaleString('sv-SE', { timeZone: 'Asia/Shanghai', hour12: false }).replace(' ', 'T');
 }
 
+/* 编译时拉取 Taskboard 任务快照（本地服务），供前端静态展示任务进展；失败容错返回 null */
+async function fetchTasksSnapshot() {
+  const url = 'http://127.0.0.1:47823/api/tasks?projectId=knowledge-pipeline';
+  try {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 2500);
+    const res = await fetch(url, { signal: controller.signal });
+    clearTimeout(timer);
+    if (!res.ok) return null;
+    const data = await res.json();
+    const tasks = data.tasks || [];
+    const activeStatus = ['in_progress', 'todo', 'in_review', 'blocked'];
+    const summary = {};
+    activeStatus.forEach(s => { summary[s] = tasks.filter(t => t.status === s).length; });
+    const recent = tasks
+      .filter(t => activeStatus.includes(t.status))
+      .sort((a, b) => (b.updatedAt || '').localeCompare(a.updatedAt || ''))
+      .slice(0, 6)
+      .map(t => ({
+        id: t.identifier || '',
+        title: String(t.title || '').replace(/[（(](待办|进行中|已入库待审核|审核整理|待审核|阻塞)[）)]\s*$/, '').replace(/^审核(?=\S)/, '').trim(),
+        status: t.status,
+        priority: t.priority || '',
+        assignee: (t.assignee && t.assignee.name) || '',
+      }));
+    return { summary, recent, total: tasks.length, fetchedAt: nowInChina() };
+  } catch (e) {
+    return null;
+  }
+}
+
 // ========== 主流程 ==========
-function build() {
+async function build() {
   const nowChina = nowInChina();
   const graph = {
     generatedAt: nowChina.slice(0, 10),
@@ -481,6 +512,7 @@ function build() {
   const weeklyReview = parseWeeklyReview();
   const architectureLayers = buildArchitectureLayers(graph.nodes);
   const questionTopics = parseQuestionTopics();
+  const tasksSnapshot = await fetchTasksSnapshot();
 
   const data = {
     generatedAt: graph.generatedAt,
@@ -501,6 +533,7 @@ function build() {
     weeklyReview,
     architectureLayers,
     questionTopics,
+    tasks: tasksSnapshot,
   };
 
   // 拆分：data.js 只放元数据（不含正文，首屏秒开），docs.js 放正文（延迟加载）
@@ -549,4 +582,7 @@ function build() {
   console.log('✅ 生成完成:', JSON.stringify(stats, null, 2));
 }
 
-build();
+build().catch(err => {
+  console.error('❌ 生成失败:', err.message);
+  process.exit(1);
+});
