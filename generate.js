@@ -163,7 +163,11 @@ function parseMD(filePath) {
  */
 function mdToHtml(md) {
   if (!md) return '';
-  let text = md.replace(/^---[\s\S]*?---/m, '').trim();
+  // 2026-08-12 修复：原写法再次执行 /^---[\s\S]*?---/m 删除 frontmatter，但调用方传入的 md
+  // 都已去掉 frontmatter（parseFile 的 body、sectionText 的节内容），导致正文第一个 --- 到
+  // 第二个 --- 之间的首节被整节误删（KNOWLEDGEPIP-88）。去掉二次 strip，正文 --- 交由下方
+  // 水平线分支正常渲染为 <hr>。
+  let text = md.trim();
   // 移除 YAML 之后的空行前导
   let html = '';
   let inCode = false;
