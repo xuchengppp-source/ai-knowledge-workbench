@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-11",
- "generatedTime": "2026-08-11 13:36",
+ "generatedTime": "2026-08-11 22:54",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 129,
- "weeklyChanges": 1160,
+ "weeklyPages": 132,
+ "weeklyChanges": 1184,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-10｜AI知识增量整理.md",
  "topics": [
@@ -11,13 +11,13 @@ window.OBSIDIAN_DATA = {
    "name": "AI Agent工程知识",
    "key": "agent",
    "icon": "🤖",
-   "count": 22
+   "count": 23
   },
   {
    "name": "企业AI与智能体商业化",
    "key": "enterprise",
    "icon": "🏢",
-   "count": 80
+   "count": 82
   },
   {
    "name": "AI产业链与数字基础设施",
@@ -402,6 +402,19 @@ window.OBSIDIAN_DATA = {
    "wordCount": 5726
   },
   {
+   "path": "AI Agent工程知识/WorkBuddy助理配置与记忆管理手册.md",
+   "title": "WorkBuddy 助理配置与记忆管理手册",
+   "updated": "2026-08-11",
+   "topic": "agent",
+   "links": [
+    "生产级AI Agent记忆系统与Context调度",
+    "AI Agent工程知识专题"
+   ],
+   "backlinks": [],
+   "desc": "理解 WorkBuddy 助理的前提是区分三层存储，它们互不影响：",
+   "wordCount": 3558
+  },
+  {
    "path": "AI Agent工程知识/三层知识库与RAG基础设施分型.md",
    "title": "三层知识库与 RAG 基础设施分型",
    "updated": "2026-08-08",
@@ -702,6 +715,7 @@ window.OBSIDIAN_DATA = {
     "FDE商业级智能体交付框架"
    ],
    "backlinks": [
+    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
     "企业AI与智能体商业化/零一万物FDE与企业AI落地模式.md",
     "企业AI与智能体商业化/零一万物企业AI落地专题.md"
    ],
@@ -889,6 +903,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
     "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
     "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
+    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
+    "企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
     "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
     "企业AI与智能体商业化/知识库索引.md",
     "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
@@ -918,7 +934,8 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/AI Agent专业术语词典.md",
     "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现.md",
     "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象.md",
-    "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md"
+    "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md",
+    "企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md"
    ],
    "desc": "日期：2026-06-17（IMA 笔记），2026-06-18 同步至 Obsidian",
    "wordCount": 18013
@@ -1197,7 +1214,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
    "title": "企业 AI 与智能体商业化专题",
-   "updated": "2026-08-08",
+   "updated": "2026-08-11",
    "topic": "enterprise",
    "links": [
     "徐总的知识库",
@@ -1234,6 +1251,8 @@ window.OBSIDIAN_DATA = {
     "餐饮客户已有基础设施后的AI Agent",
     "企业AI从试点到可交付项目：商业化与组织落地实战",
     "企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "游戏公司AI组织落地：从流程提效到生产方式重构",
+    "游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
     "黄仁勋Harness工程论：企业AI落地的范式转移",
     "AI数字化招标与合规治理框架",
     "原始资料/行业视频原稿：交付结果而非交付工具，Vibe Coding打开企业付费意愿",
@@ -1288,6 +1307,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
     "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
     "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md",
+    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
+    "企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
     "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
     "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
     "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
@@ -1309,7 +1330,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识流水线.md"
    ],
    "desc": "上级：徐总的知识库",
-   "wordCount": 18039
+   "wordCount": 18238
   },
   {
    "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
@@ -1490,6 +1511,7 @@ window.OBSIDIAN_DATA = {
     "餐饮客户已有基础设施后的AI Agent"
    ],
    "backlinks": [
+    "企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
     "企业AI与智能体商业化/知识库索引.md",
     "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md"
    ],
@@ -1768,7 +1790,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md",
    "title": "己未文化AI落地：首次接触沟通作战卡（测试版）",
-   "updated": "2026-08-10",
+   "updated": "2026-08-11",
    "topic": "enterprise",
    "links": [
     "知识流水线/知识流水线",
@@ -1780,13 +1802,15 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务",
     "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
     "企业AI与智能体商业化/零一万物企业AI落地专题",
-    "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程"
+    "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程",
+    "企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆"
    ],
    "backlinks": [
-    "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md"
+    "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
+    "企业AI与智能体商业化/知识库索引.md"
    ],
    "desc": "上级：知识流水线/知识流水线",
-   "wordCount": 6526
+   "wordCount": 8978
   },
   {
    "path": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
@@ -1933,6 +1957,48 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
    "wordCount": 1782
+  },
+  {
+   "path": "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
+   "title": "游戏公司 AI 组织落地：从流程提效到生产方式重构",
+   "updated": "2026-08-11",
+   "topic": "enterprise",
+   "links": [
+    "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地",
+    "企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
+    "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究",
+    "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移",
+    "原始资料/ChatGPT对话｜游戏公司AI组织落地｜2026-08-11"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
+    "企业AI与智能体商业化/知识库索引.md"
+   ],
+   "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
+   "wordCount": 5767
+  },
+  {
+   "path": "企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
+   "title": "游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
+   "updated": "2026-08-11",
+   "topic": "enterprise",
+   "links": [
+    "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构",
+    "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
+    "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md",
+    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md"
+   ],
+   "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
+   "wordCount": 4551
   },
   {
    "path": "企业AI与智能体商业化/甘食记Ontology对象网络设计.md",
@@ -2218,10 +2284,12 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/知识库索引.md",
    "title": "知识库索引（快速查找版）",
-   "updated": "2026-08-08",
+   "updated": "2026-08-11",
    "topic": "enterprise",
    "links": [
     "徐总的知识库",
+    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构",
+    "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版",
     "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
     "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作",
     "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架",
@@ -2242,7 +2310,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "上级：徐总的知识库",
-   "wordCount": 26956
+   "wordCount": 27558
   },
   {
    "path": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
@@ -2310,7 +2378,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md",
    "title": "腾讯FDE模式行业观察与实践报告研究",
-   "updated": "2026-08-10",
+   "updated": "2026-08-11",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2320,11 +2388,16 @@ window.OBSIDIAN_DATA = {
     "FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
     "FDE搭建智能体落地：企业分级、平台选型与合规交付",
     "生产级AI Agent知识体系总览：层级·特性·术语",
-    "可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁"
+    "可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
+    "徐总每日随记/当日记录/2026-08-11",
+    "原始资料/待整理｜2026-08-11｜访谈｜李开复AI现状与未来深度对话",
+    "AI时代的FDE变体：从Palantir驻场模式到Agent工厂"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md"
+   ],
    "desc": "上级：企业AI与智能体商业化专题",
-   "wordCount": 3636
+   "wordCount": 6193
   },
   {
    "path": "企业AI与智能体商业化/腾讯Marvis与操作系统级Agent产品思维.md",
@@ -2626,6 +2699,8 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [
     "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
+    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
+    "企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
     "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md",
     "知识流水线/知识库健康巡检.md"
    ],
@@ -4238,7 +4313,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "记忆与上下文",
-   "matched": 2,
+   "matched": 4,
    "status": "正在形成"
   },
   {
@@ -4253,12 +4328,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 71,
+   "matched": 73,
    "status": "已形成"
   },
   {
    "name": "商业化与组织能力",
-   "matched": 58,
+   "matched": 60,
    "status": "已形成"
   }
  ],
@@ -4456,25 +4531,11 @@ window.OBSIDIAN_DATA = {
  "tasks": {
   "summary": {
    "in_progress": 8,
-   "todo": 4,
-   "in_review": 1,
-   "blocked": 2
+   "todo": 5,
+   "in_review": 0,
+   "blocked": 0
   },
   "recent": [
-   {
-    "id": "KP-37",
-    "title": "解决华为手机 Google 认证问题（徐总个人事项）",
-    "status": "blocked",
-    "priority": "high",
-    "assignee": "徐总"
-   },
-   {
-    "id": "KP-9",
-    "title": "OpenClaw 跨渠道 MEMORY.md 实时同步机制",
-    "status": "blocked",
-    "priority": "medium",
-    "assignee": "克里斯"
-   },
    {
     "id": "KP-79",
     "title": "Codex 的内部合作机制",
@@ -4483,28 +4544,42 @@ window.OBSIDIAN_DATA = {
     "assignee": "伊森"
    },
    {
-    "id": "KP-47",
-    "title": "Knowledge OS 通用 Ontology 底座设计",
+    "id": "KP-87",
+    "title": "风际游戏 AI 化落地推进",
     "status": "todo",
     "priority": "high",
     "assignee": "Codex"
    },
    {
-    "id": "KP-86",
-    "title": "任务面板议题看板 V2 还原改造",
-    "status": "in_review",
+    "id": "KP-82",
+    "title": "三级通道机制测试（自然运行 1 周）",
+    "status": "todo",
+    "priority": "high",
+    "assignee": "阿检（巡检）"
+   },
+   {
+    "id": "KP-81",
+    "title": "每日例会（持续进行）",
+    "status": "in_progress",
+    "priority": "high",
+    "assignee": "伊森"
+   },
+   {
+    "id": "KP-71",
+    "title": "Agent Ontology 1.0 动态能力本体与自动路由",
+    "status": "in_progress",
     "priority": "high",
     "assignee": "Codex"
    },
    {
-    "id": "KP-28",
-    "title": "2026-08-13~14 沈阳美签面签准备（徐驰 + 徐梓航）",
-    "status": "in_progress",
+    "id": "KP-73",
+    "title": "Obsidian 知识库重建计划｜方案评估",
+    "status": "todo",
     "priority": "high",
-    "assignee": "徐总"
+    "assignee": "Codex（主控）"
    }
   ],
-  "total": 62,
-  "fetchedAt": "2026年8月11日 13:36"
+  "total": 63,
+  "fetchedAt": "2026年8月11日 22:54"
  }
 };
