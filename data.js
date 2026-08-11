@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-12",
- "generatedTime": "2026-08-12 00:29",
+ "generatedTime": "2026-08-12 00:36",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 130,
  "weeklyChanges": 1168,
@@ -3457,7 +3457,7 @@ window.OBSIDIAN_DATA = {
    "links": [],
    "backlinks": [],
    "desc": "YouTube 频道「持蓉易見」(Chirong Insight,26 订阅者),定位\"易經與東方智慧科普\",简介自述为\"專為全球華人及中華文化愛好者打造的易學科普欄目\",卖点是\"",
-   "wordCount": 5324
+   "wordCount": 6444
   },
   {
    "path": "知识流水线/知识库健康巡检.md",
@@ -4562,7 +4562,7 @@ window.OBSIDIAN_DATA = {
  "tasks": {
   "summary": {
    "in_progress": 9,
-   "todo": 7,
+   "todo": 5,
    "in_review": 0,
    "blocked": 0
   },
@@ -4572,13 +4572,6 @@ window.OBSIDIAN_DATA = {
     "title": "Codex 的内部合作机制",
     "status": "in_progress",
     "priority": "urgent",
-    "assignee": "伊森"
-   },
-   {
-    "id": "KP-88",
-    "title": "工作台 generate.js 误删含---分隔线文档的首节",
-    "status": "todo",
-    "priority": "high",
     "assignee": "伊森"
    },
    {
@@ -4608,9 +4601,16 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "high",
     "assignee": "伊森"
+   },
+   {
+    "id": "KP-71",
+    "title": "Agent Ontology 1.0 动态能力本体与自动路由",
+    "status": "in_progress",
+    "priority": "high",
+    "assignee": "Codex"
    }
   ],
   "total": 66,
-  "fetchedAt": "2026年8月12日 00:29"
+  "fetchedAt": "2026年8月12日 00:36"
  }
 };
