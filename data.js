@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-11",
- "generatedTime": "2026-08-11 23:05",
+ "generatedTime": "2026-08-11 23:11",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 132,
  "weeklyChanges": 1184,
@@ -1812,7 +1812,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/知识库索引.md"
    ],
    "desc": "text",
-   "wordCount": 8204
+   "wordCount": 8911
   },
   {
    "path": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
@@ -4545,6 +4545,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 63,
-  "fetchedAt": "2026年8月11日 23:05"
+  "fetchedAt": "2026年8月11日 23:11"
  }
 };
