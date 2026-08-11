@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-11",
- "generatedTime": "2026-08-11 23:11",
+ "generatedTime": "2026-08-11 23:29",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 132,
  "weeklyChanges": 1184,
@@ -906,7 +906,6 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
     "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
     "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
-    "企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
     "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
     "企业AI与智能体商业化/知识库索引.md",
     "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
@@ -936,8 +935,7 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/AI Agent专业术语词典.md",
     "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现.md",
     "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象.md",
-    "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md",
-    "企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md"
+    "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md"
    ],
    "desc": "日期：2026-06-17（IMA 笔记），2026-06-18 同步至 Obsidian",
    "wordCount": 18013
@@ -1254,7 +1252,7 @@ window.OBSIDIAN_DATA = {
     "企业AI从试点到可交付项目：商业化与组织落地实战",
     "企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
     "游戏公司AI组织落地：从流程提效到生产方式重构",
-    "游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
     "黄仁勋Harness工程论：企业AI落地的范式转移",
     "AI数字化招标与合规治理框架",
     "原始资料/行业视频原稿：交付结果而非交付工具，Vibe Coding打开企业付费意愿",
@@ -1332,7 +1330,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识流水线.md"
    ],
    "desc": "上级：徐总的知识库",
-   "wordCount": 18238
+   "wordCount": 18269
   },
   {
    "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
@@ -1513,7 +1511,6 @@ window.OBSIDIAN_DATA = {
     "餐饮客户已有基础设施后的AI Agent"
    ],
    "backlinks": [
-    "企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
     "企业AI与智能体商业化/知识库索引.md",
     "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md"
    ],
@@ -1989,18 +1986,17 @@ window.OBSIDIAN_DATA = {
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "徐总问题专题库/00_问题专题库总览",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
     "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构",
-    "企业AI与智能体商业化/FDE商业级智能体交付框架",
-    "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
-    "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论",
-    "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移"
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆"
    ],
    "backlinks": [
     "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md",
     "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md"
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
-   "wordCount": 4551
+   "wordCount": 832
   },
   {
    "path": "企业AI与智能体商业化/甘食记Ontology对象网络设计.md",
@@ -2292,6 +2288,7 @@ window.OBSIDIAN_DATA = {
     "徐总的知识库",
     "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构",
     "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆",
     "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
     "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作",
     "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架",
@@ -2312,7 +2309,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "上级：徐总的知识库",
-   "wordCount": 27558
+   "wordCount": 27642
   },
   {
    "path": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
@@ -2702,7 +2699,6 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
     "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
-    "企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
     "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md",
     "知识流水线/知识库健康巡检.md"
    ],
@@ -4324,6 +4320,66 @@ window.OBSIDIAN_DATA = {
    "wordCount": 462
   },
   {
+   "path": "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
+   "title": "游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
+   "date": "2026-08-11",
+   "updated": "2026-08-11",
+   "category": "企业AI与商业化",
+   "status": "已回答 → 已入库",
+   "questionType": "",
+   "originalQuestion": "我觉得把游戏公司升级成了这个，学出来的一些通用的经验，你放在那个问题专题库里面，好吧。游戏公司的这个只是作为一个案例。 游戏公司 AI 落地通用执行框架不就是这个问题专题库吗？然后你现在通用经验进的这个问题专题库的“企业 AI 落地为什么会卡在员工执行习惯”，这个应该作为它的一个附属问题。",
+   "direction": "本页的主问题不是“风际游戏这一家公司怎么做 AI”，也不是单独讨论“员工为什么不配合 AI”。真正要沉淀的是： 因此： 游戏公司是案例来源； “员工执行习惯与组织记忆”是本框架下的子问题； 主文档应放在问题专题库，作为可迁移到己未文化、餐饮、科技咨询、内容生产等客户的通用执行框架。",
+   "directionHtml": "<p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本页的主问题不是“风际游戏这一家公司怎么做 AI”，也不是单独讨论“员工为什么不配合 AI”。真正要沉淀的是：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">从游戏公司走访案例中，能抽象出一套怎样的企业 AI 落地通用执行框架？\n\n这个框架如何处理生产侧库、低摩擦留痕、员工执行习惯、会议决策、组织记忆和 FDE 首期交付？\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">因此：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">游戏公司是案例来源；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">“员工执行习惯与组织记忆”是本框架下的子问题；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">主文档应放在问题专题库，作为可迁移到己未文化、餐饮、科技咨询、内容生产等客户的通用执行框架。</li></ul>",
+   "summary": "本页的主问题不是“风际游戏这一家公司怎么做 AI”，也不是单独讨论“员工为什么不配合 AI”。真正要沉淀的是： 因此： 游戏公司是案例来源； “员工执行习惯与组织记忆”是本框架下的子问题； 主文档应放在问题专题库，作为可迁移到己未文化、餐饮、科技咨询、内容生产等客户的通用执行框架。",
+   "answerHtml": "",
+   "formalNotes": [
+    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构",
+    "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版",
+    "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）"
+   ],
+   "rawMaterials": [
+    "原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地",
+    "企业AI与智能体商业化/原始资料/ChatGPT对话｜游戏公司AI组织落地｜2026-08-11"
+   ],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "徐总问题专题库/00_问题专题库总览",
+    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构",
+    "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版",
+    "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆",
+    "原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地",
+    "企业AI与智能体商业化/原始资料/ChatGPT对话｜游戏公司AI组织落地｜2026-08-11"
+   ],
+   "wordCount": 2993
+  },
+  {
+   "path": "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆.md",
+   "title": "企业AI落地为什么会卡在员工执行习惯与组织记忆",
+   "date": "2026-08-11",
+   "updated": "2026-08-11",
+   "category": "企业AI与商业化",
+   "status": "已并入主问题",
+   "questionType": "",
+   "originalQuestion": "",
+   "direction": "",
+   "directionHtml": "",
+   "summary": "上级：徐总问题专题库/06企业AI与商业化/20260811游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
+   "answerHtml": "",
+   "formalNotes": [],
+   "rawMaterials": [],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
+    "徐总问题专题库/00_问题专题库总览"
+   ],
+   "wordCount": 504
+  },
+  {
    "path": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度.md",
    "title": "AI智能体的工程化与前端交付的困难度",
    "date": "2026-08-05",
@@ -4496,7 +4552,7 @@ window.OBSIDIAN_DATA = {
  "tasks": {
   "summary": {
    "in_progress": 9,
-   "todo": 4,
+   "todo": 5,
    "in_review": 0,
    "blocked": 0
   },
@@ -4506,6 +4562,13 @@ window.OBSIDIAN_DATA = {
     "title": "Codex 的内部合作机制",
     "status": "in_progress",
     "priority": "urgent",
+    "assignee": "伊森"
+   },
+   {
+    "id": "KP-88",
+    "title": "工作台 generate.js 误删含---分隔线文档的首节",
+    "status": "todo",
+    "priority": "high",
     "assignee": "伊森"
    },
    {
@@ -4535,16 +4598,9 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "high",
     "assignee": "伊森"
-   },
-   {
-    "id": "KP-71",
-    "title": "Agent Ontology 1.0 动态能力本体与自动路由",
-    "status": "in_progress",
-    "priority": "high",
-    "assignee": "Codex"
    }
   ],
-  "total": 63,
-  "fetchedAt": "2026年8月11日 23:11"
+  "total": 64,
+  "fetchedAt": "2026年8月11日 23:29"
  }
 };
