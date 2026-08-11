@@ -462,7 +462,7 @@ async function fetchTasksSnapshot() {
       .map(t => {
         const rawAssignee = (t.assignee && t.assignee.name) || '';
         return {
-          id: t.identifier || '',
+          id: String(t.identifier || '').replace(/^KNOWLEDGEPIP-/i, 'KP-'),
           title: String(t.title || '').replace(/[（(](待办|进行中|已入库待审核|审核整理|待审核|阻塞)[）)]\s*$/, '').replace(/^审核(?=\S)/, '').trim(),
           status: t.status,
           priority: t.priority || '',

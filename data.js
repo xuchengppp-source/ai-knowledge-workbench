@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-11",
- "generatedTime": "2026-08-11 13:11",
+ "generatedTime": "2026-08-11 13:14",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 129,
  "weeklyChanges": 1160,
@@ -4462,42 +4462,42 @@ window.OBSIDIAN_DATA = {
   },
   "recent": [
    {
-    "id": "KNOWLEDGEPIP-37",
+    "id": "KP-37",
     "title": "解决华为手机 Google 认证问题（徐总个人事项）",
     "status": "blocked",
     "priority": "high",
     "assignee": "徐总"
    },
    {
-    "id": "KNOWLEDGEPIP-9",
+    "id": "KP-9",
     "title": "OpenClaw 跨渠道 MEMORY.md 实时同步机制",
     "status": "blocked",
     "priority": "medium",
     "assignee": "克里斯"
    },
    {
-    "id": "KNOWLEDGEPIP-79",
+    "id": "KP-79",
     "title": "Codex 的内部合作机制",
     "status": "in_progress",
     "priority": "urgent",
     "assignee": "伊森"
    },
    {
-    "id": "KNOWLEDGEPIP-86",
+    "id": "KP-86",
     "title": "任务面板议题看板 V2 还原改造",
     "status": "in_review",
     "priority": "high",
     "assignee": "Codex"
    },
    {
-    "id": "KNOWLEDGEPIP-47",
+    "id": "KP-47",
     "title": "Knowledge OS 通用 Ontology 底座设计",
     "status": "todo",
     "priority": "high",
     "assignee": "Codex"
    },
    {
-    "id": "KNOWLEDGEPIP-28",
+    "id": "KP-28",
     "title": "2026-08-13~14 沈阳美签面签准备（徐驰 + 徐梓航）",
     "status": "in_progress",
     "priority": "high",
@@ -4505,6 +4505,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 62,
-  "fetchedAt": "2026年8月11日 13:11"
+  "fetchedAt": "2026年8月11日 13:14"
  }
 };
