@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-11",
- "generatedTime": "2026-08-11 13:14",
+ "generatedTime": "2026-08-11 13:26",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 129,
  "weeklyChanges": 1160,
@@ -4483,16 +4483,16 @@ window.OBSIDIAN_DATA = {
     "assignee": "伊森"
    },
    {
-    "id": "KP-86",
-    "title": "任务面板议题看板 V2 还原改造",
-    "status": "in_review",
+    "id": "KP-47",
+    "title": "Knowledge OS 通用 Ontology 底座设计",
+    "status": "todo",
     "priority": "high",
     "assignee": "Codex"
    },
    {
-    "id": "KP-47",
-    "title": "Knowledge OS 通用 Ontology 底座设计",
-    "status": "todo",
+    "id": "KP-86",
+    "title": "任务面板议题看板 V2 还原改造",
+    "status": "in_review",
     "priority": "high",
     "assignee": "Codex"
    },
@@ -4505,6 +4505,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 62,
-  "fetchedAt": "2026年8月11日 13:14"
+  "fetchedAt": "2026年8月11日 13:26"
  }
 };
