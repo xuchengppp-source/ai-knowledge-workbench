@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-08-10",
- "generatedTime": "2026-08-10 23:49",
+ "generatedAt": "2026-08-11",
+ "generatedTime": "2026-08-11 13:11",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 129,
  "weeklyChanges": 1160,
@@ -4457,54 +4457,54 @@ window.OBSIDIAN_DATA = {
   "summary": {
    "in_progress": 8,
    "todo": 4,
-   "in_review": 0,
+   "in_review": 1,
    "blocked": 2
   },
   "recent": [
    {
-    "id": "KNOWLEDGEPIP-47",
-    "title": "Knowledge OS 通用 Ontology 底座设计",
-    "status": "todo",
+    "id": "KNOWLEDGEPIP-37",
+    "title": "解决华为手机 Google 认证问题（徐总个人事项）",
+    "status": "blocked",
     "priority": "high",
-    "assignee": "Codex Agent"
+    "assignee": "徐总"
    },
    {
-    "id": "KNOWLEDGEPIP-28",
-    "title": "2026-08-13~14 沈阳美签面签准备（徐驰 + 徐梓航）",
-    "status": "in_progress",
-    "priority": "high",
-    "assignee": "本地用户"
-   },
-   {
-    "id": "KNOWLEDGEPIP-83",
-    "title": "知识工作台前端重构与炫酷化改版",
-    "status": "in_progress",
-    "priority": "high",
-    "assignee": "伊森（WorkBuddy）"
-   },
-   {
-    "id": "KNOWLEDGEPIP-84",
-    "title": "腾讯FDE报告研究＋生产级AI Agent工程化知识录入",
-    "status": "in_progress",
+    "id": "KNOWLEDGEPIP-9",
+    "title": "OpenClaw 跨渠道 MEMORY.md 实时同步机制",
+    "status": "blocked",
     "priority": "medium",
-    "assignee": "Codex Agent"
-   },
-   {
-    "id": "KNOWLEDGEPIP-80",
-    "title": "己未文化AI落地沟通推进",
-    "status": "todo",
-    "priority": "medium",
-    "assignee": "Oliver（千问办公）"
+    "assignee": "克里斯"
    },
    {
     "id": "KNOWLEDGEPIP-79",
     "title": "Codex 的内部合作机制",
     "status": "in_progress",
     "priority": "urgent",
-    "assignee": "伊森（WorkBuddy）"
+    "assignee": "伊森"
+   },
+   {
+    "id": "KNOWLEDGEPIP-86",
+    "title": "任务面板议题看板 V2 还原改造",
+    "status": "in_review",
+    "priority": "high",
+    "assignee": "Codex"
+   },
+   {
+    "id": "KNOWLEDGEPIP-47",
+    "title": "Knowledge OS 通用 Ontology 底座设计",
+    "status": "todo",
+    "priority": "high",
+    "assignee": "Codex"
+   },
+   {
+    "id": "KNOWLEDGEPIP-28",
+    "title": "2026-08-13~14 沈阳美签面签准备（徐驰 + 徐梓航）",
+    "status": "in_progress",
+    "priority": "high",
+    "assignee": "徐总"
    }
   ],
-  "total": 61,
-  "fetchedAt": "2026-08-10T23:49:27"
+  "total": 62,
+  "fetchedAt": "2026年8月11日 13:11"
  }
 };

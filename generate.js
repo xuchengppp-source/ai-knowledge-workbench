@@ -420,6 +420,25 @@ function nowInChina() {
   return new Date().toLocaleString('sv-SE', { timeZone: 'Asia/Shanghai', hour12: false }).replace(' ', 'T');
 }
 
+/* ISO(2026-08-10T23:49:27) → 中文(2026年8月10日 23:49) */
+function fmtChinaTime(iso) {
+  const m = iso.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/);
+  if (!m) return iso;
+  return m[1] + '年' + Number(m[2]) + '月' + Number(m[3]) + '日 ' + m[4] + ':' + m[5];
+}
+
+/* 负责人中文名统一（API 返回原始名，展示层用简称） */
+const ASSIGNEE_NAMES = {
+  'Codex Agent': 'Codex',
+  '本地用户': '徐总',
+  '伊森（WorkBuddy）': '伊森',
+  '伊森(WorkBuddy)': '伊森',
+  'Oliver（千问办公）': 'Oliver',
+  'Oliver(千问办公)': 'Oliver',
+  '克里斯（OpenClaw）': '克里斯',
+  '克里斯(OpenClaw)': '克里斯',
+};
+
 /* 编译时拉取 Taskboard 任务快照（本地服务），供前端静态展示任务进展；失败容错返回 null */
 async function fetchTasksSnapshot() {
   const url = 'http://127.0.0.1:47823/api/tasks?projectId=knowledge-pipeline';
@@ -434,18 +453,23 @@ async function fetchTasksSnapshot() {
     const activeStatus = ['in_progress', 'todo', 'in_review', 'blocked'];
     const summary = {};
     activeStatus.forEach(s => { summary[s] = tasks.filter(t => t.status === s).length; });
+    const prioRank = { blocked: 0, urgent: 1, high: 2, medium: 3 };
+    const rank = t => (t.status === 'blocked' ? 0 : (prioRank[t.priority] != null ? prioRank[t.priority] : 4));
     const recent = tasks
       .filter(t => activeStatus.includes(t.status))
-      .sort((a, b) => (b.updatedAt || '').localeCompare(a.updatedAt || ''))
+      .sort((a, b) => (rank(a) - rank(b)) || ((b.updatedAt || '').localeCompare(a.updatedAt || '')))
       .slice(0, 6)
-      .map(t => ({
-        id: t.identifier || '',
-        title: String(t.title || '').replace(/[（(](待办|进行中|已入库待审核|审核整理|待审核|阻塞)[）)]\s*$/, '').replace(/^审核(?=\S)/, '').trim(),
-        status: t.status,
-        priority: t.priority || '',
-        assignee: (t.assignee && t.assignee.name) || '',
-      }));
-    return { summary, recent, total: tasks.length, fetchedAt: nowInChina() };
+      .map(t => {
+        const rawAssignee = (t.assignee && t.assignee.name) || '';
+        return {
+          id: t.identifier || '',
+          title: String(t.title || '').replace(/[（(](待办|进行中|已入库待审核|审核整理|待审核|阻塞)[）)]\s*$/, '').replace(/^审核(?=\S)/, '').trim(),
+          status: t.status,
+          priority: t.priority || '',
+          assignee: ASSIGNEE_NAMES[rawAssignee] || rawAssignee,
+        };
+      });
+    return { summary, recent, total: tasks.length, fetchedAt: fmtChinaTime(nowInChina()) };
   } catch (e) {
     return null;
   }
