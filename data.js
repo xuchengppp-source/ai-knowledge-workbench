@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-11",
- "generatedTime": "2026-08-11 22:56",
+ "generatedTime": "2026-08-11 23:05",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 132,
  "weeklyChanges": 1184,
@@ -410,7 +410,9 @@ window.OBSIDIAN_DATA = {
     "生产级AI Agent记忆系统与Context调度",
     "AI Agent工程知识专题"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md"
+   ],
    "desc": "理解 WorkBuddy 助理的前提是区分三层存储，它们互不影响：",
    "wordCount": 3558
   },
@@ -1793,7 +1795,6 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-08-11",
    "topic": "enterprise",
    "links": [
-    "知识流水线/知识流水线",
     "知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作",
     "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
     "企业AI与智能体商业化/FDE业务需求访谈SOP",
@@ -1803,14 +1804,15 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
     "企业AI与智能体商业化/零一万物企业AI落地专题",
     "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程",
-    "企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆"
+    "企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
+    "AI Agent工程知识/WorkBuddy助理配置与记忆管理手册"
    ],
    "backlinks": [
     "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
     "企业AI与智能体商业化/知识库索引.md"
    ],
-   "desc": "上级：知识流水线/知识流水线",
-   "wordCount": 8978
+   "desc": "text",
+   "wordCount": 8204
   },
   {
    "path": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
@@ -3668,7 +3670,6 @@ window.OBSIDIAN_DATA = {
     "任务—Obsidian旧卡迁移清单"
    ],
    "backlinks": [
-    "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md",
     "知识流水线/AI知识学习与复盘工作台.md",
     "知识流水线/AI知识自动化整理入口.md",
     "知识流水线/B_知识蒸馏.md",
@@ -4544,6 +4545,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 63,
-  "fetchedAt": "2026年8月11日 22:57"
+  "fetchedAt": "2026年8月11日 23:05"
  }
 };
