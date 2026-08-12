@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-12",
- "generatedTime": "2026-08-12 00:36",
+ "generatedTime": "2026-08-12 11:34",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 130,
  "weeklyChanges": 1168,
@@ -3457,7 +3457,7 @@ window.OBSIDIAN_DATA = {
    "links": [],
    "backlinks": [],
    "desc": "YouTube 频道「持蓉易見」(Chirong Insight,26 订阅者),定位\"易經與東方智慧科普\",简介自述为\"專為全球華人及中華文化愛好者打造的易學科普欄目\",卖点是\"",
-   "wordCount": 6444
+   "wordCount": 7350
   },
   {
    "path": "知识流水线/知识库健康巡检.md",
@@ -4563,7 +4563,7 @@ window.OBSIDIAN_DATA = {
   "summary": {
    "in_progress": 9,
    "todo": 5,
-   "in_review": 0,
+   "in_review": 1,
    "blocked": 0
   },
   "recent": [
@@ -4610,7 +4610,7 @@ window.OBSIDIAN_DATA = {
     "assignee": "Codex"
    }
   ],
-  "total": 66,
-  "fetchedAt": "2026年8月12日 00:36"
+  "total": 67,
+  "fetchedAt": "2026年8月12日 11:34"
  }
 };
