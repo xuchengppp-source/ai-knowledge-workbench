@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-13",
- "generatedTime": "2026-08-13 02:35",
+ "generatedTime": "2026-08-13 08:27",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 135,
- "weeklyChanges": 1226,
+ "weeklyPages": 137,
+ "weeklyChanges": 1230,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-11｜AI知识增量整理.md",
  "topics": [
@@ -11,7 +11,7 @@ window.OBSIDIAN_DATA = {
    "name": "AI Agent工程知识",
    "key": "agent",
    "icon": "🤖",
-   "count": 23
+   "count": 25
   },
   {
    "name": "企业AI与智能体商业化",
@@ -475,6 +475,24 @@ window.OBSIDIAN_DATA = {
    "searchText": "WorkBuddy 助理配置与记忆管理手册 AI Agent工程知识/WorkBuddy助理配置与记忆管理手册.md 理解 WorkBuddy 助理的前提是区分三层存储，它们互不影响： 生产级AI Agent记忆系统与Context调度 AI Agent工程知识专题"
   },
   {
+   "path": "AI Agent工程知识/WorkBuddy智能体运营机制（Agent Ontology）.md",
+   "title": "WorkBuddy 智能体运营机制（Agent Ontology）",
+   "updated": "2026-08-12",
+   "topic": "agent",
+   "aliases": [],
+   "tags": [],
+   "links": [
+    "WorkBuddy助理配置与记忆管理手册",
+    "生产级AI Agent记忆系统与Context调度",
+    "AI Agent工程知识专题",
+    "全局记忆/00_总览"
+   ],
+   "backlinks": [],
+   "desc": "核心结论：性格、身份、记忆在文件里，不随对话框生命周期变化；对话框上下文是易失的；知识库结构不在注入范围内，必须通过索引定位。",
+   "wordCount": 2654,
+   "searchText": "WorkBuddy 智能体运营机制（Agent Ontology） AI Agent工程知识/WorkBuddy智能体运营机制（Agent Ontology）.md 核心结论：性格、身份、记忆在文件里，不随对话框生命周期变化；对话框上下文是易失的；知识库结构不在注入范围内，必须通过索引定位。 WorkBuddy助理配置与记忆管理手册 生产级AI Agent记忆系统与Context调度 AI Agent工程知识专题 全局记忆/00总览"
+  },
+  {
    "path": "AI Agent工程知识/三层知识库与RAG基础设施分型.md",
    "title": "三层知识库与 RAG 基础设施分型",
    "updated": "2026-08-08",
@@ -516,6 +534,19 @@ window.OBSIDIAN_DATA = {
    "desc": "text",
    "wordCount": 15750,
    "searchText": "整理稿｜ChatGPT 生产级 AI Agent 框架（20260611） AI Agent工程知识/原始讨论｜ChatGPT生产级AI Agent框架（20260611）.md text AI Agent工程知识框架 AI Agent专业术语词典 甘食记经营日报：从 Prompt 规则到 MCP 流程控制器 WorkBuddy稳定智能体架构搭建框架"
+  },
+  {
+   "path": "AI Agent工程知识/多智能体共享记忆：TencentDB Agent Memory 评估.md",
+   "title": "多智能体共享记忆：TencentDB Agent Memory 评估",
+   "updated": "2026-08-13",
+   "topic": "agent",
+   "aliases": [],
+   "tags": [],
+   "links": [],
+   "backlinks": [],
+   "desc": "团队级 Agent 记忆中枢：把对话、文档、代码提炼为四类可复用资产（ChatMemory / Skill / Wiki / CodeGraph），支持记忆的治理、共享与跨框架装配",
+   "wordCount": 2445,
+   "searchText": "多智能体共享记忆：TencentDB Agent Memory 评估 AI Agent工程知识/多智能体共享记忆：TencentDB Agent Memory 评估.md 团队级 Agent 记忆中枢：把对话、文档、代码提炼为四类可复用资产（ChatMemory / Skill / Wiki / CodeGraph），支持记忆的治理、共享与跨框架装配"
   },
   {
    "path": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制.md",
@@ -2233,7 +2264,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/玄学与东方智慧出海-内容策略与独立站电商体系-调研-20260811.md"
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
-   "wordCount": 1637,
+   "wordCount": 2634,
    "searchText": "己未文化AI落地首谈会议纪要：客户资产管理第一阶段 企业AI与智能体商业化/己未文化AI落地首谈会议纪要：客户资产管理第一阶段.md 上级：企业AI与智能体商业化/企业AI与智能体商业化专题 己未文化 企业AI与智能体商业化/企业AI与智能体商业化专题 企业AI与智能体商业化/己未文化资料速查入口 企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团 企业AI与智能体商业化/己未文化AI落地首次接触沟通作战卡测试版 企业AI与智能体商业化/AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧 知识流水线/玄学与东方智慧出海内容策略与独立站电商体系调研20260811 原始资料/已整理｜20260812｜飞书妙记原始逐字稿｜己未文化AI落地首谈"
   },
   {
@@ -5120,7 +5151,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "数据与知识资产",
-   "matched": 27,
+   "matched": 28,
    "status": "已形成"
   },
   {
@@ -5135,12 +5166,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "记忆与上下文",
-   "matched": 4,
-   "status": "正在形成"
+   "matched": 6,
+   "status": "已形成"
   },
   {
    "name": "安全、权限与治理",
-   "matched": 6,
+   "matched": 7,
    "status": "已形成"
   },
   {
@@ -5150,7 +5181,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 78,
+   "matched": 79,
    "status": "已形成"
   },
   {
@@ -5412,9 +5443,9 @@ window.OBSIDIAN_DATA = {
  ],
  "tasks": {
   "summary": {
-   "in_progress": 9,
-   "todo": 5,
-   "in_review": 1,
+   "in_progress": 11,
+   "todo": 7,
+   "in_review": 3,
    "blocked": 0
   },
   "recent": [
@@ -5426,42 +5457,42 @@ window.OBSIDIAN_DATA = {
     "assignee": "伊森"
    },
    {
-    "id": "KP-80",
-    "title": "己未文化AI落地沟通推进",
+    "id": "KP-98",
+    "title": "共享记忆基础设施：MemoryCore/Hub/Proxy 与三 Agent 身份基线",
     "status": "in_progress",
     "priority": "high",
-    "assignee": "Oliver"
+    "assignee": "Codex（主控）"
    },
    {
-    "id": "KP-87",
-    "title": "风际游戏 AI 化落地推进",
-    "status": "todo",
-    "priority": "high",
-    "assignee": "Codex"
-   },
-   {
-    "id": "KP-82",
-    "title": "三级通道机制测试（自然运行 1 周）",
-    "status": "todo",
-    "priority": "high",
-    "assignee": "阿检（巡检）"
-   },
-   {
-    "id": "KP-81",
-    "title": "每日例会（持续进行）",
+    "id": "KP-97",
+    "title": "目前多智能体的共享记忆：腾讯记忆框架",
     "status": "in_progress",
     "priority": "high",
     "assignee": "伊森"
    },
    {
-    "id": "KP-71",
-    "title": "Agent Ontology 1.0 动态能力本体与自动路由",
-    "status": "in_progress",
+    "id": "KP-99",
+    "title": "共享记忆接入线：Codex 主控适配与上下文注入规则",
+    "status": "todo",
     "priority": "high",
-    "assignee": "Codex"
+    "assignee": "Codex（主控）"
+   },
+   {
+    "id": "KP-101",
+    "title": "共享记忆接入线：千问办公读写边界与调研复核记忆规则",
+    "status": "todo",
+    "priority": "high",
+    "assignee": "Codex（主控）"
+   },
+   {
+    "id": "KP-100",
+    "title": "共享记忆接入线：WorkBuddy MCP/HTTP 封装与执行记忆规则",
+    "status": "todo",
+    "priority": "high",
+    "assignee": "Codex（主控）"
    }
   ],
-  "total": 67,
-  "fetchedAt": "2026年8月13日 02:35"
+  "total": 73,
+  "fetchedAt": "2026年8月13日 08:27"
  }
 };
