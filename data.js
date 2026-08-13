@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-13",
- "generatedTime": "2026-08-13 08:27",
+ "generatedTime": "2026-08-13 17:27",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 137,
- "weeklyChanges": 1230,
+ "weeklyChanges": 1231,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-11｜AI知识增量整理.md",
  "topics": [
@@ -545,7 +545,7 @@ window.OBSIDIAN_DATA = {
    "links": [],
    "backlinks": [],
    "desc": "团队级 Agent 记忆中枢：把对话、文档、代码提炼为四类可复用资产（ChatMemory / Skill / Wiki / CodeGraph），支持记忆的治理、共享与跨框架装配",
-   "wordCount": 2445,
+   "wordCount": 4764,
    "searchText": "多智能体共享记忆：TencentDB Agent Memory 评估 AI Agent工程知识/多智能体共享记忆：TencentDB Agent Memory 评估.md 团队级 Agent 记忆中枢：把对话、文档、代码提炼为四类可复用资产（ChatMemory / Skill / Wiki / CodeGraph），支持记忆的治理、共享与跨框架装配"
   },
   {
@@ -876,15 +876,16 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机",
     "企业AI与智能体商业化/FDE商业级智能体交付框架",
     "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
-    "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版"
+    "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版",
+    "原始资料/已整理｜2026-08-13｜ChatGPT｜AI行业落地认知的混乱"
    ],
    "backlinks": [
     "企业AI与智能体商业化/己未文化AI落地首谈会议纪要：客户资产管理第一阶段.md",
     "企业AI与智能体商业化/己未文化资料速查入口.md"
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
-   "wordCount": 1674,
-   "searchText": "AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧 企业AI与智能体商业化/AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧.md 上级：企业AI与智能体商业化/企业AI与智能体商业化专题 企业AI 企业AI与智能体商业化/企业AI与智能体商业化专题 徐总每日随记/当日记录/20260812 企业AI与智能体商业化/己未文化AI落地首谈会议纪要：客户资产管理第一阶段 企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机 企业AI与智能体商业化/FDE商业级智能体交付框架 企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同 企业AI与智能体商业化/己未文化AI落地首次接触沟通作战卡测试版"
+   "wordCount": 2684,
+   "searchText": "AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧 企业AI与智能体商业化/AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧.md 上级：企业AI与智能体商业化/企业AI与智能体商业化专题 企业AI 企业AI与智能体商业化/企业AI与智能体商业化专题 徐总每日随记/当日记录/20260812 企业AI与智能体商业化/己未文化AI落地首谈会议纪要：客户资产管理第一阶段 企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机 企业AI与智能体商业化/FDE商业级智能体交付框架 企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同 企业AI与智能体商业化/己未文化AI落地首次接触沟通作战卡测试版 原始资料/已整理｜20260813｜ChatGPT｜AI行业落地认知的混乱"
   },
   {
    "path": "企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地.md",
@@ -5443,8 +5444,8 @@ window.OBSIDIAN_DATA = {
  ],
  "tasks": {
   "summary": {
-   "in_progress": 11,
-   "todo": 7,
+   "in_progress": 13,
+   "todo": 4,
    "in_review": 3,
    "blocked": 0
   },
@@ -5457,11 +5458,25 @@ window.OBSIDIAN_DATA = {
     "assignee": "伊森"
    },
    {
-    "id": "KP-98",
-    "title": "共享记忆基础设施：MemoryCore/Hub/Proxy 与三 Agent 身份基线",
+    "id": "KP-104",
+    "title": "健康度维度：全域智能体身份连续性与规则行为稳定性",
     "status": "in_progress",
     "priority": "high",
-    "assignee": "Codex（主控）"
+    "assignee": "伊森"
+   },
+   {
+    "id": "KP-103",
+    "title": "贾维斯改配 DeepSeek CodeX 身份迁移",
+    "status": "in_progress",
+    "priority": "high",
+    "assignee": "伊森"
+   },
+   {
+    "id": "KP-102",
+    "title": "智能体健康状态总览（持续维护）",
+    "status": "in_progress",
+    "priority": "high",
+    "assignee": "Oliver"
    },
    {
     "id": "KP-97",
@@ -5471,28 +5486,14 @@ window.OBSIDIAN_DATA = {
     "assignee": "伊森"
    },
    {
-    "id": "KP-99",
-    "title": "共享记忆接入线：Codex 主控适配与上下文注入规则",
-    "status": "todo",
+    "id": "KP-80",
+    "title": "己未文化AI落地沟通推进",
+    "status": "in_progress",
     "priority": "high",
-    "assignee": "Codex（主控）"
-   },
-   {
-    "id": "KP-101",
-    "title": "共享记忆接入线：千问办公读写边界与调研复核记忆规则",
-    "status": "todo",
-    "priority": "high",
-    "assignee": "Codex（主控）"
-   },
-   {
-    "id": "KP-100",
-    "title": "共享记忆接入线：WorkBuddy MCP/HTTP 封装与执行记忆规则",
-    "status": "todo",
-    "priority": "high",
-    "assignee": "Codex（主控）"
+    "assignee": "Oliver"
    }
   ],
-  "total": 73,
-  "fetchedAt": "2026年8月13日 08:27"
+  "total": 76,
+  "fetchedAt": "2026年8月13日 17:27"
  }
 };
