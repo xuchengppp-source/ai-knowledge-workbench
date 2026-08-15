@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-08-14",
- "generatedTime": "2026-08-14 22:58",
+ "generatedAt": "2026-08-15",
+ "generatedTime": "2026-08-15 09:57",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 138,
- "weeklyChanges": 1240,
+ "weeklyPages": 34,
+ "weeklyChanges": 410,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-14｜AI知识增量整理.md",
  "topics": [
@@ -11,7 +11,7 @@ window.OBSIDIAN_DATA = {
    "name": "AI Agent工程知识",
    "key": "agent",
    "icon": "🤖",
-   "count": 27
+   "count": 29
   },
   {
    "name": "企业AI与智能体商业化",
@@ -560,6 +560,40 @@ window.OBSIDIAN_DATA = {
    "searchText": "全域智能体健康度审查方法论 AI Agent工程知识/全域智能体健康度审查方法论.md 默认只读：不得为\"修复健康度\"擅自重授权、改凭据、切飞书 profile、改网关或重启外部 Agent。 多智能体 健康审计 运维 CodeX WorkBuddy OpenClaw 飞书"
   },
   {
+   "path": "AI Agent工程知识/全域智能体框架总览.md",
+   "title": "全域智能体框架总览",
+   "updated": "2026-08-15",
+   "topic": "agent",
+   "aliases": [],
+   "tags": [
+    "全域智能体",
+    "架构",
+    "多智能体",
+    "框架"
+   ],
+   "links": [
+    "全域智能体健康度审查方法论",
+    "飞书多智能体连接故障恢复手册"
+   ],
+   "backlinks": [],
+   "desc": "- 通道层：飞书 lark-cli，统一管理 7 个飞书应用（appId 见第二节）；当前 currentApp 为伊森 clia92504e56d78dbd7，user 身份（徐",
+   "wordCount": 1668,
+   "searchText": "全域智能体框架总览 AI Agent工程知识/全域智能体框架总览.md 通道层：飞书 larkcli，统一管理 7 个飞书应用（appId 见第二节）；当前 currentApp 为伊森 clia92504e56d78dbd7，user 身份（徐 全域智能体 架构 多智能体 框架 全域智能体健康度审查方法论 飞书多智能体连接故障恢复手册"
+  },
+  {
+   "path": "AI Agent工程知识/全域智能体系统本体与健康治理.md",
+   "title": "全域智能体系统本体与健康治理",
+   "updated": "2026-08-14",
+   "topic": "agent",
+   "aliases": [],
+   "tags": [],
+   "links": [],
+   "backlinks": [],
+   "desc": "现有 Agent Ontology 只覆盖了智能体注册、能力、模型绑定和部分路由问题，范围不足以描述整个智能体工作系统。",
+   "wordCount": 2486,
+   "searchText": "全域智能体系统本体与健康治理 AI Agent工程知识/全域智能体系统本体与健康治理.md 现有 Agent Ontology 只覆盖了智能体注册、能力、模型绑定和部分路由问题，范围不足以描述整个智能体工作系统。"
+  },
+  {
    "path": "AI Agent工程知识/原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）.md",
    "title": "整理稿｜ChatGPT 生产级 AI Agent 框架（2026-06-11）",
    "updated": "2026-08-08",
@@ -587,7 +621,7 @@ window.OBSIDIAN_DATA = {
    "links": [],
    "backlinks": [],
    "desc": "团队级 Agent 记忆中枢：把对话、文档、代码提炼为四类可复用资产（ChatMemory / Skill / Wiki / CodeGraph），支持记忆的治理、共享与跨框架装配",
-   "wordCount": 4764,
+   "wordCount": 4769,
    "searchText": "多智能体共享记忆：TencentDB Agent Memory 评估 AI Agent工程知识/多智能体共享记忆：TencentDB Agent Memory 评估.md 团队级 Agent 记忆中枢：把对话、文档、代码提炼为四类可复用资产（ChatMemory / Skill / Wiki / CodeGraph），支持记忆的治理、共享与跨框架装配"
   },
   {
@@ -804,14 +838,14 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/飞书多智能体连接故障恢复手册.md",
    "title": "飞书多智能体连接故障恢复手册（外部智能体执行版）",
-   "updated": "2026-08-09",
+   "updated": "2026-08-15",
    "topic": "agent",
    "aliases": [],
    "tags": [],
    "links": [],
    "backlinks": [],
    "desc": "快速判定\"谁在线\"：查看有哪些进程持有到飞书长连接服务器（125.64.35.248 / 125.64.35.249 / 182.x / msg-frontier.feishu.c",
-   "wordCount": 4027,
+   "wordCount": 4035,
    "searchText": "飞书多智能体连接故障恢复手册（外部智能体执行版） AI Agent工程知识/飞书多智能体连接故障恢复手册.md 快速判定\"谁在线\"：查看有哪些进程持有到飞书长连接服务器（125.64.35.248 / 125.64.35.249 / 182.x / msgfrontier.feishu.c"
   },
   {
@@ -5170,7 +5204,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "模型与推理",
-   "matched": 9,
+   "matched": 10,
    "status": "已形成"
   },
   {
@@ -5195,7 +5229,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "安全、权限与治理",
-   "matched": 7,
+   "matched": 8,
    "status": "已形成"
   },
   {
@@ -5205,7 +5239,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 79,
+   "matched": 80,
    "status": "已形成"
   },
   {
@@ -5468,8 +5502,8 @@ window.OBSIDIAN_DATA = {
  "tasks": {
   "summary": {
    "in_progress": 10,
-   "todo": 5,
-   "in_review": 5,
+   "todo": 6,
+   "in_review": 6,
    "blocked": 0
   },
   "recent": [
@@ -5479,6 +5513,20 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "urgent",
     "assignee": "伊森"
+   },
+   {
+    "id": "KP-108",
+    "title": "全域智能体系统本体与健康治理（人工主控优先）",
+    "status": "todo",
+    "priority": "high",
+    "assignee": "Codex"
+   },
+   {
+    "id": "KP-107",
+    "title": "Codex Scheduler：Taskboard 驱动 Codex 执行闭环（第一阶段）",
+    "status": "in_review",
+    "priority": "high",
+    "assignee": "Codex"
    },
    {
     "id": "KP-80",
@@ -5500,23 +5548,9 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "high",
     "assignee": "伊森"
-   },
-   {
-    "id": "KP-102",
-    "title": "智能体健康状态总览（持续维护）",
-    "status": "in_progress",
-    "priority": "high",
-    "assignee": "Oliver"
-   },
-   {
-    "id": "KP-87",
-    "title": "风际游戏 AI 化落地推进",
-    "status": "todo",
-    "priority": "high",
-    "assignee": "Codex"
    }
   ],
-  "total": 78,
-  "fetchedAt": "2026年8月14日 22:58"
+  "total": 80,
+  "fetchedAt": "2026年8月15日 09:57"
  }
 };
