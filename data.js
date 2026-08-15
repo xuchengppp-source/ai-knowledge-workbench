@@ -1,11 +1,11 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-15",
- "generatedTime": "2026-08-15 13:54",
+ "generatedTime": "2026-08-15 23:02",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 36,
  "weeklyChanges": 452,
  "sourceIndex": "知识库索引.md",
- "digest": "知识流水线/每日学习整理/2026-08-14｜AI知识增量整理.md",
+ "digest": "知识流水线/每日学习整理/2026-08-15｜AI知识增量整理.md",
  "topics": [
   {
    "name": "AI Agent工程知识",
@@ -4728,58 +4728,110 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "today": {
-  "date": "2026-08-14",
+  "date": "2026-08-15",
   "items": [
    {
-    "title": "**全域智能体健康度审查方法论（正式方法论页，AI Agent工程知识）**：新增 `AI Agent工程知识/全域智能体健康度审查方法论.md`，把多智能体健康审计沉淀为可复用框架——8 维审查矩阵（Identity/Startup/Runtime/Executor/Channel/Routing/Governance/Memory）、最小闭环、5 级证据等级（declared/persisted/runtime_probed/channel_probed/behavior_verified）、4 级健康度、路由判定与只读复核车道。来源 `agent-ecosystem-health-audit` skill。",
+    "title": "**工业级多智能体协作系统设计：任务编排、依赖治理与结果对齐（正式架构页，AI Agent工程知识）**：新增 `AI Agent工程知识/工业级多智能体协作系统设计：任务编排、依赖治理与结果对齐.md`，把\"多 Agent 协作怎么真正跑通\"沉淀为可复用框架——七层面试追问、三层核心逻辑（风险边界→DAG+双层调度+标准化协议→异常处理）、DeepSeek Harness 能力边界（执行层强、调度治理弱）、Taskboard+Orchestrator+Harness 组合公式、Taskboard Ontology 双重身份（知识治理+协作任务事实基础）。来源：徐总 2026-08-15 口述 + Harness 能力边界分析。",
     "summary": "",
     "points": [],
-    "date": "2026-08-14"
+    "date": "2026-08-15"
    },
    {
-    "title": "**为什么做多智能体：Codex 内部多线程 vs 跨平台多智能体（正式分析页，AI Agent工程知识）**：新增 `AI Agent工程知识/为什么做多智能体：Codex内部多线程vs跨平台多智能体.md`，给出\"模式 A（单模型框架内多线程角色）vs 模式 B（跨平台多智能体）\"对比与选型判据，结论：多智能体不是因为更好，而是被\"多模型/多成本/多入口\"现状推着走。",
+    "title": "**全域智能体系统本体与健康治理（正式 System Ontology 页，AI Agent工程知识，KNOWLEDGEPIP-108）**：新增 `AI Agent工程知识/全域智能体系统本体与健康治理.md`（08-14 23:39，落入 24h 窗口），把 Agent Ontology 升级为 System Ontology——14 个核心对象（Agent/ModelBinding/Task/Change/Evidence/Result/Knowledge/Memory/Skill/Tool/Channel/Credential/Resource/HealthState/Relationship）、核心关系、8 层系统架构、关键生产闭环、Jarvis 重归类为独立 DeepSeek CodeX、健康审查入口、六阶段实施顺序。当前 status: planned，人工主控、未启动外部 Agent。",
     "summary": "",
     "points": [],
-    "date": "2026-08-14"
+    "date": "2026-08-15"
    },
    {
-    "title": "**智能体健康度 Ontology 细化（全局治理页）**：`全局记忆/智能体健康度 Ontology.md` 在 08-13 基础上补强\"执行器绑定真实性（G 层跨域硬门）\"——配置声明≠真实执行≠端到端闭环≠规则长期稳定≠身份认知，并新增\"当前过渡架构 vs 未来生产架构边界\"章节。",
+    "title": "**DeepSeek Harness 项目记录（项目长期入口，Codex工作区）**：更新 `Codex工作区/DeepSeek Harness项目记录.md`（22:48），沉淀可复用工程判断——Harness 是基于 Cordis 的可组合 Agent 运行时（Profile/Bundle/Patch/Subagent/Workflow/Session/Storage/Tool），本身不是业务任务调度中心；外部 Orchestrator/Taskboard adapter 承担任务 ID、active-task lease、防重复派发、状态唤醒、人工验收；插件化融合（Taskboard 插件=状态适配器、Obsidian 插件=受控写回）；官方 subagent_codex 真实通信验收通过。",
     "summary": "",
     "points": [],
-    "date": "2026-08-14"
+    "date": "2026-08-15"
    },
    {
-    "title": "**启动与身份连续性统一合同落地（全局治理页）**：`全局记忆/智能体启动与身份连续性统一合同.md` 落地，写入 CodeX / DeepSeek CodeX / WorkBuddy / 千问办公 / QoderWork / OpenClaw / Jarvis / Hermes 及 Codex 内部角色；定义 104 验收四步（身份载体完整→规则固化→可加载→行为稳定）。",
+    "title": "**DeepSeek Harness 插件验收子页（项目执行产物，Codex工作区）**：新增 `DeepSeek Harness插件写回验收测试.md`（15:32）与 `DeepSeek Harness插件审核联动验收.md`（15:46），记录受控写回（SHA-256 保护、不覆盖原页）与审核联动写回（reviewStatus=approved、reviewerType=harness、reviewEvidence）的真实验收证据，是 Harness 融合设计的可复用细节。",
     "summary": "",
     "points": [],
-    "date": "2026-08-14"
+    "date": "2026-08-15"
    },
    {
-    "title": "**方向推进与接力页落地（机制页）**：`任务面板与知识库/方向推进与接力.md` 建立，作为跨天方向源，纳入启动合同 104 必读。",
+    "title": "**多智能体健康治理补充：对话框上下文 D5 监控（全局治理页细化）**：`全局记忆/智能体健康度 Ontology.md` 与 `全局记忆/智能体健康状态总览.md`（10:15）补强\"域 D5 对话框上下文\"——千问办公/QoderWork 飞书对话框 8-15 爆满实证，确认对话框只作临时工作台、重要信息即时落库、接近上限主动预警收尾重开。",
     "summary": "",
     "points": [],
-    "date": "2026-08-14"
+    "date": "2026-08-15"
    },
    {
-    "title": "**其他结构/状态文件更新（非新知识）**：`知识流水线/AI知识自动化整理入口.md`、`知识流水线/知识库健康巡检.md`、`知识库索引.md`、`Codex工作区/每日跨项目复盘/` 说明与 08-13 复盘，属结构与日志维护。",
+    "title": "**既有页 09:49 轻微更新（非今日新增主体）**：`全域智能体框架总览`（标 draft/待校正、appId 映射表对齐）、`多智能体共享记忆：TencentDB Agent Memory 评估`（主内容 08-13 已完成，09:49 仅微调）、`飞书多智能体连接故障恢复手册`（既有 SOP 微调）——均属维护/草稿，不计入今日新增知识主体。",
     "summary": "",
     "points": [],
-    "date": "2026-08-14"
+    "date": "2026-08-15"
    },
    {
-    "title": "**个人类更新（剔除）**：`个人出行/美签/美签管理.md`、`个人健康/体重管理.md` 属个人随记/健康维护，不计入 AI 知识增量。",
+    "title": "**个人类与结构/状态文件（剔除）**：`个人健康/体重管理.md`（22:23）属个人健康维护；`任务面板与知识库/方向推进与接力.md`、`Codex工作区/项目索引.md`、`Codex工作区/Codex工作区.md`、`AI Agent工程知识/AI Agent工程知识专题.md`、`知识库健康巡检.md`、`每日跨项目复盘/` 属结构/日志维护；均不计入 AI 知识增量。",
     "summary": "",
     "points": [],
-    "date": "2026-08-14"
+    "date": "2026-08-15"
    }
   ],
   "judgments": [
-   "\"健康度 ≠ 单个开关\"，而是\"六域多维 + 执行器真实性门 + 状态机\"的复合模型；且配置声明、进程在线、自我介绍都不能作为真实执行证据。 今天两份 AI Agent 工程知识页把\"多智能体可信\"从主观判断升级为可审计框架：必须靠 runtime_probe / channel_probe / behavior_verified 证据。这是生产级 Agent 运维的核心 reusable 认知。",
-   "\"多智能体不是更优解，而是被现状逼出的架构\"——模式 A（单框架内多线程角色）在封闭单模型、费用不敏感场景下依然成立；当前选 B 是成本结构、Codex 上下文极限、多入口三条硬约束共同决定。该判断避免把\"多智能体\"当成目的本身，是 Agent 架构选型的 reusable 决策方法。",
-   "\"身份连续性 ≠ 身份文件存在\"——104 把身份健康重定义为四步链（载体完整→规则固化→重启可加载→连续多轮不漂移）；文件存在只是\"有地方存规则\"，证明不了行为稳定。这条把\"规则只在伊森前两轮生效\"这类问题从偶发抱怨升级为可验收的治理指标。"
+   "DeepSeek Harness 只解决\"执行层\"一半，工业级调度治理那一半必须自己搭。 并行执行、结构化输出、Agent 状态管理、Session 持久化 Harness 已有；但 Task DAG 持久化、A depends_on B 拓扑调度、循环依赖/死锁检测、任务唯一锁/幂等重试、动态 DAG 增量插入、结果冲突裁决、调度中心高可用全部要自己做。这把\"生产级多 Agent\"从\"能不能跑\"推进到\"任务不歧义、依赖不冲突、结果能对齐、故障可兜底\"的工程红线，是生产级 Agent 的核心 reusable 认知。",
+   "组合公式：Harness = 执行引擎，Taskboard + 轻量 Orchestrator = 秩序。 不用重造 Harness 已有的并行机制，只需造\"什么任务、何时、允许谁跑\"；第一条规则（一个 Agent 同时只能持有一个 active task lease，当前任务未完成不允许分配新独立任务）就能解决\"任务没完就塞第二个\"的问题。且 Taskboard Ontology 不只是知识治理，还是未来多 Agent 工业级协作的任务事实基础——把编排选型、调度治理、知识治理统一在一个事实源。",
+   "全域智能体从\"Agent Ontology\"升级为\"System Ontology\"，健康度是面向全本体的统一审查入口。 现有 Agent Ontology 仅覆盖注册/能力/模型绑定/部分路由，不足以描述整个工作系统；新增 14 核心对象 + 8 层系统架构 + 关键生产闭环，把 Taskboard（工作状态）、Memory（运行记忆）、Obsidian（正式知识）、Skill/MCP（能力连接）、Channel（通信身份）、治理审查（健康）纳入统一对象模型，Jarvis 重归类为独立 DeepSeek CodeX。这是 Ontology/Autonomy 主线从 Agent 级到系统级的实质扩展。"
   ]
  },
  "dailies": [
+  {
+   "date": "2026-08-15",
+   "items": [
+    {
+     "title": "**工业级多智能体协作系统设计：任务编排、依赖治理与结果对齐（正式架构页，AI Agent工程知识）**：新增 `AI Agent工程知识/工业级多智能体协作系统设计：任务编排、依赖治理与结果对齐.md`，把\"多 Agent 协作怎么真正跑通\"沉淀为可复用框架——七层面试追问、三层核心逻辑（风险边界→DAG+双层调度+标准化协议→异常处理）、DeepSeek Harness 能力边界（执行层强、调度治理弱）、Taskboard+Orchestrator+Harness 组合公式、Taskboard Ontology 双重身份（知识治理+协作任务事实基础）。来源：徐总 2026-08-15 口述 + Harness 能力边界分析。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-15"
+    },
+    {
+     "title": "**全域智能体系统本体与健康治理（正式 System Ontology 页，AI Agent工程知识，KNOWLEDGEPIP-108）**：新增 `AI Agent工程知识/全域智能体系统本体与健康治理.md`（08-14 23:39，落入 24h 窗口），把 Agent Ontology 升级为 System Ontology——14 个核心对象（Agent/ModelBinding/Task/Change/Evidence/Result/Knowledge/Memory/Skill/Tool/Channel/Credential/Resource/HealthState/Relationship）、核心关系、8 层系统架构、关键生产闭环、Jarvis 重归类为独立 DeepSeek CodeX、健康审查入口、六阶段实施顺序。当前 status: planned，人工主控、未启动外部 Agent。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-15"
+    },
+    {
+     "title": "**DeepSeek Harness 项目记录（项目长期入口，Codex工作区）**：更新 `Codex工作区/DeepSeek Harness项目记录.md`（22:48），沉淀可复用工程判断——Harness 是基于 Cordis 的可组合 Agent 运行时（Profile/Bundle/Patch/Subagent/Workflow/Session/Storage/Tool），本身不是业务任务调度中心；外部 Orchestrator/Taskboard adapter 承担任务 ID、active-task lease、防重复派发、状态唤醒、人工验收；插件化融合（Taskboard 插件=状态适配器、Obsidian 插件=受控写回）；官方 subagent_codex 真实通信验收通过。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-15"
+    },
+    {
+     "title": "**DeepSeek Harness 插件验收子页（项目执行产物，Codex工作区）**：新增 `DeepSeek Harness插件写回验收测试.md`（15:32）与 `DeepSeek Harness插件审核联动验收.md`（15:46），记录受控写回（SHA-256 保护、不覆盖原页）与审核联动写回（reviewStatus=approved、reviewerType=harness、reviewEvidence）的真实验收证据，是 Harness 融合设计的可复用细节。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-15"
+    },
+    {
+     "title": "**多智能体健康治理补充：对话框上下文 D5 监控（全局治理页细化）**：`全局记忆/智能体健康度 Ontology.md` 与 `全局记忆/智能体健康状态总览.md`（10:15）补强\"域 D5 对话框上下文\"——千问办公/QoderWork 飞书对话框 8-15 爆满实证，确认对话框只作临时工作台、重要信息即时落库、接近上限主动预警收尾重开。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-15"
+    },
+    {
+     "title": "**既有页 09:49 轻微更新（非今日新增主体）**：`全域智能体框架总览`（标 draft/待校正、appId 映射表对齐）、`多智能体共享记忆：TencentDB Agent Memory 评估`（主内容 08-13 已完成，09:49 仅微调）、`飞书多智能体连接故障恢复手册`（既有 SOP 微调）——均属维护/草稿，不计入今日新增知识主体。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-15"
+    },
+    {
+     "title": "**个人类与结构/状态文件（剔除）**：`个人健康/体重管理.md`（22:23）属个人健康维护；`任务面板与知识库/方向推进与接力.md`、`Codex工作区/项目索引.md`、`Codex工作区/Codex工作区.md`、`AI Agent工程知识/AI Agent工程知识专题.md`、`知识库健康巡检.md`、`每日跨项目复盘/` 属结构/日志维护；均不计入 AI 知识增量。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-15"
+    }
+   ],
+   "judgments": [
+    "DeepSeek Harness 只解决\"执行层\"一半，工业级调度治理那一半必须自己搭。 并行执行、结构化输出、Agent 状态管理、Session 持久化 Harness 已有；但 Task DAG 持久化、A depends_on B 拓扑调度、循环依赖/死锁检测、任务唯一锁/幂等重试、动态 DAG 增量插入、结果冲突裁决、调度中心高可用全部要自己做。这把\"生产级多 Agent\"从\"能不能跑\"推进到\"任务不歧义、依赖不冲突、结果能对齐、故障可兜底\"的工程红线，是生产级 Agent 的核心 reusable 认知。",
+    "组合公式：Harness = 执行引擎，Taskboard + 轻量 Orchestrator = 秩序。 不用重造 Harness 已有的并行机制，只需造\"什么任务、何时、允许谁跑\"；第一条规则（一个 Agent 同时只能持有一个 active task lease，当前任务未完成不允许分配新独立任务）就能解决\"任务没完就塞第二个\"的问题。且 Taskboard Ontology 不只是知识治理，还是未来多 Agent 工业级协作的任务事实基础——把编排选型、调度治理、知识治理统一在一个事实源。",
+    "全域智能体从\"Agent Ontology\"升级为\"System Ontology\"，健康度是面向全本体的统一审查入口。 现有 Agent Ontology 仅覆盖注册/能力/模型绑定/部分路由，不足以描述整个工作系统；新增 14 核心对象 + 8 层系统架构 + 关键生产闭环，把 Taskboard（工作状态）、Memory（运行记忆）、Obsidian（正式知识）、Skill/MCP（能力连接）、Channel（通信身份）、治理审查（健康）纳入统一对象模型，Jarvis 重归类为独立 DeepSeek CodeX。这是 Ontology/Autonomy 主线从 Agent 级到系统级的实质扩展。"
+   ]
+  },
   {
    "date": "2026-08-14",
    "items": [
@@ -5143,74 +5195,6 @@ window.OBSIDIAN_DATA = {
     "Agent Ontology 1.0 把\"能力描述\"升级为\"运行事实\"——智能体能否被可靠调用由真实 TaskResult + CapabilityEvidence 决定，而非主观标签；这是企业 AI 多智能体落地的关键工程底座。",
     "多 bot 协作的可靠前提不是\"都能读到 mentions\"，而是每个 bot 先有清晰的\"自我身份声明\"——透传缺失与自我身份缺失是两个不同层级的故障，必须分别治理，不能混修。",
     "跨智能体能力评估必须基于真实端到端执行证据（配置/验证命令/耗时/失败点），主控未完成应如实记录；外部 Agent 的成功先作\"待复核\"，避免把对照实验当作已验证事实。"
-   ]
-  },
-  {
-   "date": "2026-08-07",
-   "items": [
-    {
-     "title": "智算中心的结构性分化：建设者、节点位置与运营能力",
-     "summary": "来源与层级： [[徐总问题专题库/01_AI产业链与基础设施/20260806_智算中心结构性分化：建设者定位、运营缺口与泡沫判断]]；属于问题专题库中的阶段性蒸馏，不是新的基础设",
-     "points": [
-      "**来源与层级：** 徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断；属于问题专题库中的阶段性蒸馏，不是新的基础设施总纲。",
-      "**事实/已有结构：** 条目比较乌兰察布、成都等节点，区分基础模型训练/推理生产基地、区域推理中心和企业私有节点；同时区分能源集团、政府投建、运营商、模型厂商和国资数据港等建设者。",
-      "**核心推断：** 智算中心真正的分水岭不是 A 级机房或装卡完成，而是从物理算力到可用算力、有效算力、商业利用率之间的软件运营和客户订单能否接上。",
-      "**新增核验维度：** 异构调度、推理引擎、PD 分离、权重保护、SLA、计量计费、客户留存、网络延迟和合规边界。",
-      "**边界：** DeepSeek/千问部署方式、具体合作节点、各城市成本差异和“乌兰察布后厂—沿海前店”分工仍多为推断或待核验信息。"
-     ],
-     "date": "2026-08-07"
-    },
-    {
-     "title": "GPU 空转、MFU 与资本叙事",
-     "summary": "** 算力采购应同时看 MFU、单位算力产出、业务收入、折旧、电力和调度效率，而不能把“有卡”当成“有生产力”。",
-     "points": [
-      "**来源与层级：** 原始资料/已整理｜2026-08-07｜抖音豆包｜超哥奇点世界GPU空转泡沫AI资本囤积游戏；一级原始资料，豆包检索还原，非音频直转；已回流 AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用",
-      "**观点摘要：** 视频把系统层 GPU 占用率与 MFU（Model FLOPs Utilization，模型浮点利用率）区分开，认为高卡数、高负载显示不等于真实模型产出，并提出合理冗余与资本囤积泡沫的区别。",
-      "**可复用概念：** 算力采购应同时看 MFU、单位算力产出、业务收入、折旧、电力和调度效率，而不能把“有卡”当成“有生产力”。",
-      "**证据边界：** “顶级 B200 集群 MFU 只有十几个百分点”、资本循环和泡沫规模等具体说法均未提供一手数据；只能作为行业观察，暂不升级为正式事实。"
-     ],
-     "date": "2026-08-07"
-    },
-    {
-     "title": "Agent 架构选型：从架构名词转向任务复杂度与控制力",
-     "summary": "来源与层级： [[原始资料/已整理｜20260806｜抖音豆包｜张宇技术栈Agent系统7种架构]]（原始资料）及其正式承接页 [[AI Agent工程知识/Agent系统架构模式",
-     "points": [
-      "**来源与层级：** 原始资料/已整理｜2026-08-06｜抖音豆包｜张宇技术栈Agent系统7种架构（原始资料）及其正式承接页 AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow（架构选型",
-      "**事实/结构：** 内容归纳单 Agent、ReAct、Plan-and-Execute、Multi-Agent、Route + Skill、Blackboard、Graph Workflow 七种组织模式。",
-      "**核心判断：** 选型不应从“哪个框架最先进”开始，而应先问任务是否固定、是否需要探索、是否连接真实系统、是否需要回溯/审计/人工确认，以及输出是否进入业务闭环。",
-      "**与本库新增关系：** Route + Skill 被映射到知识库录入、每日增量、问题专题库和正式专题回流；Graph Workflow 被映射到“原始资料 → 归属判断 → 回流 → 索引 → 校验”的可追踪链路。",
-      "**证据边界：** “工业界相对最优”“企业生产环境最常用”等原视频判断属于第三方观点；正式页已保留来源说明，不能当作行业统计。"
-     ],
-     "date": "2026-08-07"
-    },
-    {
-     "title": "Harness 工程：企业 AI 的核心不是裸模型，而是可运行环境",
-     "summary": "** Harness 被解释为把专业知识、搜索/工具、记忆、权限、流程、评测和安全护栏组织成可运行的企业 AI 环境。",
-     "points": [
-      "**来源与层级：** 企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移；用户直接入库的正式笔记，但状态仍为“待徐总复核”。",
-      "**核心概念：** Harness 被解释为把专业知识、搜索/工具、记忆、权限、流程、评测和安全护栏组织成可运行的企业 AI 环境。",
-      "**新增判断：** 架构模式回答“任务如何组织”，Harness 回答“系统如何不失控”；FDE 的交付物应是企业专属可运行 Harness，而不只是聊天机器人或模型接口。",
-      "**关联主线：** 企业知识资产、工具调用、Workflow/State、权限审计、Evals/Observability 与业务落地形成一套工程封装。",
-      "**证据边界：** Claude/Nemotron/DeepSeek/MiniMax 分数、“1/10 成本”和黄仁勋引述均来自口播解读，原始访谈、评测任务和成本口径尚未核验。"
-     ],
-     "date": "2026-08-07"
-    },
-    {
-     "title": "知识获取与录入链路：自动化的瓶颈在内容落地与控制链",
-     "summary": "** 当前三条链路分别是抖音→豆包→Obsidian、人工主拆→智能体辅助、微信文章→IMA；主要瓶颈集中在链接解析、前台标签、浏览器控制会话、检索还原非原文和微信正文无法落地。",
-     "points": [
-      "**来源与层级：** 知识流水线/知识获取与录入三条链路现状与卡壳点；知识流水线中的过程记录/方法候选，不是 AI Agent 正式工程专题。",
-      "**新增事实：** 当前三条链路分别是抖音→豆包→Obsidian、人工主拆→智能体辅助、微信文章→IMA；主要瓶颈集中在链接解析、前台标签、浏览器控制会话、检索还原非原文和微信正文无法落地。",
-      "**新增判断：** 内容获取链路要把“指针”转成“正文”，再进入原始资料层；Route + Skill、状态登记和失败回退比单纯增加模型能力更关键。",
-      "**已验证信息：** GPU 视频已通过 AppleScript 预切换 + 豆包网页控制完成端到端入库；这证明一条路径可用，但不等于已实现稳定批量生产。"
-     ],
-     "date": "2026-08-07"
-    }
-   ],
-   "judgments": [
-    "智算中心的核心资产不是机房和 GPU，而是可持续运营的推理服务能力。 物理建设、软件可用、有效吞吐、客户订单和商业利用率必须分层验收。",
-    "Agent 工程的主线从“选框架”升级为“任务编排 + Harness 治理”。 架构模式决定任务怎么组织，Harness 决定知识、工具、状态、权限、评测和护栏能否让系统持续可控。",
-    "AI 资本与知识生产都必须从表面指标回到有效产出。 GPU 要看 MFU、单位算力产出和收入；知识库要看原文是否真正落地、关系是否可追踪、后续 Agent 是否能调用，而不是看卡数、文件数或演示指标。"
    ]
   }
  ],
@@ -5576,6 +5560,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 84,
-  "fetchedAt": "2026年8月15日 13:54"
+  "fetchedAt": "2026年8月15日 23:02"
  }
 };
