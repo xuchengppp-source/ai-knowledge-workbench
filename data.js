@@ -1,11 +1,11 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-17",
- "generatedTime": "2026-08-17 20:52",
+ "generatedTime": "2026-08-17 22:58",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 28,
- "weeklyChanges": 412,
+ "weeklyPages": 30,
+ "weeklyChanges": 424,
  "sourceIndex": "知识库索引.md",
- "digest": "知识流水线/每日学习整理/2026-08-16｜AI知识增量整理.md",
+ "digest": "知识流水线/每日学习整理/2026-08-17｜AI知识增量整理.md",
  "topics": [
   {
    "name": "AI Agent工程知识",
@@ -365,15 +365,14 @@ window.OBSIDIAN_DATA = {
    ],
    "links": [
     "AI Agent工程知识/AI Agent工程知识专题",
-    "AI Agent工程知识/AI Agent工程知识框架",
-    "OpenClaw克里斯记忆库/00_总览"
+    "AI Agent工程知识/AI Agent工程知识框架"
    ],
    "backlinks": [
     "知识流水线/知识库健康巡检.md"
    ],
    "desc": "- 平台：阿里云百炼 Coding Plan",
-   "wordCount": 6530,
-   "searchText": "AI 模型选型与订阅历史 AI Agent工程知识/AI模型选型与订阅历史.md 平台：阿里云百炼 Coding Plan 模型订阅切换史 AI Agent工程知识 AI Agent工程知识/AI Agent工程知识专题 AI Agent工程知识/AI Agent工程知识框架 OpenClaw克里斯记忆库/00总览"
+   "wordCount": 6546,
+   "searchText": "AI 模型选型与订阅历史 AI Agent工程知识/AI模型选型与订阅历史.md 平台：阿里云百炼 Coding Plan 模型订阅切换史 AI Agent工程知识 AI Agent工程知识/AI Agent工程知识专题 AI Agent工程知识/AI Agent工程知识框架"
   },
   {
    "path": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
@@ -2099,7 +2098,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes.md",
    "title": "内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes",
-   "updated": "2026-08-08",
+   "updated": "2026-08-17",
    "topic": "enterprise",
    "aliases": [],
    "tags": [
@@ -2116,7 +2115,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "上级：企业AI与智能体商业化专题",
-   "wordCount": 17754,
+   "wordCount": 17840,
    "searchText": "内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes 企业AI与智能体商业化/内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes.md 上级：企业AI与智能体商业化专题 WorkBuddy 企业AI与智能体商业化专题 企业智能体架构层次：框架、服务器、模型平台与业务系统 FDE搭建智能体落地：企业分级、平台选型与合规交付 FDE商业级智能体交付框架 资料池 多端 Codex 协作架构 Codex工作区/全域AI工具模型配置"
   },
   {
@@ -4391,7 +4390,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作.md",
    "title": "支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作",
-   "updated": "2026-08-08",
+   "updated": "2026-08-17",
    "topic": "pipeline",
    "aliases": [],
    "tags": [
@@ -4412,7 +4411,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识库健康巡检.md"
    ],
    "desc": "上级：知识流水线/知识流水线、Codex工作区/Codex-MoonBridge多Agent任务面板与Obsidian归档机制",
-   "wordCount": 2582,
+   "wordCount": 2624,
    "searchText": "支持系统通用Ontology：从电力合作伙伴沟通到主控子Agent协作 知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控子Agent协作.md 上级：知识流水线/知识流水线、Codex工作区/CodexMoonBridge多Agent任务面板与Obsidian归档机制 KnowledgeOS 知识流水线/知识流水线 Codex工作区/CodexMoonBridge多Agent任务面板与Obsidian归档机制 AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象 Codex工作区/Mac Codex 主控化运行基线 Codex工作区/Codex Workspace 低 Token 主控工作区方案 知识流水线/AI知识学习与复盘工作台 企业AI与智能体商业化/FDE商业级智能体交付框架"
   },
   {
@@ -4532,9 +4531,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/AI数字化招标与合规治理框架",
     "原始资料/已整理｜2026-08-03｜抖音豆包｜电网数字化是腐败重灾区",
     "知识流水线/知识库架构判断原则：从资料到概念、方法论、案例与专题归属",
-    "OpenClaw克里斯记忆库/00_总览",
-    "OpenClaw克里斯记忆库/工作流程/微信飞书会话同步机制",
-    "OpenClaw克里斯记忆库/工作纪要/2026-08-04_问题专题库内容追加与框架vs实质反思",
+    "链接",
     "Codex工作区/智能体移动应用内容读取与Obsidian沉淀SOP",
     "Codex工作区/智能体设备接入SOP：电脑连接手机和平板",
     "Codex工作区/全域AI工具模型配置",
@@ -4569,8 +4566,8 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识库架构判断原则：从资料到概念、方法论、案例与专题归属.md"
    ],
    "desc": "- 08-16 增量日报已生成（22:57），覆盖：斯坦福企业AI实战手册、蜀道集团无人机巡检测算、MiniMax-M3端点故障修复、TRIAL-001 结论登记、任务级会话隔离工",
-   "wordCount": 45433,
-   "searchText": "知识库健康巡检 知识流水线/知识库健康巡检.md 0816 增量日报已生成（22:57），覆盖：斯坦福企业AI实战手册、蜀道集团无人机巡检测算、MiniMaxM3端点故障修复、TRIAL001 结论登记、任务级会话隔离工 Codex工作区/DeepSeek Harness项目记录 原始资料/已整理｜20260816｜DeepSeek Harness｜Harness控制中心架构闭环 原始资料/待审核｜20260816｜DeepSeek Harness｜Harness控制中心架构闭环 知识流水线/A原始资料 任务面板与知识库/方向推进与接力 知识流水线/AI知识自动化整理入口 知识流水线/每日学习整理/20260813｜AI知识增量整理 Codex工作区/每日跨项目复盘/20260813 任务面板与知识库/任务面板与Obsidian同步 知识库索引 任务面板与知识库/智能体协作任务面板操作手册 任务面板与知识库/00总入口 Codex工作区/Codex会话级Agent协作协议v0.1 Codex工作区/Codex的内部合作机制 Codex工作区/每日跨项目复盘/20260809 徐总的知识库 Codex工作区/Codex工作区 全局记忆/03工作规则 全局记忆/08多平台知识库治理 知识流水线/每日学习整理/20260809｜AI知识增量整理 知识流水线/Obsidian知识底座治理与知识自主生长方案 知识流水线/知识流水线 AI Agent工程知识/AI Agent工程知识专题 徐总问题专题库/01AI产业链与基础设施/20260803算力工厂与算力出海 AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络 个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达 知识流水线/Mac Codex Obsidian知识库健康巡检专员启动提示词 知识流水线/知识库健康巡检执行规范 全局记忆/13Obsidian新增更新内容强制收口协作规则 个人能力提升/权重识别与精力分配：从政治成熟到闭环执行 AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象 AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率 知识流水线/每日学习整理/20260808｜AI知识增量整理 Codex工作区/每日跨项目复盘/20260808 全局记忆/00总览 全局术语表 平板Obsidian每日轻量巡检员启动提示词 Mac Codex Obsidian知识库健康巡检专员启动提示词 企业AI与智能体商业化/资料池 知识流水线/WikiLLM知识库编译方法论 Codex工作区/文秘助手项目记录 企业AI与智能体商业化/FDE与AI架构师核心资产能力 个人档案/个人档案 个人能力提升/个人能力提升 个人健康/个人健康 个人车辆/个人车辆 Codex工作区/飞书多智能体会议流程：群协同与Obsidian拍板机制 企业AI与生产级Agent总框架关系图 企业AI与智能体商业化/企业AI知识资产与RAG工程关系图 AI Agent工程知识/AI Agent专业术语词典 AI产业链与数字基础设施/AI产业链与数字基础设施专题 AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用 企业AI与智能体商业化/零一万物企业AI落地专题 企业AI与智能体商业化/企业AI与智能体商业化专题 企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究 企业AI与智能体商业化/零一万物FDE与企业AI落地模式 企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程 AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲 企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent 企业AI与智能体商业化/科技咨询公司业务AI系统落地方案 政府资源配置与政策落地机制/政府资源配置与政策落地机制专题 AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机 AI Agent工程知识/显性知识与隐性知识的工程化入库机制 企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合 企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法 AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂 知识流水线/AI知识学习与复盘工作台 知识流水线/个人工作台设计与部署方法论 企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环 法律/中国立法体系总览 法律/法律专题 知识流水线/每日学习整理/20260731｜AI知识增量整理 个人能力提升/谈判与沟通/谈判与沟通专题 个人健康/体重管理 知识流水线/C方法与Skill 全局记忆/11Obsidian知识库协作与Skills使用规则 AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路 徐总问题专题库/00问题专题库总览 知识流水线/问题专题库搭建机制与角色分工 知识流水线/每日学习整理/20260803｜AI知识增量整理 企业AI与智能体商业化/AI数字化招标与合规治理框架 原始资料/已整理｜20260803｜抖音豆包｜电网数字化是腐败重灾区 知识流水线/知识库架构判断原则：从资料到概念、方法论、案例与专题归属 OpenClaw克里斯记忆库/00总览 OpenClaw克里斯记忆库/工作流程/微信飞书会话同步机制 OpenClaw克里斯记忆库/工作纪要/20260804问题专题库内容追加与框架vs实质反思 Codex工作区/智能体移动应用内容读取与Obsidian沉淀SOP Codex工作区/智能体设备接入SOP：电脑连接手机和平板 Codex工作区/全域AI工具模型配置 Codex工作区/智能体协作任务面板操作手册 AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow 企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移 AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离 AI Agent工程知识/AI模型选型与订阅历史 徐总问题专题库/01AI产业链与基础设施/20260806智算中心结构性分化：建设者定位、运营缺口与泡沫判断 AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务 知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控子Agent协作 Codex工作区/CodexMoonBridge多Agent任务面板与Obsidian归档机制 Codex工作区/多智能体分派框架复核：Codex主控、DK子Agent与外部Agent协作 全局记忆/02系统架构 Codex工作区/任务面板每日工作日志机制：从执行态到日级进展档案 Codex工作区/每日跨项目复盘/20260804 Codex工作区/每日跨项目复盘/20260805 Codex工作区/每日跨项目"
+   "wordCount": 45826,
+   "searchText": "知识库健康巡检 知识流水线/知识库健康巡检.md 0816 增量日报已生成（22:57），覆盖：斯坦福企业AI实战手册、蜀道集团无人机巡检测算、MiniMaxM3端点故障修复、TRIAL001 结论登记、任务级会话隔离工 Codex工作区/DeepSeek Harness项目记录 原始资料/已整理｜20260816｜DeepSeek Harness｜Harness控制中心架构闭环 原始资料/待审核｜20260816｜DeepSeek Harness｜Harness控制中心架构闭环 知识流水线/A原始资料 任务面板与知识库/方向推进与接力 知识流水线/AI知识自动化整理入口 知识流水线/每日学习整理/20260813｜AI知识增量整理 Codex工作区/每日跨项目复盘/20260813 任务面板与知识库/任务面板与Obsidian同步 知识库索引 任务面板与知识库/智能体协作任务面板操作手册 任务面板与知识库/00总入口 Codex工作区/Codex会话级Agent协作协议v0.1 Codex工作区/Codex的内部合作机制 Codex工作区/每日跨项目复盘/20260809 徐总的知识库 Codex工作区/Codex工作区 全局记忆/03工作规则 全局记忆/08多平台知识库治理 知识流水线/每日学习整理/20260809｜AI知识增量整理 知识流水线/Obsidian知识底座治理与知识自主生长方案 知识流水线/知识流水线 AI Agent工程知识/AI Agent工程知识专题 徐总问题专题库/01AI产业链与基础设施/20260803算力工厂与算力出海 AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络 个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达 知识流水线/Mac Codex Obsidian知识库健康巡检专员启动提示词 知识流水线/知识库健康巡检执行规范 全局记忆/13Obsidian新增更新内容强制收口协作规则 个人能力提升/权重识别与精力分配：从政治成熟到闭环执行 AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象 AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率 知识流水线/每日学习整理/20260808｜AI知识增量整理 Codex工作区/每日跨项目复盘/20260808 全局记忆/00总览 全局术语表 平板Obsidian每日轻量巡检员启动提示词 Mac Codex Obsidian知识库健康巡检专员启动提示词 企业AI与智能体商业化/资料池 知识流水线/WikiLLM知识库编译方法论 Codex工作区/文秘助手项目记录 企业AI与智能体商业化/FDE与AI架构师核心资产能力 个人档案/个人档案 个人能力提升/个人能力提升 个人健康/个人健康 个人车辆/个人车辆 Codex工作区/飞书多智能体会议流程：群协同与Obsidian拍板机制 企业AI与生产级Agent总框架关系图 企业AI与智能体商业化/企业AI知识资产与RAG工程关系图 AI Agent工程知识/AI Agent专业术语词典 AI产业链与数字基础设施/AI产业链与数字基础设施专题 AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用 企业AI与智能体商业化/零一万物企业AI落地专题 企业AI与智能体商业化/企业AI与智能体商业化专题 企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究 企业AI与智能体商业化/零一万物FDE与企业AI落地模式 企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程 AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲 企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent 企业AI与智能体商业化/科技咨询公司业务AI系统落地方案 政府资源配置与政策落地机制/政府资源配置与政策落地机制专题 AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机 AI Agent工程知识/显性知识与隐性知识的工程化入库机制 企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合 企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法 AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂 知识流水线/AI知识学习与复盘工作台 知识流水线/个人工作台设计与部署方法论 企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环 法律/中国立法体系总览 法律/法律专题 知识流水线/每日学习整理/20260731｜AI知识增量整理 个人能力提升/谈判与沟通/谈判与沟通专题 个人健康/体重管理 知识流水线/C方法与Skill 全局记忆/11Obsidian知识库协作与Skills使用规则 AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路 徐总问题专题库/00问题专题库总览 知识流水线/问题专题库搭建机制与角色分工 知识流水线/每日学习整理/20260803｜AI知识增量整理 企业AI与智能体商业化/AI数字化招标与合规治理框架 原始资料/已整理｜20260803｜抖音豆包｜电网数字化是腐败重灾区 知识流水线/知识库架构判断原则：从资料到概念、方法论、案例与专题归属 链接 Codex工作区/智能体移动应用内容读取与Obsidian沉淀SOP Codex工作区/智能体设备接入SOP：电脑连接手机和平板 Codex工作区/全域AI工具模型配置 Codex工作区/智能体协作任务面板操作手册 AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow 企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移 AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离 AI Agent工程知识/AI模型选型与订阅历史 徐总问题专题库/01AI产业链与基础设施/20260806智算中心结构性分化：建设者定位、运营缺口与泡沫判断 AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务 知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控子Agent协作 Codex工作区/CodexMoonBridge多Agent任务面板与Obsidian归档机制 Codex工作区/多智能体分派框架复核：Codex主控、DK子Agent与外部Agent协作 全局记忆/02系统架构 Codex工作区/任务面板每日工作日志机制：从执行态到日级进展档案 Codex工作区/每日跨项目复盘/20260804 Codex工作区/每日跨项目复盘/20260805 Codex工作区/每日跨项目复盘/20260806 Codex工作区/每日跨项目复盘/20260807 法律/决策传导框架：法律政策的层级体系与影响预判 法律/低空经济法律体系：按层级梳理对社会经济政治的影响 政府资源"
   },
   {
    "path": "知识流水线/知识库健康巡检执行规范.md",
@@ -4756,58 +4753,62 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "today": {
-  "date": "2026-08-16",
+  "date": "2026-08-17",
   "items": [
    {
-    "title": "**斯坦福企业AI实战手册：51个成功样本与三档人机协作模式（正式框架页，企业AI与智能体商业化）**：新增 `企业AI与智能体商业化/斯坦福企业AI实战手册：51个成功样本与三档人机协作模式.md`（08-15 23:21）。来源斯坦福数字经济实验室《Enterprise AI Playbook》（2026-04，调研 41 家组织、51 个已产生真实业务收益案例、覆盖 7 国 9 行业）；提炼本质判断、高管支持四档、三种人机协作模式、行业分布与可执行清单，并显式回链本专题既有 FDE/五堵墙/按业务形态设计 Agent 架构认知。",
+    "title": "**【新建·设计稿】DeepSeek Harness Doctor 插件设计**（`Codex工作区/DeepSeek Harness Doctor 插件设计.md`，created 2026-08-17，status: draft）：让 Harness 自举生成自身健康检查插件（harness-doctor），第一版只读、不自动修复。核心是把\"模型绑定错配导致费用异常\"从事后账单发现前置为请求发出前拦截——定义 `ModelBindingPolicy` + `modelBindingGate`（9 个判定 code：`BLOCKED_MODEL_BINDING` / `MODEL_BINDING_MISMATCH` 等）、`doctor --quick / --full / --preflight` 三模式、声明(Expected)/加载(Loaded)/运行(Runtime)三层模型态。C2/C3 已落地，34/34 单测通过，C4（知识库 §12/§13 + 终态 UX）in_review。直接呼应 08-16 MiniMax-M3 端点故障（模型绑定错配 → fallback 静默烧钱）。",
     "summary": "",
     "points": [],
-    "date": "2026-08-16"
+    "date": "2026-08-17"
    },
    {
-    "title": "**蜀道集团大疆无人机巡检：采购投资与融资租赁测算（正式案例页，低空经济）**：新增 `低空经济/蜀道集团大疆无人机巡检：采购投资与融资租赁测算.md`（08-16 22:09）。在既有技术方案与算法分层基础上，完成大疆机场3 采购三方案 NPV 对比（自购 +59.1万 / 融资租赁 +67.8万 / 维持人工 -102.3万）、盈亏平衡 8.8万/年、融资租赁产权与分期解读，并检索 iMA 金融板块 6 篇蜀道相关内容做索引。",
+    "title": "**【更新】全域智能体框架总览 — 等价关系表 2026-08-17 补全**（`AI Agent工程知识/全域智能体框架总览.md`，19:35 落盘）：固化\"英文名(中文名·产品/智能体代号)\"全局对照——CodeX=Mason、DeepSeek CodeX=Jarvis、DeepSeek Harness=Friday、WorkBuddy=Ethan、千问办公=Oliver、QoderWork=Lucas、OpenClaw=Chris、Hermes=Felix、Thomas=字节 trae Work（非 Agent）。明确 Friday=Harness 派发层（走 Harness Web/JSON-RPC `127.0.0.1:47880`，非飞书 bot、无 appId），与 Jarvis=DeepSeek CodeX 平行独立。",
     "summary": "",
     "points": [],
-    "date": "2026-08-16"
+    "date": "2026-08-17"
    },
    {
-    "title": "**低空经济专题入口更新（登记，低空经济）**：更新 `低空经济/低空经济专题.md`（08-16 22:02），把蜀道无人机巡检「方案与算法分层」「采购投资与融资租赁测算」两篇纳入目录树与对比表，定位为\"事实→方法论→模式推演\"三层之一。",
+    "title": "**【小更新】DeepSeek Harness 项目记录 — B9 未完成会话证据**（`Codex工作区/DeepSeek Harness项目记录.md`，09:24 落盘）：补一条 2026-08-17 01:13 未完成会话证据（web_search 被 abort、0 真实结论），用于反向校准\"未完成任务不得误判为成功\"。属项目记录细节，非新判断。",
     "summary": "",
     "points": [],
-    "date": "2026-08-16"
-   },
-   {
-    "title": "**DeepSeek Harness 项目记录更新（MiniMax-M3 端点修复小节，Codex工作区）**：更新 `Codex工作区/DeepSeek Harness项目记录.md`（08-16 22:38），新增「2026-08-16：MiniMax-M3 端点故障修复」小节，记录 `subagent_m3` 因 Harness 默认指向国际端点 `api.minimax.io` 而 `sk-cp-` 国内版 key 仅 `api.minimax.chat` 有效导致 401 的排查与修复（追加 `baseURL` 后配置热重载即生效）。",
-    "summary": "",
-    "points": [],
-    "date": "2026-08-16"
-   },
-   {
-    "title": "**MiniMax-M3 端点故障修复（故障排查实录，Codex工作区）**：新增 `Codex工作区/2026-08-16_MiniMax-M3端点故障修复.md`（08-16 22:38）。完整记录故障现象、诊断证据（两端点 401 vs 200 对比）、根因、修复（`~/.dsh/settings.yaml` 追加 `baseURL`）、验证与预设机制澄清（`m3-workhorse` 是标准预设超集、与 `subagent_codex` 两类可调用的 AI Agent）。",
-    "summary": "",
-    "points": [],
-    "date": "2026-08-16"
-   },
-   {
-    "title": "**02_系统架构更新（TRIAL-001 结论登记，全域智能体/系统架构）**：更新 `全局记忆/02_系统架构.md`（08-16 14:58），新增「TRIAL-001 结论登记（2026-08-16，KNOWLEDGEPIP-113）」——对下一代多 Agent 协作架构的三大影响（编排控制权向框架内模型自治演进 / append-only 事件溯源成为可观测性标准底座 / Subagent Seam 成为 Agent 互操作统一接缝）+ 本系统三面板方向正确、5 项 gap（断点续跑、卡点探测机制化、双写对账、子 Agent 直连、编排层故障转移）。",
-    "summary": "",
-    "points": [],
-    "date": "2026-08-16"
-   },
-   {
-    "title": "**任务级会话隔离工作法（奥利弗专属，全局记忆）**：新增 `全局记忆/任务级会话隔离工作法.md`（08-16 11:26，徐总 08-16 确认落库）。规定奥利弗（千问办公）专属调度机制：每个任务建专属对话框+独立工作区、上下文按任务隔离、主线只做调度中枢；含角色定义、流程、自包含转交模板、配套约定与「2026 贵州旅游-导游」首个落地案例。明确暂不写入全体共享规则（03_工作规则）。",
-    "summary": "① 个人健康/体重管理.md（个人健康维护）② 知识流水线/A_原始资料.md（台账登记）③ 原始资料/已整理｜2026-08-15｜斯坦福…（已回流为第 1 项的原文备份）④ 原",
-    "points": [],
-    "date": "2026-08-16"
+    "date": "2026-08-17"
    }
   ],
   "judgments": [
-   "斯坦福 51 案例把\"企业 AI 落地卡点是组织不是模型\"从经验论断升级为规模化样本证据。 77% 项目最大障碍是组织变革/数据质量/流程重构（非模型选型/提示工程），61% 成功项目上线前至少失败过一次（技术投 1 块、配套组织改造常投 10 块），100% 采用迭代模式；高管支持四档中 58% 落在\"主动掌舵\"（每周协调、清除跨部门障碍）档。这与本专题 FDE 先盘流程再上 AI、企业五堵墙同向，把\"流程先行、迭代起步\"从经验变成样本级共性。",
-   "三档人机协作模式 = 按业务风险定人机分工的量化版本。 升级模式（AI 承担 80-95% 常规、人只处理异常，生产力中位数 +71%）≈ 任务/岗位 Agent；辅助模式（AI 出草稿人决策，+20~40%）≈ FDE 访谈/方案初稿；监护模式（每条人工复核）≈ 金融风控/医疗高责任场景。人机分工应先按业务风险定模式、再谈自动化比例——把本专题\"按业务形态设计 Agent 架构\"推进到\"按风险定分工\"的可操作层。",
-   "DeepSeek Harness 实验完成通信闭环+运行验证，TRIAL-001 把\"编排控制向框架内模型自治演进 / append-only 事件溯源 / Subagent Seam 统一接缝\"定为下一代多 Agent 架构三大影响。 MiniMax-M3 端点修复证明 Harness 子代理实际可用（subagent_m3 恢复 200 出 token），TRIAL-001 登记本系统三面板方向正确、5 项 gap。这是对 08-15 工业级多智能体协作设计与全域 System Ontology 的外部开源印证。"
+   "模型绑定门禁 = 生产级 Agent 治理的\"损失导向护栏\"范式。Harness Doctor 把监控从\"Provider 是否在线\"（可用性导向）升级为\"实际绑定与声明绑定不一致且会造成真实费用损失就 BLOCK\"（损失导向）。这是可复用的生产级 Agent 运维认知：运行时自检的第一优先级不是指标多，而是\"配置错没、实跑和配置一致没、这种错会不会烧钱\"。",
+   "\"Friday = DeepSeek Harness\"命名确权完成，全域智能体身份地图进入稳定态。08-17 把九大智能体的\"英文=中文=产品代号=appId(飞书侧)\"等价关系一次性固化，消除跨 Agent 调用时的命名歧义。这是全局架构级稳定事实，属于「企业AI 内部超级团队架构」与「全域智能体框架」的共同底座。",
+   "全域智能体从\"逐 Agent 能力页\"走向\"统一 System Ontology + 稳定命名\"。08-17 的命名确权与 Harness 项目持续闭环，印证 08-15 启动的 System Ontology 升级（KNOWLEDGEPIP-108）方向——框架正在从分散描述收敛为可被各 Agent 稳定读取的治理底座，而非又一次页面堆砌。"
   ]
  },
  "dailies": [
+  {
+   "date": "2026-08-17",
+   "items": [
+    {
+     "title": "**【新建·设计稿】DeepSeek Harness Doctor 插件设计**（`Codex工作区/DeepSeek Harness Doctor 插件设计.md`，created 2026-08-17，status: draft）：让 Harness 自举生成自身健康检查插件（harness-doctor），第一版只读、不自动修复。核心是把\"模型绑定错配导致费用异常\"从事后账单发现前置为请求发出前拦截——定义 `ModelBindingPolicy` + `modelBindingGate`（9 个判定 code：`BLOCKED_MODEL_BINDING` / `MODEL_BINDING_MISMATCH` 等）、`doctor --quick / --full / --preflight` 三模式、声明(Expected)/加载(Loaded)/运行(Runtime)三层模型态。C2/C3 已落地，34/34 单测通过，C4（知识库 §12/§13 + 终态 UX）in_review。直接呼应 08-16 MiniMax-M3 端点故障（模型绑定错配 → fallback 静默烧钱）。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-17"
+    },
+    {
+     "title": "**【更新】全域智能体框架总览 — 等价关系表 2026-08-17 补全**（`AI Agent工程知识/全域智能体框架总览.md`，19:35 落盘）：固化\"英文名(中文名·产品/智能体代号)\"全局对照——CodeX=Mason、DeepSeek CodeX=Jarvis、DeepSeek Harness=Friday、WorkBuddy=Ethan、千问办公=Oliver、QoderWork=Lucas、OpenClaw=Chris、Hermes=Felix、Thomas=字节 trae Work（非 Agent）。明确 Friday=Harness 派发层（走 Harness Web/JSON-RPC `127.0.0.1:47880`，非飞书 bot、无 appId），与 Jarvis=DeepSeek CodeX 平行独立。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-17"
+    },
+    {
+     "title": "**【小更新】DeepSeek Harness 项目记录 — B9 未完成会话证据**（`Codex工作区/DeepSeek Harness项目记录.md`，09:24 落盘）：补一条 2026-08-17 01:13 未完成会话证据（web_search 被 abort、0 真实结论），用于反向校准\"未完成任务不得误判为成功\"。属项目记录细节，非新判断。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-17"
+    }
+   ],
+   "judgments": [
+    "模型绑定门禁 = 生产级 Agent 治理的\"损失导向护栏\"范式。Harness Doctor 把监控从\"Provider 是否在线\"（可用性导向）升级为\"实际绑定与声明绑定不一致且会造成真实费用损失就 BLOCK\"（损失导向）。这是可复用的生产级 Agent 运维认知：运行时自检的第一优先级不是指标多，而是\"配置错没、实跑和配置一致没、这种错会不会烧钱\"。",
+    "\"Friday = DeepSeek Harness\"命名确权完成，全域智能体身份地图进入稳定态。08-17 把九大智能体的\"英文=中文=产品代号=appId(飞书侧)\"等价关系一次性固化，消除跨 Agent 调用时的命名歧义。这是全局架构级稳定事实，属于「企业AI 内部超级团队架构」与「全域智能体框架」的共同底座。",
+    "全域智能体从\"逐 Agent 能力页\"走向\"统一 System Ontology + 稳定命名\"。08-17 的命名确权与 Harness 项目持续闭环，印证 08-15 启动的 System Ontology 升级（KNOWLEDGEPIP-108）方向——框架正在从分散描述收敛为可被各 Agent 稳定读取的治理底座，而非又一次页面堆砌。"
+   ]
+  },
   {
    "date": "2026-08-16",
    "items": [
@@ -5166,60 +5167,6 @@ window.OBSIDIAN_DATA = {
     "腾讯 FDE 报告把本库 FDE 主线从\"方法论描述\"推进到\"经济性与可复用性核验\"：判断一个 FDE 模式是否成立，不再看话术和五阶段流程，而看两个硬指标——项目结束后是否沉淀可复用资产（本体层/Skill/连接器），以及第十个同类客户的人月是否显著低于第一个；中国场景的真实约束是合同金额量级（十万到百万人民币），因此\"降交付成本 + 提复用率\"不是优化项而是生存条件。",
     "架构模式不等于生产系统，本库唯一真实缺口是 Reflexion 自我反思：7 种架构属任务执行层选型，本身不含状态、权限、门禁、交付维度，用它评判生产系统是拿错尺子；现有体系已混用 ReAct / Multi-Agent / Route+Skill / Blackboard 四种并用状态机补位 Graph Workflow，缺的是\"结果喂回模型 + 沉淀改进记忆\"的自省迭代——目前只有外部互审（数据校验师、Codex 复核），有\"审\"无\"自省\"。",
     "Agent 能力主张必须由真实任务结果 + 主控审核生成，杜绝\"一次成功=固定能力\"：Agent Ontology 本轮明确不再制造样本，只让已有模型/额度/资源事实归位，并把项目运行事实、Taskboard 审计摘要、Obsidian 审核结论三层存储分离；同日 DK-One/DK-Two 首轮受控调用（真实 DeepSeek V4 Flash、read-only、写入 TaskResult 与 CapabilityEvidence）为该规则提供了第一批可追溯证据。"
-   ]
-  },
-  {
-   "date": "2026-08-09",
-   "items": [
-    {
-     "title": "**DeepSeek Codex 双模型并行机制固化（KNOWLEDGEPIP-78，08-09 补修复小节）**",
-     "summary": "官方 Codex（`~/.codex`，gpt-5.6-luna）与 DeepSeek Codex（独立 `CODEX_HOME` + 独立 `user-data-dir` + 独",
-     "points": [
-      "事实：官方 Codex（`~/.codex`，gpt-5.6-luna）与 DeepSeek Codex（独立 `CODEX_HOME` + 独立 `user-data-dir` + 独立 provider 段）双开并存；核心教训是不能在官",
-      "概念：双入口隔离 = 配置全部收进 `codex-home`；API 侧限流（503）与本地配置错误要分开诊断；未知模型 / 401 / 无持久化告警为非致命告警，不阻塞对话。"
-     ],
-     "date": "2026-08-09"
-    },
-    {
-     "title": "**Codex 会话级 Agent 协作协议 v0.1（KNOWLEDGEPIP-79，draft，08-09 进总纲进索引）**",
-     "summary": "把 Codex 线程当作可持续 Agent 运行单位；首批三角色 MC-001 主控 / PA-001 规划 / DE-001 开发；明确\"注册（角色契约）≠ 绑定（具体 thre",
-     "points": [
-      "事实：把 Codex 线程当作可持续 Agent 运行单位；首批三角色 MC-001 主控 / PA-001 规划 / DE-001 开发；明确\"注册（角色契约）≠ 绑定（具体 thread_id + run_id）\"。",
-      "概念：Agent Registry / Message Bus / Worklog / Taskboard / Obsidian 五件套；与外部 Agent Ontology 边界：内部线程不暴露给外部路由，只允许受控 evidence e"
-     ],
-     "date": "2026-08-09"
-    },
-    {
-     "title": "**Codex 的内部合作机制（视频口播稿，伊森转录入 08-09，内部机制资料）**",
-     "summary": "外部博主玩法——规划/开发/验收三 Agent 分工、跨会话消息自动交接、Agent 身份证注册表、Worklog/Workspace 留痕、责任回溯。",
-     "points": [
-      "事实：外部博主玩法——规划/开发/验收三 Agent 分工、跨会话消息自动交接、Agent 身份证注册表、Worklog/Workspace 留痕、责任回溯。",
-      "概念：上下文隔离既是并行与流水线的价值来源，也是避免上下文污染的隔离墙；\"管理 / 执行 / 验收\"三分层避免同一 Agent 既当球员又当裁判。"
-     ],
-     "date": "2026-08-09"
-    },
-    {
-     "title": "**WorkBuddy 巡检专员专家创建 + 首次实战巡检 + 边界校准（08-09）**",
-     "summary": "WorkBuddy 专家中心注册 `obsidian-health-inspector`（12 步巡检流程、八段式输出、能力边界不拍板）；首次巡检发现\"任务面板与知识库\"新目录悬空",
-     "points": [
-      "事实：WorkBuddy 专家中心注册 `obsidian-health-inspector`（12 步巡检流程、八段式输出、能力边界不拍板）；首次巡检发现\"任务面板与知识库\"新目录悬空孤岛、`.workbuddy` 记忆误复制、口播稿未入",
-      "概念：外部巡检员输出规则补强——\"用户已拍板结构不重复当错误上报\"\"CLI 是通道不是授权\"\"客观发现 / 结构判断 / 执行动作分离\"。"
-     ],
-     "date": "2026-08-09"
-    },
-    {
-     "title": "**Obsidian 指认方式统一 + 任务面板新顶层目录（08-09 徐总拍板）**",
-     "summary": "评论 / 描述 / 笔记 Task link 一律写笔记相对路径（`.md`），废弃 `obsidian://open` URI；新一级目录\"任务面板与知识库\"定位为任务面板 × ",
-     "points": [
-      "事实：评论 / 描述 / 笔记 Task link 一律写笔记相对路径（`.md`），废弃 `obsidian://open` URI；新一级目录\"任务面板与知识库\"定位为任务面板 × Obsidian 协同主题文档主位置；协议 v0.1 "
-     ],
-     "date": "2026-08-09"
-    }
-   ],
-   "judgments": [
-    "双模型 Codex 并存的前提是环境完全隔离：独立 `CODEX_HOME` + `user-data-dir` + provider 段，官方 `model_catalog_json` 不可覆盖；模型接入的坑大多来自配置越界，而不是 API 本身。",
-    "多 Agent 团队协作的工程底座是注册表身份证 + 结构化消息 + Worklog 留痕：让规划→开发→验收闭环可追溯；上下文隔离既是并行价值来源，也是防止污染的隔离墙。",
-    "外部辅助 Agent（巡检员）的价值取决于输出规则先于执行能力：能识别\"用户已拍板结构\"、区分客观发现与执行动作、把 CLI 当通道而非授权，才不会把合规状态当错误反复上报。"
    ]
   }
  ],
@@ -5585,6 +5532,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 90,
-  "fetchedAt": "2026年8月17日 20:52"
+  "fetchedAt": "2026年8月17日 22:58"
  }
 };
