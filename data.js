@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-08-17",
- "generatedTime": "2026-08-17 22:58",
+ "generatedAt": "2026-08-18",
+ "generatedTime": "2026-08-18 08:36",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 30,
- "weeklyChanges": 424,
+ "weeklyPages": 26,
+ "weeklyChanges": 398,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-17｜AI知识增量整理.md",
  "topics": [
@@ -578,20 +578,20 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "- 通道层：飞书 lark-cli，统一管理 7 个飞书应用（appId 见第二节）；当前 currentApp 为伊森 clia92504e56d78dbd7，user 身份（徐",
-   "wordCount": 2308,
+   "wordCount": 2396,
    "searchText": "全域智能体框架总览 AI Agent工程知识/全域智能体框架总览.md 通道层：飞书 larkcli，统一管理 7 个飞书应用（appId 见第二节）；当前 currentApp 为伊森 clia92504e56d78dbd7，user 身份（徐 全域智能体 架构 多智能体 框架 全域智能体健康度审查方法论 飞书多智能体连接故障恢复手册"
   },
   {
    "path": "AI Agent工程知识/全域智能体系统本体与健康治理.md",
    "title": "全域智能体系统本体与健康治理",
-   "updated": "2026-08-16",
+   "updated": "2026-08-17",
    "topic": "agent",
    "aliases": [],
    "tags": [],
    "links": [],
    "backlinks": [],
    "desc": "现有 Agent Ontology 只覆盖了智能体注册、能力、模型绑定和部分路由问题，范围不足以描述整个智能体工作系统。",
-   "wordCount": 2977,
+   "wordCount": 3031,
    "searchText": "全域智能体系统本体与健康治理 AI Agent工程知识/全域智能体系统本体与健康治理.md 现有 Agent Ontology 只覆盖了智能体注册、能力、模型绑定和部分路由问题，范围不足以描述整个智能体工作系统。"
   },
   {
@@ -4762,7 +4762,7 @@ window.OBSIDIAN_DATA = {
     "date": "2026-08-17"
    },
    {
-    "title": "**【更新】全域智能体框架总览 — 等价关系表 2026-08-17 补全**（`AI Agent工程知识/全域智能体框架总览.md`，19:35 落盘）：固化\"英文名(中文名·产品/智能体代号)\"全局对照——CodeX=Mason、DeepSeek CodeX=Jarvis、DeepSeek Harness=Friday、WorkBuddy=Ethan、千问办公=Oliver、QoderWork=Lucas、OpenClaw=Chris、Hermes=Felix、Thomas=字节 trae Work（非 Agent）。明确 Friday=Harness 派发层（走 Harness Web/JSON-RPC `127.0.0.1:47880`，非飞书 bot、无 appId），与 Jarvis=DeepSeek CodeX 平行独立。",
+    "title": "**【更新】全域智能体框架总览 — 等价关系表 2026-08-17 补全**（`AI Agent工程知识/全域智能体框架总览.md`，19:35 落盘）：固化\"英文名(中文名·产品/智能体代号)\"全局对照——CodeX=Mason、DeepSeek CodeX=Jarvis、DeepSeek Harness=Friday、WorkBuddy=Ethan、千问办公=Oliver、QoderWork=Lucas、OpenClaw=Chris、Hermes=Felix、Thomas=字节 trae Work（非 Agent）。明确 Friday=Harness 派发层（当时记录走 Harness Web/JSON-RPC `127.0.0.1:47880`、非飞书 bot、无 appId；**2026-08-18 更新：Friday 已经 Harness 飞书插件接入飞书 Bot，appId 待补**），与 Jarvis=DeepSeek CodeX 平行独立。",
     "summary": "",
     "points": [],
     "date": "2026-08-17"
@@ -4791,7 +4791,7 @@ window.OBSIDIAN_DATA = {
      "date": "2026-08-17"
     },
     {
-     "title": "**【更新】全域智能体框架总览 — 等价关系表 2026-08-17 补全**（`AI Agent工程知识/全域智能体框架总览.md`，19:35 落盘）：固化\"英文名(中文名·产品/智能体代号)\"全局对照——CodeX=Mason、DeepSeek CodeX=Jarvis、DeepSeek Harness=Friday、WorkBuddy=Ethan、千问办公=Oliver、QoderWork=Lucas、OpenClaw=Chris、Hermes=Felix、Thomas=字节 trae Work（非 Agent）。明确 Friday=Harness 派发层（走 Harness Web/JSON-RPC `127.0.0.1:47880`，非飞书 bot、无 appId），与 Jarvis=DeepSeek CodeX 平行独立。",
+     "title": "**【更新】全域智能体框架总览 — 等价关系表 2026-08-17 补全**（`AI Agent工程知识/全域智能体框架总览.md`，19:35 落盘）：固化\"英文名(中文名·产品/智能体代号)\"全局对照——CodeX=Mason、DeepSeek CodeX=Jarvis、DeepSeek Harness=Friday、WorkBuddy=Ethan、千问办公=Oliver、QoderWork=Lucas、OpenClaw=Chris、Hermes=Felix、Thomas=字节 trae Work（非 Agent）。明确 Friday=Harness 派发层（当时记录走 Harness Web/JSON-RPC `127.0.0.1:47880`、非飞书 bot、无 appId；**2026-08-18 更新：Friday 已经 Harness 飞书插件接入飞书 Bot，appId 待补**），与 Jarvis=DeepSeek CodeX 平行独立。",
      "summary": "",
      "points": [],
      "date": "2026-08-17"
@@ -5251,6 +5251,34 @@ window.OBSIDIAN_DATA = {
    "wordCount": 462
   },
   {
+   "path": "徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构.md",
+   "title": "企业需要什么样的AI：节点放大效率还是组织架构",
+   "date": "2026-08-18",
+   "updated": "2026-08-17",
+   "category": "企业AI与商业化",
+   "status": "已回答 → 已入库",
+   "questionType": "",
+   "originalQuestion": "看了这两家电商的 AI 的加入，其实我就会觉得我们在做 Harness 的时候到底是在为啥？到底是跟极客相关，还是把 Harness 培养到能进入到生产级的企业？如果说现在的 AI 如果没法产生一个效益的话，我觉得就不是好 AI。 你们去拆分一下，他们用的可能那种 AI 都是很简单的，就是一种标准化的流程去嵌入到整个流程当中。 这个问题专题库主要就是讲企业到底需要什么样的 AI 以及企业 AI 落地案例的思考——到底是这个 AI 在节点放大效率，还是说它要引导整个公司变成 AI 组织架构？因为之前更多的是讲怎么样去",
+   "direction": "本页不是记录两篇口播的文案内容，而是提炼徐总的真实关切： 结论先行（三方一致）： 两家电商证明，企业里产生真实效益的 AI 是「标准化流程 + 在关键节点嵌 RPA/AI 的标准化零件」，不是\"智能体总控整个公司\"。AI 在节点放大效率是今天能落地、能算账的形态；组织整体 AI 化是长期方向，但前提是先把节点做扎实。以此反照 Harness：我们之前堆的插件/控制中心/派发层属于\"极客自嗨\"，偏离了\"生产级 = 效益可算账\"这条线。",
+   "directionHtml": "<p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本页不是记录两篇口播的文案内容，而是提炼徐总的真实关切：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">1. 企业里\"好用的 AI\"到底长什么样？是标准化流程里嵌几个点状 AI，还是整个组织被 AI 重构？\n2. 两家电商案例（唐承佳女装直播、森马/跨境黄总）的共同模式是什么？\n3. 以这个标准回头看我们的 Harness 建设，定位错了没有？\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>结论先行（三方一致）：</b> 两家电商证明，企业里产生真实效益的 AI 是「标准化流程 + 在关键节点嵌 RPA/AI 的标准化零件」，不是\"智能体总控整个公司\"。AI 在<b>节点放大效率</b>是今天能落地、能算账的形态；<b>组织整体 AI 化</b>是长期方向，但前提是先把节点做扎实。以此反照 Harness：我们之前堆的插件/控制中心/派发层属于\"极客自嗨\"，偏离了\"生产级 = 效益可算账\"这条线。</p><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\">",
+   "summary": "本页不是记录两篇口播的文案内容，而是提炼徐总的真实关切： 结论先行（三方一致）： 两家电商证明，企业里产生真实效益的 AI 是「标准化流程 + 在关键节点嵌 RPA/AI 的标准化零件」，不是\"智能体总控整个公司\"。AI 在节点放大效率是今天能落地、能算账的形态；组织整体 AI 化是长期方向，但前提是先把节点做扎实。以此反照 Harness：我们之前堆的插件",
+   "answerHtml": "",
+   "formalNotes": [],
+   "rawMaterials": [],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "徐总问题专题库/00_问题专题库总览",
+    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆",
+    "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环",
+    "Codex工作区/DeepSeek Harness项目记录"
+   ],
+   "wordCount": 4508
+  },
+  {
    "path": "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
    "title": "游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
    "date": "2026-08-11",
@@ -5483,8 +5511,8 @@ window.OBSIDIAN_DATA = {
  "tasks": {
   "summary": {
    "in_progress": 11,
-   "todo": 8,
-   "in_review": 10,
+   "todo": 9,
+   "in_review": 11,
    "blocked": 1
   },
   "recent": [
@@ -5501,6 +5529,13 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "urgent",
     "assignee": "伊森"
+   },
+   {
+    "id": "KP-120",
+    "title": "DeepSeek Harness 清洁重装基线与新入口验收",
+    "status": "todo",
+    "priority": "high",
+    "assignee": "徐总"
    },
    {
     "id": "KP-118",
@@ -5522,16 +5557,9 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "high",
     "assignee": "Codex"
-   },
-   {
-    "id": "KP-116",
-    "title": "实验：Taskboard 到 Harness 状态闭环端到端试跑",
-    "status": "in_review",
-    "priority": "high",
-    "assignee": "Codex 主控"
    }
   ],
-  "total": 90,
-  "fetchedAt": "2026年8月17日 22:58"
+  "total": 92,
+  "fetchedAt": "2026年8月18日 08:36"
  }
 };
