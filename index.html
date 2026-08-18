@@ -1142,8 +1142,8 @@
   <div id="live-body" class="app-body"></div>
 </div>
 
-<script src="data.js?v=202608180836"></script>
-<script src="docs.js?v=202608180836" defer></script>
+<script src="data.js?v=202608181742"></script>
+<script src="docs.js?v=202608181742" defer></script>
 <script>
 /* 悬浮式底部控制条浏览器（华为/UC/夸克/小米/百度等）会覆盖页面底部，给 html 打标记以便上抬底部栏 */
 (function () {
@@ -1472,9 +1472,10 @@ function renderToday() {
     agent:'linear-gradient(135deg,#2563EB,#1E40AF)',
     enterprise:'linear-gradient(135deg,#7C3AED,#5B21B6)',
     infrastructure:'linear-gradient(135deg,#0EA5E9,#0369A1)',
-    pipeline:'linear-gradient(135deg,#10B981,#047857)'
+    pipeline:'linear-gradient(135deg,#10B981,#047857)',
+    raw:'linear-gradient(135deg,#F59E0B,#B45309)'
   };
-  (OBSIDIAN_DATA.topics || []).slice(0,4).forEach(function(t, i){
+  (OBSIDIAN_DATA.topics || []).slice(0,5).forEach(function(t, i){
     h += '<div class="kp-tile" style="background:'+(tileBg[t.key]||tileBg.agent)+';animation-delay:'+(i*0.06)+'s" onclick="openTopicByKey(\''+t.key+'\')"><span class="cnt">'+t.count+'</span><div class="ti">'+(t.icon||'📚')+'</div><h4>'+escapeHtml(t.name)+'</h4><span class="more">进入专题 ›</span></div>';
   });
   h += '</div>';
@@ -1527,6 +1528,8 @@ function renderDesktopToday() {
   h += '<div class="desktop-panel"><h3>未来建设重点</h3><div class="gap-item"><b>评测与可观测性</b><span>待补齐</span></div><div class="gap-item"><b>安全权限与责任链</b><span>待补链</span></div><div class="gap-item"><b>多 Agent 协作</b><span>待建设</span></div><div class="gap-item"><b>企业结果评价</b><span>待建设</span></div><div class="pc-link" style="margin-top:12px;cursor:pointer" onclick="switchTab(\'me\')">查看建设路线 ›</div></div>';
   h += '<div class="desktop-panel" style="cursor:pointer" onclick="showQuestionHub()"><h3>问题驱动层</h3><p>已沉淀 '+questions.length+' 个问题专题。它负责回答“我提出的问题，如何把 Obsidian 的多篇知识串成一个判断框架”。</p><div class="pc-link" style="margin-top:12px;">进入问题专题库 ›</div></div>';
   var w=OBSIDIAN_DATA.weeklyReview; if(w) h += '<div class="desktop-panel" style="cursor:pointer" onclick="showWeeklyReview()"><h3>本周架构变化</h3><p>'+w.change+'</p><div class="pc-link">查看完整周复盘 ›</div></div>';
+  var rawT2 = topicOf('raw');
+  h += '<div class="desktop-panel" style="cursor:pointer" onclick="openTopicByKey(\'raw\')"><h3>🗂 原始资料 / 养料</h3><p>抖音分享、客户截图、未提炼素材——直接入库 '+rawT2.count+' 篇，待蒸馏成正式笔记。</p><div class="pc-link">进入原始资料 ›</div></div>';
   h += '</aside></div>';
   return h;
 }
@@ -1562,6 +1565,8 @@ function renderTopic() {
   h += '</div>';
   var pipe = topicOf('pipeline');
   h += '<div class="kp-base" onclick="openTopicByKey(\'pipeline\')"><div class="fn-head"><span class="fi">📚</span><b>知识流水线 · 底座</b><span>'+pipe.count+' 篇</span></div><div class="fn-go">每日整理 · 周复盘 · 问题专题（'+(OBSIDIAN_DATA.questionTopics||[]).length+' 个）→</div></div>';
+  var rawT = topicOf('raw');
+  h += '<div class="kp-base" style="background:linear-gradient(135deg,#F59E0B,#B45309)" onclick="openTopicByKey(\'raw\')"><div class="fn-head"><span class="fi">🗂</span><b>原始资料 / 养料</b><span>'+rawT.count+' 篇</span></div><div class="fn-go">抖音分享 · 客户截图 · 未提炼素材（直接入库，待蒸馏）→</div></div>';
   var questions = OBSIDIAN_DATA.questionTopics || [];
   if (questions.length) h += '<div class="kp-review" style="margin-top:10px" onclick="showQuestionHub()"><span class="reyebrow">问题专题库</span><h4>用真实提问串联知识 · '+questions.length+' 个专题</h4><span class="rarrow">›</span></div>';
   h += '</div>';
@@ -1668,8 +1673,8 @@ function openQuestionTopicByPath(path){
 }
 
 function openTopic(idx){
-  var names = ["AI Agent工程知识","企业AI与智能体商业化","AI产业链与数字基础设施","知识流水线"];
-  var keys = ["agent","enterprise","infrastructure","pipeline"];
+  var names = ["AI Agent工程知识","企业AI与智能体商业化","AI产业链与数字基础设施","知识流水线","原始资料 / 养料"];
+  var keys = ["agent","enterprise","infrastructure","pipeline","raw"];
   var t = OBSIDIAN_DATA.topics.find(function(x){ return x.key === keys[idx]; }) || {count:0};
   var files = OBSIDIAN_GRAPH.nodes.filter(function(n){ return n.topic === keys[idx]; })
     .sort(function(a,b){ return (b.updated||'').localeCompare(a.updated||''); });
@@ -1679,7 +1684,9 @@ function openTopic(idx){
   h += '<div class="source-line">节点与链接来自真实 Obsidian 编译数据 · '+OBSIDIAN_GRAPH.generatedAt+' '+OBSIDIAN_GRAPH.generatedTime+'</div>';
   files.forEach(function(n, i){
     var done = i < 3;
-    h += '<div class="doc-item" onclick="openGraphNodeByPath(\''+n.path.replace(/'/g,"\\'")+'\')"><div class="d-ic '+(idx===0?'agent':'enterprise')+'">'+(idx===0?'📘':'🏢')+'</div><div class="d-body"><h4>'+n.title+'</h4><div class="d-meta">更新 '+n.updated+' · '+(n.wordCount>0?Math.round(n.wordCount/100)/10+'k 字':'')+'</div></div><div class="d-check'+(done?' done':'')+'">✓</div></div>';
+    var dcls = idx===0 ? 'agent' : (idx===4 ? 'agent' : 'enterprise');
+    var demo = idx===0 ? '📘' : (idx===4 ? '🗂' : '🏢');
+    h += '<div class="doc-item" onclick="openGraphNodeByPath(\''+n.path.replace(/'/g,"\\'")+'\')"><div class="d-ic '+dcls+'">'+demo+'</div><div class="d-body"><h4>'+n.title+'</h4><div class="d-meta">更新 '+n.updated+' · '+(n.wordCount>0?Math.round(n.wordCount/100)/10+'k 字':'')+'</div></div><div class="d-check'+(done?' done':'')+'">✓</div></div>';
   });
   h += '</div>';
   document.getElementById('live-body').innerHTML = h;
