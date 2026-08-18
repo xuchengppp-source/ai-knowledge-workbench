@@ -1142,8 +1142,8 @@
   <div id="live-body" class="app-body"></div>
 </div>
 
-<script src="data.js?v=202608181742"></script>
-<script src="docs.js?v=202608181742" defer></script>
+<script src="data.js?v=202608181756"></script>
+<script src="docs.js?v=202608181756" defer></script>
 <script>
 /* 悬浮式底部控制条浏览器（华为/UC/夸克/小米/百度等）会覆盖页面底部，给 html 打标记以便上抬底部栏 */
 (function () {
@@ -1662,8 +1662,8 @@ function openQuestionTopicByPath(path){
   if (q.nextQuestions && q.nextQuestions.length) h += '<h2>下一步可追问</h2><ul>'+q.nextQuestions.map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
   if (q.distillItems && q.distillItems.length) h += '<h2>下一步沉淀动作</h2><ul>'+q.distillItems.map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
   h += '<h2>资料依据</h2><details class="review-box"><summary>展开关联正式笔记和原始资料</summary>';
-  if (q.formalNotes && q.formalNotes.length) h += '<h3>关联的正式笔记</h3><ul>'+q.formalNotes.map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
-  if (q.rawMaterials && q.rawMaterials.length) h += '<h3>关联的原始资料</h3><ul>'+q.rawMaterials.slice(0,6).map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
+  if (q.formalNotes && q.formalNotes.length) h += '<h3>关联的正式笔记</h3><ul>'+q.formalNotes.map(function(x){ return linkedNoteItem(x); }).join('')+'</ul>';
+  if (q.rawMaterials && q.rawMaterials.length) h += '<h3>关联的原始资料</h3><ul>'+q.rawMaterials.slice(0,6).map(function(x){ return linkedNoteItem(x); }).join('')+'</ul>';
   h += '</details>';
   if (contentHtml && contentHtml.length > 50) h += '<details class="review-box"><summary>展开完整 Obsidian 问题笔记</summary><div class="reader-full">'+contentHtml+'</div></details>';
   h += '</div><div class="reader-bottom"><div class="rb-btn done" onclick="showQuestionHub()">返回问题库</div></div></div>';
@@ -1694,6 +1694,17 @@ function openTopic(idx){
 }
 
 function openGraphNodeByIndex(i){ var n = OBSIDIAN_GRAPH.nodes[i]; if(n) openGraphNode(n); }
+
+function linkedNoteItem(name){
+  var n = null;
+  var nodes = (window.OBSIDIAN_DATA && window.OBSIDIAN_DATA.nodes) || [];
+  for (var i = 0; i < nodes.length; i++) {
+    var x = nodes[i];
+    if (x.path === name || x.path === name + '.md' || x.title === name) { n = x; break; }
+  }
+  if (n) return '<li style="cursor:pointer" onclick="openGraphNodeByPath(\''+n.path.replace(/'/g,"\\'")+'\')"><span style="color:var(--blue);text-decoration:underline">'+escapeHtml(name)+'</span> ›</li>';
+  return '<li>'+escapeHtml(name)+'<span style="color:var(--dim);font-size:11px">（未收录，可在 Obsidian 中查看）</span></li>';
+}
 
 function openGraphNodeByPath(p){
   var n = OBSIDIAN_GRAPH.nodes.find(function(x){ return x.path === p; }) || OBSIDIAN_GRAPH.nodes[0];
