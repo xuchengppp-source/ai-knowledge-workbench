@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-08-18",
- "generatedTime": "2026-08-18 17:56",
+ "generatedAt": "2026-08-19",
+ "generatedTime": "2026-08-19 09:36",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 36,
- "weeklyChanges": 488,
+ "weeklyPages": 24,
+ "weeklyChanges": 372,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-17｜AI知识增量整理.md",
  "topics": [
@@ -11,7 +11,7 @@ window.OBSIDIAN_DATA = {
    "name": "AI Agent工程知识",
    "key": "agent",
    "icon": "🤖",
-   "count": 30
+   "count": 31
   },
   {
    "name": "企业AI与智能体商业化",
@@ -35,7 +35,7 @@ window.OBSIDIAN_DATA = {
    "name": "原始资料 / 养料",
    "key": "raw",
    "icon": "🗂",
-   "count": 40
+   "count": 41
   }
  ],
  "nodes": [
@@ -215,7 +215,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/AI Agent工程知识专题.md",
    "title": "AI Agent 工程知识专题",
-   "updated": "2026-08-15",
+   "updated": "2026-08-18",
    "topic": "agent",
    "aliases": [],
    "tags": [],
@@ -248,6 +248,7 @@ window.OBSIDIAN_DATA = {
     "AI Agent全面理解",
     "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
     "Codex工作区/DeepSeek Harness项目记录",
+    "Deepseek Harness：框架概念与专属智能体搭建",
     "AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
     "原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）",
     "全局术语表",
@@ -281,8 +282,8 @@ window.OBSIDIAN_DATA = {
     "原始资料/已整理｜2026-08-06｜抖音豆包｜张宇技术栈Agent系统7种架构.md"
    ],
    "desc": "上级：徐总的知识库",
-   "wordCount": 13490,
-   "searchText": "AI Agent 工程知识专题 AI Agent工程知识/AI Agent工程知识专题.md 上级：徐总的知识库 徐总的知识库 企业AI与生产级Agent总框架关系图 企业AI与生产级Agent总框架 AI Agent面试14题学习版：从概念到甘食记项目落地 企业AI与智能体商业化/企业AI知识资产与RAG工程关系图 生产级AI Agent知识体系总览：层级·特性·术语 生产级AI Agent工程体系的完整链路 Agent系统架构模式选型：从单Agent到Graph Workflow 工业级多智能体协作系统设计：任务编排、依赖治理与结果对齐 生产级RAG与数据库知识库架构：事实库、文档知识库与状态机 生产级AI Agent记忆系统与Context调度 AI Agent后端工程化能力框架：分布式、异步、状态与可运维 FDE业务输出到后端工程的翻译映射：从业务对象到工程实现 AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象 AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲 AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用 企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent 企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径 企业AI与智能体商业化/FDE商业级智能体交付框架 AI Agent工程知识框架 AI Agent专业术语词典 企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战 企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目 企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架 企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器 AI Agent全面理解 企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准 Codex工作区/DeepSeek Harness项目记录 AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准 原始讨论｜ChatGPT生产级AI Agent框架（20260611） 全局术语表 企业AI与智能体商业化/AI 原生企业管理系统（轻量版）/AI 原生企业管理系统（轻量版）：初创公司的基础逻辑 企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁 企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构 企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统 AI Agent面试知识地图 显性知识与隐性知识的工程化入库机制"
+   "wordCount": 13641,
+   "searchText": "AI Agent 工程知识专题 AI Agent工程知识/AI Agent工程知识专题.md 上级：徐总的知识库 徐总的知识库 企业AI与生产级Agent总框架关系图 企业AI与生产级Agent总框架 AI Agent面试14题学习版：从概念到甘食记项目落地 企业AI与智能体商业化/企业AI知识资产与RAG工程关系图 生产级AI Agent知识体系总览：层级·特性·术语 生产级AI Agent工程体系的完整链路 Agent系统架构模式选型：从单Agent到Graph Workflow 工业级多智能体协作系统设计：任务编排、依赖治理与结果对齐 生产级RAG与数据库知识库架构：事实库、文档知识库与状态机 生产级AI Agent记忆系统与Context调度 AI Agent后端工程化能力框架：分布式、异步、状态与可运维 FDE业务输出到后端工程的翻译映射：从业务对象到工程实现 AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象 AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲 AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用 企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent 企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径 企业AI与智能体商业化/FDE商业级智能体交付框架 AI Agent工程知识框架 AI Agent专业术语词典 企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战 企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目 企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架 企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器 AI Agent全面理解 企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准 Codex工作区/DeepSeek Harness项目记录 Deepseek Harness：框架概念与专属智能体搭建 AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准 原始讨论｜ChatGPT生产级AI Agent框架（20260611） 全局术语表 企业AI与智能体商业化/AI 原生企业管理系统（轻量版）/AI 原生企业管理系统（轻量版）：初创公司的基础逻辑 企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁 企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构 企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统 AI Agent面试知识地图 显性知识与隐性知识的工程化入库机制"
   },
   {
    "path": "AI Agent工程知识/AI Agent工程知识框架.md",
@@ -416,6 +417,30 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 6740,
    "searchText": "Agent系统架构模式选型：从单Agent到Graph Workflow AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md 上级：AI Agent工程知识专题 Agent系统7种架构 AI Agent AI Agent工程知识专题 生产级AI Agent知识体系总览：层级·特性·术语 生产级AI Agent工程体系的完整链路 AI Agent工程知识框架 AI Agent专业术语词典 企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移 原始资料/已整理｜20260806｜抖音豆包｜张宇技术栈Agent系统7种架构 原始资料/已整理｜20260807｜抖音豆包｜AI大模型果果姐AIAgent框架选错白忙三个月 企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架 企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同"
+  },
+  {
+   "path": "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md",
+   "title": "Deepseek Harness：框架概念与专属智能体搭建",
+   "updated": "2026-08-19",
+   "topic": "agent",
+   "aliases": [],
+   "tags": [],
+   "links": [
+    "AI Agent工程知识专题",
+    "全域智能体框架总览",
+    "生产级AI Agent知识体系总览：层级·特性·术语",
+    "为什么做多智能体：Codex内部多线程vs跨平台多智能体",
+    "多智能体共享记忆：TencentDB Agent Memory 评估",
+    "AI模型选型与订阅历史",
+    "徐总每日随记/当日记录/2026-08-18",
+    "Codex工作区/DeepSeek Harness项目记录",
+    "Codex工作区/DeepSeek Harness 官方资源与插件开发指南",
+    "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环"
+   ],
+   "backlinks": [],
+   "desc": "两条硬规则：",
+   "wordCount": 10789,
+   "searchText": "Deepseek Harness：框架概念与专属智能体搭建 AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md 两条硬规则： AI Agent工程知识专题 全域智能体框架总览 生产级AI Agent知识体系总览：层级·特性·术语 为什么做多智能体：Codex内部多线程vs跨平台多智能体 多智能体共享记忆：TencentDB Agent Memory 评估 AI模型选型与订阅历史 徐总每日随记/当日记录/20260818 Codex工作区/DeepSeek Harness项目记录 Codex工作区/DeepSeek Harness 官方资源与插件开发指南 原始资料/已整理｜20260816｜DeepSeek Harness｜Harness控制中心架构闭环"
   },
   {
    "path": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现.md",
@@ -5859,6 +5884,7 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/DeepSeek Harness项目记录"
    ],
    "backlinks": [
+    "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md",
     "知识流水线/A_原始资料.md",
     "知识流水线/知识库健康巡检.md"
    ],
@@ -5899,6 +5925,21 @@ window.OBSIDIAN_DATA = {
    "desc": "用AI省了多少钱？",
    "wordCount": 4828,
    "searchText": "已整理｜20260817｜口播文案｜女装直播用AI省500万（唐承佳案例） 原始资料/已整理｜20260817｜口播文案｜女装直播用AI省500万(唐承佳案例).md 用AI省了多少钱？ 原始资料"
+  },
+  {
+   "path": "原始资料/待整理｜2026-08-18｜口播文案｜企业AI知识库搭建.md",
+   "title": "待整理｜2026-08-18｜口播文案｜企业AI知识库搭建",
+   "updated": "2026-08-18",
+   "topic": "raw",
+   "aliases": [],
+   "tags": [
+    "- 原始资料"
+   ],
+   "links": [],
+   "backlinks": [],
+   "desc": "企业AI知识库搭建",
+   "wordCount": 3540,
+   "searchText": "待整理｜20260818｜口播文案｜企业AI知识库搭建 原始资料/待整理｜20260818｜口播文案｜企业AI知识库搭建.md 企业AI知识库搭建 原始资料"
   }
  ],
  "today": {
@@ -6339,7 +6380,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "数据与知识资产",
-   "matched": 31,
+   "matched": 32,
    "status": "已形成"
   },
   {
@@ -6369,7 +6410,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 89,
+   "matched": 90,
    "status": "已形成"
   },
   {
@@ -6746,6 +6787,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 92,
-  "fetchedAt": "2026年8月18日 17:56"
+  "fetchedAt": "2026年8月19日 09:36"
  }
 };
