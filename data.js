@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-08-19",
- "generatedTime": "2026-08-19 09:36",
+ "generatedAt": "2026-08-20",
+ "generatedTime": "2026-08-20 09:34",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 24,
- "weeklyChanges": 372,
+ "weeklyPages": 25,
+ "weeklyChanges": 369,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-17｜AI知识增量整理.md",
  "topics": [
@@ -11,13 +11,13 @@ window.OBSIDIAN_DATA = {
    "name": "AI Agent工程知识",
    "key": "agent",
    "icon": "🤖",
-   "count": 31
+   "count": 32
   },
   {
    "name": "企业AI与智能体商业化",
    "key": "enterprise",
    "icon": "🏢",
-   "count": 89
+   "count": 90
   },
   {
    "name": "AI产业链与数字基础设施",
@@ -29,13 +29,13 @@ window.OBSIDIAN_DATA = {
    "name": "知识流水线",
    "key": "pipeline",
    "icon": "📚",
-   "count": 41
+   "count": 42
   },
   {
    "name": "原始资料 / 养料",
    "key": "raw",
    "icon": "🗂",
-   "count": 41
+   "count": 44
   }
  ],
  "nodes": [
@@ -215,7 +215,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/AI Agent工程知识专题.md",
    "title": "AI Agent 工程知识专题",
-   "updated": "2026-08-18",
+   "updated": "2026-08-20",
    "topic": "agent",
    "aliases": [],
    "tags": [],
@@ -247,7 +247,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
     "AI Agent全面理解",
     "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
-    "Codex工作区/DeepSeek Harness项目记录",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录",
     "Deepseek Harness：框架概念与专属智能体搭建",
     "AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
     "原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）",
@@ -282,8 +283,8 @@ window.OBSIDIAN_DATA = {
     "原始资料/已整理｜2026-08-06｜抖音豆包｜张宇技术栈Agent系统7种架构.md"
    ],
    "desc": "上级：徐总的知识库",
-   "wordCount": 13641,
-   "searchText": "AI Agent 工程知识专题 AI Agent工程知识/AI Agent工程知识专题.md 上级：徐总的知识库 徐总的知识库 企业AI与生产级Agent总框架关系图 企业AI与生产级Agent总框架 AI Agent面试14题学习版：从概念到甘食记项目落地 企业AI与智能体商业化/企业AI知识资产与RAG工程关系图 生产级AI Agent知识体系总览：层级·特性·术语 生产级AI Agent工程体系的完整链路 Agent系统架构模式选型：从单Agent到Graph Workflow 工业级多智能体协作系统设计：任务编排、依赖治理与结果对齐 生产级RAG与数据库知识库架构：事实库、文档知识库与状态机 生产级AI Agent记忆系统与Context调度 AI Agent后端工程化能力框架：分布式、异步、状态与可运维 FDE业务输出到后端工程的翻译映射：从业务对象到工程实现 AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象 AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲 AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用 企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent 企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径 企业AI与智能体商业化/FDE商业级智能体交付框架 AI Agent工程知识框架 AI Agent专业术语词典 企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战 企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目 企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架 企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器 AI Agent全面理解 企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准 Codex工作区/DeepSeek Harness项目记录 Deepseek Harness：框架概念与专属智能体搭建 AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准 原始讨论｜ChatGPT生产级AI Agent框架（20260611） 全局术语表 企业AI与智能体商业化/AI 原生企业管理系统（轻量版）/AI 原生企业管理系统（轻量版）：初创公司的基础逻辑 企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁 企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构 企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统 AI Agent面试知识地图 显性知识与隐性知识的工程化入库机制"
+   "wordCount": 13739,
+   "searchText": "AI Agent 工程知识专题 AI Agent工程知识/AI Agent工程知识专题.md 上级：徐总的知识库 徐总的知识库 企业AI与生产级Agent总框架关系图 企业AI与生产级Agent总框架 AI Agent面试14题学习版：从概念到甘食记项目落地 企业AI与智能体商业化/企业AI知识资产与RAG工程关系图 生产级AI Agent知识体系总览：层级·特性·术语 生产级AI Agent工程体系的完整链路 Agent系统架构模式选型：从单Agent到Graph Workflow 工业级多智能体协作系统设计：任务编排、依赖治理与结果对齐 生产级RAG与数据库知识库架构：事实库、文档知识库与状态机 生产级AI Agent记忆系统与Context调度 AI Agent后端工程化能力框架：分布式、异步、状态与可运维 FDE业务输出到后端工程的翻译映射：从业务对象到工程实现 AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象 AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲 AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用 企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent 企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径 企业AI与智能体商业化/FDE商业级智能体交付框架 AI Agent工程知识框架 AI Agent专业术语词典 企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战 企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目 企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架 企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器 AI Agent全面理解 企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准 DeepSeek Harness项目/DeepSeek Harness项目索引 DeepSeek Harness项目/DeepSeek Harness项目记录 Deepseek Harness：框架概念与专属智能体搭建 AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准 原始讨论｜ChatGPT生产级AI Agent框架（20260611） 全局术语表 企业AI与智能体商业化/AI 原生企业管理系统（轻量版）/AI 原生企业管理系统（轻量版）：初创公司的基础逻辑 企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁 企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构 企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统 AI Agent面试知识地图 显性知识与隐性知识的工程化入库机制"
   },
   {
    "path": "AI Agent工程知识/AI Agent工程知识框架.md",
@@ -419,9 +420,27 @@ window.OBSIDIAN_DATA = {
    "searchText": "Agent系统架构模式选型：从单Agent到Graph Workflow AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md 上级：AI Agent工程知识专题 Agent系统7种架构 AI Agent AI Agent工程知识专题 生产级AI Agent知识体系总览：层级·特性·术语 生产级AI Agent工程体系的完整链路 AI Agent工程知识框架 AI Agent专业术语词典 企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移 原始资料/已整理｜20260806｜抖音豆包｜张宇技术栈Agent系统7种架构 原始资料/已整理｜20260807｜抖音豆包｜AI大模型果果姐AIAgent框架选错白忙三个月 企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架 企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同"
   },
   {
+   "path": "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.1.md",
+   "title": "DeepSeek Harness 插件与模式设计规范 V1.1",
+   "updated": "2026-08-20",
+   "topic": "agent",
+   "aliases": [],
+   "tags": [],
+   "links": [
+    "AI Agent工程知识专题",
+    "Deepseek Harness：框架概念与专属智能体搭建",
+    "生产级AI Agent知识体系总览：层级·特性·术语",
+    "全域智能体框架总览"
+   ],
+   "backlinks": [],
+   "desc": "上级：AI Agent工程知识专题",
+   "wordCount": 15379,
+   "searchText": "DeepSeek Harness 插件与模式设计规范 V1.1 AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.1.md 上级：AI Agent工程知识专题 AI Agent工程知识专题 Deepseek Harness：框架概念与专属智能体搭建 生产级AI Agent知识体系总览：层级·特性·术语 全域智能体框架总览"
+  },
+  {
    "path": "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md",
    "title": "Deepseek Harness：框架概念与专属智能体搭建",
-   "updated": "2026-08-19",
+   "updated": "2026-08-20",
    "topic": "agent",
    "aliases": [],
    "tags": [],
@@ -430,17 +449,18 @@ window.OBSIDIAN_DATA = {
     "全域智能体框架总览",
     "生产级AI Agent知识体系总览：层级·特性·术语",
     "为什么做多智能体：Codex内部多线程vs跨平台多智能体",
+    "DeepSeek Harness 插件与模式设计规范 V1.1",
     "多智能体共享记忆：TencentDB Agent Memory 评估",
     "AI模型选型与订阅历史",
     "徐总每日随记/当日记录/2026-08-18",
-    "Codex工作区/DeepSeek Harness项目记录",
-    "Codex工作区/DeepSeek Harness 官方资源与插件开发指南",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录",
+    "DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南",
     "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环"
    ],
    "backlinks": [],
    "desc": "两条硬规则：",
-   "wordCount": 10789,
-   "searchText": "Deepseek Harness：框架概念与专属智能体搭建 AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md 两条硬规则： AI Agent工程知识专题 全域智能体框架总览 生产级AI Agent知识体系总览：层级·特性·术语 为什么做多智能体：Codex内部多线程vs跨平台多智能体 多智能体共享记忆：TencentDB Agent Memory 评估 AI模型选型与订阅历史 徐总每日随记/当日记录/20260818 Codex工作区/DeepSeek Harness项目记录 Codex工作区/DeepSeek Harness 官方资源与插件开发指南 原始资料/已整理｜20260816｜DeepSeek Harness｜Harness控制中心架构闭环"
+   "wordCount": 12989,
+   "searchText": "Deepseek Harness：框架概念与专属智能体搭建 AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md 两条硬规则： AI Agent工程知识专题 全域智能体框架总览 生产级AI Agent知识体系总览：层级·特性·术语 为什么做多智能体：Codex内部多线程vs跨平台多智能体 DeepSeek Harness 插件与模式设计规范 V1.1 多智能体共享记忆：TencentDB Agent Memory 评估 AI模型选型与订阅历史 徐总每日随记/当日记录/20260818 DeepSeek Harness项目/DeepSeek Harness项目记录 DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南 原始资料/已整理｜20260816｜DeepSeek Harness｜Harness控制中心架构闭环"
   },
   {
    "path": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现.md",
@@ -2486,6 +2506,23 @@ window.OBSIDIAN_DATA = {
    "searchText": "己未文化资料速查入口 企业AI与智能体商业化/己未文化资料速查入口.md 上级：企业AI与智能体商业化/企业AI与智能体商业化专题 己未文化资料在哪里 己未文化 企业AI与智能体商业化/企业AI与智能体商业化专题 企业AI与智能体商业化/己未文化AI落地首谈会议纪要：客户资产管理第一阶段 原始资料/已整理｜20260812｜飞书妙记原始逐字稿｜己未文化AI落地首谈 企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团 企业AI与智能体商业化/己未文化AI落地首次接触沟通作战卡测试版 知识流水线/玄学与东方智慧出海内容策略与独立站电商体系调研20260811 企业AI与智能体商业化/AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧"
   },
   {
+   "path": "企业AI与智能体商业化/待整理稿｜AI商业落地第一步是数据治理（Corvera案例）.md",
+   "title": "AI商业落地第一步是数据治理（Corvera 案例蒸馏）",
+   "updated": "2026-08-19",
+   "topic": "enterprise",
+   "aliases": [],
+   "tags": [
+    "- 专题笔记"
+   ],
+   "links": [],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "一家 4 人 AI 电商服务团队（Corvera）先用\"电商全链路 AI 管理系统\"获客，随后主动放弃已验证的产品，转型做数据治理服务（先清洗、打通、标准化客户散落各平台的数据，再",
+   "wordCount": 857,
+   "searchText": "AI商业落地第一步是数据治理（Corvera 案例蒸馏） 企业AI与智能体商业化/待整理稿｜AI商业落地第一步是数据治理（Corvera案例）.md 一家 4 人 AI 电商服务团队（Corvera）先用\"电商全链路 AI 管理系统\"获客，随后主动放弃已验证的产品，转型做数据治理服务（先清洗、打通、标准化客户散落各平台的数据，再 专题笔记"
+  },
+  {
    "path": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
    "title": "按业务形态设计 AI Agent 架构：日经营型、项目制与生产制造型",
    "updated": "2026-07-06",
@@ -4061,18 +4098,26 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/A_原始资料.md",
    "title": "A_原始资料",
-   "updated": "2026-08-18",
+   "updated": "2026-08-20",
    "topic": "pipeline",
    "aliases": [],
    "tags": [],
    "links": [
     "知识流水线/知识流水线",
+    "知识流水线/Jarvis知识增长工作流总规则-整理草稿.md",
+    "原始资料/已整理｜2026-08-19｜工作流规则｜Jarvis知识增长工作流总规则",
+    "原始资料/已整理｜2026-08-19｜Harness｜全文接入链路测试",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-19_企业AI知识库：手册库-数据库-萃取库三分类.md",
+    "原始资料/已整理｜2026-08-18｜口播文案｜企业AI知识库搭建",
+    "企业AI与智能体商业化/蒸馏笔记",
+    "企业AI与智能体商业化/待整理稿｜AI商业落地第一步是数据治理（Corvera案例）",
+    "原始资料/已整理｜2026-08-19｜口播文案｜AI电商数据治理先行(子墨说AI-Corvera案例)",
     "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程",
     "原始资料/已整理｜2026-08-11｜访谈｜李开复AI现状与未来深度对话",
     "徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构",
     "原始资料/已整理｜2026-08-17｜口播文案｜企业AI落地与数字化转型干货分享",
     "原始资料/已整理｜2026-08-17｜口播文案｜女装直播用AI省500万(唐承佳案例)",
-    "Codex工作区/DeepSeek Harness项目记录",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录",
     "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环",
     "企业AI与智能体商业化/己未文化AI落地首谈会议纪要：客户资产管理第一阶段",
     "原始资料/已整理｜2026-08-12｜飞书妙记原始逐字稿｜己未文化AI落地首谈",
@@ -4180,8 +4225,8 @@ window.OBSIDIAN_DATA = {
     "原始资料/已整理｜2026-08-15｜斯坦福｜Enterprise AI Playbook 企业AI实战手册51个成功落地项目.md"
    ],
    "desc": "上级：知识流水线/知识流水线",
-   "wordCount": 7215,
-   "searchText": "A原始资料 知识流水线/A原始资料.md 上级：知识流水线/知识流水线 知识流水线/知识流水线 企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程 原始资料/已整理｜20260811｜访谈｜李开复AI现状与未来深度对话 徐总问题专题库/06企业AI与商业化/20260818企业需要什么样的AI：节点放大效率还是组织架构 原始资料/已整理｜20260817｜口播文案｜企业AI落地与数字化转型干货分享 原始资料/已整理｜20260817｜口播文案｜女装直播用AI省500万(唐承佳案例) Codex工作区/DeepSeek Harness项目记录 原始资料/已整理｜20260816｜DeepSeek Harness｜Harness控制中心架构闭环 企业AI与智能体商业化/己未文化AI落地首谈会议纪要：客户资产管理第一阶段 原始资料/已整理｜20260812｜飞书妙记原始逐字稿｜己未文化AI落地首谈 企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线 原始资料/已整理｜20260812｜对话整理｜任务闭环与业务闭环分离GrokBot数字岗位vs经营Agent 企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地 原始资料/已整理｜20260812｜抖音｜Solo们chatFDE如何用ANC搭建AI原生组织 企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构 企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆 原始资料/已整理｜20260811｜走访｜游戏公司AI组织落地 企业AI与智能体商业化/AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧 原始资料/已整理｜20260813｜ChatGPT｜AI行业落地认知的混乱 原始资料/已整理｜20260802｜抖音豆包｜Token工厂三大玩家 原始资料/已整理｜20260802｜抖音豆包｜中国不缺算力真相 原始资料/已整理｜20260802｜抖音豆包｜运营商下场词元聚合分发 原始资料/已整理｜20260802｜抖音豆包｜看懂三类商业模式理清Token发展路线 原始资料/已整理｜20260802｜抖音豆包衍生｜福建token工厂落地厦门 企业AI与智能体商业化/原始资料 Codex/Codex五级用法演进模型 原始资料/已整理｜20260804｜抖音豆包｜南吴NANWU总结Codex的5级用法 企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战 原始资料/已整理｜20260730｜抖音｜企业AI落地真实内幕4个反常识真相 企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机 原始资料/已整理｜20260804｜抖音豆包｜NeoPicks聊了7个AI交付团队总结困难机会危机 企业AI与智能体商业化/案例美团小团Agent工程化差距分析 原始资料/已整理｜20260805｜ChatGPT｜美团小团Agent架构与Ontology分析 知识流水线/AI知识学习与复盘工作台 知识流水线/个人工作台设计与部署方法论 原始资料/已整理｜20260806｜抖音+ChatGPT｜专家搭建的Obsidian AI Knowledge OS 企业AI与智能体商业化/斯坦福企业AI实战手册：51个成功样本与三档人机协作模式 原始资料/已整理｜20260815｜斯坦福｜Enterprise AI Playbook 企业AI实战手册51个成功落地项目 AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow AI Agent工程知识/AI Agent专业术语词典 原始资料/已整理｜20260806｜抖音豆包｜张宇技术栈Agent系统7种架构 个人健康/体重管理 原始资料/已整理｜20260806｜抖音｜王自如聊如何正确减肥 原始资料/已整理｜20260807｜抖音豆包｜央视新闻记者医学减重一年掉40斤 AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率 原始资料/已整理｜20260807｜抖音豆包｜超哥奇点世界GPU空转泡沫AI资本囤积游戏 徐总问题专题库/01AI产业链与基础设施/20260803算力工厂与算力出海 原始资料/已整理｜20260808｜抖音豆包｜三十亿智算中心利用率 原始资料/已整理｜20260807｜抖音豆包｜AI大模型果果姐AIAgent框架选错白忙三个月 个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达 原始资料/已整理｜20260808｜抖音豆包｜沟通能力强的人说话是什么样的 个人能力提升/权重识别与精力分配：从政治成熟到闭环执行 原始资料/已整理｜20260808｜抖音豆包｜政治成熟优先级匹配精力 AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象 原始资料/已整理｜20260808｜抖音豆包｜用本体重塑企业AI语义基座 原始资料/已整理｜20260808｜抖音豆包｜美国AI基建东数西算 原始资料/已整理｜20260803｜抖音豆包｜味精公司砸6亿搞算力一台没摸到 原始资料/已整理｜20260803｜抖音豆包｜Token是中国新型电力出口 原始资料/已整理｜20260803｜抖音豆包衍生｜各省算力账本摊开看 原始资料/已整理｜20260803｜抖音豆包衍生｜理清Token从业者发展路线 原始资料/已整理｜20260803｜抖音豆包｜Token才是中国真正意义上的电力出口 原始资料/已整理｜20260803｜抖音豆包｜电怎么卡住了AI的脖子 原始资料/已整理｜20260803｜抖音豆包｜福建token工厂落地厦门 原始资料/已整理｜20260804｜抖音豆包｜Token工厂单机vs集群卖Token商业化 企业AI与智能体商业化/AI数字化招标与合规治理框架 企业AI与智能体商业化/企业AI与智能体商业化专题 企业AI与智能体商业化/资料池 原始资料/已整理｜20260803｜抖音豆包｜电网数字化是腐败重灾区 正式页 徐总的知识库"
+   "wordCount": 7918,
+   "searchText": "A原始资料 知识流水线/A原始资料.md 上级：知识流水线/知识流水线 知识流水线/知识流水线 知识流水线/Jarvis知识增长工作流总规则整理草稿.md 原始资料/已整理｜20260819｜工作流规则｜Jarvis知识增长工作流总规则 原始资料/已整理｜20260819｜Harness｜全文接入链路测试 徐总问题专题库/06企业AI与商业化/20260819企业AI知识库：手册库数据库萃取库三分类.md 原始资料/已整理｜20260818｜口播文案｜企业AI知识库搭建 企业AI与智能体商业化/蒸馏笔记 企业AI与智能体商业化/待整理稿｜AI商业落地第一步是数据治理（Corvera案例） 原始资料/已整理｜20260819｜口播文案｜AI电商数据治理先行(子墨说AICorvera案例) 企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程 原始资料/已整理｜20260811｜访谈｜李开复AI现状与未来深度对话 徐总问题专题库/06企业AI与商业化/20260818企业需要什么样的AI：节点放大效率还是组织架构 原始资料/已整理｜20260817｜口播文案｜企业AI落地与数字化转型干货分享 原始资料/已整理｜20260817｜口播文案｜女装直播用AI省500万(唐承佳案例) DeepSeek Harness项目/DeepSeek Harness项目记录 原始资料/已整理｜20260816｜DeepSeek Harness｜Harness控制中心架构闭环 企业AI与智能体商业化/己未文化AI落地首谈会议纪要：客户资产管理第一阶段 原始资料/已整理｜20260812｜飞书妙记原始逐字稿｜己未文化AI落地首谈 企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线 原始资料/已整理｜20260812｜对话整理｜任务闭环与业务闭环分离GrokBot数字岗位vs经营Agent 企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地 原始资料/已整理｜20260812｜抖音｜Solo们chatFDE如何用ANC搭建AI原生组织 企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构 企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆 原始资料/已整理｜20260811｜走访｜游戏公司AI组织落地 企业AI与智能体商业化/AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧 原始资料/已整理｜20260813｜ChatGPT｜AI行业落地认知的混乱 原始资料/已整理｜20260802｜抖音豆包｜Token工厂三大玩家 原始资料/已整理｜20260802｜抖音豆包｜中国不缺算力真相 原始资料/已整理｜20260802｜抖音豆包｜运营商下场词元聚合分发 原始资料/已整理｜20260802｜抖音豆包｜看懂三类商业模式理清Token发展路线 原始资料/已整理｜20260802｜抖音豆包衍生｜福建token工厂落地厦门 企业AI与智能体商业化/原始资料 Codex/Codex五级用法演进模型 原始资料/已整理｜20260804｜抖音豆包｜南吴NANWU总结Codex的5级用法 企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战 原始资料/已整理｜20260730｜抖音｜企业AI落地真实内幕4个反常识真相 企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机 原始资料/已整理｜20260804｜抖音豆包｜NeoPicks聊了7个AI交付团队总结困难机会危机 企业AI与智能体商业化/案例美团小团Agent工程化差距分析 原始资料/已整理｜20260805｜ChatGPT｜美团小团Agent架构与Ontology分析 知识流水线/AI知识学习与复盘工作台 知识流水线/个人工作台设计与部署方法论 原始资料/已整理｜20260806｜抖音+ChatGPT｜专家搭建的Obsidian AI Knowledge OS 企业AI与智能体商业化/斯坦福企业AI实战手册：51个成功样本与三档人机协作模式 原始资料/已整理｜20260815｜斯坦福｜Enterprise AI Playbook 企业AI实战手册51个成功落地项目 AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow AI Agent工程知识/AI Agent专业术语词典 原始资料/已整理｜20260806｜抖音豆包｜张宇技术栈Agent系统7种架构 个人健康/体重管理 原始资料/已整理｜20260806｜抖音｜王自如聊如何正确减肥 原始资料/已整理｜20260807｜抖音豆包｜央视新闻记者医学减重一年掉40斤 AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率 原始资料/已整理｜20260807｜抖音豆包｜超哥奇点世界GPU空转泡沫AI资本囤积游戏 徐总问题专题库/01AI产业链与基础设施/20260803算力工厂与算力出海 原始资料/已整理｜20260808｜抖音豆包｜三十亿智算中心利用率 原始资料/已整理｜20260807｜抖音豆包｜AI大模型果果姐AIAgent框架选错白忙三个月 个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达 原始资料/已整理｜20260808｜抖音豆包｜沟通能力强的人说话是什么样的 个人能力提升/权重识别与精力分配：从政治成熟到闭环执行 原始资料/已整理｜20260808｜抖音豆包｜政治成熟优先级匹配精力 AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象 原始资料/已整理｜20260808｜抖音豆包｜用本体重塑企业AI语义基座 原始资料/已整理｜20260808｜抖音豆包｜美国AI基建东数西算 原始资料/已整理｜20260803｜抖音豆包｜味精公司砸6亿搞算力一台没摸到 原始资料/已整理｜20260803｜抖音豆包｜Token是中国新型电力出口 原始资料/已整理｜20260803｜抖音豆包衍生｜各省算力账本摊开看 原始资料/已整理｜20260803｜抖音豆包衍生｜理清Token从业者发展路线 原始资料/已整理｜20260803｜抖音豆包｜Token才是中国真正意义上的电力出口 原始资料/已整理｜20260803｜抖音豆包｜电怎么卡住了AI的脖子 原始资料/已整理｜20260803｜抖音豆包｜福建token工厂落地厦门 原始资料/已整理｜20260804｜抖音豆包｜Token工厂单机vs集群卖Token商业化 企业AI与智能体商业化/AI数字化招标与合规治理框架 企业AI与智能体商业化/企业AI与智能体商业化专题 企业AI与智能体商业化/资料池 原始资料/已整理｜20260803｜抖音豆包｜电网数字化是腐败重灾区 正式页 徐总的知识库"
   },
   {
    "path": "知识流水线/Agent Ontology 1.0运行数据库与闭环落地.md",
@@ -4463,6 +4508,28 @@ window.OBSIDIAN_DATA = {
    "searchText": "D输出成果 知识流水线/D输出成果.md 上级：知识流水线/知识流水线 知识流水线/知识流水线 徐总的知识库"
   },
   {
+   "path": "知识流水线/Jarvis知识增长工作流总规则-整理草稿.md",
+   "title": "Jarvis Office 知识增长工作流总规则（整理草稿）",
+   "updated": "2026-08-19",
+   "topic": "pipeline",
+   "aliases": [],
+   "tags": [
+    "- 专题笔记草稿"
+   ],
+   "links": [
+    "知识流水线",
+    "AI知识自动化整理入口",
+    "知识库健康巡检",
+    "知识库架构判断原则"
+   ],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "Jarvis Office 是由 DeepSeek Harness 驱动的知识增长执行体，其总规则把「资料进入 → 内容提炼 → 专题整合/知识巡检 → 知识增长」串成可回读、可暂",
+   "wordCount": 3582,
+   "searchText": "Jarvis Office 知识增长工作流总规则（整理草稿） 知识流水线/Jarvis知识增长工作流总规则整理草稿.md Jarvis Office 是由 DeepSeek Harness 驱动的知识增长执行体，其总规则把「资料进入 → 内容提炼 → 专题整合/知识巡检 → 知识增长」串成可回读、可暂 专题笔记草稿 知识流水线 AI知识自动化整理入口 知识库健康巡检 知识库架构判断原则"
+  },
+  {
    "path": "知识流水线/Mac Codex Obsidian知识库健康巡检专员启动提示词.md",
    "title": "Mac Codex Obsidian知识库健康巡检专员启动提示词",
    "updated": "2026-08-08",
@@ -4723,7 +4790,7 @@ window.OBSIDIAN_DATA = {
    "aliases": [],
    "tags": [],
    "links": [
-    "Codex工作区/DeepSeek Harness项目记录",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录",
     "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环",
     "原始资料/待审核｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环",
     "知识流水线/A_原始资料",
@@ -4841,8 +4908,8 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识库架构判断原则：从资料到概念、方法论、案例与专题归属.md"
    ],
    "desc": "- 08-16 增量日报已生成（22:57），覆盖：斯坦福企业AI实战手册、蜀道集团无人机巡检测算、MiniMax-M3端点故障修复、TRIAL-001 结论登记、任务级会话隔离工",
-   "wordCount": 45826,
-   "searchText": "知识库健康巡检 知识流水线/知识库健康巡检.md 0816 增量日报已生成（22:57），覆盖：斯坦福企业AI实战手册、蜀道集团无人机巡检测算、MiniMaxM3端点故障修复、TRIAL001 结论登记、任务级会话隔离工 Codex工作区/DeepSeek Harness项目记录 原始资料/已整理｜20260816｜DeepSeek Harness｜Harness控制中心架构闭环 原始资料/待审核｜20260816｜DeepSeek Harness｜Harness控制中心架构闭环 知识流水线/A原始资料 任务面板与知识库/方向推进与接力 知识流水线/AI知识自动化整理入口 知识流水线/每日学习整理/20260813｜AI知识增量整理 Codex工作区/每日跨项目复盘/20260813 任务面板与知识库/任务面板与Obsidian同步 知识库索引 任务面板与知识库/智能体协作任务面板操作手册 任务面板与知识库/00总入口 Codex工作区/Codex会话级Agent协作协议v0.1 Codex工作区/Codex的内部合作机制 Codex工作区/每日跨项目复盘/20260809 徐总的知识库 Codex工作区/Codex工作区 全局记忆/03工作规则 全局记忆/08多平台知识库治理 知识流水线/每日学习整理/20260809｜AI知识增量整理 知识流水线/Obsidian知识底座治理与知识自主生长方案 知识流水线/知识流水线 AI Agent工程知识/AI Agent工程知识专题 徐总问题专题库/01AI产业链与基础设施/20260803算力工厂与算力出海 AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络 个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达 知识流水线/Mac Codex Obsidian知识库健康巡检专员启动提示词 知识流水线/知识库健康巡检执行规范 全局记忆/13Obsidian新增更新内容强制收口协作规则 个人能力提升/权重识别与精力分配：从政治成熟到闭环执行 AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象 AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率 知识流水线/每日学习整理/20260808｜AI知识增量整理 Codex工作区/每日跨项目复盘/20260808 全局记忆/00总览 全局术语表 平板Obsidian每日轻量巡检员启动提示词 Mac Codex Obsidian知识库健康巡检专员启动提示词 企业AI与智能体商业化/资料池 知识流水线/WikiLLM知识库编译方法论 Codex工作区/文秘助手项目记录 企业AI与智能体商业化/FDE与AI架构师核心资产能力 个人档案/个人档案 个人能力提升/个人能力提升 个人健康/个人健康 个人车辆/个人车辆 Codex工作区/飞书多智能体会议流程：群协同与Obsidian拍板机制 企业AI与生产级Agent总框架关系图 企业AI与智能体商业化/企业AI知识资产与RAG工程关系图 AI Agent工程知识/AI Agent专业术语词典 AI产业链与数字基础设施/AI产业链与数字基础设施专题 AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用 企业AI与智能体商业化/零一万物企业AI落地专题 企业AI与智能体商业化/企业AI与智能体商业化专题 企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究 企业AI与智能体商业化/零一万物FDE与企业AI落地模式 企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程 AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲 企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent 企业AI与智能体商业化/科技咨询公司业务AI系统落地方案 政府资源配置与政策落地机制/政府资源配置与政策落地机制专题 AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机 AI Agent工程知识/显性知识与隐性知识的工程化入库机制 企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合 企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法 AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂 知识流水线/AI知识学习与复盘工作台 知识流水线/个人工作台设计与部署方法论 企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环 法律/中国立法体系总览 法律/法律专题 知识流水线/每日学习整理/20260731｜AI知识增量整理 个人能力提升/谈判与沟通/谈判与沟通专题 个人健康/体重管理 知识流水线/C方法与Skill 全局记忆/11Obsidian知识库协作与Skills使用规则 AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路 徐总问题专题库/00问题专题库总览 知识流水线/问题专题库搭建机制与角色分工 知识流水线/每日学习整理/20260803｜AI知识增量整理 企业AI与智能体商业化/AI数字化招标与合规治理框架 原始资料/已整理｜20260803｜抖音豆包｜电网数字化是腐败重灾区 知识流水线/知识库架构判断原则：从资料到概念、方法论、案例与专题归属 链接 Codex工作区/智能体移动应用内容读取与Obsidian沉淀SOP Codex工作区/智能体设备接入SOP：电脑连接手机和平板 Codex工作区/全域AI工具模型配置 Codex工作区/智能体协作任务面板操作手册 AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow 企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移 AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离 AI Agent工程知识/AI模型选型与订阅历史 徐总问题专题库/01AI产业链与基础设施/20260806智算中心结构性分化：建设者定位、运营缺口与泡沫判断 AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务 知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控子Agent协作 Codex工作区/CodexMoonBridge多Agent任务面板与Obsidian归档机制 Codex工作区/多智能体分派框架复核：Codex主控、DK子Agent与外部Agent协作 全局记忆/02系统架构 Codex工作区/任务面板每日工作日志机制：从执行态到日级进展档案 Codex工作区/每日跨项目复盘/20260804 Codex工作区/每日跨项目复盘/20260805 Codex工作区/每日跨项目复盘/20260806 Codex工作区/每日跨项目复盘/20260807 法律/决策传导框架：法律政策的层级体系与影响预判 法律/低空经济法律体系：按层级梳理对社会经济政治的影响 政府资源"
+   "wordCount": 45844,
+   "searchText": "知识库健康巡检 知识流水线/知识库健康巡检.md 0816 增量日报已生成（22:57），覆盖：斯坦福企业AI实战手册、蜀道集团无人机巡检测算、MiniMaxM3端点故障修复、TRIAL001 结论登记、任务级会话隔离工 DeepSeek Harness项目/DeepSeek Harness项目记录 原始资料/已整理｜20260816｜DeepSeek Harness｜Harness控制中心架构闭环 原始资料/待审核｜20260816｜DeepSeek Harness｜Harness控制中心架构闭环 知识流水线/A原始资料 任务面板与知识库/方向推进与接力 知识流水线/AI知识自动化整理入口 知识流水线/每日学习整理/20260813｜AI知识增量整理 Codex工作区/每日跨项目复盘/20260813 任务面板与知识库/任务面板与Obsidian同步 知识库索引 任务面板与知识库/智能体协作任务面板操作手册 任务面板与知识库/00总入口 Codex工作区/Codex会话级Agent协作协议v0.1 Codex工作区/Codex的内部合作机制 Codex工作区/每日跨项目复盘/20260809 徐总的知识库 Codex工作区/Codex工作区 全局记忆/03工作规则 全局记忆/08多平台知识库治理 知识流水线/每日学习整理/20260809｜AI知识增量整理 知识流水线/Obsidian知识底座治理与知识自主生长方案 知识流水线/知识流水线 AI Agent工程知识/AI Agent工程知识专题 徐总问题专题库/01AI产业链与基础设施/20260803算力工厂与算力出海 AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络 个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达 知识流水线/Mac Codex Obsidian知识库健康巡检专员启动提示词 知识流水线/知识库健康巡检执行规范 全局记忆/13Obsidian新增更新内容强制收口协作规则 个人能力提升/权重识别与精力分配：从政治成熟到闭环执行 AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象 AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率 知识流水线/每日学习整理/20260808｜AI知识增量整理 Codex工作区/每日跨项目复盘/20260808 全局记忆/00总览 全局术语表 平板Obsidian每日轻量巡检员启动提示词 Mac Codex Obsidian知识库健康巡检专员启动提示词 企业AI与智能体商业化/资料池 知识流水线/WikiLLM知识库编译方法论 Codex工作区/文秘助手项目记录 企业AI与智能体商业化/FDE与AI架构师核心资产能力 个人档案/个人档案 个人能力提升/个人能力提升 个人健康/个人健康 个人车辆/个人车辆 Codex工作区/飞书多智能体会议流程：群协同与Obsidian拍板机制 企业AI与生产级Agent总框架关系图 企业AI与智能体商业化/企业AI知识资产与RAG工程关系图 AI Agent工程知识/AI Agent专业术语词典 AI产业链与数字基础设施/AI产业链与数字基础设施专题 AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用 企业AI与智能体商业化/零一万物企业AI落地专题 企业AI与智能体商业化/企业AI与智能体商业化专题 企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究 企业AI与智能体商业化/零一万物FDE与企业AI落地模式 企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程 AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲 企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent 企业AI与智能体商业化/科技咨询公司业务AI系统落地方案 政府资源配置与政策落地机制/政府资源配置与政策落地机制专题 AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机 AI Agent工程知识/显性知识与隐性知识的工程化入库机制 企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合 企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法 AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂 知识流水线/AI知识学习与复盘工作台 知识流水线/个人工作台设计与部署方法论 企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环 法律/中国立法体系总览 法律/法律专题 知识流水线/每日学习整理/20260731｜AI知识增量整理 个人能力提升/谈判与沟通/谈判与沟通专题 个人健康/体重管理 知识流水线/C方法与Skill 全局记忆/11Obsidian知识库协作与Skills使用规则 AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路 徐总问题专题库/00问题专题库总览 知识流水线/问题专题库搭建机制与角色分工 知识流水线/每日学习整理/20260803｜AI知识增量整理 企业AI与智能体商业化/AI数字化招标与合规治理框架 原始资料/已整理｜20260803｜抖音豆包｜电网数字化是腐败重灾区 知识流水线/知识库架构判断原则：从资料到概念、方法论、案例与专题归属 链接 Codex工作区/智能体移动应用内容读取与Obsidian沉淀SOP Codex工作区/智能体设备接入SOP：电脑连接手机和平板 Codex工作区/全域AI工具模型配置 Codex工作区/智能体协作任务面板操作手册 AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow 企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移 AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离 AI Agent工程知识/AI模型选型与订阅历史 徐总问题专题库/01AI产业链与基础设施/20260806智算中心结构性分化：建设者定位、运营缺口与泡沫判断 AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务 知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控子Agent协作 Codex工作区/CodexMoonBridge多Agent任务面板与Obsidian归档机制 Codex工作区/多智能体分派框架复核：Codex主控、DK子Agent与外部Agent协作 全局记忆/02系统架构 Codex工作区/任务面板每日工作日志机制：从执行态到日级进展档案 Codex工作区/每日跨项目复盘/20260804 Codex工作区/每日跨项目复盘/20260805 Codex工作区/每日跨项目复盘/20260806 Codex工作区/每日跨项目复盘/20260807 法律/决策传导框架：法律政策的层级体系与影响预判 法律/低空经济法律体系：按层级梳理对社会经济"
   },
   {
    "path": "知识流水线/知识库健康巡检执行规范.md",
@@ -5876,12 +5943,12 @@ window.OBSIDIAN_DATA = {
   {
    "path": "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环.md",
    "title": "DeepSeek Harness 控制中心：项目 Workspace / Session / Agent / Workflow / Taskboard / Knowledge 与 WorkBuddy·飞书接入闭环",
-   "updated": "2026-08-16",
+   "updated": "2026-08-20",
    "topic": "raw",
    "aliases": [],
    "tags": [],
    "links": [
-    "Codex工作区/DeepSeek Harness项目记录"
+    "DeepSeek Harness项目/DeepSeek Harness项目记录"
    ],
    "backlinks": [
     "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md",
@@ -5889,8 +5956,8 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识库健康巡检.md"
    ],
    "desc": "1. 定位：Harness Agent Control Center 是官方 Harness 之上的「决策与执行」编排层，不修改 packages/core agent-loop，",
-   "wordCount": 3435,
-   "searchText": "DeepSeek Harness 控制中心：项目 Workspace / Session / Agent / Workflow / Taskboard / Knowledge 与 WorkBuddy·飞书接入闭环 原始资料/已整理｜20260816｜DeepSeek Harness｜Harness控制中心架构闭环.md 1. 定位：Harness Agent Control Center 是官方 Harness 之上的「决策与执行」编排层，不修改 packages/core agentloop， Codex工作区/DeepSeek Harness项目记录"
+   "wordCount": 3453,
+   "searchText": "DeepSeek Harness 控制中心：项目 Workspace / Session / Agent / Workflow / Taskboard / Knowledge 与 WorkBuddy·飞书接入闭环 原始资料/已整理｜20260816｜DeepSeek Harness｜Harness控制中心架构闭环.md 1. 定位：Harness Agent Control Center 是官方 Harness 之上的「决策与执行」编排层，不修改 packages/core agentloop， DeepSeek Harness项目/DeepSeek Harness项目记录"
   },
   {
    "path": "原始资料/已整理｜2026-08-17｜口播文案｜企业AI落地与数字化转型干货分享.md",
@@ -5927,26 +5994,79 @@ window.OBSIDIAN_DATA = {
    "searchText": "已整理｜20260817｜口播文案｜女装直播用AI省500万（唐承佳案例） 原始资料/已整理｜20260817｜口播文案｜女装直播用AI省500万(唐承佳案例).md 用AI省了多少钱？ 原始资料"
   },
   {
-   "path": "原始资料/待整理｜2026-08-18｜口播文案｜企业AI知识库搭建.md",
-   "title": "待整理｜2026-08-18｜口播文案｜企业AI知识库搭建",
-   "updated": "2026-08-18",
+   "path": "原始资料/已整理｜2026-08-18｜口播文案｜企业AI知识库搭建.md",
+   "title": "已整理｜2026-08-18｜口播文案｜企业AI知识库搭建",
+   "updated": "2026-08-19",
    "topic": "raw",
    "aliases": [],
    "tags": [
     "- 原始资料"
    ],
    "links": [],
-   "backlinks": [],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
    "desc": "企业AI知识库搭建",
    "wordCount": 3540,
-   "searchText": "待整理｜20260818｜口播文案｜企业AI知识库搭建 原始资料/待整理｜20260818｜口播文案｜企业AI知识库搭建.md 企业AI知识库搭建 原始资料"
+   "searchText": "已整理｜20260818｜口播文案｜企业AI知识库搭建 原始资料/已整理｜20260818｜口播文案｜企业AI知识库搭建.md 企业AI知识库搭建 原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-19｜Harness｜全文接入链路测试.md",
+   "title": "Harness 全文接入链路测试",
+   "updated": "2026-08-19",
+   "topic": "raw",
+   "aliases": [],
+   "tags": [
+    "- 原始资料"
+   ],
+   "links": [],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "Jarvis Office 的第一条业务链路是：接收完整全文，保留原文，标记为待整理，并把后续整理交给下一阶段。",
+   "wordCount": 170,
+   "searchText": "Harness 全文接入链路测试 原始资料/已整理｜20260819｜Harness｜全文接入链路测试.md Jarvis Office 的第一条业务链路是：接收完整全文，保留原文，标记为待整理，并把后续整理交给下一阶段。 原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-19｜口播文案｜AI电商数据治理先行(子墨说AI-Corvera案例).md",
+   "title": "AI电商数据治理先行（子墨说AI｜Corvera 4人团队案例）",
+   "updated": "2026-08-19",
+   "topic": "raw",
+   "aliases": [],
+   "tags": [
+    "- 原始资料"
+   ],
+   "links": [],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "四人团队靠AI一个月逆袭，营收21万，融资420万美金，同时拿下了12个电商快销品牌的合作。最夸张的是，从签下第一单客户到服务满12个品牌，他们只用了短短5个星期。就在今年5月，这",
+   "wordCount": 988,
+   "searchText": "AI电商数据治理先行（子墨说AI｜Corvera 4人团队案例） 原始资料/已整理｜20260819｜口播文案｜AI电商数据治理先行(子墨说AICorvera案例).md 四人团队靠AI一个月逆袭，营收21万，融资420万美金，同时拿下了12个电商快销品牌的合作。最夸张的是，从签下第一单客户到服务满12个品牌，他们只用了短短5个星期。就在今年5月，这 原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-19｜工作流规则｜Jarvis知识增长工作流总规则.md",
+   "title": "Jarvis Office 知识增长工作流总规则",
+   "updated": "2026-08-19",
+   "topic": "raw",
+   "aliases": [],
+   "tags": [
+    "- 原始资料"
+   ],
+   "links": [],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "Jarvis Office 不是单纯的资料整理聊天框，而是一个由 DeepSeek Harness 驱动的知识增长执行体：把资料保存、内容提炼、专题整合、知识库巡检和后续研究建议串",
+   "wordCount": 2210,
+   "searchText": "Jarvis Office 知识增长工作流总规则 原始资料/已整理｜20260819｜工作流规则｜Jarvis知识增长工作流总规则.md Jarvis Office 不是单纯的资料整理聊天框，而是一个由 DeepSeek Harness 驱动的知识增长执行体：把资料保存、内容提炼、专题整合、知识库巡检和后续研究建议串 原始资料"
   }
  ],
  "today": {
   "date": "2026-08-17",
   "items": [
    {
-    "title": "**【新建·设计稿】DeepSeek Harness Doctor 插件设计**（`Codex工作区/DeepSeek Harness Doctor 插件设计.md`，created 2026-08-17，status: draft）：让 Harness 自举生成自身健康检查插件（harness-doctor），第一版只读、不自动修复。核心是把\"模型绑定错配导致费用异常\"从事后账单发现前置为请求发出前拦截——定义 `ModelBindingPolicy` + `modelBindingGate`（9 个判定 code：`BLOCKED_MODEL_BINDING` / `MODEL_BINDING_MISMATCH` 等）、`doctor --quick / --full / --preflight` 三模式、声明(Expected)/加载(Loaded)/运行(Runtime)三层模型态。C2/C3 已落地，34/34 单测通过，C4（知识库 §12/§13 + 终态 UX）in_review。直接呼应 08-16 MiniMax-M3 端点故障（模型绑定错配 → fallback 静默烧钱）。",
+    "title": "**【新建·设计稿】DeepSeek Harness Doctor 插件设计**（`DeepSeek Harness项目/DeepSeek Harness Doctor 插件设计.md`，created 2026-08-17，status: draft）：让 Harness 自举生成自身健康检查插件（harness-doctor），第一版只读、不自动修复。核心是把\"模型绑定错配导致费用异常\"从事后账单发现前置为请求发出前拦截——定义 `ModelBindingPolicy` + `modelBindingGate`（9 个判定 code：`BLOCKED_MODEL_BINDING` / `MODEL_BINDING_MISMATCH` 等）、`doctor --quick / --full / --preflight` 三模式、声明(Expected)/加载(Loaded)/运行(Runtime)三层模型态。C2/C3 已落地，34/34 单测通过，C4（知识库 §12/§13 + 终态 UX）in_review。直接呼应 08-16 MiniMax-M3 端点故障（模型绑定错配 → fallback 静默烧钱）。",
     "summary": "",
     "points": [],
     "date": "2026-08-17"
@@ -5958,7 +6078,7 @@ window.OBSIDIAN_DATA = {
     "date": "2026-08-17"
    },
    {
-    "title": "**【小更新】DeepSeek Harness 项目记录 — B9 未完成会话证据**（`Codex工作区/DeepSeek Harness项目记录.md`，09:24 落盘）：补一条 2026-08-17 01:13 未完成会话证据（web_search 被 abort、0 真实结论），用于反向校准\"未完成任务不得误判为成功\"。属项目记录细节，非新判断。",
+    "title": "**【小更新】DeepSeek Harness 项目记录 — B9 未完成会话证据**（`DeepSeek Harness项目/DeepSeek Harness项目记录.md`，09:24 落盘）：补一条 2026-08-17 01:13 未完成会话证据（web_search 被 abort、0 真实结论），用于反向校准\"未完成任务不得误判为成功\"。属项目记录细节，非新判断。",
     "summary": "",
     "points": [],
     "date": "2026-08-17"
@@ -5975,7 +6095,7 @@ window.OBSIDIAN_DATA = {
    "date": "2026-08-17",
    "items": [
     {
-     "title": "**【新建·设计稿】DeepSeek Harness Doctor 插件设计**（`Codex工作区/DeepSeek Harness Doctor 插件设计.md`，created 2026-08-17，status: draft）：让 Harness 自举生成自身健康检查插件（harness-doctor），第一版只读、不自动修复。核心是把\"模型绑定错配导致费用异常\"从事后账单发现前置为请求发出前拦截——定义 `ModelBindingPolicy` + `modelBindingGate`（9 个判定 code：`BLOCKED_MODEL_BINDING` / `MODEL_BINDING_MISMATCH` 等）、`doctor --quick / --full / --preflight` 三模式、声明(Expected)/加载(Loaded)/运行(Runtime)三层模型态。C2/C3 已落地，34/34 单测通过，C4（知识库 §12/§13 + 终态 UX）in_review。直接呼应 08-16 MiniMax-M3 端点故障（模型绑定错配 → fallback 静默烧钱）。",
+     "title": "**【新建·设计稿】DeepSeek Harness Doctor 插件设计**（`DeepSeek Harness项目/DeepSeek Harness Doctor 插件设计.md`，created 2026-08-17，status: draft）：让 Harness 自举生成自身健康检查插件（harness-doctor），第一版只读、不自动修复。核心是把\"模型绑定错配导致费用异常\"从事后账单发现前置为请求发出前拦截——定义 `ModelBindingPolicy` + `modelBindingGate`（9 个判定 code：`BLOCKED_MODEL_BINDING` / `MODEL_BINDING_MISMATCH` 等）、`doctor --quick / --full / --preflight` 三模式、声明(Expected)/加载(Loaded)/运行(Runtime)三层模型态。C2/C3 已落地，34/34 单测通过，C4（知识库 §12/§13 + 终态 UX）in_review。直接呼应 08-16 MiniMax-M3 端点故障（模型绑定错配 → fallback 静默烧钱）。",
      "summary": "",
      "points": [],
      "date": "2026-08-17"
@@ -5987,7 +6107,7 @@ window.OBSIDIAN_DATA = {
      "date": "2026-08-17"
     },
     {
-     "title": "**【小更新】DeepSeek Harness 项目记录 — B9 未完成会话证据**（`Codex工作区/DeepSeek Harness项目记录.md`，09:24 落盘）：补一条 2026-08-17 01:13 未完成会话证据（web_search 被 abort、0 真实结论），用于反向校准\"未完成任务不得误判为成功\"。属项目记录细节，非新判断。",
+     "title": "**【小更新】DeepSeek Harness 项目记录 — B9 未完成会话证据**（`DeepSeek Harness项目/DeepSeek Harness项目记录.md`，09:24 落盘）：补一条 2026-08-17 01:13 未完成会话证据（web_search 被 abort、0 真实结论），用于反向校准\"未完成任务不得误判为成功\"。属项目记录细节，非新判断。",
      "summary": "",
      "points": [],
      "date": "2026-08-17"
@@ -6021,7 +6141,7 @@ window.OBSIDIAN_DATA = {
      "date": "2026-08-16"
     },
     {
-     "title": "**DeepSeek Harness 项目记录更新（MiniMax-M3 端点修复小节，Codex工作区）**：更新 `Codex工作区/DeepSeek Harness项目记录.md`（08-16 22:38），新增「2026-08-16：MiniMax-M3 端点故障修复」小节，记录 `subagent_m3` 因 Harness 默认指向国际端点 `api.minimax.io` 而 `sk-cp-` 国内版 key 仅 `api.minimax.chat` 有效导致 401 的排查与修复（追加 `baseURL` 后配置热重载即生效）。",
+     "title": "**DeepSeek Harness 项目记录更新（MiniMax-M3 端点修复小节，Codex工作区）**：更新 `DeepSeek Harness项目/DeepSeek Harness项目记录.md`（08-16 22:38），新增「2026-08-16：MiniMax-M3 端点故障修复」小节，记录 `subagent_m3` 因 Harness 默认指向国际端点 `api.minimax.io` 而 `sk-cp-` 国内版 key 仅 `api.minimax.chat` 有效导致 401 的排查与修复（追加 `baseURL` 后配置热重载即生效）。",
      "summary": "",
      "points": [],
      "date": "2026-08-16"
@@ -6067,7 +6187,7 @@ window.OBSIDIAN_DATA = {
      "date": "2026-08-15"
     },
     {
-     "title": "**DeepSeek Harness 项目记录（项目长期入口，Codex工作区）**：更新 `Codex工作区/DeepSeek Harness项目记录.md`（22:48），沉淀可复用工程判断——Harness 是基于 Cordis 的可组合 Agent 运行时（Profile/Bundle/Patch/Subagent/Workflow/Session/Storage/Tool），本身不是业务任务调度中心；外部 Orchestrator/Taskboard adapter 承担任务 ID、active-task lease、防重复派发、状态唤醒、人工验收；插件化融合（Taskboard 插件=状态适配器、Obsidian 插件=受控写回）；官方 subagent_codex 真实通信验收通过。",
+     "title": "**DeepSeek Harness 项目记录（项目长期入口，Codex工作区）**：更新 `DeepSeek Harness项目/DeepSeek Harness项目记录.md`（22:48），沉淀可复用工程判断——Harness 是基于 Cordis 的可组合 Agent 运行时（Profile/Bundle/Patch/Subagent/Workflow/Session/Storage/Tool），本身不是业务任务调度中心；外部 Orchestrator/Taskboard adapter 承担任务 ID、active-task lease、防重复派发、状态唤醒、人工验收；插件化融合（Taskboard 插件=状态适配器、Obsidian 插件=受控写回）；官方 subagent_codex 真实通信验收通过。",
      "summary": "",
      "points": [],
      "date": "2026-08-15"
@@ -6380,12 +6500,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "数据与知识资产",
-   "matched": 32,
+   "matched": 35,
    "status": "已形成"
   },
   {
    "name": "Agent Runtime",
-   "matched": 17,
+   "matched": 18,
    "status": "已形成"
   },
   {
@@ -6400,7 +6520,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "安全、权限与治理",
-   "matched": 9,
+   "matched": 11,
    "status": "已形成"
   },
   {
@@ -6441,10 +6561,33 @@ window.OBSIDIAN_DATA = {
    "wordCount": 462
   },
   {
+   "path": "徐总问题专题库/06_企业AI与商业化/2026-08-19_企业AI知识库：手册库-数据库-萃取库三分类.md",
+   "title": "企业AI知识库：手册库-数据库-萃取库三分类",
+   "date": "2026-08-19",
+   "updated": "2026-08-19",
+   "category": "企业AI与商业化",
+   "status": "indexed",
+   "questionType": "",
+   "originalQuestion": "",
+   "direction": "",
+   "directionHtml": "",
+   "summary": "老板做 AI 提效的第一件事不是找场景，而是建立企业知识库——知识库就三类：手册库（文档归拢）+ 数据库（财务×业务）+ 萃取库（结构化判断），三库建立后才谈得上 AI 的复用与复",
+   "answerHtml": "",
+   "formalNotes": [],
+   "rawMaterials": [],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "原始资料/待整理｜2026-08-18｜口播文案｜企业AI知识库搭建",
+    "徐总问题专题库/00_问题专题库总览"
+   ],
+   "wordCount": 1669
+  },
+  {
    "path": "徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构.md",
    "title": "企业需要什么样的AI：节点放大效率还是组织架构",
    "date": "2026-08-18",
-   "updated": "2026-08-18",
+   "updated": "2026-08-20",
    "category": "企业AI与商业化",
    "status": "已回答 → 已入库",
    "questionType": "",
@@ -6464,9 +6607,9 @@ window.OBSIDIAN_DATA = {
     "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆",
     "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
     "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环",
-    "Codex工作区/DeepSeek Harness项目记录"
+    "DeepSeek Harness项目/DeepSeek Harness项目记录"
    ],
-   "wordCount": 4637
+   "wordCount": 4646
   },
   {
    "path": "徐总问题专题库/06_企业AI与商业化/2026-08-18_企业AI落地问题总和：战略-机制-卡点三层融合.md",
@@ -6739,7 +6882,7 @@ window.OBSIDIAN_DATA = {
   "summary": {
    "in_progress": 11,
    "todo": 9,
-   "in_review": 11,
+   "in_review": 12,
    "blocked": 1
   },
   "recent": [
@@ -6786,7 +6929,7 @@ window.OBSIDIAN_DATA = {
     "assignee": "Codex"
    }
   ],
-  "total": 92,
-  "fetchedAt": "2026年8月19日 09:36"
+  "total": 93,
+  "fetchedAt": "2026年8月20日 09:34"
  }
 };
