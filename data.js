@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-20",
- "generatedTime": "2026-08-20 13:32",
+ "generatedTime": "2026-08-20 15:46",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 26,
- "weeklyChanges": 375,
+ "weeklyPages": 27,
+ "weeklyChanges": 382,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-17｜AI知识增量整理.md",
  "topics": [
@@ -29,7 +29,7 @@ window.OBSIDIAN_DATA = {
    "name": "知识流水线",
    "key": "pipeline",
    "icon": "📚",
-   "count": 42
+   "count": 43
   },
   {
    "name": "原始资料 / 养料",
@@ -453,7 +453,9 @@ window.OBSIDIAN_DATA = {
     "徐总的知识库",
     "AI Agent工程知识/AI Agent工程知识专题"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md"
+   ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 22080,
    "searchText": "DeepSeek Harness 插件与模式设计规范 V1.2 AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2.md 上级：AI Agent工程知识专题 AI Agent工程知识专题 Deepseek Harness：框架概念与专属智能体搭建 生产级AI Agent知识体系总览：层级·特性·术语 全域智能体框架总览 徐总的知识库 AI Agent工程知识/AI Agent工程知识专题"
@@ -473,15 +475,18 @@ window.OBSIDIAN_DATA = {
     "DeepSeek Harness 插件与模式设计规范 V1.1",
     "多智能体共享记忆：TencentDB Agent Memory 评估",
     "AI模型选型与订阅历史",
+    "DeepSeek Harness 插件与模式设计规范 V1.2",
     "徐总每日随记/当日记录/2026-08-18",
     "DeepSeek Harness项目/DeepSeek Harness项目记录",
     "DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南",
     "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md"
+   ],
    "desc": "两条硬规则：",
-   "wordCount": 12989,
-   "searchText": "Deepseek Harness：框架概念与专属智能体搭建 AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md 两条硬规则： AI Agent工程知识专题 全域智能体框架总览 生产级AI Agent知识体系总览：层级·特性·术语 为什么做多智能体：Codex内部多线程vs跨平台多智能体 DeepSeek Harness 插件与模式设计规范 V1.1 多智能体共享记忆：TencentDB Agent Memory 评估 AI模型选型与订阅历史 徐总每日随记/当日记录/20260818 DeepSeek Harness项目/DeepSeek Harness项目记录 DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南 原始资料/已整理｜20260816｜DeepSeek Harness｜Harness控制中心架构闭环"
+   "wordCount": 15247,
+   "searchText": "Deepseek Harness：框架概念与专属智能体搭建 AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md 两条硬规则： AI Agent工程知识专题 全域智能体框架总览 生产级AI Agent知识体系总览：层级·特性·术语 为什么做多智能体：Codex内部多线程vs跨平台多智能体 DeepSeek Harness 插件与模式设计规范 V1.1 多智能体共享记忆：TencentDB Agent Memory 评估 AI模型选型与订阅历史 DeepSeek Harness 插件与模式设计规范 V1.2 徐总每日随记/当日记录/20260818 DeepSeek Harness项目/DeepSeek Harness项目记录 DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南 原始资料/已整理｜20260816｜DeepSeek Harness｜Harness控制中心架构闭环"
   },
   {
    "path": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现.md",
@@ -656,7 +661,9 @@ window.OBSIDIAN_DATA = {
     "全域智能体健康度审查方法论",
     "飞书多智能体连接故障恢复手册"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md"
+   ],
    "desc": "- 通道层：飞书 lark-cli，统一管理 7 个飞书应用（appId 见第二节）；当前 currentApp 为伊森 clia92504e56d78dbd7，user 身份（徐",
    "wordCount": 2396,
    "searchText": "全域智能体框架总览 AI Agent工程知识/全域智能体框架总览.md 通道层：飞书 larkcli，统一管理 7 个飞书应用（appId 见第二节）；当前 currentApp 为伊森 clia92504e56d78dbd7，user 身份（徐 全域智能体 架构 多智能体 框架 全域智能体健康度审查方法论 飞书多智能体连接故障恢复手册"
@@ -842,6 +849,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
     "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差.md",
     "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent.md",
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
     "原始资料/已整理｜2026-08-05｜ChatGPT｜美团小团Agent架构与Ontology分析.md"
    ],
    "desc": "定位：本页属于 企业AI与生产级Agent总框架 中的工程定义线。它负责定义生产级 Agent 的概念、标准、能力链路和验收口径；甘食记、美团、咨询公司、制造业等案例属于业务落地线",
@@ -4529,6 +4537,30 @@ window.OBSIDIAN_DATA = {
    "searchText": "D输出成果 知识流水线/D输出成果.md 上级：知识流水线/知识流水线 知识流水线/知识流水线 徐总的知识库"
   },
   {
+   "path": "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
+   "title": "DeepSeek Harness官方架构与本机控制中心分层说明",
+   "updated": "2026-08-20",
+   "topic": "pipeline",
+   "aliases": [
+    "- Harness架构总览"
+   ],
+   "tags": [
+    "- DeepSeek-Harness"
+   ],
+   "links": [
+    "知识流水线/知识流水线",
+    "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建",
+    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2",
+    "AI Agent工程知识/全域智能体框架总览",
+    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "知识流水线/任务面板与Obsidian同步"
+   ],
+   "backlinks": [],
+   "desc": "上级：知识流水线/知识流水线",
+   "wordCount": 4242,
+   "searchText": "DeepSeek Harness官方架构与本机控制中心分层说明 知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md 上级：知识流水线/知识流水线 Harness架构总览 DeepSeekHarness 知识流水线/知识流水线 AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建 AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2 AI Agent工程知识/全域智能体框架总览 AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语 知识流水线/任务面板与Obsidian同步"
+  },
+  {
    "path": "知识流水线/Jarvis知识增长工作流总规则-整理草稿.md",
    "title": "Jarvis Office 知识增长工作流总规则（整理草稿）",
    "updated": "2026-08-19",
@@ -4709,6 +4741,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识流水线"
    ],
    "backlinks": [
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
     "知识流水线/Obsidian知识底座治理与知识自主生长方案.md"
    ],
    "desc": "- Obsidian 是内容层 / 最终知识源：详细过程、方案、结论、正式知识。",
@@ -5042,6 +5075,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/B_知识蒸馏.md",
     "知识流水线/C_方法与Skill.md",
     "知识流水线/D_输出成果.md",
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
     "知识流水线/Obsidian知识底座治理与知识自主生长方案.md",
     "知识流水线/WikiLLM知识库编译方法论.md",
     "知识流水线/个人工作台设计与部署方法论.md",
@@ -6951,6 +6985,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 94,
-  "fetchedAt": "2026年8月20日 13:32"
+  "fetchedAt": "2026年8月20日 15:46"
  }
 };
