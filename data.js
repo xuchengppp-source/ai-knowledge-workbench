@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-20",
- "generatedTime": "2026-08-20 09:34",
+ "generatedTime": "2026-08-20 13:32",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 25,
- "weeklyChanges": 369,
+ "weeklyPages": 26,
+ "weeklyChanges": 375,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-17｜AI知识增量整理.md",
  "topics": [
@@ -11,7 +11,7 @@ window.OBSIDIAN_DATA = {
    "name": "AI Agent工程知识",
    "key": "agent",
    "icon": "🤖",
-   "count": 32
+   "count": 33
   },
   {
    "name": "企业AI与智能体商业化",
@@ -263,6 +263,7 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
     "AI Agent工程知识/AI模型选型与订阅历史.md",
+    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2.md",
     "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象.md",
     "AI Agent工程知识/为什么做多智能体：Codex内部多线程vs跨平台多智能体.md",
     "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
@@ -436,6 +437,26 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 15379,
    "searchText": "DeepSeek Harness 插件与模式设计规范 V1.1 AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.1.md 上级：AI Agent工程知识专题 AI Agent工程知识专题 Deepseek Harness：框架概念与专属智能体搭建 生产级AI Agent知识体系总览：层级·特性·术语 全域智能体框架总览"
+  },
+  {
+   "path": "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2.md",
+   "title": "DeepSeek Harness 插件与模式设计规范 V1.2",
+   "updated": "2026-08-20",
+   "topic": "agent",
+   "aliases": [],
+   "tags": [],
+   "links": [
+    "AI Agent工程知识专题",
+    "Deepseek Harness：框架概念与专属智能体搭建",
+    "生产级AI Agent知识体系总览：层级·特性·术语",
+    "全域智能体框架总览",
+    "徐总的知识库",
+    "AI Agent工程知识/AI Agent工程知识专题"
+   ],
+   "backlinks": [],
+   "desc": "上级：AI Agent工程知识专题",
+   "wordCount": 22080,
+   "searchText": "DeepSeek Harness 插件与模式设计规范 V1.2 AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2.md 上级：AI Agent工程知识专题 AI Agent工程知识专题 Deepseek Harness：框架概念与专属智能体搭建 生产级AI Agent知识体系总览：层级·特性·术语 全域智能体框架总览 徐总的知识库 AI Agent工程知识/AI Agent工程知识专题"
   },
   {
    "path": "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md",
@@ -6505,7 +6526,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "Agent Runtime",
-   "matched": 18,
+   "matched": 19,
    "status": "已形成"
   },
   {
@@ -6882,7 +6903,7 @@ window.OBSIDIAN_DATA = {
   "summary": {
    "in_progress": 11,
    "todo": 9,
-   "in_review": 12,
+   "in_review": 13,
    "blocked": 1
   },
   "recent": [
@@ -6929,7 +6950,7 @@ window.OBSIDIAN_DATA = {
     "assignee": "Codex"
    }
   ],
-  "total": 93,
-  "fetchedAt": "2026年8月20日 09:34"
+  "total": 94,
+  "fetchedAt": "2026年8月20日 13:32"
  }
 };
