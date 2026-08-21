@@ -26,9 +26,11 @@ const OUT_DIR = process.argv.includes('--out')
   ? process.argv[process.argv.indexOf('--out') + 1]
   : '/Users/xucheng/Documents/知识库工作台-publish';
 
-// 排除敏感/非精选文件（白名单策略：只发布学习向内容，跳过原始资料、备份、内部维护页）
+// 排除敏感/非精选文件（白名单策略：只发布学习向内容，跳过备份、内部维护页）
+// 注意：/原始资料/ 已移出排除列表——原始资料随各 TOPIC 的「原始资料」子目录（及根目录同名文件）
+// 一并发布（见 build() 中 rawMatDir 扫描）；如需重新屏蔽，把 /原始资料/ 加回此数组即可。
 const EXCLUDE_PATTERNS = [
-  /原始资料/, /资料池/, /蒸馏笔记/, /研究问题/,
+  /资料池/, /蒸馏笔记/, /研究问题/,
   /\.bak/, /\.tmp/, /nohup/, /日志/, /全局记忆/, /^\./,
 ];
 
@@ -493,6 +495,11 @@ async function build() {
   TOPICS.forEach(t => {
     const dir = path.join(VAULT, t.dir);
     const files = readMDFiles(dir);
+    // 纳入「原始资料」子目录（默认只递归此子目录，避免误带 每日学习整理/每周知识复盘/会议 等其余子目录）
+    const rawMatDir = path.join(dir, '原始资料');
+    if (fs.existsSync(rawMatDir)) {
+      files.push(...readMDFilesRecursive(rawMatDir));
+    }
     const topicNodes = [];
     files.forEach(f => {
       if (EXCLUDE_PATTERNS.some(p => p.test(f))) return;
