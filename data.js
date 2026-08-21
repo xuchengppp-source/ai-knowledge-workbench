@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-08-20",
- "generatedTime": "2026-08-20 17:07",
+ "generatedAt": "2026-08-21",
+ "generatedTime": "2026-08-21 14:05",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 18,
- "weeklyChanges": 300,
+ "weeklyPages": 19,
+ "weeklyChanges": 311,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-17｜AI知识增量整理.md",
  "topics": [
@@ -29,7 +29,7 @@ window.OBSIDIAN_DATA = {
    "name": "知识流水线",
    "key": "pipeline",
    "icon": "📚",
-   "count": 42
+   "count": 44
   }
  ],
  "nodes": [
@@ -392,6 +392,7 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/AI Agent工程知识专题"
    ],
    "backlinks": [
+    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
     "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
@@ -3619,21 +3620,63 @@ window.OBSIDIAN_DATA = {
    "wordCount": 155
   },
   {
-   "path": "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
-   "title": "DeepSeek Harness官方架构与本机控制中心分层说明",
-   "updated": "2026-08-20",
+   "path": "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
+   "title": "DeepSeek Harness 体系总览：运作原理与插件/能力包设计指南",
+   "updated": "2026-08-21",
    "topic": "pipeline",
    "links": [
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明",
+    "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）",
+    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2",
+    "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明",
+    "DeepSeek Harness项目/Material Office Capability Bundle V1 创建报告",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录"
+   ],
+   "backlinks": [
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
+    "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）.md"
+   ],
+   "desc": "DeepSeek Harness 是一个 Agent Runtime：模型负责推理，Harness 负责把推理接入真实世界。它不是\"再造一个聊天机器人\"，而是按插件标准组合模型、工",
+   "wordCount": 6724
+  },
+  {
+   "path": "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
+   "title": "DeepSeek Harness官方架构与本机控制中心分层说明",
+   "updated": "2026-08-21",
+   "topic": "pipeline",
+   "links": [
+    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南",
     "知识流水线/知识流水线",
     "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建",
     "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2",
     "AI Agent工程知识/全域智能体框架总览",
     "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
-    "知识流水线/任务面板与Obsidian同步"
+    "知识流水线/任务面板与Obsidian同步",
+    "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
+    "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）.md"
+   ],
    "desc": "上级：知识流水线/知识流水线",
-   "wordCount": 6060
+   "wordCount": 6223
+  },
+  {
+   "path": "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）.md",
+   "title": "DeepSeek Harness 源码阅读地图（dsh-v0.1.0-rc.7）",
+   "updated": "2026-08-20",
+   "topic": "pipeline",
+   "links": [
+    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南",
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明"
+   ],
+   "backlinks": [
+    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md"
+   ],
+   "desc": "配置决定能力集合（base bundle）→ 循环推动工作（agent loop）→ 会话保存事实（session）→ 工具链约束动作（tools）。",
+   "wordCount": 3078
   },
   {
    "path": "知识流水线/Jarvis知识增长工作流总规则-整理草稿.md",
@@ -4564,7 +4607,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "模型与推理",
-   "matched": 10,
+   "matched": 11,
    "status": "已形成"
   },
   {
@@ -4574,12 +4617,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "Agent Runtime",
-   "matched": 18,
+   "matched": 19,
    "status": "已形成"
   },
   {
    "name": "工具与协议",
-   "matched": 5,
+   "matched": 6,
    "status": "已形成"
   },
   {
@@ -4951,7 +4994,7 @@ window.OBSIDIAN_DATA = {
   "summary": {
    "in_progress": 11,
    "todo": 9,
-   "in_review": 13,
+   "in_review": 12,
    "blocked": 1
   },
   "recent": [
@@ -4999,6 +5042,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 94,
-  "fetchedAt": "2026年8月20日 17:07"
+  "fetchedAt": "2026年8月21日 14:05"
  }
 };
