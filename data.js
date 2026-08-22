@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-08-21",
- "generatedTime": "2026-08-21 14:17",
+ "generatedAt": "2026-08-22",
+ "generatedTime": "2026-08-22 13:32",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 20,
- "weeklyChanges": 389,
+ "weeklyPages": 16,
+ "weeklyChanges": 298,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-17｜AI知识增量整理.md",
  "topics": [
@@ -17,7 +17,7 @@ window.OBSIDIAN_DATA = {
    "name": "企业AI与智能体商业化",
    "key": "enterprise",
    "icon": "🏢",
-   "count": 112
+   "count": 113
   },
   {
    "name": "AI产业链与数字基础设施",
@@ -2667,6 +2667,21 @@ window.OBSIDIAN_DATA = {
    "wordCount": 6575
   },
   {
+   "path": "企业AI与智能体商业化/电力合作伙伴能力画像与充电桩新政挂钩.md",
+   "title": "电力合作伙伴能力画像与充电桩新政挂钩",
+   "updated": "2026-08-21",
+   "topic": "enterprise",
+   "links": [
+    "企业AI与智能体商业化",
+    "知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作"
+   ],
+   "backlinks": [
+    "知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作.md"
+   ],
+   "desc": "一句话画像：一位以电力施工为主业、兼做设备材料供应的一线电力工程伙伴（公司主体：四川京锋电力工程有限公司），不做设计；擅长高压/弱电/电路分配施工与用电保障。",
+   "wordCount": 3095
+  },
+  {
    "path": "企业AI与智能体商业化/知识库索引.md",
    "title": "知识库索引（快速查找版）",
    "updated": "2026-08-12",
@@ -3821,10 +3836,15 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/A_原始资料.md",
    "title": "A_原始资料",
-   "updated": "2026-08-20",
+   "updated": "2026-08-21",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
+    "原始资料/待整理｜2026-08-21｜红杉AI闭门会解读｜AI产业下半场：应用反攻模型层与Eval护城河",
+    "原始资料/待整理｜2026-08-21｜红杉Eval判断落地｜把行业经验变成打分规则与闭环迭代",
+    "原始资料/待整理｜2026-08-21｜豆包对话｜阿里云灵骏真武M890超节点与算力体系辨析",
+    "原始资料/待整理｜2026-08-21｜Qwen-UI-Agent与Harness自重启能力方向",
+    "原始资料/待整理｜2026-08-21｜抖音DeepSeek Harness系列文案",
     "知识流水线/Jarvis知识增长工作流总规则-整理草稿.md",
     "原始资料/已整理｜2026-08-19｜工作流规则｜Jarvis知识增长工作流总规则",
     "原始资料/已整理｜2026-08-19｜Harness｜全文接入链路测试",
@@ -3913,7 +3933,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识获取与录入三条链路现状与卡壳点.md"
    ],
    "desc": "上级：知识流水线/知识流水线",
-   "wordCount": 7918
+   "wordCount": 8630
   },
   {
    "path": "知识流水线/Agent Ontology 1.0运行数据库与闭环落地.md",
@@ -4153,7 +4173,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）.md"
    ],
    "desc": "DeepSeek Harness 是一个 Agent Runtime：模型负责推理，Harness 负责把推理接入真实世界。它不是\"再造一个聊天机器人\"，而是按插件标准组合模型、工",
-   "wordCount": 6724
+   "wordCount": 7836
   },
   {
    "path": "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
@@ -4370,7 +4390,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作.md",
    "title": "支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作",
-   "updated": "2026-08-17",
+   "updated": "2026-08-21",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -4379,15 +4399,17 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/Mac Codex 主控化运行基线",
     "Codex工作区/Codex Workspace 低 Token 主控工作区方案",
     "知识流水线/AI知识学习与复盘工作台",
-    "企业AI与智能体商业化/FDE商业级智能体交付框架"
+    "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "企业AI与智能体商业化/电力合作伙伴能力画像与充电桩新政挂钩"
    ],
    "backlinks": [
     "AI Agent工程知识/工业级多智能体协作系统设计：任务编排、依赖治理与结果对齐.md",
     "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md",
+    "企业AI与智能体商业化/电力合作伙伴能力画像与充电桩新政挂钩.md",
     "知识流水线/知识库健康巡检.md"
    ],
    "desc": "上级：知识流水线/知识流水线、Codex工作区/Codex-MoonBridge多Agent任务面板与Obsidian归档机制",
-   "wordCount": 2624
+   "wordCount": 2677
   },
   {
    "path": "知识流水线/玄学与东方智慧出海-内容策略与独立站电商体系-调研-20260811.md",
@@ -4411,9 +4433,12 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/知识库健康巡检.md",
    "title": "知识库健康巡检",
-   "updated": "2026-08-17",
+   "updated": "2026-08-21",
    "topic": "pipeline",
    "links": [
+    "豆包工作区/豆包对话归档工作流",
+    "豆包工作区/豆包工作区",
+    "全局记忆/13_Obsidian新增更新内容强制收口协作规则",
     "DeepSeek Harness项目/DeepSeek Harness项目记录",
     "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环",
     "原始资料/待审核｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环",
@@ -4442,7 +4467,6 @@ window.OBSIDIAN_DATA = {
     "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
     "知识流水线/Mac Codex Obsidian知识库健康巡检专员启动提示词",
     "知识流水线/知识库健康巡检执行规范",
-    "全局记忆/13_Obsidian新增更新内容强制收口协作规则",
     "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行",
     "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
     "AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率",
@@ -4531,8 +4555,8 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识库健康巡检执行规范.md",
     "知识流水线/知识库架构判断原则：从资料到概念、方法论、案例与专题归属.md"
    ],
-   "desc": "- 08-16 增量日报已生成（22:57），覆盖：斯坦福企业AI实战手册、蜀道集团无人机巡检测算、MiniMax-M3端点故障修复、TRIAL-001 结论登记、任务级会话隔离工",
-   "wordCount": 45844
+   "desc": "- 时间范围：2026-08-18 至 2026-08-21 的新增/修改 Markdown。",
+   "wordCount": 47814
   },
   {
    "path": "知识流水线/知识库健康巡检执行规范.md",
@@ -5161,7 +5185,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 91,
+   "matched": 90,
    "status": "已形成"
   },
   {
@@ -5512,7 +5536,7 @@ window.OBSIDIAN_DATA = {
  "tasks": {
   "summary": {
    "in_progress": 11,
-   "todo": 9,
+   "todo": 10,
    "in_review": 12,
    "blocked": 1
   },
@@ -5560,7 +5584,7 @@ window.OBSIDIAN_DATA = {
     "assignee": "Codex"
    }
   ],
-  "total": 94,
-  "fetchedAt": "2026年8月21日 14:17"
+  "total": 95,
+  "fetchedAt": "2026年8月22日 13:32"
  }
 };
