@@ -1,11 +1,11 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-08-23",
- "generatedTime": "2026-08-23 13:32",
+ "generatedAt": "2026-08-24",
+ "generatedTime": "2026-08-24 23:02",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 18,
- "weeklyChanges": 341,
+ "weeklyPages": 16,
+ "weeklyChanges": 334,
  "sourceIndex": "知识库索引.md",
- "digest": "知识流水线/每日学习整理/2026-08-17｜AI知识增量整理.md",
+ "digest": "知识流水线/每日学习整理/2026-08-24｜AI知识增量整理.md",
  "topics": [
   {
    "name": "AI Agent工程知识",
@@ -4746,34 +4746,86 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "today": {
-  "date": "2026-08-17",
+  "date": "2026-08-24",
   "items": [
    {
-    "title": "**【新建·设计稿】DeepSeek Harness Doctor 插件设计**（`DeepSeek Harness项目/DeepSeek Harness Doctor 插件设计.md`，created 2026-08-17，status: draft）：让 Harness 自举生成自身健康检查插件（harness-doctor），第一版只读、不自动修复。核心是把\"模型绑定错配导致费用异常\"从事后账单发现前置为请求发出前拦截——定义 `ModelBindingPolicy` + `modelBindingGate`（9 个判定 code：`BLOCKED_MODEL_BINDING` / `MODEL_BINDING_MISMATCH` 等）、`doctor --quick / --full / --preflight` 三模式、声明(Expected)/加载(Loaded)/运行(Runtime)三层模型态。C2/C3 已落地，34/34 单测通过，C4（知识库 §12/§13 + 终态 UX）in_review。直接呼应 08-16 MiniMax-M3 端点故障（模型绑定错配 → fallback 静默烧钱）。",
+    "title": "**【新增·升级验证记录】DSH v0.1.1-rc.2 升级副本验证记录**（`DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录.md`，date 2026-08-24，status: 已建副本（待真实调用验证））：记录 rc.8 起 Claude Code/Codex 变成可安装的 Profile Bundle 子代理插件包（契合\"主控编排\"思路）；版本矩阵 rc.7（主）/rc.8（副本已删）/v0.1.1-rc.2（副本）；SQLite 后端 rc.7/rc.8 不兼容无迁移工具；副本搭建全流程（完整备份 208MB、DSH_HOME 隔离、gh api tarball 下载、build、验证）；Codex 子代理 5 项端到端验证全过，关键发现 **OPENAI_API_KEY 非必需**（本机 `~/.codex/auth.json` chatgpt 登录态足够，模型 gpt-5.6-luna）；DSH 维护三联动记录规则（徐总确认 2026-08-24）；模型配置迁移。",
     "summary": "",
     "points": [],
-    "date": "2026-08-17"
+    "date": "2026-08-24"
    },
    {
-    "title": "**【更新】全域智能体框架总览 — 等价关系表 2026-08-17 补全**（`AI Agent工程知识/全域智能体框架总览.md`，19:35 落盘）：固化\"英文名(中文名·产品/智能体代号)\"全局对照——CodeX=Mason、DeepSeek CodeX=Jarvis、DeepSeek Harness=Friday、WorkBuddy=Ethan、千问办公=Oliver、QoderWork=Lucas、OpenClaw=Chris、Hermes=Felix、Thomas=字节 trae Work（非 Agent）。明确 Friday=Harness 派发层（当时记录走 Harness Web/JSON-RPC `127.0.0.1:47880`、非飞书 bot、无 appId；**2026-08-18 更新：Friday 已经 Harness 飞书插件接入飞书 Bot，appId 待补**），与 Jarvis=DeepSeek CodeX 平行独立。",
+    "title": "**【更新·项目记录】Knowledge Plugin 相比其他调用方式的实际提升**（`DeepSeek Harness项目/DeepSeek Harness项目记录.md`，2026-08-24 新增段）：把 Obsidian 从 Agent 直接操作的文件后端，提升为 Harness Runtime 中的统一 Knowledge Service 与 typed Tools（`knowledge.search/read/list/create/update`）。对比直接写文件 / CLI / HTTP / 各 Agent 自做接口的局限，插件化收益为统一入口、后端可替换、Runtime 生命周期、权限治理、真实调用可审计。明确\"文件存在、CLI 成功、HTTP 200、Node import 或配置加载\"都不能算插件完成，须证明 Harness 加载→Agent roster→真实 Tool Call→Tool Result→持久化回读→权限失败路径。",
     "summary": "",
     "points": [],
-    "date": "2026-08-17"
+    "date": "2026-08-24"
    },
    {
-    "title": "**【小更新】DeepSeek Harness 项目记录 — B9 未完成会话证据**（`DeepSeek Harness项目/DeepSeek Harness项目记录.md`，09:24 落盘）：补一条 2026-08-17 01:13 未完成会话证据（web_search 被 abort、0 真实结论），用于反向校准\"未完成任务不得误判为成功\"。属项目记录细节，非新判断。",
+    "title": "**【更新·项目记录】DSH v0.1.1-rc.2：Codex 子代理真实调用验收**（`DeepSeek Harness项目/DeepSeek Harness项目记录.md`，2026-08-24）：隔离副本 headless Profile 补挂 `subagent-codex` 与 `dsh-tool-subagent`，完成完整闭环——模型发起原生 `subagent_codex` tool-call，返回 `isError=false` 的 `CODEX_SUBAGENT_OK master`，父 Agent 原样收到结果。证明 Codex Provider 已完成 `Host Provider → Agent Consumer → Native Tool Call → Tool Result`，是可组合 Agent 运行时派发编码子代理的实证。",
     "summary": "",
     "points": [],
-    "date": "2026-08-17"
+    "date": "2026-08-24"
+   },
+   {
+    "title": "**【更新·项目记录】Claude Code 子代理真实调用验收 + 范围决定**（`DeepSeek Harness项目/DeepSeek Harness项目记录.md`，2026-08-24）：同一 rc2 Profile 挂载 `@deepseek-ai/dsh-subagent-claude-code`，真实 Session 中模型原生调用 `subagent_claude_code` 但返回 `isError=true`（`command \"claude\" was not found on PATH`），父模型改调 Codex 后的 `CLAUDE_SUBAGENT_OK master` 只是文本结果，不算成功。据此**当前不配置 Claude Code**，失败证据保留但不纳入本次验收；两者均不进模型选择器、不自动生成 UI 按钮。",
+    "summary": "",
+    "points": [],
+    "date": "2026-08-24"
+   },
+   {
+    "title": "**【更新·项目记录】rc2 Web 可用性恢复**（`DeepSeek Harness项目/DeepSeek Harness项目记录.md`，2026-08-24）：新版副本不能创建会话的根因是两项副本问题——旧版 `.credentials.yaml` 格式不符合 rc2 扁平字符串映射；Friday Preset 仍引用主环境 Knowledge Plugin 路径。已恢复副本凭据（设 0600）、移除失效 Knowledge Plugin 引用、重启 `com.harness.web.rc2` 47900，浏览器真实验证可创建会话，主环境未改。",
+    "summary": "",
+    "points": [],
+    "date": "2026-08-24"
    }
   ],
   "judgments": [
-   "模型绑定门禁 = 生产级 Agent 治理的\"损失导向护栏\"范式。Harness Doctor 把监控从\"Provider 是否在线\"（可用性导向）升级为\"实际绑定与声明绑定不一致且会造成真实费用损失就 BLOCK\"（损失导向）。这是可复用的生产级 Agent 运维认知：运行时自检的第一优先级不是指标多，而是\"配置错没、实跑和配置一致没、这种错会不会烧钱\"。",
-   "\"Friday = DeepSeek Harness\"命名确权完成，全域智能体身份地图进入稳定态。08-17 把九大智能体的\"英文=中文=产品代号=appId(飞书侧)\"等价关系一次性固化，消除跨 Agent 调用时的命名歧义。这是全局架构级稳定事实，属于「企业AI 内部超级团队架构」与「全域智能体框架」的共同底座。",
-   "全域智能体从\"逐 Agent 能力页\"走向\"统一 System Ontology + 稳定命名\"。08-17 的命名确权与 Harness 项目持续闭环，印证 08-15 启动的 System Ontology 升级（KNOWLEDGEPIP-108）方向——框架正在从分散描述收敛为可被各 Agent 稳定读取的治理底座，而非又一次页面堆砌。"
+   "Knowledge Plugin 的本质价值是\"文件后端 → Runtime 统一 Knowledge Service + typed Tools\"，这是生产级 Agent 知识层架构范式。它把\"Agent 直接写文件\"升级为统一入口、后端可替换、Runtime 生命周期、权限治理、真实调用可审计的知识访问方式。这不同于任何\"也能读写 Markdown\"的浅层方案，是 Agent 知识层工程化（权限门控、可审计、可替换）的可复用认知。",
+   "Harness 子代理从\"安装/注册\"进化为\"真实 Tool Call → Tool Result 闭环\"——必须严格区分\"加载通过\"与\"端到端成功\"。Codex 子代理已端到端验证（`isError=false`），证明 Harness 可作为可组合 Agent 运行时派发编码子代理（主控编排思路落地）；而 Claude Code 仅完成加载与 Tool 入口验证、实际执行失败，故不算通过。这条验收纪律（须证明完整闭环而非部分通过）直接复用并强化了 08-15/08-17 的工业级多智能体协作与 System Ontology 方向。",
+   "基础设施升级纪律沉淀为\"可回滚、可并行、可追溯\"的生产级运维认知。DSH 维护三联动记录规则（搭建记录 / 知识库 / 任务面板互链）、SQLite 不兼容须先备份、DSH_HOME 隔离多版本并行、rc.8 能力已含于 v0.1.1-rc.2 故精简到 2 环境——这些把一次版本升级转化为可复用运维 SOP，而非一次性操作。"
   ]
  },
  "dailies": [
+  {
+   "date": "2026-08-24",
+   "items": [
+    {
+     "title": "**【新增·升级验证记录】DSH v0.1.1-rc.2 升级副本验证记录**（`DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录.md`，date 2026-08-24，status: 已建副本（待真实调用验证））：记录 rc.8 起 Claude Code/Codex 变成可安装的 Profile Bundle 子代理插件包（契合\"主控编排\"思路）；版本矩阵 rc.7（主）/rc.8（副本已删）/v0.1.1-rc.2（副本）；SQLite 后端 rc.7/rc.8 不兼容无迁移工具；副本搭建全流程（完整备份 208MB、DSH_HOME 隔离、gh api tarball 下载、build、验证）；Codex 子代理 5 项端到端验证全过，关键发现 **OPENAI_API_KEY 非必需**（本机 `~/.codex/auth.json` chatgpt 登录态足够，模型 gpt-5.6-luna）；DSH 维护三联动记录规则（徐总确认 2026-08-24）；模型配置迁移。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-24"
+    },
+    {
+     "title": "**【更新·项目记录】Knowledge Plugin 相比其他调用方式的实际提升**（`DeepSeek Harness项目/DeepSeek Harness项目记录.md`，2026-08-24 新增段）：把 Obsidian 从 Agent 直接操作的文件后端，提升为 Harness Runtime 中的统一 Knowledge Service 与 typed Tools（`knowledge.search/read/list/create/update`）。对比直接写文件 / CLI / HTTP / 各 Agent 自做接口的局限，插件化收益为统一入口、后端可替换、Runtime 生命周期、权限治理、真实调用可审计。明确\"文件存在、CLI 成功、HTTP 200、Node import 或配置加载\"都不能算插件完成，须证明 Harness 加载→Agent roster→真实 Tool Call→Tool Result→持久化回读→权限失败路径。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-24"
+    },
+    {
+     "title": "**【更新·项目记录】DSH v0.1.1-rc.2：Codex 子代理真实调用验收**（`DeepSeek Harness项目/DeepSeek Harness项目记录.md`，2026-08-24）：隔离副本 headless Profile 补挂 `subagent-codex` 与 `dsh-tool-subagent`，完成完整闭环——模型发起原生 `subagent_codex` tool-call，返回 `isError=false` 的 `CODEX_SUBAGENT_OK master`，父 Agent 原样收到结果。证明 Codex Provider 已完成 `Host Provider → Agent Consumer → Native Tool Call → Tool Result`，是可组合 Agent 运行时派发编码子代理的实证。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-24"
+    },
+    {
+     "title": "**【更新·项目记录】Claude Code 子代理真实调用验收 + 范围决定**（`DeepSeek Harness项目/DeepSeek Harness项目记录.md`，2026-08-24）：同一 rc2 Profile 挂载 `@deepseek-ai/dsh-subagent-claude-code`，真实 Session 中模型原生调用 `subagent_claude_code` 但返回 `isError=true`（`command \"claude\" was not found on PATH`），父模型改调 Codex 后的 `CLAUDE_SUBAGENT_OK master` 只是文本结果，不算成功。据此**当前不配置 Claude Code**，失败证据保留但不纳入本次验收；两者均不进模型选择器、不自动生成 UI 按钮。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-24"
+    },
+    {
+     "title": "**【更新·项目记录】rc2 Web 可用性恢复**（`DeepSeek Harness项目/DeepSeek Harness项目记录.md`，2026-08-24）：新版副本不能创建会话的根因是两项副本问题——旧版 `.credentials.yaml` 格式不符合 rc2 扁平字符串映射；Friday Preset 仍引用主环境 Knowledge Plugin 路径。已恢复副本凭据（设 0600）、移除失效 Knowledge Plugin 引用、重启 `com.harness.web.rc2` 47900，浏览器真实验证可创建会话，主环境未改。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-24"
+    }
+   ],
+   "judgments": [
+    "Knowledge Plugin 的本质价值是\"文件后端 → Runtime 统一 Knowledge Service + typed Tools\"，这是生产级 Agent 知识层架构范式。它把\"Agent 直接写文件\"升级为统一入口、后端可替换、Runtime 生命周期、权限治理、真实调用可审计的知识访问方式。这不同于任何\"也能读写 Markdown\"的浅层方案，是 Agent 知识层工程化（权限门控、可审计、可替换）的可复用认知。",
+    "Harness 子代理从\"安装/注册\"进化为\"真实 Tool Call → Tool Result 闭环\"——必须严格区分\"加载通过\"与\"端到端成功\"。Codex 子代理已端到端验证（`isError=false`），证明 Harness 可作为可组合 Agent 运行时派发编码子代理（主控编排思路落地）；而 Claude Code 仅完成加载与 Tool 入口验证、实际执行失败，故不算通过。这条验收纪律（须证明完整闭环而非部分通过）直接复用并强化了 08-15/08-17 的工业级多智能体协作与 System Ontology 方向。",
+    "基础设施升级纪律沉淀为\"可回滚、可并行、可追溯\"的生产级运维认知。DSH 维护三联动记录规则（搭建记录 / 知识库 / 任务面板互链）、SQLite 不兼容须先备份、DSH_HOME 隔离多版本并行、rc.8 能力已含于 v0.1.1-rc.2 故精简到 2 环境——这些把一次版本升级转化为可复用运维 SOP，而非一次性操作。"
+   ]
+  },
   {
    "date": "2026-08-17",
    "items": [
@@ -5078,88 +5130,6 @@ window.OBSIDIAN_DATA = {
     "企业 AI 落地的真问题已从“模型/工具”转向“组织与记忆”，游戏公司案例把腾讯 FDE 报告结论①变成了现实印证。 流程提效（生图、Skill、API 标签库）已经跑通，但“谁定标准、谁写经验、谁判结果、谁把反馈变规则”这层组织机制没有动；真正的分界线在五层模型的后两层（组织层、记忆层），不在前三层。FDE 的交付物因此必须从“一个 Agent/Skill”升级为“一段新的生产机制”。",
     "“生产侧库 / Sidecar Database”成为 FDE 首期落地的轻量化标准动作。 不碰客户核心数据库、不先数字化整款业务，只记录一条真实生产链路中新产生的任务/候选/判断/结果/反馈——游戏公司角色视觉候选、己未文化咨询记录、餐饮经营日报都可用同一套对象链复用。这是 FDE 方法论从概念到可执行步骤的具体化，也直接回应了“先轻后重、低摩擦”的徐总落地偏好。",
     "员工执行习惯/留痕配合度是 AI 落地的隐性前置门槛，比模型更基础。 游戏公司“老板一周三次每次截 20+ 张、员工截七八张就嫌累”暴露的是数据底座的人因瓶颈：AI 只能学习“表达出来的理由”，员工不愿持续截图/记录/确认，本体层就无米下锅。己未作战卡据此把“低摩擦留痕 + 配合度观察”补为首次沟通必问项。这条把“组织记忆”从技术问题还原为管理/人因问题，是今日最可迁移的判断。"
-   ]
-  },
-  {
-   "date": "2026-08-10",
-   "items": [
-    {
-     "title": "**腾讯研究院《FDE 模式行业观察与实践》报告提炼进库（新建正式研究页，KNOWLEDGEPIP-84）**",
-     "summary": "83 页报告七大结论落库——AI 落地矛盾已从\"模型能不能做\"转向\"组织怎么用\"，超 60% 企业 AI 试点停在实验阶段；FDE 不是新岗位而是交付模式范式重塑。",
-     "points": [
-      "关键事实：83 页报告七大结论落库——AI 落地矛盾已从\"模型能不能做\"转向\"组织怎么用\"，超 60% 企业 AI 试点停在实验阶段；FDE 不是新岗位而是交付模式范式重塑。",
-      "关键概念：**Echo / Delta 能力框架**——Echo 管\"该做什么\"（场景判断、组织推动、需求翻译），Delta 管\"怎么做出来\"（原型、集成、测试）；AI 压缩 Delta 成本，Echo 反而更稀缺。",
-      "关键判断：FDE 与传统驻场的唯一分界 = 项目结束后是否沉淀可复用资产（外包 / 项目制 / FDE / 可规模化 FDE 四级）；载体是本体层（结构化业务知识图谱）。",
-      "关键事实：Bob McGrew 度量原则——第一个客户 10 人月、第十个同类客户仍 10 人月，模式就没跑通。",
-      "关键事实：市场信号——美国 Indeed FDE 职位 643 → 5330 条（+700%），OpenAI 与 Anthropic 同日宣布组建部署团队；美国薪资中位数约 20 万美元、头部实验室入门 29.5 万，国内字节/蚂蚁/智谱 ",
-      "关键判断：中国不能照搬硅谷但有跳级机会——国内企业\"对话驱动\"、流程写在默契里，自然语言入口恰好匹配；真正约束是经济性（国内十万到百万人民币 vs 硅谷六到七位数美元合同），必须靠平台降本 + Skill/连接器/行业模板提复用。"
-     ],
-     "date": "2026-08-10"
-    },
-    {
-     "title": "**Agent 架构模式与生产装配、企业落地的三层对照（`AI Agent工程知识/Agent系统架构模式选型` 新增第九节）**",
-     "summary": "三者是\"模式 ⊆ 装配 ⊆ 落地\"的递进关系而非互斥选项——7 种架构回答单次任务怎么编排，WorkBuddy 稳定智能体架构回答一个可交付系统怎么稳定，FDE 五阶段回答企业该不",
-     "points": [
-      "关键概念：三者是\"模式 ⊆ 装配 ⊆ 落地\"的递进关系而非互斥选项——7 种架构回答单次任务怎么编排，WorkBuddy 稳定智能体架构回答一个可交付系统怎么稳定，FDE 五阶段回答企业该不该上 AI。",
-      "关键判断：现有体系不是\"7 选 1\"，而是**混用 4 种**——ReAct 内嵌于每个 Agent、Multi-Agent（甘食记三人专家团）、Route+Skill（主力，Skill 体系本质就是意图识别→确定性分发）、Blackboa",
-      "关键因果关系：ReAct 的\"Token 消耗大、稳定性不足\"在生产体系里不靠换架构解决，而靠把逻辑下沉到确定性工具——模型负责不确定性判断，程序负责确定性约束，运行时负责流程可靠性。",
-      "关键判断：两处真实缺口——① **Reflexion 自我反思是唯一缺失模式**（当前只有 Multi-Agent 外部互审，没有\"结果喂回 + 记忆改进\"的自省迭代）；② Blackboard 需正式治理，否则 Obsidian 共享库会"
-     ],
-     "date": "2026-08-10"
-    },
-    {
-     "title": "**Agent Ontology 1.0 主控收敛：从\"造样本\"转向\"已有事实归位\"（KNOWLEDGEPIP-72）**",
-     "summary": "本轮确认不再用额外模型调用制造样本，已有模型/额度/工具/上下文/消耗记录直接作为运行事实归位到 ModelBinding、AgentResource、RuntimeState、T",
-     "points": [
-      "关键判断：本轮确认不再用额外模型调用制造样本，已有模型/额度/工具/上下文/消耗记录直接作为运行事实归位到 ModelBinding、AgentResource、RuntimeState、TaskResult、CapabilityEvide",
-      "关键概念：存储三分工固定——项目 `.project_context/` 保存注册表与运行事实，Taskboard 保存任务状态与审计摘要，Obsidian 只保存审核后的规则、分层与阶段结论。",
-      "关键事实：当前快照 agents 6、model bindings 6、resources 17、relationships 7、lifecycle events 5、task results 4、evidence 3、claims 14、",
-      "关键判断：执行顺序压到最小——先做本地 SQLite，不接 OpenClaw 旧面板、不接外部桥、不升级自动路由、不人为造测试任务；Codex 内部会话智能体化（KNOWLEDGEPIP-79）明确排除在外。"
-     ],
-     "date": "2026-08-10"
-    },
-    {
-     "title": "**DK 子 Agent 首轮受控调用闭环（KNOWLEDGEPIP-59 / 74 / 75 三卡同日转 done）**",
-     "summary": "DK-One（架构与入口分析）、DK-Two（风险与验收分析）报告经主控审核通过，证据显示真实 DeepSeek V4 Flash、read-only 执行，已写入 TaskRes",
-     "points": [
-      "关键事实：DK-One（架构与入口分析）、DK-Two（风险与验收分析）报告经主控审核通过，证据显示真实 DeepSeek V4 Flash、read-only 执行，已写入 TaskResult 与 CapabilityEvidence；",
-      "关键判断：剩余优化项（DK 结果事件自动写入、workspace 严格校验、委派阈值、报告就绪判定）登记为后续项，不回溯否定本轮基础设施验收。"
-     ],
-     "date": "2026-08-10"
-    },
-    {
-     "title": "**多智能体协作治理三件套落地（改状态强制规则 + 三级通道 + SKILL 统一）**",
-     "summary": "改状态强制走 `task-card.sh status`（唯一允许路径），因标签自动同步逻辑只存在于该命令，绕行会产生 done 卡残留「审核」「类型:待办」的脏数据；规则已入操作",
-     "points": [
-      "关键事实：改状态强制走 `task-card.sh status`（唯一允许路径），因标签自动同步逻辑只存在于该命令，绕行会产生 done 卡残留「审核」「类型:待办」的脏数据；规则已入操作手册 + 全局记忆 03 + 四份 SKILL。",
-      "关键概念：**三级通道 + 通信拓扑判断**——例会卡 81（要共同改）、会议记录（真开会）、共享问答板（突发问答）；关键约束是反向通信不通（伊森/奥利弗 → Codex 不可达），故这类问题一律进共享问答板由 Codex 每日收口回答。",
-      "关键事实：四份 SKILL.md MD5 统一为 `b32ce557`、四份操作手册 hash 统一为 `2f078c6a`；机制自然运行测试至 2026-08-17，届时出《三级通道试用报告》（KNOWLEDGEPIP-82）。"
-     ],
-     "date": "2026-08-10"
-    },
-    {
-     "title": "**己未文化 AI 落地作战卡补两节（客户沟通方法层，KNOWLEDGEPIP-80）**",
-     "summary": "新增「Agent 三个层级的业务语言版本」——工具 AI / 业务 AI / 能带来结果的 AI，锚定第三层为落地目标。",
-     "points": [
-      "关键概念：新增「Agent 三个层级的业务语言版本」——工具 AI / 业务 AI / 能带来结果的 AI，锚定第三层为落地目标。",
-      "关键概念：新增「工程化为什么难落地」三点——模型需硬约束、数据要治理、出错要兜底，对应\"软规则→确定性运行时→质量门禁\"逻辑，用于管理对方\"AI 很简单\"的预期。",
-      "关键判断：全卡信息状态仍为 `suggested`（源于 ChatGPT 对话总结），只有当面沟通中老师/助理亲口确认的才可标 `confirmed`。"
-     ],
-     "date": "2026-08-10"
-    },
-    {
-     "title": "**多智能体分派框架复核补边界确认（KNOWLEDGEPIP-71）**",
-     "summary": "本卡已有的模型、额度、智能体资料只作为外部 Agent Ontology 的运行事实，不直接等同能力结论；CapabilityEvidence / Claim 必须经主控审核后才生",
-     "points": [
-      "关键判断：本卡已有的模型、额度、智能体资料只作为外部 Agent Ontology 的运行事实，不直接等同能力结论；CapabilityEvidence / Claim 必须经主控审核后才生成。"
-     ],
-     "date": "2026-08-10"
-    }
-   ],
-   "judgments": [
-    "腾讯 FDE 报告把本库 FDE 主线从\"方法论描述\"推进到\"经济性与可复用性核验\"：判断一个 FDE 模式是否成立，不再看话术和五阶段流程，而看两个硬指标——项目结束后是否沉淀可复用资产（本体层/Skill/连接器），以及第十个同类客户的人月是否显著低于第一个；中国场景的真实约束是合同金额量级（十万到百万人民币），因此\"降交付成本 + 提复用率\"不是优化项而是生存条件。",
-    "架构模式不等于生产系统，本库唯一真实缺口是 Reflexion 自我反思：7 种架构属任务执行层选型，本身不含状态、权限、门禁、交付维度，用它评判生产系统是拿错尺子；现有体系已混用 ReAct / Multi-Agent / Route+Skill / Blackboard 四种并用状态机补位 Graph Workflow，缺的是\"结果喂回模型 + 沉淀改进记忆\"的自省迭代——目前只有外部互审（数据校验师、Codex 复核），有\"审\"无\"自省\"。",
-    "Agent 能力主张必须由真实任务结果 + 主控审核生成，杜绝\"一次成功=固定能力\"：Agent Ontology 本轮明确不再制造样本，只让已有模型/额度/资源事实归位，并把项目运行事实、Taskboard 审计摘要、Obsidian 审核结论三层存储分离；同日 DK-One/DK-Two 首轮受控调用（真实 DeepSeek V4 Flash、read-only、写入 TaskResult 与 CapabilityEvidence）为该规则提供了第一批可追溯证据。"
    ]
   }
  ],
@@ -5563,7 +5533,7 @@ window.OBSIDIAN_DATA = {
  ],
  "tasks": {
   "summary": {
-   "in_progress": 11,
+   "in_progress": 12,
    "todo": 10,
    "in_review": 12,
    "blocked": 1
@@ -5612,7 +5582,7 @@ window.OBSIDIAN_DATA = {
     "assignee": "Codex"
    }
   ],
-  "total": 95,
-  "fetchedAt": "2026年8月23日 13:32"
+  "total": 96,
+  "fetchedAt": "2026年8月24日 23:02"
  }
 };
