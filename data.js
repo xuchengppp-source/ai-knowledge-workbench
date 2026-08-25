@@ -1,11 +1,11 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-25",
- "generatedTime": "2026-08-25 09:34",
+ "generatedTime": "2026-08-25 23:03",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 15,
  "weeklyChanges": 328,
  "sourceIndex": "知识库索引.md",
- "digest": "知识流水线/每日学习整理/2026-08-24｜AI知识增量整理.md",
+ "digest": "知识流水线/每日学习整理/2026-08-25｜AI知识增量整理.md",
  "topics": [
   {
    "name": "AI Agent工程知识",
@@ -4746,46 +4746,74 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "today": {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "items": [
    {
-    "title": "**【新增·升级验证记录】DSH v0.1.1-rc.2 升级副本验证记录**（`DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录.md`，date 2026-08-24，status: 已建副本（待真实调用验证））：记录 rc.8 起 Claude Code/Codex 变成可安装的 Profile Bundle 子代理插件包（契合\"主控编排\"思路）；版本矩阵 rc.7（主）/rc.8（副本已删）/v0.1.1-rc.2（副本）；SQLite 后端 rc.7/rc.8 不兼容无迁移工具；副本搭建全流程（完整备份 208MB、DSH_HOME 隔离、gh api tarball 下载、build、验证）；Codex 子代理 5 项端到端验证全过，关键发现 **OPENAI_API_KEY 非必需**（本机 `~/.codex/auth.json` chatgpt 登录态足够，模型 gpt-5.6-luna）；DSH 维护三联动记录规则（徐总确认 2026-08-24）；模型配置迁移。",
+    "title": "**新建原始资料：远景星河基地与算电协同（高盛中国算力研报衍生解读）** —— `原始资料/未整理｜2026-08-25｜视频·高盛算力研报解读｜远景星河基地与算电协同：中国AI换道超车.md`。第三方视频解读：乌兰察布上半年签约算力负荷 12.5GW（同比翻 10 倍）、远景星河基地（全球最大 AI 算力超级单体，园区规划 >2GW）、超节点、源网荷储 + 绿电直供、天枢能源调度、构网型储能 / 纳粒子储能 / 800V 直流 + 固态变压器（98.5% 效率、功率密度 +50%）、\"AI5 设施\"一体化、中国 AI 换道超车。状态：未整理，属待蒸馏外部素材。",
     "summary": "",
     "points": [],
-    "date": "2026-08-24"
+    "date": "2026-08-25"
    },
    {
-    "title": "**【更新·项目记录】Knowledge Plugin 相比其他调用方式的实际提升**（`DeepSeek Harness项目/DeepSeek Harness项目记录.md`，2026-08-24 新增段）：把 Obsidian 从 Agent 直接操作的文件后端，提升为 Harness Runtime 中的统一 Knowledge Service 与 typed Tools（`knowledge.search/read/list/create/update`）。对比直接写文件 / CLI / HTTP / 各 Agent 自做接口的局限，插件化收益为统一入口、后端可替换、Runtime 生命周期、权限治理、真实调用可审计。明确\"文件存在、CLI 成功、HTTP 200、Node import 或配置加载\"都不能算插件完成，须证明 Harness 加载→Agent roster→真实 Tool Call→Tool Result→持久化回读→权限失败路径。",
+    "title": "**DSH v0.1.1-rc.2 升级副本验证记录扩充** —— `DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录.md`。新增 §五·三~五·五 与 §七：rc.2 核心能力（Codex 子代理 headless+Web 双链路、多模态端到端、Job Panel 实操、jarvis-office-ui 挂载兼容）全部真实 PASS，唯一限制为 Codex 多实例（同包多实例 loader 失败）；§七 徐总要求\"验证一下\"后暴露关键事实——当前 live 47900 进程实为 **rc.7 代码加载 rc.2 数据目录**（版本错配），rc.2 源码已不在磁盘，rc.8 仅能维持\"构建期验证通过\"结论，live 验证暂缓。",
     "summary": "",
     "points": [],
-    "date": "2026-08-24"
+    "date": "2026-08-25"
    },
    {
-    "title": "**【更新·项目记录】DSH v0.1.1-rc.2：Codex 子代理真实调用验收**（`DeepSeek Harness项目/DeepSeek Harness项目记录.md`，2026-08-24）：隔离副本 headless Profile 补挂 `subagent-codex` 与 `dsh-tool-subagent`，完成完整闭环——模型发起原生 `subagent_codex` tool-call，返回 `isError=false` 的 `CODEX_SUBAGENT_OK master`，父 Agent 原样收到结果。证明 Codex Provider 已完成 `Host Provider → Agent Consumer → Native Tool Call → Tool Result`，是可组合 Agent 运行时派发编码子代理的实证。",
+    "title": "**DeepSeek Harness 项目记录新增三节** —— `DeepSeek Harness项目/DeepSeek Harness项目记录.md`。（a）Web 端 Codex 调用修复：rc2 launchd 未设 HOME/CODEX_HOME/PATH 致 app-server 失败，修复后 Web Friday 真实调用 `subagent_codex` 成功（CODEX_WEB_OK master）。（b）Web Codex 轨迹与额度边界复核：父模型 MiniMax-M3、原生 subagent_codex、isError=false；额度边界厘清——父 Friday 消耗 MiniMax 额度，Codex 子进程走 Codex 登录态与产品额度。（c）Jarvis Preset 工作配方与官方 Preset 机制：Jarvis 三层结构（Persona+Skill+Workflow+Consumer Tools / Host Runtime / UI Plugin）确立；官方 Preset roster ≠ Marketplace，工作配方 / Preset 广场可作产品化扩展。",
     "summary": "",
     "points": [],
-    "date": "2026-08-24"
+    "date": "2026-08-25"
    },
    {
-    "title": "**【更新·项目记录】Claude Code 子代理真实调用验收 + 范围决定**（`DeepSeek Harness项目/DeepSeek Harness项目记录.md`，2026-08-24）：同一 rc2 Profile 挂载 `@deepseek-ai/dsh-subagent-claude-code`，真实 Session 中模型原生调用 `subagent_claude_code` 但返回 `isError=true`（`command \"claude\" was not found on PATH`），父模型改调 Codex 后的 `CLAUDE_SUBAGENT_OK master` 只是文本结果，不算成功。据此**当前不配置 Claude Code**，失败证据保留但不纳入本次验收；两者均不进模型选择器、不自动生成 UI 按钮。",
+    "title": "**DeepSeek Harness 项目索引更新** —— `DeepSeek Harness项目/DeepSeek Harness项目索引.md`。§78 登记\"当前版本分布全景 + DSH Desktop 接入结论\"：实测三实例并行（主 web 47880=rc.7 / ACP Friday 47881=rc.7 / rc.2 源码实例 47900=rc.2）；DSH Desktop v0.5.0 捆绑 rc.1、数据目录独立、不接现有实例；\"下 DSH Desktop + 接 rc.2\"无法同时满足。",
     "summary": "",
     "points": [],
-    "date": "2026-08-24"
-   },
-   {
-    "title": "**【更新·项目记录】rc2 Web 可用性恢复**（`DeepSeek Harness项目/DeepSeek Harness项目记录.md`，2026-08-24）：新版副本不能创建会话的根因是两项副本问题——旧版 `.credentials.yaml` 格式不符合 rc2 扁平字符串映射；Friday Preset 仍引用主环境 Knowledge Plugin 路径。已恢复副本凭据（设 0600）、移除失效 Knowledge Plugin 引用、重启 `com.harness.web.rc2` 47900，浏览器真实验证可创建会话，主环境未改。",
-    "summary": "",
-    "points": [],
-    "date": "2026-08-24"
+    "date": "2026-08-25"
    }
   ],
   "judgments": [
-   "Knowledge Plugin 的本质价值是\"文件后端 → Runtime 统一 Knowledge Service + typed Tools\"，这是生产级 Agent 知识层架构范式。它把\"Agent 直接写文件\"升级为统一入口、后端可替换、Runtime 生命周期、权限治理、真实调用可审计的知识访问方式。这不同于任何\"也能读写 Markdown\"的浅层方案，是 Agent 知识层工程化（权限门控、可审计、可替换）的可复用认知。",
-   "Harness 子代理从\"安装/注册\"进化为\"真实 Tool Call → Tool Result 闭环\"——必须严格区分\"加载通过\"与\"端到端成功\"。Codex 子代理已端到端验证（`isError=false`），证明 Harness 可作为可组合 Agent 运行时派发编码子代理（主控编排思路落地）；而 Claude Code 仅完成加载与 Tool 入口验证、实际执行失败，故不算通过。这条验收纪律（须证明完整闭环而非部分通过）直接复用并强化了 08-15/08-17 的工业级多智能体协作与 System Ontology 方向。",
-   "基础设施升级纪律沉淀为\"可回滚、可并行、可追溯\"的生产级运维认知。DSH 维护三联动记录规则（搭建记录 / 知识库 / 任务面板互链）、SQLite 不兼容须先备份、DSH_HOME 隔离多版本并行、rc.8 能力已含于 v0.1.1-rc.2 故精简到 2 环境——这些把一次版本升级转化为可复用运维 SOP，而非一次性操作。"
+   "算电协同把 AI 基础设施竞争从\"芯片/算力堆叠\"升级为\"能源—算力融合系统\"竞争。远景星河基地从设计第一天起把源网荷储与算力绑在同一调度体系（天枢系统），并用 800V 直流 + 固态变压器（98.5% 效率、功率密度 +50%）压损，把数据中心重构为发电—储能—供电—算力一体的\"AI5 设施\"。这把中国 AI 竞争力的支点从单卡性能挪到系统融合效率，是算力主线的新变量。但本判断源自第三方视频解读，属待验证外部资料。",
+   "Harness rc.2 验收闭环已完成，但暴露\"版本错配\"运维教训：rc.2 核心能力（Codex 子代理 headless+Web 双真实链路、多模态、Job Panel、自建 UI 兼容）全部 PASS，唯一硬限制是 Codex 多实例（同包多实例 loader 限制）；然而徐总\"验证一下\"发现 live 47900 是 rc.7 代码 + rc2 数据目录的错配实例——验证前必须先确认 live 实例的代码版本而非只看数据目录/配置树，否则结论不可信。强化\"可回滚 / 可并行 / 可追溯 + 版本先核验\"的 Agent Runtime 运维 SOP。",
+   "Jarvis Preset「工作配方」范式 + 跨 Preset 额度隔离厘清，是可组合 Agent Runtime 的标准装配认知。Jarvis = Persona+Skill+Workflow+Consumer Tools（工作配方）/ Host Runtime（Services、Tool Providers、Subagent Registry、权限模型 Session 持久化）/ UI Plugin 三层清晰装配；额度边界证明父模型与子进程按登录态/产品额度隔离（父 Friday=MiniMax，Codex 子进程=Codex 登录态）。这是\"可组合 Agent Runtime\"从机制到产品化（Preset 广场扩展）的稳定范式，强化生产级 Agent 系统架构主线。"
   ]
  },
  "dailies": [
+  {
+   "date": "2026-08-25",
+   "items": [
+    {
+     "title": "**新建原始资料：远景星河基地与算电协同（高盛中国算力研报衍生解读）** —— `原始资料/未整理｜2026-08-25｜视频·高盛算力研报解读｜远景星河基地与算电协同：中国AI换道超车.md`。第三方视频解读：乌兰察布上半年签约算力负荷 12.5GW（同比翻 10 倍）、远景星河基地（全球最大 AI 算力超级单体，园区规划 >2GW）、超节点、源网荷储 + 绿电直供、天枢能源调度、构网型储能 / 纳粒子储能 / 800V 直流 + 固态变压器（98.5% 效率、功率密度 +50%）、\"AI5 设施\"一体化、中国 AI 换道超车。状态：未整理，属待蒸馏外部素材。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-25"
+    },
+    {
+     "title": "**DSH v0.1.1-rc.2 升级副本验证记录扩充** —— `DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录.md`。新增 §五·三~五·五 与 §七：rc.2 核心能力（Codex 子代理 headless+Web 双链路、多模态端到端、Job Panel 实操、jarvis-office-ui 挂载兼容）全部真实 PASS，唯一限制为 Codex 多实例（同包多实例 loader 失败）；§七 徐总要求\"验证一下\"后暴露关键事实——当前 live 47900 进程实为 **rc.7 代码加载 rc.2 数据目录**（版本错配），rc.2 源码已不在磁盘，rc.8 仅能维持\"构建期验证通过\"结论，live 验证暂缓。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-25"
+    },
+    {
+     "title": "**DeepSeek Harness 项目记录新增三节** —— `DeepSeek Harness项目/DeepSeek Harness项目记录.md`。（a）Web 端 Codex 调用修复：rc2 launchd 未设 HOME/CODEX_HOME/PATH 致 app-server 失败，修复后 Web Friday 真实调用 `subagent_codex` 成功（CODEX_WEB_OK master）。（b）Web Codex 轨迹与额度边界复核：父模型 MiniMax-M3、原生 subagent_codex、isError=false；额度边界厘清——父 Friday 消耗 MiniMax 额度，Codex 子进程走 Codex 登录态与产品额度。（c）Jarvis Preset 工作配方与官方 Preset 机制：Jarvis 三层结构（Persona+Skill+Workflow+Consumer Tools / Host Runtime / UI Plugin）确立；官方 Preset roster ≠ Marketplace，工作配方 / Preset 广场可作产品化扩展。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-25"
+    },
+    {
+     "title": "**DeepSeek Harness 项目索引更新** —— `DeepSeek Harness项目/DeepSeek Harness项目索引.md`。§78 登记\"当前版本分布全景 + DSH Desktop 接入结论\"：实测三实例并行（主 web 47880=rc.7 / ACP Friday 47881=rc.7 / rc.2 源码实例 47900=rc.2）；DSH Desktop v0.5.0 捆绑 rc.1、数据目录独立、不接现有实例；\"下 DSH Desktop + 接 rc.2\"无法同时满足。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-25"
+    }
+   ],
+   "judgments": [
+    "算电协同把 AI 基础设施竞争从\"芯片/算力堆叠\"升级为\"能源—算力融合系统\"竞争。远景星河基地从设计第一天起把源网荷储与算力绑在同一调度体系（天枢系统），并用 800V 直流 + 固态变压器（98.5% 效率、功率密度 +50%）压损，把数据中心重构为发电—储能—供电—算力一体的\"AI5 设施\"。这把中国 AI 竞争力的支点从单卡性能挪到系统融合效率，是算力主线的新变量。但本判断源自第三方视频解读，属待验证外部资料。",
+    "Harness rc.2 验收闭环已完成，但暴露\"版本错配\"运维教训：rc.2 核心能力（Codex 子代理 headless+Web 双真实链路、多模态、Job Panel、自建 UI 兼容）全部 PASS，唯一硬限制是 Codex 多实例（同包多实例 loader 限制）；然而徐总\"验证一下\"发现 live 47900 是 rc.7 代码 + rc2 数据目录的错配实例——验证前必须先确认 live 实例的代码版本而非只看数据目录/配置树，否则结论不可信。强化\"可回滚 / 可并行 / 可追溯 + 版本先核验\"的 Agent Runtime 运维 SOP。",
+    "Jarvis Preset「工作配方」范式 + 跨 Preset 额度隔离厘清，是可组合 Agent Runtime 的标准装配认知。Jarvis = Persona+Skill+Workflow+Consumer Tools（工作配方）/ Host Runtime（Services、Tool Providers、Subagent Registry、权限模型 Session 持久化）/ UI Plugin 三层清晰装配；额度边界证明父模型与子进程按登录态/产品额度隔离（父 Friday=MiniMax，Codex 子进程=Codex 登录态）。这是\"可组合 Agent Runtime\"从机制到产品化（Preset 广场扩展）的稳定范式，强化生产级 Agent 系统架构主线。"
+   ]
+  },
   {
    "date": "2026-08-24",
    "items": [
@@ -5078,58 +5106,6 @@ window.OBSIDIAN_DATA = {
     "今天真正升级的不是某个智能体，而是“方向连续性”。 过去的任务卡、知识页和每日整理各自存在：任务卡记得状态，Obsidian 记得知识，日报记得当天变化，但它们不能稳定回答“现在我们到底在推进哪几个方向”。[[任务面板与知识库/方向推进与接力]] 的价值，是给新会话和多智能体接力提供一个跨天方向源。",
     "多智能体系统正在从“靠人提醒”转向“有健康度和身份合同的运行系统”。 共享记忆、健康度 Ontology、启动合同、方向页、网络自愈卡共同说明：系统不再只关注某个 Agent 能不能回答，而是关注身份是否连续、通道是否真实、规则是否持久、执行器是否真的绑定、故障能不能定位。",
     "工作台和 Obsidian 的失败点已经从“有没有内容”转向“能不能按人的记忆方式召回”。 己未文化视频账号案例暴露出：正式标题、路径和任务编号不能满足移动端使用。今天修复 aliases/tags/searchText 和推荐卡片标题显示，实际是在为“忘记标题也能找到资料”的知识使用体验补底座。"
-   ]
-  },
-  {
-   "date": "2026-08-11",
-   "items": [
-    {
-     "title": "**游戏公司 AI 组织落地：从流程提效到生产方式重构**（新建，v0.1，KNOWLEDGEPIP-87）— 一次游戏公司走访 + 飞书妙记提炼后的专题研究：核心判断“流程被 AI 加速 ≠ 组织已被 AI 改造”，抽象出企业 AI 落地五层模型（模型/工具/流程/组织/记忆），并以“选角会议”作为天然 Ontology 试点，收敛到“AI 生产侧库（Sidecar DB）”首期方案。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-11"
-    },
-    {
-     "title": "**游戏公司 AI 落地通用执行框架：从生产侧库到组织记忆**（新建，v0.1，KNOWLEDGEPIP-87）— 把上一条案例抽象为可迁移方法论：FDE 先判断客户卡在哪一层、生产侧库不碰核心系统、会议决策留痕是组织记忆核心入口、人机漏斗分工、员工执行习惯四级配合度、验收指标避开“生成数量”、首期八步落地。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-11"
-    },
-    {
-     "title": "**己未文化 AI 落地-首次接触沟通作战卡（测试版）**（2026-08-09 建，08-11 二次补强，KNOWLEDGEPIP-80）— 融入游戏公司经验，新增“员工执行习惯/AI 配合度”判断与“咨询生产侧库”方案，明确第一阶段讲成“经验留住”而非“上 CRM/上 Agent”。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-11"
-    },
-    {
-     "title": "**腾讯 FDE 模式行业观察与实践报告研究**（2026-08-10 建，08-11 挂入新素材，KNOWLEDGEPIP-84）— 第六节新增两块：①游戏公司走访实录要点（与报告结论①互为印证）；②李开复 AI 现状与未来深度对话线索（DRI/OPC/本体=公司地图/Palantir 本体层/开源闭源）；第五节登记 IMA 内已定位的 8 篇生产级 Agent 公众号文章。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-11"
-    },
-    {
-     "title": "**WorkBuddy 助理配置与记忆管理手册**（新建）— 梳理 WorkBuddy 三层存储（会话层/持久层/业务层）、设置界面↔本地文件对应关系、上下文自动摘要机制、多通道路由，并以文化咨询公司为例给出“四层框架 + 自然语言驱动闭环”。含可迁移的 Agent 记忆/上下文管理概念，但主体偏产品使用手册。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-11"
-    },
-    {
-     "title": "**原始资料：李开复 AI 现状与未来深度对话**（2026-08-11 收录，status: 未整理，约 3.4 万字符）— 一级原文，待提炼；含 AI 落地节奏、DRI（直接责任人）、OPC（一人公司）、本体=公司地图、Palantir 本体层、开源闭源等线索。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-11"
-    },
-    {
-     "title": "**原始资料：游戏公司 AI 组织落地走访 + ChatGPT 方案对话**（2026-08-11 收录，已整理状态）— 走访实录与方案推演原文，作为上述两条正式笔记的溯源。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-11"
-    }
-   ],
-   "judgments": [
-    "企业 AI 落地的真问题已从“模型/工具”转向“组织与记忆”，游戏公司案例把腾讯 FDE 报告结论①变成了现实印证。 流程提效（生图、Skill、API 标签库）已经跑通，但“谁定标准、谁写经验、谁判结果、谁把反馈变规则”这层组织机制没有动；真正的分界线在五层模型的后两层（组织层、记忆层），不在前三层。FDE 的交付物因此必须从“一个 Agent/Skill”升级为“一段新的生产机制”。",
-    "“生产侧库 / Sidecar Database”成为 FDE 首期落地的轻量化标准动作。 不碰客户核心数据库、不先数字化整款业务，只记录一条真实生产链路中新产生的任务/候选/判断/结果/反馈——游戏公司角色视觉候选、己未文化咨询记录、餐饮经营日报都可用同一套对象链复用。这是 FDE 方法论从概念到可执行步骤的具体化，也直接回应了“先轻后重、低摩擦”的徐总落地偏好。",
-    "员工执行习惯/留痕配合度是 AI 落地的隐性前置门槛，比模型更基础。 游戏公司“老板一周三次每次截 20+ 张、员工截七八张就嫌累”暴露的是数据底座的人因瓶颈：AI 只能学习“表达出来的理由”，员工不愿持续截图/记录/确认，本体层就无米下锅。己未作战卡据此把“低摩擦留痕 + 配合度观察”补为首次沟通必问项。这条把“组织记忆”从技术问题还原为管理/人因问题，是今日最可迁移的判断。"
    ]
   }
  ],
@@ -5534,7 +5510,7 @@ window.OBSIDIAN_DATA = {
  "tasks": {
   "summary": {
    "in_progress": 12,
-   "todo": 10,
+   "todo": 11,
    "in_review": 12,
    "blocked": 1
   },
@@ -5582,7 +5558,7 @@ window.OBSIDIAN_DATA = {
     "assignee": "Codex"
    }
   ],
-  "total": 96,
-  "fetchedAt": "2026年8月25日 09:34"
+  "total": 97,
+  "fetchedAt": "2026年8月25日 23:03"
  }
 };
