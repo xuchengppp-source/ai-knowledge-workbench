@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-26",
- "generatedTime": "2026-08-26 09:34",
+ "generatedTime": "2026-08-26 17:32",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 13,
- "weeklyChanges": 324,
+ "weeklyPages": 14,
+ "weeklyChanges": 326,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-25｜AI知识增量整理.md",
  "topics": [
@@ -29,7 +29,7 @@ window.OBSIDIAN_DATA = {
    "name": "知识流水线",
    "key": "pipeline",
    "icon": "📚",
-   "count": 45
+   "count": 46
   }
  ],
  "nodes": [
@@ -1130,7 +1130,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/知识库索引.md",
     "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
     "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
-    "知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作.md"
+    "知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作.md",
+    "知识流水线/智能体使用逻辑问题复盘-垂直任务实践（旅行案例）.md"
    ],
    "desc": "日期：2026-06-01",
    "wordCount": 12402
@@ -4198,7 +4199,8 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [
     "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
-    "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）.md"
+    "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）.md",
+    "知识流水线/智能体使用逻辑问题复盘-垂直任务实践（旅行案例）.md"
    ],
    "desc": "DeepSeek Harness 是一个 Agent Runtime：模型负责推理，Harness 负责把推理接入真实世界。它不是\"再造一个聊天机器人\"，而是按插件标准组合模型、工",
    "wordCount": 7836
@@ -4438,6 +4440,19 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "上级：知识流水线/知识流水线、Codex工作区/Codex-MoonBridge多Agent任务面板与Obsidian归档机制",
    "wordCount": 2677
+  },
+  {
+   "path": "知识流水线/智能体使用逻辑问题复盘-垂直任务实践（旅行案例）.md",
+   "title": "智能体使用逻辑问题复盘：垂直任务实践（旅行案例）",
+   "updated": "2026-08-26",
+   "topic": "pipeline",
+   "links": [
+    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南",
+    "企业AI与智能体商业化/FDE商业级智能体交付框架"
+   ],
+   "backlinks": [],
+   "desc": "- 旅行规划在 WorkBuddy / 千问办公 / 豆包 之间来回切换，每个平台各自规划、各自做各自的",
+   "wordCount": 1125
   },
   {
    "path": "知识流水线/玄学与东方智慧出海-内容策略与独立站电商体系-调研-20260811.md",
@@ -5558,7 +5573,7 @@ window.OBSIDIAN_DATA = {
     "assignee": "Codex"
    }
   ],
-  "total": 98,
-  "fetchedAt": "2026年8月26日 09:34"
+  "total": 99,
+  "fetchedAt": "2026年8月26日 17:32"
  }
 };
