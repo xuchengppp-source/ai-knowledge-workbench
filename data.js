@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-08-26",
- "generatedTime": "2026-08-26 23:02",
+ "generatedAt": "2026-08-27",
+ "generatedTime": "2026-08-27 09:35",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 163,
- "weeklyChanges": 1401,
+ "weeklyPages": 162,
+ "weeklyChanges": 1399,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-26｜AI知识增量整理.md",
  "topics": [
@@ -4399,7 +4399,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "任务面板保存问题入口、负责人、状态和简短过程评论；Obsidian 保存详细实施过程、判断依据、阶段结论和最终总结。",
-   "wordCount": 1960
+   "wordCount": 1991
   },
   {
    "path": "知识流水线/任务面板—Obsidian同步试点.md",
@@ -5562,6 +5562,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 100,
-  "fetchedAt": "2026年8月26日 23:02"
+  "fetchedAt": "2026年8月27日 09:35"
  }
 };
