@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-08-27",
- "generatedTime": "2026-08-27 09:35",
+ "generatedAt": "2026-08-28",
+ "generatedTime": "2026-08-28 17:32",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 162,
- "weeklyChanges": 1399,
+ "weeklyPages": 163,
+ "weeklyChanges": 1301,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-26｜AI知识增量整理.md",
  "topics": [
@@ -29,7 +29,7 @@ window.OBSIDIAN_DATA = {
    "name": "知识流水线",
    "key": "pipeline",
    "icon": "📚",
-   "count": 45
+   "count": 47
   }
  ],
  "nodes": [
@@ -748,7 +748,8 @@ window.OBSIDIAN_DATA = {
     "AI Agent专业术语词典",
     "AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
     "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差",
-    "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战"
+    "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "原始资料/未整理｜2026-08-25｜微信公众号·远川研究所｜办公Agent大战重点不是Agent（上下文才是护城河）"
    ],
    "backlinks": [
     "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
@@ -768,7 +769,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md"
    ],
    "desc": "定位：本页属于 企业AI与生产级Agent总框架 中的工程定义线。它负责定义生产级 Agent 的概念、标准、能力链路和验收口径；甘食记、美团、咨询公司、制造业等案例属于业务落地线",
-   "wordCount": 38531
+   "wordCount": 43476
   },
   {
    "path": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度.md",
@@ -982,7 +983,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法.md",
    "title": "FDE 访谈到业务关系模型的编译方法",
-   "updated": "2026-08-26",
+   "updated": "2026-08-28",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1000,7 +1001,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识库健康巡检.md"
    ],
    "desc": "日期：2026-06-14",
-   "wordCount": 3504
+   "wordCount": 3833
   },
   {
    "path": "企业AI与智能体商业化/FDE与AI架构师核心资产能力.md",
@@ -1074,7 +1075,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
    "title": "FDE业务需求访谈SOP",
-   "updated": "2026-08-26",
+   "updated": "2026-08-28",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -1082,8 +1083,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
     "企业AI与智能体商业化/零一万物企业AI落地专题",
     "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
-    "企业应用架构六阶段演化与AI Agent融合路径",
     "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "企业应用架构六阶段演化与AI Agent融合路径",
     "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地",
     "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
     "FDE 访谈到业务关系模型的编译方法",
@@ -1103,7 +1104,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md"
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
-   "wordCount": 7977
+   "wordCount": 8315
   },
   {
    "path": "企业AI与智能体商业化/FDE交付方法论与甘食记案例.md",
@@ -1241,7 +1242,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
    "title": "FDE生产级AI Agent五阶段方法论与AI基建协同",
-   "updated": "2026-08-26",
+   "updated": "2026-08-28",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1271,7 +1272,7 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md"
    ],
    "desc": "上级：企业AI与智能体商业化专题",
-   "wordCount": 7420
+   "wordCount": 7821
   },
   {
    "path": "企业AI与智能体商业化/OpenClaw统一调用入口与委派规则.md",
@@ -2382,7 +2383,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
    "title": "游戏公司 AI 组织落地：从流程提效到生产方式重构",
-   "updated": "2026-08-26",
+   "updated": "2026-08-28",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -2400,7 +2401,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/A_原始资料.md"
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
-   "wordCount": 5767
+   "wordCount": 6074
   },
   {
    "path": "企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
@@ -2446,7 +2447,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
    "title": "甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
-   "updated": "2026-08-26",
+   "updated": "2026-08-28",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2485,7 +2486,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/飞书企业管理模块接入甘食记经营系统融合方案.md"
    ],
    "desc": "日期：2026-06-18",
-   "wordCount": 9010
+   "wordCount": 9302
   },
   {
    "path": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时.md",
@@ -4356,6 +4357,24 @@ window.OBSIDIAN_DATA = {
    "wordCount": 3031
   },
   {
+   "path": "知识流水线/YC开源QM多人在线Agent Harness对我们的启示.md",
+   "title": "YC开源QM：多人在线Agent Harness对我们与企业AI的启示",
+   "updated": "2026-08-28",
+   "topic": "pipeline",
+   "links": [
+    "企业AI与智能体商业化",
+    "DeepSeek Harness体系总览",
+    "企业AI与智能体商业化专题",
+    "支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作",
+    "OpenClaw统一调用入口与委派规则"
+   ],
+   "backlinks": [
+    "知识流水线/个人级多Agent与多引擎搭配调研.md"
+   ],
+   "desc": "过去一年几乎所有Agent都是\"个人助理模式\"：一个Agent服务一个人。QM 直接点出这套模式天花板——硬把一个助理Agent魔改成服务全公司，很快会变得极其复杂。",
+   "wordCount": 3205
+  },
+  {
    "path": "知识流水线/个人工作台设计与部署方法论.md",
    "title": "个人工作台设计与部署方法论",
    "updated": "2026-08-26",
@@ -4377,6 +4396,24 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "本页沉淀的是“个人工作台”这类系统的通用设计和部署方法，不专门解释某一个前端页面。知识流水线/AI知识学习与复盘工作台 是这套方法的第一个落地实例；本页负责把它抽象成以后可以复用到",
    "wordCount": 4884
+  },
+  {
+   "path": "知识流水线/个人级多Agent与多引擎搭配调研.md",
+   "title": "个人级多Agent与多引擎搭配调研（QM组织级之外的姊妹篇）",
+   "updated": "2026-08-28",
+   "topic": "pipeline",
+   "links": [
+    "知识流水线/YC开源QM多人在线Agent Harness对我们的启示",
+    "DeepSeek Harness体系总览",
+    "OpenClaw统一调用入口与委派规则",
+    "YC开源QM多人在线Agent Harness对我们的启示",
+    "企业AI与智能体商业化专题",
+    "WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
+    "个人级多Agent与多引擎搭配调研"
+   ],
+   "backlinks": [],
+   "desc": "个人级多Agent 的目标：让多个不同引擎（Claude / Codex / GPT / 本地模型）在同一个工作流里分工协作、结果互通、互相审阅，而不是各自孤岛、手动搬运。",
+   "wordCount": 5496
   },
   {
    "path": "知识流水线/任务—Obsidian旧卡迁移清单.md",
@@ -5127,7 +5164,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "模型与推理",
-   "matched": 12,
+   "matched": 13,
    "status": "已形成"
   },
   {
@@ -5162,12 +5199,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 90,
+   "matched": 91,
    "status": "已形成"
   },
   {
    "name": "商业化与组织能力",
-   "matched": 74,
+   "matched": 75,
    "status": "已形成"
   }
  ],
@@ -5274,7 +5311,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
    "title": "游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
    "date": "2026-08-11",
-   "updated": "2026-08-26",
+   "updated": "2026-08-28",
    "category": "企业AI与商业化",
    "status": "已回答 → 已入库",
    "questionType": "",
@@ -5315,7 +5352,7 @@ window.OBSIDIAN_DATA = {
     "原始资料/已整理｜2026-08-12｜抖音｜Solo们chat-FDE如何用ANC搭建AI原生组织",
     "企业AI与智能体商业化/企业AI与智能体商业化专题"
    ],
-   "wordCount": 7599
+   "wordCount": 7761
   },
   {
    "path": "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆.md",
@@ -5513,7 +5550,7 @@ window.OBSIDIAN_DATA = {
  "tasks": {
   "summary": {
    "in_progress": 13,
-   "todo": 12,
+   "todo": 15,
    "in_review": 12,
    "blocked": 1
   },
@@ -5561,7 +5598,7 @@ window.OBSIDIAN_DATA = {
     "assignee": "Codex"
    }
   ],
-  "total": 100,
-  "fetchedAt": "2026年8月27日 09:35"
+  "total": 103,
+  "fetchedAt": "2026年8月28日 17:32"
  }
 };
