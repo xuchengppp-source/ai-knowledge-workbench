@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-08-28",
- "generatedTime": "2026-08-28 23:03",
+ "generatedAt": "2026-08-29",
+ "generatedTime": "2026-08-29 09:34",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 164,
  "weeklyChanges": 1437,
@@ -5628,7 +5628,7 @@ window.OBSIDIAN_DATA = {
  ],
  "tasks": {
   "summary": {
-   "in_progress": 13,
+   "in_progress": 14,
    "todo": 15,
    "in_review": 12,
    "blocked": 1
@@ -5647,6 +5647,13 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "urgent",
     "assignee": "伊森"
+   },
+   {
+    "id": "KP-138",
+    "title": "三版本运行基线与 Alpha Friday 配置收口（持续维护）",
+    "status": "in_progress",
+    "priority": "high",
+    "assignee": "豆包助手"
    },
    {
     "id": "KP-120",
@@ -5668,16 +5675,9 @@ window.OBSIDIAN_DATA = {
     "status": "in_review",
     "priority": "high",
     "assignee": "DeepSeek Harness (Friday)"
-   },
-   {
-    "id": "KP-111",
-    "title": "DeepSeek Harness 独立实验项目建设",
-    "status": "in_progress",
-    "priority": "high",
-    "assignee": "Codex"
    }
   ],
-  "total": 104,
-  "fetchedAt": "2026年8月28日 23:03"
+  "total": 105,
+  "fetchedAt": "2026年8月29日 09:34"
  }
 };
