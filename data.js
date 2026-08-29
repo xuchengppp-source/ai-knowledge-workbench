@@ -1,11 +1,11 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-29",
- "generatedTime": "2026-08-29 09:34",
+ "generatedTime": "2026-08-29 23:03",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 164,
  "weeklyChanges": 1437,
  "sourceIndex": "知识库索引.md",
- "digest": "知识流水线/每日学习整理/2026-08-28｜AI知识增量整理.md",
+ "digest": "知识流水线/每日学习整理/2026-08-29｜AI知识增量整理.md",
  "topics": [
   {
    "name": "AI Agent工程知识",
@@ -4851,74 +4851,98 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "today": {
-  "date": "2026-08-28",
+  "date": "2026-08-29",
   "items": [
    {
-    "title": "**蒸馏笔记：YC 开源 QM 多人在线 Agent Harness 对我们的启示**（知识流水线，已整理，source 抖音 QM raw）",
-    "summary": "从抖音 QM 原始资料蒸馏，提炼多人在线 Agent Harness、沙箱、作用域隔离、AI 原生组织对生产级 Agent 编排与多智能体治理的启示。",
+    "title": "**DSH 三版本运行基线与 rc.8 退役 / alpha Friday 重配（验证记录 §13–§16，DeepSeek Harness项目，12:19）**",
+    "summary": "①确立 rc.7@47880 / rc.2@47900 / alpha@47911 三版本并行稳定基线，各自独立源码入口、DSH_HOME、profile、依赖与端口；②rc.8 ",
     "points": [
-     "事实：从抖音 QM 原始资料蒸馏，提炼多人在线 Agent Harness、沙箱、作用域隔离、AI 原生组织对生产级 Agent 编排与多智能体治理的启示。",
-     "关联：DeepSeek Harness项目/DeepSeek Harness项目索引、AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语、全域智能体系统本体与健康治理"
+     "事实：①确立 rc.7@47880 / rc.2@47900 / alpha@47911 三版本并行稳定基线，各自独立源码入口、DSH_HOME、profile、依赖与端口；②rc.8 退为历史验证版（目录移入 `.backups/reti",
+     "关联：DeepSeek Harness项目/DeepSeek Harness项目索引、DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研、全域智能体系统本体与健康治理"
     ],
-    "date": "2026-08-28"
+    "date": "2026-08-29"
    },
    {
-    "title": "**蒸馏笔记：个人级多Agent与多引擎搭配调研**（知识流水线，已整理，source 网络调研）",
-    "summary": "围绕 QM 组织级之外的个人级场景，调研 GitHub 多 Agent 框架 / Omnigent meta-harness / OpenHarness 等，提炼个人多 Agent",
+    "title": "**DSH 插件在 alpha 版本的独立安装方案与兼容性调研（DeepSeek Harness项目，created 08-28，01:21 触碰）**",
+    "summary": "为把 47900 的插件市场（dshmarket）与已装插件在 47911（alpha）独立安装可用而做的调研——机制确认（dsh plugin = pnpm 转发器 + reco",
     "points": [
-     "事实：围绕 QM 组织级之外的个人级场景，调研 GitHub 多 Agent 框架 / Omnigent meta-harness / OpenHarness 等，提炼个人多 Agent、多引擎编排、跨厂商互审的可组合范式。",
-     "关联：知识流水线/YC开源QM多人在线Agent Harness对我们的启示、全域智能体系统本体与健康治理"
+     "事实：为把 47900 的插件市场（dshmarket）与已装插件在 47911（alpha）独立安装可用而做的调研——机制确认（dsh plugin = pnpm 转发器 + reconcile dsh.profile.bundles，不",
+     "关联：DeepSeek Harness项目/DeepSeek Harness项目索引、DeepSeek Harness项目/DSH第三方插件适配新版本官方标准"
     ],
-    "date": "2026-08-28"
+    "date": "2026-08-29"
    },
    {
-    "title": "**政务新方法论文档：政府重大项目决策机制与省市区三级分工（以成都为案例）**（政府资源配置与政策落地机制，methodology，created/updated 2026-08-28）",
-    "summary": "从豆包对话整理，建立\"重大项目决策机制 + 省/市/区三级分工 + 招商引资 + 成都案例\"的方法论页，把决策传导框架推进到具体项目层级分工颗粒度。",
+    "title": "**DeepSeek Harness 项目索引更新（DeepSeek Harness项目，01:21）**",
+    "summary": "索引现已登记「三版本并行」运行实体（47880/47900/47911）、三版本独立 checkout、当前任务卡 2632a1f4（三版本运行基线与 Alpha Friday 配",
     "points": [
-     "事实：从豆包对话整理，建立\"重大项目决策机制 + 省/市/区三级分工 + 招商引资 + 成都案例\"的方法论页，把决策传导框架推进到具体项目层级分工颗粒度。",
-     "关联：政府资源配置与政策落地机制/政府资源配置与政策落地机制专题、法律/决策传导框架：法律政策的层级体系与影响预判"
+     "事实：索引现已登记「三版本并行」运行实体（47880/47900/47911）、三版本独立 checkout、当前任务卡 2632a1f4（三版本运行基线与 Alpha Friday 配置收口），并补登 alpha 插件兼容性调研与第三方插",
+     "关联：知识流水线/AI知识自动化整理入口、AI Agent工程知识/AI Agent工程知识专题"
     ],
-    "date": "2026-08-28"
+    "date": "2026-08-29"
    },
    {
-    "title": "**已整理政务原始资料：豆包对话｜政府重大项目决策机制详解（含多项目推动层级）**（19:52 改名为已整理）",
-    "summary": "上文方法论页的同源 raw，已完成整理回流，status 未整理→已整理。",
+    "title": "**本库协作 / 通知基建维护（非外部 AI 知识主线，列出但不计入主线增量）**",
+    "summary": "飞书群通知机制建立（任务面板与知识库，19:37，KNOWLEDGEPIP139）：用 dshnotifier 标准格式把任务面板关键节点推送到飞书群「智能体任务通知」，定义了任务",
     "points": [
-     "事实：上文方法论页的同源 raw，已完成整理回流，status 未整理→已整理。",
-     "整理结果：政府资源配置与政策落地机制/政府重大项目决策机制与省市区三级分工：以成都为案例"
+     "飞书群通知机制建立（任务面板与知识库，19:37，KNOWLEDGEPIP-139）：用 dsh-notifier 标准格式把任务面板关键节点推送到飞书群「智能体任务通知」，定义了任务开始/完成/出错/阻塞/心跳/疑似卡住六级通知契约；当前",
+     "智能体协作-任务面板操作手册（任务面板与知识库，14:09 触碰）：既有治理文档的小幅维护，属本库协作规则，非 AI 知识新增。"
     ],
-    "date": "2026-08-28"
-   },
-   {
-    "title": "**15 份外部未整理原始资料（AI Agent / Harness / FDE / 企业AI落地 / 超级个体，全部 2026-08-28 新建）**",
-    "summary": "今日外部素材高度集中于\"Agent Harness 生态\"与\"企业AI落地现实叙事\"两条线，均为第三方文章/视频解读，待徐总核实。",
-    "points": [
-     "事实：今日外部素材高度集中于\"Agent Harness 生态\"与\"企业AI落地现实叙事\"两条线，均为第三方文章/视频解读，待徐总核实。",
-     "抖音｜YC开源内部Agent办公系统QM（19:05）",
-     "抖音｜Macro开源企业级一体化工作空间（19:05）",
-     "Omnigent开源元编排层Meta-Harness（统一多Agent共享会话）（19:05）",
-     "腾讯科技｜黑鲸之后OpenAI开放Harness（09:06）",
-     "腾讯科技｜DeepSeek的Harness为何是一头黑色鲸鱼（08:53）"
-    ],
-    "date": "2026-08-28"
-   },
-   {
-    "title": "**DSH 升级副本验证记录小幅更新**（DeepSeek Harness项目，18:17 触碰，date 2026-08-24）",
-    "summary": "DSH v0.1.1-rc.2 升级副本验证记录于 18:17 被触碰，疑似小幅追加或同步触碰；属工程运维验证日志，非知识层新增，需 Codex/徐总确认是否为真实新内容。",
-    "points": [
-     "事实：DSH v0.1.1-rc.2 升级副本验证记录于 18:17 被触碰，疑似小幅追加或同步触碰；属工程运维验证日志，非知识层新增，需 Codex/徐总确认是否为真实新内容。",
-     "关联：DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录、DeepSeek Harness项目/DSH第三方插件适配新版本官方标准"
-    ],
-    "date": "2026-08-28"
+    "date": "2026-08-29"
    }
   ],
   "judgments": [
-   "Agent Harness / Runtime 正从\"执行引擎\"上升为\"AI 原生组织操作系统\"层：OpenAI 开放 Harness、DSH（黑鲸）、YC/QM 多人在线 Agent 办公系统、Omnigent Meta-Harness（统一多 Agent 共享会话）、Macro 企业级一体工作空间五路外部资料密集印证，而本库 DSH 项目已有真实工程实证——这把\"编排层/共享会话/作用域隔离\"推到生产级 Agent 主线的核心位置。",
-   "企业 AI 落地出现\"退热叙事\"与\"超级个体/一人公司叙事\"并行：吴晓波\"养龙虾退热\"、钛媒体\"产品经理转型 FDE\"、\"不建议普通人做企业知识库\"、腾讯研究院超级个体报告、300 个 AI 跑通一人公司、200 万 AI 打工人冲刺 IPO——FDE/企业AI 主线必须区分\"炒作退热\"与\"真实可交付\"，强化本库 FDE 方法论的现实锚点。",
-   "政务 AI 主线新增颗粒度：政府重大项目决策机制与省市区三级分工（成都案例）方法论页，把决策传导框架从\"层级体系\"推进到\"具体项目层级分工\"，与法律专题决策传导框架形成呼应，为政务AI/招商落地提供可操作判断入口。"
+   "三版本并行 runtime 基线（rc.7/rc.2/alpha 各自独立源码/DSH_HOME/profile/端口）+ LaunchAgent 自启 + 独立回滚备份，把 08-25 的「可回滚/可并行/可追溯」运维纪律沉淀为可复制的「Agent Runtime 多版本隔离运行」标准 SOP——这是生产级 Agent 基础设施运维从个案修复走向稳定范式的标志。",
+   "alpha 的 Friday 模式「不复用旧 runtime 的 Friday，改由官方 Preset 重建」= Agent 运行时升级的硬教训：跨版本不能搬运运行时状态（Friday/Session/Provider/Preset），必须按版本重新装配，否则出现 waiting for knowledge / 版本错配（本库 08-25–08-27 已三次踩坑）。",
+   "第三方插件市场（dshmarket）尚未适配 0.1.2-alpha.x（peer 依赖停在 rc.7/rc.2）= Agent Runtime 生态成熟度瓶颈：插件生态版本碎片化，alpha 这类前沿版本需实测才能确认插件可用性，是生产级 Agent 平台选型的新变量，不能通过「能装」直接推断「能用」。"
   ]
  },
  "dailies": [
+  {
+   "date": "2026-08-29",
+   "items": [
+    {
+     "title": "**DSH 三版本运行基线与 rc.8 退役 / alpha Friday 重配（验证记录 §13–§16，DeepSeek Harness项目，12:19）**",
+     "summary": "①确立 rc.7@47880 / rc.2@47900 / alpha@47911 三版本并行稳定基线，各自独立源码入口、DSH_HOME、profile、依赖与端口；②rc.8 ",
+     "points": [
+      "事实：①确立 rc.7@47880 / rc.2@47900 / alpha@47911 三版本并行稳定基线，各自独立源码入口、DSH_HOME、profile、依赖与端口；②rc.8 退为历史验证版（目录移入 `.backups/reti",
+      "关联：DeepSeek Harness项目/DeepSeek Harness项目索引、DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研、全域智能体系统本体与健康治理"
+     ],
+     "date": "2026-08-29"
+    },
+    {
+     "title": "**DSH 插件在 alpha 版本的独立安装方案与兼容性调研（DeepSeek Harness项目，created 08-28，01:21 触碰）**",
+     "summary": "为把 47900 的插件市场（dshmarket）与已装插件在 47911（alpha）独立安装可用而做的调研——机制确认（dsh plugin = pnpm 转发器 + reco",
+     "points": [
+      "事实：为把 47900 的插件市场（dshmarket）与已装插件在 47911（alpha）独立安装可用而做的调研——机制确认（dsh plugin = pnpm 转发器 + reconcile dsh.profile.bundles，不",
+      "关联：DeepSeek Harness项目/DeepSeek Harness项目索引、DeepSeek Harness项目/DSH第三方插件适配新版本官方标准"
+     ],
+     "date": "2026-08-29"
+    },
+    {
+     "title": "**DeepSeek Harness 项目索引更新（DeepSeek Harness项目，01:21）**",
+     "summary": "索引现已登记「三版本并行」运行实体（47880/47900/47911）、三版本独立 checkout、当前任务卡 2632a1f4（三版本运行基线与 Alpha Friday 配",
+     "points": [
+      "事实：索引现已登记「三版本并行」运行实体（47880/47900/47911）、三版本独立 checkout、当前任务卡 2632a1f4（三版本运行基线与 Alpha Friday 配置收口），并补登 alpha 插件兼容性调研与第三方插",
+      "关联：知识流水线/AI知识自动化整理入口、AI Agent工程知识/AI Agent工程知识专题"
+     ],
+     "date": "2026-08-29"
+    },
+    {
+     "title": "**本库协作 / 通知基建维护（非外部 AI 知识主线，列出但不计入主线增量）**",
+     "summary": "飞书群通知机制建立（任务面板与知识库，19:37，KNOWLEDGEPIP139）：用 dshnotifier 标准格式把任务面板关键节点推送到飞书群「智能体任务通知」，定义了任务",
+     "points": [
+      "飞书群通知机制建立（任务面板与知识库，19:37，KNOWLEDGEPIP-139）：用 dsh-notifier 标准格式把任务面板关键节点推送到飞书群「智能体任务通知」，定义了任务开始/完成/出错/阻塞/心跳/疑似卡住六级通知契约；当前",
+      "智能体协作-任务面板操作手册（任务面板与知识库，14:09 触碰）：既有治理文档的小幅维护，属本库协作规则，非 AI 知识新增。"
+     ],
+     "date": "2026-08-29"
+    }
+   ],
+   "judgments": [
+    "三版本并行 runtime 基线（rc.7/rc.2/alpha 各自独立源码/DSH_HOME/profile/端口）+ LaunchAgent 自启 + 独立回滚备份，把 08-25 的「可回滚/可并行/可追溯」运维纪律沉淀为可复制的「Agent Runtime 多版本隔离运行」标准 SOP——这是生产级 Agent 基础设施运维从个案修复走向稳定范式的标志。",
+    "alpha 的 Friday 模式「不复用旧 runtime 的 Friday，改由官方 Preset 重建」= Agent 运行时升级的硬教训：跨版本不能搬运运行时状态（Friday/Session/Provider/Preset），必须按版本重新装配，否则出现 waiting for knowledge / 版本错配（本库 08-25–08-27 已三次踩坑）。",
+    "第三方插件市场（dshmarket）尚未适配 0.1.2-alpha.x（peer 依赖停在 rc.7/rc.2）= Agent Runtime 生态成熟度瓶颈：插件生态版本碎片化，alpha 这类前沿版本需实测才能确认插件可用性，是生产级 Agent 平台选型的新变量，不能通过「能装」直接推断「能用」。"
+   ]
+  },
   {
    "date": "2026-08-28",
    "items": [
@@ -5173,58 +5197,6 @@ window.OBSIDIAN_DATA = {
     "斯坦福 51 案例把\"企业 AI 落地卡点是组织不是模型\"从经验论断升级为规模化样本证据。 77% 项目最大障碍是组织变革/数据质量/流程重构（非模型选型/提示工程），61% 成功项目上线前至少失败过一次（技术投 1 块、配套组织改造常投 10 块），100% 采用迭代模式；高管支持四档中 58% 落在\"主动掌舵\"（每周协调、清除跨部门障碍）档。这与本专题 FDE 先盘流程再上 AI、企业五堵墙同向，把\"流程先行、迭代起步\"从经验变成样本级共性。",
     "三档人机协作模式 = 按业务风险定人机分工的量化版本。 升级模式（AI 承担 80-95% 常规、人只处理异常，生产力中位数 +71%）≈ 任务/岗位 Agent；辅助模式（AI 出草稿人决策，+20~40%）≈ FDE 访谈/方案初稿；监护模式（每条人工复核）≈ 金融风控/医疗高责任场景。人机分工应先按业务风险定模式、再谈自动化比例——把本专题\"按业务形态设计 Agent 架构\"推进到\"按风险定分工\"的可操作层。",
     "DeepSeek Harness 实验完成通信闭环+运行验证，TRIAL-001 把\"编排控制向框架内模型自治演进 / append-only 事件溯源 / Subagent Seam 统一接缝\"定为下一代多 Agent 架构三大影响。 MiniMax-M3 端点修复证明 Harness 子代理实际可用（subagent_m3 恢复 200 出 token），TRIAL-001 登记本系统三面板方向正确、5 项 gap。这是对 08-15 工业级多智能体协作设计与全域 System Ontology 的外部开源印证。"
-   ]
-  },
-  {
-   "date": "2026-08-15",
-   "items": [
-    {
-     "title": "**工业级多智能体协作系统设计：任务编排、依赖治理与结果对齐（正式架构页，AI Agent工程知识）**：新增 `AI Agent工程知识/工业级多智能体协作系统设计：任务编排、依赖治理与结果对齐.md`，把\"多 Agent 协作怎么真正跑通\"沉淀为可复用框架——七层面试追问、三层核心逻辑（风险边界→DAG+双层调度+标准化协议→异常处理）、DeepSeek Harness 能力边界（执行层强、调度治理弱）、Taskboard+Orchestrator+Harness 组合公式、Taskboard Ontology 双重身份（知识治理+协作任务事实基础）。来源：徐总 2026-08-15 口述 + Harness 能力边界分析。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-15"
-    },
-    {
-     "title": "**全域智能体系统本体与健康治理（正式 System Ontology 页，AI Agent工程知识，KNOWLEDGEPIP-108）**：新增 `AI Agent工程知识/全域智能体系统本体与健康治理.md`（08-14 23:39，落入 24h 窗口），把 Agent Ontology 升级为 System Ontology——14 个核心对象（Agent/ModelBinding/Task/Change/Evidence/Result/Knowledge/Memory/Skill/Tool/Channel/Credential/Resource/HealthState/Relationship）、核心关系、8 层系统架构、关键生产闭环、Jarvis 重归类为独立 DeepSeek CodeX、健康审查入口、六阶段实施顺序。当前 status: planned，人工主控、未启动外部 Agent。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-15"
-    },
-    {
-     "title": "**DeepSeek Harness 项目记录（项目长期入口，Codex工作区）**：更新 `DeepSeek Harness项目/DeepSeek Harness项目记录.md`（22:48），沉淀可复用工程判断——Harness 是基于 Cordis 的可组合 Agent 运行时（Profile/Bundle/Patch/Subagent/Workflow/Session/Storage/Tool），本身不是业务任务调度中心；外部 Orchestrator/Taskboard adapter 承担任务 ID、active-task lease、防重复派发、状态唤醒、人工验收；插件化融合（Taskboard 插件=状态适配器、Obsidian 插件=受控写回）；官方 subagent_codex 真实通信验收通过。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-15"
-    },
-    {
-     "title": "**DeepSeek Harness 插件验收子页（项目执行产物，Codex工作区）**：新增 `DeepSeek Harness插件写回验收测试.md`（15:32）与 `DeepSeek Harness插件审核联动验收.md`（15:46），记录受控写回（SHA-256 保护、不覆盖原页）与审核联动写回（reviewStatus=approved、reviewerType=harness、reviewEvidence）的真实验收证据，是 Harness 融合设计的可复用细节。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-15"
-    },
-    {
-     "title": "**多智能体健康治理补充：对话框上下文 D5 监控（全局治理页细化）**：`全局记忆/智能体健康度 Ontology.md` 与 `全局记忆/智能体健康状态总览.md`（10:15）补强\"域 D5 对话框上下文\"——千问办公/QoderWork 飞书对话框 8-15 爆满实证，确认对话框只作临时工作台、重要信息即时落库、接近上限主动预警收尾重开。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-15"
-    },
-    {
-     "title": "**既有页 09:49 轻微更新（非今日新增主体）**：`全域智能体框架总览`（标 draft/待校正、appId 映射表对齐）、`多智能体共享记忆：TencentDB Agent Memory 评估`（主内容 08-13 已完成，09:49 仅微调）、`飞书多智能体连接故障恢复手册`（既有 SOP 微调）——均属维护/草稿，不计入今日新增知识主体。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-15"
-    },
-    {
-     "title": "**个人类与结构/状态文件（剔除）**：`个人健康/体重管理.md`（22:23）属个人健康维护；`任务面板与知识库/方向推进与接力.md`、`Codex工作区/项目索引.md`、`Codex工作区/Codex工作区.md`、`AI Agent工程知识/AI Agent工程知识专题.md`、`知识库健康巡检.md`、`每日跨项目复盘/` 属结构/日志维护；均不计入 AI 知识增量。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-15"
-    }
-   ],
-   "judgments": [
-    "DeepSeek Harness 只解决\"执行层\"一半，工业级调度治理那一半必须自己搭。 并行执行、结构化输出、Agent 状态管理、Session 持久化 Harness 已有；但 Task DAG 持久化、A depends_on B 拓扑调度、循环依赖/死锁检测、任务唯一锁/幂等重试、动态 DAG 增量插入、结果冲突裁决、调度中心高可用全部要自己做。这把\"生产级多 Agent\"从\"能不能跑\"推进到\"任务不歧义、依赖不冲突、结果能对齐、故障可兜底\"的工程红线，是生产级 Agent 的核心 reusable 认知。",
-    "组合公式：Harness = 执行引擎，Taskboard + 轻量 Orchestrator = 秩序。 不用重造 Harness 已有的并行机制，只需造\"什么任务、何时、允许谁跑\"；第一条规则（一个 Agent 同时只能持有一个 active task lease，当前任务未完成不允许分配新独立任务）就能解决\"任务没完就塞第二个\"的问题。且 Taskboard Ontology 不只是知识治理，还是未来多 Agent 工业级协作的任务事实基础——把编排选型、调度治理、知识治理统一在一个事实源。",
-    "全域智能体从\"Agent Ontology\"升级为\"System Ontology\"，健康度是面向全本体的统一审查入口。 现有 Agent Ontology 仅覆盖注册/能力/模型绑定/部分路由，不足以描述整个工作系统；新增 14 核心对象 + 8 层系统架构 + 关键生产闭环，把 Taskboard（工作状态）、Memory（运行记忆）、Obsidian（正式知识）、Skill/MCP（能力连接）、Channel（通信身份）、治理审查（健康）纳入统一对象模型，Jarvis 重归类为独立 DeepSeek CodeX。这是 Ontology/Autonomy 主线从 Agent 级到系统级的实质扩展。"
    ]
   }
  ],
@@ -5677,7 +5649,7 @@ window.OBSIDIAN_DATA = {
     "assignee": "DeepSeek Harness (Friday)"
    }
   ],
-  "total": 105,
-  "fetchedAt": "2026年8月29日 09:34"
+  "total": 106,
+  "fetchedAt": "2026年8月29日 23:03"
  }
 };
