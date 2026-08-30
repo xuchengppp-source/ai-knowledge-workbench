@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-30",
- "generatedTime": "2026-08-30 13:33",
+ "generatedTime": "2026-08-30 17:32",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 165,
- "weeklyChanges": 1437,
+ "weeklyPages": 166,
+ "weeklyChanges": 1446,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-29｜AI知识增量整理.md",
  "topics": [
@@ -11,7 +11,7 @@ window.OBSIDIAN_DATA = {
    "name": "AI Agent工程知识",
    "key": "agent",
    "icon": "🤖",
-   "count": 36
+   "count": 37
   },
   {
    "name": "企业AI与智能体商业化",
@@ -370,6 +370,21 @@ window.OBSIDIAN_DATA = {
    "wordCount": 6740
   },
   {
+   "path": "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md",
+   "title": "DeepSeek Harness Control Gateway 设计与调研",
+   "updated": "2026-08-30",
+   "topic": "agent",
+   "links": [
+    "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录",
+    "任务面板与知识库/任务卡/Alpha-Friday搭建与会话修复-20260830"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md"
+   ],
+   "desc": "Alpha 单实例 Gateway 已完成第一条真实闭环：127.0.0.1:48111 通过 Alpha Web JSON-RPC 47911 向固化的 Alpha Friday",
+   "wordCount": 12893
+  },
+  {
    "path": "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.1.md",
    "title": "DeepSeek Harness 插件与模式设计规范 V1.1",
    "updated": "2026-08-26",
@@ -411,13 +426,19 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-08-30",
    "topic": "agent",
    "links": [
+    "AI Agent工程知识/多Agent协作架构-豆包助手WorkBuddyFridayCodex全链路",
+    "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论",
     "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2",
     "全局记忆/02_系统架构",
-    "AI Agent工程知识/飞书多智能体连接故障恢复手册"
+    "AI Agent工程知识/飞书多智能体连接故障恢复手册",
+    "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md",
+    "知识流水线/A_原始资料.md"
+   ],
    "desc": "DeepSeek Harness（Friday 主控 Agent）通过Harness 原生 IM 插件直接接入飞书机器人，无需经过 Codex/Jarvis 转发。这是 Harne",
-   "wordCount": 5156
+   "wordCount": 10663
   },
   {
    "path": "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md",
@@ -612,10 +633,16 @@ window.OBSIDIAN_DATA = {
    "title": "多 Agent 协作架构",
    "updated": "2026-08-30",
    "topic": "agent",
-   "links": [],
-   "backlinks": [],
-   "desc": "",
-   "wordCount": 3411
+   "links": [
+    "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md",
+    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "最新讨论明确：Codex、WorkBuddy、豆包助手都可以在日常任务中承担前台主控、任务归一化和路由角色；Codex 的特殊性是拥有最高控制权、复杂任务接管权和最终审核权，而不是",
+   "wordCount": 4225
   },
   {
    "path": "AI Agent工程知识/多智能体共享记忆：TencentDB Agent Memory 评估.md",
@@ -759,7 +786,9 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
     "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差",
     "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
-    "原始资料/已整理｜2026-08-25｜微信公众号·远川研究所｜办公Agent大战重点不是Agent（上下文才是护城河）"
+    "原始资料/已整理｜2026-08-25｜微信公众号·远川研究所｜办公Agent大战重点不是Agent（上下文才是护城河）",
+    "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论",
+    "AI Agent工程知识/多Agent协作架构-豆包助手WorkBuddyFridayCodex全链路"
    ],
    "backlinks": [
     "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
@@ -780,7 +809,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md"
    ],
    "desc": "定位：本页属于 企业AI与生产级Agent总框架 中的工程定义线。它负责定义生产级 Agent 的概念、标准、能力链路和验收口径；甘食记、美团、咨询公司、制造业等案例属于业务落地线",
-   "wordCount": 43476
+   "wordCount": 43961
   },
   {
    "path": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度.md",
@@ -3916,7 +3945,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/A_原始资料.md",
    "title": "A_原始资料",
-   "updated": "2026-08-28",
+   "updated": "2026-08-30",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -3947,7 +3976,10 @@ window.OBSIDIAN_DATA = {
     "原始资料/未整理｜2026-08-28｜蓝耘星河｜别把DSH当CodeX平替",
     "原始资料/未整理｜2026-08-28｜钛媒体｜产品经理排队转型FDE",
     "原始资料/未整理｜2026-08-28｜韩叙HanXu｜300个AI搭团队跑通一人公司",
+    "AI Agent工程知识/多Agent协作架构-豆包助手WorkBuddyFridayCodex全链路",
+    "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录",
     "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论",
     "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
     "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法",
     "原始资料/已整理｜2026-08-25｜微信公众号·远川研究所｜办公Agent大战重点不是Agent（上下文才是护城河）",
@@ -4039,7 +4071,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识获取与录入三条链路现状与卡壳点.md"
    ],
    "desc": "上级：知识流水线/知识流水线",
-   "wordCount": 12913
+   "wordCount": 13183
   },
   {
    "path": "知识流水线/Agent Ontology 1.0运行数据库与闭环落地.md",
@@ -5610,7 +5642,7 @@ window.OBSIDIAN_DATA = {
  ],
  "tasks": {
   "summary": {
-   "in_progress": 14,
+   "in_progress": 15,
    "todo": 15,
    "in_review": 12,
    "blocked": 1
@@ -5629,6 +5661,13 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "urgent",
     "assignee": "伊森"
+   },
+   {
+    "id": "KP-140",
+    "title": "DeepSeek Harness Control Gateway：Alpha Friday统一调用路由建设",
+    "status": "in_progress",
+    "priority": "high",
+    "assignee": "Codex"
    },
    {
     "id": "KP-138",
@@ -5650,16 +5689,9 @@ window.OBSIDIAN_DATA = {
     "status": "todo",
     "priority": "high",
     "assignee": "DeepSeek Harness (Friday)"
-   },
-   {
-    "id": "KP-117",
-    "title": "全域智能体运营状态面板（三明治+真实数据+视觉升级）",
-    "status": "in_review",
-    "priority": "high",
-    "assignee": "DeepSeek Harness (Friday)"
    }
   ],
-  "total": 106,
-  "fetchedAt": "2026年8月30日 13:33"
+  "total": 107,
+  "fetchedAt": "2026年8月30日 17:32"
  }
 };
