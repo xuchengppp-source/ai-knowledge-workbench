@@ -1,11 +1,11 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-30",
- "generatedTime": "2026-08-30 17:32",
+ "generatedTime": "2026-08-30 23:02",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 166,
  "weeklyChanges": 1446,
  "sourceIndex": "知识库索引.md",
- "digest": "知识流水线/每日学习整理/2026-08-29｜AI知识增量整理.md",
+ "digest": "知识流水线/每日学习整理/2026-08-30｜AI知识增量整理.md",
  "topics": [
   {
    "name": "AI Agent工程知识",
@@ -438,7 +438,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/A_原始资料.md"
    ],
    "desc": "DeepSeek Harness（Friday 主控 Agent）通过Harness 原生 IM 插件直接接入飞书机器人，无需经过 Codex/Jarvis 转发。这是 Harne",
-   "wordCount": 10663
+   "wordCount": 10889
   },
   {
    "path": "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md",
@@ -4893,52 +4893,110 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "today": {
-  "date": "2026-08-29",
+  "date": "2026-08-30",
   "items": [
    {
-    "title": "**DSH 三版本运行基线与 rc.8 退役 / alpha Friday 重配（验证记录 §13–§16，DeepSeek Harness项目，12:19）**",
-    "summary": "①确立 rc.7@47880 / rc.2@47900 / alpha@47911 三版本并行稳定基线，各自独立源码入口、DSH_HOME、profile、依赖与端口；②rc.8 ",
-    "points": [
-     "事实：①确立 rc.7@47880 / rc.2@47900 / alpha@47911 三版本并行稳定基线，各自独立源码入口、DSH_HOME、profile、依赖与端口；②rc.8 退为历史验证版（目录移入 `.backups/reti",
-     "关联：DeepSeek Harness项目/DeepSeek Harness项目索引、DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研、全域智能体系统本体与健康治理"
-    ],
-    "date": "2026-08-29"
+    "title": "**（新建·正式笔记）`AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md`（16:51）** — KNOWLEDGEPIP-140，Codex 审核修订后的第一版：明确主体是 DeepSeek Harness，借鉴 Codex Harness 控制面抽象，不合并两套 Harness、不在 DSH 内另造 Agent Loop；定义薄控制层目标（实例路由、任务登记、事件游标、结果投影）与五个外部能力接口方向（指定 Session / 发任务 / 查状态 / 看事件 / 取结果）；并区分\"已确认\"（Alpha 单实例 48111→47911 第一条真实闭环、Python 客户端经 Gateway 返回 `PY-GATEWAY-ALPHA-OK`、端口统一为 48911、豆包+WorkBuddy 双端已走 Gateway）与\"尚未具备\"（无 session/list、task/status、interrupt、队列方法，不能凭 messageId 划分任务边界）。",
+    "summary": "",
+    "points": [],
+    "date": "2026-08-30"
    },
    {
-    "title": "**DSH 插件在 alpha 版本的独立安装方案与兼容性调研（DeepSeek Harness项目，created 08-28，01:21 触碰）**",
-    "summary": "为把 47900 的插件市场（dshmarket）与已装插件在 47911（alpha）独立安装可用而做的调研——机制确认（dsh plugin = pnpm 转发器 + reco",
-    "points": [
-     "事实：为把 47900 的插件市场（dshmarket）与已装插件在 47911（alpha）独立安装可用而做的调研——机制确认（dsh plugin = pnpm 转发器 + reconcile dsh.profile.bundles，不",
-     "关联：DeepSeek Harness项目/DeepSeek Harness项目索引、DeepSeek Harness项目/DSH第三方插件适配新版本官方标准"
-    ],
-    "date": "2026-08-29"
+    "title": "**（新建·正式笔记）`AI Agent工程知识/多Agent协作架构-豆包助手WorkBuddyFridayCodex全链路.md`（14:43）** — 确立\"多前台主控 + 控制监督层 + Harness 执行基座\"三层模型；给出各 Agent 身份表（豆包助手 / WorkBuddy 伊森 / RC2 Friday 47900 / Alpha Friday 47911 / Codex）与 7 条已验证调用通路（含 sessionId、chat_id、脚本位置）；核心判断：用户使用稳定 Agent，稳定 Agent 把 Harness 当执行基座，Codex 拥有最高控制权但不是必经节点。",
+    "summary": "",
+    "points": [],
+    "date": "2026-08-30"
    },
    {
-    "title": "**DeepSeek Harness 项目索引更新（DeepSeek Harness项目，01:21）**",
-    "summary": "索引现已登记「三版本并行」运行实体（47880/47900/47911）、三版本独立 checkout、当前任务卡 2632a1f4（三版本运行基线与 Alpha Friday 配",
-    "points": [
-     "事实：索引现已登记「三版本并行」运行实体（47880/47900/47911）、三版本独立 checkout、当前任务卡 2632a1f4（三版本运行基线与 Alpha Friday 配置收口），并补登 alpha 插件兼容性调研与第三方插",
-     "关联：知识流水线/AI知识自动化整理入口、AI Agent工程知识/AI Agent工程知识专题"
-    ],
-    "date": "2026-08-29"
+    "title": "**（更新·正式笔记）`AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md`（21:55）** — 新增 Alpha 版本 47911 搭建、47912→47911 合并、Alpha Friday seq gap 修复（多帧 zstd 损坏尾部帧 1262-1268 删除）、`subagent_codex` 调动 Codex 顾问三层修复（cordis.patch 注入 / `dsh-tool-subagent` 升 0.1.2-alpha.1 / Codex CLI 0.134.0→0.151.0）、continuable 后台子代理正确使用方式确认、模型限额切换说明、Control Gateway 端口 48111→48911 统一、豆包+WorkBuddy 双端 Gateway 验证通过。",
+    "summary": "",
+    "points": [],
+    "date": "2026-08-30"
    },
    {
-    "title": "**本库协作 / 通知基建维护（非外部 AI 知识主线，列出但不计入主线增量）**",
-    "summary": "飞书群通知机制建立（任务面板与知识库，19:37，KNOWLEDGEPIP139）：用 dshnotifier 标准格式把任务面板关键节点推送到飞书群「智能体任务通知」，定义了任务",
-    "points": [
-     "飞书群通知机制建立（任务面板与知识库，19:37，KNOWLEDGEPIP-139）：用 dsh-notifier 标准格式把任务面板关键节点推送到飞书群「智能体任务通知」，定义了任务开始/完成/出错/阻塞/心跳/疑似卡住六级通知契约；当前",
-     "智能体协作-任务面板操作手册（任务面板与知识库，14:09 触碰）：既有治理文档的小幅维护，属本库协作规则，非 AI 知识新增。"
-    ],
-    "date": "2026-08-29"
+    "title": "**（更新·项目记录）`DeepSeek Harness项目/DeepSeek Harness搭建记录.md`、`DSH_贾维斯模式新建.md`、`DeepSeek Harness项目记录.md`、`DeepSeek Harness项目索引.md`（09:29-21:38）** — 项目运行层记录同步：Alpha 实例基线、子代理编排实测、Control Gateway 进度、插件兼容等；属 Harness 主线的运行证据，非新概念。",
+    "summary": "",
+    "points": [],
+    "date": "2026-08-30"
+   },
+   {
+    "title": "**（新建·笔记）`豆包工作区/多Agent协作架构.md`（13:31）与 `豆包工作区/dsh-send-README.md`（09:27）** — 豆包助手工作区内的协作架构镜像与脚本说明；内容与第 2 条正式笔记重叠，按\"脚本只留工作区、Obsidian 只留说明/架构/证据\"的边界分工处理，不重复进正式层。",
+    "summary": "",
+    "points": [],
+    "date": "2026-08-30"
+   },
+   {
+    "title": "**（更新·正式主版本）`AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md`（14:44）** — 生产级 Agent 工程知识唯一核心主版本，今日为小幅维护/补链（概念地图与\"看工程环节不看名词\"原则不变），未引入新总框架。",
+    "summary": "",
+    "points": [],
+    "date": "2026-08-30"
+   },
+   {
+    "title": "**（已整理原始资料）`原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论.md`（14:43）** — ChatGPT 讨论原文留档，结论已回流到第 2、3 条正式笔记与知识库索引；状态标\"已整理\"。",
+    "summary": "",
+    "points": [],
+    "date": "2026-08-30"
    }
   ],
   "judgments": [
-   "三版本并行 runtime 基线（rc.7/rc.2/alpha 各自独立源码/DSH_HOME/profile/端口）+ LaunchAgent 自启 + 独立回滚备份，把 08-25 的「可回滚/可并行/可追溯」运维纪律沉淀为可复制的「Agent Runtime 多版本隔离运行」标准 SOP——这是生产级 Agent 基础设施运维从个案修复走向稳定范式的标志。",
-   "alpha 的 Friday 模式「不复用旧 runtime 的 Friday，改由官方 Preset 重建」= Agent 运行时升级的硬教训：跨版本不能搬运运行时状态（Friday/Session/Provider/Preset），必须按版本重新装配，否则出现 waiting for knowledge / 版本错配（本库 08-25–08-27 已三次踩坑）。",
-   "第三方插件市场（dshmarket）尚未适配 0.1.2-alpha.x（peer 依赖停在 rc.7/rc.2）= Agent Runtime 生态成熟度瓶颈：插件生态版本碎片化，alpha 这类前沿版本需实测才能确认插件可用性，是生产级 Agent 平台选型的新变量，不能通过「能装」直接推断「能用」。"
+   "Harness 的系统定位从\"聊天入口\"正式升级为\"执行基座\"，其上需长出可观测的控制监督层（Agent Control Layer）。 今天把\"多前台主控 + 控制监督层 + Harness 执行基座\"三层模型落成正式笔记：豆包助手 / WorkBuddy / Codex 均可做前台主控，负责识别、恢复、路由、监督、升级、验收；真正控制层必须能读取 `task_id`/`run_id`/运行状态/错误/结果/证据，`sendTask→getStatus→getResult→retry→cancel→escalate`，仅\"发消息等回复\"不算。这是生产级 Agent 治理主线的方法论沉淀。",
+   "Control Gateway 从方案设想跨过\"第一条真实闭环\"，但仍是接口设计 + 单实例验证，严禁写成已落地能力。 今日关键事实：本地 Gateway 48911 认证并调用 Alpha Friday 47911，经 `session/list`/`session/prompt`/`session/page` 完成任务提交与结果回读，返回 `Gateway-ALPHA-OK`/`PY-GATEWAY-ALPHA-OK`，豆包助手与 WorkBuddy（伊森）双端已切换默认走 Gateway、失败回退直连；但 RC2（47900）尚未接入、REST/SSE 服务与任务登记/事件关联/结果投影均未实现，SDK profile 路径也待实验。记录纪律：把待验证项显式标注，不把方案假设当现状。",
+   "Alpha Friday 从\"能聊天\"进化为\"可验证的多 Agent 运行时\"。 今日补齐三项硬证据：`subagent_codex` 真实调动本机 Codex 顾问（三层缺失修复后取得真实返回）、continuable 后台子代理确认可用（此前 `unknown job` 是误用 bash job 查询而非功能缺陷）、多帧 zstd 会话 seq gap 的修复方法（备份→逐帧解压→删损坏尾部帧→重拼→重启）确立。Harness 已具备\"主控-执行分离 + 子代理并行 + 顾问调用 + 会话持久化修复\"的完整运行闭环，强化全域智能体 / Harness 派发主线。"
   ]
  },
  "dailies": [
+  {
+   "date": "2026-08-30",
+   "items": [
+    {
+     "title": "**（新建·正式笔记）`AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md`（16:51）** — KNOWLEDGEPIP-140，Codex 审核修订后的第一版：明确主体是 DeepSeek Harness，借鉴 Codex Harness 控制面抽象，不合并两套 Harness、不在 DSH 内另造 Agent Loop；定义薄控制层目标（实例路由、任务登记、事件游标、结果投影）与五个外部能力接口方向（指定 Session / 发任务 / 查状态 / 看事件 / 取结果）；并区分\"已确认\"（Alpha 单实例 48111→47911 第一条真实闭环、Python 客户端经 Gateway 返回 `PY-GATEWAY-ALPHA-OK`、端口统一为 48911、豆包+WorkBuddy 双端已走 Gateway）与\"尚未具备\"（无 session/list、task/status、interrupt、队列方法，不能凭 messageId 划分任务边界）。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-30"
+    },
+    {
+     "title": "**（新建·正式笔记）`AI Agent工程知识/多Agent协作架构-豆包助手WorkBuddyFridayCodex全链路.md`（14:43）** — 确立\"多前台主控 + 控制监督层 + Harness 执行基座\"三层模型；给出各 Agent 身份表（豆包助手 / WorkBuddy 伊森 / RC2 Friday 47900 / Alpha Friday 47911 / Codex）与 7 条已验证调用通路（含 sessionId、chat_id、脚本位置）；核心判断：用户使用稳定 Agent，稳定 Agent 把 Harness 当执行基座，Codex 拥有最高控制权但不是必经节点。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-30"
+    },
+    {
+     "title": "**（更新·正式笔记）`AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md`（21:55）** — 新增 Alpha 版本 47911 搭建、47912→47911 合并、Alpha Friday seq gap 修复（多帧 zstd 损坏尾部帧 1262-1268 删除）、`subagent_codex` 调动 Codex 顾问三层修复（cordis.patch 注入 / `dsh-tool-subagent` 升 0.1.2-alpha.1 / Codex CLI 0.134.0→0.151.0）、continuable 后台子代理正确使用方式确认、模型限额切换说明、Control Gateway 端口 48111→48911 统一、豆包+WorkBuddy 双端 Gateway 验证通过。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-30"
+    },
+    {
+     "title": "**（更新·项目记录）`DeepSeek Harness项目/DeepSeek Harness搭建记录.md`、`DSH_贾维斯模式新建.md`、`DeepSeek Harness项目记录.md`、`DeepSeek Harness项目索引.md`（09:29-21:38）** — 项目运行层记录同步：Alpha 实例基线、子代理编排实测、Control Gateway 进度、插件兼容等；属 Harness 主线的运行证据，非新概念。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-30"
+    },
+    {
+     "title": "**（新建·笔记）`豆包工作区/多Agent协作架构.md`（13:31）与 `豆包工作区/dsh-send-README.md`（09:27）** — 豆包助手工作区内的协作架构镜像与脚本说明；内容与第 2 条正式笔记重叠，按\"脚本只留工作区、Obsidian 只留说明/架构/证据\"的边界分工处理，不重复进正式层。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-30"
+    },
+    {
+     "title": "**（更新·正式主版本）`AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md`（14:44）** — 生产级 Agent 工程知识唯一核心主版本，今日为小幅维护/补链（概念地图与\"看工程环节不看名词\"原则不变），未引入新总框架。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-30"
+    },
+    {
+     "title": "**（已整理原始资料）`原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论.md`（14:43）** — ChatGPT 讨论原文留档，结论已回流到第 2、3 条正式笔记与知识库索引；状态标\"已整理\"。",
+     "summary": "",
+     "points": [],
+     "date": "2026-08-30"
+    }
+   ],
+   "judgments": [
+    "Harness 的系统定位从\"聊天入口\"正式升级为\"执行基座\"，其上需长出可观测的控制监督层（Agent Control Layer）。 今天把\"多前台主控 + 控制监督层 + Harness 执行基座\"三层模型落成正式笔记：豆包助手 / WorkBuddy / Codex 均可做前台主控，负责识别、恢复、路由、监督、升级、验收；真正控制层必须能读取 `task_id`/`run_id`/运行状态/错误/结果/证据，`sendTask→getStatus→getResult→retry→cancel→escalate`，仅\"发消息等回复\"不算。这是生产级 Agent 治理主线的方法论沉淀。",
+    "Control Gateway 从方案设想跨过\"第一条真实闭环\"，但仍是接口设计 + 单实例验证，严禁写成已落地能力。 今日关键事实：本地 Gateway 48911 认证并调用 Alpha Friday 47911，经 `session/list`/`session/prompt`/`session/page` 完成任务提交与结果回读，返回 `Gateway-ALPHA-OK`/`PY-GATEWAY-ALPHA-OK`，豆包助手与 WorkBuddy（伊森）双端已切换默认走 Gateway、失败回退直连；但 RC2（47900）尚未接入、REST/SSE 服务与任务登记/事件关联/结果投影均未实现，SDK profile 路径也待实验。记录纪律：把待验证项显式标注，不把方案假设当现状。",
+    "Alpha Friday 从\"能聊天\"进化为\"可验证的多 Agent 运行时\"。 今日补齐三项硬证据：`subagent_codex` 真实调动本机 Codex 顾问（三层缺失修复后取得真实返回）、continuable 后台子代理确认可用（此前 `unknown job` 是误用 bash job 查询而非功能缺陷）、多帧 zstd 会话 seq gap 的修复方法（备份→逐帧解压→删损坏尾部帧→重拼→重启）确立。Harness 已具备\"主控-执行分离 + 子代理并行 + 顾问调用 + 会话持久化修复\"的完整运行闭环，强化全域智能体 / Harness 派发主线。"
+   ]
+  },
   {
    "date": "2026-08-29",
    "items": [
@@ -5187,58 +5245,6 @@ window.OBSIDIAN_DATA = {
     "模型绑定门禁 = 生产级 Agent 治理的\"损失导向护栏\"范式。Harness Doctor 把监控从\"Provider 是否在线\"（可用性导向）升级为\"实际绑定与声明绑定不一致且会造成真实费用损失就 BLOCK\"（损失导向）。这是可复用的生产级 Agent 运维认知：运行时自检的第一优先级不是指标多，而是\"配置错没、实跑和配置一致没、这种错会不会烧钱\"。",
     "\"Friday = DeepSeek Harness\"命名确权完成，全域智能体身份地图进入稳定态。08-17 把九大智能体的\"英文=中文=产品代号=appId(飞书侧)\"等价关系一次性固化，消除跨 Agent 调用时的命名歧义。这是全局架构级稳定事实，属于「企业AI 内部超级团队架构」与「全域智能体框架」的共同底座。",
     "全域智能体从\"逐 Agent 能力页\"走向\"统一 System Ontology + 稳定命名\"。08-17 的命名确权与 Harness 项目持续闭环，印证 08-15 启动的 System Ontology 升级（KNOWLEDGEPIP-108）方向——框架正在从分散描述收敛为可被各 Agent 稳定读取的治理底座，而非又一次页面堆砌。"
-   ]
-  },
-  {
-   "date": "2026-08-16",
-   "items": [
-    {
-     "title": "**斯坦福企业AI实战手册：51个成功样本与三档人机协作模式（正式框架页，企业AI与智能体商业化）**：新增 `企业AI与智能体商业化/斯坦福企业AI实战手册：51个成功样本与三档人机协作模式.md`（08-15 23:21）。来源斯坦福数字经济实验室《Enterprise AI Playbook》（2026-04，调研 41 家组织、51 个已产生真实业务收益案例、覆盖 7 国 9 行业）；提炼本质判断、高管支持四档、三种人机协作模式、行业分布与可执行清单，并显式回链本专题既有 FDE/五堵墙/按业务形态设计 Agent 架构认知。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-16"
-    },
-    {
-     "title": "**蜀道集团大疆无人机巡检：采购投资与融资租赁测算（正式案例页，低空经济）**：新增 `低空经济/蜀道集团大疆无人机巡检：采购投资与融资租赁测算.md`（08-16 22:09）。在既有技术方案与算法分层基础上，完成大疆机场3 采购三方案 NPV 对比（自购 +59.1万 / 融资租赁 +67.8万 / 维持人工 -102.3万）、盈亏平衡 8.8万/年、融资租赁产权与分期解读，并检索 iMA 金融板块 6 篇蜀道相关内容做索引。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-16"
-    },
-    {
-     "title": "**低空经济专题入口更新（登记，低空经济）**：更新 `低空经济/低空经济专题.md`（08-16 22:02），把蜀道无人机巡检「方案与算法分层」「采购投资与融资租赁测算」两篇纳入目录树与对比表，定位为\"事实→方法论→模式推演\"三层之一。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-16"
-    },
-    {
-     "title": "**DeepSeek Harness 项目记录更新（MiniMax-M3 端点修复小节，Codex工作区）**：更新 `DeepSeek Harness项目/DeepSeek Harness项目记录.md`（08-16 22:38），新增「2026-08-16：MiniMax-M3 端点故障修复」小节，记录 `subagent_m3` 因 Harness 默认指向国际端点 `api.minimax.io` 而 `sk-cp-` 国内版 key 仅 `api.minimax.chat` 有效导致 401 的排查与修复（追加 `baseURL` 后配置热重载即生效）。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-16"
-    },
-    {
-     "title": "**MiniMax-M3 端点故障修复（故障排查实录，Codex工作区）**：新增 `Codex工作区/2026-08-16_MiniMax-M3端点故障修复.md`（08-16 22:38）。完整记录故障现象、诊断证据（两端点 401 vs 200 对比）、根因、修复（`~/.dsh/settings.yaml` 追加 `baseURL`）、验证与预设机制澄清（`m3-workhorse` 是标准预设超集、与 `subagent_codex` 两类可调用的 AI Agent）。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-16"
-    },
-    {
-     "title": "**02_系统架构更新（TRIAL-001 结论登记，全域智能体/系统架构）**：更新 `全局记忆/02_系统架构.md`（08-16 14:58），新增「TRIAL-001 结论登记（2026-08-16，KNOWLEDGEPIP-113）」——对下一代多 Agent 协作架构的三大影响（编排控制权向框架内模型自治演进 / append-only 事件溯源成为可观测性标准底座 / Subagent Seam 成为 Agent 互操作统一接缝）+ 本系统三面板方向正确、5 项 gap（断点续跑、卡点探测机制化、双写对账、子 Agent 直连、编排层故障转移）。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-16"
-    },
-    {
-     "title": "**任务级会话隔离工作法（奥利弗专属，全局记忆）**：新增 `全局记忆/任务级会话隔离工作法.md`（08-16 11:26，徐总 08-16 确认落库）。规定奥利弗（千问办公）专属调度机制：每个任务建专属对话框+独立工作区、上下文按任务隔离、主线只做调度中枢；含角色定义、流程、自包含转交模板、配套约定与「2026 贵州旅游-导游」首个落地案例。明确暂不写入全体共享规则（03_工作规则）。",
-     "summary": "① 个人健康/体重管理.md（个人健康维护）② 知识流水线/A_原始资料.md（台账登记）③ 原始资料/未整理｜2026-08-15｜斯坦福…（已回流为第 1 项的原文备份）④ 原",
-     "points": [],
-     "date": "2026-08-16"
-    }
-   ],
-   "judgments": [
-    "斯坦福 51 案例把\"企业 AI 落地卡点是组织不是模型\"从经验论断升级为规模化样本证据。 77% 项目最大障碍是组织变革/数据质量/流程重构（非模型选型/提示工程），61% 成功项目上线前至少失败过一次（技术投 1 块、配套组织改造常投 10 块），100% 采用迭代模式；高管支持四档中 58% 落在\"主动掌舵\"（每周协调、清除跨部门障碍）档。这与本专题 FDE 先盘流程再上 AI、企业五堵墙同向，把\"流程先行、迭代起步\"从经验变成样本级共性。",
-    "三档人机协作模式 = 按业务风险定人机分工的量化版本。 升级模式（AI 承担 80-95% 常规、人只处理异常，生产力中位数 +71%）≈ 任务/岗位 Agent；辅助模式（AI 出草稿人决策，+20~40%）≈ FDE 访谈/方案初稿；监护模式（每条人工复核）≈ 金融风控/医疗高责任场景。人机分工应先按业务风险定模式、再谈自动化比例——把本专题\"按业务形态设计 Agent 架构\"推进到\"按风险定分工\"的可操作层。",
-    "DeepSeek Harness 实验完成通信闭环+运行验证，TRIAL-001 把\"编排控制向框架内模型自治演进 / append-only 事件溯源 / Subagent Seam 统一接缝\"定为下一代多 Agent 架构三大影响。 MiniMax-M3 端点修复证明 Harness 子代理实际可用（subagent_m3 恢复 200 出 token），TRIAL-001 登记本系统三面板方向正确、5 项 gap。这是对 08-15 工业级多智能体协作设计与全域 System Ontology 的外部开源印证。"
    ]
   }
  ],
@@ -5644,7 +5650,7 @@ window.OBSIDIAN_DATA = {
   "summary": {
    "in_progress": 15,
    "todo": 15,
-   "in_review": 12,
+   "in_review": 13,
    "blocked": 1
   },
   "recent": [
@@ -5661,6 +5667,13 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "urgent",
     "assignee": "伊森"
+   },
+   {
+    "id": "KP-141",
+    "title": "codex-runtime-adapter 长期 Codex Thread 管理（官方 app-server 结果回收）",
+    "status": "in_review",
+    "priority": "high",
+    "assignee": "Codex"
    },
    {
     "id": "KP-140",
@@ -5682,16 +5695,9 @@ window.OBSIDIAN_DATA = {
     "status": "todo",
     "priority": "high",
     "assignee": "徐总"
-   },
-   {
-    "id": "KP-118",
-    "title": "全域智能体知识库收口（角色识别+实时性边界+记忆分工）",
-    "status": "todo",
-    "priority": "high",
-    "assignee": "DeepSeek Harness (Friday)"
    }
   ],
-  "total": 107,
-  "fetchedAt": "2026年8月30日 17:32"
+  "total": 108,
+  "fetchedAt": "2026年8月30日 23:02"
  }
 };
