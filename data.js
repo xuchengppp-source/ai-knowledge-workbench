@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-08-29",
- "generatedTime": "2026-08-29 23:03",
+ "generatedAt": "2026-08-30",
+ "generatedTime": "2026-08-30 09:34",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 164,
+ "weeklyPages": 165,
  "weeklyChanges": 1437,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-29｜AI知识增量整理.md",
@@ -11,7 +11,7 @@ window.OBSIDIAN_DATA = {
    "name": "AI Agent工程知识",
    "key": "agent",
    "icon": "🤖",
-   "count": 35
+   "count": 36
   },
   {
    "name": "企业AI与智能体商业化",
@@ -606,6 +606,16 @@ window.OBSIDIAN_DATA = {
    "backlinks": [],
    "desc": "text",
    "wordCount": 15750
+  },
+  {
+   "path": "AI Agent工程知识/多Agent协作架构-豆包助手WorkBuddyFridayCodex全链路.md",
+   "title": "多 Agent 协作架构",
+   "updated": "2026-08-30",
+   "topic": "agent",
+   "links": [],
+   "backlinks": [],
+   "desc": "",
+   "wordCount": 3411
   },
   {
    "path": "AI Agent工程知识/多智能体共享记忆：TencentDB Agent Memory 评估.md",
@@ -5650,6 +5660,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 106,
-  "fetchedAt": "2026年8月29日 23:03"
+  "fetchedAt": "2026年8月30日 09:34"
  }
 };
