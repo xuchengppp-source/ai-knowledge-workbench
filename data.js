@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-30",
- "generatedTime": "2026-08-30 09:34",
+ "generatedTime": "2026-08-30 13:33",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 165,
  "weeklyChanges": 1437,
@@ -408,7 +408,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md",
    "title": "DeepSeek Harness 飞书 IM 接入搭建与运行记录",
-   "updated": "2026-08-26",
+   "updated": "2026-08-30",
    "topic": "agent",
    "links": [
     "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2",
@@ -417,7 +417,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "DeepSeek Harness（Friday 主控 Agent）通过Harness 原生 IM 插件直接接入飞书机器人，无需经过 Codex/Jarvis 转发。这是 Harne",
-   "wordCount": 2413
+   "wordCount": 5156
   },
   {
    "path": "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md",
@@ -5660,6 +5660,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 106,
-  "fetchedAt": "2026年8月30日 09:34"
+  "fetchedAt": "2026年8月30日 13:33"
  }
 };
