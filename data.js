@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-08-31",
- "generatedTime": "2026-08-31 09:33",
+ "generatedTime": "2026-08-31 13:32",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 166,
  "weeklyChanges": 1446,
@@ -382,7 +382,7 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md"
    ],
    "desc": "Alpha 单实例 Gateway 已完成第一条真实闭环：127.0.0.1:48111 通过 Alpha Web JSON-RPC 47911 向固化的 Alpha Friday",
-   "wordCount": 12893
+   "wordCount": 13500
   },
   {
    "path": "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.1.md",
@@ -5648,7 +5648,7 @@ window.OBSIDIAN_DATA = {
  ],
  "tasks": {
   "summary": {
-   "in_progress": 15,
+   "in_progress": 16,
    "todo": 15,
    "in_review": 12,
    "blocked": 1
@@ -5667,6 +5667,13 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "urgent",
     "assignee": "伊森"
+   },
+   {
+    "id": "KP-143",
+    "title": "任务面板-Obsidian-飞书多维表格三层协作事实链路设计与试点",
+    "status": "in_progress",
+    "priority": "high",
+    "assignee": "Codex"
    },
    {
     "id": "KP-140",
@@ -5688,16 +5695,9 @@ window.OBSIDIAN_DATA = {
     "status": "todo",
     "priority": "high",
     "assignee": "徐总"
-   },
-   {
-    "id": "KP-118",
-    "title": "全域智能体知识库收口（角色识别+实时性边界+记忆分工）",
-    "status": "todo",
-    "priority": "high",
-    "assignee": "DeepSeek Harness (Friday)"
    }
   ],
-  "total": 108,
-  "fetchedAt": "2026年8月31日 09:33"
+  "total": 110,
+  "fetchedAt": "2026年8月31日 13:32"
  }
 };
