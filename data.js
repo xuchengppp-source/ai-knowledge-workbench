@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-08-30",
- "generatedTime": "2026-08-30 23:02",
+ "generatedAt": "2026-08-31",
+ "generatedTime": "2026-08-31 09:33",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 166,
  "weeklyChanges": 1446,
@@ -641,8 +641,8 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
     "知识流水线/A_原始资料.md"
    ],
-   "desc": "最新讨论明确：Codex、WorkBuddy、豆包助手都可以在日常任务中承担前台主控、任务归一化和路由角色；Codex 的特殊性是拥有最高控制权、复杂任务接管权和最终审核权，而不是",
-   "wordCount": 4225
+   "desc": "豆包助手和 WorkBuddy 首先是可以独立完成目标的 Agent 入口，不是必须把所有任务下放给 DeepSeek Harness 的路由前端。DeepSeek Harness",
+   "wordCount": 5312
   },
   {
    "path": "AI Agent工程知识/多智能体共享记忆：TencentDB Agent Memory 评估.md",
@@ -5650,7 +5650,7 @@ window.OBSIDIAN_DATA = {
   "summary": {
    "in_progress": 15,
    "todo": 15,
-   "in_review": 13,
+   "in_review": 12,
    "blocked": 1
   },
   "recent": [
@@ -5667,13 +5667,6 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "urgent",
     "assignee": "伊森"
-   },
-   {
-    "id": "KP-141",
-    "title": "codex-runtime-adapter 长期 Codex Thread 管理（官方 app-server 结果回收）",
-    "status": "in_review",
-    "priority": "high",
-    "assignee": "Codex"
    },
    {
     "id": "KP-140",
@@ -5695,9 +5688,16 @@ window.OBSIDIAN_DATA = {
     "status": "todo",
     "priority": "high",
     "assignee": "徐总"
+   },
+   {
+    "id": "KP-118",
+    "title": "全域智能体知识库收口（角色识别+实时性边界+记忆分工）",
+    "status": "todo",
+    "priority": "high",
+    "assignee": "DeepSeek Harness (Friday)"
    }
   ],
   "total": 108,
-  "fetchedAt": "2026年8月30日 23:02"
+  "fetchedAt": "2026年8月31日 09:33"
  }
 };
