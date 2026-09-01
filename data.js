@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-01",
- "generatedTime": "2026-09-01 09:40",
+ "generatedTime": "2026-09-01 13:42",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 170,
+ "weeklyPages": 171,
  "weeklyChanges": 1477,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-08-31｜AI知识增量整理.md",
@@ -29,7 +29,7 @@ window.OBSIDIAN_DATA = {
    "name": "知识流水线",
    "key": "pipeline",
    "icon": "📚",
-   "count": 48
+   "count": 49
   }
  ],
  "nodes": [
@@ -4154,6 +4154,16 @@ window.OBSIDIAN_DATA = {
    "wordCount": 11853
   },
   {
+   "path": "知识流水线/Agent Notifier统一通知机制.md",
+   "title": "Agent Notifier 统一通知机制",
+   "updated": "2026-09-01",
+   "topic": "pipeline",
+   "links": [],
+   "backlinks": [],
+   "desc": "统一接收多个 Agent（Friday / Codex / Jarvis 等）的任务完成通知，通过 macOS 通知中心弹出提醒，并记录日志。",
+   "wordCount": 2556
+  },
+  {
    "path": "知识流水线/Agent Ontology 1.0运行数据库与闭环落地.md",
    "title": "Agent Ontology 1.0 运行数据库与闭环落地",
    "updated": "2026-08-26",
@@ -5427,7 +5437,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "评测与可观测性",
-   "matched": 2,
+   "matched": 3,
    "status": "正在形成"
   },
   {
@@ -5856,7 +5866,7 @@ window.OBSIDIAN_DATA = {
     "assignee": "徐总"
    }
   ],
-  "total": 111,
-  "fetchedAt": "2026年9月1日 09:40"
+  "total": 112,
+  "fetchedAt": "2026年9月1日 13:42"
  }
 };
