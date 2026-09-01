@@ -1,11 +1,11 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-01",
- "generatedTime": "2026-09-01 13:42",
+ "generatedTime": "2026-09-01 23:11",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 171,
  "weeklyChanges": 1477,
  "sourceIndex": "知识库索引.md",
- "digest": "知识流水线/每日学习整理/2026-08-31｜AI知识增量整理.md",
+ "digest": "知识流水线/每日学习整理/2026-09-01｜AI知识增量整理.md",
  "topics": [
   {
    "name": "AI Agent工程知识",
@@ -4989,70 +4989,76 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "today": {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "items": [
    {
-    "title": "**（新建·一级目录 + 专题入口）`多智能体协作任务/` 4 篇（15:47–17:32）** — 豆包助手于 2026-08-31 建立的新顶层目录：`多智能体协作任务专题.md`（入口索引，声明\"不承载过程记录本身\"）、`多智能体协作体系总览.md`（完整架构图 + 9 大组件接入状态 + 验证结果 + 变更记录）、`KNOWLEDGEPIP-142-Memory Guard上下文连续性管理.md`、`KNOWLEDGEPIP-143-多智能体协作工作台搭建.md`。总览确立四层分工：**状态层（Taskboard 47823）/ 执行层（Memory Guard）/ 知识层（Obsidian）/ 展示层（飞书多维表格 + 网页端）**，靠 `task_id` 单向对齐。",
-    "summary": "",
+    "title": "窗口内变更清单",
+    "summary": "| 时间 | 文件 | 大小 | 层级判断 |\n|||||\n| 17:57 | `徐总每日随记/当日记录/20260901.md` | 3.4 KB | 个人层·当日随记（AI 主",
     "points": [],
-    "date": "2026-08-31"
+    "date": "2026-09-01"
    },
    {
-    "title": "**（新建·工具与方法页）`Codex工作区/Memory Guard - *` 四篇（10:06–11:07）** — `多Agent上下文连续性管理`（总览）、`多Agent接入指南`、`标准项目初始化流程`、`命令参考手册`。核心机制：**事件驱动 + 四份文档 + 脚本强制，不依赖 Agent 自觉**；单一真相源 `events.jsonl`（v2.0 schema，14 字段 / 20 种事件类型），`HANDOFF.md` 从事件自动派生，`DECISIONS.md` / `LESSONS.md` / `daily/` 分列；`promote` 命令晋升 Obsidian 需 manual/codex 审核，不自动晋升。溯源 Codex 评估 Thread `01a05579-…`，由 Alpha Friday 实现。",
-    "summary": "",
+    "title": "今日任务面板动了什么（任务×知识映射）",
+    "summary": "| 卡 | 状态变化 | 对应知识增量 | 所属方向 |\n|||||\n| KNOWLEDGEPIP145（Agent Notifier 统一通知机制） | → done（0901 ",
     "points": [],
-    "date": "2026-08-31"
+    "date": "2026-09-01"
    },
    {
-    "title": "**（更新·正式笔记）`AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md`（11:03）** — 新增「2026-08-31 落地更新（自动建 Session）」告示块：Harness 原生 `session/create` 已在 Alpha 47911 实测通过，**修正此前\"必须人工先建 Web 对话框\"的判断**（准确表述为\"现有 Skill 尚未封装自动创建能力\"）；给出 `session/create` / `session/rename` 的正确参数包裹形式（缺少 `request` 外层是此前 `Remote payload must contain exactly one plain-object args field` 的根因）；Gateway 新增 `POST /v1/sessions` + Session Registry 持久化。",
-    "summary": "",
-    "points": [],
-    "date": "2026-08-31"
-   },
-   {
-    "title": "**（更新·正式主版本）`AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md`（17:04）** — 新增 **12.10「腾讯 FDE 报告对横纵轴模型的校正」**：纵轴 = AI 参与业务判断的深度（非 Agent 数量），横轴 = 从场景识别到规模化的工程成熟度（非技术名词多少）；明确\"先 Skill、后模板、再 Ontology\"的建设节奏。",
-    "summary": "",
-    "points": [],
-    "date": "2026-08-31"
-   },
-   {
-    "title": "**（新建·问题专题）`徐总问题专题库/06_企业AI与商业化/2026-08-31_腾讯FDE报告与生产级Agent横纵轴判断.md`（17:04）** — 两条边界结论：**生产级不等于复杂化；Ontology 不是入场券**。给出「业务类型 → 优先形态 → 适合执行框架」四行对照表（RPA/API/Workflow → AI 增强流程 → Agentic Workflow → 生产级 Agent 系统），并把 WorkBuddy / 千问办公 / DeepSeek Harness / RPA 判定为组合关系而非三选一。",
-    "summary": "",
-    "points": [],
-    "date": "2026-08-31"
-   },
-   {
-    "title": "**（更新·案例研究）`企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md`（16:28）** — KNOWLEDGEPIP-84 报告研究页维护，报告七大结论与 Echo/Delta 框架、Bob McGrew 度量原则（第 1 个客户 10 人月、第 10 个同类客户仍 10 人月即模式未跑通）已在页内成型。",
-    "summary": "",
-    "points": [],
-    "date": "2026-08-31"
-   },
-   {
-    "title": "**（更新·当日随记）`徐总每日随记/当日记录/2026-08-31.md`（11:19）** — 本日唯一的完整执行证据源：Harness 架构收敛（C1–C4 全完成）、自动化「每3小时归档清理」根因与修复、多 Session 语义纠正、当前收敛后端口架构表。",
-    "summary": "",
-    "points": [],
-    "date": "2026-08-31"
-   },
-   {
-    "title": "**（更新·项目运行记录）`DeepSeek Harness项目/` 3 篇（16:30–16:54）+ `任务面板与知识库/` 2 篇（11:02、13:15）+ `AI Agent工程知识/多Agent协作架构…全链路.md`（08-30 23:41）** — 运行层证据与设计记录同步，属 Harness 主线留痕，非新概念。",
-    "summary": "",
-    "points": [],
-    "date": "2026-08-31"
-   },
-   {
-    "title": "**（台账状态整理）`原始资料/已整理｜…` 26 篇 + `知识流水线/A_原始资料.md`（16:21–16:22）** — 集中标注\"已整理\"状态并同步全局资料池台账，不含新增内容。",
-    "summary": "",
-    "points": [],
-    "date": "2026-08-31"
+    "title": "实质增量内容（三条）",
+    "summary": "① AI Office 运营驾驶舱（KNOWLEDGEPIP144）\n 定位从「Harness Alpha Web Client Plugin（走官方 Slot）」转为独立网页端，",
+    "points": [
+     "定位从「Harness Alpha Web Client Plugin（走官方 Slot）」**转为独立网页端**，不加载插件、不改 Harness 核心代码、不动 Friday/Jarvis 生产 Preset。",
+     "架构：浏览器 → `harness-proxy.py`（:8766，token 自动认证 + API 代理 + 静态服务）→ Harness Alpha（:47911）→ Session + `session.jsonl.zstd` 历史消",
+     "数据面：`/api/sessions`、`/api/session/<id>[/history|/summary|/insight]`、`/api/harness/status|start|restart|stop`；缓存分层 5s / 6",
+     "UI 走完 V1→V10 十轮，最终收敛为「V8 数据架构主干 + V4 拟人化办公位视觉」，右边栏改弹出式 Drawer（400px），状态用屏幕配色区分（运行中深蓝发光 / 空闲深灰 / 待确认深棕 / 失败深红 / 已完成深蓝）。",
+     "记录了 **5 条已验证做不通的方向**和 **10 条用户明确设计原则**。",
+     "从「轮询 + 用户中转」改为「Webhook 上报 + 主控端消费」的事件队列（:8765），launchd `com.ai-office.agent-notifier` 开机自启（RunAtLoad + KeepAlive）。"
+    ],
+    "date": "2026-09-01"
    }
   ],
   "judgments": [
-   "多智能体协作从\"架构图\"跨入\"可强制执行的基础设施\"，关键机制是把上下文连续性交给脚本而不是 Agent 自觉。 Memory Guard 用 `events.jsonl` 做单一真相源、`HANDOFF.md` 从事件派生、`delegation_mode` 四模式 + Done 闸门强制校验子代理拆分，并与 `taskboard-connector` 在 start/checkpoint/end 三个节点自动联动状态与飞书通知。同时 KP-143 引入 `knowledge_synced` 强制中间态（待办 → 执行中 → 待审核 → 已完成 → 知识已沉淀 → 关闭，不可跳过）+ 巡检兜底扫描\"已完成但未沉淀\"。这直接补上 08-30 三层控制模型缺的一环：控制层有了状态机与账本，才不再是\"发消息等回复\"。",
-   "Harness 端口口径发生纠错级变更，且与 08-30 日报记录直接冲突，必须以今日为准。 今日实测确认：48111 = 唯一真实在用的 Alpha Control Gateway（`/v1/health` 返回 HTTP 200 `{\"gateway\":\"ok\",\"instance\":\"alpha\",\"port\":47911}`，已配 KeepAlive launchd 常驻）；48911 = `control-gateway/index.mjs` 里的源码默认常量死值，从未上线；59823 = 历史 control-center Gateway，源文件已删但 plist 未摘导致崩溃循环（error.log 曾涨到 7.4MB），今日已 `launchctl bootout` + plist 改名备份卸载。7 处 Skill/脚本端口口径已统一。⚠️ 08-30 日报第 2 条判断中\"端口统一为 48911\"的表述已被推翻。三个 web 实例 47880 / 47900 / 47911 均保留，无证据支持下线。",
-   "腾讯 FDE 报告给企业 AI 主线加了两条\"减法\"边界：生产级 ≠ 复杂化，Ontology 不是入场券。 结论已同日回流主版本 12.10 并建立问题专题条目。实操含义是分流顺序固定为：先判业务的判断深度与风险等级 → 再决定要不要上 Ontology / Harness / Evals / HITL；确定性动作用 RPA/API/Workflow 就能产生生产价值。这与我们此前\"Ontology 是理解一切案例的底层语言\"的强调形成节奏校正——Ontology 仍是基础概念，但不是所有项目的前置门槛。"
+   "判断 1｜上层观测面不侵入运行基座——用只读 API 代理换取安全边界",
+   "判断 2｜通知机制的正确目标是主控端，不是用户",
+   "判断 3｜展示层不得二次推断运行状态——负结果比成功路径更值钱"
   ]
  },
  "dailies": [
+  {
+   "date": "2026-09-01",
+   "items": [
+    {
+     "title": "窗口内变更清单",
+     "summary": "| 时间 | 文件 | 大小 | 层级判断 |\n|||||\n| 17:57 | `徐总每日随记/当日记录/20260901.md` | 3.4 KB | 个人层·当日随记（AI 主",
+     "points": [],
+     "date": "2026-09-01"
+    },
+    {
+     "title": "今日任务面板动了什么（任务×知识映射）",
+     "summary": "| 卡 | 状态变化 | 对应知识增量 | 所属方向 |\n|||||\n| KNOWLEDGEPIP145（Agent Notifier 统一通知机制） | → done（0901 ",
+     "points": [],
+     "date": "2026-09-01"
+    },
+    {
+     "title": "实质增量内容（三条）",
+     "summary": "① AI Office 运营驾驶舱（KNOWLEDGEPIP144）\n 定位从「Harness Alpha Web Client Plugin（走官方 Slot）」转为独立网页端，",
+     "points": [
+      "定位从「Harness Alpha Web Client Plugin（走官方 Slot）」**转为独立网页端**，不加载插件、不改 Harness 核心代码、不动 Friday/Jarvis 生产 Preset。",
+      "架构：浏览器 → `harness-proxy.py`（:8766，token 自动认证 + API 代理 + 静态服务）→ Harness Alpha（:47911）→ Session + `session.jsonl.zstd` 历史消",
+      "数据面：`/api/sessions`、`/api/session/<id>[/history|/summary|/insight]`、`/api/harness/status|start|restart|stop`；缓存分层 5s / 6",
+      "UI 走完 V1→V10 十轮，最终收敛为「V8 数据架构主干 + V4 拟人化办公位视觉」，右边栏改弹出式 Drawer（400px），状态用屏幕配色区分（运行中深蓝发光 / 空闲深灰 / 待确认深棕 / 失败深红 / 已完成深蓝）。",
+      "记录了 **5 条已验证做不通的方向**和 **10 条用户明确设计原则**。",
+      "从「轮询 + 用户中转」改为「Webhook 上报 + 主控端消费」的事件队列（:8765），launchd `com.ai-office.agent-notifier` 开机自启（RunAtLoad + KeepAlive）。"
+     ],
+     "date": "2026-09-01"
+    }
+   ],
+   "judgments": [
+    "判断 1｜上层观测面不侵入运行基座——用只读 API 代理换取安全边界",
+    "判断 2｜通知机制的正确目标是主控端，不是用户",
+    "判断 3｜展示层不得二次推断运行状态——负结果比成功路径更值钱"
+   ]
+  },
   {
    "date": "2026-08-31",
    "items": [
@@ -5349,46 +5355,6 @@ window.OBSIDIAN_DATA = {
     "算电协同把 AI 基础设施竞争从\"芯片/算力堆叠\"升级为\"能源—算力融合系统\"竞争。远景星河基地从设计第一天起把源网荷储与算力绑在同一调度体系（天枢系统），并用 800V 直流 + 固态变压器（98.5% 效率、功率密度 +50%）压损，把数据中心重构为发电—储能—供电—算力一体的\"AI5 设施\"。这把中国 AI 竞争力的支点从单卡性能挪到系统融合效率，是算力主线的新变量。但本判断源自第三方视频解读，属待验证外部资料。",
     "Harness rc.2 验收闭环已完成，但暴露\"版本错配\"运维教训：rc.2 核心能力（Codex 子代理 headless+Web 双真实链路、多模态、Job Panel、自建 UI 兼容）全部 PASS，唯一硬限制是 Codex 多实例（同包多实例 loader 限制）；然而徐总\"验证一下\"发现 live 47900 是 rc.7 代码 + rc2 数据目录的错配实例——验证前必须先确认 live 实例的代码版本而非只看数据目录/配置树，否则结论不可信。强化\"可回滚 / 可并行 / 可追溯 + 版本先核验\"的 Agent Runtime 运维 SOP。",
     "Jarvis Preset「工作配方」范式 + 跨 Preset 额度隔离厘清，是可组合 Agent Runtime 的标准装配认知。Jarvis = Persona+Skill+Workflow+Consumer Tools（工作配方）/ Host Runtime（Services、Tool Providers、Subagent Registry、权限模型 Session 持久化）/ UI Plugin 三层清晰装配；额度边界证明父模型与子进程按登录态/产品额度隔离（父 Friday=MiniMax，Codex 子进程=Codex 登录态）。这是\"可组合 Agent Runtime\"从机制到产品化（Preset 广场扩展）的稳定范式，强化生产级 Agent 系统架构主线。"
-   ]
-  },
-  {
-   "date": "2026-08-24",
-   "items": [
-    {
-     "title": "**【新增·升级验证记录】DSH v0.1.1-rc.2 升级副本验证记录**（`DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录.md`，date 2026-08-24，status: 已建副本（待真实调用验证））：记录 rc.8 起 Claude Code/Codex 变成可安装的 Profile Bundle 子代理插件包（契合\"主控编排\"思路）；版本矩阵 rc.7（主）/rc.8（副本已删）/v0.1.1-rc.2（副本）；SQLite 后端 rc.7/rc.8 不兼容无迁移工具；副本搭建全流程（完整备份 208MB、DSH_HOME 隔离、gh api tarball 下载、build、验证）；Codex 子代理 5 项端到端验证全过，关键发现 **OPENAI_API_KEY 非必需**（本机 `~/.codex/auth.json` chatgpt 登录态足够，模型 gpt-5.6-luna）；DSH 维护三联动记录规则（徐总确认 2026-08-24）；模型配置迁移。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-24"
-    },
-    {
-     "title": "**【更新·项目记录】Knowledge Plugin 相比其他调用方式的实际提升**（`DeepSeek Harness项目/DeepSeek Harness项目记录.md`，2026-08-24 新增段）：把 Obsidian 从 Agent 直接操作的文件后端，提升为 Harness Runtime 中的统一 Knowledge Service 与 typed Tools（`knowledge.search/read/list/create/update`）。对比直接写文件 / CLI / HTTP / 各 Agent 自做接口的局限，插件化收益为统一入口、后端可替换、Runtime 生命周期、权限治理、真实调用可审计。明确\"文件存在、CLI 成功、HTTP 200、Node import 或配置加载\"都不能算插件完成，须证明 Harness 加载→Agent roster→真实 Tool Call→Tool Result→持久化回读→权限失败路径。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-24"
-    },
-    {
-     "title": "**【更新·项目记录】DSH v0.1.1-rc.2：Codex 子代理真实调用验收**（`DeepSeek Harness项目/DeepSeek Harness项目记录.md`，2026-08-24）：隔离副本 headless Profile 补挂 `subagent-codex` 与 `dsh-tool-subagent`，完成完整闭环——模型发起原生 `subagent_codex` tool-call，返回 `isError=false` 的 `CODEX_SUBAGENT_OK master`，父 Agent 原样收到结果。证明 Codex Provider 已完成 `Host Provider → Agent Consumer → Native Tool Call → Tool Result`，是可组合 Agent 运行时派发编码子代理的实证。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-24"
-    },
-    {
-     "title": "**【更新·项目记录】Claude Code 子代理真实调用验收 + 范围决定**（`DeepSeek Harness项目/DeepSeek Harness项目记录.md`，2026-08-24）：同一 rc2 Profile 挂载 `@deepseek-ai/dsh-subagent-claude-code`，真实 Session 中模型原生调用 `subagent_claude_code` 但返回 `isError=true`（`command \"claude\" was not found on PATH`），父模型改调 Codex 后的 `CLAUDE_SUBAGENT_OK master` 只是文本结果，不算成功。据此**当前不配置 Claude Code**，失败证据保留但不纳入本次验收；两者均不进模型选择器、不自动生成 UI 按钮。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-24"
-    },
-    {
-     "title": "**【更新·项目记录】rc2 Web 可用性恢复**（`DeepSeek Harness项目/DeepSeek Harness项目记录.md`，2026-08-24）：新版副本不能创建会话的根因是两项副本问题——旧版 `.credentials.yaml` 格式不符合 rc2 扁平字符串映射；Friday Preset 仍引用主环境 Knowledge Plugin 路径。已恢复副本凭据（设 0600）、移除失效 Knowledge Plugin 引用、重启 `com.harness.web.rc2` 47900，浏览器真实验证可创建会话，主环境未改。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-24"
-    }
-   ],
-   "judgments": [
-    "Knowledge Plugin 的本质价值是\"文件后端 → Runtime 统一 Knowledge Service + typed Tools\"，这是生产级 Agent 知识层架构范式。它把\"Agent 直接写文件\"升级为统一入口、后端可替换、Runtime 生命周期、权限治理、真实调用可审计的知识访问方式。这不同于任何\"也能读写 Markdown\"的浅层方案，是 Agent 知识层工程化（权限门控、可审计、可替换）的可复用认知。",
-    "Harness 子代理从\"安装/注册\"进化为\"真实 Tool Call → Tool Result 闭环\"——必须严格区分\"加载通过\"与\"端到端成功\"。Codex 子代理已端到端验证（`isError=false`），证明 Harness 可作为可组合 Agent 运行时派发编码子代理（主控编排思路落地）；而 Claude Code 仅完成加载与 Tool 入口验证、实际执行失败，故不算通过。这条验收纪律（须证明完整闭环而非部分通过）直接复用并强化了 08-15/08-17 的工业级多智能体协作与 System Ontology 方向。",
-    "基础设施升级纪律沉淀为\"可回滚、可并行、可追溯\"的生产级运维认知。DSH 维护三联动记录规则（搭建记录 / 知识库 / 任务面板互链）、SQLite 不兼容须先备份、DSH_HOME 隔离多版本并行、rc.8 能力已含于 v0.1.1-rc.2 故精简到 2 环境——这些把一次版本升级转化为可复用运维 SOP，而非一次性操作。"
    ]
   }
  ],
@@ -5867,6 +5833,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 112,
-  "fetchedAt": "2026年9月1日 13:42"
+  "fetchedAt": "2026年9月1日 23:11"
  }
 };
