@@ -1,11 +1,11 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-02",
- "generatedTime": "2026-09-02 22:01",
+ "generatedTime": "2026-09-02 23:05",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 21,
  "weeklyChanges": 393,
  "sourceIndex": "知识库索引.md",
- "digest": "知识流水线/每日学习整理/2026-09-01｜AI知识增量整理.md",
+ "digest": "知识流水线/每日学习整理/2026-09-02｜AI知识增量整理.md",
  "topics": [
   {
    "name": "AI Agent工程知识",
@@ -5028,41 +5028,76 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "today": {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "items": [
    {
     "title": "窗口内变更清单",
-    "summary": "| 时间 | 文件 | 大小 | 层级判断 |\n|||||\n| 17:57 | `徐总每日随记/当日记录/20260901.md` | 3.4 KB | 个人层·当日随记（AI 主",
+    "summary": "| 时间 | 文件 | 大小 | 层级判断 |\n|||||\n| 0902 18:04 | `AI产业链与数字基础设施/Token工厂完整产业链洞察：六个加工动作、网络护城河与三层包",
     "points": [],
-    "date": "2026-09-01"
+    "date": "2026-09-02"
    },
    {
     "title": "今日任务面板动了什么（任务×知识映射）",
-    "summary": "| 卡 | 状态变化 | 对应知识增量 | 所属方向 |\n|||||\n| KNOWLEDGEPIP145（Agent Notifier 统一通知机制） | → done（0901 ",
+    "summary": "| 卡 | 状态变化 | 对应知识增量 | 所属方向 |\n|||||\n| KNOWLEDGEPIP144（AI Office 多办公位） | in_progress（文档 upda",
     "points": [],
-    "date": "2026-09-01"
+    "date": "2026-09-02"
    },
    {
-    "title": "实质增量内容（三条）",
-    "summary": "① AI Office 运营驾驶舱（KNOWLEDGEPIP144）\n 定位从「Harness Alpha Web Client Plugin（走官方 Slot）」转为独立网页端，",
+    "title": "实质增量内容（三条主线）",
+    "summary": "① 多智能体协作从「架构图」跨入「可强制执行的基础设施」\n\n `多智能体协作体系总览.md` 新增 A000 全域总控层：A000（Codex 内部职称，位置 `/Users/xu",
     "points": [
-     "定位从「Harness Alpha Web Client Plugin（走官方 Slot）」**转为独立网页端**，不加载插件、不改 Harness 核心代码、不动 Friday/Jarvis 生产 Preset。",
-     "架构：浏览器 → `harness-proxy.py`（:8766，token 自动认证 + API 代理 + 静态服务）→ Harness Alpha（:47911）→ Session + `session.jsonl.zstd` 历史消",
-     "数据面：`/api/sessions`、`/api/session/<id>[/history|/summary|/insight]`、`/api/harness/status|start|restart|stop`；缓存分层 5s / 6",
-     "UI 走完 V1→V10 十轮，最终收敛为「V8 数据架构主干 + V4 拟人化办公位视觉」，右边栏改弹出式 Drawer（400px），状态用屏幕配色区分（运行中深蓝发光 / 空闲深灰 / 待确认深棕 / 失败深红 / 已完成深蓝）。",
-     "记录了 **5 条已验证做不通的方向**和 **10 条用户明确设计原则**。",
-     "从「轮询 + 用户中转」改为「Webhook 上报 + 主控端消费」的事件队列（:8765），launchd `com.ai-office.agent-notifier` 开机自启（RunAtLoad + KeepAlive）。"
+     "`多智能体协作体系总览.md` 新增 **A000 全域总控层**：A000（Codex 内部职称，位置 `/Users/xucheng/Documents/Codex项目/A000全域总控/`）→ 项目 MC-001 → 项目内部 Age",
+     "`多智能体协作闭环方法：主控-规划-执行-验收.md`（09-02 10:21，17 节）：以 AI Office 为案例沉淀**通用方法论**（type: methodology），含角色分工表、全局/项目主控边界、标准任务流程（核心线固",
+     "`2026-09-02｜全域主控与项目Agent协作流程搭建复盘.md`（09-02 13:06）：A000 控制面建立、Codex 内 MC/PA/DE 三线程、实际跑通一轮、Codex→Harness Session 执行路径延伸、Py",
+     "`全局记忆/02_系统架构.md`（09-02 10:38）：确立「**两套体系与角色流动（2026-09-02 确立）**」——A000 是 Codex 内部职称，MC-001 是角色而非固定 Agent；豆包助手=用户对话时 A000、",
+     "`Token工厂完整产业链洞察：六个加工动作、网络护城河与三层包装.md`（09-02 18:04，由 IMA「电力基建和算力」蒸馏入库，status 标注含估算与未核验数据）。",
+     "8 条核心判断：Token 工厂比智算中心**多 6 个加工动作**（这是它多赚 75–85% 的来源）；**网络互联是最被低估的护城河**（延迟-效率损失、成本占比随规模非线性升至 60%+）；国产 AI 网络是 2026–2028 卡脖"
     ],
-    "date": "2026-09-01"
+    "date": "2026-09-02"
    }
   ],
   "judgments": [
-   "判断 1｜上层观测面不侵入运行基座——用只读 API 代理换取安全边界",
-   "判断 2｜通知机制的正确目标是主控端，不是用户",
-   "判断 3｜展示层不得二次推断运行状态——负结果比成功路径更值钱"
+   "判断 1｜多智能体协作从「架构图」跨入「可强制执行的基础设施」——A000 控制面 + 闭环方法论页 + Python/Skill 门禁底座同时就位",
+   "判断 2｜Token 工厂比智算中心多赚的 75–85% 来自 6 个加工动作，网络互联是最深护城河（成本占比随规模升至 60%+）",
+   "判断 3｜Harness 的「completed」必须看最终 assistant 文本而非 tool-call 返回——Gateway 结果回收修正把回执从提前截断改为完整回收"
   ]
  },
  "dailies": [
+  {
+   "date": "2026-09-02",
+   "items": [
+    {
+     "title": "窗口内变更清单",
+     "summary": "| 时间 | 文件 | 大小 | 层级判断 |\n|||||\n| 0902 18:04 | `AI产业链与数字基础设施/Token工厂完整产业链洞察：六个加工动作、网络护城河与三层包",
+     "points": [],
+     "date": "2026-09-02"
+    },
+    {
+     "title": "今日任务面板动了什么（任务×知识映射）",
+     "summary": "| 卡 | 状态变化 | 对应知识增量 | 所属方向 |\n|||||\n| KNOWLEDGEPIP144（AI Office 多办公位） | in_progress（文档 upda",
+     "points": [],
+     "date": "2026-09-02"
+    },
+    {
+     "title": "实质增量内容（三条主线）",
+     "summary": "① 多智能体协作从「架构图」跨入「可强制执行的基础设施」\n\n `多智能体协作体系总览.md` 新增 A000 全域总控层：A000（Codex 内部职称，位置 `/Users/xu",
+     "points": [
+      "`多智能体协作体系总览.md` 新增 **A000 全域总控层**：A000（Codex 内部职称，位置 `/Users/xucheng/Documents/Codex项目/A000全域总控/`）→ 项目 MC-001 → 项目内部 Age",
+      "`多智能体协作闭环方法：主控-规划-执行-验收.md`（09-02 10:21，17 节）：以 AI Office 为案例沉淀**通用方法论**（type: methodology），含角色分工表、全局/项目主控边界、标准任务流程（核心线固",
+      "`2026-09-02｜全域主控与项目Agent协作流程搭建复盘.md`（09-02 13:06）：A000 控制面建立、Codex 内 MC/PA/DE 三线程、实际跑通一轮、Codex→Harness Session 执行路径延伸、Py",
+      "`全局记忆/02_系统架构.md`（09-02 10:38）：确立「**两套体系与角色流动（2026-09-02 确立）**」——A000 是 Codex 内部职称，MC-001 是角色而非固定 Agent；豆包助手=用户对话时 A000、",
+      "`Token工厂完整产业链洞察：六个加工动作、网络护城河与三层包装.md`（09-02 18:04，由 IMA「电力基建和算力」蒸馏入库，status 标注含估算与未核验数据）。",
+      "8 条核心判断：Token 工厂比智算中心**多 6 个加工动作**（这是它多赚 75–85% 的来源）；**网络互联是最被低估的护城河**（延迟-效率损失、成本占比随规模非线性升至 60%+）；国产 AI 网络是 2026–2028 卡脖"
+     ],
+     "date": "2026-09-02"
+    }
+   ],
+   "judgments": [
+    "判断 1｜多智能体协作从「架构图」跨入「可强制执行的基础设施」——A000 控制面 + 闭环方法论页 + Python/Skill 门禁底座同时就位",
+    "判断 2｜Token 工厂比智算中心多赚的 75–85% 来自 6 个加工动作，网络互联是最深护城河（成本占比随规模升至 60%+）",
+    "判断 3｜Harness 的「completed」必须看最终 assistant 文本而非 tool-call 返回——Gateway 结果回收修正把回执从提前截断改为完整回收"
+   ]
+  },
   {
    "date": "2026-09-01",
    "items": [
@@ -5360,40 +5395,6 @@ window.OBSIDIAN_DATA = {
     "垂直任务的可靠完成缺的不是模型智商，而是\"统一编排层\"：多平台各自规划、额度驱动换手、无共享状态、人肉做主控，是同一根因（缺统一编排层）的衍生；解法方向是\"任务卡（共享状态层）+ 主控（编排层）+ 专属 skill（能力层）\"三层结构。这是生产级 Agent 落地的 reusable 判断，印证本库 FDE/系统编排方法论。",
     "\"可接入性决定工具地位\"是纳入 Agent 系统的硬约束：本次旅行中能进统一链条的不是能力最强的平台，而是\"能被自动化接入\"的平台（小红书有网页版→成 skill；美团/百度 AI 无网页版→接不进）。这对\"哪些外部工具能纳入本库 Agent 系统\"是底层判定标准，能力反而是其次。",
     "算力金融化把 AI 产业链竞争从\"芯片-算力堆叠\"延伸到\"资本-资产证券化与风险传导\"：英伟达联合华尔街以 SPV/表外融资/MBS 类比撬动第三方资本，与 08-25 算电协同共同构成 AI 基础设施的\"能源—资本\"双变量，是 AI产业链与数字基础设施主线的新维度。"
-   ]
-  },
-  {
-   "date": "2026-08-25",
-   "items": [
-    {
-     "title": "**新建原始资料：远景星河基地与算电协同（高盛中国算力研报衍生解读）** —— `原始资料/未整理｜2026-08-25｜视频·高盛算力研报解读｜远景星河基地与算电协同：中国AI换道超车.md`。第三方视频解读：乌兰察布上半年签约算力负荷 12.5GW（同比翻 10 倍）、远景星河基地（全球最大 AI 算力超级单体，园区规划 >2GW）、超节点、源网荷储 + 绿电直供、天枢能源调度、构网型储能 / 纳粒子储能 / 800V 直流 + 固态变压器（98.5% 效率、功率密度 +50%）、\"AI5 设施\"一体化、中国 AI 换道超车。状态：未整理，属待蒸馏外部素材。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-25"
-    },
-    {
-     "title": "**DSH v0.1.1-rc.2 升级副本验证记录扩充** —— `DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录.md`。新增 §五·三~五·五 与 §七：rc.2 核心能力（Codex 子代理 headless+Web 双链路、多模态端到端、Job Panel 实操、jarvis-office-ui 挂载兼容）全部真实 PASS，唯一限制为 Codex 多实例（同包多实例 loader 失败）；§七 徐总要求\"验证一下\"后暴露关键事实——当前 live 47900 进程实为 **rc.7 代码加载 rc.2 数据目录**（版本错配），rc.2 源码已不在磁盘，rc.8 仅能维持\"构建期验证通过\"结论，live 验证暂缓。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-25"
-    },
-    {
-     "title": "**DeepSeek Harness 项目记录新增三节** —— `DeepSeek Harness项目/DeepSeek Harness项目记录.md`。（a）Web 端 Codex 调用修复：rc2 launchd 未设 HOME/CODEX_HOME/PATH 致 app-server 失败，修复后 Web Friday 真实调用 `subagent_codex` 成功（CODEX_WEB_OK master）。（b）Web Codex 轨迹与额度边界复核：父模型 MiniMax-M3、原生 subagent_codex、isError=false；额度边界厘清——父 Friday 消耗 MiniMax 额度，Codex 子进程走 Codex 登录态与产品额度。（c）Jarvis Preset 工作配方与官方 Preset 机制：Jarvis 三层结构（Persona+Skill+Workflow+Consumer Tools / Host Runtime / UI Plugin）确立；官方 Preset roster ≠ Marketplace，工作配方 / Preset 广场可作产品化扩展。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-25"
-    },
-    {
-     "title": "**DeepSeek Harness 项目索引更新** —— `DeepSeek Harness项目/DeepSeek Harness项目索引.md`。§78 登记\"当前版本分布全景 + DSH Desktop 接入结论\"：实测三实例并行（主 web 47880=rc.7 / ACP Friday 47881=rc.7 / rc.2 源码实例 47900=rc.2）；DSH Desktop v0.5.0 捆绑 rc.1、数据目录独立、不接现有实例；\"下 DSH Desktop + 接 rc.2\"无法同时满足。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-25"
-    }
-   ],
-   "judgments": [
-    "算电协同把 AI 基础设施竞争从\"芯片/算力堆叠\"升级为\"能源—算力融合系统\"竞争。远景星河基地从设计第一天起把源网荷储与算力绑在同一调度体系（天枢系统），并用 800V 直流 + 固态变压器（98.5% 效率、功率密度 +50%）压损，把数据中心重构为发电—储能—供电—算力一体的\"AI5 设施\"。这把中国 AI 竞争力的支点从单卡性能挪到系统融合效率，是算力主线的新变量。但本判断源自第三方视频解读，属待验证外部资料。",
-    "Harness rc.2 验收闭环已完成，但暴露\"版本错配\"运维教训：rc.2 核心能力（Codex 子代理 headless+Web 双真实链路、多模态、Job Panel、自建 UI 兼容）全部 PASS，唯一硬限制是 Codex 多实例（同包多实例 loader 限制）；然而徐总\"验证一下\"发现 live 47900 是 rc.7 代码 + rc2 数据目录的错配实例——验证前必须先确认 live 实例的代码版本而非只看数据目录/配置树，否则结论不可信。强化\"可回滚 / 可并行 / 可追溯 + 版本先核验\"的 Agent Runtime 运维 SOP。",
-    "Jarvis Preset「工作配方」范式 + 跨 Preset 额度隔离厘清，是可组合 Agent Runtime 的标准装配认知。Jarvis = Persona+Skill+Workflow+Consumer Tools（工作配方）/ Host Runtime（Services、Tool Providers、Subagent Registry、权限模型 Session 持久化）/ UI Plugin 三层清晰装配；额度边界证明父模型与子进程按登录态/产品额度隔离（父 Friday=MiniMax，Codex 子进程=Codex 登录态）。这是\"可组合 Agent Runtime\"从机制到产品化（Preset 广场扩展）的稳定范式，强化生产级 Agent 系统架构主线。"
    ]
   }
  ],
@@ -5872,6 +5873,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 112,
-  "fetchedAt": "2026年9月2日 22:01"
+  "fetchedAt": "2026年9月2日 23:05"
  }
 };
