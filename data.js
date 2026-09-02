@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-02",
- "generatedTime": "2026-09-02 09:53",
+ "generatedTime": "2026-09-02 13:55",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 18,
- "weeklyChanges": 348,
+ "weeklyPages": 19,
+ "weeklyChanges": 352,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-01｜AI知识增量整理.md",
  "topics": [
@@ -11,7 +11,7 @@ window.OBSIDIAN_DATA = {
    "name": "AI Agent工程知识",
    "key": "agent",
    "icon": "🤖",
-   "count": 38
+   "count": 39
   },
   {
    "name": "企业AI与智能体商业化",
@@ -675,6 +675,21 @@ window.OBSIDIAN_DATA = {
    "backlinks": [],
    "desc": "团队级 Agent 记忆中枢：把对话、文档、代码提炼为四类可复用资产（ChatMemory / Skill / Wiki / CodeGraph），支持记忆的治理、共享与跨框架装配",
    "wordCount": 4769
+  },
+  {
+   "path": "AI Agent工程知识/多智能体协作闭环方法：主控-规划-执行-验收.md",
+   "title": "多智能体协作闭环方法：主控-规划-执行-验收",
+   "updated": "2026-09-02",
+   "topic": "agent",
+   "links": [
+    "全局记忆/智能体启动与身份连续性统一合同",
+    "多智能体协作任务/多智能体协作体系总览",
+    "知识库索引",
+    "全局记忆/08_多平台知识库治理"
+   ],
+   "backlinks": [],
+   "desc": "本文记录多智能体协作中“如何分工、如何传递、如何留痕、如何验收”的通用方法。AI Office 仅作为本次实践案例，用来暴露流程问题；本文不以 AI Office 的页面、版本或具",
+   "wordCount": 6931
   },
   {
    "path": "AI Agent工程知识/工业级多智能体协作系统设计：任务编排、依赖治理与结果对齐.md",
@@ -5833,6 +5848,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 112,
-  "fetchedAt": "2026年9月2日 09:53"
+  "fetchedAt": "2026年9月2日 13:55"
  }
 };
