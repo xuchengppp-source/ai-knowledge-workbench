@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-01",
- "generatedTime": "2026-09-01 23:11",
+ "generatedAt": "2026-09-02",
+ "generatedTime": "2026-09-02 09:53",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 171,
- "weeklyChanges": 1477,
+ "weeklyPages": 18,
+ "weeklyChanges": 348,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-01｜AI知识增量整理.md",
  "topics": [
@@ -5833,6 +5833,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 112,
-  "fetchedAt": "2026年9月1日 23:11"
+  "fetchedAt": "2026年9月2日 09:53"
  }
 };
