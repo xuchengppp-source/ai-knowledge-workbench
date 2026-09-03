@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-02",
- "generatedTime": "2026-09-02 23:05",
+ "generatedAt": "2026-09-03",
+ "generatedTime": "2026-09-03 14:18",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 21,
  "weeklyChanges": 393,
@@ -3808,7 +3808,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI产业链与数字基础设施/Token工厂完整产业链洞察：六个加工动作、网络护城河与三层包装.md",
    "title": "Token工厂完整产业链洞察：六个加工动作、网络护城河与三层包装",
-   "updated": "2026-09-02",
+   "updated": "2026-09-03",
    "topic": "infrastructure",
    "links": [
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
@@ -3821,7 +3821,7 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md"
    ],
    "desc": "上级：AI产业链与数字基础设施/AI产业链与数字基础设施专题",
-   "wordCount": 14350
+   "wordCount": 25305
   },
   {
    "path": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md",
@@ -5873,6 +5873,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 112,
-  "fetchedAt": "2026年9月2日 23:05"
+  "fetchedAt": "2026年9月3日 14:18"
  }
 };
