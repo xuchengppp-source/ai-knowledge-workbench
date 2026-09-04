@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-03",
- "generatedTime": "2026-09-03 14:18",
+ "generatedAt": "2026-09-04",
+ "generatedTime": "2026-09-04 10:35",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 21,
- "weeklyChanges": 393,
+ "weeklyPages": 14,
+ "weeklyChanges": 320,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-02｜AI知识增量整理.md",
  "topics": [
@@ -4064,10 +4064,12 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/A_原始资料.md",
    "title": "A_原始资料",
-   "updated": "2026-08-31",
+   "updated": "2026-09-04",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
+    "原始资料/未整理｜2026-09-03｜工信部官网+用户提供｜工信部414号文原文及解读：AI赚钱的逻辑变了",
+    "原始资料/未整理｜2026-09-02｜抖音｜承载力：职场高阶的政治成熟与四层认知觉醒",
     "原始资料/已整理｜2026-08-21｜Qwen-UI-Agent与Harness自重启能力方向",
     "原始资料/已整理｜2026-08-21｜抖音DeepSeek Harness系列文案",
     "原始资料/已整理｜2026-08-21｜红杉AI闭门会解读｜AI产业下半场：应用反攻模型层与Eval护城河",
@@ -4190,7 +4192,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识获取与录入三条链路现状与卡壳点.md"
    ],
    "desc": "上级：知识流水线/知识流水线",
-   "wordCount": 11853
+   "wordCount": 12180
   },
   {
    "path": "知识流水线/Agent Notifier统一通知机制.md",
@@ -5824,7 +5826,7 @@ window.OBSIDIAN_DATA = {
  "tasks": {
   "summary": {
    "in_progress": 15,
-   "todo": 16,
+   "todo": 17,
    "in_review": 12,
    "blocked": 1
   },
@@ -5842,6 +5844,13 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "urgent",
     "assignee": "伊森"
+   },
+   {
+    "id": "KP-146",
+    "title": "AI Office 一人公司 V3 持久化迁移 0001 提案复核（Codex 字段级 diff 与决策）",
+    "status": "todo",
+    "priority": "high",
+    "assignee": "Codex（GPT-5.6主控）"
    },
    {
     "id": "KP-144",
@@ -5863,16 +5872,9 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "high",
     "assignee": "豆包助手"
-   },
-   {
-    "id": "KP-120",
-    "title": "DeepSeek Harness 清洁重装基线与新入口验收",
-    "status": "todo",
-    "priority": "high",
-    "assignee": "徐总"
    }
   ],
-  "total": 112,
-  "fetchedAt": "2026年9月3日 14:18"
+  "total": 113,
+  "fetchedAt": "2026年9月4日 10:35"
  }
 };
