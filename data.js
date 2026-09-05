@@ -1,11 +1,11 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-04",
- "generatedTime": "2026-09-04 23:03",
+ "generatedAt": "2026-09-05",
+ "generatedTime": "2026-09-05 23:04",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 16,
  "weeklyChanges": 423,
  "sourceIndex": "知识库索引.md",
- "digest": "知识流水线/每日学习整理/2026-09-04｜AI知识增量整理.md",
+ "digest": "知识流水线/每日学习整理/2026-09-05｜AI知识增量整理.md",
  "topics": [
   {
    "name": "AI Agent工程知识",
@@ -5058,46 +5058,84 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "today": {
-  "date": "2026-09-04",
+  "date": "2026-09-05",
   "items": [
    {
-    "title": "蜀道金租生产级 AI 建设方案（正式案例页）",
-    "summary": "首个国有三级金融租赁公司「个人辅助→企业生产级」完整演进方案，已登记专题与全库索引。",
+    "title": "DeepSeek Harness Alpha4 插件安装链路实测通过（项目层 SOP）",
+    "summary": "dsh-worktable v0.3.1 通过 `DSH_HOME=~/.dsh-alpha4 dsh plugin --profile web add <tgz>` 成功装进 a",
     "points": [
-     "关键事实：首个国有三级金融租赁公司「个人辅助→企业生产级」完整演进方案，已登记专题与全库索引。",
-     "关键事实：核心切入点是从知识库+数据库做起，三步走（筑基期→深化期→生产级），先做智能问答助手再进业务场景。",
-     "关键事实：用工信部 414 号文政策语言说服国有单位领导，强调主动作为、考核压力、首购首用风险补偿与安全可控。"
+     "关键事实：dsh-worktable v0.3.1 通过 `DSH_HOME=~/.dsh-alpha4 dsh plugin --profile web add <tgz>` 成功装进 alpha.4（dsh-v0.1.2-alpha.4",
+     "关键事实：据此新增《DeepSeek Harness 专属插件搭建指南（Alpha4 版）》——Plugin vs Profile、五件套构成（package.json / dsh.plugin.json / lib/index.js / ",
+     "关键事实：验证了 §102 核心机制——`dsh plugin --profile web add` 是唯一官方入口（pnpm 转发 + bundles reconcile），对 0.1.2-alpha.4 同样有效；属于 Harness（"
     ],
-    "date": "2026-09-04"
+    "date": "2026-09-05"
    },
    {
-    "title": "工信部 414 号文原文及解读（原始资料，政策信号）",
-    "summary": "FDE 前线部署工程师首次写入国家政策（工信厅科函〔2026〕414号，2026-08-31 发布）。",
+    "title": "抖音原始资料：多Agent架构选型（控制权归属决策框架）",
+    "summary": "视频核心观点——三种模式底层区别不是名词而是「控制权归属」：Manager（主 Agent 全程持有）/ Handoff（转移给专家多轮沟通）/ Agent-as-Tool（主 A",
     "points": [
-     "关键事实：FDE 前线部署工程师首次写入国家政策（工信厅科函〔2026〕414号，2026-08-31 发布）。",
-     "关键事实：探索首购首用、风险补偿加大大模型/智能体/Token 采购，建立服务商资源池，12-1 前各地报送。",
-     "关键事实：把 FDE 从「我方交付方法论」上升为「国家认可的 AI 落地角色」，已在蜀道金租页作为政策依据引用，正文仍待蒸馏。"
+     "关键事实：视频核心观点——三种模式底层区别不是名词而是「控制权归属」：Manager（主 Agent 全程持有）/ Handoff（转移给专家多轮沟通）/ Agent-as-Tool（主 Agent 持有，子 Agent 是工具只交成果）。",
+     "关键事实：给出选型决策树（需接管→Handoff；只交成果→Agent-as-Tool；要统一协调多专家→Manager）与各自致命误区（Handoff 交接必须提炼上下文而非全量传递）。",
+     "关键事实：含徐总与豆包 2026-09-04 讨论——多 Agent 价值不在「弱模型变强」，而在「强模型做战略、弱模型做情报」+ 上下文隔离/专业化/并行/错误隔离/成本分层；已落地 AI Office 一人公司三层状态管理（STATE."
     ],
-    "date": "2026-09-04"
+    "date": "2026-09-05"
    },
    {
-    "title": "Palantir 式本体万字长文（原始资料，Ontology）",
-    "summary": "系统拆解传统静态本体 vs Palantir 动态可运算企业本体（绑定业务操作、逻辑规则、权限治理与 AI 运算）。",
+    "title": "治理与索引类变更（非 AI 知识增量，仅记录）",
+    "summary": "`全局记忆/03_工作规则.md` 新增「正式项目导航与上下文边界规则（2026-09-05）」——每个正式项目需维护轻量 `PROJECT_INDEX.md`，智能体按 AGEN",
     "points": [
-     "关键事实：系统拆解传统静态本体 vs Palantir 动态可运算企业本体（绑定业务操作、逻辑规则、权限治理与 AI 运算）。",
-     "关键事实：从哲学本体论（亚里士多德）到数据治理方法论（Gruber 1993 定义），再到企业级数字孪生。",
-     "关键事实：可作为 AI Agent 工程知识/Ontology 基础概念页的深度外部佐证，待蒸馏判断能否补强概念页。"
+     "关键事实：`全局记忆/03_工作规则.md` 新增「正式项目导航与上下文边界规则（2026-09-05）」——每个正式项目需维护轻量 `PROJECT_INDEX.md`，智能体按 AGENTS→STATE→agent-routing.to",
+     "关键事实：`知识库索引.md` 与 `方向推进与接力.md` 当日更新，属导航/方向层维护，不计入知识增量判断。"
     ],
-    "date": "2026-09-04"
+    "date": "2026-09-05"
    }
   ],
   "judgments": [
-   "- 国有单位企业 AI 落地需要一套独立于民企的说服与实施方法论：政策语言 + 安全语言 + 政绩语言，而非 ROI/降本增效。",
-   "- 工信部 414 号文把 FDE 从「我方交付方法论」上升为「国家认可的 AI 落地角色」，并给了首购首用/风险补偿的采购依据与 12-1 报送的考核窗口。",
-   "- 在强监管、重档案、经验易流失的国有金融单位，「知识库优先于 Agent」是比民企更稳健的生产级切入点，验证了「知识库是生产级 AI 地基」判断的行业普适性。"
+   "- DeepSeek Harness 从「源码研究」跨入「可生产级装载第三方插件」阶段：Alpha4 独立安装链路实测通过，但 macOS 仍实验性、dshmarket 官方市场 peer 未适配 alpha.x 的风险未消除。",
+   "- 多 Agent 架构选型的真正判断标准是「控制权归属」而非名词堆砌：据此可给出跨项目复用的 Manager/Handoff/Agent-as-Tool 决策树，直接服务 AI Office 一人公司与所有多智能体编排。",
+   "- 徐总把多 Agent 价值重新锚定在「强模型做战略、弱模型做情报」+ 上下文隔离/专业化/并行/错误隔离/成本分层，并已落地为三层状态管理——这是多智能体方法论的成熟度提升，而非单纯工具讨论。"
   ]
  },
  "dailies": [
+  {
+   "date": "2026-09-05",
+   "items": [
+    {
+     "title": "DeepSeek Harness Alpha4 插件安装链路实测通过（项目层 SOP）",
+     "summary": "dsh-worktable v0.3.1 通过 `DSH_HOME=~/.dsh-alpha4 dsh plugin --profile web add <tgz>` 成功装进 a",
+     "points": [
+      "关键事实：dsh-worktable v0.3.1 通过 `DSH_HOME=~/.dsh-alpha4 dsh plugin --profile web add <tgz>` 成功装进 alpha.4（dsh-v0.1.2-alpha.4",
+      "关键事实：据此新增《DeepSeek Harness 专属插件搭建指南（Alpha4 版）》——Plugin vs Profile、五件套构成（package.json / dsh.plugin.json / lib/index.js / ",
+      "关键事实：验证了 §102 核心机制——`dsh plugin --profile web add` 是唯一官方入口（pnpm 转发 + bundles reconcile），对 0.1.2-alpha.4 同样有效；属于 Harness（"
+     ],
+     "date": "2026-09-05"
+    },
+    {
+     "title": "抖音原始资料：多Agent架构选型（控制权归属决策框架）",
+     "summary": "视频核心观点——三种模式底层区别不是名词而是「控制权归属」：Manager（主 Agent 全程持有）/ Handoff（转移给专家多轮沟通）/ Agent-as-Tool（主 A",
+     "points": [
+      "关键事实：视频核心观点——三种模式底层区别不是名词而是「控制权归属」：Manager（主 Agent 全程持有）/ Handoff（转移给专家多轮沟通）/ Agent-as-Tool（主 Agent 持有，子 Agent 是工具只交成果）。",
+      "关键事实：给出选型决策树（需接管→Handoff；只交成果→Agent-as-Tool；要统一协调多专家→Manager）与各自致命误区（Handoff 交接必须提炼上下文而非全量传递）。",
+      "关键事实：含徐总与豆包 2026-09-04 讨论——多 Agent 价值不在「弱模型变强」，而在「强模型做战略、弱模型做情报」+ 上下文隔离/专业化/并行/错误隔离/成本分层；已落地 AI Office 一人公司三层状态管理（STATE."
+     ],
+     "date": "2026-09-05"
+    },
+    {
+     "title": "治理与索引类变更（非 AI 知识增量，仅记录）",
+     "summary": "`全局记忆/03_工作规则.md` 新增「正式项目导航与上下文边界规则（2026-09-05）」——每个正式项目需维护轻量 `PROJECT_INDEX.md`，智能体按 AGEN",
+     "points": [
+      "关键事实：`全局记忆/03_工作规则.md` 新增「正式项目导航与上下文边界规则（2026-09-05）」——每个正式项目需维护轻量 `PROJECT_INDEX.md`，智能体按 AGENTS→STATE→agent-routing.to",
+      "关键事实：`知识库索引.md` 与 `方向推进与接力.md` 当日更新，属导航/方向层维护，不计入知识增量判断。"
+     ],
+     "date": "2026-09-05"
+    }
+   ],
+   "judgments": [
+    "- DeepSeek Harness 从「源码研究」跨入「可生产级装载第三方插件」阶段：Alpha4 独立安装链路实测通过，但 macOS 仍实验性、dshmarket 官方市场 peer 未适配 alpha.x 的风险未消除。",
+    "- 多 Agent 架构选型的真正判断标准是「控制权归属」而非名词堆砌：据此可给出跨项目复用的 Manager/Handoff/Agent-as-Tool 决策树，直接服务 AI Office 一人公司与所有多智能体编排。",
+    "- 徐总把多 Agent 价值重新锚定在「强模型做战略、弱模型做情报」+ 上下文隔离/专业化/并行/错误隔离/成本分层，并已落地为三层状态管理——这是多智能体方法论的成熟度提升，而非单纯工具讨论。"
+   ]
+  },
   {
    "date": "2026-09-04",
    "items": [
@@ -5368,74 +5406,6 @@ window.OBSIDIAN_DATA = {
     "三版本并行 runtime 基线（rc.7/rc.2/alpha 各自独立源码/DSH_HOME/profile/端口）+ LaunchAgent 自启 + 独立回滚备份，把 08-25 的「可回滚/可并行/可追溯」运维纪律沉淀为可复制的「Agent Runtime 多版本隔离运行」标准 SOP——这是生产级 Agent 基础设施运维从个案修复走向稳定范式的标志。",
     "alpha 的 Friday 模式「不复用旧 runtime 的 Friday，改由官方 Preset 重建」= Agent 运行时升级的硬教训：跨版本不能搬运运行时状态（Friday/Session/Provider/Preset），必须按版本重新装配，否则出现 waiting for knowledge / 版本错配（本库 08-25–08-27 已三次踩坑）。",
     "第三方插件市场（dshmarket）尚未适配 0.1.2-alpha.x（peer 依赖停在 rc.7/rc.2）= Agent Runtime 生态成熟度瓶颈：插件生态版本碎片化，alpha 这类前沿版本需实测才能确认插件可用性，是生产级 Agent 平台选型的新变量，不能通过「能装」直接推断「能用」。"
-   ]
-  },
-  {
-   "date": "2026-08-28",
-   "items": [
-    {
-     "title": "**蒸馏笔记：YC 开源 QM 多人在线 Agent Harness 对我们的启示**（知识流水线，已整理，source 抖音 QM raw）",
-     "summary": "从抖音 QM 原始资料蒸馏，提炼多人在线 Agent Harness、沙箱、作用域隔离、AI 原生组织对生产级 Agent 编排与多智能体治理的启示。",
-     "points": [
-      "事实：从抖音 QM 原始资料蒸馏，提炼多人在线 Agent Harness、沙箱、作用域隔离、AI 原生组织对生产级 Agent 编排与多智能体治理的启示。",
-      "关联：DeepSeek Harness项目/DeepSeek Harness项目索引、AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语、全域智能体系统本体与健康治理"
-     ],
-     "date": "2026-08-28"
-    },
-    {
-     "title": "**蒸馏笔记：个人级多Agent与多引擎搭配调研**（知识流水线，已整理，source 网络调研）",
-     "summary": "围绕 QM 组织级之外的个人级场景，调研 GitHub 多 Agent 框架 / Omnigent meta-harness / OpenHarness 等，提炼个人多 Agent",
-     "points": [
-      "事实：围绕 QM 组织级之外的个人级场景，调研 GitHub 多 Agent 框架 / Omnigent meta-harness / OpenHarness 等，提炼个人多 Agent、多引擎编排、跨厂商互审的可组合范式。",
-      "关联：知识流水线/YC开源QM多人在线Agent Harness对我们的启示、全域智能体系统本体与健康治理"
-     ],
-     "date": "2026-08-28"
-    },
-    {
-     "title": "**政务新方法论文档：政府重大项目决策机制与省市区三级分工（以成都为案例）**（政府资源配置与政策落地机制，methodology，created/updated 2026-08-28）",
-     "summary": "从豆包对话整理，建立\"重大项目决策机制 + 省/市/区三级分工 + 招商引资 + 成都案例\"的方法论页，把决策传导框架推进到具体项目层级分工颗粒度。",
-     "points": [
-      "事实：从豆包对话整理，建立\"重大项目决策机制 + 省/市/区三级分工 + 招商引资 + 成都案例\"的方法论页，把决策传导框架推进到具体项目层级分工颗粒度。",
-      "关联：政府资源配置与政策落地机制/政府资源配置与政策落地机制专题、法律/决策传导框架：法律政策的层级体系与影响预判"
-     ],
-     "date": "2026-08-28"
-    },
-    {
-     "title": "**已整理政务原始资料：豆包对话｜政府重大项目决策机制详解（含多项目推动层级）**（19:52 改名为已整理）",
-     "summary": "上文方法论页的同源 raw，已完成整理回流，status 未整理→已整理。",
-     "points": [
-      "事实：上文方法论页的同源 raw，已完成整理回流，status 未整理→已整理。",
-      "整理结果：政府资源配置与政策落地机制/政府重大项目决策机制与省市区三级分工：以成都为案例"
-     ],
-     "date": "2026-08-28"
-    },
-    {
-     "title": "**15 份外部未整理原始资料（AI Agent / Harness / FDE / 企业AI落地 / 超级个体，全部 2026-08-28 新建）**",
-     "summary": "今日外部素材高度集中于\"Agent Harness 生态\"与\"企业AI落地现实叙事\"两条线，均为第三方文章/视频解读，待徐总核实。",
-     "points": [
-      "事实：今日外部素材高度集中于\"Agent Harness 生态\"与\"企业AI落地现实叙事\"两条线，均为第三方文章/视频解读，待徐总核实。",
-      "抖音｜YC开源内部Agent办公系统QM（19:05）",
-      "抖音｜Macro开源企业级一体化工作空间（19:05）",
-      "Omnigent开源元编排层Meta-Harness（统一多Agent共享会话）（19:05）",
-      "腾讯科技｜黑鲸之后OpenAI开放Harness（09:06）",
-      "腾讯科技｜DeepSeek的Harness为何是一头黑色鲸鱼（08:53）"
-     ],
-     "date": "2026-08-28"
-    },
-    {
-     "title": "**DSH 升级副本验证记录小幅更新**（DeepSeek Harness项目，18:17 触碰，date 2026-08-24）",
-     "summary": "DSH v0.1.1-rc.2 升级副本验证记录于 18:17 被触碰，疑似小幅追加或同步触碰；属工程运维验证日志，非知识层新增，需 Codex/徐总确认是否为真实新内容。",
-     "points": [
-      "事实：DSH v0.1.1-rc.2 升级副本验证记录于 18:17 被触碰，疑似小幅追加或同步触碰；属工程运维验证日志，非知识层新增，需 Codex/徐总确认是否为真实新内容。",
-      "关联：DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录、DeepSeek Harness项目/DSH第三方插件适配新版本官方标准"
-     ],
-     "date": "2026-08-28"
-    }
-   ],
-   "judgments": [
-    "Agent Harness / Runtime 正从\"执行引擎\"上升为\"AI 原生组织操作系统\"层：OpenAI 开放 Harness、DSH（黑鲸）、YC/QM 多人在线 Agent 办公系统、Omnigent Meta-Harness（统一多 Agent 共享会话）、Macro 企业级一体工作空间五路外部资料密集印证，而本库 DSH 项目已有真实工程实证——这把\"编排层/共享会话/作用域隔离\"推到生产级 Agent 主线的核心位置。",
-    "企业 AI 落地出现\"退热叙事\"与\"超级个体/一人公司叙事\"并行：吴晓波\"养龙虾退热\"、钛媒体\"产品经理转型 FDE\"、\"不建议普通人做企业知识库\"、腾讯研究院超级个体报告、300 个 AI 跑通一人公司、200 万 AI 打工人冲刺 IPO——FDE/企业AI 主线必须区分\"炒作退热\"与\"真实可交付\"，强化本库 FDE 方法论的现实锚点。",
-    "政务 AI 主线新增颗粒度：政府重大项目决策机制与省市区三级分工（成都案例）方法论页，把决策传导框架从\"层级体系\"推进到\"具体项目层级分工\"，与法律专题决策传导框架形成呼应，为政务AI/招商落地提供可操作判断入口。"
    ]
   }
  ],
@@ -5914,6 +5884,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 113,
-  "fetchedAt": "2026年9月4日 23:03"
+  "fetchedAt": "2026年9月5日 23:04"
  }
 };
