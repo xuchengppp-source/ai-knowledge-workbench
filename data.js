@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-05",
- "generatedTime": "2026-09-05 23:04",
+ "generatedAt": "2026-09-06",
+ "generatedTime": "2026-09-06 14:57",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 16,
- "weeklyChanges": 423,
+ "weeklyPages": 13,
+ "weeklyChanges": 414,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-05｜AI知识增量整理.md",
  "topics": [
@@ -5836,7 +5836,7 @@ window.OBSIDIAN_DATA = {
   "summary": {
    "in_progress": 15,
    "todo": 17,
-   "in_review": 12,
+   "in_review": 13,
    "blocked": 1
   },
   "recent": [
@@ -5853,6 +5853,13 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "urgent",
     "assignee": "伊森"
+   },
+   {
+    "id": "KP-147",
+    "title": "己未 CRM Web 视觉重构 V3",
+    "status": "in_review",
+    "priority": "high",
+    "assignee": "Codex"
    },
    {
     "id": "KP-146",
@@ -5874,16 +5881,9 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "high",
     "assignee": "Codex"
-   },
-   {
-    "id": "KP-138",
-    "title": "三版本运行基线与 Alpha Friday 配置收口（持续维护）",
-    "status": "in_progress",
-    "priority": "high",
-    "assignee": "豆包助手"
    }
   ],
-  "total": 113,
-  "fetchedAt": "2026年9月5日 23:04"
+  "total": 114,
+  "fetchedAt": "2026年9月6日 14:57"
  }
 };
