@@ -1,11 +1,11 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-06",
- "generatedTime": "2026-09-06 14:57",
+ "generatedTime": "2026-09-06 23:02",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 13,
  "weeklyChanges": 414,
  "sourceIndex": "知识库索引.md",
- "digest": "知识流水线/每日学习整理/2026-09-05｜AI知识增量整理.md",
+ "digest": "知识流水线/每日学习整理/2026-09-06｜AI知识增量整理.md",
  "topics": [
   {
    "name": "AI Agent工程知识",
@@ -5058,45 +5058,20 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "today": {
-  "date": "2026-09-05",
-  "items": [
-   {
-    "title": "DeepSeek Harness Alpha4 插件安装链路实测通过（项目层 SOP）",
-    "summary": "dsh-worktable v0.3.1 通过 `DSH_HOME=~/.dsh-alpha4 dsh plugin --profile web add <tgz>` 成功装进 a",
-    "points": [
-     "关键事实：dsh-worktable v0.3.1 通过 `DSH_HOME=~/.dsh-alpha4 dsh plugin --profile web add <tgz>` 成功装进 alpha.4（dsh-v0.1.2-alpha.4",
-     "关键事实：据此新增《DeepSeek Harness 专属插件搭建指南（Alpha4 版）》——Plugin vs Profile、五件套构成（package.json / dsh.plugin.json / lib/index.js / ",
-     "关键事实：验证了 §102 核心机制——`dsh plugin --profile web add` 是唯一官方入口（pnpm 转发 + bundles reconcile），对 0.1.2-alpha.4 同样有效；属于 Harness（"
-    ],
-    "date": "2026-09-05"
-   },
-   {
-    "title": "抖音原始资料：多Agent架构选型（控制权归属决策框架）",
-    "summary": "视频核心观点——三种模式底层区别不是名词而是「控制权归属」：Manager（主 Agent 全程持有）/ Handoff（转移给专家多轮沟通）/ Agent-as-Tool（主 A",
-    "points": [
-     "关键事实：视频核心观点——三种模式底层区别不是名词而是「控制权归属」：Manager（主 Agent 全程持有）/ Handoff（转移给专家多轮沟通）/ Agent-as-Tool（主 Agent 持有，子 Agent 是工具只交成果）。",
-     "关键事实：给出选型决策树（需接管→Handoff；只交成果→Agent-as-Tool；要统一协调多专家→Manager）与各自致命误区（Handoff 交接必须提炼上下文而非全量传递）。",
-     "关键事实：含徐总与豆包 2026-09-04 讨论——多 Agent 价值不在「弱模型变强」，而在「强模型做战略、弱模型做情报」+ 上下文隔离/专业化/并行/错误隔离/成本分层；已落地 AI Office 一人公司三层状态管理（STATE."
-    ],
-    "date": "2026-09-05"
-   },
-   {
-    "title": "治理与索引类变更（非 AI 知识增量，仅记录）",
-    "summary": "`全局记忆/03_工作规则.md` 新增「正式项目导航与上下文边界规则（2026-09-05）」——每个正式项目需维护轻量 `PROJECT_INDEX.md`，智能体按 AGEN",
-    "points": [
-     "关键事实：`全局记忆/03_工作规则.md` 新增「正式项目导航与上下文边界规则（2026-09-05）」——每个正式项目需维护轻量 `PROJECT_INDEX.md`，智能体按 AGENTS→STATE→agent-routing.to",
-     "关键事实：`知识库索引.md` 与 `方向推进与接力.md` 当日更新，属导航/方向层维护，不计入知识增量判断。"
-    ],
-    "date": "2026-09-05"
-   }
-  ],
+  "date": "2026-09-06",
+  "items": [],
   "judgments": [
-   "- DeepSeek Harness 从「源码研究」跨入「可生产级装载第三方插件」阶段：Alpha4 独立安装链路实测通过，但 macOS 仍实验性、dshmarket 官方市场 peer 未适配 alpha.x 的风险未消除。",
-   "- 多 Agent 架构选型的真正判断标准是「控制权归属」而非名词堆砌：据此可给出跨项目复用的 Manager/Handoff/Agent-as-Tool 决策树，直接服务 AI Office 一人公司与所有多智能体编排。",
-   "- 徐总把多 Agent 价值重新锚定在「强模型做战略、弱模型做情报」+ 上下文隔离/专业化/并行/错误隔离/成本分层，并已落地为三层状态管理——这是多智能体方法论的成熟度提升，而非单纯工具讨论。"
+   "今日没有发现可蒸馏的新内容，无新增判断可记录；三项判断位留空。"
   ]
  },
  "dailies": [
+  {
+   "date": "2026-09-06",
+   "items": [],
+   "judgments": [
+    "今日没有发现可蒸馏的新内容，无新增判断可记录；三项判断位留空。"
+   ]
+  },
   {
    "date": "2026-09-05",
    "items": [
@@ -5360,52 +5335,6 @@ window.OBSIDIAN_DATA = {
     "Harness 的系统定位从\"聊天入口\"正式升级为\"执行基座\"，其上需长出可观测的控制监督层（Agent Control Layer）。 今天把\"多前台主控 + 控制监督层 + Harness 执行基座\"三层模型落成正式笔记：豆包助手 / WorkBuddy / Codex 均可做前台主控，负责识别、恢复、路由、监督、升级、验收；真正控制层必须能读取 `task_id`/`run_id`/运行状态/错误/结果/证据，`sendTask→getStatus→getResult→retry→cancel→escalate`，仅\"发消息等回复\"不算。这是生产级 Agent 治理主线的方法论沉淀。",
     "Control Gateway 从方案设想跨过\"第一条真实闭环\"，但仍是接口设计 + 单实例验证，严禁写成已落地能力。 今日关键事实：本地 Gateway 48911 认证并调用 Alpha Friday 47911，经 `session/list`/`session/prompt`/`session/page` 完成任务提交与结果回读，返回 `Gateway-ALPHA-OK`/`PY-GATEWAY-ALPHA-OK`，豆包助手与 WorkBuddy（伊森）双端已切换默认走 Gateway、失败回退直连；但 RC2（47900）尚未接入、REST/SSE 服务与任务登记/事件关联/结果投影均未实现，SDK profile 路径也待实验。记录纪律：把待验证项显式标注，不把方案假设当现状。",
     "Alpha Friday 从\"能聊天\"进化为\"可验证的多 Agent 运行时\"。 今日补齐三项硬证据：`subagent_codex` 真实调动本机 Codex 顾问（三层缺失修复后取得真实返回）、continuable 后台子代理确认可用（此前 `unknown job` 是误用 bash job 查询而非功能缺陷）、多帧 zstd 会话 seq gap 的修复方法（备份→逐帧解压→删损坏尾部帧→重拼→重启）确立。Harness 已具备\"主控-执行分离 + 子代理并行 + 顾问调用 + 会话持久化修复\"的完整运行闭环，强化全域智能体 / Harness 派发主线。"
-   ]
-  },
-  {
-   "date": "2026-08-29",
-   "items": [
-    {
-     "title": "**DSH 三版本运行基线与 rc.8 退役 / alpha Friday 重配（验证记录 §13–§16，DeepSeek Harness项目，12:19）**",
-     "summary": "①确立 rc.7@47880 / rc.2@47900 / alpha@47911 三版本并行稳定基线，各自独立源码入口、DSH_HOME、profile、依赖与端口；②rc.8 ",
-     "points": [
-      "事实：①确立 rc.7@47880 / rc.2@47900 / alpha@47911 三版本并行稳定基线，各自独立源码入口、DSH_HOME、profile、依赖与端口；②rc.8 退为历史验证版（目录移入 `.backups/reti",
-      "关联：DeepSeek Harness项目/DeepSeek Harness项目索引、DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研、全域智能体系统本体与健康治理"
-     ],
-     "date": "2026-08-29"
-    },
-    {
-     "title": "**DSH 插件在 alpha 版本的独立安装方案与兼容性调研（DeepSeek Harness项目，created 08-28，01:21 触碰）**",
-     "summary": "为把 47900 的插件市场（dshmarket）与已装插件在 47911（alpha）独立安装可用而做的调研——机制确认（dsh plugin = pnpm 转发器 + reco",
-     "points": [
-      "事实：为把 47900 的插件市场（dshmarket）与已装插件在 47911（alpha）独立安装可用而做的调研——机制确认（dsh plugin = pnpm 转发器 + reconcile dsh.profile.bundles，不",
-      "关联：DeepSeek Harness项目/DeepSeek Harness项目索引、DeepSeek Harness项目/DSH第三方插件适配新版本官方标准"
-     ],
-     "date": "2026-08-29"
-    },
-    {
-     "title": "**DeepSeek Harness 项目索引更新（DeepSeek Harness项目，01:21）**",
-     "summary": "索引现已登记「三版本并行」运行实体（47880/47900/47911）、三版本独立 checkout、当前任务卡 2632a1f4（三版本运行基线与 Alpha Friday 配",
-     "points": [
-      "事实：索引现已登记「三版本并行」运行实体（47880/47900/47911）、三版本独立 checkout、当前任务卡 2632a1f4（三版本运行基线与 Alpha Friday 配置收口），并补登 alpha 插件兼容性调研与第三方插",
-      "关联：知识流水线/AI知识自动化整理入口、AI Agent工程知识/AI Agent工程知识专题"
-     ],
-     "date": "2026-08-29"
-    },
-    {
-     "title": "**本库协作 / 通知基建维护（非外部 AI 知识主线，列出但不计入主线增量）**",
-     "summary": "飞书群通知机制建立（任务面板与知识库，19:37，KNOWLEDGEPIP139）：用 dshnotifier 标准格式把任务面板关键节点推送到飞书群「智能体任务通知」，定义了任务",
-     "points": [
-      "飞书群通知机制建立（任务面板与知识库，19:37，KNOWLEDGEPIP-139）：用 dsh-notifier 标准格式把任务面板关键节点推送到飞书群「智能体任务通知」，定义了任务开始/完成/出错/阻塞/心跳/疑似卡住六级通知契约；当前",
-      "智能体协作-任务面板操作手册（任务面板与知识库，14:09 触碰）：既有治理文档的小幅维护，属本库协作规则，非 AI 知识新增。"
-     ],
-     "date": "2026-08-29"
-    }
-   ],
-   "judgments": [
-    "三版本并行 runtime 基线（rc.7/rc.2/alpha 各自独立源码/DSH_HOME/profile/端口）+ LaunchAgent 自启 + 独立回滚备份，把 08-25 的「可回滚/可并行/可追溯」运维纪律沉淀为可复制的「Agent Runtime 多版本隔离运行」标准 SOP——这是生产级 Agent 基础设施运维从个案修复走向稳定范式的标志。",
-    "alpha 的 Friday 模式「不复用旧 runtime 的 Friday，改由官方 Preset 重建」= Agent 运行时升级的硬教训：跨版本不能搬运运行时状态（Friday/Session/Provider/Preset），必须按版本重新装配，否则出现 waiting for knowledge / 版本错配（本库 08-25–08-27 已三次踩坑）。",
-    "第三方插件市场（dshmarket）尚未适配 0.1.2-alpha.x（peer 依赖停在 rc.7/rc.2）= Agent Runtime 生态成熟度瓶颈：插件生态版本碎片化，alpha 这类前沿版本需实测才能确认插件可用性，是生产级 Agent 平台选型的新变量，不能通过「能装」直接推断「能用」。"
    ]
   }
  ],
@@ -5884,6 +5813,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 114,
-  "fetchedAt": "2026年9月6日 14:57"
+  "fetchedAt": "2026年9月6日 23:02"
  }
 };
