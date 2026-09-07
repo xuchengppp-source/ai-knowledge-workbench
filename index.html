@@ -1142,8 +1142,8 @@
   <div id="live-body" class="app-body"></div>
 </div>
 
-<script src="data.js?v=202609071807"></script>
-<script src="docs.js?v=202609071807" defer></script>
+<script src="data.js?v=202609071833"></script>
+<script src="docs.js?v=202609071833" defer></script>
 <script>
 /* 悬浮式底部控制条浏览器（华为/UC/夸克/小米/百度等）会覆盖页面底部，给 html 打标记以便上抬底部栏 */
 (function () {
@@ -1456,7 +1456,26 @@ function renderToday() {
     });
     h += '</div>';
   } else {
-    h += '<div class="fav-note">今日暂无新增整理，可前往专题浏览。</div>';
+    h += '<div class="fav-note">今日暂无新增整理，下面是知识库最近更新的内容。</div>';
+  }
+
+  /* —— 知识库最近更新：按笔记更新时间，一点即进 —— */
+  var ru = OBSIDIAN_DATA.recentUpdates || [];
+  if (ru.length) {
+    var genDay = OBSIDIAN_DATA.generatedAt || '';
+    h += '<div class="kp-zone-title" style="cursor:pointer" onclick="showRecentUpdates()"><span class="dot"></span><b>知识库最近更新</b><span>'+ru.length+' 篇 · 查看全部 ›</span></div>';
+    h += '<div class="kp-tl">';
+    ru.slice(0, 6).forEach(function(r, i){
+      var isNew = r.updated === genDay;
+      h += '<div class="kp-item" style="animation-delay:'+(i*0.06)+'s" onclick="openGraphNodeByPath(\''+r.path.replace(/'/g,"\\'")+'\')">';
+      h += '<div class="kp-meta" style="margin-bottom:6px;margin-top:0"><span class="kind-tag know">'+escapeHtml(r.topicName || '知识库')+'</span>';
+      if (isNew) h += '<span class="kp-chip new">今天更新</span>';
+      h += '</div>';
+      h += '<h4>'+escapeHtml(r.title)+'</h4>';
+      if (r.desc) h += '<p>'+escapeHtml(r.desc)+'</p>';
+      h += '<div class="kp-meta"><span class="kp-chip grn">'+escapeHtml(r.updated)+'</span>'+(r.wordCount?('<span class="kp-chip">'+r.wordCount+' 字</span>'):'')+'<span class="kp-go">›</span></div></div>';
+    });
+    h += '</div>';
   }
 
   /* —— 知识进化：柱状图 + 统计 —— */
@@ -1694,6 +1713,24 @@ function openTopic(idx){
 }
 
 function openGraphNodeByIndex(i){ var n = OBSIDIAN_GRAPH.nodes[i]; if(n) openGraphNode(n); }
+
+function showRecentUpdates(){
+  var ru = OBSIDIAN_DATA.recentUpdates || [];
+  var genDay = OBSIDIAN_DATA.generatedAt || '';
+  var h = '<div class="page"><div class="head-row"><div class="title" style="cursor:pointer;" onclick="switchTab('+"'today'"+')">‹ 返回<span class="sub-line">知识库最近更新 · '+ru.length+' 篇 · 按更新时间倒序</span></div></div>';
+  var lastDay = '';
+  ru.forEach(function(r, i){
+    if (r.updated !== lastDay) {
+      lastDay = r.updated;
+      var label = r.updated === genDay ? '今天 · ' + r.updated : r.updated;
+      h += '<div class="kp-zone-title" style="margin-top:'+(i ? 16 : 8)+'px"><span class="dot"></span><b>'+escapeHtml(label)+'</b></div>';
+    }
+    h += '<div class="doc-item" onclick="openGraphNodeByPath(\''+r.path.replace(/'/g,"\\'")+'\')"><div class="d-ic '+(r.topic==='agent'?'agent':'enterprise')+'">'+(r.topic==='pipeline'?'📚':(r.topic==='infrastructure'?'⚡':'📘'))+'</div><div class="d-body"><h4>'+escapeHtml(r.title)+'</h4><div class="d-meta">'+escapeHtml(r.topicName||'')+' · '+(r.wordCount?Math.round(r.wordCount/100)/10+'k 字':'')+'</div></div><div class="d-check">›</div></div>';
+  });
+  h += '</div>';
+  document.getElementById('live-body').innerHTML = h;
+  document.getElementById('live-body').scrollTop = 0;
+}
 
 function linkedNoteItem(name){
   var n = null;

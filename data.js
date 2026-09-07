@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-07",
- "generatedTime": "2026-09-07 18:07",
+ "generatedTime": "2026-09-07 18:33",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 10,
  "weeklyChanges": 275,
@@ -1401,7 +1401,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
-   "wordCount": 17650
+   "wordCount": 17332
   },
   {
    "path": "企业AI与智能体商业化/OpenClaw统一调用入口与委派规则.md",
@@ -5391,6 +5391,368 @@ window.OBSIDIAN_DATA = {
    ]
   }
  ],
+ "recentUpdates": [
+  {
+   "path": "AI Agent工程知识/Palantir式Ontology的真实价值：从业务语义到可执行系统.md",
+   "title": "Palantir式Ontology的真实价值：从业务语义到可执行系统",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-09-07",
+   "wordCount": 546,
+   "desc": "Ontology 的价值不在于给数据换一套术语，而在于把企业中的业务对象、关系、状态、规则、动作和责任统一表达，使 AI 能从“查到数据”走向“理解业务并在边界内执行”。"
+  },
+  {
+   "path": "AI Agent工程知识/多Agent架构选型决策卡：Manager-Handoff-Agent-as-Tool.md",
+   "title": "多Agent架构选型决策卡：Manager-Handoff-Agent-as-Tool",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-09-07",
+   "wordCount": 637,
+   "desc": "三种模式的底层区别不是名词，而是控制权最终落在谁手里。"
+  },
+  {
+   "path": "企业AI与智能体商业化/FDE面试通关手册：五重身份、八关流程与分轮真题答法.md",
+   "title": "FDE面试通关手册：五重身份、八关流程与分轮真题答法",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "updated": "2026-09-07",
+   "wordCount": 17332,
+   "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
+  },
+  {
+   "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+   "title": "企业 AI 与智能体商业化专题",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "updated": "2026-09-07",
+   "wordCount": 19917,
+   "desc": "上级：徐总的知识库"
+  },
+  {
+   "path": "知识流水线/A_原始资料.md",
+   "title": "A_原始资料",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "updated": "2026-09-07",
+   "wordCount": 12307,
+   "desc": "上级：知识流水线/知识流水线"
+  },
+  {
+   "path": "企业AI与智能体商业化/蜀道金租生产级AI建设方案：从个人辅助到企业生产级的演进路径.md",
+   "title": "蜀道金租生产级AI建设方案：从个人辅助到企业生产级的演进路径",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "updated": "2026-09-04",
+   "wordCount": 12129,
+   "desc": "2026年8月31日，工信部发布《关于开展人工智能应用服务商培育专项行动的通知》（工信厅科函〔2026〕414号），核心要点："
+  },
+  {
+   "path": "AI产业链与数字基础设施/Token工厂完整产业链洞察：六个加工动作、网络护城河与三层包装.md",
+   "title": "Token工厂完整产业链洞察：六个加工动作、网络护城河与三层包装",
+   "topic": "infrastructure",
+   "topicName": "AI产业链与数字基础设施",
+   "updated": "2026-09-03",
+   "wordCount": 25305,
+   "desc": "上级：AI产业链与数字基础设施/AI产业链与数字基础设施专题"
+  },
+  {
+   "path": "AI Agent工程知识/多智能体协作闭环方法：主控-规划-执行-验收.md",
+   "title": "多智能体协作闭环方法：主控-规划-执行-验收",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-09-02",
+   "wordCount": 6931,
+   "desc": "本文记录多智能体协作中“如何分工、如何传递、如何留痕、如何验收”的通用方法。AI Office 仅作为本次实践案例，用来暴露流程问题；本文不以 AI Office 的页面、版本或具"
+  },
+  {
+   "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+   "title": "AI产业链与数字基础设施专题",
+   "topic": "infrastructure",
+   "topicName": "AI产业链与数字基础设施",
+   "updated": "2026-09-02",
+   "wordCount": 5427,
+   "desc": "上级：徐总的知识库、知识库索引"
+  },
+  {
+   "path": "知识流水线/Agent Notifier统一通知机制.md",
+   "title": "Agent Notifier 统一通知机制",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "updated": "2026-09-01",
+   "wordCount": 2556,
+   "desc": "统一接收多个 Agent（Friday / Codex / Jarvis 等）的任务完成通知，通过 macOS 通知中心弹出提醒，并记录日志。"
+  },
+  {
+   "path": "AI Agent工程知识/DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）.md",
+   "title": "DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-08-31",
+   "wordCount": 1419,
+   "desc": "DeepSeek Harness 的核心价值不是“又一个聊天 Agent”，而是把模型、插件、Skill、Workflow、Session、权限和运行状态装配成可持续执行的 Age"
+  },
+  {
+   "path": "企业AI与智能体商业化/企业AI与FDE增量整理（2026-08-27至08-28）.md",
+   "title": "企业AI与FDE增量整理（2026-08-27至08-28）",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "updated": "2026-08-31",
+   "wordCount": 906,
+   "desc": "企业 AI 的难点不是把模型接上或做出 Demo，而是让真实员工持续使用，并让结果可评估、可追踪、可纠正。RAG/Agent 上线后需要通过埋点和日志发现 BadCase，人工归因"
+  },
+  {
+   "path": "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md",
+   "title": "腾讯FDE模式行业观察与实践报告研究",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "updated": "2026-08-31",
+   "wordCount": 6995,
+   "desc": "上级：企业AI与智能体商业化专题"
+  },
+  {
+   "path": "AI产业链与数字基础设施/算力基础设施与金融化增量整理（2026-08-21至08-28）.md",
+   "title": "算力基础设施与金融化增量整理（2026-08-21至08-28）",
+   "topic": "infrastructure",
+   "topicName": "AI产业链与数字基础设施",
+   "updated": "2026-08-31",
+   "wordCount": 558,
+   "desc": "灵骏真武 M890、超节点和远景星河基地等材料共同说明，大模型规模扩大后，竞争重点从单颗芯片性能转向芯片互联、服务器、网络、供电、散热、调度和运营的整体协同。超节点要求尽量缩短物理"
+  },
+  {
+   "path": "知识流水线/AI原生组织与多Agent工作空间增量整理（2026-08-28）.md",
+   "title": "AI原生组织与多Agent工作空间增量整理（2026-08-28）",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "updated": "2026-08-31",
+   "wordCount": 544,
+   "desc": "Macro、YC QM、Omnigent 和超级个体案例共同指向：多 Agent 真正需要的不是更多聊天窗口，而是共享上下文、任务、文档、消息、CRM、角色权限、会话状态和结果反馈"
+  },
+  {
+   "path": "知识流水线/知识库健康巡检.md",
+   "title": "知识库健康巡检",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "updated": "2026-08-31",
+   "wordCount": 49219,
+   "desc": "- 当前根级 原始资料/ 未整理文件已清零；本轮处理4篇：政治成熟承载力、工信部414号文、Palantir式 Ontology、多 Agent 架构选型。"
+  },
+  {
+   "path": "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md",
+   "title": "DeepSeek Harness Control Gateway 设计与调研",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-08-30",
+   "wordCount": 13500,
+   "desc": "Alpha 单实例 Gateway 已完成第一条真实闭环：127.0.0.1:48111 通过 Alpha Web JSON-RPC 47911 向固化的 Alpha Friday"
+  },
+  {
+   "path": "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md",
+   "title": "DeepSeek Harness 飞书 IM 接入搭建与运行记录",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-08-30",
+   "wordCount": 10889,
+   "desc": "DeepSeek Harness（Friday 主控 Agent）通过Harness 原生 IM 插件直接接入飞书机器人，无需经过 Codex/Jarvis 转发。这是 Harne"
+  },
+  {
+   "path": "AI Agent工程知识/多Agent协作架构-豆包助手WorkBuddyFridayCodex全链路.md",
+   "title": "多 Agent 协作架构",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-08-30",
+   "wordCount": 5312,
+   "desc": "豆包助手和 WorkBuddy 首先是可以独立完成目标的 Agent 入口，不是必须把所有任务下放给 DeepSeek Harness 的路由前端。DeepSeek Harness"
+  },
+  {
+   "path": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法.md",
+   "title": "FDE 访谈到业务关系模型的编译方法",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "updated": "2026-08-28",
+   "wordCount": 3833,
+   "desc": "日期：2026-06-14"
+  },
+  {
+   "path": "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
+   "title": "FDE业务需求访谈SOP",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "updated": "2026-08-28",
+   "wordCount": 8315,
+   "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
+  },
+  {
+   "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
+   "title": "FDE生产级AI Agent五阶段方法论与AI基建协同",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "updated": "2026-08-28",
+   "wordCount": 7821,
+   "desc": "上级：企业AI与智能体商业化专题"
+  },
+  {
+   "path": "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
+   "title": "游戏公司 AI 组织落地：从流程提效到生产方式重构",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "updated": "2026-08-28",
+   "wordCount": 6074,
+   "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
+  },
+  {
+   "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
+   "title": "甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "updated": "2026-08-28",
+   "wordCount": 9302,
+   "desc": "日期：2026-06-18"
+  },
+  {
+   "path": "知识流水线/YC开源QM多人在线Agent Harness对我们的启示.md",
+   "title": "YC开源QM：多人在线Agent Harness对我们与企业AI的启示",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "updated": "2026-08-28",
+   "wordCount": 3205,
+   "desc": "过去一年几乎所有Agent都是\"个人助理模式\"：一个Agent服务一个人。QM 直接点出这套模式天花板——硬把一个助理Agent魔改成服务全公司，很快会变得极其复杂。"
+  },
+  {
+   "path": "知识流水线/个人级多Agent与多引擎搭配调研.md",
+   "title": "个人级多Agent与多引擎搭配调研（QM组织级之外的姊妹篇）",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "updated": "2026-08-28",
+   "wordCount": 5496,
+   "desc": "个人级多Agent 的目标：让多个不同引擎（Claude / Codex / GPT / 本地模型）在同一个工作流里分工协作、结果互通、互相审阅，而不是各自孤岛、手动搬运。"
+  },
+  {
+   "path": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
+   "title": "AI Agent发展路径：从会说到会做再到能操作业务",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-08-26",
+   "wordCount": 7154,
+   "desc": "上级：AI Agent工程知识/AI Agent工程知识专题"
+  },
+  {
+   "path": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维.md",
+   "title": "AI Agent 后端工程化能力框架：分布式、异步、状态与可运维",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-08-26",
+   "wordCount": 12170,
+   "desc": "创建日期：2026-07-02"
+  },
+  {
+   "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+   "title": "AI Agent 工程知识专题",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-08-26",
+   "wordCount": 13867,
+   "desc": "上级：徐总的知识库"
+  },
+  {
+   "path": "AI Agent工程知识/AI Agent工程知识框架.md",
+   "title": "AI Agent 工程知识框架",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-08-26",
+   "wordCount": 32012,
+   "desc": "上级：AI Agent工程知识专题"
+  },
+  {
+   "path": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地.md",
+   "title": "AI Agent 面试 14 题学习版：从概念到甘食记项目落地",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-08-26",
+   "wordCount": 12499,
+   "desc": "创建日期：2026-07-07"
+  },
+  {
+   "path": "AI Agent工程知识/AI Agent面试知识地图.md",
+   "title": "AI Agent 面试知识地图",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-08-26",
+   "wordCount": 12749,
+   "desc": "实践中通常混用：大体上先有 Plan，执行细节中遇到异常再切到 ReAct 做局部调整。"
+  },
+  {
+   "path": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
+   "title": "Agent系统架构模式选型：从单Agent到Graph Workflow",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-08-26",
+   "wordCount": 6740,
+   "desc": "上级：AI Agent工程知识专题"
+  },
+  {
+   "path": "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.1.md",
+   "title": "DeepSeek Harness 插件与模式设计规范 V1.1",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-08-26",
+   "wordCount": 15379,
+   "desc": "上级：AI Agent工程知识专题"
+  },
+  {
+   "path": "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2.md",
+   "title": "DeepSeek Harness 插件与模式设计规范 V1.2",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-08-26",
+   "wordCount": 22080,
+   "desc": "上级：AI Agent工程知识专题"
+  },
+  {
+   "path": "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md",
+   "title": "Deepseek Harness：框架概念与专属智能体搭建",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-08-26",
+   "wordCount": 15247,
+   "desc": "两条硬规则："
+  },
+  {
+   "path": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现.md",
+   "title": "FDE 业务输出到后端工程的翻译映射：从业务对象到工程实现",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-08-26",
+   "wordCount": 7268,
+   "desc": "创建日期：2026-07-02"
+  },
+  {
+   "path": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象.md",
+   "title": "Ontology基础概念：从本体论到企业业务对象",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-08-26",
+   "wordCount": 5726,
+   "desc": "上级：AI Agent工程知识/AI Agent工程知识专题"
+  },
+  {
+   "path": "AI Agent工程知识/WorkBuddy助理配置与记忆管理手册.md",
+   "title": "WorkBuddy 助理配置与记忆管理手册",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-08-26",
+   "wordCount": 3558,
+   "desc": "理解 WorkBuddy 助理的前提是区分三层存储，它们互不影响："
+  },
+  {
+   "path": "AI Agent工程知识/WorkBuddy智能体运营机制（Agent Ontology）.md",
+   "title": "WorkBuddy 智能体运营机制（Agent Ontology）",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "updated": "2026-08-26",
+   "wordCount": 2654,
+   "desc": "核心结论：性格、身份、记忆在文件里，不随对话框生命周期变化；对话框上下文是易失的；知识库结构不在注入范围内，必须通过索引定位。"
+  }
+ ],
  "weeklyReview": {
   "title": "2026-W31｜AI知识学习架构",
   "date": "2026-08-02",
@@ -5889,6 +6251,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 115,
-  "fetchedAt": "2026年9月7日 18:07"
+  "fetchedAt": "2026年9月7日 18:33"
  }
 };
