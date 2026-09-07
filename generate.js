@@ -29,10 +29,15 @@ const OUT_DIR = process.argv.includes('--out')
 // 排除敏感/非精选文件（白名单策略：只发布学习向内容，跳过备份、内部维护页）
 // 注意：/原始资料/ 已移出排除列表——原始资料随各 TOPIC 的「原始资料」子目录（及根目录同名文件）
 // 一并发布（见 build() 中 rawMatDir 扫描）；如需重新屏蔽，把 /原始资料/ 加回此数组即可。
+// 2026-09-07 补充：递归扫描时跳过系统/备份/记忆等内部目录，避免污染发布内容。
 const EXCLUDE_PATTERNS = [
   /资料池/, /蒸馏笔记/, /研究问题/,
   /\.bak/, /\.tmp/, /nohup/, /日志/, /全局记忆/, /^\./,
+  /\.maintenance-backups/, /\.workbuddy/, /\.trash/, /\.obsidian/,
+  /_archive/, /存档/, /archive/, /旧版/, /_bak/,
 ];
+// 目录级硬排除：递归扫描时若命中则不进入该目录（.maintenance-backups/.workbuddy/.trash 等）
+const EXCLUDE_DIRS = ['.maintenance-backups', '.workbuddy', '.trash', '.obsidian', 'archive', '_archive', '存档', '_bak'];
 
 // ========== 工具函数 ==========
 function readMDFiles(dir) {
@@ -48,7 +53,12 @@ function readMDFilesRecursive(dir) {
   const out = [];
   fs.readdirSync(dir, { withFileTypes: true }).forEach(e => {
     const full = path.join(dir, e.name);
-    if (e.isDirectory()) out.push(...readMDFilesRecursive(full));
+    if (e.isDirectory()) {
+      // 跳过排除目录（备份/记忆/回收站等内部目录不进发布）
+      if (EXCLUDE_DIRS.indexOf(e.name) >= 0) return;
+      if (/^\./.test(e.name)) return;
+      out.push(...readMDFilesRecursive(full));
+    }
     else if (e.isFile() && e.name.endsWith('.md') && !EXCLUDE_PATTERNS.some(p => p.test(full))) out.push(full);
   });
   return out;
@@ -549,6 +559,12 @@ async function build() {
   const questionTopics = parseQuestionTopics();
   const tasksSnapshot = await fetchTasksSnapshot();
 
+  // 虚拟专题「原始资料 / 养料」：不移动节点归属，仅按路径聚合入口（抖音分享、未提炼素材）
+  const rawFiles = graph.nodes.filter(n => /原始资料/.test(n.path));
+  if (rawFiles.length && !graph.topics.some(t => t.key === 'raw')) {
+    graph.topics.push({ key: 'raw', name: '原始资料 / 养料', icon: '🗂', color: 'raw', count: rawFiles.length, files: rawFiles });
+  }
+
   const data = {
     generatedAt: graph.generatedAt,
     generatedTime: graph.generatedTime,
@@ -585,6 +601,24 @@ async function build() {
     const { contentHtml, ...meta } = q;
     return meta;
   });
+
+  // 最近更新：按笔记更新时间倒序，供首页「最近内容 · 点开即读」直接使用
+  const topicNameMap = {};
+  (graph.topics || []).forEach(t => { topicNameMap[t.key] = t.name; });
+  dataLight.recentUpdates = (data.nodes || [])
+    .filter(n => n.updated)
+    .slice()
+    .sort((a, b) => String(b.updated).localeCompare(String(a.updated)) || String(a.title).localeCompare(String(b.title)))
+    .slice(0, 120)
+    .map(n => ({
+      path: n.path,
+      title: n.title,
+      updated: n.updated,
+      topic: n.topic,
+      topicName: topicNameMap[n.topic] || '',
+      wordCount: n.wordCount || 0,
+      desc: n.desc || '',
+    }));
 
   // 正文映射：path -> contentHtml
   const docsMap = {};
