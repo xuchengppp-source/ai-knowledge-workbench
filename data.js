@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-07",
- "generatedTime": "2026-09-07 11:04",
+ "generatedTime": "2026-09-07 17:50",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 7,
- "weeklyChanges": 262,
+ "weeklyPages": 8,
+ "weeklyChanges": 270,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-06｜AI知识增量整理.md",
  "topics": [
@@ -17,7 +17,7 @@ window.OBSIDIAN_DATA = {
    "name": "企业AI与智能体商业化",
    "key": "enterprise",
    "icon": "🏢",
-   "count": 115
+   "count": 116
   },
   {
    "name": "AI产业链与数字基础设施",
@@ -1012,6 +1012,7 @@ window.OBSIDIAN_DATA = {
     "FDE商业级智能体交付框架"
    ],
    "backlinks": [
+    "企业AI与智能体商业化/FDE面试通关手册：五重身份、八关流程与分轮真题答法.md",
     "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
     "企业AI与智能体商业化/零一万物FDE与企业AI落地模式.md",
     "企业AI与智能体商业化/零一万物企业AI落地专题.md"
@@ -1106,6 +1107,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢.md",
     "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
     "企业AI与智能体商业化/FDE交付方法论与甘食记案例.md",
+    "企业AI与智能体商业化/FDE面试通关手册：五重身份、八关流程与分轮真题答法.md",
     "知识流水线/知识库健康巡检.md"
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -1212,6 +1214,7 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现.md",
     "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
     "企业AI与智能体商业化/FDE与AI架构师核心资产能力.md",
+    "企业AI与智能体商业化/FDE面试通关手册：五重身份、八关流程与分轮真题答法.md",
     "企业AI与智能体商业化/知识库索引.md"
    ],
    "desc": "上级：企业AI与智能体商业化专题",
@@ -1244,6 +1247,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
     "企业AI与智能体商业化/AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧.md",
     "企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地.md",
+    "企业AI与智能体商业化/FDE面试通关手册：五重身份、八关流程与分轮真题答法.md",
     "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
     "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
     "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
@@ -1355,6 +1359,24 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "上级：企业AI与智能体商业化专题",
    "wordCount": 7821
+  },
+  {
+   "path": "企业AI与智能体商业化/FDE面试通关手册：五重身份、八关流程与分轮真题答法.md",
+   "title": "FDE面试通关手册：五重身份、八关流程与分轮真题答法",
+   "updated": "2026-09-07",
+   "topic": "enterprise",
+   "links": [
+    "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "企业AI与生产级Agent总框架关系图",
+    "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
+    "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
+    "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+    "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图"
+   ],
+   "backlinks": [],
+   "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
+   "wordCount": 17650
   },
   {
    "path": "企业AI与智能体商业化/OpenClaw统一调用入口与委派规则.md",
@@ -1551,6 +1573,7 @@ window.OBSIDIAN_DATA = {
     "AI时代的FDE变体：从Palantir驻场模式到Agent工厂"
    ],
    "backlinks": [
+    "企业AI与智能体商业化/FDE面试通关手册：五重身份、八关流程与分轮真题答法.md",
     "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
     "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md"
    ],
@@ -1603,7 +1626,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
    "title": "企业 AI 与智能体商业化专题",
-   "updated": "2026-09-04",
+   "updated": "2026-09-07",
    "topic": "enterprise",
    "links": [
     "徐总的知识库",
@@ -1654,6 +1677,7 @@ window.OBSIDIAN_DATA = {
     "斯坦福企业AI实战手册：51个成功样本与三档人机协作模式",
     "FDE交付方法论与甘食记案例",
     "FDE与AI架构师核心资产能力",
+    "FDE面试通关手册：五重身份、八关流程与分轮真题答法",
     "FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
     "餐饮经营智能体模板与FDE客户对接知识框架",
     "小程序数据结构与API接入调研框架",
@@ -1705,6 +1729,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地.md",
     "企业AI与智能体商业化/FDE与AI架构师核心资产能力.md",
     "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
+    "企业AI与智能体商业化/FDE面试通关手册：五重身份、八关流程与分轮真题答法.md",
     "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线.md",
     "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
     "企业AI与智能体商业化/己未文化AI落地首谈会议纪要：客户资产管理第一阶段.md",
@@ -1738,7 +1763,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识流水线.md"
    ],
    "desc": "上级：徐总的知识库",
-   "wordCount": 19777
+   "wordCount": 19917
   },
   {
    "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
@@ -5388,12 +5413,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 92,
+   "matched": 93,
    "status": "已形成"
   },
   {
    "name": "商业化与组织能力",
-   "matched": 76,
+   "matched": 77,
    "status": "已形成"
   }
  ],
@@ -5813,6 +5838,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 115,
-  "fetchedAt": "2026年9月7日 11:04"
+  "fetchedAt": "2026年9月7日 17:50"
  }
 };
