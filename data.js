@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-07",
- "generatedTime": "2026-09-07 17:50",
+ "generatedTime": "2026-09-07 18:07",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 8,
- "weeklyChanges": 270,
+ "weeklyPages": 10,
+ "weeklyChanges": 275,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-06｜AI知识增量整理.md",
  "topics": [
@@ -11,7 +11,7 @@ window.OBSIDIAN_DATA = {
    "name": "AI Agent工程知识",
    "key": "agent",
    "icon": "🤖",
-   "count": 39
+   "count": 41
   },
   {
    "name": "企业AI与智能体商业化",
@@ -532,6 +532,19 @@ window.OBSIDIAN_DATA = {
    "wordCount": 5726
   },
   {
+   "path": "AI Agent工程知识/Palantir式Ontology的真实价值：从业务语义到可执行系统.md",
+   "title": "Palantir式Ontology的真实价值：从业务语义到可执行系统",
+   "updated": "2026-09-07",
+   "topic": "agent",
+   "links": [
+    "原始资料/已整理｜2026-09-04｜微信公众号｜万字长文Palantir式本体对AI的真实价值",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-31_腾讯FDE报告与生产级Agent横纵轴判断"
+   ],
+   "backlinks": [],
+   "desc": "Ontology 的价值不在于给数据换一套术语，而在于把企业中的业务对象、关系、状态、规则、动作和责任统一表达，使 AI 能从“查到数据”走向“理解业务并在边界内执行”。",
+   "wordCount": 546
+  },
+  {
    "path": "AI Agent工程知识/WorkBuddy助理配置与记忆管理手册.md",
    "title": "WorkBuddy 助理配置与记忆管理手册",
    "updated": "2026-08-26",
@@ -665,6 +678,18 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "豆包助手和 WorkBuddy 首先是可以独立完成目标的 Agent 入口，不是必须把所有任务下放给 DeepSeek Harness 的路由前端。DeepSeek Harness",
    "wordCount": 5312
+  },
+  {
+   "path": "AI Agent工程知识/多Agent架构选型决策卡：Manager-Handoff-Agent-as-Tool.md",
+   "title": "多Agent架构选型决策卡：Manager-Handoff-Agent-as-Tool",
+   "updated": "2026-09-07",
+   "topic": "agent",
+   "links": [
+    "原始资料/已整理｜2026-09-04｜抖音｜多Agent架构选型：Manager Handoff Agent-as-Tool底层区别"
+   ],
+   "backlinks": [],
+   "desc": "三种模式的底层区别不是名词，而是控制权最终落在谁手里。",
+   "wordCount": 637
   },
   {
    "path": "AI Agent工程知识/多智能体共享记忆：TencentDB Agent Memory 评估.md",
@@ -4117,12 +4142,14 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/A_原始资料.md",
    "title": "A_原始资料",
-   "updated": "2026-09-04",
+   "updated": "2026-09-07",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
-    "原始资料/未整理｜2026-09-03｜工信部官网+用户提供｜工信部414号文原文及解读：AI赚钱的逻辑变了",
-    "原始资料/未整理｜2026-09-02｜抖音｜承载力：职场高阶的政治成熟与四层认知觉醒",
+    "原始资料/已整理｜2026-09-02｜抖音｜承载力：职场高阶的政治成熟与四层认知觉醒",
+    "原始资料/已整理｜2026-09-03｜工信部官网+用户提供｜工信部414号文原文及解读：AI赚钱的逻辑变了",
+    "原始资料/已整理｜2026-09-04｜微信公众号｜万字长文Palantir式本体对AI的真实价值",
+    "原始资料/已整理｜2026-09-04｜抖音｜多Agent架构选型：Manager Handoff Agent-as-Tool底层区别",
     "原始资料/已整理｜2026-08-21｜Qwen-UI-Agent与Harness自重启能力方向",
     "原始资料/已整理｜2026-08-21｜抖音DeepSeek Harness系列文案",
     "原始资料/已整理｜2026-08-21｜红杉AI闭门会解读｜AI产业下半场：应用反攻模型层与Eval护城河",
@@ -4245,7 +4272,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识获取与录入三条链路现状与卡壳点.md"
    ],
    "desc": "上级：知识流水线/知识流水线",
-   "wordCount": 12180
+   "wordCount": 12307
   },
   {
    "path": "知识流水线/Agent Notifier统一通知机制.md",
@@ -4795,6 +4822,7 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-08-31",
    "topic": "pipeline",
    "links": [
+    "徐总问题专题库/06_企业AI与商业化/2026-09-07_工信部414号文与AI应用服务商中间层机会",
     "AI Agent工程知识/DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）",
     "企业AI与智能体商业化/企业AI与FDE增量整理（2026-08-27至08-28）",
     "AI产业链与数字基础设施/算力基础设施与金融化增量整理（2026-08-21至08-28）",
@@ -4920,8 +4948,8 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识库健康巡检执行规范.md",
     "知识流水线/知识库架构判断原则：从资料到概念、方法论、案例与专题归属.md"
    ],
-   "desc": "- 8月28日至31日共有 87 个近期变更文件，其中包含配置、运行日志、原始资料、正式专题、任务卡和工作台产物；不能把它们全部当作正式知识。",
-   "wordCount": 48965
+   "desc": "- 当前根级 原始资料/ 未整理文件已清零；本轮处理4篇：政治成熟承载力、工信部414号文、Palantir式 Ontology、多 Agent 架构选型。",
+   "wordCount": 49219
   },
   {
    "path": "知识流水线/知识库健康巡检执行规范.md",
@@ -5383,7 +5411,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "数据与知识资产",
-   "matched": 35,
+   "matched": 36,
    "status": "已形成"
   },
   {
@@ -5393,7 +5421,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "工具与协议",
-   "matched": 6,
+   "matched": 7,
    "status": "已形成"
   },
   {
@@ -5408,12 +5436,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "评测与可观测性",
-   "matched": 3,
+   "matched": 2,
    "status": "正在形成"
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 93,
+   "matched": 95,
    "status": "已形成"
   },
   {
@@ -5442,6 +5470,29 @@ window.OBSIDIAN_DATA = {
    "nextQuestions": [],
    "links": [],
    "wordCount": 462
+  },
+  {
+   "path": "徐总问题专题库/06_企业AI与商业化/2026-09-07_工信部414号文与AI应用服务商中间层机会.md",
+   "title": "工信部414号文与AI应用服务商中间层机会",
+   "date": "2026-09-07",
+   "updated": "2026-09-07",
+   "category": "企业AI与商业化",
+   "status": "已回答 → 已整理",
+   "questionType": "",
+   "originalQuestion": "",
+   "direction": "",
+   "directionHtml": "",
+   "summary": "工信部414号文对 AI 应用服务商、FDE 和企业 AI 落地意味着什么？它解决的是模型能力问题，还是应用交付的中间层问题？",
+   "answerHtml": "",
+   "formalNotes": [],
+   "rawMaterials": [],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "原始资料/已整理｜2026-09-03｜工信部官网+用户提供｜工信部414号文原文及解读：AI赚钱的逻辑变了",
+    "政府资源配置与政策落地机制/工信部414号文：人工智能应用服务商培育与FDE中间层机会"
+   ],
+   "wordCount": 527
   },
   {
    "path": "徐总问题专题库/06_企业AI与商业化/2026-08-31_腾讯FDE报告与生产级Agent横纵轴判断.md",
@@ -5838,6 +5889,6 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 115,
-  "fetchedAt": "2026年9月7日 17:50"
+  "fetchedAt": "2026年9月7日 18:07"
  }
 };
