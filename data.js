@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-06",
- "generatedTime": "2026-09-06 23:02",
+ "generatedAt": "2026-09-07",
+ "generatedTime": "2026-09-07 11:04",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 13,
- "weeklyChanges": 414,
+ "weeklyPages": 7,
+ "weeklyChanges": 262,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-06｜AI知识增量整理.md",
  "topics": [
@@ -5764,7 +5764,7 @@ window.OBSIDIAN_DATA = {
  "tasks": {
   "summary": {
    "in_progress": 15,
-   "todo": 17,
+   "todo": 18,
    "in_review": 13,
    "blocked": 1
   },
@@ -5812,7 +5812,7 @@ window.OBSIDIAN_DATA = {
     "assignee": "Codex"
    }
   ],
-  "total": 114,
-  "fetchedAt": "2026年9月6日 23:02"
+  "total": 115,
+  "fetchedAt": "2026年9月7日 11:04"
  }
 };
