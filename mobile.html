@@ -1211,8 +1211,8 @@
   <div id="live-body" class="app-body"></div>
 </div>
 
-<script src="data.js?v=202609081418"></script>
-<script src="docs.js?v=202609081418" defer></script>
+<script src="data.js?v=202609081144"></script>
+<script src="docs.js?v=202609081144" defer></script>
 <script>
 /* 悬浮式底部控制条浏览器（华为/UC/夸克/小米/百度等）会覆盖页面底部，给 html 打标记以便上抬底部栏 */
 (function () {
@@ -1324,12 +1324,13 @@ function renderKnowledgeAnswer(query){
 function runKnowledgeSearch(){
   var input = document.getElementById('desktop-query') || document.getElementById('knowledge-query');
   var query = input ? input.value : '';
-  if(query.trim()) document.getElementById('live-body').innerHTML = renderSearchResults(query);
+  if(query.trim()){ pushNav(); document.getElementById('live-body').innerHTML = renderSearchResults(query); }
 }
 
 function askKnowledge(){
   var input = document.getElementById('desktop-query') || document.getElementById('knowledge-query');
   var query = input ? input.value : '';
+  pushNav();
   document.getElementById('live-body').innerHTML = renderKnowledgeAnswer(query);
   document.getElementById('live-body').scrollTop = 0;
 }
@@ -1644,6 +1645,7 @@ function openLinkedDoc(p){
   var hit = null;
   for (var i = 0; i < nodes.length; i++) { if (nodes[i].path === p) { hit = nodes[i]; break; } }
   if (hit) { openGraphNodeByPath(p); return; }
+  pushNav();
   var body = (window.OBSIDIAN_DOCS || {})[p] || '';
   var title = displayNameOfPath(p);
   var back = window._qReturnPath ? "openQuestionTopicByPath(\'" + String(window._qReturnPath).replace(/'/g, "\\'") + "\')" : 'historyBack()';
@@ -1901,6 +1903,7 @@ function showQuestionHub(){
 }
 
 function openQuestionTopicByPath(path){
+  pushNav();
   var q = (OBSIDIAN_DATA.questionTopics || []).find(function(x){ return x.path === path; });
   if (!q) return;
   var contentHtml = (window.OBSIDIAN_DOCS || {})[q.path] || '';
@@ -1954,6 +1957,7 @@ function topicFilesOf(key){
 }
 
 function openTopic(idx){
+  pushNav();
   var topics = OBSIDIAN_DATA.topics || [];
   var t = topics[idx] || topics[0];
   if (!t) return;
@@ -2029,6 +2033,7 @@ function docEmptyBlock(n){
 function openGraphNodeByIndex(i){ var n = OBSIDIAN_GRAPH.nodes[i]; if(n) openGraphNode(n); }
 
 function showRecentUpdates(){
+  pushNav();
   var ru = OBSIDIAN_DATA.recentUpdates || [];
   var genDay = OBSIDIAN_DATA.generatedAt || '';
   var h = '<div class="page"><div class="head-row"><div class="title" style="cursor:pointer;" onclick="switchTab('+"'today'"+')">‹ 返回<span class="sub-line">知识库最近更新 · '+ru.length+' 篇 · 按更新时间倒序</span></div></div>';
@@ -2063,6 +2068,7 @@ function openGraphNodeByPath(p){
 }
 
 function openGraphNode(n){
+  pushNav();
   n = n || OBSIDIAN_GRAPH.nodes[0];
   var topicName = n.topic === 'agent' ? 'AI Agent' : (n.topic === 'enterprise' ? '企业 AI' : 'AI 基础设施');
   var wc = n.wordCount || 0;
@@ -2122,6 +2128,7 @@ function recommendNextNodes(current){
 }
 
 function showAiInterpretation(path){
+  pushNav();
   var n = OBSIDIAN_GRAPH.nodes.find(function(x){ return x.path === path; });
   if (!n) return;
   var related = recommendNextNodes(n);
@@ -2134,6 +2141,7 @@ function showAiInterpretation(path){
 
 /* 今日要点详情：点击今日新增卡片后展示该小节的完整内容 */
 function openDailyItem(idx){
+  pushNav();
   var d = OBSIDIAN_DATA.today || {items:[]};
   var it = d.items[idx];
   if (!it) return;
@@ -2152,6 +2160,7 @@ function openDailyItem(idx){
 
 /* 今日完整整理：展示每日整理的 judgments + 全部要点 */
 function showDailyDetail(){
+  pushNav();
   var d = OBSIDIAN_DATA.today || {date:"", items:[], judgments:[]};
   var h = '<div class="reader"><div class="reader-head"><span class="back" onclick="historyBack()">‹</span><span class="rh-title">每日整理</span><span class="fav">☆</span></div>';
   h += '<div class="reader-body"><div class="r-tag-row"><span class="tag green">'+d.date+'</span><span class="tag amber">每日 AI 知识增量整理</span></div><h1>'+d.date+' · AI 知识增量整理</h1>';
@@ -2176,6 +2185,7 @@ function showDailyDetail(){
 }
 
 function showWeeklyReview(){
+  pushNav();
   var w = OBSIDIAN_DATA.weeklyReview;
   if (!w) return;
   var h = '<div class="reader"><div class="reader-head"><span class="back" onclick="historyBack()">‹</span><span class="rh-title">本周复盘</span><span class="fav">☆</span></div>';
@@ -2189,6 +2199,7 @@ function showWeeklyReview(){
 }
 
 function openDoc(key){
+  pushNav();
   var d = DOCS[key] || DOCS.total;
   var h = '<div class="reader">';
   h += '<div class="reader-head"><span class="back" onclick="historyBack()">‹</span><span class="rh-title">'+d.title.slice(0,14)+'…</span><span class="fav">☆</span></div>';
@@ -2203,14 +2214,40 @@ function openDoc(key){
 
 function markRead(){ alert('已标记为已读 ✓'); switchTab(window._lastTab || 'today'); }
 
-function returnToWorkspace(){ window._nodeReturn = null; switchTab('today'); }
+function returnToWorkspace(){ window._nodeReturn = null; window._navStack = []; switchTab('today'); }
 
 function setReadingMode(isReading){
   var wrap = document.querySelector('#live-app .tabbar-wrap');
   if (wrap) wrap.style.display = isReading ? 'none' : 'block';
 }
 
+/* ===== 统一导航栈：支持多级页面返回 ===== */
+window._navStack = [];
+function pushNav(){
+  var body = document.getElementById('live-body');
+  window._navStack.push({
+    html: body.innerHTML,
+    tab: window.currentTab,
+    scrollTop: body.scrollTop
+  });
+}
+function clearNav(){ window._navStack = []; }
+
 function historyBack(){
+  /* 优先从导航栈返回上一级页面 */
+  if (window._navStack && window._navStack.length > 0) {
+    var state = window._navStack.pop();
+    var body = document.getElementById('live-body');
+    body.innerHTML = state.html;
+    window.currentTab = state.tab;
+    body.scrollTop = state.scrollTop || 0;
+    setReadingMode(false);
+    /* 同步底部 tab 高亮 */
+    var tabs = document.querySelectorAll('#live-tabbar .t');
+    tabs.forEach(function(t){ t.className = 't' + (t.getAttribute('data-tab')===state.tab ? ' on' : ''); });
+    return;
+  }
+  /* 兼容旧的搜索结果返回机制 */
   if (window._nodeReturn) {
     var view = window._nodeReturn;
     window._nodeReturn = null;
@@ -2219,12 +2256,14 @@ function historyBack(){
     document.getElementById('live-body').scrollTop = 0;
     return;
   }
-  switchTab(window._lastTab || 'today');
+  /* 栈为空，回到首页 */
+  switchTab('today');
 }
 
 var currentTab = 'today';
 function switchTab(tab){
   currentTab = tab;
+  clearNav(); /* 切换一级 tab 时清空详情页导航栈 */
   var body = document.getElementById('live-body');
   var tabs = document.querySelectorAll('#live-tabbar .t');
   tabs.forEach(function(t){ t.className = 't' + (t.getAttribute('data-tab')===tab ? ' on' : ''); });
