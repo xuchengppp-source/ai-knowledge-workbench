@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-08",
- "generatedTime": "2026-09-08 16:39",
+ "generatedTime": "2026-09-08 17:42",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 26,
+ "weeklyPages": 25,
  "weeklyChanges": 501,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-07｜AI知识增量整理.md",
@@ -90,12 +90,6 @@ window.OBSIDIAN_DATA = {
    "key": "aitools",
    "icon": "📖",
    "count": 2
-  },
-  {
-   "name": "OpenWiki 知识增量",
-   "key": "openwiki",
-   "icon": "🌐",
-   "count": 1
   },
   {
    "key": "raw",
@@ -8231,16 +8225,6 @@ window.OBSIDIAN_DATA = {
    "backlinks": [],
    "desc": "- 2026-08-08-飞书妙记工作流整合 — 飞书妙记录制 + WorkBuddy 经飞书 API 直读会谈记录的工作流（移动端体验、阶段边界、待补环节）",
    "wordCount": 268
-  },
-  {
-   "path": "知识流水线/OpenWiki知识增量/OpenWiki知识发现汇总.md",
-   "title": "OpenWiki 知识发现汇总",
-   "updated": "2026-09-08",
-   "topic": "openwiki",
-   "links": [],
-   "backlinks": [],
-   "desc": "- [企业 AI 商业化](domains/enterprise-ai/overview.md) 与 [生产级 Agent 工程](domains/agent-engineerin",
-   "wordCount": 23842
   }
  ],
  "today": {
@@ -8600,7 +8584,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "商业化与组织能力",
-   "matched": 81,
+   "matched": 80,
    "status": "已形成"
   }
  ],
@@ -9824,15 +9808,6 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：知识流水线/知识流水线"
   },
   {
-   "path": "知识流水线/OpenWiki知识增量/OpenWiki知识发现汇总.md",
-   "title": "OpenWiki 知识发现汇总",
-   "updated": "2026-09-08",
-   "topic": "openwiki",
-   "topicName": "OpenWiki 知识增量",
-   "wordCount": 23842,
-   "desc": "- [企业 AI 商业化](domains/enterprise-ai/overview.md) 与 [生产级 Agent 工程](domains/agent-engineerin"
-  },
-  {
    "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
    "title": "企业 AI 与智能体商业化专题",
    "updated": "2026-09-08",
@@ -10893,6 +10868,15 @@ window.OBSIDIAN_DATA = {
    "topicName": "AI Agent工程知识",
    "wordCount": 13867,
    "desc": "上级：徐总的知识库"
+  },
+  {
+   "path": "AI Agent工程知识/AI Agent工程知识框架.md",
+   "title": "AI Agent 工程知识框架",
+   "updated": "2026-08-26",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 32012,
+   "desc": "上级：AI Agent工程知识专题"
   }
  ]
 };
