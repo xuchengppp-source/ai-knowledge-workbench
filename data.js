@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-08",
- "generatedTime": "2026-09-08 16:19",
+ "generatedTime": "2026-09-08 16:31",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 29,
+ "weeklyPages": 61,
  "weeklyChanges": 501,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-07｜AI知识增量整理.md",
@@ -95,7 +95,7 @@ window.OBSIDIAN_DATA = {
    "name": "OpenWiki 知识增量",
    "key": "openwiki",
    "icon": "🌐",
-   "count": 33
+   "count": 65
   },
   {
    "key": "raw",
@@ -8561,6 +8561,326 @@ window.OBSIDIAN_DATA = {
    "backlinks": [],
    "desc": "- 现状：openwiki code --update --print 退出码为 1，内容生成成功但 finalize 阶段失败",
    "wordCount": 1596
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/README.md",
+   "title": "OpenWiki 原始输出（未修改）",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "本目录是 OpenWiki 从正式 Obsidian 知识库编译生成的原始输出，未经过任何人工修改或补充。",
+   "wordCount": 456
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/architecture/index.md",
+   "title": "Files",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "- [Obsidian 知识库结构与导航架构](overview.md) - 徐总的知识库 vault 的总入口、索引、地图、术语表与专题目录之间的关系与读法",
+   "wordCount": 79
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/architecture/overview.md",
+   "title": "Obsidian 知识库结构与导航架构",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "这个 vault 的核心设计是：总入口做主题浏览，索引做精细检索，地图解释关系链，术语表统一跨专题概念。它用“总纲 → 专题入口 → 专题笔记”的层级组织，避免图谱变成所有笔记挤在",
+   "wordCount": 1787
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/agent-ecosystem/feishu.md",
+   "title": "飞书链路与多智能体连接",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "飞书 lark-cli 是多智能体体系的通道层，统一管理多个飞书应用（bot 身份），CodeX 经 Mason 入口接入。理解和维护飞书连接是保障[全域智能体协作](overvi",
+   "wordCount": 1071
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/agent-ecosystem/global-memory.md",
+   "title": "全局记忆",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "全局记忆/ 目录是跨平台 AI/Codex 协作的长期记忆入口，记录长期身份、偏好、系统架构、工作规则与关键决策。它与 知识库索引.md（内容检索）和 全局术语表.md（术语统一）",
+   "wordCount": 1186
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/agent-ecosystem/index.md",
+   "title": "Files",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "- [飞书链路与多智能体连接](feishu.md) - 基于 lark-cli 的飞书通道层、机器人身份映射、连接故障域与恢复手册",
+   "wordCount": 210
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/agent-ecosystem/overview.md",
+   "title": "全域智能体与多智能体协作",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "本领域描述 vault 背后运行的多智能体协作体系：由多个 AI 智能体（CodeX、WorkBuddy、OpenClaw、千问办公、Jarvis、Hermes 等）跨 Mac、平",
+   "wordCount": 1822
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/agent-engineering/index.md",
+   "title": "Files",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "- [生产级 Agent 工程总览](overview.md) - AI Agent 基础概念、生产级工程架构、搭建与评估方法的工程定义线，含 RAG、Memory、后端工程化",
+   "wordCount": 172
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/agent-engineering/overview.md",
+   "title": "生产级 Agent 工程总览",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "本领域是 vault 的工程定义线，回答“生产级 AI Agent 是什么、怎么建、什么标准、怎么验收”。它不绑定某个行业，但持续接受业务落地线与方法论线的校验（甘食记、美团、FD",
+   "wordCount": 1383
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/agent-engineering/production-grade.md",
+   "title": "生产级 Agent 知识体系总览（层级·特性·术语）",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "生产级AI Agent知识体系总览：层级·特性·术语.md 是 vault 中生产级 Agent 的唯一核心主版本，统一概念地图。生产级AI Agent工程体系的完整链路.md 补",
+   "wordCount": 1051
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/ai-infrastructure/index.md",
+   "title": "Files",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "- [AI 产业链与数字基建](overview.md) - AI 作为产业变革时的电力、算力、数据中心、服务器、存储、模型服务与资本支出如何联动",
+   "wordCount": 74
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/ai-infrastructure/overview.md",
+   "title": "AI 产业链与数字基建",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "本领域独立于狭义的 Agent 工程（见[生产级 Agent 工程](../agent-engineering/overview.md)）。它关注的不是“一个 Agent 怎么搭”",
+   "wordCount": 1109
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/enterprise-ai/fde-methodology.md",
+   "title": "FDE 交付方法论",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "FDE（Frontline Deployment Engineer）是把客户真实业务、数据、流程、组织权限和 AI 能力连接起来的部署角色。本方法论的核心价值不是选更强模型，而是把",
+   "wordCount": 1232
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/enterprise-ai/ganshiji-case.md",
+   "title": "甘食记经营系统案例",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "甘食记是 vault 里最完整的从真实业务到生产级 AI 系统的落地主案。它把“生成每日经营报告”升级为“基于 Palantir Ontology 思路，从可信经营数据、异常事件、",
+   "wordCount": 1302
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/enterprise-ai/index.md",
+   "title": "Files",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "- [FDE 交付方法论](fde-methodology.md) - 前线部署工程师 FDE 从业务访谈、对象建模到工程落地与验收的完整交付方法论",
+   "wordCount": 314
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/enterprise-ai/overview.md",
+   "title": "企业 AI 与智能体商业化总览",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "本领域是 vault 的核心主题之一，研究的问题是：AI 如何真正嵌入企业业务流程，并形成可交付、可收费、可持续迭代的 ToB 服务模式。它不是基础模型研究，也不是单纯工具使用总结",
+   "wordCount": 1521
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/enterprise-ai/workbuddy.md",
+   "title": "WorkBuddy 智能体",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "WorkBuddy 是腾讯系智能体平台，在整个多智能体体系中承担腾讯体系的 Agent 平台角色，侧重专家团队、组织协作和知识管理。它是[企业 AI 商业化总览](overview",
+   "wordCount": 1065
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/index.md",
+   "title": "Directories",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "- [agent-ecosystem](agent-ecosystem/)",
+   "wordCount": 182
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/personal/index.md",
+   "title": "Files",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "- [个人档案与行为记录](overview.md) - 徐总个人画像、能力提升、健康、车辆等个人长期档案与个人能力成长知识",
+   "wordCount": 65
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/personal/overview.md",
+   "title": "个人档案与行为记录",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "本领域涵盖徐总个人长期档案（画像、能力提升、健康、车辆）与会议/行为记录。这些是一级知识目录的一部分，与核心 AI 领域、主题知识并列。",
+   "wordCount": 837
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/index.md",
+   "title": "Files",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "- [Obsidian 知识库 OpenWiki 快速开始](quickstart.md) - 企业 AI、生产级 Agent、多智能体协作与个人知识管理 Obsidian 知识库",
+   "wordCount": 208
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/quickstart.md",
+   "title": "Obsidian 知识库 OpenWiki 快速开始",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "本知识库是一个 Obsidian Markdown vault，记录“徐总”在企业 AI 商业化、生产级 AI Agent 工程、多智能体协作体系、AI 基础设施产业链，以及个人能",
+   "wordCount": 2929
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/topics/codex-usage.md",
+   "title": "Codex 使用经验专题",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "本专题沉淀 Codex 使用经验、配置方法、踩坑记录与工具体系。区分三个目录：",
+   "wordCount": 671
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/topics/government-resources.md",
+   "title": "政府资源配置与政策落地机制",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "本专题研究政府资源配置、政策传导、项目库、要素保障与市场机会判断，以及政策与市场之间的相互影响机制。核心问题是如何通过政策层级、招商逻辑和资源分配识别市场机会。",
+   "wordCount": 603
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/topics/index.md",
+   "title": "Files",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "- [Codex 使用经验专题](codex-usage.md) - Codex 使用总结、配置方法、踩坑记录与工具体系，以及线下 AI 工具操作手册",
+   "wordCount": 309
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/topics/law.md",
+   "title": "法律体系与政策层级",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "本专题沉淀法律与政策层级知识，包括中国立法体系、低空经济法律与决策传导框架，用于从法律政策角度判断行业动向与影响。",
+   "wordCount": 494
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/topics/low-altitude-economy.md",
+   "title": "低空经济专题",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "本专题沉淀低空经济产业知识，包括低空物流、空域审批、军地协调与企业合作模式。覆盖成都低空物流航线、无人机巡检与相关企业合作模式。",
+   "wordCount": 463
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/topics/overview.md",
+   "title": "主题知识目录",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "本页汇总 vault 中独立的主题知识领域，作为[知识库结构与导航架构](../architecture/overview.md)下的主题层入口。每个主题目录内有自己的专题入口笔记",
+   "wordCount": 620
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/workflows/index.md",
+   "title": "Files",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "- [知识流水线](knowledge-pipeline.md) - Obsidian 库的轻量知识处理机制，从原始资料、知识蒸馏到回流专题与 Reusable Skill 与输出",
+   "wordCount": 261
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/workflows/knowledge-pipeline.md",
+   "title": "知识流水线",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "知识流水线是这个 Obsidian 库的轻量处理机制，用来处理“还没完全沉淀”的资料。它不是新的知识分类体系，也不算错所有资料必须走 A/B/C/D；真正的知识沉淀仍以专题 Wik",
+   "wordCount": 1432
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/workflows/obsidian-governance.md",
+   "title": "Obsidian 知识底座治理与自主生长",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "本方案（知识流水线/Obsidian知识底座治理与知识自主生长方案.md，current V2）不是一次性“整理文件夹”，而是给已经运行多轮的 Obsidian 知识库建立职责边界",
+   "wordCount": 1031
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/workflows/task-panel.md",
+   "title": "任务面板与知识库同步",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "任务面板与知识库/ 是“任务面板 × Obsidian 协同”主题的知识文档主位置（2026-08-09 徐总确认建立）。原位置（Codex工作区/、知识流水线/）保留同名文件作备",
+   "wordCount": 1064
   }
  ],
  "today": {
@@ -8875,22 +9195,22 @@ window.OBSIDIAN_DATA = {
  "architectureLayers": [
   {
    "name": "能源与算力",
-   "matched": 10,
+   "matched": 11,
    "status": "已形成"
   },
   {
    "name": "模型与推理",
-   "matched": 24,
+   "matched": 27,
    "status": "已形成"
   },
   {
    "name": "数据与知识资产",
-   "matched": 69,
+   "matched": 82,
    "status": "已形成"
   },
   {
    "name": "Agent Runtime",
-   "matched": 19,
+   "matched": 20,
    "status": "已形成"
   },
   {
@@ -8900,12 +9220,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "记忆与上下文",
-   "matched": 19,
+   "matched": 21,
    "status": "已形成"
   },
   {
    "name": "安全、权限与治理",
-   "matched": 16,
+   "matched": 18,
    "status": "已形成"
   },
   {
@@ -8915,12 +9235,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 103,
+   "matched": 107,
    "status": "已形成"
   },
   {
    "name": "商业化与组织能力",
-   "matched": 87,
+   "matched": 93,
    "status": "已形成"
   }
  ],
@@ -10144,6 +10464,123 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：知识流水线/知识流水线"
   },
   {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/ai-infrastructure/overview.md",
+   "title": "AI 产业链与数字基建",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 1109,
+   "desc": "本领域独立于狭义的 Agent 工程（见[生产级 Agent 工程](../agent-engineering/overview.md)）。它关注的不是“一个 Agent 怎么搭”"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/topics/codex-usage.md",
+   "title": "Codex 使用经验专题",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 671,
+   "desc": "本专题沉淀 Codex 使用经验、配置方法、踩坑记录与工具体系。区分三个目录："
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/index.md",
+   "title": "Directories",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 182,
+   "desc": "- [agent-ecosystem](agent-ecosystem/)"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/enterprise-ai/fde-methodology.md",
+   "title": "FDE 交付方法论",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 1232,
+   "desc": "FDE（Frontline Deployment Engineer）是把客户真实业务、数据、流程、组织权限和 AI 能力连接起来的部署角色。本方法论的核心价值不是选更强模型，而是把"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/architecture/index.md",
+   "title": "Files",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 79,
+   "desc": "- [Obsidian 知识库结构与导航架构](overview.md) - 徐总的知识库 vault 的总入口、索引、地图、术语表与专题目录之间的关系与读法"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/agent-ecosystem/index.md",
+   "title": "Files",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 210,
+   "desc": "- [飞书链路与多智能体连接](feishu.md) - 基于 lark-cli 的飞书通道层、机器人身份映射、连接故障域与恢复手册"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/agent-engineering/index.md",
+   "title": "Files",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 172,
+   "desc": "- [生产级 Agent 工程总览](overview.md) - AI Agent 基础概念、生产级工程架构、搭建与评估方法的工程定义线，含 RAG、Memory、后端工程化"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/ai-infrastructure/index.md",
+   "title": "Files",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 74,
+   "desc": "- [AI 产业链与数字基建](overview.md) - AI 作为产业变革时的电力、算力、数据中心、服务器、存储、模型服务与资本支出如何联动"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/enterprise-ai/index.md",
+   "title": "Files",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 314,
+   "desc": "- [FDE 交付方法论](fde-methodology.md) - 前线部署工程师 FDE 从业务访谈、对象建模到工程落地与验收的完整交付方法论"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/personal/index.md",
+   "title": "Files",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 65,
+   "desc": "- [个人档案与行为记录](overview.md) - 徐总个人画像、能力提升、健康、车辆等个人长期档案与个人能力成长知识"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/index.md",
+   "title": "Files",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 208,
+   "desc": "- [Obsidian 知识库 OpenWiki 快速开始](quickstart.md) - 企业 AI、生产级 Agent、多智能体协作与个人知识管理 Obsidian 知识库"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/topics/index.md",
+   "title": "Files",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 309,
+   "desc": "- [Codex 使用经验专题](codex-usage.md) - Codex 使用总结、配置方法、踩坑记录与工具体系，以及线下 AI 工具操作手册"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/workflows/index.md",
+   "title": "Files",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 261,
+   "desc": "- [知识流水线](knowledge-pipeline.md) - Obsidian 库的轻量知识处理机制，从原始资料、知识蒸馏到回流专题与 Reusable Skill 与输出"
+  },
+  {
    "path": "知识流水线/OpenWiki知识增量/openwiki-draft-20260908-155500/quickstart.md",
    "title": "Obsidian 知识库 OpenWiki 快速开始",
    "updated": "2026-09-08",
@@ -10153,6 +10590,33 @@ window.OBSIDIAN_DATA = {
    "desc": "本知识库是一个 Obsidian Markdown vault，记录“徐总”在企业 AI 商业化、生产级 AI Agent 工程、多智能体协作体系、AI 基础设施产业链，以及个人能"
   },
   {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/quickstart.md",
+   "title": "Obsidian 知识库 OpenWiki 快速开始",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 2929,
+   "desc": "本知识库是一个 Obsidian Markdown vault，记录“徐总”在企业 AI 商业化、生产级 AI Agent 工程、多智能体协作体系、AI 基础设施产业链，以及个人能"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/architecture/overview.md",
+   "title": "Obsidian 知识库结构与导航架构",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 1787,
+   "desc": "这个 vault 的核心设计是：总入口做主题浏览，索引做精细检索，地图解释关系链，术语表统一跨专题概念。它用“总纲 → 专题入口 → 专题笔记”的层级组织，避免图谱变成所有笔记挤在"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/workflows/obsidian-governance.md",
+   "title": "Obsidian 知识底座治理与自主生长",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 1031,
+   "desc": "本方案（知识流水线/Obsidian知识底座治理与知识自主生长方案.md，current V2）不是一次性“整理文件夹”，而是给已经运行多轮的 Obsidian 知识库建立职责边界"
+  },
+  {
    "path": "知识流水线/OpenWiki知识增量/openwiki-draft-20260908-155500/关系发现.md",
    "title": "OpenWiki 关系发现",
    "updated": "2026-09-08",
@@ -10160,6 +10624,15 @@ window.OBSIDIAN_DATA = {
    "topicName": "OpenWiki 知识增量",
    "wordCount": 1183,
    "desc": "- 企业 AI 商业化（domains/enterprise-ai）回答\"业务怎么用 AI\""
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/README.md",
+   "title": "OpenWiki 原始输出（未修改）",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 456,
+   "desc": "本目录是 OpenWiki 从正式 Obsidian 知识库编译生成的原始输出，未经过任何人工修改或补充。"
   },
   {
    "path": "知识流水线/OpenWiki知识增量/openwiki-draft-20260908-155500/README.md",
@@ -10180,6 +10653,42 @@ window.OBSIDIAN_DATA = {
    "desc": "- 现状：openwiki code --update --print 退出码为 1，内容生成成功但 finalize 阶段失败"
   },
   {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/enterprise-ai/workbuddy.md",
+   "title": "WorkBuddy 智能体",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 1065,
+   "desc": "WorkBuddy 是腾讯系智能体平台，在整个多智能体体系中承担腾讯体系的 Agent 平台角色，侧重专家团队、组织协作和知识管理。它是[企业 AI 商业化总览](overview"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/personal/overview.md",
+   "title": "个人档案与行为记录",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 837,
+   "desc": "本领域涵盖徐总个人长期档案（画像、能力提升、健康、车辆）与会议/行为记录。这些是一级知识目录的一部分，与核心 AI 领域、主题知识并列。"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/topics/overview.md",
+   "title": "主题知识目录",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 620,
+   "desc": "本页汇总 vault 中独立的主题知识领域，作为[知识库结构与导航架构](../architecture/overview.md)下的主题层入口。每个主题目录内有自己的专题入口笔记"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/workflows/task-panel.md",
+   "title": "任务面板与知识库同步",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 1064,
+   "desc": "任务面板与知识库/ 是“任务面板 × Obsidian 协同”主题的知识文档主位置（2026-08-09 徐总确认建立）。原位置（Codex工作区/、知识流水线/）保留同名文件作备"
+  },
+  {
    "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
    "title": "企业 AI 与智能体商业化专题",
    "updated": "2026-09-08",
@@ -10187,6 +10696,42 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 19894,
    "desc": "上级：徐总的知识库"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/enterprise-ai/overview.md",
+   "title": "企业 AI 与智能体商业化总览",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 1521,
+   "desc": "本领域是 vault 的核心主题之一，研究的问题是：AI 如何真正嵌入企业业务流程，并形成可交付、可收费、可持续迭代的 ToB 服务模式。它不是基础模型研究，也不是单纯工具使用总结"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/topics/low-altitude-economy.md",
+   "title": "低空经济专题",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 463,
+   "desc": "本专题沉淀低空经济产业知识，包括低空物流、空域审批、军地协调与企业合作模式。覆盖成都低空物流航线、无人机巡检与相关企业合作模式。"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/agent-ecosystem/overview.md",
+   "title": "全域智能体与多智能体协作",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 1822,
+   "desc": "本领域描述 vault 背后运行的多智能体协作体系：由多个 AI 智能体（CodeX、WorkBuddy、OpenClaw、千问办公、Jarvis、Hermes 等）跨 Mac、平"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/agent-ecosystem/global-memory.md",
+   "title": "全局记忆",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 1186,
+   "desc": "全局记忆/ 目录是跨平台 AI/Codex 协作的长期记忆入口，记录长期身份、偏好、系统架构、工作规则与关键决策。它与 知识库索引.md（内容检索）和 全局术语表.md（术语统一）"
   },
   {
    "path": "企业AI与智能体商业化/己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径.md",
@@ -10207,6 +10752,15 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
   },
   {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/topics/government-resources.md",
+   "title": "政府资源配置与政策落地机制",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 603,
+   "desc": "本专题研究政府资源配置、政策传导、项目库、要素保障与市场机会判断，以及政策与市场之间的相互影响机制。核心问题是如何通过政策层级、招商逻辑和资源分配识别市场机会。"
+  },
+  {
    "path": "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
    "title": "李开复企业AI认知：从基座大模型到一号位工程",
    "updated": "2026-09-08",
@@ -10214,6 +10768,51 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 5189,
    "desc": "上级：企业AI与智能体商业化/零一万物企业AI落地专题、企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/topics/law.md",
+   "title": "法律体系与政策层级",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 494,
+   "desc": "本专题沉淀法律与政策层级知识，包括中国立法体系、低空经济法律与决策传导框架，用于从法律政策角度判断行业动向与影响。"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/enterprise-ai/ganshiji-case.md",
+   "title": "甘食记经营系统案例",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 1302,
+   "desc": "甘食记是 vault 里最完整的从真实业务到生产级 AI 系统的落地主案。它把“生成每日经营报告”升级为“基于 Palantir Ontology 思路，从可信经营数据、异常事件、"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/agent-engineering/overview.md",
+   "title": "生产级 Agent 工程总览",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 1383,
+   "desc": "本领域是 vault 的工程定义线，回答“生产级 AI Agent 是什么、怎么建、什么标准、怎么验收”。它不绑定某个行业，但持续接受业务落地线与方法论线的校验（甘食记、美团、FD"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/agent-engineering/production-grade.md",
+   "title": "生产级 Agent 知识体系总览（层级·特性·术语）",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 1051,
+   "desc": "生产级AI Agent知识体系总览：层级·特性·术语.md 是 vault 中生产级 Agent 的唯一核心主版本，统一概念地图。生产级AI Agent工程体系的完整链路.md 补"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/workflows/knowledge-pipeline.md",
+   "title": "知识流水线",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 1432,
+   "desc": "知识流水线是这个 Obsidian 库的轻量处理机制，用来处理“还没完全沉淀”的资料。它不是新的知识分类体系，也不算错所有资料必须走 A/B/C/D；真正的知识沉淀仍以专题 Wik"
   },
   {
    "path": "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md",
@@ -10232,6 +10831,15 @@ window.OBSIDIAN_DATA = {
    "topicName": "政府资源配置与政策落地",
    "wordCount": 3467,
    "desc": "四川成渝（蜀道集团旗下高速公路上市平台）拟以成都二绕西段收费经营权为底层资产，发行不超过 120 亿的权益并表型类REITs。这不是孤立动作：同一集团内公募REITs（雅泸高速 1"
+  },
+  {
+   "path": "知识流水线/OpenWiki知识增量/openwiki-original-20260908/domains/agent-ecosystem/feishu.md",
+   "title": "飞书链路与多智能体连接",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 1071,
+   "desc": "飞书 lark-cli 是多智能体体系的通道层，统一管理多个飞书应用（bot 身份），CodeX 经 Mason 入口接入。理解和维护飞书连接是保障[全域智能体协作](overvi"
   },
   {
    "path": "Codex工作区/Codex全局治理与工作区总结-2026-09-07.md",
@@ -10925,294 +11533,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "Codex 工作区",
    "wordCount": 15481,
    "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-18.md",
-   "title": "2026-07-18 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15283,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-19.md",
-   "title": "2026-07-19 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15283,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-20.md",
-   "title": "2026-07-20 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15283,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-21.md",
-   "title": "2026-07-21 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15890,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-22.md",
-   "title": "2026-07-22 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15800,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-23.md",
-   "title": "2026-07-23 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 16038,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-24.md",
-   "title": "2026-07-24 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15909,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-25.md",
-   "title": "2026-07-25 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15745,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-26.md",
-   "title": "2026-07-26 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 16344,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-27.md",
-   "title": "2026-07-27 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 18486,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-28.md",
-   "title": "2026-07-28 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 21924,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-29.md",
-   "title": "2026-07-29 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 19065,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-04.md",
-   "title": "2026-08-04 工作进展日记",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 897,
-   "desc": "上级：Codex工作区/Codex工作区"
-  },
-  {
-   "path": "Codex工作区/2026-08-04_QoderWork_Lucas飞书长连接修复.md",
-   "title": "2026-08-04｜Lucas 飞书长连接无法建立：QoderWork 虚报 connected 修复",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 2366,
-   "desc": "Lucas（QoderWork 飞书通道，appId clia93f8a327ba11bd7）此前在飞书里能正常收发，某天起突然收不到消息。飞书开发者后台一直显示\"订阅方式连接失败"
-  },
-  {
-   "path": "Codex工作区/2026-08-04_WorkBuddy_伊森飞书长连接假connected修复.md",
-   "title": "2026-08-04｜WorkBuddy 伊森飞书长连接\"假 connected\"：双通道残留与占位冲突修复",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 2191,
-   "desc": "群里同时出现两个叠加症状："
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-05.md",
-   "title": "2026-08-05 工作进展日记",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 1728,
-   "desc": "上级：Codex工作区/Codex工作区"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-06.md",
-   "title": "2026-08-06 工作进展日记",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 1980,
-   "desc": "上级：Codex工作区/Codex工作区"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-07.md",
-   "title": "2026-08-07 工作进展日记",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 2274,
-   "desc": "上级：Codex工作区/Codex工作区"
-  },
-  {
-   "path": "Codex工作区/2026-08-08_Obsidian_CLI配置成功记录.md",
-   "title": "2026-08-08 Obsidian CLI 配置成功记录（Oliver 完成）",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 2624,
-   "desc": "此前 CodeX 尝试启用 Obsidian CLI 未成功：Obsidian app 版本已自动更新到 1.13.4，但 Settings > General 中找不到官方文档要"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-08.md",
-   "title": "2026-08-08 工作进展日记",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 3783,
-   "desc": "上级：Codex工作区/Codex工作区"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-09.md",
-   "title": "2026-08-09 工作进展日记",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 922,
-   "desc": "上级：Codex工作区/Codex工作区"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-10.md",
-   "title": "2026-08-10 工作进展日记",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 931,
-   "desc": "上级：Codex工作区/Codex工作区"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-11.md",
-   "title": "2026-08-11 工作进展日记",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 1436,
-   "desc": "上级：Codex工作区/Codex工作区"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-12.md",
-   "title": "2026-08-12｜Codex 跨项目复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 1373,
-   "desc": "上级：Codex工作区/每日跨项目复盘/每日跨项目复盘说明"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-13.md",
-   "title": "2026-08-13｜Codex 跨项目复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 2123,
-   "desc": "上级：Codex工作区/每日跨项目复盘/每日跨项目复盘说明"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-14.md",
-   "title": "2026-08-14｜Codex 跨项目复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 1487,
-   "desc": "上级：Codex工作区/每日跨项目复盘/每日跨项目复盘说明"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-15.md",
-   "title": "2026-08-15｜Codex 跨项目复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 1047,
-   "desc": "上级：Codex工作区/每日跨项目复盘/每日跨项目复盘说明"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-16.md",
-   "title": "2026-08-16｜Codex 跨项目复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 1994,
-   "desc": "上级：Codex工作区/每日跨项目复盘/每日跨项目复盘说明"
-  },
-  {
-   "path": "知识流水线/Agent Ontology 1.0运行数据库与闭环落地.md",
-   "title": "Agent Ontology 1.0 运行数据库与闭环落地",
-   "updated": "2026-08-26",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 7280,
-   "desc": "- Task: KNOWLEDGEPIP-72"
-  },
-  {
-   "path": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
-   "title": "Agent系统架构模式选型：从单Agent到Graph Workflow",
-   "updated": "2026-08-26",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 6740,
-   "desc": "上级：AI Agent工程知识专题"
-  },
-  {
-   "path": "AI Agent工程知识/AI Agent专业术语词典.md",
-   "title": "AI Agent 专业术语词典",
-   "updated": "2026-08-26",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 40916,
-   "desc": "上级：AI Agent工程知识专题"
-  },
-  {
-   "path": "AI Agent工程知识/AI Agent全面理解.md",
-   "title": "AI Agent 全面理解",
-   "updated": "2026-08-26",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 9126,
-   "desc": "上级：AI Agent工程知识专题"
   }
  ]
 };
