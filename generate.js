@@ -700,6 +700,20 @@ async function build() {
     graph.topics.push({ key: 'raw', name: '原始资料 / 养料', icon: '🗂', color: 'raw', count: rawFiles.length, files: rawFiles });
   }
 
+  // 知识卡中心：专门提取候选知识卡、调用日志、调用标准，供首页展示
+  const knowledgeCards = (graph.nodes || [])
+    .filter(n => /候选知识卡试点/.test(n.path || ''))
+    .map(n => ({ path: n.path, title: n.title, updated: n.updated, wordCount: n.wordCount || 0, desc: n.desc || '' }));
+  const callLogs = (graph.nodes || [])
+    .filter(n => /知识卡调用日志/.test(n.path || ''))
+    .map(n => ({ path: n.path, title: n.title, updated: n.updated, wordCount: n.wordCount || 0, desc: n.desc || '' }));
+  const callStandards = (graph.nodes || [])
+    .filter(n => /知识卡片与Agent调用标准/.test(n.path || ''))
+    .map(n => ({ path: n.path, title: n.title, updated: n.updated, wordCount: n.wordCount || 0, desc: n.desc || '' }));
+  const callEvaluations = (graph.nodes || [])
+    .filter(n => /候选知识卡.*调用.*评估|候选知识卡.*测试记录/.test(n.path || ''))
+    .map(n => ({ path: n.path, title: n.title, updated: n.updated, wordCount: n.wordCount || 0, desc: n.desc || '' }));
+
   const data = {
     generatedAt: graph.generatedAt,
     generatedTime: graph.generatedTime,
@@ -720,6 +734,12 @@ async function build() {
     architectureLayers,
     questionTopics,
     tasks: tasksSnapshot,
+    knowledgeCardCenter: {
+      cards: knowledgeCards,
+      logs: callLogs,
+      standards: callStandards,
+      evaluations: callEvaluations,
+    },
   };
 
   // 拆分：data.js 只放元数据（不含正文，首屏秒开），docs.js 放正文（延迟加载）

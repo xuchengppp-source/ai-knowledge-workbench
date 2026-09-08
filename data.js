@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-08",
- "generatedTime": "2026-09-08 23:48",
+ "generatedTime": "2026-09-08 23:57",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 40,
- "weeklyChanges": 626,
+ "weeklyPages": 41,
+ "weeklyChanges": 625,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-08｜AI知识增量整理.md",
  "topics": [
@@ -35,7 +35,7 @@ window.OBSIDIAN_DATA = {
    "name": "Codex 工作区",
    "key": "codex",
    "icon": "🛠",
-   "count": 78
+   "count": 76
   },
   {
    "name": "DeepSeek Harness 项目",
@@ -53,7 +53,7 @@ window.OBSIDIAN_DATA = {
    "name": "任务面板与知识库",
    "key": "taskboard",
    "icon": "🧭",
-   "count": 17
+   "count": 19
   },
   {
    "name": "政府资源配置与政策落地",
@@ -4550,7 +4550,6 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识库健康巡检.md",
     "Codex工作区/每日跨项目复盘/2026-08-13.md",
     "Codex工作区/每日跨项目复盘/2026-08-14.md",
-    "Codex工作区/每日跨项目复盘/每日跨项目复盘说明.md",
     "任务面板与知识库/方向推进与接力.md"
    ],
    "desc": "上级：知识流水线/知识流水线",
@@ -5947,7 +5946,6 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/每日跨项目复盘/2026-08-09.md",
     "Codex工作区/每日跨项目复盘/2026-08-10.md",
     "Codex工作区/每日跨项目复盘/2026-08-11.md",
-    "Codex工作区/每日跨项目复盘/每日跨项目复盘说明.md",
     "任务面板与知识库/智能体协作共享问答.md",
     "豆包工作区/豆包工作区.md"
    ],
@@ -7307,20 +7305,6 @@ window.OBSIDIAN_DATA = {
    "wordCount": 1994
   },
   {
-   "path": "Codex工作区/每日跨项目复盘/2026-09-08.md",
-   "title": "2026-09-08｜智能体学习与跨项目推进复盘",
-   "updated": "2026-09-08",
-   "topic": "codex",
-   "links": [
-    "每日智能体学习与跨项目推进复盘说明",
-    "全局记忆/12_Codex跨项目永久记忆与自动复盘",
-    "徐总每日随记/当日记录/2026-09-08"
-   ],
-   "backlinks": [],
-   "desc": "今天确认需要把“每天所有智能体推进了什么”单独记录为学习 / 项目复盘线，与生活随记分开；现有每日跨项目复盘机制需要扩展为 Codex、豆包、WorkBuddy、Harness/F",
-   "wordCount": 645
-  },
-  {
    "path": "Codex工作区/每日跨项目复盘/README.md",
    "title": "每日跨项目复盘日志",
    "updated": "2026-08-28",
@@ -7332,27 +7316,6 @@ window.OBSIDIAN_DATA = {
    "backlinks": [],
    "desc": "- 记录\"今天推进了什么工作\"：项目进展、任务面板变化、重要决策",
    "wordCount": 440
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/每日跨项目复盘说明.md",
-   "title": "每日跨项目复盘说明",
-   "updated": "2026-09-08",
-   "topic": "codex",
-   "links": [
-    "Codex工作区/Codex工作区",
-    "任务面板与知识库/方向推进与接力",
-    "知识流水线/AI知识自动化整理入口",
-    "任务面板与知识库/智能体协作-任务面板操作手册"
-   ],
-   "backlinks": [
-    "Codex工作区/每日跨项目复盘/2026-08-12.md",
-    "Codex工作区/每日跨项目复盘/2026-08-13.md",
-    "Codex工作区/每日跨项目复盘/2026-08-14.md",
-    "Codex工作区/每日跨项目复盘/2026-08-15.md",
-    "Codex工作区/每日跨项目复盘/2026-08-16.md"
-   ],
-   "desc": "上级：Codex工作区/Codex工作区",
-   "wordCount": 1314
   },
   {
    "path": "Codex工作区/甘食记WorkBuddy_v2架构升级记录.md",
@@ -8321,7 +8284,6 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/每日跨项目复盘/2026-08-14.md",
     "Codex工作区/每日跨项目复盘/2026-08-15.md",
     "Codex工作区/每日跨项目复盘/2026-08-16.md",
-    "Codex工作区/每日跨项目复盘/每日跨项目复盘说明.md",
     "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
    ],
    "desc": "上级：任务面板与知识库/00总入口、全局记忆/智能体启动与身份连续性统一合同",
@@ -8330,7 +8292,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "任务面板与知识库/智能体协作-任务面板操作手册.md",
    "title": "给智能体：任务面板（Taskboard）操作手册",
-   "updated": "2026-08-29",
+   "updated": "2026-09-08",
    "topic": "taskboard",
    "links": [
     "任务面板与知识库/任务面板与Obsidian同步",
@@ -8342,7 +8304,6 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识库健康巡检执行规范.md",
     "知识流水线/知识流水线.md",
     "Codex工作区/每日跨项目复盘/2026-08-10.md",
-    "Codex工作区/每日跨项目复盘/每日跨项目复盘说明.md",
     "多智能体协作任务/KNOWLEDGEPIP-143-多智能体协作工作台搭建.md",
     "多智能体协作任务/多智能体协作任务专题.md",
     "多智能体协作任务/多智能体协作体系总览.md",
@@ -8350,7 +8311,7 @@ window.OBSIDIAN_DATA = {
     "任务面板与知识库/智能体协作共享问答.md"
    ],
    "desc": "先记住这条，所有动作都不跑偏：",
-   "wordCount": 16880
+   "wordCount": 16950
   },
   {
    "path": "任务面板与知识库/智能体协作共享问答.md",
@@ -8370,6 +8331,32 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "上级：Codex工作区/Codex工作区",
    "wordCount": 18541
+  },
+  {
+   "path": "任务面板与知识库/每日工作记录/2026-09-08.md",
+   "title": "2026-09-08｜多智能体工作记录",
+   "updated": "2026-09-08",
+   "topic": "taskboard",
+   "links": [
+    "Codex工作区/每日跨项目复盘/2026-09-08",
+    "任务面板与知识库/每日工作记录/每日工作记录说明",
+    "徐总每日随记/当日记录/2026-09-08"
+   ],
+   "backlinks": [],
+   "desc": "今天确认建立独立的公共“工作记录”线，用于记录 Codex、豆包、WorkBuddy、Harness/Friday 的项目推进和学习过程；它与 徐总每日随记 分开。",
+   "wordCount": 979
+  },
+  {
+   "path": "任务面板与知识库/每日工作记录/每日工作记录说明.md",
+   "title": "每日工作记录说明",
+   "updated": "2026-09-08",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [
+    "任务面板与知识库/每日工作记录/2026-09-08.md"
+   ],
+   "desc": "这是 Codex、豆包、WorkBuddy、Harness/Friday 和其他执行线共同使用的日常工作记录，不属于任何单一 Agent，也不属于个人生活随记。",
+   "wordCount": 693
   },
   {
    "path": "任务面板与知识库/面板改动记录-议题看板V2还原-2026-08-10.md",
@@ -9884,7 +9871,7 @@ window.OBSIDIAN_DATA = {
     "徐总每日随记/徐总每日随记"
    ],
    "backlinks": [
-    "Codex工作区/每日跨项目复盘/2026-09-08.md"
+    "任务面板与知识库/每日工作记录/2026-09-08.md"
    ],
    "desc": "- 从贵州回来后仍按以往节奏；名义上每天在学 AI agents，但怀疑这种节奏对个人确实有不好的影响——没人沟通、没有在工作的环境下，很多能力没得到锻炼。",
    "wordCount": 1685
@@ -10668,7 +10655,7 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 81066,
+     "wordCount": 81044,
      "excerpt": "知识库索引（快速查找版）2026-09-08｜知识库可调用层标准（V2.1试点）知识流水线/知识卡片与Agent调用标准：在现有原始资料、问题专题、正式知识和执行规则之间建立“候选知识卡”逻辑层；当前采用轻量执行模式，先",
      "hasBody": true
     },
@@ -11777,7 +11764,44 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 118,
-  "fetchedAt": "2026年9月8日 23:48"
+  "fetchedAt": "2026年9月8日 23:57"
+ },
+ "knowledgeCardCenter": {
+  "cards": [
+   {
+    "path": "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
+    "title": "候选知识卡试点：AI Agent 工程知识（2026-09-08）",
+    "updated": "2026-09-08",
+    "wordCount": 8643,
+    "desc": "上级：AI Agent工程知识/AI Agent工程知识专题"
+   }
+  ],
+  "logs": [],
+  "standards": [
+   {
+    "path": "知识流水线/知识卡片与Agent调用标准.md",
+    "title": "知识卡片与 Agent 调用标准",
+    "updated": "2026-09-08",
+    "wordCount": 4662,
+    "desc": "上级：知识流水线/知识流水线"
+   }
+  ],
+  "evaluations": [
+   {
+    "path": "知识流水线/候选知识卡真实调用评估记录｜2026-09-08｜AI Agent工程知识.md",
+    "title": "候选知识卡真实调用评估记录（2026-09-08）",
+    "updated": "2026-09-08",
+    "wordCount": 8074,
+    "desc": "- 候选卡文件：知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md（12 张：KC-01~KC-12）。"
+   },
+   {
+    "path": "知识流水线/候选知识卡调用测试记录｜2026-09-08｜豆包Skill v0.1.md",
+    "title": "候选知识卡调用测试记录（2026-09-08｜豆包Skill v0.1）",
+    "updated": "2026-09-08",
+    "wordCount": 14939,
+    "desc": "- Skill 文件：knowledge-card-caller-v0.1/SKILL.md（隔离工作区）"
+   }
+  ]
  },
  "recentUpdates": [
   {
@@ -11790,13 +11814,13 @@ window.OBSIDIAN_DATA = {
    "desc": "- 从贵州回来后仍按以往节奏；名义上每天在学 AI agents，但怀疑这种节奏对个人确实有不好的影响——没人沟通、没有在工作的环境下，很多能力没得到锻炼。"
   },
   {
-   "path": "Codex工作区/每日跨项目复盘/2026-09-08.md",
-   "title": "2026-09-08｜智能体学习与跨项目推进复盘",
+   "path": "任务面板与知识库/每日工作记录/2026-09-08.md",
+   "title": "2026-09-08｜多智能体工作记录",
    "updated": "2026-09-08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 645,
-   "desc": "今天确认需要把“每天所有智能体推进了什么”单独记录为学习 / 项目复盘线，与生活随记分开；现有每日跨项目复盘机制需要扩展为 Codex、豆包、WorkBuddy、Harness/F"
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 979,
+   "desc": "今天确认建立独立的公共“工作记录”线，用于记录 Codex、豆包、WorkBuddy、Harness/Friday 的项目推进和学习过程；它与 徐总每日随记 分开。"
   },
   {
    "path": "知识流水线/A_原始资料.md",
@@ -11898,13 +11922,13 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：企业AI与智能体商业化/零一万物企业AI落地专题、企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究"
   },
   {
-   "path": "Codex工作区/每日跨项目复盘/每日跨项目复盘说明.md",
-   "title": "每日跨项目复盘说明",
+   "path": "任务面板与知识库/每日工作记录/每日工作记录说明.md",
+   "title": "每日工作记录说明",
    "updated": "2026-09-08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 1314,
-   "desc": "上级：Codex工作区/Codex工作区"
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 693,
+   "desc": "这是 Codex、豆包、WorkBuddy、Harness/Friday 和其他执行线共同使用的日常工作记录，不属于任何单一 Agent，也不属于个人生活随记。"
   },
   {
    "path": "知识流水线/知识卡片与Agent调用标准.md",
@@ -11914,6 +11938,15 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 4662,
    "desc": "上级：知识流水线/知识流水线"
+  },
+  {
+   "path": "任务面板与知识库/智能体协作-任务面板操作手册.md",
+   "title": "给智能体：任务面板（Taskboard）操作手册",
+   "updated": "2026-09-08",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 16950,
+   "desc": "先记住这条，所有动作都不跑偏："
   },
   {
    "path": "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md",
@@ -12400,15 +12433,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "任务面板与知识库",
    "wordCount": 1832,
    "desc": "建立飞书群通知机制，让任务面板（dashi-taskboard）关键节点能推送到飞书群「智能体任务通知」。"
-  },
-  {
-   "path": "任务面板与知识库/智能体协作-任务面板操作手册.md",
-   "title": "给智能体：任务面板（Taskboard）操作手册",
-   "updated": "2026-08-29",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 16880,
-   "desc": "先记住这条，所有动作都不跑偏："
   },
   {
    "path": "Codex工作区/Codex多智能体副手矩阵与任务编排-完整建设总结.md",
