@@ -46,6 +46,32 @@ body { font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaH
 .empty-state .text { font-size:14px; }
 
 .loading { text-align:center; padding:60px; color:rgba(255,255,255,0.4); }
+
+/* 详情面板 */
+.detail-overlay { position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.7); z-index:200; display:none; }
+.detail-overlay.active { display:block; }
+.detail-panel { position:fixed; top:0; right:0; bottom:0; width:100%; max-width:720px; background:linear-gradient(135deg,#0f0f2a 0%,#1a1a3e 100%); z-index:201;
+  transform:translateX(100%); transition:transform 0.3s ease; overflow-y:auto; }
+.detail-panel.active { transform:translateX(0); }
+.detail-header { position:sticky; top:0; padding:16px 24px; background:rgba(15,15,42,0.95); backdrop-filter:blur(10px);
+  border-bottom:1px solid rgba(255,255,255,0.08); display:flex; justify-content:space-between; align-items:center; z-index:1; }
+.detail-header .close-btn { padding:6px 14px; border-radius:8px; border:1px solid rgba(255,255,255,0.15);
+  background:rgba(255,255,255,0.06); color:#fff; font-size:12px; cursor:pointer; }
+.detail-header .detail-title { font-size:15px; font-weight:700; color:#fbbf24; flex:1; margin-right:12px; }
+.detail-body { padding:24px; color:rgba(255,255,255,0.85); line-height:1.9; font-size:14px; }
+.detail-body h1 { font-size:22px; color:#fbbf24; margin-bottom:16px; }
+.detail-body h2 { font-size:17px; color:#fcd34d; margin:24px 0 12px; border-left:3px solid #fbbf24; padding-left:10px; }
+.detail-body h3 { font-size:15px; color:#fde68a; margin:18px 0 10px; }
+.detail-body p { margin-bottom:12px; }
+.detail-body ul, .detail-body ol { margin:10px 0 14px 20px; }
+.detail-body li { margin-bottom:6px; }
+.detail-body blockquote { background:rgba(251,191,36,0.08); border-left:3px solid #fbbf24; padding:10px 14px; margin:14px 0; border-radius:0 8px 8px 0; }
+.detail-body table { width:100%; border-collapse:collapse; margin:14px 0; font-size:13px; }
+.detail-body th, .detail-body td { border:1px solid rgba(255,255,255,0.1); padding:8px 10px; text-align:left; }
+.detail-body th { background:rgba(251,191,36,0.1); color:#fbbf24; }
+.detail-body a { color:#60a5fa; text-decoration:none; }
+.detail-body code { background:rgba(255,255,255,0.08); padding:2px 6px; border-radius:4px; font-size:13px; }
+.detail-meta { font-size:11px; color:rgba(255,255,255,0.4); margin-bottom:16px; padding-bottom:12px; border-bottom:1px solid rgba(255,255,255,0.08); }
 </style>
 </head>
 <body>
@@ -67,6 +93,16 @@ body { font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaH
   <div id="insightsList">
     <div class="loading">正在从 Obsidian 同步...</div>
   </div>
+</div>
+
+<!-- 详情面板 -->
+<div class="detail-overlay" id="detailOverlay" onclick="closeDetail()"></div>
+<div class="detail-panel" id="detailPanel">
+  <div class="detail-header">
+    <div class="detail-title" id="detailTitle">洞察详情</div>
+    <button class="close-btn" onclick="closeDetail()">✕ 关闭</button>
+  </div>
+  <div class="detail-body" id="detailBody"></div>
 </div>
 
 <script src="data.js"></script>
@@ -153,7 +189,7 @@ function loadInsights() {
   }
 
   list.innerHTML = insightsWithMeta.map(item => `
-    <div class="insight-card" onclick="openInsight('${item.path.replace(/'/g, "\\'")}')">
+    <div class="insight-card" onclick="openInsight('${item.path.replace(/'/g, "\\'")}', '${item.title.replace(/'/g, "\\'")}')">
       <div class="card-header">
         <div class="title">${item.title}</div>
         <span class="priority priority-${item.priority}">${priorityLabel(item.priority)}</span>
@@ -168,9 +204,19 @@ function loadInsights() {
   `).join('');
 }
 
-function openInsight(path) {
-  // 跳转到工作台的文档详情页
-  window.location.href = 'index.html?doc=' + encodeURIComponent(path);
+function openInsight(path, title) {
+  const html = getDocHtml(path);
+  document.getElementById('detailTitle').textContent = title || '洞察详情';
+  document.getElementById('detailBody').innerHTML = html || '<p>内容加载失败</p>';
+  document.getElementById('detailOverlay').classList.add('active');
+  document.getElementById('detailPanel').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeDetail() {
+  document.getElementById('detailOverlay').classList.remove('active');
+  document.getElementById('detailPanel').classList.remove('active');
+  document.body.style.overflow = '';
 }
 
 // 初始化
