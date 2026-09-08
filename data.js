@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-08",
- "generatedTime": "2026-09-08 09:33",
+ "generatedTime": "2026-09-08 09:45",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 11,
  "weeklyChanges": 293,
@@ -1410,7 +1410,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
-   "wordCount": 22208
+   "wordCount": 24609
   },
   {
    "path": "企业AI与智能体商业化/OpenClaw统一调用入口与委派规则.md",
@@ -4175,7 +4175,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/A_原始资料.md",
    "title": "A_原始资料",
-   "updated": "2026-09-07",
+   "updated": "2026-09-08",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -4305,7 +4305,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识获取与录入三条链路现状与卡壳点.md"
    ],
    "desc": "上级：知识流水线/知识流水线",
-   "wordCount": 12492
+   "wordCount": 12598
   },
   {
    "path": "知识流水线/Agent Notifier统一通知机制.md",
@@ -5944,16 +5944,16 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 116,
-  "fetchedAt": "2026年9月8日 09:33"
+  "fetchedAt": "2026年9月8日 09:45"
  },
  "recentUpdates": [
   {
    "path": "知识流水线/A_原始资料.md",
    "title": "A_原始资料",
-   "updated": "2026-09-07",
+   "updated": "2026-09-08",
    "topic": "pipeline",
    "topicName": "知识流水线",
-   "wordCount": 12492,
+   "wordCount": 12598,
    "desc": "上级：知识流水线/知识流水线"
   },
   {
@@ -5962,7 +5962,7 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-09-07",
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
-   "wordCount": 22208,
+   "wordCount": 24609,
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
   },
   {
