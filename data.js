@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-08",
- "generatedTime": "2026-09-08 16:31",
+ "generatedTime": "2026-09-08 16:35",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 61,
+ "weeklyPages": 62,
  "weeklyChanges": 501,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-07｜AI知识增量整理.md",
@@ -95,7 +95,7 @@ window.OBSIDIAN_DATA = {
    "name": "OpenWiki 知识增量",
    "key": "openwiki",
    "icon": "🌐",
-   "count": 65
+   "count": 66
   },
   {
    "key": "raw",
@@ -8233,6 +8233,16 @@ window.OBSIDIAN_DATA = {
    "wordCount": 268
   },
   {
+   "path": "知识流水线/OpenWiki知识增量/OpenWiki知识发现汇总.md",
+   "title": "OpenWiki 知识发现汇总",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "links": [],
+   "backlinks": [],
+   "desc": "- [企业 AI 商业化](domains/enterprise-ai/overview.md) 与 [生产级 Agent 工程](domains/agent-engineerin",
+   "wordCount": 23842
+  },
+  {
    "path": "知识流水线/OpenWiki知识增量/openwiki-draft-20260908-155500/README.md",
    "title": "OpenWiki 知识增量回写｜openwiki-draft-20260908-155500",
    "updated": "2026-09-08",
@@ -9240,7 +9250,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "商业化与组织能力",
-   "matched": 93,
+   "matched": 94,
    "status": "已形成"
   }
  ],
@@ -10635,6 +10645,15 @@ window.OBSIDIAN_DATA = {
    "desc": "本目录是 OpenWiki 从正式 Obsidian 知识库编译生成的原始输出，未经过任何人工修改或补充。"
   },
   {
+   "path": "知识流水线/OpenWiki知识增量/OpenWiki知识发现汇总.md",
+   "title": "OpenWiki 知识发现汇总",
+   "updated": "2026-09-08",
+   "topic": "openwiki",
+   "topicName": "OpenWiki 知识增量",
+   "wordCount": 23842,
+   "desc": "- [企业 AI 商业化](domains/enterprise-ai/overview.md) 与 [生产级 Agent 工程](domains/agent-engineerin"
+  },
+  {
    "path": "知识流水线/OpenWiki知识增量/openwiki-draft-20260908-155500/README.md",
    "title": "OpenWiki 知识增量回写｜openwiki-draft-20260908-155500",
    "updated": "2026-09-08",
@@ -11523,15 +11542,6 @@ window.OBSIDIAN_DATA = {
    "topic": "codex",
    "topicName": "Codex 工作区",
    "wordCount": 15283,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-17.md",
-   "title": "2026-07-17 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15481,
    "desc": "上级：Codex工作区/项目索引"
   }
  ]
