@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-08",
- "generatedTime": "2026-09-08 11:05",
+ "generatedTime": "2026-09-08 11:13",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 28,
- "weeklyChanges": 528,
+ "weeklyPages": 29,
+ "weeklyChanges": 539,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-07｜AI知识增量整理.md",
  "topics": [
@@ -3294,7 +3294,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md",
    "title": "腾讯FDE模式行业观察与实践报告研究",
-   "updated": "2026-08-31",
+   "updated": "2026-09-08",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -3313,7 +3313,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md"
    ],
    "desc": "上级：企业AI与智能体商业化专题",
-   "wordCount": 6995
+   "wordCount": 11743
   },
   {
    "path": "企业AI与智能体商业化/腾讯Marvis与操作系统级Agent产品思维.md",
@@ -10419,7 +10419,7 @@ window.OBSIDIAN_DATA = {
      "path": "徐总问题专题库/06_企业AI与商业化/2026-08-31_腾讯FDE报告与生产级Agent横纵轴判断.md",
      "title": "2026-08-31_腾讯FDE报告与生产级Agent横纵轴判断",
      "kind": "note",
-     "wordCount": 1482,
+     "wordCount": 1520,
      "excerpt": "腾讯 FDE 报告与生产级 Agent 横纵轴判断一、徐总的核心问题腾讯研究院关于 FDE、超级个体和 AI 原生组织的报告，是否已经讨论了我们当前遇到的生产级 AI Agent 矛盾？企业是否必须直接建设复杂 Agen",
      "hasBody": true
     },
@@ -10526,31 +10526,41 @@ window.OBSIDIAN_DATA = {
    "summary": "二、综合结论 腾讯报告与我们当前讨论高度重合，但它补充了两个重要边界：生产级不等于复杂化；Ontology 不是入场券。企业 AI 要先按任务的判断深度和风险等级分流，再逐步增加工程保障。 1. 纵轴：AI 参与业务判断的深度 越往上，越需要企业上下文、业务对象、组织记忆和复杂协作；处于底部的 RPA/API/Workflow 只要把确定性动作稳定完成，同样",
    "answerHtml": "<h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">二、综合结论</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">腾讯报告与我们当前讨论高度重合，但它补充了两个重要边界：生产级不等于复杂化；Ontology 不是入场券。企业 AI 要先按任务的判断深度和风险等级分流，再逐步增加工程保障。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">1. 纵轴：AI 参与业务判断的深度</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">确定性自动化 → AI增强流程 → 业务辅助Agent → 经营决策Agent → 多Agent系统\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">越往上，越需要企业上下文、业务对象、组织记忆和复杂协作；处于底部的 RPA/API/Workflow 只要把确定性动作稳定完成，同样可以产生生产价值。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">2. 横轴：从 Demo 到生产的工程成熟度</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">L0 场景识别 → L1 原型验证 → L2 试点运行 → L3 生产部署 → L4 规模扩展\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">也可以用 0→80→95→99 理解：0到80是模型和 Prompt 做出可演示效果；80到95要处理术语、数据、规则、测试集和 BadCase；95到99才集中出现权限、审计、回滚、人工接管、合规和长尾异常。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">三、执行框架的选择原则</h2><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务类型</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">优先形态</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">适合的执行框架</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">重复、确定、低判断</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">RPA / API / Workflow</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">RPA平台、脚本、系统集成</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">局部需要理解或生成</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">AI增强流程</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">WorkBuddy、千问办公、轻量 Agent</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">多步骤、需状态和工具协作</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Agentic Workflow</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Harness、Workflow、权限和日志</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">高风险经营或责任任务</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生产级 Agent 系统</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Harness + Ontology/数据底座 + Evals + HITL</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">选择不是 WorkBuddy、千问办公、DeepSeek Harness 三选一，而是由生产形态决定组合。WorkBuddy/千问办公更像直接使用的执行型工作台；DeepSeek Harness 更像可自建、可控制的 Agent Runtime；RPA负责确定性动作；FDE负责把业务翻译成可落地结构。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">四、Ontology 的正确节奏</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">不应先完整建设 Palantir 式 Ontology，再寻找业务。更现实的路径是：真实项目 → 可用 Skill → 跨项目模板 → 轻量语义层 → 有足够数据和复用需求后再形成完整 Ontology。Ontology 是随着业务运行长出来的资产，不是所有生产级 Agent 的前置门槛。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">五、FDE 的真正职责</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">FDE 不是销售一个 Agent，也不是证明自己掌握最多工具，而是判断：客户的业务属于哪种生产形态、AI 应该在哪个节点介入、需要多深的企业上下文、应该配置多少工程保障，以及如何用真实指标和 BadCase 闭环证明价值。</p>",
    "formalNotes": [
+    "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究",
     "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
     "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
     "徐总问题专题库/06_企业AI与商业化/2026-09-08_生产级Agent形态选择与案例演进"
    ],
    "rawMaterials": [
-    "原始资料/已整理｜2026-08-28｜53AI转载｜超级个体时代腾讯研究院报告",
+    "原始资料/已整理｜2026-09-08｜腾讯研究院｜FDE模式行业观察与实践原始稿索引",
     "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论"
    ],
    "distillItems": [],
    "nextQuestions": [],
    "links": [
-    "原始资料/已整理｜2026-08-28｜53AI转载｜超级个体时代腾讯研究院报告",
+    "原始资料/已整理｜2026-09-08｜腾讯研究院｜FDE模式行业观察与实践原始稿索引",
+    "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究",
     "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论",
     "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
     "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
     "徐总问题专题库/06_企业AI与商业化/2026-09-08_生产级Agent形态选择与案例演进"
    ],
-   "wordCount": 1578,
+   "wordCount": 1621,
    "linkedNotes": [
     {
-     "path": "原始资料/已整理｜2026-08-28｜53AI转载｜超级个体时代腾讯研究院报告.md",
-     "title": "超级个体时代腾讯研究院报告",
+     "path": "原始资料/已整理｜2026-09-08｜腾讯研究院｜FDE模式行业观察与实践原始稿索引.md",
+     "title": "FDE模式行业观察与实践原始稿索引",
      "kind": "raw",
-     "wordCount": 33613,
-     "excerpt": "上级：知识流水线/A_原始资料一、来源信息原文标题：超级个体时代｜腾讯研究院3万字报告出品：腾讯研究院（副院长袁晓辉、高级研究员余一 主笔；AI原生小组）收录日期：2026-08-28说明：经公开渠道检索获取全文（公开转",
+     "wordCount": 555,
+     "excerpt": "腾讯研究院 FDE 模式行业观察与实践原始稿索引来源确认这是腾讯研究院《FDE 模式行业观察与实践》原始 PDF，不是《超级个体时代》报告。本地原始文件：/Users/xucheng/Desktop/2026年文件/腾讯",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md",
+     "title": "腾讯FDE模式行业观察与实践报告研究",
+     "kind": "note",
+     "wordCount": 10949,
+     "excerpt": "腾讯 FDE 模式行业观察与实践报告研究上级：企业AI与智能体商业化专题关联：零一万物FDE与企业AI落地模式、FDE生产级AI Agent五阶段方法论与AI基建协同、FDE商业级智能体交付框架、FDE与甲方沟通：从经营",
      "hasBody": true
     },
     {
@@ -10586,7 +10596,7 @@ window.OBSIDIAN_DATA = {
      "hasBody": true
     }
    ],
-   "linkedCount": 5
+   "linkedCount": 6
   },
   {
    "path": "徐总问题专题库/06_企业AI与商业化/2026-08-19_企业AI知识库：手册库-数据库-萃取库三分类.md",
@@ -11529,7 +11539,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 116,
-  "fetchedAt": "2026年9月8日 11:06"
+  "fetchedAt": "2026年9月8日 11:13"
  },
  "recentUpdates": [
   {
@@ -11567,6 +11577,15 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 26787,
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
+  },
+  {
+   "path": "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md",
+   "title": "腾讯FDE模式行业观察与实践报告研究",
+   "updated": "2026-09-08",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 11743,
+   "desc": "上级：企业AI与智能体商业化专题"
   },
   {
    "path": "政府资源配置与政策落地机制/蜀道集团存量资产证券化：从四川成渝120亿类REITs看基建资金盘活与一卖一建.md",
@@ -11981,15 +12000,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "AI产业链与数字基础设施",
    "wordCount": 558,
    "desc": "灵骏真武 M890、超节点和远景星河基地等材料共同说明，大模型规模扩大后，竞争重点从单颗芯片性能转向芯片互联、服务器、网络、供电、散热、调度和运营的整体协同。超节点要求尽量缩短物理"
-  },
-  {
-   "path": "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md",
-   "title": "腾讯FDE模式行业观察与实践报告研究",
-   "updated": "2026-08-31",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 6995,
-   "desc": "上级：企业AI与智能体商业化专题"
   },
   {
    "path": "任务面板与知识库/任务卡/Alpha-Friday子代理编排能力基线测试-20260829.md",
