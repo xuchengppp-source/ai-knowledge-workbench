@@ -71,7 +71,21 @@ body { font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaH
 
 <script src="data.js"></script>
 <script src="docs.js"></script>
+<script src="docs-myinsights.js"></script>
 <script>
+function getDocHtml(path) {
+  // 先从 docs.js 找，再从分片找
+  if (typeof OBSIDIAN_DOCS !== 'undefined' && OBSIDIAN_DOCS[path]) return OBSIDIAN_DOCS[path];
+  if (typeof OBSIDIAN_DOCS_CHUNK !== 'undefined') {
+    for (const chunkKey in OBSIDIAN_DOCS_CHUNK) {
+      if (OBSIDIAN_DOCS_CHUNK[chunkKey] && OBSIDIAN_DOCS_CHUNK[chunkKey][path]) {
+        return OBSIDIAN_DOCS_CHUNK[chunkKey][path];
+      }
+    }
+  }
+  return '';
+}
+
 function extractPriority(html) {
   if (!html) return 'medium';
   if (html.includes('高关注') || html.includes('🔴')) return 'high';
@@ -118,7 +132,7 @@ function loadInsights() {
   // 统计
   let high = 0, medium = 0, low = 0;
   const insightsWithMeta = myInsights.map(node => {
-    const docHtml = (typeof OBSIDIAN_DOCS !== 'undefined') ? (OBSIDIAN_DOCS[node.path] || '') : '';
+    const docHtml = getDocHtml(node.path);
     const priority = extractPriority(docHtml);
     const tags = extractTags(docHtml);
     if (priority === 'high') high++;

@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-08",
- "generatedTime": "2026-09-08 20:50",
+ "generatedTime": "2026-09-08 20:55",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 29,
- "weeklyChanges": 529,
+ "weeklyPages": 28,
+ "weeklyChanges": 527,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-07｜AI知识增量整理.md",
  "topics": [
@@ -95,7 +95,7 @@ window.OBSIDIAN_DATA = {
    "name": "我的洞察",
    "key": "myinsights",
    "icon": "💡",
-   "count": 2
+   "count": 1
   },
   {
    "key": "raw",
@@ -8283,28 +8283,14 @@ window.OBSIDIAN_DATA = {
    "wordCount": 268
   },
   {
-   "path": "我的洞察/FDE学习链条构思（五层框架）.md",
-   "title": "FDE学习链条构思（五层框架）",
+   "path": "我的洞察/FDE（前线部署工程师）学习与研究.md",
+   "title": "FDE（前线部署工程师）学习与研究",
    "updated": "2026-09-08",
    "topic": "myinsights",
-   "links": [
-    "FDE（前线部署工程师）是生产级AI Agent落地的核心角色"
-   ],
-   "backlinks": [],
-   "desc": "基于目前输入的FDE内容，初步构思的五层学习链条框架：",
-   "wordCount": 169
-  },
-  {
-   "path": "我的洞察/FDE是生产级AI Agent落地的核心角色.md",
-   "title": "FDE是生产级AI Agent落地的核心角色",
-   "updated": "2026-09-08",
-   "topic": "myinsights",
-   "links": [
-    "FDE学习链条构思（五层框架）"
-   ],
+   "links": [],
    "backlinks": [],
    "desc": "FDE不是凭空冒出来的新职业，它是基础模型能力趋同之后，把模型变成可托付产品的关键角色。FDE是连接政策资金、技术能力和真实业务场景的翻译器和执行者。",
-   "wordCount": 1172
+   "wordCount": 893
   }
  ],
  "today": {
@@ -8659,7 +8645,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 103,
+   "matched": 102,
    "status": "已形成"
   },
   {
@@ -9888,6 +9874,15 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：知识流水线/知识流水线"
   },
   {
+   "path": "我的洞察/FDE（前线部署工程师）学习与研究.md",
+   "title": "FDE（前线部署工程师）学习与研究",
+   "updated": "2026-09-08",
+   "topic": "myinsights",
+   "topicName": "我的洞察",
+   "wordCount": 893,
+   "desc": "FDE不是凭空冒出来的新职业，它是基础模型能力趋同之后，把模型变成可托付产品的关键角色。FDE是连接政策资金、技术能力和真实业务场景的翻译器和执行者。"
+  },
+  {
    "path": "企业AI与智能体商业化/FDE企业真实落地案例库：按行业分类的企业AI落地实战.md",
    "title": "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
    "updated": "2026-09-08",
@@ -9895,24 +9890,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 3996,
    "desc": "上级：企业AI与智能体商业化、知识库索引"
-  },
-  {
-   "path": "我的洞察/FDE学习链条构思（五层框架）.md",
-   "title": "FDE学习链条构思（五层框架）",
-   "updated": "2026-09-08",
-   "topic": "myinsights",
-   "topicName": "我的洞察",
-   "wordCount": 169,
-   "desc": "基于目前输入的FDE内容，初步构思的五层学习链条框架："
-  },
-  {
-   "path": "我的洞察/FDE是生产级AI Agent落地的核心角色.md",
-   "title": "FDE是生产级AI Agent落地的核心角色",
-   "updated": "2026-09-08",
-   "topic": "myinsights",
-   "topicName": "我的洞察",
-   "wordCount": 1172,
-   "desc": "FDE不是凭空冒出来的新职业，它是基础模型能力趋同之后，把模型变成可托付产品的关键角色。FDE是连接政策资金、技术能力和真实业务场景的翻译器和执行者。"
   },
   {
    "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
@@ -10957,6 +10934,15 @@ window.OBSIDIAN_DATA = {
    "topicName": "AI Agent工程知识",
    "wordCount": 9126,
    "desc": "上级：AI Agent工程知识专题"
+  },
+  {
+   "path": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维.md",
+   "title": "AI Agent 后端工程化能力框架：分布式、异步、状态与可运维",
+   "updated": "2026-08-26",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 12170,
+   "desc": "创建日期：2026-07-02"
   }
  ]
 };
