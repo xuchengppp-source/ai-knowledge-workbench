@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-08",
- "generatedTime": "2026-09-08 09:45",
+ "generatedTime": "2026-09-08 09:59",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 11,
- "weeklyChanges": 293,
+ "weeklyPages": 12,
+ "weeklyChanges": 411,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-07｜AI知识增量整理.md",
  "topics": [
@@ -43,7 +43,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/AI Agent专业术语词典.md",
    "title": "AI Agent 专业术语词典",
-   "updated": "2026-06-13",
+   "updated": "2026-08-26",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -91,7 +91,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/AI Agent全面理解.md",
    "title": "AI Agent 全面理解",
-   "updated": "2026-07-05",
+   "updated": "2026-08-26",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -167,7 +167,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
    "title": "AI Agent 工程的行业语言映射：从内部术语到 Palantir / FDE / 数据治理标准",
-   "updated": "2026-06-17",
+   "updated": "2026-08-26",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -340,7 +340,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/AI模型选型与订阅历史.md",
    "title": "AI 模型选型与订阅历史",
-   "updated": "2026-08-05",
+   "updated": "2026-08-26",
    "topic": "agent",
    "links": [
     "AI Agent工程知识/AI Agent工程知识专题",
@@ -380,7 +380,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md",
    "title": "DeepSeek Harness Control Gateway 设计与调研",
-   "updated": "2026-08-30",
+   "updated": "2026-08-31",
    "topic": "agent",
    "links": [
     "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录",
@@ -607,7 +607,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/为什么做多智能体：Codex内部多线程vs跨平台多智能体.md",
    "title": "为什么做多智能体：Codex 内部多线程 vs 跨平台多智能体",
-   "updated": "2026-08-13",
+   "updated": "2026-08-26",
    "topic": "agent",
    "links": [
     "AI Agent工程知识/AI Agent工程知识专题",
@@ -634,7 +634,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/全域智能体框架总览.md",
    "title": "全域智能体框架总览",
-   "updated": "2026-08-15",
+   "updated": "2026-08-26",
    "topic": "agent",
    "links": [
     "全域智能体健康度审查方法论",
@@ -702,7 +702,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/多智能体共享记忆：TencentDB Agent Memory 评估.md",
    "title": "多智能体共享记忆：TencentDB Agent Memory 评估",
-   "updated": "2026-08-13",
+   "updated": "2026-08-26",
    "topic": "agent",
    "links": [],
    "backlinks": [],
@@ -743,7 +743,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制.md",
    "title": "显性知识与隐性知识的工程化入库机制",
-   "updated": "2026-07-09",
+   "updated": "2026-08-26",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -770,7 +770,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/智能体使用逻辑问题复盘-垂直任务实践（旅行案例）.md",
    "title": "智能体使用逻辑问题复盘：垂直任务实践（旅行案例）",
-   "updated": "2026-08-26",
+   "updated": "2026-08-28",
    "topic": "agent",
    "links": [
     "AI Agent工程知识/AI Agent工程知识专题",
@@ -790,7 +790,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
    "title": "生产级 AI Agent 工程体系的完整链路",
-   "updated": "2026-07-06",
+   "updated": "2026-08-26",
    "topic": "agent",
    "links": [
     "生产级AI Agent知识体系总览：层级·特性·术语",
@@ -832,7 +832,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
    "title": "生产级 AI Agent 知识体系总览：层级·特性·术语（含 Palantir Ontology 对标）",
-   "updated": "2026-07-06",
+   "updated": "2026-08-31",
    "topic": "agent",
    "links": [
     "企业AI与生产级Agent总框架",
@@ -888,7 +888,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度.md",
    "title": "生产级 AI Agent 记忆系统与 Context 调度",
-   "updated": "2026-07-08",
+   "updated": "2026-08-26",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -985,7 +985,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
    "title": "AI交付行业观察：走访7个团队后的困境机会与危机",
-   "updated": "2026-08-05",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -1028,7 +1028,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂.md",
    "title": "AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
-   "updated": "2026-07-22",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1056,7 +1056,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧.md",
    "title": "AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧",
-   "updated": "2026-08-12",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -1396,7 +1396,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/FDE面试通关手册：五重身份、八关流程与分轮真题答法.md",
    "title": "FDE 面试通关手册：五重身份、八关流程与分轮真题答法",
-   "updated": "2026-09-07",
+   "updated": "2026-09-08",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -1410,7 +1410,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
-   "wordCount": 24609
+   "wordCount": 24929
   },
   {
    "path": "企业AI与智能体商业化/OpenClaw统一调用入口与委派规则.md",
@@ -1839,7 +1839,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/企业AI专题轻量编译流程.md",
    "title": "企业 AI 专题轻量编译流程",
-   "updated": "2026-06-05",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1931,7 +1931,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利.md",
    "title": "企业AI知识资产：从知识库到组织能力与AI复利",
-   "updated": "2026-07-13",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1955,7 +1955,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
    "title": "企业 AI 落地的五堵墙 + 四层面系统工程 + 五层落地方法论",
-   "updated": "2026-07-15",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2172,7 +2172,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/多智能体双向连接架构_20260610.md",
    "title": "多智能体双向连接架构（2026-06-10 实现）",
-   "updated": "2026-06-10",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [],
    "backlinks": [],
@@ -2393,7 +2393,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/待整理稿｜AI商业落地第一步是数据治理（Corvera案例）.md",
    "title": "AI商业落地第一步是数据治理（Corvera 案例蒸馏）",
-   "updated": "2026-08-19",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [],
    "backlinks": [],
@@ -2403,7 +2403,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
    "title": "按业务形态设计 AI Agent 架构：日经营型、项目制与生产制造型",
-   "updated": "2026-07-06",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2451,7 +2451,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3.md",
    "title": "文化咨询公司AI Agent主方案V4.3",
-   "updated": "2026-07-24",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2496,7 +2496,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/斯坦福企业AI实战手册：51个成功样本与三档人机协作模式.md",
    "title": "斯坦福企业AI实战手册：51个成功样本与三档人机协作模式",
-   "updated": "2026-08-15",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -2553,7 +2553,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md",
    "title": "案例-美团小团Agent工程化差距分析",
-   "updated": "2026-08-05",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -2880,7 +2880,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/生产级AI Agent融合架构：AI推理+企业级数据治理.md",
    "title": "生产级 AI Agent 融合架构：AI 推理 + 企业级数据治理",
-   "updated": "2026-06-17",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2989,7 +2989,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
    "title": "科技咨询公司业务AI系统落地方案",
-   "updated": "2026-07-30",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -3206,7 +3206,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md",
    "title": "零一万物：万策决策中枢、一号位工程与企业AI落地研究",
-   "updated": "2026-07-30",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/零一万物企业AI落地专题",
@@ -3258,7 +3258,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环.md",
    "title": "飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环",
-   "updated": "2026-07-31",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -3278,7 +3278,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差.md",
    "title": "跨生态融合策略：用三层体系低成本复制 Palantir 的 Ontology + AI 闭环",
-   "updated": "2026-06-25",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -3510,7 +3510,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/原始资料/GPT对话原稿：零一万物AI智能体落地与万策官方解读.md",
    "title": "GPT对话原稿：零一万物AI智能体落地与万策官方解读",
-   "updated": "2026-07-29",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/零一万物企业AI落地专题",
@@ -3585,7 +3585,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/原始资料/制造业AI改造前线判断：先碰信息流而不是生产线.md",
    "title": "制造业 AI 改造前线判断：先碰信息流而不是生产线",
-   "updated": "2026-07-03",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
     "../资料池",
@@ -3717,7 +3717,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/原始资料/飞书跨部门协作视频文案：汽车销售生产与一线任务闭环.md",
    "title": "飞书跨部门协作视频文案：汽车销售生产与一线任务闭环",
-   "updated": "2026-07-31",
+   "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环"
@@ -4149,7 +4149,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/AI知识自动化整理入口.md",
    "title": "AI知识自动化整理入口",
-   "updated": "2026-08-13",
+   "updated": "2026-08-26",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -4583,7 +4583,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）.md",
    "title": "DeepSeek Harness 源码阅读地图（dsh-v0.1.0-rc.7）",
-   "updated": "2026-08-20",
+   "updated": "2026-08-26",
    "topic": "pipeline",
    "links": [
     "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南",
@@ -4599,7 +4599,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/Jarvis知识增长工作流总规则-整理草稿.md",
    "title": "Jarvis Office 知识增长工作流总规则（整理草稿）",
-   "updated": "2026-08-19",
+   "updated": "2026-08-26",
    "topic": "pipeline",
    "links": [
     "知识流水线",
@@ -4616,7 +4616,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/Mac Codex Obsidian知识库健康巡检专员启动提示词.md",
    "title": "Mac Codex Obsidian知识库健康巡检专员启动提示词",
-   "updated": "2026-08-08",
+   "updated": "2026-08-26",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识库健康巡检执行规范",
@@ -4733,7 +4733,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/任务—Obsidian旧卡迁移清单.md",
    "title": "任务—Obsidian 旧卡迁移清单",
-   "updated": "2026-08-08",
+   "updated": "2026-08-26",
    "topic": "pipeline",
    "links": [
     "Obsidian知识底座治理与知识自主生长方案",
@@ -4794,7 +4794,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/平板Obsidian每日轻量巡检员启动提示词.md",
    "title": "平板Obsidian每日轻量巡检员启动提示词",
-   "updated": "2026-08-08",
+   "updated": "2026-08-26",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -4852,7 +4852,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/知识库健康巡检.md",
    "title": "知识库健康巡检",
-   "updated": "2026-08-31",
+   "updated": "2026-09-07",
    "topic": "pipeline",
    "links": [
     "政府资源配置与政策落地机制/政府资源配置与政策落地机制专题",
@@ -4988,7 +4988,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/知识库健康巡检执行规范.md",
    "title": "知识库健康巡检执行规范",
-   "updated": "2026-08-12",
+   "updated": "2026-08-26",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -5024,7 +5024,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/知识库架构判断原则：从资料到概念、方法论、案例与专题归属.md",
    "title": "知识库架构判断原则：从资料到概念、方法论、案例与专题归属",
-   "updated": "2026-07-30",
+   "updated": "2026-08-26",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -5106,7 +5106,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/知识获取与录入三条链路现状与卡壳点.md",
    "title": "知识获取与录入三条链路现状与卡壳点",
-   "updated": "2026-08-07",
+   "updated": "2026-08-26",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -5726,7 +5726,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度.md",
    "title": "AI智能体的工程化与前端交付的困难度",
    "date": "2026-08-05",
-   "updated": "2026-08-05",
+   "updated": "2026-08-26",
    "category": "跨专题综合",
    "status": "已蒸馏 → 待徐总确认",
    "questionType": "",
@@ -5944,7 +5944,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 116,
-  "fetchedAt": "2026年9月8日 09:45"
+  "fetchedAt": "2026年9月8日 09:59"
  },
  "recentUpdates": [
   {
@@ -5959,10 +5959,10 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/FDE面试通关手册：五重身份、八关流程与分轮真题答法.md",
    "title": "FDE 面试通关手册：五重身份、八关流程与分轮真题答法",
-   "updated": "2026-09-07",
+   "updated": "2026-09-08",
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
-   "wordCount": 24609,
+   "wordCount": 24929,
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
   },
   {
@@ -6009,6 +6009,15 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 886,
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
+  },
+  {
+   "path": "知识流水线/知识库健康巡检.md",
+   "title": "知识库健康巡检",
+   "updated": "2026-09-07",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 49899,
+   "desc": "- 徐总转发科创四川《蜀道集团旗下四川成渝120亿\"卖路\"背后》要求直接整理入库（本库已有蜀道集团相关页面，故按主体线索核对归属）。"
   },
   {
    "path": "企业AI与智能体商业化/蜀道金租生产级AI建设方案：从个人辅助到企业生产级的演进路径.md",
@@ -6065,6 +6074,15 @@ window.OBSIDIAN_DATA = {
    "desc": "Macro、YC QM、Omnigent 和超级个体案例共同指向：多 Agent 真正需要的不是更多聊天窗口，而是共享上下文、任务、文档、消息、CRM、角色权限、会话状态和结果反馈"
   },
   {
+   "path": "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md",
+   "title": "DeepSeek Harness Control Gateway 设计与调研",
+   "updated": "2026-08-31",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 13500,
+   "desc": "Alpha 单实例 Gateway 已完成第一条真实闭环：127.0.0.1:48111 通过 Alpha Web JSON-RPC 47911 向固化的 Alpha Friday"
+  },
+  {
    "path": "AI Agent工程知识/DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）.md",
    "title": "DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）",
    "updated": "2026-08-31",
@@ -6083,13 +6101,13 @@ window.OBSIDIAN_DATA = {
    "desc": "企业 AI 的难点不是把模型接上或做出 Demo，而是让真实员工持续使用，并让结果可评估、可追踪、可纠正。RAG/Agent 上线后需要通过埋点和日志发现 BadCase，人工归因"
   },
   {
-   "path": "知识流水线/知识库健康巡检.md",
-   "title": "知识库健康巡检",
+   "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+   "title": "生产级 AI Agent 知识体系总览：层级·特性·术语（含 Palantir Ontology 对标）",
    "updated": "2026-08-31",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 49899,
-   "desc": "- 徐总转发科创四川《蜀道集团旗下四川成渝120亿\"卖路\"背后》要求直接整理入库（本库已有蜀道集团相关页面，故按主体线索核对归属）。"
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 44486,
+   "desc": "定位：本页属于 企业AI与生产级Agent总框架 中的工程定义线。它负责定义生产级 Agent 的概念、标准、能力链路和验收口径；甘食记、美团、咨询公司、制造业等案例属于业务落地线"
   },
   {
    "path": "AI产业链与数字基础设施/算力基础设施与金融化增量整理（2026-08-21至08-28）.md",
@@ -6108,15 +6126,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 6995,
    "desc": "上级：企业AI与智能体商业化专题"
-  },
-  {
-   "path": "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md",
-   "title": "DeepSeek Harness Control Gateway 设计与调研",
-   "updated": "2026-08-30",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 13500,
-   "desc": "Alpha 单实例 Gateway 已完成第一条真实闭环：127.0.0.1:48111 通过 Alpha Web JSON-RPC 47911 向固化的 Alpha Friday"
   },
   {
    "path": "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md",
@@ -6182,6 +6191,15 @@ window.OBSIDIAN_DATA = {
    "desc": "个人级多Agent 的目标：让多个不同引擎（Claude / Codex / GPT / 本地模型）在同一个工作流里分工协作、结果互通、互相审阅，而不是各自孤岛、手动搬运。"
   },
   {
+   "path": "AI Agent工程知识/智能体使用逻辑问题复盘-垂直任务实践（旅行案例）.md",
+   "title": "智能体使用逻辑问题复盘：垂直任务实践（旅行案例）",
+   "updated": "2026-08-28",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 1781,
+   "desc": "上级：AI Agent工程知识/AI Agent工程知识专题"
+  },
+  {
    "path": "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
    "title": "游戏公司 AI 组织落地：从流程提效到生产方式重构",
    "updated": "2026-08-28",
@@ -6218,6 +6236,24 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：AI Agent工程知识专题"
   },
   {
+   "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+   "title": "AI Agent 专业术语词典",
+   "updated": "2026-08-26",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 40916,
+   "desc": "上级：AI Agent工程知识专题"
+  },
+  {
+   "path": "AI Agent工程知识/AI Agent全面理解.md",
+   "title": "AI Agent 全面理解",
+   "updated": "2026-08-26",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 9126,
+   "desc": "上级：AI Agent工程知识专题"
+  },
+  {
    "path": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维.md",
    "title": "AI Agent 后端工程化能力框架：分布式、异步、状态与可运维",
    "updated": "2026-08-26",
@@ -6225,6 +6261,15 @@ window.OBSIDIAN_DATA = {
    "topicName": "AI Agent工程知识",
    "wordCount": 12170,
    "desc": "创建日期：2026-07-02"
+  },
+  {
+   "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
+   "title": "AI Agent 工程的行业语言映射：从内部术语到 Palantir / FDE / 数据治理标准",
+   "updated": "2026-08-26",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 6009,
+   "desc": "上级：AI Agent工程知识专题"
   },
   {
    "path": "AI Agent工程知识/AI Agent工程知识专题.md",
@@ -6272,6 +6317,33 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：AI Agent工程知识/AI Agent工程知识专题"
   },
   {
+   "path": "AI Agent工程知识/AI模型选型与订阅历史.md",
+   "title": "AI 模型选型与订阅历史",
+   "updated": "2026-08-26",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 6546,
+   "desc": "- 平台：阿里云百炼 Coding Plan"
+  },
+  {
+   "path": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
+   "title": "AI交付行业观察：走访7个团队后的困境机会与危机",
+   "updated": "2026-08-26",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 1962,
+   "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
+  },
+  {
+   "path": "企业AI与智能体商业化/待整理稿｜AI商业落地第一步是数据治理（Corvera案例）.md",
+   "title": "AI商业落地第一步是数据治理（Corvera 案例蒸馏）",
+   "updated": "2026-08-26",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 857,
+   "desc": "一家 4 人 AI 电商服务团队（Corvera）先用\"电商全链路 AI 管理系统\"获客，随后主动放弃已验证的产品，转型做数据治理服务（先清洗、打通、标准化客户散落各平台的数据，再"
+  },
+  {
    "path": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
    "title": "AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
    "updated": "2026-08-26",
@@ -6299,6 +6371,15 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：AI产业链与数字基础设施/AI产业链与数字基础设施专题"
   },
   {
+   "path": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂.md",
+   "title": "AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
+   "updated": "2026-08-26",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 5418,
+   "desc": "上级：企业AI与智能体商业化专题"
+  },
+  {
    "path": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
    "title": "AI时代资本支出链：从电力、算力、存储到Agent应用",
    "updated": "2026-08-26",
@@ -6315,6 +6396,24 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 4747,
    "desc": "这是一个建立在 Obsidian 知识库之上的 AI 知识成长视图。它不是移动版 Obsidian，也不是每天打卡的学习 App，而是把 Obsidian 中已经形成的知识、专题、"
+  },
+  {
+   "path": "知识流水线/AI知识自动化整理入口.md",
+   "title": "AI知识自动化整理入口",
+   "updated": "2026-08-26",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 2791,
+   "desc": "上级：知识流水线/知识流水线"
+  },
+  {
+   "path": "企业AI与智能体商业化/AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧.md",
+   "title": "AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧",
+   "updated": "2026-08-26",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 2684,
+   "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
   },
   {
    "path": "企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地.md",
@@ -6396,6 +6495,15 @@ window.OBSIDIAN_DATA = {
    "topicName": "AI Agent工程知识",
    "wordCount": 22080,
    "desc": "上级：AI Agent工程知识专题"
+  },
+  {
+   "path": "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）.md",
+   "title": "DeepSeek Harness 源码阅读地图（dsh-v0.1.0-rc.7）",
+   "updated": "2026-08-26",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 3078,
+   "desc": "配置决定能力集合（base bundle）→ 循环推动工作（agent loop）→ 会话保存事实（session）→ 工具链约束动作（tools）。"
   },
   {
    "path": "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md",
@@ -6560,6 +6668,15 @@ window.OBSIDIAN_DATA = {
    "desc": "这份讨论围绕一个关键问题展开：企业级 AI Agent 到底应该按部门建设，还是按甘食记、科技咨询、农机产品这类具体业务流程建设。"
   },
   {
+   "path": "企业AI与智能体商业化/原始资料/GPT对话原稿：零一万物AI智能体落地与万策官方解读.md",
+   "title": "GPT对话原稿：零一万物AI智能体落地与万策官方解读",
+   "updated": "2026-08-26",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 1965,
+   "desc": "上级：企业AI与智能体商业化/零一万物企业AI落地专题"
+  },
+  {
    "path": "企业AI与智能体商业化/原始资料/IMA检索记录：AI时代资本支出链与应用承接断点.md",
    "title": "IMA检索记录：AI时代资本支出链与应用承接断点",
    "updated": "2026-08-26",
@@ -6567,6 +6684,24 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 2096,
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
+  },
+  {
+   "path": "知识流水线/Jarvis知识增长工作流总规则-整理草稿.md",
+   "title": "Jarvis Office 知识增长工作流总规则（整理草稿）",
+   "updated": "2026-08-26",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 3582,
+   "desc": "Jarvis Office 是由 DeepSeek Harness 驱动的知识增长执行体，其总规则把「资料进入 → 内容提炼 → 专题整合/知识巡检 → 知识增长」串成可回读、可暂"
+  },
+  {
+   "path": "知识流水线/Mac Codex Obsidian知识库健康巡检专员启动提示词.md",
+   "title": "Mac Codex Obsidian知识库健康巡检专员启动提示词",
+   "updated": "2026-08-26",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 2369,
+   "desc": "上级：知识流水线/知识库健康巡检执行规范"
   },
   {
    "path": "知识流水线/Obsidian知识底座治理与知识自主生长方案.md",
@@ -6776,6 +6911,15 @@ window.OBSIDIAN_DATA = {
    "desc": "本页沉淀的是“个人工作台”这类系统的通用设计和部署方法，不专门解释某一个前端页面。知识流水线/AI知识学习与复盘工作台 是这套方法的第一个落地实例；本页负责把它抽象成以后可以复用到"
   },
   {
+   "path": "AI Agent工程知识/为什么做多智能体：Codex内部多线程vs跨平台多智能体.md",
+   "title": "为什么做多智能体：Codex 内部多线程 vs 跨平台多智能体",
+   "updated": "2026-08-26",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 1956,
+   "desc": "Codex（Mason）+ DeepSeek CodeX（贾维斯）+ WorkBuddy（伊森）+ 千问办公（奥利弗）+ OpenClaw（克里斯）等，通过飞书互 @ / P2P "
+  },
+  {
    "path": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图.md",
    "title": "从甘食记 MVP 到可交付 B 端产品：FDE 产品化路线图",
    "updated": "2026-08-26",
@@ -6783,6 +6927,15 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 8252,
    "desc": "创建日期：2026-07-01"
+  },
+  {
+   "path": "知识流水线/任务—Obsidian旧卡迁移清单.md",
+   "title": "任务—Obsidian 旧卡迁移清单",
+   "updated": "2026-08-26",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 1991,
+   "desc": "任务面板保存问题入口、负责人、状态和简短过程评论；Obsidian 保存详细实施过程、判断依据、阶段结论和最终总结。"
   },
   {
    "path": "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线.md",
@@ -6821,6 +6974,15 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：徐总的知识库"
   },
   {
+   "path": "企业AI与智能体商业化/企业AI专题轻量编译流程.md",
+   "title": "企业 AI 专题轻量编译流程",
+   "updated": "2026-08-26",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 1796,
+   "desc": "上级：企业AI与智能体商业化专题"
+  },
+  {
    "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
    "title": "企业 AI 从试点到可交付项目：商业化与组织落地实战",
    "updated": "2026-08-26",
@@ -6828,6 +6990,24 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 18269,
    "desc": "创建日期：2026-07-02"
+  },
+  {
+   "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+   "title": "企业 AI 落地的五堵墙 + 四层面系统工程 + 五层落地方法论",
+   "updated": "2026-08-26",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 9455,
+   "desc": "上级：企业AI与智能体商业化专题"
+  },
+  {
+   "path": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利.md",
+   "title": "企业AI知识资产：从知识库到组织能力与AI复利",
+   "updated": "2026-08-26",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 2827,
+   "desc": "上级：企业AI与智能体商业化专题"
   },
   {
    "path": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图.md",
@@ -6845,186 +7025,6 @@ window.OBSIDIAN_DATA = {
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
    "wordCount": 3887,
-   "desc": "上级：企业AI与智能体商业化专题"
-  },
-  {
-   "path": "企业AI与智能体商业化/原始资料/企业应用架构六阶段演化：从三张Excel到六大中台.md",
-   "title": "企业应用架构六阶段演化：从三张 Excel 到六大中台",
-   "updated": "2026-08-26",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 2291,
-   "desc": "来源：用户 2026-07-05 提供的视频/文本转述"
-  },
-  {
-   "path": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径.md",
-   "title": "企业应用架构六阶段演化与 AI Agent 融合路径",
-   "updated": "2026-08-26",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 12106,
-   "desc": "创建日期：2026-07-05"
-  },
-  {
-   "path": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统.md",
-   "title": "企业智能体架构层次：框架、服务器、模型平台与业务系统",
-   "updated": "2026-08-26",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 15331,
-   "desc": "上级：企业AI与智能体商业化专题"
-  },
-  {
-   "path": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构.md",
-   "title": "企业级部门智能体全景到跨部门落地架构",
-   "updated": "2026-08-26",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 4901,
-   "desc": "上级：企业AI与智能体商业化专题"
-  },
-  {
-   "path": "AI Agent工程知识/全域智能体健康度审查方法论.md",
-   "title": "全域智能体健康度审查方法论",
-   "updated": "2026-08-26",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 2791,
-   "desc": "- 默认只读：不得为\"修复健康度\"擅自重授权、改凭据、切飞书 profile、改网关或重启外部 Agent。"
-  },
-  {
-   "path": "AI Agent工程知识/全域智能体系统本体与健康治理.md",
-   "title": "全域智能体系统本体与健康治理",
-   "updated": "2026-08-26",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 3031,
-   "desc": "现有 Agent Ontology 只覆盖了智能体注册、能力、模型绑定和部分路由问题，范围不足以描述整个智能体工作系统。"
-  },
-  {
-   "path": "企业AI与智能体商业化/内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes.md",
-   "title": "内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes",
-   "updated": "2026-08-26",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 17840,
-   "desc": "上级：企业AI与智能体商业化专题"
-  },
-  {
-   "path": "企业AI与智能体商业化/原始资料.md",
-   "title": "原始资料",
-   "updated": "2026-08-26",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 29095,
-   "desc": "上级：企业AI与智能体商业化专题"
-  },
-  {
-   "path": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁.md",
-   "title": "可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
-   "updated": "2026-08-26",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 4926,
-   "desc": "上级：企业AI与智能体商业化专题"
-  },
-  {
-   "path": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md",
-   "title": "吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离",
-   "updated": "2026-08-26",
-   "topic": "infrastructure",
-   "topicName": "AI产业链与数字基础设施",
-   "wordCount": 3521,
-   "desc": "上级：AI产业链与数字基础设施/AI产业链与数字基础设施专题、AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用"
-  },
-  {
-   "path": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构.md",
-   "title": "多门店经营智能体的批量分析与扩展性架构",
-   "updated": "2026-08-26",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 3756,
-   "desc": "日期：2026-06-08"
-  },
-  {
-   "path": "知识流水线/Agent任务-架构与入口分析.md",
-   "title": "子Agent：架构与入口分析",
-   "updated": "2026-08-26",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 861,
-   "desc": "- Task: KNOWLEDGEPIP-74"
-  },
-  {
-   "path": "知识流水线/Agent任务-风险与验收分析.md",
-   "title": "子Agent：风险与验收分析",
-   "updated": "2026-08-26",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 849,
-   "desc": "- Task: KNOWLEDGEPIP-75"
-  },
-  {
-   "path": "知识流水线/Agent任务-DK-Two isolated-write方案设计.md",
-   "title": "子任务：isolated-write 方案设计（执行者：DK-Two）",
-   "updated": "2026-08-26",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 371,
-   "desc": "- Task: KNOWLEDGEPIP-63"
-  },
-  {
-   "path": "知识流水线/Agent任务-DK-One架构与入口分析.md",
-   "title": "子任务：架构与入口分析（执行者：DK-One）",
-   "updated": "2026-08-26",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 370,
-   "desc": "- Task: KNOWLEDGEPIP-60"
-  },
-  {
-   "path": "知识流水线/Agent任务-DK-One稳定性与成本测试.md",
-   "title": "子任务：稳定性与成本测试（执行者：DK-One）",
-   "updated": "2026-08-26",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 380,
-   "desc": "- Task: KNOWLEDGEPIP-62"
-  },
-  {
-   "path": "知识流水线/Agent任务-DK-Two风险与验收分析.md",
-   "title": "子任务：风险与验收分析（执行者：DK-Two）",
-   "updated": "2026-08-26",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 370,
-   "desc": "- Task: KNOWLEDGEPIP-61"
-  },
-  {
-   "path": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP.md",
-   "title": "客户业务API到经营分析与飞书多维表格闭环SOP",
-   "updated": "2026-08-26",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 6334,
-   "desc": "上级：企业AI与智能体商业化专题"
-  },
-  {
-   "path": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案.md",
-   "title": "小型文化咨询公司 AI Agent 整体落地方案",
-   "updated": "2026-08-26",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 10249,
-   "desc": "上级：企业AI与智能体商业化专题"
-  },
-  {
-   "path": "企业AI与智能体商业化/小程序数据结构与API接入调研框架.md",
-   "title": "小程序数据结构与API接入调研框架",
-   "updated": "2026-08-26",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 4059,
    "desc": "上级：企业AI与智能体商业化专题"
   }
  ]

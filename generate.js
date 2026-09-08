@@ -136,10 +136,10 @@ function parseMD(filePath) {
     if (h1) title = h1[1].trim();
   }
   if (!title) title = path.basename(filePath, '.md');
-  if (!updated) {
-    const stat = fs.statSync(filePath);
-    updated = stat.mtime.toISOString().slice(0, 10);
-  }
+  // updated：取 frontmatter 标注与文件实际修改时间中较晚者，确保「内容更新即反映最新时间」
+  const stat = fs.statSync(filePath);
+  const mtimeDate = stat.mtime.toISOString().slice(0, 10);
+  if (!updated || mtimeDate > updated) updated = mtimeDate;
 
   // 正文（去掉 frontmatter）
   const body = fmMatch ? raw.slice(fmMatch[0].length) : raw;
