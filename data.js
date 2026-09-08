@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-08",
- "generatedTime": "2026-09-08 21:04",
+ "generatedTime": "2026-09-08 22:19",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 29,
  "weeklyChanges": 528,
@@ -4539,7 +4539,7 @@ window.OBSIDIAN_DATA = {
     "豆包工作区/豆包工作区.md"
    ],
    "desc": "上级：知识流水线/知识流水线",
-   "wordCount": 13660
+   "wordCount": 13751
   },
   {
    "path": "知识流水线/Agent Notifier统一通知机制.md",
@@ -8833,8 +8833,8 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 80227,
-     "excerpt": "知识库索引（快速查找版）2026-09-08｜蜀道集团主体研究线（聚合入口·新）蜀道集团研究线：蜀道集团（四川蜀道投资集团）主体综述 + 跨专题聚合入口。综述型：页内直接可读——金融与资本运作线（蜀道金租内部资金通道 +",
+     "wordCount": 80415,
+     "excerpt": "知识库索引（快速查找版）2026-09-08｜AI知识系统重建补充（新）知识流水线/OpenWiki知识增量/2026-09-08_外部观点对重建计划的启发：基于锤哥抖音分享对当前 Obsidian 重建计划的对照分析，",
      "hasBody": true
     },
     {
@@ -9882,7 +9882,7 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-09-08",
    "topic": "pipeline",
    "topicName": "知识流水线",
-   "wordCount": 13660,
+   "wordCount": 13751,
    "desc": "上级：知识流水线/知识流水线"
   },
   {
