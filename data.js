@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-08",
- "generatedTime": "2026-09-08 18:19",
+ "generatedTime": "2026-09-08 20:19",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 25,
- "weeklyChanges": 501,
+ "weeklyPages": 27,
+ "weeklyChanges": 527,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-07｜AI知识增量整理.md",
  "topics": [
@@ -17,7 +17,7 @@ window.OBSIDIAN_DATA = {
    "name": "企业AI与智能体商业化",
    "key": "enterprise",
    "icon": "🏢",
-   "count": 117
+   "count": 119
   },
   {
    "name": "AI产业链与数字基础设施",
@@ -1265,6 +1265,25 @@ window.OBSIDIAN_DATA = {
    "wordCount": 6064
   },
   {
+   "path": "企业AI与智能体商业化/FDE企业真实落地案例库：按行业分类的企业AI落地实战.md",
+   "title": "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
+   "updated": "2026-09-08",
+   "topic": "enterprise",
+   "links": [
+    "企业AI与智能体商业化",
+    "知识库索引",
+    "制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通",
+    "己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
+    "己未文化咨询公司 FDE 落地与生产级 Agent 实战手册",
+    "甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "原始资料/未整理｜2026-09-08｜抖音分享｜FDE企业真实落地案例：汽车零部件制造企业AI数据分析系统"
+   ],
+   "backlinks": [],
+   "desc": "上级：企业AI与智能体商业化、知识库索引",
+   "wordCount": 3996
+  },
+  {
    "path": "企业AI与智能体商业化/FDE商业级智能体交付框架.md",
    "title": "FDE 商业级智能体交付框架：业务需求、落地架构、使用体验",
    "updated": "2026-08-26",
@@ -1907,6 +1926,7 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
     "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
     "企业AI与智能体商业化/AI数字化招标与合规治理框架.md",
+    "企业AI与智能体商业化/制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通.md",
     "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md",
     "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md",
     "知识流水线/A_原始资料.md",
@@ -2156,6 +2176,23 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "上级：企业AI与智能体商业化专题",
    "wordCount": 17840
+  },
+  {
+   "path": "企业AI与智能体商业化/制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通.md",
+   "title": "制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通",
+   "updated": "2026-09-08",
+   "topic": "enterprise",
+   "links": [
+    "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
+    "原始资料/未整理｜2026-09-08｜抖音分享｜FDE企业真实落地案例：汽车零部件制造企业AI数据分析系统",
+    "己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
+    "己未文化咨询公司 FDE 落地与生产级 Agent 实战手册",
+    "FDE面试通关手册：五重身份、八关流程与分轮真题答法",
+    "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战"
+   ],
+   "backlinks": [],
+   "desc": "上级：FDE企业真实落地案例库：按行业分类的企业AI落地实战",
+   "wordCount": 5529
   },
   {
    "path": "企业AI与智能体商业化/原始资料.md",
@@ -4353,6 +4390,8 @@ window.OBSIDIAN_DATA = {
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
+    "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
+    "制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通",
     "原始资料/已整理｜2026-09-08｜科创四川｜蜀道集团四川成渝120亿卖路与存量资产变现",
     "原始资料/已整理｜2026-09-03｜工信部官网+用户提供｜工信部414号文原文及解读：AI赚钱的逻辑变了",
     "原始资料/已整理｜2026-09-04｜微信公众号｜万字长文Palantir式本体对AI的真实价值",
@@ -4454,6 +4493,16 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
     "原始资料/已整理｜2026-08-08｜抖音豆包｜用本体重塑企业AI语义基座",
     "原始资料/已整理｜2026-08-08｜抖音豆包｜美国AI基建东数西算",
+    "原始资料/已整理｜2026-09-02｜抖音｜承载力：职场高阶的政治成熟与四层认知觉醒",
+    "原始资料/已整理｜2026-09-08｜腾讯研究院｜FDE模式行业观察与实践原始稿索引",
+    "政府资源配置与政策落地机制/政府重大项目决策机制与省市区三级分工：以成都为案例",
+    "原始资料/已整理｜2026-08-28｜豆包对话｜政府重大项目决策机制详解（含多项目推动层级）",
+    "原始资料/已整理｜2026-08-21｜人工测试｜测试 Jarvis 四阶段工作流验证",
+    "［内部笔记·不公开］：从执行者到共谋者",
+    "原始资料/已整理｜2026-08-05｜ChatGPT｜组织信任建立与闭环能力",
+    "全局记忆/13_Obsidian新增更新内容强制收口协作规则",
+    "原始资料/已整理｜2026-07-21｜用户直接指令｜Obsidian六步收口规则原文",
+    "原始资料/已整理｜2026-09-08｜李开复｜AI现状与未来深度对话原始稿索引",
     "原始资料/已整理｜2026-08-03｜抖音豆包｜味精公司砸6亿搞算力一台没摸到",
     "原始资料/已整理｜2026-08-03｜抖音豆包｜Token是中国新型电力出口",
     "原始资料/已整理｜2026-08-03｜抖音豆包衍生｜各省算力账本摊开看",
@@ -4484,7 +4533,7 @@ window.OBSIDIAN_DATA = {
     "豆包工作区/豆包工作区.md"
    ],
    "desc": "上级：知识流水线/知识流水线",
-   "wordCount": 12598
+   "wordCount": 13660
   },
   {
    "path": "知识流水线/Agent Notifier统一通知机制.md",
@@ -7578,6 +7627,7 @@ window.OBSIDIAN_DATA = {
     "原始资料/已整理｜2026-08-28｜豆包对话｜政府重大项目决策机制详解（含多项目推动层级）"
    ],
    "backlinks": [
+    "知识流水线/A_原始资料.md",
     "政府资源配置与政策落地机制/蜀道集团存量资产证券化：从四川成渝120亿类REITs看基建资金盘活与一卖一建.md"
    ],
    "desc": "上级：政府资源配置与政策落地机制/政府资源配置与政策落地机制专题",
@@ -8549,7 +8599,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "数据与知识资产",
-   "matched": 58,
+   "matched": 60,
    "status": "已形成"
   },
   {
@@ -8579,12 +8629,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 99,
+   "matched": 101,
    "status": "已形成"
   },
   {
    "name": "商业化与组织能力",
-   "matched": 80,
+   "matched": 81,
    "status": "已形成"
   }
  ],
@@ -8827,16 +8877,16 @@ window.OBSIDIAN_DATA = {
      "path": "原始资料/已整理｜2026-08-17｜口播文案｜女装直播用AI省500万(唐承佳案例).md",
      "title": "女装直播用AI省500万(唐承佳案例)",
      "kind": "raw",
-     "wordCount": 4817,
-     "excerpt": "本文件为口播母本 + 工作任务模式拆解（选题 / 分镜脚本 / 标题备选 / 封面文案 / 发布物料），按\"未整理\"入库，尚未蒸馏为正式知识笔记。〇、口播母本（完整原文，逐字保留）用AI省了多少钱？您整体AI用下来有算过",
+     "wordCount": 2609,
+     "excerpt": "一、选题拆解1.1 内容定位品类：企业AI落地·真实降本案例（女装直播行业）调性：数字冲击（省500万=纯利润）、环节拆解、老板口述、反焦虑目标受众：中小商家老板、电商/直播从业者、被\"Agent焦虑\"裹挟的创业者核心价",
      "hasBody": true
     },
     {
      "path": "原始资料/已整理｜2026-08-19｜口播文案｜AI电商数据治理先行(子墨说AI-Corvera案例).md",
      "title": "AI电商数据治理先行(子墨说AI-Corvera案例)",
      "kind": "raw",
-     "wordCount": 979,
-     "excerpt": "（子墨说AI｜4个人的AI电商团队，5周做到21万营收、融资420万美金）四人团队靠AI一个月逆袭，营收21万，融资420万美金，同时拿下了12个电商快销品牌的合作。最夸张的是，从签下第一单客户到服务满12个品牌，他们只",
+     "wordCount": 1135,
+     "excerpt": "id: raw-20260819-002title: AI电商数据治理先行（子墨说AI｜Corvera 4人团队案例）type: 原始资料status: 已整理created: 2026-08-19source: 用户直",
      "hasBody": true
     }
    ],
@@ -8873,8 +8923,8 @@ window.OBSIDIAN_DATA = {
      "path": "原始资料/已整理｜2026-09-03｜工信部官网+用户提供｜工信部414号文原文及解读：AI赚钱的逻辑变了.md",
      "title": "工信部414号文原文及解读：AI赚钱的逻辑变了",
      "kind": "raw",
-     "wordCount": 4304,
-     "excerpt": "工信部414号文原文及解读：AI赚钱的逻辑变了本文件包含两部分：①政策原文（工信部官网完整收录）；②用户提供的深度解读。向上父级：政策与产业观察（待建）横向关联：AI产业与应用落地（待建）、FDE前线部署工程师（待建）溯",
+     "wordCount": 4173,
+     "excerpt": "第一部分：政策原文工业和信息化部办公厅关于开展人工智能应用服务商培育专项行动的通知工信厅科函〔2026〕414号发文机关：工业和信息化部办公厅成文日期：2026-08-27发布日期：2026-08-31发布机构：科技司分",
      "hasBody": true
     },
     {
@@ -8927,8 +8977,8 @@ window.OBSIDIAN_DATA = {
      "path": "原始资料/已整理｜2026-09-08｜腾讯研究院｜FDE模式行业观察与实践原始稿索引.md",
      "title": "FDE模式行业观察与实践原始稿索引",
      "kind": "raw",
-     "wordCount": 555,
-     "excerpt": "腾讯研究院 FDE 模式行业观察与实践原始稿索引来源确认这是腾讯研究院《FDE 模式行业观察与实践》原始 PDF，不是《超级个体时代》报告。本地原始文件：/Users/xucheng/Desktop/2026年文件/腾讯",
+     "wordCount": 780,
+     "excerpt": "id: raw-20260908-004title: 腾讯研究院 FDE 模式行业观察与实践原始稿索引date: 2026-09-08type: 原始资料索引status: 已定位tags:原始资料腾讯FDE企业AIso",
      "hasBody": true
     },
     {
@@ -8943,8 +8993,8 @@ window.OBSIDIAN_DATA = {
      "path": "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论.md",
      "title": "DeepSeekHarness专属智能体与多Agent控制层讨论",
      "kind": "raw",
-     "wordCount": 915,
-     "excerpt": "DeepSeek Harness 专属智能体与多 Agent 控制层讨论来源：ChatGPT 对话《DeespseekHarness 专属智能体》；本页保留讨论原始脉络，结论已回流到协作架构和 Harness 搭建记录。",
+     "wordCount": 1110,
+     "excerpt": "id: raw-20260830-001type: 原始资料status: 已整理source: ChatGPT 对话captured_at: 2026-08-30title: DeepSeek Harness 专属智能",
      "hasBody": true
     },
     {
@@ -8997,8 +9047,8 @@ window.OBSIDIAN_DATA = {
      "path": "原始资料/已整理｜2026-08-18｜口播文案｜企业AI知识库搭建.md",
      "title": "企业AI知识库搭建",
      "kind": "raw",
-     "wordCount": 3560,
-     "excerpt": "本文件为口播母本 + 工作任务模式拆解（选题 / 分镜脚本 / 标题备选 / 封面文案 / 发布物料），按\"未整理\"入库，尚未蒸馏为正式知识笔记。〇、口播母本（完整原文，逐字保留）企业AI知识库搭建这个点我觉得还是比较重",
+     "wordCount": 2179,
+     "excerpt": "一、选题拆解1.1 内容定位品类：企业AI落地·认知方法论（知识库是AI提效第一件事）调性：结构化（三分类）、老板视角痛点（文档散在个人电脑）、独家概念（萃取库）目标受众：中小商家老板、企业内部负责人、被\"AI场景焦虑\"",
      "hasBody": true
     },
     {
@@ -9248,8 +9298,8 @@ window.OBSIDIAN_DATA = {
      "path": "原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地.md",
      "title": "游戏公司AI组织落地",
      "kind": "raw",
-     "wordCount": 5752,
-     "excerpt": "游戏公司 AI 组织落地走访原始记录上级：知识流水线/A_原始资料本页保留随记中的游戏公司走访实录和妙记提炼，作为专题文章的原始依据。专题提炼结果见 企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构",
+     "wordCount": 1857,
+     "excerpt": "补充记录：游戏公司妙记逐字稿提炼（前半部分·游戏相关，19:20 徐总要求）来源：飞书妙记「新录音」（2026-08-11 15:53，54 分钟，token obcndb27rrj948e263ps512s），前半部分",
      "hasBody": true
     },
     {
@@ -9264,16 +9314,16 @@ window.OBSIDIAN_DATA = {
      "path": "原始资料/已整理｜2026-08-12｜对话整理｜任务闭环与业务闭环分离-GrokBot数字岗位vs经营Agent.md",
      "title": "任务闭环与业务闭环分离-GrokBot数字岗位vs经营Agent",
      "kind": "raw",
-     "wordCount": 3436,
-     "excerpt": "任务闭环与业务闭环分离：Grok Bot 的任务/岗位 Agent 路线 vs 经营 Agent 路线上级：知识流水线/A_原始资料整理结果：企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Age",
+     "wordCount": 3644,
+     "excerpt": "id: raw-20260812-001title: 任务闭环与业务闭环分离：Grok Bot 的任务/岗位 Agent 路线 vs 经营 Agent 路线type: 原始资料level: 一级原文status: 已整理",
      "hasBody": true
     },
     {
      "path": "原始资料/已整理｜2026-08-12｜抖音｜Solo们chat-FDE如何用ANC搭建AI原生组织.md",
      "title": "Solo们chat-FDE如何用ANC搭建AI原生组织",
      "kind": "raw",
-     "wordCount": 3643,
-     "excerpt": "「Solo们 chat」FDE如何用ANC搭建AI原生组织上级：知识流水线/A_原始资料整理结果：企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地一、来源信息来源平台：抖音作者 / 账号：所罗门",
+     "wordCount": 3865,
+     "excerpt": "id: raw-20260812-002title: 「Solo们 chat」FDE如何用ANC搭建AI原生组织type: 原始资料level: 一级原文status: 已整理created: 2026-08-12sou",
      "hasBody": true
     },
     {
@@ -9427,24 +9477,24 @@ window.OBSIDIAN_DATA = {
      "path": "原始资料/未整理｜2026-09-07｜抖音分享｜智能的物理重量：为什么未来我们可能买不起算力.md",
      "title": "智能的物理重量：为什么未来我们可能买不起算力",
      "kind": "raw",
-     "wordCount": 3989,
-     "excerpt": "智能的物理重量：为什么未来我们可能\"买不起\"算力？基于顶尖科技投资人Gavin Baker（Atreides）的底层逻辑推演如果AI需求才刚刚开始，为什么全世界已经在抢芯片、抢电力，连电工和水管工都成了稀缺资源？当所有人",
+     "wordCount": 3746,
+     "excerpt": "一、算力缺口的宏大数学题当前重度付费AI用户：不足1000万全球知识工作者总数：约15亿现在几百万人就让算力吃紧，贝克估计可能还不到1000万，等到几亿人这样工作，世界需要多少芯片和电力？二、需求之变：从\"对话\"到\"自动",
      "hasBody": true
     },
     {
      "path": "原始资料/已整理｜2026-08-07｜抖音豆包｜超哥奇点世界GPU空转泡沫AI资本囤积游戏.md",
      "title": "超哥奇点世界GPU空转泡沫AI资本囤积游戏",
      "kind": "raw",
-     "wordCount": 2252,
-     "excerpt": "GPU空转泡沫：AI行业最大的资本囤积游戏（超哥的奇点世界）上级：知识流水线/A_原始资料一、来源信息来源平台：抖音（短视频）作者 / 账号：超哥的奇点世界原始链接：https://v.douyin.com/J7ekgt",
+     "wordCount": 2501,
+     "excerpt": "id: raw-20260807-003title: GPU空转泡沫：AI行业最大的资本囤积游戏（超哥的奇点世界）type: 原始资料level: 一级原文status: 已整理created: 2026-08-07so",
      "hasBody": true
     },
     {
      "path": "原始资料/已整理｜2026-08-11｜访谈｜李开复AI现状与未来深度对话.md",
      "title": "李开复AI现状与未来深度对话",
      "kind": "raw",
-     "wordCount": 32362,
-     "excerpt": "李开复 AI 现状与未来深度对话上级：知识流水线/A_原始资料整理结果：企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程资料索引：原始资料/已整理｜2026-09-08｜李开复｜AI现状与未来深度对话",
+     "wordCount": 14721,
+     "excerpt": "总库：徐总的知识库的公司来做这个这个创新，开复老师在您的这本新书，会他们公司内部会有一群叫 DRI，为什么它会驱动大量 AI，他是直接为一个结果负责的那个人，但是后来是 Jack Dorsey，那，是稀缺的重要的关键的，",
      "hasBody": true
     }
    ],
@@ -9732,48 +9782,48 @@ window.OBSIDIAN_DATA = {
      "path": "原始资料/已整理｜2026-08-02｜抖音豆包｜Token工厂三大玩家.md",
      "title": "Token工厂三大玩家",
      "kind": "raw",
-     "wordCount": 1953,
-     "excerpt": "Token 工厂三大玩家上级：知识流水线/A_原始资料整理结果：AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路、AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应",
+     "wordCount": 2151,
+     "excerpt": "id: raw-20260802-002title: Token 工厂三大玩家type: 原始资料status: 已整理created: 2026-08-02source: 抖音 / 牧野的词元圈 / https://v",
      "hasBody": true
     },
     {
      "path": "原始资料/已整理｜2026-08-02｜抖音豆包｜中国不缺算力真相.md",
      "title": "中国不缺算力真相",
      "kind": "raw",
-     "wordCount": 1422,
-     "excerpt": "中国不缺算力真相（呼呼智算重庆）上级：知识流水线/A_原始资料整理结果：AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路、AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Ag",
+     "wordCount": 1623,
+     "excerpt": "id: raw-20260802-003title: 中国不缺算力真相（呼呼智算重庆）type: 原始资料status: 已整理created: 2026-08-02source: 抖音 / 呼呼智算（重庆） / htt",
      "hasBody": true
     },
     {
      "path": "原始资料/已整理｜2026-08-02｜抖音豆包｜运营商下场词元聚合分发.md",
      "title": "运营商下场词元聚合分发",
      "kind": "raw",
-     "wordCount": 1927,
-     "excerpt": "运营商下场词元聚合分发，中小玩家还能做吗（牧野词元掘金社）上级：知识流水线/A_原始资料整理结果：AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路、AI产业链与数字基础设施/AI时代资本支出链",
+     "wordCount": 2140,
+     "excerpt": "id: raw-20260802-005title: 运营商下场词元聚合分发，中小玩家还能做吗（牧野词元掘金社）type: 原始资料status: 已整理created: 2026-08-02source: 抖音 / 牧",
      "hasBody": true
     },
     {
      "path": "原始资料/已整理｜2026-08-02｜抖音豆包｜看懂三类商业模式理清Token发展路线.md",
      "title": "看懂三类商业模式理清Token发展路线",
      "kind": "raw",
-     "wordCount": 2205,
-     "excerpt": "看懂三类商业模式，理清 Token 从业者发展路线上级：知识流水线/A_原始资料整理结果：AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路、AI产业链与数字基础设施/AI时代资本支出链：从电力",
+     "wordCount": 2399,
+     "excerpt": "id: raw-20260802-004title: 看懂三类商业模式，理清 Token 从业者发展路线type: 原始资料status: 已整理created: 2026-08-02source: 抖音 / 牧野AI词",
      "hasBody": true
     },
     {
      "path": "原始资料/已整理｜2026-08-02｜抖音豆包衍生｜福建token工厂落地厦门.md",
      "title": "福建token工厂落地厦门",
      "kind": "raw",
-     "wordCount": 3706,
-     "excerpt": "福建 Token 工厂落地厦门（豆包衍生解读）上级：知识流水线/A_原始资料整理结果：AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路、AI产业链与数字基础设施/AI时代资本支出链：从电力、算",
+     "wordCount": 1867,
+     "excerpt": "豆包解读（纠正版，修正\"夏门=厦门\"笔误）Token 凯哥视频｜厦门全栈 Token 工厂完整解读（纠正视频文字笔误：夏门 = 厦门）一、项目基础信息项目名称：厦门国际数据枢纽港・全栈 Token 工厂启动时间：2026",
      "hasBody": true
     },
     {
      "path": "原始资料/已整理｜2026-08-03｜抖音豆包｜味精公司砸6亿搞算力一台没摸到.md",
      "title": "味精公司砸6亿搞算力一台没摸到",
      "kind": "raw",
-     "wordCount": 2279,
-     "excerpt": "味精公司砸6亿搞算力一台没摸到（莲花控股算力投资踩坑）上级：知识流水线/A_原始资料整理结果：AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路、AI产业链与数字基础设施/AI时代资本支出链：从",
+     "wordCount": 2518,
+     "excerpt": "id: raw-20260803-005title: 味精公司砸6亿搞算力一台没摸到（莲花控股算力投资踩坑）type: 原始资料level: 一级原文status: 已整理created: 2026-08-03sourc",
      "hasBody": true
     },
     {
@@ -9788,8 +9838,8 @@ window.OBSIDIAN_DATA = {
      "path": "原始资料/已整理｜2026-08-08｜抖音豆包｜三十亿智算中心利用率.md",
      "title": "三十亿智算中心利用率",
      "kind": "raw",
-     "wordCount": 1733,
-     "excerpt": "三十亿智算中心机柜全亮没人用：全国平均利用率百分之...上级：知识流水线/A_原始资料一、来源信息来源平台：抖音作者 / 账号：陈杰森资本棋局原始链接：https://v.douyin.com/2B8GQ6fc1LQ/提",
+     "wordCount": 1977,
+     "excerpt": "id: raw-20260808-001title: 三十亿智算中心机柜全亮没人用：全国平均利用率百分之...type: 原始资料level: 一级原文status: 已整理created: 2026-08-08sour",
      "hasBody": true
     }
    ],
@@ -9804,8 +9854,17 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-09-08",
    "topic": "pipeline",
    "topicName": "知识流水线",
-   "wordCount": 12598,
+   "wordCount": 13660,
    "desc": "上级：知识流水线/知识流水线"
+  },
+  {
+   "path": "企业AI与智能体商业化/FDE企业真实落地案例库：按行业分类的企业AI落地实战.md",
+   "title": "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
+   "updated": "2026-09-08",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 3996,
+   "desc": "上级：企业AI与智能体商业化、知识库索引"
   },
   {
    "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
@@ -9815,6 +9874,15 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 19894,
    "desc": "上级：徐总的知识库"
+  },
+  {
+   "path": "企业AI与智能体商业化/制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通.md",
+   "title": "制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通",
+   "updated": "2026-09-08",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 5529,
+   "desc": "上级：FDE企业真实落地案例库：按行业分类的企业AI落地实战"
   },
   {
    "path": "企业AI与智能体商业化/己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径.md",
@@ -10858,24 +10926,6 @@ window.OBSIDIAN_DATA = {
    "topic": "agent",
    "topicName": "AI Agent工程知识",
    "wordCount": 6009,
-   "desc": "上级：AI Agent工程知识专题"
-  },
-  {
-   "path": "AI Agent工程知识/AI Agent工程知识专题.md",
-   "title": "AI Agent 工程知识专题",
-   "updated": "2026-08-26",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 13867,
-   "desc": "上级：徐总的知识库"
-  },
-  {
-   "path": "AI Agent工程知识/AI Agent工程知识框架.md",
-   "title": "AI Agent 工程知识框架",
-   "updated": "2026-08-26",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 32012,
    "desc": "上级：AI Agent工程知识专题"
   }
  ]
