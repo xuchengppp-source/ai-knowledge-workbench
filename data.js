@@ -1,17 +1,17 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-08",
- "generatedTime": "2026-09-08 22:19",
+ "generatedTime": "2026-09-08 23:04",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 29,
- "weeklyChanges": 528,
+ "weeklyPages": 37,
+ "weeklyChanges": 615,
  "sourceIndex": "知识库索引.md",
- "digest": "知识流水线/每日学习整理/2026-09-07｜AI知识增量整理.md",
+ "digest": "知识流水线/每日学习整理/2026-09-08｜AI知识增量整理.md",
  "topics": [
   {
    "name": "AI Agent工程知识",
    "key": "agent",
    "icon": "🤖",
-   "count": 36
+   "count": 41
   },
   {
    "name": "企业AI与智能体商业化",
@@ -29,13 +29,19 @@ window.OBSIDIAN_DATA = {
    "name": "知识流水线",
    "key": "pipeline",
    "icon": "📚",
-   "count": 46
+   "count": 52
   },
   {
    "name": "Codex 工作区",
    "key": "codex",
    "icon": "🛠",
    "count": 77
+  },
+  {
+   "name": "DeepSeek Harness 项目",
+   "key": "harness",
+   "icon": "🧪",
+   "count": 29
   },
   {
    "name": "多智能体协作",
@@ -74,6 +80,18 @@ window.OBSIDIAN_DATA = {
    "count": 4
   },
   {
+   "name": "个人能力提升",
+   "key": "growth",
+   "icon": "🌱",
+   "count": 21
+  },
+  {
+   "name": "徐总每日随记",
+   "key": "notes",
+   "icon": "📝",
+   "count": 42
+  },
+  {
    "name": "豆包工作区",
    "key": "doubao",
    "icon": "🫘",
@@ -92,17 +110,11 @@ window.OBSIDIAN_DATA = {
    "count": 2
   },
   {
-   "name": "我的洞察",
-   "key": "myinsights",
-   "icon": "💡",
-   "count": 2
-  },
-  {
    "key": "raw",
    "name": "原始资料 / 养料",
    "icon": "🗂",
    "color": "raw",
-   "count": 35
+   "count": 36
   }
  ],
  "nodes": [
@@ -178,7 +190,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
     "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
     "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
-    "企业AI与智能体商业化/原始资料/美团AI经营参谋与甘食记内部经营系统边界讨论.md"
+    "企业AI与智能体商业化/原始资料/美团AI经营参谋与甘食记内部经营系统边界讨论.md",
+    "徐总每日随记/当日记录/2026-07-05.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 9126
@@ -230,6 +243,7 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
     "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
     "Codex工作区/每日跨项目复盘/2026-07-13.md"
    ],
    "desc": "创建日期：2026-07-02",
@@ -316,6 +330,7 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
     "AI Agent工程知识/AI模型选型与订阅历史.md",
+    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2.md",
     "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象.md",
     "AI Agent工程知识/为什么做多智能体：Codex内部多线程vs跨平台多智能体.md",
     "AI Agent工程知识/智能体使用逻辑问题复盘-垂直任务实践（旅行案例）.md",
@@ -331,6 +346,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/AI知识自动化整理入口.md",
     "知识流水线/Obsidian知识底座治理与知识自主生长方案.md",
     "知识流水线/个人工作台设计与部署方法论.md",
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
     "知识流水线/知识库健康巡检.md",
     "知识流水线/知识库健康巡检执行规范.md",
     "知识流水线/知识库架构判断原则：从资料到概念、方法论、案例与专题归属.md",
@@ -338,7 +354,9 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/每日跨项目复盘/2026-07-10.md",
     "Codex工作区/每日跨项目复盘/2026-07-11.md",
     "Codex工作区/每日跨项目复盘/2026-07-13.md",
-    "Codex工作区/每日跨项目复盘/2026-07-28.md"
+    "Codex工作区/每日跨项目复盘/2026-07-28.md",
+    "DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
    ],
    "desc": "上级：徐总的知识库",
    "wordCount": 13867
@@ -361,7 +379,8 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "AI Agent工程知识/AI模型选型与订阅历史.md",
     "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
-    "企业AI与智能体商业化/企业AI与生产级Agent总框架.md"
+    "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+    "徐总每日随记/当日记录/2026-07-04.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 32012
@@ -448,12 +467,114 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
     "知识流水线/A_原始资料.md",
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
     "知识流水线/知识库健康巡检.md",
     "Codex工作区/每日跨项目复盘/2026-08-07.md",
     "Codex工作区/每日跨项目复盘/2026-08-08.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 6740
+  },
+  {
+   "path": "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md",
+   "title": "DeepSeek Harness Control Gateway 设计与调研",
+   "updated": "2026-08-31",
+   "topic": "agent",
+   "links": [
+    "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录",
+    "任务面板与知识库/任务卡/Alpha-Friday搭建与会话修复-20260830"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md"
+   ],
+   "desc": "Alpha 单实例 Gateway 已完成第一条真实闭环：127.0.0.1:48111 通过 Alpha Web JSON-RPC 47911 向固化的 Alpha Friday",
+   "wordCount": 13500
+  },
+  {
+   "path": "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.1.md",
+   "title": "DeepSeek Harness 插件与模式设计规范 V1.1",
+   "updated": "2026-08-26",
+   "topic": "agent",
+   "links": [
+    "AI Agent工程知识专题",
+    "Deepseek Harness：框架概念与专属智能体搭建",
+    "生产级AI Agent知识体系总览：层级·特性·术语",
+    "全域智能体框架总览"
+   ],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
+   ],
+   "desc": "上级：AI Agent工程知识专题",
+   "wordCount": 15379
+  },
+  {
+   "path": "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2.md",
+   "title": "DeepSeek Harness 插件与模式设计规范 V1.2",
+   "updated": "2026-08-26",
+   "topic": "agent",
+   "links": [
+    "AI Agent工程知识专题",
+    "Deepseek Harness：框架概念与专属智能体搭建",
+    "生产级AI Agent知识体系总览：层级·特性·术语",
+    "全域智能体框架总览",
+    "徐总的知识库",
+    "AI Agent工程知识/AI Agent工程知识专题"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md",
+    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
+    "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）.md",
+    "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
+   "desc": "上级：AI Agent工程知识专题",
+   "wordCount": 22080
+  },
+  {
+   "path": "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md",
+   "title": "DeepSeek Harness 飞书 IM 接入搭建与运行记录",
+   "updated": "2026-08-30",
+   "topic": "agent",
+   "links": [
+    "AI Agent工程知识/多Agent协作架构-豆包助手WorkBuddyFridayCodex全链路",
+    "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论",
+    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2",
+    "全局记忆/02_系统架构",
+    "AI Agent工程知识/飞书多智能体连接故障恢复手册",
+    "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md",
+    "知识流水线/A_原始资料.md",
+    "Codex工作区/Memory Guard - 多Agent接入指南.md",
+    "任务面板与知识库/任务卡/Alpha-Friday搭建与会话修复-20260830.md"
+   ],
+   "desc": "DeepSeek Harness（Friday 主控 Agent）通过Harness 原生 IM 插件直接接入飞书机器人，无需经过 Codex/Jarvis 转发。这是 Harne",
+   "wordCount": 10889
+  },
+  {
+   "path": "AI Agent工程知识/DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）.md",
+   "title": "DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）",
+   "updated": "2026-08-31",
+   "topic": "agent",
+   "links": [
+    "原始资料/已整理｜2026-08-21｜Qwen-UI-Agent与Harness自重启能力方向",
+    "原始资料/已整理｜2026-08-21｜抖音DeepSeek Harness系列文案",
+    "原始资料/已整理｜2026-08-26｜dsh拆解系列｜拆解DeepSeekHarness：Profile与Bundle如何装配运行时",
+    "原始资料/已整理｜2026-08-26｜dsh拆解系列｜解读Cordis：dsh一切皆插件背后的运行时设计",
+    "原始资料/已整理｜2026-08-28｜GitHub优选｜DSH实测必装12个插件",
+    "原始资料/已整理｜2026-08-28｜微信公众号｜DSH到底把什么做成了插件",
+    "原始资料/已整理｜2026-08-28｜腾讯科技｜DeepSeek的Harness为何是一头黑色鲸鱼",
+    "原始资料/已整理｜2026-08-28｜腾讯科技｜黑鲸之后OpenAI开放Harness",
+    "原始资料/已整理｜2026-08-28｜蓝耘星河｜别把DSH当CodeX平替"
+   ],
+   "backlinks": [
+    "知识流水线/知识库健康巡检.md"
+   ],
+   "desc": "DeepSeek Harness 的核心价值不是“又一个聊天 Agent”，而是把模型、插件、Skill、Workflow、Session、权限和运行状态装配成可持续执行的 Age",
+   "wordCount": 1419
   },
   {
    "path": "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md",
@@ -469,12 +590,15 @@ window.OBSIDIAN_DATA = {
     "多智能体共享记忆：TencentDB Agent Memory 评估",
     "AI模型选型与订阅历史",
     "DeepSeek Harness 插件与模式设计规范 V1.2",
-    "［内部笔记·不公开］/2026-08-18",
+    "徐总每日随记/当日记录/2026-08-18",
     "DeepSeek Harness项目/DeepSeek Harness项目记录",
     "DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南",
     "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
    "desc": "两条硬规则：",
    "wordCount": 15247
   },
@@ -490,7 +614,9 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/FDE交付方法论与甘食记案例",
     "企业AI与智能体商业化/FDE商业级智能体交付框架"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md"
+   ],
    "desc": "创建日期：2026-07-02",
    "wordCount": 7268
   },
@@ -515,6 +641,7 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/AI Agent工程知识专题.md",
     "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合.md",
     "知识流水线/A_原始资料.md",
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
     "知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作.md",
     "知识流水线/知识库健康巡检.md",
     "知识流水线/知识库架构判断原则：从资料到概念、方法论、案例与专题归属.md",
@@ -532,7 +659,9 @@ window.OBSIDIAN_DATA = {
     "原始资料/已整理｜2026-09-04｜微信公众号｜万字长文Palantir式本体对AI的真实价值",
     "徐总问题专题库/06_企业AI与商业化/2026-08-31_腾讯FDE报告与生产级Agent横纵轴判断"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md"
+   ],
    "desc": "Ontology 的价值不在于给数据换一套术语，而在于把企业中的业务对象、关系、状态、规则、动作和责任统一表达，使 AI 能从“查到数据”走向“理解业务并在边界内执行”。",
    "wordCount": 546
   },
@@ -626,7 +755,9 @@ window.OBSIDIAN_DATA = {
     "全域智能体健康度审查方法论",
     "飞书多智能体连接故障恢复手册"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md"
+   ],
    "desc": "- 通道层：飞书 lark-cli，统一管理 7 个飞书应用（appId 见第二节）；当前 currentApp 为伊森 clia92504e56d78dbd7，user 身份（徐",
    "wordCount": 2396
   },
@@ -666,10 +797,12 @@ window.OBSIDIAN_DATA = {
     "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论"
    ],
    "backlinks": [
+    "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md",
     "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
     "知识流水线/A_原始资料.md",
     "Codex工作区/Memory Guard - 多Agent上下文连续性管理.md",
-    "Codex工作区/Memory Guard - 多Agent接入指南.md"
+    "Codex工作区/Memory Guard - 多Agent接入指南.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
    ],
    "desc": "豆包助手和 WorkBuddy 首先是可以独立完成目标的 Agent 入口，不是必须把所有任务下放给 DeepSeek Harness 的路由前端。DeepSeek Harness",
    "wordCount": 5312
@@ -682,7 +815,9 @@ window.OBSIDIAN_DATA = {
    "links": [
     "原始资料/已整理｜2026-09-04｜抖音｜多Agent架构选型：Manager Handoff Agent-as-Tool底层区别"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md"
+   ],
    "desc": "三种模式的底层区别不是名词，而是控制权最终落在谁手里。",
    "wordCount": 637
   },
@@ -710,6 +845,8 @@ window.OBSIDIAN_DATA = {
     "全局记忆/08_多平台知识库治理"
    ],
    "backlinks": [
+    "知识流水线/候选知识卡真实调用评估记录｜2026-09-08｜AI Agent工程知识.md",
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
     "多智能体协作任务/2026-09-02｜全域主控与项目Agent协作流程搭建复盘.md"
    ],
    "desc": "本文记录多智能体协作中“如何分工、如何传递、如何留痕、如何验收”的通用方法。AI Office 仅作为本次实践案例，用来暴露流程问题；本文不以 AI Office 的页面、版本或具",
@@ -728,7 +865,8 @@ window.OBSIDIAN_DATA = {
     "全域智能体系统本体与健康治理"
    ],
    "backlinks": [
-    "Codex工作区/Memory Guard - 多Agent上下文连续性管理.md"
+    "Codex工作区/Memory Guard - 多Agent上下文连续性管理.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 5666
@@ -755,9 +893,12 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径.md",
     "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
     "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
     "知识流水线/知识库健康巡检.md",
     "Codex工作区/每日跨项目复盘/2026-07-09.md",
-    "Codex工作区/每日跨项目复盘/2026-07-13.md"
+    "Codex工作区/每日跨项目复盘/2026-07-13.md",
+    "徐总每日随记/当日记录/2026-07-08.md",
+    "徐总每日随记/当日记录/2026-07-09.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 3796
@@ -820,6 +961,7 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
     "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
     "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
     "Codex工作区/每日跨项目复盘/2026-07-13.md"
    ],
    "desc": "总关系图：企业AI与生产级Agent总框架关系图",
@@ -875,8 +1017,11 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/原始资料/科技咨询项目交付Agent工程颗粒度选型.md",
     "企业AI与智能体商业化/原始资料/美团AI经营参谋与甘食记内部经营系统边界讨论.md",
     "知识流水线/A_原始资料.md",
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
     "知识流水线/知识库健康巡检.md",
-    "Codex工作区/每日跨项目复盘/2026-07-13.md"
+    "Codex工作区/每日跨项目复盘/2026-07-13.md",
+    "徐总每日随记/当日记录/2026-07-04.md",
+    "徐总每日随记/当日记录/2026-07-05.md"
    ],
    "desc": "定位：本页属于 企业AI与生产级Agent总框架 中的工程定义线。它负责定义生产级 Agent 的概念、标准、能力链路和验收口径；甘食记、美团、咨询公司、制造业等案例属于业务落地线",
    "wordCount": 44486
@@ -898,9 +1043,11 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
     "企业AI与智能体商业化/原始资料/GPT对话原稿：企业知识库与隐性经验资产化.md",
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
     "Codex工作区/Memory Guard - 多Agent上下文连续性管理.md",
     "Codex工作区/每日跨项目复盘/2026-07-09.md",
-    "Codex工作区/每日跨项目复盘/2026-07-13.md"
+    "Codex工作区/每日跨项目复盘/2026-07-13.md",
+    "徐总每日随记/当日记录/2026-07-09.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 5518
@@ -920,7 +1067,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
     "企业AI与智能体商业化/原始资料/科技咨询公司正式版知识库与RAG架构",
     "生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
-    "［内部笔记·不公开］/2026-07-08",
+    "徐总每日随记/当日记录/2026-07-08",
     "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
     "企业AI与生产级Agent总框架关系图",
     "三层知识库与RAG基础设施分型",
@@ -937,9 +1084,12 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
     "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
     "企业AI与智能体商业化/原始资料/GPT对话原稿：企业知识库与隐性经验资产化.md",
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
     "知识流水线/知识库健康巡检.md",
     "Codex工作区/每日跨项目复盘/2026-07-09.md",
-    "Codex工作区/每日跨项目复盘/2026-07-13.md"
+    "Codex工作区/每日跨项目复盘/2026-07-13.md",
+    "徐总每日随记/当日记录/2026-07-08.md",
+    "徐总每日随记/当日记录/2026-07-09.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 11644
@@ -968,7 +1118,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/原始资料/GPT对话原稿：企业知识库与隐性经验资产化.md",
     "企业AI与智能体商业化/原始资料/GPT对话原稿：隐性知识的工程化采集与入库机制.md",
     "Codex工作区/每日跨项目复盘/2026-07-09.md",
-    "Codex工作区/每日跨项目复盘/2026-07-13.md"
+    "Codex工作区/每日跨项目复盘/2026-07-13.md",
+    "徐总每日随记/当日记录/2026-07-08.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 8634
@@ -979,7 +1130,9 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-08-26",
    "topic": "agent",
    "links": [],
-   "backlinks": [],
+   "backlinks": [
+    "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md"
+   ],
    "desc": "快速判定\"谁在线\"：查看有哪些进程持有到飞书长连接服务器（125.64.35.248 / 125.64.35.249 / 182.x / msg-frontier.feishu.c",
    "wordCount": 4035
   },
@@ -1064,7 +1217,7 @@ window.OBSIDIAN_DATA = {
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
-    "［内部笔记·不公开］/2026-08-12",
+    "徐总每日随记/当日记录/2026-08-12",
     "企业AI与智能体商业化/己未文化AI落地首谈会议纪要：客户资产管理第一阶段",
     "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机",
     "企业AI与智能体商业化/FDE商业级智能体交付框架",
@@ -1325,7 +1478,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/知识库索引.md",
     "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
     "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
-    "知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作.md"
+    "知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作.md",
+    "徐总每日随记/当日记录/2026-07-04.md"
    ],
    "desc": "日期：2026-06-01",
    "wordCount": 12402
@@ -1426,6 +1580,7 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
     "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
     "知识流水线/A_原始资料.md",
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
     "Codex工作区/每日跨项目复盘/2026-07-11.md",
     "Codex工作区/每日跨项目复盘/2026-07-13.md",
     "Codex工作区/每日跨项目复盘/2026-07-22.md",
@@ -1611,7 +1766,7 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
-    "［内部笔记·不公开］/2026-06-10",
+    "徐总每日随记/当日记录/2026-06-10",
     "多智能体双向连接架构_20260610"
    ],
    "backlinks": [],
@@ -2097,7 +2252,8 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
     "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
     "Codex工作区/每日跨项目复盘/2026-07-09.md",
-    "Codex工作区/每日跨项目复盘/2026-07-13.md"
+    "Codex工作区/每日跨项目复盘/2026-07-13.md",
+    "徐总每日随记/当日记录/2026-07-09.md"
    ],
    "desc": "创建日期：2026-07-05",
    "wordCount": 12106
@@ -2248,7 +2404,9 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [],
-   "backlinks": [],
+   "backlinks": [
+    "徐总每日随记/当日记录/2026-06-10.md"
+   ],
    "desc": "text",
    "wordCount": 2138
   },
@@ -2489,7 +2647,9 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3",
     "徐总问题专题库/06_企业AI与商业化/2026-09-08_生产级Agent形态选择与案例演进"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md"
+   ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
    "wordCount": 26787
   },
@@ -2757,7 +2917,7 @@ window.OBSIDIAN_DATA = {
    "links": [
     "FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
     "Palantir Ontology Pipeline商业模式与甘食记框架融合",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "企业AI与智能体商业化/资料池",
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
@@ -2811,7 +2971,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记Ontology对象网络设计.md",
     "企业AI与智能体商业化/飞书企业管理模块接入甘食记经营系统融合方案.md",
     "Codex工作区/每日跨项目复盘/2026-07-13.md",
-    "Codex工作区/每日跨项目复盘/2026-07-22.md"
+    "Codex工作区/每日跨项目复盘/2026-07-22.md",
+    "徐总每日随记/当日记录/2026-07-05.md"
    ],
    "desc": "日期：2026-06-18",
    "wordCount": 9302
@@ -2933,7 +3094,7 @@ window.OBSIDIAN_DATA = {
     "甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线",
     "客户业务API到经营分析与飞书多维表格闭环SOP",
     "甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "企业AI与智能体商业化/资料池"
    ],
    "backlinks": [
@@ -3084,7 +3245,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/玄学与东方智慧出海-内容策略与独立站电商体系-调研-20260811",
     "原始资料/已整理｜2026-08-12｜飞书妙记原始逐字稿｜己未文化AI落地首谈",
     "企业AI与智能体商业化/FDE商业级智能体交付框架",
-    "［内部笔记·不公开］/2026-08-12",
+    "徐总每日随记/当日记录/2026-08-12",
     "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
     "原始资料/已整理｜2026-08-12｜对话整理｜任务闭环与业务闭环分离-GrokBot数字岗位vs经营Agent",
     "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
@@ -3153,7 +3314,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
     "知识流水线/知识库健康巡检.md",
     "Codex工作区/每日跨项目复盘/2026-07-13.md",
-    "Codex工作区/每日跨项目复盘/2026-07-27.md"
+    "Codex工作区/每日跨项目复盘/2026-07-27.md",
+    "徐总每日随记/当日记录/2026-07-08.md"
    ],
    "desc": "创建日期：2026-07-02",
    "wordCount": 13457
@@ -3201,7 +3363,7 @@ window.OBSIDIAN_DATA = {
     "FDE搭建智能体落地：企业分级、平台选型与合规交付",
     "生产级AI Agent知识体系总览：层级·特性·术语",
     "可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
-    "［内部笔记·不公开］/2026-08-11",
+    "徐总每日随记/当日记录/2026-08-11",
     "原始资料/已整理｜2026-08-11｜访谈｜李开复AI现状与未来深度对话",
     "AI时代的FDE变体：从Palantir驻场模式到Agent工厂"
    ],
@@ -3644,7 +3806,9 @@ window.OBSIDIAN_DATA = {
     "../../AI Agent工程知识/AI Agent专业术语词典",
     "../蒸馏笔记"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "徐总每日随记/当日记录/2026-07-08.md"
+   ],
    "desc": "来源：用户粘贴的 GPT 原对话",
    "wordCount": 6009
   },
@@ -3694,11 +3858,12 @@ window.OBSIDIAN_DATA = {
     "生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
     "生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
     "三层知识库与RAG基础设施分型",
-    "［内部笔记·不公开］/2026-07-08",
+    "徐总每日随记/当日记录/2026-07-08",
     "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈"
    ],
    "backlinks": [
-    "Codex工作区/每日跨项目复盘/2026-07-26.md"
+    "Codex工作区/每日跨项目复盘/2026-07-26.md",
+    "徐总每日随记/当日记录/2026-07-08.md"
    ],
    "desc": "- 日期：2026-07-08",
    "wordCount": 3937
@@ -3836,7 +4001,8 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
     "企业AI与智能体商业化/原始资料/GPT对话原稿：企业知识库与隐性经验资产化.md",
-    "企业AI与智能体商业化/原始资料/GPT对话原稿：隐性知识的工程化采集与入库机制.md"
+    "企业AI与智能体商业化/原始资料/GPT对话原稿：隐性知识的工程化采集与入库机制.md",
+    "徐总每日随记/当日记录/2026-07-08.md"
    ],
    "desc": "来源：用户与 Codex 关于“成熟科技咨询公司如何直接搭建知识库 / RAG / 数据库 / 状态机”的讨论",
    "wordCount": 4159
@@ -3891,7 +4057,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
     "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent.md",
     "企业AI与智能体商业化/原始资料/GPT对话原稿：ERP边界与生产级Agent数字化前置.md",
-    "企业AI与智能体商业化/原始资料/GPT对话原稿：线下餐饮门店数字化链路与Agent叠加点.md"
+    "企业AI与智能体商业化/原始资料/GPT对话原稿：线下餐饮门店数字化链路与Agent叠加点.md",
+    "徐总每日随记/当日记录/2026-07-05.md"
    ],
    "desc": "日期：2026-07-05",
    "wordCount": 10443
@@ -4492,9 +4659,9 @@ window.OBSIDIAN_DATA = {
     "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海",
     "原始资料/已整理｜2026-08-08｜抖音豆包｜三十亿智算中心利用率",
     "原始资料/已整理｜2026-08-07｜抖音豆包｜AI大模型果果姐AIAgent框架选错白忙三个月",
-    "［内部笔记·不公开］/沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
+    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
     "原始资料/已整理｜2026-08-08｜抖音豆包｜沟通能力强的人说话是什么样的",
-    "［内部笔记·不公开］：从政治成熟到闭环执行",
+    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行",
     "原始资料/已整理｜2026-08-08｜抖音豆包｜政治成熟优先级匹配精力",
     "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
     "原始资料/已整理｜2026-08-08｜抖音豆包｜用本体重塑企业AI语义基座",
@@ -4504,7 +4671,7 @@ window.OBSIDIAN_DATA = {
     "政府资源配置与政策落地机制/政府重大项目决策机制与省市区三级分工：以成都为案例",
     "原始资料/已整理｜2026-08-28｜豆包对话｜政府重大项目决策机制详解（含多项目推动层级）",
     "原始资料/已整理｜2026-08-21｜人工测试｜测试 Jarvis 四阶段工作流验证",
-    "［内部笔记·不公开］：从执行者到共谋者",
+    "个人能力提升/组织信任与闭环执行：从执行者到共谋者",
     "原始资料/已整理｜2026-08-05｜ChatGPT｜组织信任建立与闭环能力",
     "全局记忆/13_Obsidian新增更新内容强制收口协作规则",
     "原始资料/已整理｜2026-07-21｜用户直接指令｜Obsidian六步收口规则原文",
@@ -4773,6 +4940,69 @@ window.OBSIDIAN_DATA = {
    "wordCount": 155
   },
   {
+   "path": "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
+   "title": "DeepSeek Harness 体系总览：运作原理与插件/能力包设计指南",
+   "updated": "2026-08-26",
+   "topic": "pipeline",
+   "links": [
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明",
+    "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）",
+    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2",
+    "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明",
+    "DeepSeek Harness项目/Material Office Capability Bundle V1 创建报告",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/智能体使用逻辑问题复盘-垂直任务实践（旅行案例）.md",
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
+    "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）.md",
+    "DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录.md",
+    "DeepSeek Harness项目/游戏角色设计定版智能体-能力包设计草案V1.md"
+   ],
+   "desc": "DeepSeek Harness 是一个 Agent Runtime：模型负责推理，Harness 负责把推理接入真实世界。它不是\"再造一个聊天机器人\"，而是按插件标准组合模型、工",
+   "wordCount": 7836
+  },
+  {
+   "path": "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
+   "title": "DeepSeek Harness官方架构与本机控制中心分层说明",
+   "updated": "2026-08-26",
+   "topic": "pipeline",
+   "links": [
+    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南",
+    "知识流水线/知识流水线",
+    "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建",
+    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2",
+    "AI Agent工程知识/全域智能体框架总览",
+    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "知识流水线/任务面板与Obsidian同步",
+    "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）"
+   ],
+   "backlinks": [
+    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
+    "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）.md",
+    "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明.md"
+   ],
+   "desc": "上级：知识流水线/知识流水线",
+   "wordCount": 6223
+  },
+  {
+   "path": "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）.md",
+   "title": "DeepSeek Harness 源码阅读地图（dsh-v0.1.0-rc.7）",
+   "updated": "2026-08-26",
+   "topic": "pipeline",
+   "links": [
+    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南",
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明"
+   ],
+   "backlinks": [
+    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md"
+   ],
+   "desc": "配置决定能力集合（base bundle）→ 循环推动工作（agent loop）→ 会话保存事实（session）→ 工具链约束动作（tools）。",
+   "wordCount": 3078
+  },
+  {
    "path": "知识流水线/Jarvis知识增长工作流总规则-整理草稿.md",
    "title": "Jarvis Office 知识增长工作流总规则（整理草稿）",
    "updated": "2026-08-26",
@@ -4812,7 +5042,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "知识流水线/Obsidian知识底座治理与知识自主生长方案.md",
    "title": "Obsidian知识底座治理与知识自主生长方案",
-   "updated": "2026-08-26",
+   "updated": "2026-09-08",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -4823,15 +5053,18 @@ window.OBSIDIAN_DATA = {
     "知识流水线/AI知识学习与复盘工作台",
     "徐总问题专题库/00_问题专题库总览",
     "AI Agent工程知识/AI Agent工程知识专题",
-    "知识流水线/任务面板与Obsidian同步"
+    "知识流水线/任务面板与Obsidian同步",
+    "知识流水线/知识卡片与Agent调用标准"
    ],
    "backlinks": [
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
+    "知识流水线/知识卡片与Agent调用标准.md",
     "知识流水线/知识库健康巡检.md",
     "Codex工作区/智能体协作-任务面板操作手册.md",
     "任务面板与知识库/智能体协作-任务面板操作手册.md"
    ],
    "desc": "上级：知识流水线/知识流水线、徐总的知识库",
-   "wordCount": 3575
+   "wordCount": 4047
   },
   {
    "path": "知识流水线/WikiLLM知识库编译方法论.md",
@@ -4957,12 +5190,63 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识流水线"
    ],
    "backlinks": [
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
     "知识流水线/Obsidian知识底座治理与知识自主生长方案.md",
     "Codex工作区/每日跨项目复盘/README.md",
     "任务面板与知识库/任务面板与Obsidian同步.md"
    ],
    "desc": "- Obsidian 是内容层 / 最终知识源：详细过程、方案、结论、正式知识。",
    "wordCount": 4898
+  },
+  {
+   "path": "知识流水线/候选知识卡真实调用评估记录｜2026-09-08｜AI Agent工程知识.md",
+   "title": "候选知识卡真实调用评估记录（2026-09-08）",
+   "updated": "2026-09-08",
+   "topic": "pipeline",
+   "links": [
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08",
+    "AI Agent工程知识/多智能体协作闭环方法：主控-规划-执行-验收"
+   ],
+   "backlinks": [],
+   "desc": "- 候选卡文件：知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md（12 张：KC-01~KC-12）。",
+   "wordCount": 8074
+  },
+  {
+   "path": "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
+   "title": "候选知识卡试点：AI Agent 工程知识（2026-09-08）",
+   "updated": "2026-09-08",
+   "topic": "pipeline",
+   "links": [
+    "AI Agent工程知识/AI Agent工程知识专题",
+    "知识流水线/知识卡片与Agent调用标准",
+    "知识流水线/Obsidian知识底座治理与知识自主生长方案",
+    "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
+    "AI Agent工程知识/Palantir式Ontology的真实价值：从业务语义到可执行系统",
+    "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow",
+    "AI Agent工程知识/生产级AI Agent工程体系的完整链路",
+    "AI Agent工程知识/生产级AI Agent工程纪律稳定层方法论：埋点·日志·BadCase管理·回归测试（不随模型过时的底座）",
+    "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现",
+    "AI Agent工程知识/多Agent架构选型决策卡：Manager-Handoff-Agent-as-Tool",
+    "AI Agent工程知识/多智能体协作闭环方法：主控-规划-执行-验收",
+    "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "AI Agent工程知识/生产级AI Agent记忆系统与Context调度",
+    "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "企业AI与智能体商业化/甘食记从经营日报Agent到轻量经营Ontology主线",
+    "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "企业AI与智能体商业化/甘食记经营系统生产级架构演进",
+    "企业AI与智能体商业化/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册",
+    "多智能体协作任务/多智能体协作体系总览",
+    "全局记忆/智能体启动与身份连续性统一合同",
+    "全局记忆/13_Obsidian新增更新内容强制收口协作规则",
+    "全局记忆/09_全域智能体记忆体系"
+   ],
+   "backlinks": [
+    "知识流水线/候选知识卡真实调用评估记录｜2026-09-08｜AI Agent工程知识.md",
+    "知识流水线/知识卡片与Agent调用标准.md"
+   ],
+   "desc": "上级：AI Agent工程知识/AI Agent工程知识专题",
+   "wordCount": 8162
   },
   {
    "path": "知识流水线/四个外部Agent任务卡与Obsidian Skill统一接入.md",
@@ -5043,6 +5327,26 @@ window.OBSIDIAN_DATA = {
    "wordCount": 7610
   },
   {
+   "path": "知识流水线/知识卡片与Agent调用标准.md",
+   "title": "知识卡片与 Agent 调用标准",
+   "updated": "2026-09-08",
+   "topic": "pipeline",
+   "links": [
+    "知识流水线/知识流水线",
+    "知识流水线/Obsidian知识底座治理与知识自主生长方案",
+    "知识流水线/OpenWiki知识增量/2026-09-08_外部观点对重建计划的启发",
+    "知识库索引",
+    "全局记忆/13_Obsidian新增更新内容强制收口协作规则",
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08"
+   ],
+   "backlinks": [
+    "知识流水线/Obsidian知识底座治理与知识自主生长方案.md",
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md"
+   ],
+   "desc": "上级：知识流水线/知识流水线",
+   "wordCount": 2692
+  },
+  {
    "path": "知识流水线/知识库健康巡检.md",
    "title": "知识库健康巡检",
    "updated": "2026-09-07",
@@ -5085,10 +5389,10 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/AI Agent工程知识专题",
     "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海",
     "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
-    "［内部笔记·不公开］/沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
+    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
     "知识流水线/Mac Codex Obsidian知识库健康巡检专员启动提示词",
     "知识流水线/知识库健康巡检执行规范",
-    "［内部笔记·不公开］：从政治成熟到闭环执行",
+    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行",
     "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
     "AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率",
     "知识流水线/每日学习整理/2026-08-08｜AI知识增量整理",
@@ -5102,7 +5406,7 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/文秘助手项目记录",
     "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
     "个人档案/个人档案",
-    "［内部笔记·不公开］",
+    "个人能力提升/个人能力提升",
     "个人健康/个人健康",
     "个人车辆/个人车辆",
     "Codex工作区/飞书多智能体会议流程：群协同与Obsidian拍板机制",
@@ -5130,7 +5434,7 @@ window.OBSIDIAN_DATA = {
     "法律/中国立法体系总览",
     "法律/法律专题",
     "知识流水线/每日学习整理/2026-07-31｜AI知识增量整理",
-    "［内部笔记·不公开］/谈判与沟通专题",
+    "个人能力提升/谈判与沟通/谈判与沟通专题",
     "个人健康/体重管理",
     "知识流水线/C_方法与Skill",
     "全局记忆/11_Obsidian知识库协作与Skills使用规则",
@@ -5295,12 +5599,14 @@ window.OBSIDIAN_DATA = {
     "知识流水线/B_知识蒸馏.md",
     "知识流水线/C_方法与Skill.md",
     "知识流水线/D_输出成果.md",
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
     "知识流水线/Obsidian知识底座治理与知识自主生长方案.md",
     "知识流水线/WikiLLM知识库编译方法论.md",
     "知识流水线/个人工作台设计与部署方法论.md",
     "知识流水线/任务面板与Obsidian同步.md",
     "知识流水线/平板Obsidian每日轻量巡检员启动提示词.md",
     "知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作.md",
+    "知识流水线/知识卡片与Agent调用标准.md",
     "知识流水线/知识库健康巡检.md",
     "知识流水线/知识库健康巡检执行规范.md",
     "知识流水线/知识库架构判断原则：从资料到概念、方法论、案例与专题归属.md",
@@ -5436,7 +5742,8 @@ window.OBSIDIAN_DATA = {
    "topic": "codex",
    "links": [],
    "backlinks": [
-    "Codex工作区/每日跨项目复盘/2026-08-16.md"
+    "Codex工作区/每日跨项目复盘/2026-08-16.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
    ],
    "desc": "结论摘要：subagentm3（MiniMax-M3 子代理派发）本身完全可用。此前调用报 Error: subagent run failed 是端点点错了：Harness 的 ",
    "wordCount": 2303
@@ -5873,6 +6180,8 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "Codex工作区/每日跨项目复盘/2026-07-10.md",
     "Codex工作区/飞书多智能体连接基线与故障域.md",
+    "徐总每日随记/当日记录/2026-07-04.md",
+    "徐总每日随记/当日记录/2026-07-10.md",
     "Codex/Codex专题.md",
     "Codex/Codex五级用法演进模型.md"
    ],
@@ -6040,7 +6349,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
     "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
     "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
@@ -6056,8 +6365,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/蒸馏笔记",
     "企业AI与智能体商业化/资料池",
     "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent",
-    "［内部笔记·不公开］/2026-07-08",
-    "［内部笔记·不公开］/2026-07-09",
+    "徐总每日随记/当日记录/2026-07-08",
+    "徐总每日随记/当日记录/2026-07-09",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
    ],
@@ -6077,7 +6386,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "全局记忆/05_平台差异",
     "Codex工作区/多端 Codex 协作架构",
     "全局记忆/12_Codex跨项目永久记忆与自动复盘",
@@ -6092,7 +6401,7 @@ window.OBSIDIAN_DATA = {
     "全局记忆/00_总览.md",
     "全局记忆/02_系统架构.md",
     "全局记忆/05_平台差异.md",
-    "［内部笔记·不公开］/2026-07-10.md",
+    "徐总每日随记/当日记录/2026-07-10.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
    ],
@@ -6112,7 +6421,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "AI Agent工程知识/AI Agent专业术语词典.md",
     "AI Agent工程知识/AI Agent工程知识专题.md",
     "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
@@ -6153,7 +6462,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-11.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
@@ -6174,7 +6483,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维.md",
     "AI Agent工程知识/AI Agent工程知识专题.md",
     "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
@@ -6224,14 +6533,14 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "个人健康/华西医院就诊经验",
     "个人健康/个人健康",
-    "［内部笔记·不公开］/当日记录说明",
+    "徐总每日随记/当日记录/当日记录说明",
     "Codex工作区/每日跨项目复盘/2026-07-13.md",
     "个人健康/个人健康.md",
     "个人健康/华西医院就诊经验.md",
-    "［内部笔记·不公开］/2026-07-14.md",
+    "徐总每日随记/当日记录/2026-07-14.md",
     "徐总的知识库.md",
     "知识库索引.md",
     "徐总的知识库",
@@ -6253,7 +6562,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-14.md",
     "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
     "企业AI与智能体商业化/FDE搭建智能体落地：企业分级、平台选型与合规交付.md",
@@ -6262,8 +6571,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
     "企业AI与智能体商业化/原始资料/行业视频原稿：交付结果而非交付工具，Vibe Coding打开企业付费意愿.md",
     "企业AI与智能体商业化/知识库索引.md",
-    "［内部笔记·不公开］/健康身体.md",
-    "［内部笔记·不公开］/2026-07-14.md",
+    "徐总每日随记/主题归档/健康身体.md",
+    "徐总每日随记/当日记录/2026-07-14.md",
     "知识库索引.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
@@ -6284,7 +6593,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-15.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
@@ -6305,10 +6614,10 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-16.md",
-    "［内部笔记·不公开］/请贵人与领导吃饭的邀约方法：三种降低决策成本的话术.md",
-    "［内部笔记·不公开］/谈判与沟通专题.md",
+    "个人能力提升/谈判与沟通/请贵人与领导吃饭的邀约方法：三种降低决策成本的话术.md",
+    "个人能力提升/谈判与沟通/谈判与沟通专题.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
    ],
@@ -6328,7 +6637,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-17.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
@@ -6349,7 +6658,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-18.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
@@ -6370,7 +6679,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-19.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
@@ -6391,7 +6700,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-20.md",
     "个人健康/个人健康.md",
     "个人健康/体重管理.md",
@@ -6404,7 +6713,7 @@ window.OBSIDIAN_DATA = {
     "全局记忆/11_Obsidian知识库协作与Skills使用规则.md",
     "全局记忆/13_Obsidian新增更新内容强制收口协作规则.md",
     "全局记忆/原始资料｜Obsidian新增更新内容强制收口协作规则（用户原文）.md",
-    "［内部笔记·不公开］/健康身体.md",
+    "徐总每日随记/主题归档/健康身体.md",
     "徐总的知识库.md",
     "知识库索引.md",
     "徐总的知识库",
@@ -6427,7 +6736,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-21.md",
     "个人健康/体重管理.md",
     "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂.md",
@@ -6457,14 +6766,14 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "个人健康/体重管理",
     "Codex工作区/每日跨项目复盘/2026-07-22.md",
     "个人健康/体重管理.md",
     "个人车辆/个人车辆.md",
     "个人车辆/个人车辆",
     "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案.md",
-    "［内部笔记·不公开］/2026-07-23.md",
+    "徐总每日随记/当日记录/2026-07-23.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
    ],
@@ -6485,7 +6794,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "Codex工作区/Codex工作区.md",
     "Codex工作区/飞书多智能体会议流程：群协同与Obsidian拍板机制",
     "Codex工作区/全域AI工具模型配置.md",
@@ -6519,11 +6828,11 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "个人健康/体重管理",
     "Codex工作区/每日跨项目复盘/2026-07-24.md",
     "个人健康/体重管理.md",
-    "［内部笔记·不公开］/2026-07-25.md",
+    "徐总每日随记/当日记录/2026-07-25.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
    ],
@@ -6543,7 +6852,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "Codex工作区/Codex工作区.md",
     "Codex工作区/全域AI工具模型配置.md",
     "Codex工作区/每日跨项目复盘/2026-07-21.md",
@@ -6584,7 +6893,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "Codex工作区/Codex Slides PPT 生产工作流.md",
     "Codex工作区/Codex工作区.md",
     "Codex工作区/新 Codex 对话启动入口.md",
@@ -6619,7 +6928,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "个人健康/体重管理",
     "个人车辆/个人车辆",
     "AI Agent工程知识/AI Agent专业术语词典.md",
@@ -6653,7 +6962,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/蒸馏笔记.md",
     "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
     "企业AI与智能体商业化/零一万物FDE与企业AI落地模式.md",
-    "［内部笔记·不公开］/2026-07-28.md",
+    "徐总每日随记/当日记录/2026-07-28.md",
     "知识库索引.md",
     "知识流水线/知识库健康巡检.md",
     "徐总的知识库",
@@ -6675,7 +6984,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "［内部笔记·不公开］/2026-06-17",
+    "徐总每日随记/当日记录/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-28.md",
     "个人健康/体重管理.md",
     "个人车辆/个人车辆.md",
@@ -6722,7 +7031,7 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/任务面板每日工作日志机制：从执行态到日级进展档案",
     "Codex工作区/智能体协作-任务面板操作手册",
     "Codex工作区/多智能体分派框架复核：Codex主控、DK子Agent与外部Agent协作",
-    "［内部笔记·不公开］/2026-08-05"
+    "徐总每日随记/当日记录/2026-08-05"
    ],
    "backlinks": [
     "知识流水线/知识库健康巡检.md",
@@ -6783,7 +7092,7 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/Codex工作区",
     "Codex工作区/任务面板每日工作日志机制：从执行态到日级进展档案",
     "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海",
-    "［内部笔记·不公开］：从政治成熟到闭环执行",
+    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行",
     "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
     "AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率",
     "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow",
@@ -7090,7 +7399,8 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/每日跨项目复盘/2026-07-26.md",
     "Codex工作区/每日跨项目复盘/2026-07-27.md",
     "Codex工作区/每日跨项目复盘/2026-07-28.md",
-    "Codex工作区/每日跨项目复盘/2026-07-29.md"
+    "Codex工作区/每日跨项目复盘/2026-07-29.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
    ],
    "desc": "这个文件用于区分“真正项目目录”“Codex 会话目录”和“长期知识库”，同时为平板 Codex 与 Mac Codex 提供统一的 工作区 入口。",
    "wordCount": 2980
@@ -7145,6 +7455,503 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "飞书机器人连接不是一个整体系统，而是三段独立链路：飞书事件推送、机器人桥接进程、模型/Agent 执行器。排障必须按链路逐段验收，不能因为机器人能收到消息，就推断 Codex、Qo",
    "wordCount": 11295
+  },
+  {
+   "path": "DeepSeek Harness项目/Capability 分层审计报告 Friday-Jarvis 2026-08-20.md",
+   "title": "Capability 分层审计报告：Friday / Jarvis Preset",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [],
+   "backlinks": [
+    "DeepSeek Harness项目/DSH_贾维斯模式新建.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
+   "desc": "- 审计者：Harness Capability Governance Advisor（governance preset，V0.1）",
+   "wordCount": 2921
+  },
+  {
+   "path": "DeepSeek Harness项目/DSH Marketplace 插件启用过程 2026-08-26.md",
+   "title": "DSH Marketplace 插件启用过程 2026-08-26",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [
+    "DSH v0.1.1-rc.2 升级副本验证记录",
+    "DeepSeek Harness 全流程拉通总结 2026-08-19~22",
+    "DeepSeek Harness 插件体系结构官方分层说明",
+    "DeepSeek Harness项目记录",
+    "DeepSeek Harness项目索引"
+   ],
+   "backlinks": [],
+   "desc": "周五（Friday）在徐总指示下，把社区 npm 包 dshmarket@1.29.2 通过官方 dsh plugin --profile web add 命令装进 rc.2 验证",
+   "wordCount": 3829
+  },
+  {
+   "path": "DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录.md",
+   "title": "DSH v0.1.1-rc.2 升级副本验证记录",
+   "updated": "2026-09-01",
+   "topic": "harness",
+   "links": [
+    "DeepSeek Harness项目/DeepSeek Harness项目索引",
+    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南"
+   ],
+   "backlinks": [
+    "DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研.md",
+    "DeepSeek Harness项目/DSH第三方插件适配新版本官方标准.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
+   "desc": "rc.8 起 Claude Code / Codex 变成可安装的 Profile Bundle 子代理插件包——与我们的\"主控编排\"思路契合（Friday 主控可派发编码任务给 ",
+   "wordCount": 11723
+  },
+  {
+   "path": "DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研.md",
+   "title": "DSH 插件在 alpha 版本的独立安装方案与兼容性调研",
+   "updated": "2026-09-05",
+   "topic": "harness",
+   "links": [
+    "DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引",
+    "DeepSeek Harness项目/DeepSeek Harness搭建记录"
+   ],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
+   "desc": "1. 机制可行：alpha 与 rc.2 一样，插件唯一官方入口是 dsh plugin --profile web add <pkg>（pnpm 转发器，装完自动 reconci",
+   "wordCount": 3973
+  },
+  {
+   "path": "DeepSeek Harness项目/DSH_贾维斯模式新建.md",
+   "title": "DSH 贾维斯模式新建",
+   "updated": "2026-08-30",
+   "topic": "harness",
+   "links": [
+    "DeepSeek Harness项目/DeepSeek Harness搭建记录",
+    "DeepSeek Harness项目/Jarvis Capability Extraction Audit Report V1 2026-08-20",
+    "DeepSeek Harness项目/Capability 分层审计报告 Friday-Jarvis 2026-08-20",
+    "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同"
+   ],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
+   "desc": "1. 主控不抢执行活：不要自己挨个点工具，扔给子代理",
+   "wordCount": 1830
+  },
+  {
+   "path": "DeepSeek Harness项目/DSH第三方插件适配新版本官方标准.md",
+   "title": "DSH第三方插件适配新版本（≥ rc.8）官方标准",
+   "updated": "2026-08-28",
+   "topic": "harness",
+   "links": [
+    "DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引"
+   ],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
+   "desc": "❌ 旧写法（不能用，启动失败）：",
+   "wordCount": 2821
+  },
+  {
+   "path": "DeepSeek Harness项目/DeepSeek Harness Doctor 插件设计.md",
+   "title": "DeepSeek Harness Doctor 插件设计",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
+   "desc": "Harness Doctor 不是独立监控底座，而是基于 dsh 已有能力的体检层：",
+   "wordCount": 12912
+  },
+  {
+   "path": "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）.md",
+   "title": "DeepSeek Harness 专属插件搭建指南（Alpha4 版）",
+   "updated": "2026-09-05",
+   "topic": "harness",
+   "links": [
+    "DeepSeek Harness项目/DeepSeek Harness搭建记录",
+    "DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研",
+    "DeepSeek Harness项目/DSH第三方插件适配新版本官方标准",
+    "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明",
+    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引"
+   ],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
+   "desc": "其他版本（rc.7=47880 / rc.2=47900）同理，只需把 DSHHOME 和 launchd 标签换成对应实例。",
+   "wordCount": 2868
+  },
+  {
+   "path": "DeepSeek Harness项目/DeepSeek Harness 会话轨迹报错排查 SOP.md",
+   "title": "DeepSeek Harness 会话轨迹报错排查 SOP",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [
+    "DeepSeek Harness项目/DeepSeek Harness项目索引"
+   ],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
+   "desc": "Harness 把每一次操作的完整轨迹按顺序写进会话日志（JSONL 压缩）：",
+   "wordCount": 3253
+  },
+  {
+   "path": "DeepSeek Harness项目/DeepSeek Harness 全流程拉通总结 2026-08-19~22.md",
+   "title": "DeepSeek Harness 全流程拉通总结 2026-08-19~22",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [
+    "DeepSeek Harness项目/DeepSeek Harness项目索引",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录",
+    "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同",
+    "DeepSeek Harness项目/Harness 自由边界与分级治理",
+    "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明"
+   ],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
+   "desc": "上级：DeepSeek Harness项目/DeepSeek Harness项目索引",
+   "wordCount": 7403
+  },
+  {
+   "path": "DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南.md",
+   "title": "DeepSeek Harness 官方资源与插件开发指南",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [
+    "DeepSeek Harness项目/DeepSeek Harness项目记录",
+    "AI Agent工程知识/AI Agent工程知识专题",
+    "全局记忆/智能体启动与身份连续性统一合同"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
+   ],
+   "desc": "本文档是 DeepSeek Harness 官方外部资源的汇总索引，按插件开发的重要性排序。要做标准化插件开发，按本文标注的优先级阅读即可。",
+   "wordCount": 3959
+  },
+  {
+   "path": "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明.md",
+   "title": "DeepSeek Harness 插件体系结构官方分层说明",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [
+    "DeepSeek Harness项目/DeepSeek Harness项目索引",
+    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2",
+    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明"
+   ],
+   "backlinks": [
+    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
+    "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）.md",
+    "DeepSeek Harness项目/DeepSeek Harness 全流程拉通总结 2026-08-19~22.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录.md",
+    "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同.md"
+   ],
+   "desc": "上级：DeepSeek Harness项目/DeepSeek Harness项目索引",
+   "wordCount": 5774
+  },
+  {
+   "path": "DeepSeek Harness项目/DeepSeek Harness插件写回验收测试.md",
+   "title": "DeepSeek Harness 插件写回验收测试",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
+   ],
+   "desc": "本页由 assembled Headless Session 在 2026-08-15 写入，用于验证 Taskboard 与 Obsidian 插件在同一 Harness 流程中",
+   "wordCount": 243
+  },
+  {
+   "path": "DeepSeek Harness项目/DeepSeek Harness插件审核联动验收.md",
+   "title": "DeepSeek Harness 插件审核联动验收",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
+   ],
+   "desc": "本页验证 Taskboard 任务读取、Harness 审核和 Obsidian 受控写回的联动。",
+   "wordCount": 118
+  },
+  {
+   "path": "DeepSeek Harness项目/DeepSeek Harness搭建记录.md",
+   "title": "DeepSeek Harness 搭建记录",
+   "updated": "2026-09-07",
+   "topic": "harness",
+   "links": [
+    "DeepSeek Harness 插件与模式设计规范 V1.0",
+    "DSH Marketplace 插件启用过程 2026-08-26",
+    "DSH 插件在 alpha 版本的独立安装方案与兼容性调研",
+    "DSH第三方插件适配新版本官方标准",
+    "DeepSeek Harness 插件体系结构官方分层说明",
+    "DeepSeek Harness项目索引"
+   ],
+   "backlinks": [
+    "DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研.md",
+    "DeepSeek Harness项目/DSH_贾维斯模式新建.md",
+    "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
+   "desc": "Jarvis Office 不是工具菜单，而是一个“资料采集与知识整理 Agent”。四个主模块组成一条业务流水线：知识中心负责接收和分流，信息处理负责提取和加工，文档中心负责整理",
+   "wordCount": 335271
+  },
+  {
+   "path": "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
+   "title": "DeepSeek Harness 项目索引",
+   "updated": "2026-09-05",
+   "topic": "harness",
+   "links": [
+    "DeepSeek Harness项目/DeepSeek Harness项目记录",
+    "DeepSeek Harness项目/DeepSeek Harness搭建记录",
+    "DeepSeek Harness项目/DSH_贾维斯模式新建",
+    "DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南",
+    "DeepSeek Harness项目/DeepSeek Harness 会话轨迹报错排查 SOP",
+    "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明",
+    "DeepSeek Harness项目/DeepSeek Harness Doctor 插件设计",
+    "DeepSeek Harness项目/DeepSeek Harness插件写回验收测试",
+    "DeepSeek Harness项目/DeepSeek Harness插件审核联动验收",
+    "DeepSeek Harness项目/Harness Capability Governance Agent Preset V0.1 规格与落地任务书",
+    "DeepSeek Harness项目/Capability 分层审计报告 Friday-Jarvis 2026-08-20",
+    "DeepSeek Harness项目/Harness Capability Governance Advisor V0.2 升级方案与完成报告",
+    "DeepSeek Harness项目/Jarvis Capability Extraction Audit Report V1 2026-08-20",
+    "DeepSeek Harness项目/Material Office Capability Bundle Design V1",
+    "DeepSeek Harness项目/Governance Agent V0.2.1 Capability Architecture Review Report",
+    "DeepSeek Harness项目/Material Office Capability Bundle V1 创建报告",
+    "DeepSeek Harness项目/Harness Capability Governance Advisor V0.3 升级与 Plugin 审查报告",
+    "DeepSeek Harness项目/Harness Governance Runtime Audit Upgrade Report",
+    "DeepSeek Harness项目/Harness 自由边界与分级治理",
+    "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同",
+    "DeepSeek Harness项目/DeepSeek Harness 全流程拉通总结 2026-08-19~22",
+    "DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录",
+    "DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研",
+    "DeepSeek Harness项目/DSH第三方插件适配新版本官方标准",
+    "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）",
+    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.1",
+    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2",
+    "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建",
+    "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环",
+    "DSH Marketplace 插件启用过程 2026-08-26"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/AI Agent工程知识专题.md",
+    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
+    "DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录.md",
+    "DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研.md",
+    "DeepSeek Harness项目/DSH第三方插件适配新版本官方标准.md",
+    "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）.md",
+    "DeepSeek Harness项目/DeepSeek Harness 会话轨迹报错排查 SOP.md",
+    "DeepSeek Harness项目/DeepSeek Harness 全流程拉通总结 2026-08-19~22.md",
+    "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明.md",
+    "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同.md"
+   ],
+   "desc": "- DeepSeek Harness项目/DeepSeek Harness项目记录 — 项目长期入口，从零搭建到控制中心闭环完整建设总览",
+   "wordCount": 11913
+  },
+  {
+   "path": "DeepSeek Harness项目/DeepSeek Harness项目记录.md",
+   "title": "DeepSeek Harness 项目记录",
+   "updated": "2026-08-31",
+   "topic": "harness",
+   "links": [
+    "DeepSeek Harness项目/DeepSeek Harness插件写回验收测试",
+    "DeepSeek Harness项目/DeepSeek Harness插件审核联动验收",
+    "Codex工作区/项目索引",
+    "任务面板与知识库/方向推进与接力",
+    "AI Agent工程知识/AI Agent工程知识专题",
+    "AI Agent工程知识/工业级多智能体协作系统设计：任务编排、依赖治理与结果对齐",
+    "全局记忆/智能体启动与身份连续性统一合同",
+    "DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南",
+    "Codex工作区/2026-08-16_MiniMax-M3端点故障修复",
+    "徐总每日随记/当日记录/2026-08-19",
+    "徐总每日随记/当日记录/2026-08-20",
+    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.1",
+    "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同",
+    "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明",
+    "搭建记录",
+    "AI Agent工程知识/多Agent协作架构-豆包助手WorkBuddyFridayCodex全链路",
+    "豆包工作区/dsh-send.py",
+    "豆包工作区/dsh-send-README"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/AI Agent工程知识专题.md",
+    "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md",
+    "知识流水线/A_原始资料.md",
+    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
+    "知识流水线/知识库健康巡检.md",
+    "Codex工作区/Codex工作区.md",
+    "Codex工作区/每日跨项目复盘/2026-08-16.md",
+    "Codex工作区/项目索引.md",
+    "DeepSeek Harness项目/DeepSeek Harness 全流程拉通总结 2026-08-19~22.md",
+    "DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
+    "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同.md"
+   ],
+   "desc": "这是 DeepSeek Harness 独立实验项目的长期入口。项目目标是基于 DeepSeek 官方 Developer Preview，验证 Harness 的插件、Profi",
+   "wordCount": 66104
+  },
+  {
+   "path": "DeepSeek Harness项目/Governance Agent V0.2.1 Capability Architecture Review Report.md",
+   "title": "Governance Agent V0.2.1 Capability Architecture Review Report",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
+   "desc": "---",
+   "wordCount": 5243
+  },
+  {
+   "path": "DeepSeek Harness项目/Harness Capability Governance Advisor V0.2 升级方案与完成报告.md",
+   "title": "Harness Capability Governance Advisor V0.1 → V0.2 升级方案",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
+   "desc": "- 日期：2026-08-20",
+   "wordCount": 3182
+  },
+  {
+   "path": "DeepSeek Harness项目/Harness Capability Governance Advisor V0.3 升级与 Plugin 审查报告.md",
+   "title": "Harness Capability Governance Advisor V0.3 升级与 Plugin 审查报告",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
+   "desc": "两者均为只读审查，输出结论与整改建议，落地走 change-management（CR）。",
+   "wordCount": 2244
+  },
+  {
+   "path": "DeepSeek Harness项目/Harness Capability Governance Agent Preset V0.1 规格与落地任务书.md",
+   "title": "Harness Capability Governance Advisor Preset V0.1 — 规格与落地任务书",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
+   "desc": "- 版本：V0.1（最小版）",
+   "wordCount": 6281
+  },
+  {
+   "path": "DeepSeek Harness项目/Harness Governance Runtime Audit Upgrade Report.md",
+   "title": "Harness Governance Runtime Audit Upgrade Report",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
+   "desc": "判定：PASS / FAIL / PASS WITH CONDITIONS / REVISION REQUIRED（Agent Revision Request，不代写 Perso",
+   "wordCount": 5198
+  },
+  {
+   "path": "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同.md",
+   "title": "Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [
+    "DeepSeek Harness项目/DeepSeek Harness项目索引",
+    "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录",
+    "DeepSeek Harness项目/Harness 自由边界与分级治理"
+   ],
+   "backlinks": [
+    "DeepSeek Harness项目/DSH_贾维斯模式新建.md",
+    "DeepSeek Harness项目/DeepSeek Harness 全流程拉通总结 2026-08-19~22.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
+   ],
+   "desc": "上级：DeepSeek Harness项目/DeepSeek Harness项目索引",
+   "wordCount": 2263
+  },
+  {
+   "path": "DeepSeek Harness项目/Harness 自由边界与分级治理.md",
+   "title": "Harness 自由边界与分级治理（方法论定稿 2026-08-20）",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness 全流程拉通总结 2026-08-19~22.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
+    "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同.md"
+   ],
+   "desc": "自由体现在：可以创造新的 Plugin、Preset，组合 Skill / Workflow / Service / UI，改造界面与运行方式。",
+   "wordCount": 1427
+  },
+  {
+   "path": "DeepSeek Harness项目/Jarvis Capability Extraction Audit Report V1 2026-08-20.md",
+   "title": "Jarvis Capability Extraction Audit Report V1",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [],
+   "backlinks": [
+    "DeepSeek Harness项目/DSH_贾维斯模式新建.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
+   "desc": "---",
+   "wordCount": 20433
+  },
+  {
+   "path": "DeepSeek Harness项目/Jarvis Workbench、Harness Plugin、Workflow 与官方验收标准.md",
+   "title": "Jarvis Workbench、Harness Plugin、Workflow 与官方验收标准",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [],
+   "backlinks": [],
+   "desc": "本文合并两份已审核搭建记录，整合Jarvis Workbench 资料流水线、Harness 插件开发、模型配置、子代理与协作规则和官方验收标准，形成完整归档。",
+   "wordCount": 23202
+  },
+  {
+   "path": "DeepSeek Harness项目/Material Office Capability Bundle Design V1.md",
+   "title": "Material Office Capability Bundle Design V1",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
+   "desc": "边界原则：Persona 只回答\"我是谁、我怎么判断边界、我何时交还主控\"；回答\"业务怎么做\"的，一律下沉。",
+   "wordCount": 7608
+  },
+  {
+   "path": "DeepSeek Harness项目/Material Office Capability Bundle V1 创建报告.md",
+   "title": "Material Office Capability Bundle V1 创建报告",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [],
+   "backlinks": [
+    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
+    "DeepSeek Harness项目/游戏角色设计定版智能体-能力包设计草案V1.md"
+   ],
+   "desc": "workflow.material-office.lifecycle（workflows/material-lifecycle/WORKFLOW.md）",
+   "wordCount": 4207
+  },
+  {
+   "path": "DeepSeek Harness项目/游戏角色设计定版智能体-能力包设计草案V1.md",
+   "title": "游戏角色设计定版智能体-能力包设计草案 V1",
+   "updated": "2026-08-26",
+   "topic": "harness",
+   "links": [
+    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南",
+    "DeepSeek Harness项目/Material Office Capability Bundle V1 创建报告",
+    "原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地"
+   ],
+   "backlinks": [],
+   "desc": "业务：游戏角色从概念到定版的全流程（当前靠人：6 小时评审会 + 通用生图\"一周 8000 张只挑 10 张\"）。",
+   "wordCount": 3679
   },
   {
    "path": "多智能体协作任务/2026-09-02｜全域主控与项目Agent协作流程搭建复盘.md",
@@ -7228,7 +8035,8 @@ window.OBSIDIAN_DATA = {
     "任务面板与知识库/多智能体协作工作台：WorkBuddy豆包Codex与Harness Alpha设计"
    ],
    "backlinks": [
-    "多智能体协作任务/AI-Office独立网页版产品化规划-Codex建议.md"
+    "多智能体协作任务/AI-Office独立网页版产品化规划-Codex建议.md",
+    "徐总每日随记/当日记录/2026-09-01.md"
    ],
    "desc": "上级：多智能体协作任务/多智能体协作任务专题",
    "wordCount": 8212
@@ -7284,6 +8092,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [
     "AI Agent工程知识/多智能体协作闭环方法：主控-规划-执行-验收.md",
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
     "多智能体协作任务/2026-09-02｜全域主控与项目Agent协作流程搭建复盘.md"
    ],
    "desc": "上级：徐总的知识库 | 多智能体协作任务/多智能体协作任务专题",
@@ -7325,6 +8134,7 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录"
    ],
    "backlinks": [
+    "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md",
     "豆包工作区/多Agent协作架构.md"
    ],
    "desc": "1. 搭建 DSH Alpha 版本（47911），具备插件市场能力",
@@ -7477,7 +8287,8 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/每日跨项目复盘/2026-08-14.md",
     "Codex工作区/每日跨项目复盘/2026-08-15.md",
     "Codex工作区/每日跨项目复盘/2026-08-16.md",
-    "Codex工作区/每日跨项目复盘/每日跨项目复盘说明.md"
+    "Codex工作区/每日跨项目复盘/每日跨项目复盘说明.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
    ],
    "desc": "上级：任务面板与知识库/00总入口、全局记忆/智能体启动与身份连续性统一合同",
    "wordCount": 2643
@@ -8117,10 +8928,1022 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识库健康巡检.md",
     "知识流水线/知识流水线.md",
     "政府资源配置与政策落地机制/政府资源配置与政策落地机制专题.md",
-    "政府资源配置与政策落地机制/省委专题会议支持天府新区：省级资源配置平台化案例.md"
+    "政府资源配置与政策落地机制/省委专题会议支持天府新区：省级资源配置平台化案例.md",
+    "个人能力提升/谈判与沟通/合同争议谈判前置判断框架：从履约结构到和解区间.md"
    ],
    "desc": "上级：徐总的知识库",
    "wordCount": 1012
+  },
+  {
+   "path": "个人能力提升/AI核实信息方法论：单平台状态不等于真实状态.md",
+   "title": "AI 核实信息方法论：单平台状态 ≠ 真实状态，多源交叉是底线",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [
+    "个人能力提升/个人能力提升",
+    "个人能力提升/个人能力提升核心能力框架",
+    "徐总的知识库"
+   ],
+   "backlinks": [],
+   "desc": "上级：个人能力提升/个人能力提升",
+   "wordCount": 1408
+  },
+  {
+   "path": "个人能力提升/ChatGPT导出包中的个人能力提升归类.md",
+   "title": "ChatGPT导出包中的个人能力提升归类",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [
+    "个人能力提升/个人能力提升",
+    "个人能力提升/个人能力提升核心能力框架",
+    "徐总的知识库"
+   ],
+   "backlinks": [
+    "个人能力提升/个人能力提升.md",
+    "个人能力提升/个人能力提升核心能力框架.md",
+    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
+   ],
+   "desc": "上级：个人能力提升/个人能力提升",
+   "wordCount": 878
+  },
+  {
+   "path": "个人能力提升/个人能力提升.md",
+   "title": "个人能力提升",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [
+    "徐总的知识库",
+    "徐总每日随记/徐总每日随记",
+    "个人能力提升/个人能力提升",
+    "个人能力提升/个人能力提升核心能力框架",
+    "个人能力提升/谈判与沟通/谈判与沟通专题",
+    "个人能力提升/组织信任与闭环执行：从执行者到共谋者",
+    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行",
+    "个人能力提升/ChatGPT导出包中的个人能力提升归类",
+    "个人能力提升/对话归档/原始对话｜沟通与谈判",
+    "个人能力提升/对话归档/原始对话｜博弈谈判模型",
+    "个人能力提升/对话归档/原始对话｜博弈思维对标模型"
+   ],
+   "backlinks": [
+    "知识流水线/知识库健康巡检.md",
+    "个人能力提升/AI核实信息方法论：单平台状态不等于真实状态.md",
+    "个人能力提升/ChatGPT导出包中的个人能力提升归类.md",
+    "个人能力提升/个人能力提升核心能力框架.md",
+    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行.md",
+    "个人能力提升/组织信任与闭环执行：从执行者到共谋者.md",
+    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
+   ],
+   "desc": "上级：徐总的知识库",
+   "wordCount": 1363
+  },
+  {
+   "path": "个人能力提升/个人能力提升核心能力框架.md",
+   "title": "个人能力提升核心能力框架",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [
+    "个人能力提升/个人能力提升",
+    "个人能力提升/ChatGPT导出包中的个人能力提升归类",
+    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
+    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾",
+    "徐总的知识库",
+    "个人能力提升/谈判与沟通/谈判与沟通专题",
+    "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈错误模式与场景卡",
+    "个人能力提升核心能力框架",
+    "个人能力提升/组织信任与闭环执行：从执行者到共谋者",
+    "原始资料/已整理｜2026-08-05｜ChatGPT｜组织信任建立与闭环能力",
+    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行",
+    "原始资料/已整理｜2026-08-08｜抖音豆包｜政治成熟优先级匹配精力"
+   ],
+   "backlinks": [
+    "个人能力提升/AI核实信息方法论：单平台状态不等于真实状态.md",
+    "个人能力提升/ChatGPT导出包中的个人能力提升归类.md",
+    "个人能力提升/个人能力提升.md",
+    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行.md",
+    "个人能力提升/组织信任与闭环执行：从执行者到共谋者.md",
+    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
+   ],
+   "desc": "上级：个人能力提升/个人能力提升",
+   "wordCount": 6622
+  },
+  {
+   "path": "个人能力提升/对话归档/原始对话｜博弈思维对标模型.md",
+   "title": "原始对话｜博弈思维对标模型",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [],
+   "backlinks": [
+    "个人能力提升/个人能力提升.md",
+    "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集.md",
+    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾.md"
+   ],
+   "desc": "来源：ChatGPT 导出包 ChatGPT File Jun 21 2026.zip",
+   "wordCount": 3495
+  },
+  {
+   "path": "个人能力提升/对话归档/原始对话｜博弈谈判模型.md",
+   "title": "原始对话｜博弈谈判模型",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [],
+   "backlinks": [
+    "个人能力提升/个人能力提升.md",
+    "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集.md",
+    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾.md"
+   ],
+   "desc": "来源：ChatGPT 导出包 ChatGPT File Jun 21 2026.zip",
+   "wordCount": 140749
+  },
+  {
+   "path": "个人能力提升/对话归档/原始对话｜沟通与谈判.md",
+   "title": "原始对话｜沟通与谈判",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [],
+   "backlinks": [
+    "个人能力提升/个人能力提升.md",
+    "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集.md",
+    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达.md"
+   ],
+   "desc": "来源：ChatGPT 导出包 ChatGPT File Jun 21 2026.zip",
+   "wordCount": 97666
+  },
+  {
+   "path": "个人能力提升/承载力与高阶政治成熟：压力、人性与混沌中的定力.md",
+   "title": "承载力与高阶政治成熟：压力、人性与混沌中的定力",
+   "updated": "2026-09-07",
+   "topic": "growth",
+   "links": [
+    "原始资料/已整理｜2026-09-02｜抖音｜承载力：职场高阶的政治成熟与四层认知觉醒"
+   ],
+   "backlinks": [],
+   "desc": "承载力是从“会做事”走向“能扛住复杂局面”的能力，核心不是压抑情绪，而是在压力、人性不确定和信息不完整的情况下，仍能稳住自己、稳住节奏、对结果负责。",
+   "wordCount": 381
+  },
+  {
+   "path": "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行.md",
+   "title": "权重识别与精力分配：从政治成熟到闭环执行",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [
+    "个人能力提升/个人能力提升",
+    "个人能力提升/个人能力提升核心能力框架",
+    "个人能力提升/组织信任与闭环执行：从执行者到共谋者",
+    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾",
+    "原始资料/已整理｜2026-08-08｜抖音豆包｜政治成熟优先级匹配精力",
+    "徐总的知识库"
+   ],
+   "backlinks": [
+    "知识流水线/A_原始资料.md",
+    "知识流水线/知识库健康巡检.md",
+    "Codex工作区/每日跨项目复盘/2026-08-08.md",
+    "个人能力提升/个人能力提升.md",
+    "个人能力提升/个人能力提升核心能力框架.md"
+   ],
+   "desc": "上级：个人能力提升/个人能力提升",
+   "wordCount": 1748
+  },
+  {
+   "path": "个人能力提升/组织信任与闭环执行：从执行者到共谋者.md",
+   "title": "组织信任与闭环执行：从执行者到共谋者",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [
+    "个人能力提升/个人能力提升",
+    "个人能力提升/个人能力提升核心能力框架",
+    "原始资料/已整理｜2026-08-05｜ChatGPT｜组织信任建立与闭环能力",
+    "徐总的知识库"
+   ],
+   "backlinks": [
+    "知识流水线/A_原始资料.md",
+    "个人能力提升/个人能力提升.md",
+    "个人能力提升/个人能力提升核心能力框架.md",
+    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行.md"
+   ],
+   "desc": "上级：个人能力提升/个人能力提升、个人能力提升/个人能力提升核心能力框架",
+   "wordCount": 2184
+  },
+  {
+   "path": "个人能力提升/谈判与沟通/不确定事项解决型判断框架：从事实澄清到策略决策.md",
+   "title": "不确定事项解决型判断框架：从事实澄清到策略决策",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [
+    "个人能力提升/谈判与沟通/谈判与沟通专题",
+    "个人能力提升/谈判与沟通/合同争议谈判前置判断框架：从履约结构到和解区间",
+    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾",
+    "个人能力提升/谈判与沟通/高压谈判能力模型：不确定环境下的节奏控制与阶段落地",
+    "徐总的知识库"
+   ],
+   "backlinks": [
+    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
+   ],
+   "desc": "上级：个人能力提升/谈判与沟通/谈判与沟通专题",
+   "wordCount": 2362
+  },
+  {
+   "path": "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集.md",
+   "title": "原始资料｜沟通谈判与博弈三会话合集",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [
+    "个人能力提升/谈判与沟通/谈判与沟通专题",
+    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
+    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾",
+    "个人能力提升/对话归档/原始对话｜沟通与谈判",
+    "个人能力提升/对话归档/原始对话｜博弈谈判模型",
+    "个人能力提升/对话归档/原始对话｜博弈思维对标模型"
+   ],
+   "backlinks": [
+    "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈核心原则第一版.md",
+    "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈错误模式与场景卡.md",
+    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
+   ],
+   "desc": "上级：个人能力提升/谈判与沟通/谈判与沟通专题",
+   "wordCount": 242842
+  },
+  {
+   "path": "个人能力提升/谈判与沟通/合同争议谈判前置判断框架：从履约结构到和解区间.md",
+   "title": "合同相关争议的律师式前置分析框架：从合同结构到策略",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [
+    "个人能力提升/谈判与沟通/谈判与沟通专题",
+    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾",
+    "个人能力提升/谈判与沟通/高压谈判能力模型：不确定环境下的节奏控制与阶段落地",
+    "法律/法律专题",
+    "徐总的知识库"
+   ],
+   "backlinks": [
+    "个人能力提升/谈判与沟通/不确定事项解决型判断框架：从事实澄清到策略决策.md",
+    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
+   ],
+   "desc": "上级：个人能力提升/谈判与沟通/谈判与沟通专题",
+   "wordCount": 4859
+  },
+  {
+   "path": "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达.md",
+   "title": "沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [
+    "个人能力提升/谈判与沟通/谈判与沟通专题",
+    "个人能力提升/对话归档/原始对话｜沟通与谈判",
+    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾",
+    "原始资料/已整理｜2026-08-08｜抖音豆包｜沟通能力强的人说话是什么样的",
+    "徐总的知识库"
+   ],
+   "backlinks": [
+    "知识流水线/A_原始资料.md",
+    "知识流水线/知识库健康巡检.md",
+    "个人能力提升/个人能力提升核心能力框架.md",
+    "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集.md",
+    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾.md",
+    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
+   ],
+   "desc": "上级：个人能力提升/谈判与沟通/谈判与沟通专题",
+   "wordCount": 4404
+  },
+  {
+   "path": "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈核心原则第一版.md",
+   "title": "蒸馏｜沟通谈判与博弈核心原则第一版",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [
+    "个人能力提升/谈判与沟通/谈判与沟通专题",
+    "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集",
+    "徐总的知识库"
+   ],
+   "backlinks": [
+    "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈错误模式与场景卡.md",
+    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
+   ],
+   "desc": "上级：个人能力提升/谈判与沟通/谈判与沟通专题",
+   "wordCount": 3317
+  },
+  {
+   "path": "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈错误模式与场景卡.md",
+   "title": "蒸馏｜沟通谈判与博弈错误模式与场景卡",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [
+    "个人能力提升/谈判与沟通/谈判与沟通专题",
+    "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集",
+    "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈核心原则第一版",
+    "个人能力提升核心能力框架",
+    "徐总的知识库"
+   ],
+   "backlinks": [
+    "个人能力提升/个人能力提升核心能力框架.md",
+    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
+   ],
+   "desc": "上级：个人能力提升/谈判与沟通/谈判与沟通专题",
+   "wordCount": 3666
+  },
+  {
+   "path": "个人能力提升/谈判与沟通/请贵人与领导吃饭的邀约方法：三种降低决策成本的话术.md",
+   "title": "请贵人与领导吃饭的邀约方法：三种降低决策成本的话术",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [
+    "个人能力提升/谈判与沟通/谈判与沟通专题",
+    "谈判与博弈综合框架：筹码、位置、节点与主要矛盾",
+    "沟通与谈判能力框架：结构控制、节奏管理与博弈表达"
+   ],
+   "backlinks": [
+    "Codex工作区/每日跨项目复盘/2026-07-17.md",
+    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
+   ],
+   "desc": "上级：个人能力提升/谈判与沟通/谈判与沟通专题",
+   "wordCount": 1086
+  },
+  {
+   "path": "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾.md",
+   "title": "谈判与博弈综合框架：筹码、位置、节点与主要矛盾",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [
+    "个人能力提升/谈判与沟通/谈判与沟通专题",
+    "个人能力提升/对话归档/原始对话｜博弈思维对标模型",
+    "个人能力提升/对话归档/原始对话｜博弈谈判模型",
+    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
+    "徐总的知识库"
+   ],
+   "backlinks": [
+    "个人能力提升/个人能力提升核心能力框架.md",
+    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行.md",
+    "个人能力提升/谈判与沟通/不确定事项解决型判断框架：从事实澄清到策略决策.md",
+    "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集.md",
+    "个人能力提升/谈判与沟通/合同争议谈判前置判断框架：从履约结构到和解区间.md",
+    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达.md",
+    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
+   ],
+   "desc": "上级：个人能力提升/谈判与沟通/谈判与沟通专题",
+   "wordCount": 2493
+  },
+  {
+   "path": "个人能力提升/谈判与沟通/谈判与沟通专题.md",
+   "title": "谈判与沟通专题",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [
+    "个人能力提升/个人能力提升",
+    "个人能力提升/谈判与沟通/谈判与沟通专题.base",
+    "个人能力提升/谈判与沟通/谈判与沟通能力库.canvas",
+    "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集",
+    "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈核心原则第一版",
+    "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈错误模式与场景卡",
+    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
+    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾",
+    "个人能力提升/谈判与沟通/高压谈判能力模型：不确定环境下的节奏控制与阶段落地",
+    "个人能力提升/谈判与沟通/合同争议谈判前置判断框架：从履约结构到和解区间",
+    "个人能力提升/谈判与沟通/不确定事项解决型判断框架：从事实澄清到策略决策",
+    "个人能力提升/谈判与沟通/高压谈判与房产交易复盘：从不确定性到阶段性落地",
+    "个人能力提升/谈判与沟通/请贵人与领导吃饭的邀约方法：三种降低决策成本的话术",
+    "个人能力提升/个人能力提升核心能力框架",
+    "个人能力提升/ChatGPT导出包中的个人能力提升归类",
+    "徐总的知识库"
+   ],
+   "backlinks": [
+    "知识流水线/知识库健康巡检.md",
+    "Codex工作区/每日跨项目复盘/2026-07-17.md",
+    "个人能力提升/个人能力提升.md",
+    "个人能力提升/个人能力提升核心能力框架.md",
+    "个人能力提升/谈判与沟通/不确定事项解决型判断框架：从事实澄清到策略决策.md",
+    "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集.md",
+    "个人能力提升/谈判与沟通/合同争议谈判前置判断框架：从履约结构到和解区间.md",
+    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达.md",
+    "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈核心原则第一版.md",
+    "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈错误模式与场景卡.md",
+    "个人能力提升/谈判与沟通/请贵人与领导吃饭的邀约方法：三种降低决策成本的话术.md",
+    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾.md",
+    "个人能力提升/谈判与沟通/高压谈判与房产交易复盘：从不确定性到阶段性落地.md",
+    "个人能力提升/谈判与沟通/高压谈判能力模型：不确定环境下的节奏控制与阶段落地.md"
+   ],
+   "desc": "上级：个人能力提升/个人能力提升",
+   "wordCount": 2848
+  },
+  {
+   "path": "个人能力提升/谈判与沟通/高压谈判与房产交易复盘：从不确定性到阶段性落地.md",
+   "title": "高压谈判与房产交易复盘：从不确定性到阶段性落地",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [
+    "个人能力提升/谈判与沟通/谈判与沟通专题",
+    "徐总的知识库"
+   ],
+   "backlinks": [
+    "个人能力提升/谈判与沟通/谈判与沟通专题.md",
+    "个人能力提升/谈判与沟通/高压谈判能力模型：不确定环境下的节奏控制与阶段落地.md"
+   ],
+   "desc": "日期：2026-06-21",
+   "wordCount": 2123
+  },
+  {
+   "path": "个人能力提升/谈判与沟通/高压谈判能力模型：不确定环境下的节奏控制与阶段落地.md",
+   "title": "高压谈判能力模型：不确定环境下的节奏控制与阶段落地",
+   "updated": "2026-08-26",
+   "topic": "growth",
+   "links": [
+    "个人能力提升/谈判与沟通/谈判与沟通专题",
+    "个人能力提升/谈判与沟通/高压谈判与房产交易复盘：从不确定性到阶段性落地",
+    "徐总的知识库"
+   ],
+   "backlinks": [
+    "个人能力提升/谈判与沟通/不确定事项解决型判断框架：从事实澄清到策略决策.md",
+    "个人能力提升/谈判与沟通/合同争议谈判前置判断框架：从履约结构到和解区间.md",
+    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
+   ],
+   "desc": "上级：个人能力提升/谈判与沟通/谈判与沟通专题",
+   "wordCount": 1605
+  },
+  {
+   "path": "徐总每日随记/主题归档/主题归档说明.md",
+   "title": "主题归档说明",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "徐总每日随记/徐总每日随记"
+   ],
+   "backlinks": [],
+   "desc": "上级：徐总每日随记/徐总每日随记",
+   "wordCount": 247
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-01.md",
+   "title": "2026-06-01",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "徐总每日随记/徐总每日随记"
+   ],
+   "backlinks": [],
+   "desc": "上级：徐总每日随记/徐总每日随记",
+   "wordCount": 3356
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-02.md",
+   "title": "2026-06-02 每日随记",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [],
+   "backlinks": [],
+   "desc": "- WorkBuddy 搭建干食记智能体，整体流程和落地效果不错",
+   "wordCount": 614
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-03.md",
+   "title": "2026-06-03 随记",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [],
+   "backlinks": [],
+   "desc": "今日工作计划与想法：",
+   "wordCount": 276
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-04.md",
+   "title": "2026-06-04 随记",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 和合伙人、电力工程哥老关一起喝咖啡",
+   "wordCount": 440
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-06.md",
+   "title": "2026-06-06 每日随记",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [],
+   "backlinks": [],
+   "desc": "哎呀，昨天正式启动了美签的这样一个过程。主要是填表和照片，然后再去官网上预约拿新的这个申请表。但昨天在平板 Codex 有个非常好的功能，就是基本上你把护照的照片放在文件夹里面，加",
+   "wordCount": 753
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-07.md",
+   "title": "2026-06-07",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [],
+   "backlinks": [],
+   "desc": "6 月 7 号 还是要解决这个美签签证的这个事情 不断在关心一个整个签证的动态 才知道整个系统其实目前波动比较大，名额比较少。不是像我以前说的，你填好资料随时预约，而是要等名额出来",
+   "wordCount": 302
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-10.md",
+   "title": "2026-06-10",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "企业AI与智能体商业化/多智能体双向连接架构_20260610"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/WorkBuddy连接图谱.md"
+   ],
+   "desc": "这两天主要的还是美签的这个申请过程，反正孩子和徐驰现在已经申请到了。8 月 14 号在沈阳的面签 到时候可能会提前去做一些资料的准备，希望一切能顺利",
+   "wordCount": 387
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-13.md",
+   "title": "2026-06-13",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [],
+   "backlinks": [],
+   "desc": "反正这几天没有更新日志，是因为这几天确实没有什么额外的事发生。",
+   "wordCount": 484
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-14.md",
+   "title": "2026-06-14 每日随记",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "全局记忆/02_系统架构",
+    "全局记忆/09_全域智能体记忆体系"
+   ],
+   "backlinks": [],
+   "desc": "今天 OpenClaw 的微信直聊入口突然出现反复 Auto-compaction / context overflow，表现为微信消息无法正常进入当前主会话。",
+   "wordCount": 904
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-17.md",
+   "title": "2026-06-17 甘食记经营系统",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [],
+   "backlinks": [
+    "企业AI与智能体商业化/甘食记Ontology对象网络设计.md",
+    "企业AI与智能体商业化/甘食记经营系统1.0框架总结.md",
+    "Codex工作区/每日跨项目复盘/2026-07-09.md",
+    "Codex工作区/每日跨项目复盘/2026-07-10.md",
+    "Codex工作区/每日跨项目复盘/2026-07-11.md",
+    "Codex工作区/每日跨项目复盘/2026-07-12.md",
+    "Codex工作区/每日跨项目复盘/2026-07-13.md",
+    "Codex工作区/每日跨项目复盘/2026-07-14.md",
+    "Codex工作区/每日跨项目复盘/2026-07-15.md",
+    "Codex工作区/每日跨项目复盘/2026-07-16.md",
+    "Codex工作区/每日跨项目复盘/2026-07-17.md",
+    "Codex工作区/每日跨项目复盘/2026-07-18.md",
+    "Codex工作区/每日跨项目复盘/2026-07-19.md",
+    "Codex工作区/每日跨项目复盘/2026-07-20.md",
+    "Codex工作区/每日跨项目复盘/2026-07-21.md",
+    "Codex工作区/每日跨项目复盘/2026-07-22.md",
+    "Codex工作区/每日跨项目复盘/2026-07-23.md",
+    "Codex工作区/每日跨项目复盘/2026-07-24.md",
+    "Codex工作区/每日跨项目复盘/2026-07-25.md",
+    "Codex工作区/每日跨项目复盘/2026-07-26.md",
+    "Codex工作区/每日跨项目复盘/2026-07-27.md",
+    "Codex工作区/每日跨项目复盘/2026-07-28.md",
+    "Codex工作区/每日跨项目复盘/2026-07-29.md"
+   ],
+   "desc": "- 甘食记经营系统1.0框架总结（四层架构/字段结构/7页映射/5步流程）→ Obsidian",
+   "wordCount": 343
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-18.md",
+   "title": "2026-06-18 蜀道集团参观 + 战略转弯",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 去蜀道集团办公地点参观，吃了午饭",
+   "wordCount": 660
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-22.md",
+   "title": "2026-06-22 随记",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [],
+   "backlinks": [],
+   "desc": "最近这几天，确实效率非常低。从大半个月前开始，我一直在做甘食记\"经营系统\"的所谓落地。",
+   "wordCount": 605
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-28.md",
+   "title": "2026-06-28",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [],
+   "backlinks": [
+    "徐总每日随记/当日记录/2026-06-29.md"
+   ],
+   "desc": "重大突破：Mac 端 Codex 终于用上 OpenAI Plus 官方模型",
+   "wordCount": 1393
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-29.md",
+   "title": "2026-06-29",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "徐总每日随记/当日记录/2026-06-28"
+   ],
+   "backlinks": [],
+   "desc": "客户高频提问的回答沉淀：「有了 Aily / WorkBuddy，为什么还要做定制 Agent」",
+   "wordCount": 1820
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-07-04.md",
+   "title": "2026-07-04",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "AI Agent工程知识/AI Agent工程知识框架",
+    "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "Codex工作区/多端 Codex 协作架构"
+   ],
+   "backlinks": [],
+   "desc": "继续更新 Obsidian 中“生产级 AI Agent”知识体系，并测试成功手机 / 平板 ChatGPT 连接 Mac Codex。",
+   "wordCount": 1619
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-07-05.md",
+   "title": "2026-07-05",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "企业AI与智能体商业化/原始资料/美团AI经营参谋与甘食记内部经营系统边界讨论",
+    "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
+    "AI Agent工程知识/AI Agent全面理解",
+    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "企业AI与智能体商业化/资料池"
+   ],
+   "backlinks": [],
+   "desc": "今天围绕美团商家 AI 工具矩阵，补充更新了生产级 AI Agent 和甘食记经营系统的理解。",
+   "wordCount": 959
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-07-08.md",
+   "title": "2026-07-08",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "企业AI与智能体商业化/原始资料/科技咨询公司正式版知识库与RAG架构",
+    "企业AI与智能体商业化/原始资料/GPT对话原稿：企业级数据库与知识库架构边界",
+    "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
+    "企业AI与智能体商业化/原始资料/GPT对话原稿：隐性知识的工程化采集与入库机制",
+    "AI Agent工程知识/显性知识与隐性知识的工程化入库机制"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
+    "企业AI与智能体商业化/原始资料/GPT对话原稿：隐性知识的工程化采集与入库机制.md",
+    "Codex工作区/每日跨项目复盘/2026-07-09.md"
+   ],
+   "desc": "- 类型：个人想法 / 学习记录 / AI Agent 工程认知",
+   "wordCount": 3016
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-07-09.md",
+   "title": "2026-07-09",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
+    "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
+    "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
+    "AI Agent工程知识/生产级AI Agent记忆系统与Context调度"
+   ],
+   "backlinks": [
+    "Codex工作区/每日跨项目复盘/2026-07-09.md"
+   ],
+   "desc": "- 类型：个人想法 / 学习记录 / AI Agent 工程认知",
+   "wordCount": 1499
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-07-10.md",
+   "title": "2026-07-10",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "全局记忆/05_平台差异",
+    "Codex工作区/多端 Codex 协作架构",
+    "全局记忆/12_Codex跨项目永久记忆与自动复盘"
+   ],
+   "backlinks": [
+    "Codex工作区/每日跨项目复盘/2026-07-10.md"
+   ],
+   "desc": "- 类型：工作流更新 / 平台认知 / 多端协作记录",
+   "wordCount": 1988
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-07-14.md",
+   "title": "2026-07-14",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "个人健康/华西医院就诊经验",
+    "个人健康/个人健康",
+    "徐总每日随记/当日记录/当日记录说明",
+    "徐总每日随记/主题归档/健康身体"
+   ],
+   "backlinks": [
+    "Codex工作区/每日跨项目复盘/2026-07-14.md",
+    "Codex工作区/每日跨项目复盘/2026-07-15.md"
+   ],
+   "desc": "- 类型：健康身体 / 个人经历",
+   "wordCount": 975
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-07-23.md",
+   "title": "2026-07-23 随记",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "个人健康/体重管理"
+   ],
+   "backlinks": [
+    "Codex工作区/每日跨项目复盘/2026-07-23.md"
+   ],
+   "desc": "- 7 月 23 号早上：空腹 76.5",
+   "wordCount": 437
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-07-25.md",
+   "title": "2026-07-25 周六",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "个人健康/体重管理"
+   ],
+   "backlinks": [
+    "Codex工作区/每日跨项目复盘/2026-07-25.md"
+   ],
+   "desc": "（数据已迁移至 个人健康/体重管理，本页不再重复记录。）",
+   "wordCount": 295
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-07-28.md",
+   "title": "2026-07-28 周二",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "个人健康/体重管理",
+    "个人车辆/个人车辆"
+   ],
+   "backlinks": [
+    "Codex工作区/每日跨项目复盘/2026-07-28.md"
+   ],
+   "desc": "详见 个人健康/体重管理（今日空腹 76.5 kg，9 日均 ≈ 76.31 kg）",
+   "wordCount": 951
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-07-30.md",
+   "title": "2026-07-30 早晨体重与昨日回顾",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "个人健康/体重管理"
+   ],
+   "backlinks": [],
+   "desc": "- 7 月 30 日早晨空腹：75.7 kg",
+   "wordCount": 776
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-08-02.md",
+   "title": "2026-08-02 周日",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "个人健康/体重管理",
+    "个人车辆/个人车辆"
+   ],
+   "backlinks": [],
+   "desc": "背景：最近与一位女性朋友频繁相处。她家里养了一只比熊犬，最近狗狗怀孕了。每次去她那里都感觉在\"逃避整个世界\"。",
+   "wordCount": 3576
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-08-05.md",
+   "title": "2026-08-05 周二",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [],
+   "backlinks": [
+    "Codex工作区/每日跨项目复盘/2026-08-05.md"
+   ],
+   "desc": "原话：",
+   "wordCount": 856
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-08-10.md",
+   "title": "2026-08-10 周日",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 来源：OpenClaw / 用户口述",
+   "wordCount": 3361
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-08-11.md",
+   "title": "2026-08-11",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md"
+   ],
+   "desc": "- 下午走访游戏公司（AI 落地咨询），晚间与伊森讨论游戏公司 AI 落地路径、员工使用习惯、本体论试点。",
+   "wordCount": 3544
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-08-12.md",
+   "title": "2026-08-12",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [],
+   "backlinks": [
+    "企业AI与智能体商业化/AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧.md",
+    "企业AI与智能体商业化/知识库索引.md"
+   ],
+   "desc": "- 今天去己未文化（文化咨询公司）当面谈 AI 落地。首次碰撞：重点是建立对方对 AI 的认知 + 产品认可，不急于梳理业务全貌。",
+   "wordCount": 1405
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-08-18.md",
+   "title": "2026-08-18",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "徐总每日随记/随记收件箱/随记收件箱说明"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md"
+   ],
+   "desc": "- 连续两天（08-16/17）密集研究 DeepSeek Harness：搭建、评估其系统成熟度，一度想把整个插件化系统融入体系、变成控制中心，探索\"AI 交付中间层\"的落地产框",
+   "wordCount": 2386
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-08-19.md",
+   "title": "2026-08-19",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "徐总每日随记/随记收件箱/随记收件箱说明"
+   ],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
+   ],
+   "desc": "- 与之前的资源合伙人吃饭（很久没见面）。见面原因之前应已阐述过——包括合作、对一些事情的看法，以及他表露出来的态度。",
+   "wordCount": 2916
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-08-20.md",
+   "title": "2026-08-20",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "徐总每日随记/随记收件箱/随记收件箱说明"
+   ],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
+   ],
+   "desc": "- 贵州旅游路书精简版发布到飞书妙搭，公网可访问。去掉老人后通篇调整了底层逻辑（不只是删关键词）。",
+   "wordCount": 3007
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-08-27.md",
+   "title": "贵州8天自驾 · 实际行程记录（2大1小·无老人）",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 实际出行：2026-08-22（周六）— 08-26（周三），D5 当天从龙宫返蓉，提前 3 天收官",
+   "wordCount": 3846
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-08-31.md",
+   "title": "2026-08-31 当日记录",
+   "updated": "2026-08-31",
+   "topic": "notes",
+   "links": [],
+   "backlinks": [],
+   "desc": "---",
+   "wordCount": 2451
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-09-01.md",
+   "title": "2026-09-01 当日记录",
+   "updated": "2026-09-01",
+   "topic": "notes",
+   "links": [
+    "多智能体协作任务/KNOWLEDGEPIP-144-AI-Office多办公位智能体办公室搭建"
+   ],
+   "backlinks": [],
+   "desc": "本日记录由豆包助手整理，2026-09-01",
+   "wordCount": 147
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-09-08.md",
+   "title": "2026-09-08",
+   "updated": "2026-09-08",
+   "topic": "notes",
+   "links": [
+    "徐总每日随记/徐总每日随记"
+   ],
+   "backlinks": [],
+   "desc": "- 从贵州回来后仍按以往节奏；名义上每天在学 AI agents，但怀疑这种节奏对个人确实有不好的影响——没人沟通、没有在工作的环境下，很多能力没得到锻炼。",
+   "wordCount": 1685
+  },
+  {
+   "path": "徐总每日随记/当日记录/当日记录说明.md",
+   "title": "当日记录说明",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "徐总每日随记/徐总每日随记",
+    "徐总每日随记/随记收件箱/随记收件箱说明"
+   ],
+   "backlinks": [
+    "Codex工作区/每日跨项目复盘/2026-07-14.md",
+    "徐总每日随记/当日记录/2026-07-14.md",
+    "徐总每日随记/徐总每日随记.md"
+   ],
+   "desc": "上级：徐总每日随记/徐总每日随记",
+   "wordCount": 350
+  },
+  {
+   "path": "徐总每日随记/徐总每日随记.md",
+   "title": "徐总每日随记",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "徐总的知识库",
+    "徐总每日随记/随记收件箱/随记收件箱说明",
+    "徐总每日随记/当日记录/当日记录说明",
+    "徐总每日随记/零散随想/零散随想说明",
+    "徐总每日随记/月度复盘/月度复盘说明"
+   ],
+   "backlinks": [
+    "个人能力提升/个人能力提升.md",
+    "徐总每日随记/主题归档/主题归档说明.md",
+    "徐总每日随记/当日记录/2026-06-01.md",
+    "徐总每日随记/当日记录/2026-09-08.md",
+    "徐总每日随记/当日记录/当日记录说明.md",
+    "徐总每日随记/月度复盘/月度复盘说明.md",
+    "徐总每日随记/随记收件箱/随记收件箱说明.md",
+    "徐总每日随记/零散随想/零散随想说明.md"
+   ],
+   "desc": "上级：徐总的知识库",
+   "wordCount": 2493
+  },
+  {
+   "path": "徐总每日随记/月度复盘/月度复盘说明.md",
+   "title": "月度复盘说明",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "徐总每日随记/徐总每日随记",
+    "徐总每日随记/随记收件箱/随记收件箱说明"
+   ],
+   "backlinks": [
+    "徐总每日随记/徐总每日随记.md"
+   ],
+   "desc": "上级：徐总每日随记/徐总每日随记",
+   "wordCount": 408
+  },
+  {
+   "path": "徐总每日随记/随记收件箱/随记收件箱说明.md",
+   "title": "随记收件箱说明",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "徐总每日随记/徐总每日随记"
+   ],
+   "backlinks": [
+    "徐总每日随记/当日记录/2026-08-18.md",
+    "徐总每日随记/当日记录/2026-08-19.md",
+    "徐总每日随记/当日记录/2026-08-20.md",
+    "徐总每日随记/当日记录/当日记录说明.md",
+    "徐总每日随记/徐总每日随记.md",
+    "徐总每日随记/月度复盘/月度复盘说明.md",
+    "徐总每日随记/零散随想/零散随想说明.md"
+   ],
+   "desc": "上级：徐总每日随记/徐总每日随记",
+   "wordCount": 947
+  },
+  {
+   "path": "徐总每日随记/零散随想/零散随想说明.md",
+   "title": "零散随想说明",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "links": [
+    "徐总每日随记/徐总每日随记",
+    "徐总每日随记/随记收件箱/随记收件箱说明"
+   ],
+   "backlinks": [
+    "徐总每日随记/徐总每日随记.md"
+   ],
+   "desc": "上级：徐总每日随记/徐总每日随记",
+   "wordCount": 375
   },
   {
    "path": "豆包工作区/dsh-send-README.md",
@@ -8128,7 +9951,9 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-08-30",
    "topic": "doubao",
    "links": [],
-   "backlinks": [],
+   "backlinks": [
+    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
+   ],
    "desc": "通过 47900 端口的 DSH JSON-RPC API，直接给 Harness Web 端的指定会话发消息，无需打开浏览器。",
    "wordCount": 1708
   },
@@ -8281,71 +10106,109 @@ window.OBSIDIAN_DATA = {
    "backlinks": [],
    "desc": "- 2026-08-08-飞书妙记工作流整合 — 飞书妙记录制 + WorkBuddy 经飞书 API 直读会谈记录的工作流（移动端体验、阶段边界、待补环节）",
    "wordCount": 268
-  },
-  {
-   "path": "我的洞察/AI Agent 商业化路径与方向.md",
-   "title": "AI Agent 商业化路径与方向",
-   "updated": "2026-09-08",
-   "topic": "myinsights",
-   "links": [
-    "FDE（前线部署工程师）学习与研究"
-   ],
-   "backlinks": [],
-   "desc": "AI Agent 的商业化路径不是单一的，而是有多个层次。工具型 AI Agent 最容易被替代，真正有壁垒的是深入企业业务流程、沉淀标准化方法论、并能以 FDE 方式嵌入企业生产",
-   "wordCount": 1054
-  },
-  {
-   "path": "我的洞察/FDE（前线部署工程师）学习与研究.md",
-   "title": "FDE（前线部署工程师）学习与研究",
-   "updated": "2026-09-08",
-   "topic": "myinsights",
-   "links": [],
-   "backlinks": [],
-   "desc": "FDE不是凭空冒出来的新职业，它是基础模型能力趋同之后，把模型变成可托付产品的关键角色。FDE是连接政策资金、技术能力和真实业务场景的翻译器和执行者。",
-   "wordCount": 893
   }
  ],
  "today": {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "items": [
    {
-    "title": "AI Agent 工程知识新增两篇正式页（Ontology 框架 + 多Agent选型决策卡）",
-    "summary": "新增 [[AI Agent工程知识/Palantir式Ontology的真实价值：从业务语义到可执行系统]] —— 把 Ontology 价值拆为「语义统一 / 关系与状态 / 决",
+    "title": "己未文化 FDE 落地与 CRM 对标体系成型",
+    "summary": "企业AI与智能体商业化/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册（10:22 新建）：以文化咨询客户全周期经营为贯穿案例，把 FDE 面试题转译为业务发现 / ",
     "points": [
-     "事实：新增 AI Agent工程知识/Palantir式Ontology的真实价值：从业务语义到可执行系统 —— 把 Ontology 价值拆为「语义统一 / 关系与状态 / 决策捕获 / 行动闭环」四落点，并明确「Ontology 不是生",
-     "事实：新增 AI Agent工程知识/多Agent架构选型决策卡：Manager-Handoff-Agent-as-Tool —— 以「控制权最终落在谁手里」为唯一判据，给出三种模式的适用场景、风险与决策口诀，并补充 Handoff 必须携",
-     "概念：两页均带 frontmatter（type/status/created/tags）与来源回链，已进入全库索引与 AI Agent 工程知识专题。"
+     "企业AI与智能体商业化/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册（10:22 新建）：以文化咨询客户全周期经营为贯穿案例，把 FDE 面试题转译为业务发现 / 对象建模 / 平台选型 / Agent 工程 / 生产治理 ",
+     "企业AI与智能体商业化/己未文化 CRM 系统生产级 Agent 标准对标分析（10:05 新建）：把\"生产级 Agent 标准\"从抽象框架落到具体客户验收维度（八库结构、转写文本、客户原话 vs 老师判断）。",
+     "企业AI与智能体商业化/己未文化资料速查入口（01:49 新建）：文化咨询项目资料聚合导航。"
     ],
-    "date": "2026-09-07"
+    "date": "2026-09-08"
    },
    {
-    "title": "政务AI/FDE 主线新增工信部414号文政策分析页 + 问题专题页",
-    "summary": "新增 [[政府资源配置与政策落地机制/工信部414号文：人工智能应用服务商培育与FDE中间层机会]] —— 解析工信厅科函〔2026〕414号，定义 AI 应用服务商覆盖咨询规划/",
+    "title": "企业AI 多行业样本扩展与案例库",
+    "summary": "企业AI与智能体商业化/FDE 企业真实落地案例库（19:17 新建）：跨行业真实落地案例汇总。\n 企业AI与智能体商业化/制造企业案例：汽车零部件（19:18 新建）：制造行业样",
     "points": [
-     "事实：新增 政府资源配置与政策落地机制/工信部414号文：人工智能应用服务商培育与FDE中间层机会 —— 解析工信厅科函〔2026〕414号，定义 AI 应用服务商覆盖咨询规划/交付实施/运营管理/安全治理，明确鼓励建设 FDE 团队。",
-     "事实：新增 徐总问题专题库/06_企业AI与商业化/2026-09-07_工信部414号文与AI应用服务商中间层机会 —— 以问答形态确认政策把瓶颈从「模型供给」转向「把模型嵌入真实业务」的中间层。",
-     "概念：与 09-04 蜀道金租方案、FDE 方法论形成连续印证；原始资料（414号文、Palantir长文、多Agent抖音稿）已批量标记「已整理」并回链正式页。"
+     "企业AI与智能体商业化/FDE 企业真实落地案例库（19:17 新建）：跨行业真实落地案例汇总。",
+     "企业AI与智能体商业化/制造企业案例：汽车零部件（19:18 新建）：制造行业样本，标志从\"民企甘食记\"扩展到制造业。",
+     "政府资源配置与政策落地机制/蜀道集团存量资产证券化（00:28 更新）+ 企业AI与智能体商业化/蜀道金租生产级 AI 建设方案（00:28 更新，draft 讨论稿）：国企 / 金融租赁行业样本 + REITs 变现线。",
+     "企业AI与智能体商业化/李开复企业AI认知（12:15）+ 腾讯FDE模式行业观察与实践报告研究（12:15）：行业认知与标杆研究回流。"
     ],
-    "date": "2026-09-07"
+    "date": "2026-09-08"
    },
    {
-    "title": "企业AI商业化新增 FDE 面试通关手册（以文化咨询CRM为案例锚定）",
-    "summary": "新增 [[企业AI与智能体商业化/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册]] —— 以文化咨询 CRM 为统一案例，串起业务发现→对象建模→MVP→上下文/工",
+    "title": "知识库治理升级：可调用知识层与 OpenWiki 试点",
+    "summary": "知识流水线/知识卡片与Agent调用标准（22:53 新建 V2.1）：定义候选知识卡调用场景 / 适用范围 / 限制 / 可靠性 / 生命周期 / 反馈字段。\n 知识流水线/候选",
     "points": [
-     "事实：新增 企业AI与智能体商业化/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册 —— 以文化咨询 CRM 为统一案例，串起业务发现→对象建模→MVP→上下文/工具→运行时→权限边界→评测灰度→交付沉淀八阶段，配五重身份、八",
-     "概念：明确「案例是客户经营系统而非孤立智能入口」，给出 L1–L4 证据分级与诚实披露口径，避免把 Demo 当上线。",
-     "概念：与 企业AI与智能体商业化/FDE业务需求访谈SOP、企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法、企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3 互链。"
+     "知识流水线/知识卡片与Agent调用标准（22:53 新建 V2.1）：定义候选知识卡调用场景 / 适用范围 / 限制 / 可靠性 / 生命周期 / 反馈字段。",
+     "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08（22:53 新建）：12 篇样本完成候选知识卡 + Codex 自审，聚合五条主线（业务语义 / 架构调用 / 生产稳定 / 知识记忆分层 / 反馈更新）。",
+     "知识流水线/OpenWiki知识增量/OpenWiki知识发现汇总（16:35 新建，24 页域全景）+ 2026-09-08_外部观点对重建计划的启发（22:12 新建）：外部抖音观点对照，补充候选知识卡五维度。"
     ],
-    "date": "2026-09-07"
+    "date": "2026-09-08"
+   },
+   {
+    "title": "问题专题与算力线",
+    "summary": "徐总问题专题库/06_企业AI与商业化/20260908_生产级Agent形态选择与案例演进（10:33 新建）：以己未文化为主案例统一解释工具型 / 确定性底座 / 业务流程 /",
+    "points": [
+     "徐总问题专题库/06_企业AI与商业化/2026-09-08_生产级Agent形态选择与案例演进（10:33 新建）：以己未文化为主案例统一解释工具型 / 确定性底座 / 业务流程 / 经营分析 / 决策辅助五类 Agent 选择条件。",
+     "徐总问题专题库/01/2026-09-08_算力紧张与AI泡沫（14:35 新建）：算力供需与 AI 泡沫风险专题。"
+    ],
+    "date": "2026-09-08"
    }
   ],
   "judgments": [
-   "【判断一】Ontology 价值被清晰工程化——四落点 + 「不是统一入场券」，弱化了「强 Ontology 依赖」叙事，与 09-05 FDE 报告「减法边界」一脉相承。",
-   "【判断二】多Agent架构选型的真正判据是「控制权归属」，已固化为可复用决策卡——直接闭环 09-05 日报「多Agent选型是否回流为正式方法论页」的待拍板项。",
-   "【判断三】工信部414号文把 FDE 从「我方方法论」升级为「国家政策认可的中间层角色」，并给出资源池/服务团/首购首用等现实采购与场景招商窗口——与 09-04 蜀道金租判断连续印证。"
+   "己未文化 FDE 落地 + CRM 对标把\"生产级 Agent 标准\"从抽象框架落到具体客户验收维度，标志标准建设进入\"可验收\"阶段。",
+   "蜀道金租 + 制造企业案例 + REITs 标志企业 AI 从\"民企甘食记单一样本\"扩展到\"国企 / 制造 / 金融租赁\"多行业验证，行业覆盖度质变。",
+   "知识卡片 / 可调用知识层 + OpenWiki 汇总标志知识库治理从\"文件夹整理\"升级到\"Agent 可调用 + 反馈闭环\"试点，知识资产开始具备运行时调用形态。"
   ]
  },
  "dailies": [
+  {
+   "date": "2026-09-08",
+   "items": [
+    {
+     "title": "己未文化 FDE 落地与 CRM 对标体系成型",
+     "summary": "企业AI与智能体商业化/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册（10:22 新建）：以文化咨询客户全周期经营为贯穿案例，把 FDE 面试题转译为业务发现 / ",
+     "points": [
+      "企业AI与智能体商业化/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册（10:22 新建）：以文化咨询客户全周期经营为贯穿案例，把 FDE 面试题转译为业务发现 / 对象建模 / 平台选型 / Agent 工程 / 生产治理 ",
+      "企业AI与智能体商业化/己未文化 CRM 系统生产级 Agent 标准对标分析（10:05 新建）：把\"生产级 Agent 标准\"从抽象框架落到具体客户验收维度（八库结构、转写文本、客户原话 vs 老师判断）。",
+      "企业AI与智能体商业化/己未文化资料速查入口（01:49 新建）：文化咨询项目资料聚合导航。"
+     ],
+     "date": "2026-09-08"
+    },
+    {
+     "title": "企业AI 多行业样本扩展与案例库",
+     "summary": "企业AI与智能体商业化/FDE 企业真实落地案例库（19:17 新建）：跨行业真实落地案例汇总。\n 企业AI与智能体商业化/制造企业案例：汽车零部件（19:18 新建）：制造行业样",
+     "points": [
+      "企业AI与智能体商业化/FDE 企业真实落地案例库（19:17 新建）：跨行业真实落地案例汇总。",
+      "企业AI与智能体商业化/制造企业案例：汽车零部件（19:18 新建）：制造行业样本，标志从\"民企甘食记\"扩展到制造业。",
+      "政府资源配置与政策落地机制/蜀道集团存量资产证券化（00:28 更新）+ 企业AI与智能体商业化/蜀道金租生产级 AI 建设方案（00:28 更新，draft 讨论稿）：国企 / 金融租赁行业样本 + REITs 变现线。",
+      "企业AI与智能体商业化/李开复企业AI认知（12:15）+ 腾讯FDE模式行业观察与实践报告研究（12:15）：行业认知与标杆研究回流。"
+     ],
+     "date": "2026-09-08"
+    },
+    {
+     "title": "知识库治理升级：可调用知识层与 OpenWiki 试点",
+     "summary": "知识流水线/知识卡片与Agent调用标准（22:53 新建 V2.1）：定义候选知识卡调用场景 / 适用范围 / 限制 / 可靠性 / 生命周期 / 反馈字段。\n 知识流水线/候选",
+     "points": [
+      "知识流水线/知识卡片与Agent调用标准（22:53 新建 V2.1）：定义候选知识卡调用场景 / 适用范围 / 限制 / 可靠性 / 生命周期 / 反馈字段。",
+      "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08（22:53 新建）：12 篇样本完成候选知识卡 + Codex 自审，聚合五条主线（业务语义 / 架构调用 / 生产稳定 / 知识记忆分层 / 反馈更新）。",
+      "知识流水线/OpenWiki知识增量/OpenWiki知识发现汇总（16:35 新建，24 页域全景）+ 2026-09-08_外部观点对重建计划的启发（22:12 新建）：外部抖音观点对照，补充候选知识卡五维度。"
+     ],
+     "date": "2026-09-08"
+    },
+    {
+     "title": "问题专题与算力线",
+     "summary": "徐总问题专题库/06_企业AI与商业化/20260908_生产级Agent形态选择与案例演进（10:33 新建）：以己未文化为主案例统一解释工具型 / 确定性底座 / 业务流程 /",
+     "points": [
+      "徐总问题专题库/06_企业AI与商业化/2026-09-08_生产级Agent形态选择与案例演进（10:33 新建）：以己未文化为主案例统一解释工具型 / 确定性底座 / 业务流程 / 经营分析 / 决策辅助五类 Agent 选择条件。",
+      "徐总问题专题库/01/2026-09-08_算力紧张与AI泡沫（14:35 新建）：算力供需与 AI 泡沫风险专题。"
+     ],
+     "date": "2026-09-08"
+    }
+   ],
+   "judgments": [
+    "己未文化 FDE 落地 + CRM 对标把\"生产级 Agent 标准\"从抽象框架落到具体客户验收维度，标志标准建设进入\"可验收\"阶段。",
+    "蜀道金租 + 制造企业案例 + REITs 标志企业 AI 从\"民企甘食记单一样本\"扩展到\"国企 / 制造 / 金融租赁\"多行业验证，行业覆盖度质变。",
+    "知识卡片 / 可调用知识层 + OpenWiki 汇总标志知识库治理从\"文件夹整理\"升级到\"Agent 可调用 + 反馈闭环\"试点，知识资产开始具备运行时调用形态。"
+   ]
+  },
   {
    "date": "2026-09-07",
    "items": [
@@ -8512,7 +10375,7 @@ window.OBSIDIAN_DATA = {
    "items": [
     {
      "title": "窗口内变更清单",
-     "summary": "| 时间 | 文件 | 大小 | 层级判断 |\n|||||\n| 17:57 | `［内部笔记·不公开］/20260901.md` | 3.4 KB | 个人层·当日随记（AI 主",
+     "summary": "| 时间 | 文件 | 大小 | 层级判断 |\n|||||\n| 17:57 | `徐总每日随记/当日记录/20260901.md` | 3.4 KB | 个人层·当日随记（AI 主",
      "points": [],
      "date": "2026-09-01"
     },
@@ -8541,70 +10404,6 @@ window.OBSIDIAN_DATA = {
     "判断 2｜通知机制的正确目标是主控端，不是用户",
     "判断 3｜展示层不得二次推断运行状态——负结果比成功路径更值钱"
    ]
-  },
-  {
-   "date": "2026-08-31",
-   "items": [
-    {
-     "title": "**（新建·一级目录 + 专题入口）`多智能体协作任务/` 4 篇（15:47–17:32）** — 豆包助手于 2026-08-31 建立的新顶层目录：`多智能体协作任务专题.md`（入口索引，声明\"不承载过程记录本身\"）、`多智能体协作体系总览.md`（完整架构图 + 9 大组件接入状态 + 验证结果 + 变更记录）、`KNOWLEDGEPIP-142-Memory Guard上下文连续性管理.md`、`KNOWLEDGEPIP-143-多智能体协作工作台搭建.md`。总览确立四层分工：**状态层（Taskboard 47823）/ 执行层（Memory Guard）/ 知识层（Obsidian）/ 展示层（飞书多维表格 + 网页端）**，靠 `task_id` 单向对齐。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-31"
-    },
-    {
-     "title": "**（新建·工具与方法页）`Codex工作区/Memory Guard - *` 四篇（10:06–11:07）** — `多Agent上下文连续性管理`（总览）、`多Agent接入指南`、`标准项目初始化流程`、`命令参考手册`。核心机制：**事件驱动 + 四份文档 + 脚本强制，不依赖 Agent 自觉**；单一真相源 `events.jsonl`（v2.0 schema，14 字段 / 20 种事件类型），`HANDOFF.md` 从事件自动派生，`DECISIONS.md` / `LESSONS.md` / `daily/` 分列；`promote` 命令晋升 Obsidian 需 manual/codex 审核，不自动晋升。溯源 Codex 评估 Thread `01a05579-…`，由 Alpha Friday 实现。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-31"
-    },
-    {
-     "title": "**（更新·正式笔记）`AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md`（11:03）** — 新增「2026-08-31 落地更新（自动建 Session）」告示块：Harness 原生 `session/create` 已在 Alpha 47911 实测通过，**修正此前\"必须人工先建 Web 对话框\"的判断**（准确表述为\"现有 Skill 尚未封装自动创建能力\"）；给出 `session/create` / `session/rename` 的正确参数包裹形式（缺少 `request` 外层是此前 `Remote payload must contain exactly one plain-object args field` 的根因）；Gateway 新增 `POST /v1/sessions` + Session Registry 持久化。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-31"
-    },
-    {
-     "title": "**（更新·正式主版本）`AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md`（17:04）** — 新增 **12.10「腾讯 FDE 报告对横纵轴模型的校正」**：纵轴 = AI 参与业务判断的深度（非 Agent 数量），横轴 = 从场景识别到规模化的工程成熟度（非技术名词多少）；明确\"先 Skill、后模板、再 Ontology\"的建设节奏。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-31"
-    },
-    {
-     "title": "**（新建·问题专题）`徐总问题专题库/06_企业AI与商业化/2026-08-31_腾讯FDE报告与生产级Agent横纵轴判断.md`（17:04）** — 两条边界结论：**生产级不等于复杂化；Ontology 不是入场券**。给出「业务类型 → 优先形态 → 适合执行框架」四行对照表（RPA/API/Workflow → AI 增强流程 → Agentic Workflow → 生产级 Agent 系统），并把 WorkBuddy / 千问办公 / DeepSeek Harness / RPA 判定为组合关系而非三选一。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-31"
-    },
-    {
-     "title": "**（更新·案例研究）`企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md`（16:28）** — KNOWLEDGEPIP-84 报告研究页维护，报告七大结论与 Echo/Delta 框架、Bob McGrew 度量原则（第 1 个客户 10 人月、第 10 个同类客户仍 10 人月即模式未跑通）已在页内成型。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-31"
-    },
-    {
-     "title": "**（更新·当日随记）`［内部笔记·不公开］/2026-08-31.md`（11:19）** — 本日唯一的完整执行证据源：Harness 架构收敛（C1–C4 全完成）、自动化「每3小时归档清理」根因与修复、多 Session 语义纠正、当前收敛后端口架构表。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-31"
-    },
-    {
-     "title": "**（更新·项目运行记录）`DeepSeek Harness项目/` 3 篇（16:30–16:54）+ `任务面板与知识库/` 2 篇（11:02、13:15）+ `AI Agent工程知识/多Agent协作架构…全链路.md`（08-30 23:41）** — 运行层证据与设计记录同步，属 Harness 主线留痕，非新概念。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-31"
-    },
-    {
-     "title": "**（台账状态整理）`原始资料/已整理｜…` 26 篇 + `知识流水线/A_原始资料.md`（16:21–16:22）** — 集中标注\"已整理\"状态并同步全局资料池台账，不含新增内容。",
-     "summary": "",
-     "points": [],
-     "date": "2026-08-31"
-    }
-   ],
-   "judgments": [
-    "多智能体协作从\"架构图\"跨入\"可强制执行的基础设施\"，关键机制是把上下文连续性交给脚本而不是 Agent 自觉。 Memory Guard 用 `events.jsonl` 做单一真相源、`HANDOFF.md` 从事件派生、`delegation_mode` 四模式 + Done 闸门强制校验子代理拆分，并与 `taskboard-connector` 在 start/checkpoint/end 三个节点自动联动状态与飞书通知。同时 KP-143 引入 `knowledge_synced` 强制中间态（待办 → 执行中 → 待审核 → 已完成 → 知识已沉淀 → 关闭，不可跳过）+ 巡检兜底扫描\"已完成但未沉淀\"。这直接补上 08-30 三层控制模型缺的一环：控制层有了状态机与账本，才不再是\"发消息等回复\"。",
-    "Harness 端口口径发生纠错级变更，且与 08-30 日报记录直接冲突，必须以今日为准。 今日实测确认：48111 = 唯一真实在用的 Alpha Control Gateway（`/v1/health` 返回 HTTP 200 `{\"gateway\":\"ok\",\"instance\":\"alpha\",\"port\":47911}`，已配 KeepAlive launchd 常驻）；48911 = `control-gateway/index.mjs` 里的源码默认常量死值，从未上线；59823 = 历史 control-center Gateway，源文件已删但 plist 未摘导致崩溃循环（error.log 曾涨到 7.4MB），今日已 `launchctl bootout` + plist 改名备份卸载。7 处 Skill/脚本端口口径已统一。⚠️ 08-30 日报第 2 条判断中\"端口统一为 48911\"的表述已被推翻。三个 web 实例 47880 / 47900 / 47911 均保留，无证据支持下线。",
-    "腾讯 FDE 报告给企业 AI 主线加了两条\"减法\"边界：生产级 ≠ 复杂化，Ontology 不是入场券。 结论已同日回流主版本 12.10 并建立问题专题条目。实操含义是分流顺序固定为：先判业务的判断深度与风险等级 → 再决定要不要上 Ontology / Harness / Evals / HITL；确定性动作用 RPA/API/Workflow 就能产生生产价值。这与我们此前\"Ontology 是理解一切案例的底层语言\"的强调形成节奏校正——Ontology 仍是基础概念，但不是所有项目的前置门槛。"
-   ]
   }
  ],
  "weeklyReview": {
@@ -8622,47 +10421,47 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "模型与推理",
-   "matched": 22,
+   "matched": 28,
    "status": "已形成"
   },
   {
    "name": "数据与知识资产",
-   "matched": 60,
+   "matched": 63,
    "status": "已形成"
   },
   {
    "name": "Agent Runtime",
-   "matched": 18,
+   "matched": 29,
    "status": "已形成"
   },
   {
    "name": "工具与协议",
-   "matched": 8,
+   "matched": 9,
    "status": "已形成"
   },
   {
    "name": "记忆与上下文",
-   "matched": 17,
+   "matched": 18,
    "status": "已形成"
   },
   {
    "name": "安全、权限与治理",
-   "matched": 14,
+   "matched": 17,
    "status": "已形成"
   },
   {
    "name": "评测与可观测性",
-   "matched": 3,
-   "status": "正在形成"
+   "matched": 6,
+   "status": "已形成"
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 103,
+   "matched": 102,
    "status": "已形成"
   },
   {
    "name": "商业化与组织能力",
-   "matched": 82,
+   "matched": 85,
    "status": "已形成"
   }
  ],
@@ -8833,8 +10632,8 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 80415,
-     "excerpt": "知识库索引（快速查找版）2026-09-08｜AI知识系统重建补充（新）知识流水线/OpenWiki知识增量/2026-09-08_外部观点对重建计划的启发：基于锤哥抖音分享对当前 Obsidian 重建计划的对照分析，",
+     "wordCount": 80753,
+     "excerpt": "知识库索引（快速查找版）2026-09-08｜知识库可调用层标准（V2.1试点）知识流水线/知识卡片与Agent调用标准：在现有原始资料、问题专题、正式知识和执行规则之间建立“候选知识卡”逻辑层，定义调用场景、适用范围、",
      "hasBody": true
     },
     {
@@ -9150,9 +10949,25 @@ window.OBSIDIAN_DATA = {
      "wordCount": 14577,
      "excerpt": "FDE 在甲方搭建 Ontology Objects 的完整工作流（含客户沟通+行业语言对齐）日期：2026-06-17（IMA 笔记），2026-06-18 同步至 Obsidian上级：企业AI与智能体商业化专题关联",
      "hasBody": true
+    },
+    {
+     "path": "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环.md",
+     "title": "Harness控制中心架构闭环",
+     "kind": "raw",
+     "wordCount": 3191,
+     "excerpt": "状态：已整理，已回流正式项目记录创建：2026-08-16来源：DeepSeek Harness 控制中心收敛任务（KNOWLEDGEPIP-115）整理结果：DeepSeek Harness项目/DeepSeek Ha",
+     "hasBody": true
+    },
+    {
+     "path": "DeepSeek Harness项目/DeepSeek Harness项目记录.md",
+     "title": "DeepSeek Harness项目记录",
+     "kind": "note",
+     "wordCount": 70323,
+     "excerpt": "DeepSeek Harness 项目记录这是 DeepSeek Harness 独立实验项目的长期入口。项目目标是基于 DeepSeek 官方 Developer Preview，验证 Harness 的插件、Prof",
+     "hasBody": true
     }
    ],
-   "linkedCount": 3
+   "linkedCount": 5
   },
   {
    "path": "徐总问题专题库/02_企业AI与商业化/2026-08-18_企业AI落地问题总和：战略-机制-卡点三层融合.md",
@@ -9874,8 +11689,70 @@ window.OBSIDIAN_DATA = {
    "linkedCount": 14
   }
  ],
- "tasks": null,
+ "tasks": {
+  "summary": {
+   "in_progress": 16,
+   "todo": 18,
+   "in_review": 14,
+   "blocked": 1
+  },
+  "recent": [
+   {
+    "id": "KP-115",
+    "title": "DeepSeek Harness 搭建过程总结（收敛）（blocked）",
+    "status": "blocked",
+    "priority": "medium",
+    "assignee": "伊森"
+   },
+   {
+    "id": "KP-79",
+    "title": "Codex 的内部合作机制",
+    "status": "in_progress",
+    "priority": "urgent",
+    "assignee": "伊森"
+   },
+   {
+    "id": "KP-150",
+    "title": "AI Office 一人公司 V3 Secondary Content Area 实施",
+    "status": "in_progress",
+    "priority": "high",
+    "assignee": "Codex"
+   },
+   {
+    "id": "KP-147",
+    "title": "己未 CRM Web 视觉重构 V3",
+    "status": "in_review",
+    "priority": "high",
+    "assignee": "Codex"
+   },
+   {
+    "id": "KP-146",
+    "title": "AI Office 一人公司 V3 持久化迁移 0001 提案复核（Codex 字段级 diff 与决策）",
+    "status": "todo",
+    "priority": "high",
+    "assignee": "Codex（GPT-5.6主控）"
+   },
+   {
+    "id": "KP-144",
+    "title": "Alpha AI Agent Office：多办公位智能体办公室 UI 与接入设计",
+    "status": "todo",
+    "priority": "high",
+    "assignee": "Codex"
+   }
+  ],
+  "total": 117,
+  "fetchedAt": "2026年9月8日 23:04"
+ },
  "recentUpdates": [
+  {
+   "path": "徐总每日随记/当日记录/2026-09-08.md",
+   "title": "2026-09-08",
+   "updated": "2026-09-08",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 1685,
+   "desc": "- 从贵州回来后仍按以往节奏；名义上每天在学 AI agents，但怀疑这种节奏对个人确实有不好的影响——没人沟通、没有在工作的环境下，很多能力没得到锻炼。"
+  },
   {
    "path": "知识流水线/A_原始资料.md",
    "title": "A_原始资料",
@@ -9884,24 +11761,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 13751,
    "desc": "上级：知识流水线/知识流水线"
-  },
-  {
-   "path": "我的洞察/AI Agent 商业化路径与方向.md",
-   "title": "AI Agent 商业化路径与方向",
-   "updated": "2026-09-08",
-   "topic": "myinsights",
-   "topicName": "我的洞察",
-   "wordCount": 1054,
-   "desc": "AI Agent 的商业化路径不是单一的，而是有多个层次。工具型 AI Agent 最容易被替代，真正有壁垒的是深入企业业务流程、沉淀标准化方法论、并能以 FDE 方式嵌入企业生产"
-  },
-  {
-   "path": "我的洞察/FDE（前线部署工程师）学习与研究.md",
-   "title": "FDE（前线部署工程师）学习与研究",
-   "updated": "2026-09-08",
-   "topic": "myinsights",
-   "topicName": "我的洞察",
-   "wordCount": 893,
-   "desc": "FDE不是凭空冒出来的新职业，它是基础模型能力趋同之后，把模型变成可托付产品的关键角色。FDE是连接政策资金、技术能力和真实业务场景的翻译器和执行者。"
   },
   {
    "path": "企业AI与智能体商业化/FDE企业真实落地案例库：按行业分类的企业AI落地实战.md",
@@ -9913,6 +11772,15 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：企业AI与智能体商业化、知识库索引"
   },
   {
+   "path": "知识流水线/Obsidian知识底座治理与知识自主生长方案.md",
+   "title": "Obsidian知识底座治理与知识自主生长方案",
+   "updated": "2026-09-08",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 4047,
+   "desc": "上级：知识流水线/知识流水线、徐总的知识库"
+  },
+  {
    "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
    "title": "企业 AI 与智能体商业化专题",
    "updated": "2026-09-08",
@@ -9920,6 +11788,24 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 19894,
    "desc": "上级：徐总的知识库"
+  },
+  {
+   "path": "知识流水线/候选知识卡真实调用评估记录｜2026-09-08｜AI Agent工程知识.md",
+   "title": "候选知识卡真实调用评估记录（2026-09-08）",
+   "updated": "2026-09-08",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 8074,
+   "desc": "- 候选卡文件：知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md（12 张：KC-01~KC-12）。"
+  },
+  {
+   "path": "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
+   "title": "候选知识卡试点：AI Agent 工程知识（2026-09-08）",
+   "updated": "2026-09-08",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 8162,
+   "desc": "上级：AI Agent工程知识/AI Agent工程知识专题"
   },
   {
    "path": "企业AI与智能体商业化/制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通.md",
@@ -9958,6 +11844,15 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：企业AI与智能体商业化/零一万物企业AI落地专题、企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究"
   },
   {
+   "path": "知识流水线/知识卡片与Agent调用标准.md",
+   "title": "知识卡片与 Agent 调用标准",
+   "updated": "2026-09-08",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 2692,
+   "desc": "上级：知识流水线/知识流水线"
+  },
+  {
    "path": "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md",
    "title": "腾讯FDE模式行业观察与实践报告研究",
    "updated": "2026-09-08",
@@ -9994,6 +11889,15 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：徐总的知识库"
   },
   {
+   "path": "DeepSeek Harness项目/DeepSeek Harness搭建记录.md",
+   "title": "DeepSeek Harness 搭建记录",
+   "updated": "2026-09-07",
+   "topic": "harness",
+   "topicName": "DeepSeek Harness 项目",
+   "wordCount": 335271,
+   "desc": "Jarvis Office 不是工具菜单，而是一个“资料采集与知识整理 Agent”。四个主模块组成一条业务流水线：知识中心负责接收和分流，信息处理负责提取和加工，文档中心负责整理"
+  },
+  {
    "path": "AI Agent工程知识/Palantir式Ontology的真实价值：从业务语义到可执行系统.md",
    "title": "Palantir式Ontology的真实价值：从业务语义到可执行系统",
    "updated": "2026-09-07",
@@ -10028,6 +11932,15 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 886,
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
+  },
+  {
+   "path": "个人能力提升/承载力与高阶政治成熟：压力、人性与混沌中的定力.md",
+   "title": "承载力与高阶政治成熟：压力、人性与混沌中的定力",
+   "updated": "2026-09-07",
+   "topic": "growth",
+   "topicName": "个人能力提升",
+   "wordCount": 381,
+   "desc": "承载力是从“会做事”走向“能扛住复杂局面”的能力，核心不是压抑情绪，而是在压力、人性不确定和信息不完整的情况下，仍能稳住自己、稳住节奏、对结果负责。"
   },
   {
    "path": "政府资源配置与政策落地机制/政府资源配置与政策落地机制专题.md",
@@ -10073,6 +11986,33 @@ window.OBSIDIAN_DATA = {
    "topicName": "低空经济",
    "wordCount": 1787,
    "desc": "本文把「蜀道集团×大疆无人机巡检」案例（技术方案与算法分层，已另文归档）与「大疆机场3 采购投资的财务测算」合并，回答同一个问题：这套系统不仅技术上成立，账面上买不买得起、怎么付最"
+  },
+  {
+   "path": "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）.md",
+   "title": "DeepSeek Harness 专属插件搭建指南（Alpha4 版）",
+   "updated": "2026-09-05",
+   "topic": "harness",
+   "topicName": "DeepSeek Harness 项目",
+   "wordCount": 2868,
+   "desc": "其他版本（rc.7=47880 / rc.2=47900）同理，只需把 DSHHOME 和 launchd 标签换成对应实例。"
+  },
+  {
+   "path": "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
+   "title": "DeepSeek Harness 项目索引",
+   "updated": "2026-09-05",
+   "topic": "harness",
+   "topicName": "DeepSeek Harness 项目",
+   "wordCount": 11913,
+   "desc": "- DeepSeek Harness项目/DeepSeek Harness项目记录 — 项目长期入口，从零搭建到控制中心闭环完整建设总览"
+  },
+  {
+   "path": "DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研.md",
+   "title": "DSH 插件在 alpha 版本的独立安装方案与兼容性调研",
+   "updated": "2026-09-05",
+   "topic": "harness",
+   "topicName": "DeepSeek Harness 项目",
+   "wordCount": 3973,
+   "desc": "1. 机制可行：alpha 与 rc.2 一样，插件唯一官方入口是 dsh plugin --profile web add <pkg>（pnpm 转发器，装完自动 reconci"
   },
   {
    "path": "任务面板与知识库/方向推进与接力.md",
@@ -10138,6 +12078,15 @@ window.OBSIDIAN_DATA = {
    "desc": "本文记录多智能体协作中“如何分工、如何传递、如何留痕、如何验收”的通用方法。AI Office 仅作为本次实践案例，用来暴露流程问题；本文不以 AI Office 的页面、版本或具"
   },
   {
+   "path": "徐总每日随记/当日记录/2026-09-01.md",
+   "title": "2026-09-01 当日记录",
+   "updated": "2026-09-01",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 147,
+   "desc": "本日记录由豆包助手整理，2026-09-01"
+  },
+  {
    "path": "知识流水线/Agent Notifier统一通知机制.md",
    "title": "Agent Notifier 统一通知机制",
    "updated": "2026-09-01",
@@ -10156,6 +12105,15 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：多智能体协作任务/KNOWLEDGEPIP-144-AI-Office多办公位智能体办公室搭建"
   },
   {
+   "path": "DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录.md",
+   "title": "DSH v0.1.1-rc.2 升级副本验证记录",
+   "updated": "2026-09-01",
+   "topic": "harness",
+   "topicName": "DeepSeek Harness 项目",
+   "wordCount": 11723,
+   "desc": "rc.8 起 Claude Code / Codex 变成可安装的 Profile Bundle 子代理插件包——与我们的\"主控编排\"思路契合（Friday 主控可派发编码任务给 "
+  },
+  {
    "path": "多智能体协作任务/KNOWLEDGEPIP-145-Harness任务完成通知机制.md",
    "title": "KNOWLEDGEPIP-145 Harness 任务完成通知机制（Webhook 事件队列）",
    "updated": "2026-09-01",
@@ -10163,6 +12121,15 @@ window.OBSIDIAN_DATA = {
    "topicName": "多智能体协作",
    "wordCount": 4202,
    "desc": "构建 Harness 任务完成通知机制，使 Harness 子 Agent 完成任务后通过 webhook 主动上报到主控端事件队列，任意主控端（豆包助手 / 伊森（WorkBud"
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-08-31.md",
+   "title": "2026-08-31 当日记录",
+   "updated": "2026-08-31",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 2451,
+   "desc": "---"
   },
   {
    "path": "知识流水线/AI原生组织与多Agent工作空间增量整理（2026-08-28）.md",
@@ -10181,6 +12148,33 @@ window.OBSIDIAN_DATA = {
    "topicName": "任务面板与知识库",
    "wordCount": 6706,
    "desc": "1. 搭建 DSH Alpha 版本（47911），具备插件市场能力"
+  },
+  {
+   "path": "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md",
+   "title": "DeepSeek Harness Control Gateway 设计与调研",
+   "updated": "2026-08-31",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 13500,
+   "desc": "Alpha 单实例 Gateway 已完成第一条真实闭环：127.0.0.1:48111 通过 Alpha Web JSON-RPC 47911 向固化的 Alpha Friday"
+  },
+  {
+   "path": "DeepSeek Harness项目/DeepSeek Harness项目记录.md",
+   "title": "DeepSeek Harness 项目记录",
+   "updated": "2026-08-31",
+   "topic": "harness",
+   "topicName": "DeepSeek Harness 项目",
+   "wordCount": 66104,
+   "desc": "这是 DeepSeek Harness 独立实验项目的长期入口。项目目标是基于 DeepSeek 官方 Developer Preview，验证 Harness 的插件、Profi"
+  },
+  {
+   "path": "AI Agent工程知识/DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）.md",
+   "title": "DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）",
+   "updated": "2026-08-31",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 1419,
+   "desc": "DeepSeek Harness 的核心价值不是“又一个聊天 Agent”，而是把模型、插件、Skill、Workflow、Session、权限和运行状态装配成可持续执行的 Age"
   },
   {
    "path": "多智能体协作任务/KNOWLEDGEPIP-142-Memory Guard上下文连续性管理.md",
@@ -10291,6 +12285,24 @@ window.OBSIDIAN_DATA = {
    "desc": "验证 Alpha Friday（47911）能否作为主控 Agent 调用子代理（subagent）完成多子任务编排，并产出可汇总报告。跑通完整流程后同步更新 Skills。"
   },
   {
+   "path": "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md",
+   "title": "DeepSeek Harness 飞书 IM 接入搭建与运行记录",
+   "updated": "2026-08-30",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 10889,
+   "desc": "DeepSeek Harness（Friday 主控 Agent）通过Harness 原生 IM 插件直接接入飞书机器人，无需经过 Codex/Jarvis 转发。这是 Harne"
+  },
+  {
+   "path": "DeepSeek Harness项目/DSH_贾维斯模式新建.md",
+   "title": "DSH 贾维斯模式新建",
+   "updated": "2026-08-30",
+   "topic": "harness",
+   "topicName": "DeepSeek Harness 项目",
+   "wordCount": 1830,
+   "desc": "1. 主控不抢执行活：不要自己挨个点工具，扔给子代理"
+  },
+  {
    "path": "豆包工作区/dsh-send-README.md",
    "title": "dsh-send: 通过 47900 与 Harness (Friday) 直接通信",
    "updated": "2026-08-30",
@@ -10343,6 +12355,15 @@ window.OBSIDIAN_DATA = {
    "topicName": "Codex 工作区",
    "wordCount": 8843,
    "desc": "本项目解决的是 Codex 内部如何调用和管理子 Agent，不是知识库 Ontology 项目，也不是桌面 DeepSeek Codex 启动项目。"
+  },
+  {
+   "path": "DeepSeek Harness项目/DSH第三方插件适配新版本官方标准.md",
+   "title": "DSH第三方插件适配新版本（≥ rc.8）官方标准",
+   "updated": "2026-08-28",
+   "topic": "harness",
+   "topicName": "DeepSeek Harness 项目",
+   "wordCount": 2821,
+   "desc": "❌ 旧写法（不能用，启动失败）："
   },
   {
    "path": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法.md",
@@ -10579,6 +12600,132 @@ window.OBSIDIAN_DATA = {
    "desc": "成都高新区生物医药产业管理体系与运作模式解析成都高新区生物医药产业的管理体系涉及行政机构、产业园区、市场化运营主体的多方协同，形成“政府主导+专业运营+产业生态共建”的运作模式。以"
   },
   {
+   "path": "徐总每日随记/当日记录/2026-06-01.md",
+   "title": "2026-06-01",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 3356,
+   "desc": "上级：徐总每日随记/徐总每日随记"
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-02.md",
+   "title": "2026-06-02 每日随记",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 614,
+   "desc": "- WorkBuddy 搭建干食记智能体，整体流程和落地效果不错"
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-03.md",
+   "title": "2026-06-03 随记",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 276,
+   "desc": "今日工作计划与想法："
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-04.md",
+   "title": "2026-06-04 随记",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 440,
+   "desc": "- 和合伙人、电力工程哥老关一起喝咖啡"
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-06.md",
+   "title": "2026-06-06 每日随记",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 753,
+   "desc": "哎呀，昨天正式启动了美签的这样一个过程。主要是填表和照片，然后再去官网上预约拿新的这个申请表。但昨天在平板 Codex 有个非常好的功能，就是基本上你把护照的照片放在文件夹里面，加"
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-07.md",
+   "title": "2026-06-07",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 302,
+   "desc": "6 月 7 号 还是要解决这个美签签证的这个事情 不断在关心一个整个签证的动态 才知道整个系统其实目前波动比较大，名额比较少。不是像我以前说的，你填好资料随时预约，而是要等名额出来"
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-10.md",
+   "title": "2026-06-10",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 387,
+   "desc": "这两天主要的还是美签的这个申请过程，反正孩子和徐驰现在已经申请到了。8 月 14 号在沈阳的面签 到时候可能会提前去做一些资料的准备，希望一切能顺利"
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-13.md",
+   "title": "2026-06-13",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 484,
+   "desc": "反正这几天没有更新日志，是因为这几天确实没有什么额外的事发生。"
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-14.md",
+   "title": "2026-06-14 每日随记",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 904,
+   "desc": "今天 OpenClaw 的微信直聊入口突然出现反复 Auto-compaction / context overflow，表现为微信消息无法正常进入当前主会话。"
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-17.md",
+   "title": "2026-06-17 甘食记经营系统",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 343,
+   "desc": "- 甘食记经营系统1.0框架总结（四层架构/字段结构/7页映射/5步流程）→ Obsidian"
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-18.md",
+   "title": "2026-06-18 蜀道集团参观 + 战略转弯",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 660,
+   "desc": "- 去蜀道集团办公地点参观，吃了午饭"
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-22.md",
+   "title": "2026-06-22 随记",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 605,
+   "desc": "最近这几天，确实效率非常低。从大半个月前开始，我一直在做甘食记\"经营系统\"的所谓落地。"
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-28.md",
+   "title": "2026-06-28",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 1393,
+   "desc": "重大突破：Mac 端 Codex 终于用上 OpenAI Plus 官方模型"
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-06-29.md",
+   "title": "2026-06-29",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 1820,
+   "desc": "客户高频提问的回答沉淀：「有了 Aily / WorkBuddy，为什么还要做定制 Agent」"
+  },
+  {
    "path": "政府资源配置与政策落地机制/原始资料/2026-07-03省委专题会议支持天府新区公开报道与对话摘录.md",
    "title": "2026-07-03省委专题会议支持天府新区公开报道与对话摘录",
    "updated": "2026-08-26",
@@ -10588,6 +12735,42 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：政府资源配置与政策落地机制专题"
   },
   {
+   "path": "徐总每日随记/当日记录/2026-07-04.md",
+   "title": "2026-07-04",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 1619,
+   "desc": "继续更新 Obsidian 中“生产级 AI Agent”知识体系，并测试成功手机 / 平板 ChatGPT 连接 Mac Codex。"
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-07-05.md",
+   "title": "2026-07-05",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 959,
+   "desc": "今天围绕美团商家 AI 工具矩阵，补充更新了生产级 AI Agent 和甘食记经营系统的理解。"
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-07-08.md",
+   "title": "2026-07-08",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 3016,
+   "desc": "- 类型：个人想法 / 学习记录 / AI Agent 工程认知"
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-07-09.md",
+   "title": "2026-07-09",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 1499,
+   "desc": "- 类型：个人想法 / 学习记录 / AI Agent 工程认知"
+  },
+  {
    "path": "Codex工作区/每日跨项目复盘/2026-07-09.md",
    "title": "2026-07-09 跨项目自动复盘",
    "updated": "2026-08-26",
@@ -10595,6 +12778,15 @@ window.OBSIDIAN_DATA = {
    "topicName": "Codex 工作区",
    "wordCount": 17295,
    "desc": "上级：Codex工作区/项目索引"
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-07-10.md",
+   "title": "2026-07-10",
+   "updated": "2026-08-26",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 1988,
+   "desc": "- 类型：工作流更新 / 平台认知 / 多端协作记录"
   },
   {
    "path": "Codex工作区/每日跨项目复盘/2026-07-10.md",
@@ -10631,330 +12823,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "Codex 工作区",
    "wordCount": 16940,
    "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-14.md",
-   "title": "2026-07-14 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 16505,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-15.md",
-   "title": "2026-07-15 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15845,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-16.md",
-   "title": "2026-07-16 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15283,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-17.md",
-   "title": "2026-07-17 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15481,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-18.md",
-   "title": "2026-07-18 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15283,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-19.md",
-   "title": "2026-07-19 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15283,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-20.md",
-   "title": "2026-07-20 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15283,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-21.md",
-   "title": "2026-07-21 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15890,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-22.md",
-   "title": "2026-07-22 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15800,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-23.md",
-   "title": "2026-07-23 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 16038,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-24.md",
-   "title": "2026-07-24 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15909,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-25.md",
-   "title": "2026-07-25 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15745,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-26.md",
-   "title": "2026-07-26 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 16344,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-27.md",
-   "title": "2026-07-27 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 18486,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-28.md",
-   "title": "2026-07-28 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 21924,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-29.md",
-   "title": "2026-07-29 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 19065,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-04.md",
-   "title": "2026-08-04 工作进展日记",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 897,
-   "desc": "上级：Codex工作区/Codex工作区"
-  },
-  {
-   "path": "Codex工作区/2026-08-04_QoderWork_Lucas飞书长连接修复.md",
-   "title": "2026-08-04｜Lucas 飞书长连接无法建立：QoderWork 虚报 connected 修复",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 2366,
-   "desc": "Lucas（QoderWork 飞书通道，appId clia93f8a327ba11bd7）此前在飞书里能正常收发，某天起突然收不到消息。飞书开发者后台一直显示\"订阅方式连接失败"
-  },
-  {
-   "path": "Codex工作区/2026-08-04_WorkBuddy_伊森飞书长连接假connected修复.md",
-   "title": "2026-08-04｜WorkBuddy 伊森飞书长连接\"假 connected\"：双通道残留与占位冲突修复",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 2191,
-   "desc": "群里同时出现两个叠加症状："
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-05.md",
-   "title": "2026-08-05 工作进展日记",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 1728,
-   "desc": "上级：Codex工作区/Codex工作区"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-06.md",
-   "title": "2026-08-06 工作进展日记",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 1980,
-   "desc": "上级：Codex工作区/Codex工作区"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-07.md",
-   "title": "2026-08-07 工作进展日记",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 2274,
-   "desc": "上级：Codex工作区/Codex工作区"
-  },
-  {
-   "path": "Codex工作区/2026-08-08_Obsidian_CLI配置成功记录.md",
-   "title": "2026-08-08 Obsidian CLI 配置成功记录（Oliver 完成）",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 2624,
-   "desc": "此前 CodeX 尝试启用 Obsidian CLI 未成功：Obsidian app 版本已自动更新到 1.13.4，但 Settings > General 中找不到官方文档要"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-08.md",
-   "title": "2026-08-08 工作进展日记",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 3783,
-   "desc": "上级：Codex工作区/Codex工作区"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-09.md",
-   "title": "2026-08-09 工作进展日记",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 922,
-   "desc": "上级：Codex工作区/Codex工作区"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-10.md",
-   "title": "2026-08-10 工作进展日记",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 931,
-   "desc": "上级：Codex工作区/Codex工作区"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-11.md",
-   "title": "2026-08-11 工作进展日记",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 1436,
-   "desc": "上级：Codex工作区/Codex工作区"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-12.md",
-   "title": "2026-08-12｜Codex 跨项目复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 1373,
-   "desc": "上级：Codex工作区/每日跨项目复盘/每日跨项目复盘说明"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-13.md",
-   "title": "2026-08-13｜Codex 跨项目复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 2123,
-   "desc": "上级：Codex工作区/每日跨项目复盘/每日跨项目复盘说明"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-14.md",
-   "title": "2026-08-14｜Codex 跨项目复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 1487,
-   "desc": "上级：Codex工作区/每日跨项目复盘/每日跨项目复盘说明"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-15.md",
-   "title": "2026-08-15｜Codex 跨项目复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 1047,
-   "desc": "上级：Codex工作区/每日跨项目复盘/每日跨项目复盘说明"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-08-16.md",
-   "title": "2026-08-16｜Codex 跨项目复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 1994,
-   "desc": "上级：Codex工作区/每日跨项目复盘/每日跨项目复盘说明"
-  },
-  {
-   "path": "知识流水线/Agent Ontology 1.0运行数据库与闭环落地.md",
-   "title": "Agent Ontology 1.0 运行数据库与闭环落地",
-   "updated": "2026-08-26",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 7280,
-   "desc": "- Task: KNOWLEDGEPIP-72"
-  },
-  {
-   "path": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
-   "title": "Agent系统架构模式选型：从单Agent到Graph Workflow",
-   "updated": "2026-08-26",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 6740,
-   "desc": "上级：AI Agent工程知识专题"
-  },
-  {
-   "path": "AI Agent工程知识/AI Agent专业术语词典.md",
-   "title": "AI Agent 专业术语词典",
-   "updated": "2026-08-26",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 40916,
-   "desc": "上级：AI Agent工程知识专题"
-  },
-  {
-   "path": "AI Agent工程知识/AI Agent全面理解.md",
-   "title": "AI Agent 全面理解",
-   "updated": "2026-08-26",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 9126,
-   "desc": "上级：AI Agent工程知识专题"
   }
  ]
 };
