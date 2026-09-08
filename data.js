@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-08",
- "generatedTime": "2026-09-08 20:19",
+ "generatedTime": "2026-09-08 20:50",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 27,
- "weeklyChanges": 527,
+ "weeklyPages": 29,
+ "weeklyChanges": 529,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-07｜AI知识增量整理.md",
  "topics": [
@@ -89,6 +89,12 @@ window.OBSIDIAN_DATA = {
    "name": "AI 工具操作手册",
    "key": "aitools",
    "icon": "📖",
+   "count": 2
+  },
+  {
+   "name": "我的洞察",
+   "key": "myinsights",
+   "icon": "💡",
    "count": 2
   },
   {
@@ -8275,6 +8281,30 @@ window.OBSIDIAN_DATA = {
    "backlinks": [],
    "desc": "- 2026-08-08-飞书妙记工作流整合 — 飞书妙记录制 + WorkBuddy 经飞书 API 直读会谈记录的工作流（移动端体验、阶段边界、待补环节）",
    "wordCount": 268
+  },
+  {
+   "path": "我的洞察/FDE学习链条构思（五层框架）.md",
+   "title": "FDE学习链条构思（五层框架）",
+   "updated": "2026-09-08",
+   "topic": "myinsights",
+   "links": [
+    "FDE（前线部署工程师）是生产级AI Agent落地的核心角色"
+   ],
+   "backlinks": [],
+   "desc": "基于目前输入的FDE内容，初步构思的五层学习链条框架：",
+   "wordCount": 169
+  },
+  {
+   "path": "我的洞察/FDE是生产级AI Agent落地的核心角色.md",
+   "title": "FDE是生产级AI Agent落地的核心角色",
+   "updated": "2026-09-08",
+   "topic": "myinsights",
+   "links": [
+    "FDE学习链条构思（五层框架）"
+   ],
+   "backlinks": [],
+   "desc": "FDE不是凭空冒出来的新职业，它是基础模型能力趋同之后，把模型变成可托付产品的关键角色。FDE是连接政策资金、技术能力和真实业务场景的翻译器和执行者。",
+   "wordCount": 1172
   }
  ],
  "today": {
@@ -8594,7 +8624,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "模型与推理",
-   "matched": 21,
+   "matched": 22,
    "status": "已形成"
   },
   {
@@ -8629,7 +8659,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 101,
+   "matched": 103,
    "status": "已形成"
   },
   {
@@ -9867,6 +9897,24 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：企业AI与智能体商业化、知识库索引"
   },
   {
+   "path": "我的洞察/FDE学习链条构思（五层框架）.md",
+   "title": "FDE学习链条构思（五层框架）",
+   "updated": "2026-09-08",
+   "topic": "myinsights",
+   "topicName": "我的洞察",
+   "wordCount": 169,
+   "desc": "基于目前输入的FDE内容，初步构思的五层学习链条框架："
+  },
+  {
+   "path": "我的洞察/FDE是生产级AI Agent落地的核心角色.md",
+   "title": "FDE是生产级AI Agent落地的核心角色",
+   "updated": "2026-09-08",
+   "topic": "myinsights",
+   "topicName": "我的洞察",
+   "wordCount": 1172,
+   "desc": "FDE不是凭空冒出来的新职业，它是基础模型能力趋同之后，把模型变成可托付产品的关键角色。FDE是连接政策资金、技术能力和真实业务场景的翻译器和执行者。"
+  },
+  {
    "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
    "title": "企业 AI 与智能体商业化专题",
    "updated": "2026-09-08",
@@ -10908,24 +10956,6 @@ window.OBSIDIAN_DATA = {
    "topic": "agent",
    "topicName": "AI Agent工程知识",
    "wordCount": 9126,
-   "desc": "上级：AI Agent工程知识专题"
-  },
-  {
-   "path": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维.md",
-   "title": "AI Agent 后端工程化能力框架：分布式、异步、状态与可运维",
-   "updated": "2026-08-26",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 12170,
-   "desc": "创建日期：2026-07-02"
-  },
-  {
-   "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
-   "title": "AI Agent 工程的行业语言映射：从内部术语到 Palantir / FDE / 数据治理标准",
-   "updated": "2026-08-26",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 6009,
    "desc": "上级：AI Agent工程知识专题"
   }
  ]
