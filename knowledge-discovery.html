@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>知识发现 · 徐总知识库</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;
+  background:linear-gradient(135deg,#0a0a1a 0%,#1a1a3e 50%,#0d0d2b 100%); color:#fff; min-height:100vh; }
+.header { position:fixed; top:0; left:0; right:0; z-index:100; padding:14px 24px;
+  background:rgba(10,10,26,0.9); backdrop-filter:blur(10px); border-bottom:1px solid rgba(255,255,255,0.08);
+  display:flex; justify-content:space-between; align-items:center; }
+.header h1 { font-size:17px; font-weight:700; background:linear-gradient(90deg,#00d4ff,#7b2ff7,#ff6b9d); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+.model-selector { display:flex; gap:8px; }
+.model-btn { padding:6px 14px; border-radius:8px; border:1px solid rgba(255,255,255,0.15);
+  background:rgba(255,255,255,0.06); color:#fff; font-size:12px; cursor:pointer; }
+.model-btn.active { border-color:#00d4ff; background:rgba(0,212,255,0.15); }
+.back-btn { padding:7px 14px; border-radius:8px; border:1px solid rgba(255,255,255,0.15);
+  background:rgba(255,255,255,0.06); color:#fff; font-size:12px; text-decoration:none; }
+#graph { width:100vw; height:100vh; }
+.panel { position:fixed; z-index:100; background:rgba(10,10,26,0.92); backdrop-filter:blur(12px);
+  border:1px solid rgba(255,255,255,0.1); border-radius:14px; overflow:hidden; }
+.panel-header { padding:12px 16px; font-size:13px; font-weight:700; border-bottom:1px solid rgba(255,255,255,0.08); cursor:pointer; }
+.panel-body { padding:14px 16px; max-height:55vh; overflow-y:auto; }
+.panel-body::-webkit-scrollbar { width:4px; }
+.panel-body::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.2); border-radius:2px; }
+#insights-panel { top:60px; left:16px; width:340px; }
+#gaps-panel { bottom:16px; left:16px; width:340px; }
+#detail-panel { top:60px; right:16px; width:360px; display:none; }
+.insight-card { background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08);
+  border-radius:10px; padding:12px; margin-bottom:10px; cursor:pointer; }
+.insight-card:hover { background:rgba(0,212,255,0.08); border-color:rgba(0,212,255,0.3); }
+.insight-card .title { font-size:13px; font-weight:700; color:#00d4ff; margin-bottom:6px; }
+.insight-card .desc { font-size:11px; color:rgba(255,255,255,0.6); line-height:1.6; }
+.insight-card .confidence { display:inline-block; padding:2px 6px; border-radius:4px; font-size:10px; margin-top:6px; }
+.confidence-high { background:rgba(107,203,119,0.2); color:#6bcb77; }
+.confidence-medium { background:rgba(255,217,61,0.2); color:#ffd93d; }
+.confidence-low { background:rgba(255,80,80,0.2); color:#ff5050; }
+.gap-item { padding:10px 0; border-bottom:1px solid rgba(255,255,255,0.06); }
+.gap-item:last-child { border-bottom:none; }
+.gap-severity { display:inline-block; padding:2px 8px; border-radius:4px; font-size:10px; font-weight:700; margin-bottom:4px; }
+.severity-critical { background:rgba(255,80,80,0.2); color:#ff5050; }
+.severity-high { background:rgba(255,165,0,0.2); color:#ffa500; }
+.severity-medium { background:rgba(255,217,61,0.2); color:#ffd93d; }
+.gap-item .desc { font-size:11px; color:rgba(255,255,255,0.7); line-height:1.5; margin:4px 0; }
+.gap-item .suggestion { font-size:10px; color:rgba(0,212,255,0.7); }
+.detail-content { padding:12px; }
+.detail-content .dtype { display:inline-block; padding:3px 10px; border-radius:6px; font-size:11px; font-weight:700; background:rgba(123,47,247,0.2); color:#a78bfa; margin-bottom:10px; }
+.detail-content .dinsight { font-size:13px; line-height:1.7; color:rgba(255,255,255,0.9); margin-bottom:10px; }
+.detail-content .devidence { font-size:11px; color:rgba(255,255,255,0.5); margin-bottom:8px; }
+.detail-content .daction { font-size:11px; color:#6bcb77; background:rgba(107,203,119,0.1); padding:8px 10px; border-radius:6px; }
+.stats { position:fixed; bottom:16px; left:50%; transform:translateX(-50%); z-index:100;
+  background:rgba(10,10,26,0.9); backdrop-filter:blur(10px); border:1px solid rgba(255,255,255,0.1);
+  border-radius:20px; padding:8px 20px; font-size:11px; color:rgba(255,255,255,0.5); }
+.stats span { color:#00d4ff; font-weight:700; }
+.collapsed .panel-body { display:none; }
+.history-select { position:fixed; top:60px; right:16px; z-index:101; }
+.history-select select { padding:6px 12px; border-radius:8px; border:1px solid rgba(255,255,255,0.15);
+  background:rgba(10,10,26,0.9); color:#fff; font-size:11px; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>🧠 知识发现 · 徐总知识库</h1>
+  <div class="model-selector" id="modelSelector"></div>
+  <a href="index.html" class="back-btn">← 返回</a>
+</div>
+<div class="history-select">
+  <select id="historySelect" onchange="loadHistory(this.value)"></select>
+</div>
+<div id="insights-panel" class="panel">
+  <div class="panel-header" onclick="togglePanel('insights-panel')">💡 关键洞察 (<span id="insightCount">0</span>) <span>▾</span></div>
+  <div class="panel-body" id="insightsBody"></div>
+</div>
+<div id="gaps-panel" class="panel">
+  <div class="panel-header" onclick="togglePanel('gaps-panel')">⚠️ 知识缺口 (<span id="gapCount">0</span>) <span>▾</span></div>
+  <div class="panel-body" id="gapsBody"></div>
+</div>
+<div id="detail-panel" class="panel">
+  <div class="panel-header" onclick="document.getElementById('detail-panel').style.display='none'">🔗 详情 <span>✕</span></div>
+  <div class="panel-body" id="detailBody"></div>
+</div>
+<div class="stats" id="stats"></div>
+<div id="graph"></div>
+<script>
+const PAGE_DATA = {"models": {"minimax": {"name": "MiniMax M3", "color": "#00d4ff"}, "deepseek": {"name": "DeepSeek Chat", "color": "#7b2ff7"}, "doubao": {"name": "豆包 Seed 2.0", "color": "#ff6b9d"}}, "results": [{"model": "doubao", "model_name": "豆包 Seed 2.0", "model_color": "#ff6b9d", "generated_at": "2026-09-08T17:27:49.034673", "domains": {"domains": [{"name": "企业AI与智能体商业化", "core_question": "AI如何真正嵌入企业业务流程，形成可交付、可收费、可持续迭代的ToB AI服务模式", "key_concepts": ["FDE", "生产级Agent", "Ontology", "知识资产化"], "methodology": "FDE五阶段方法论（企业理解→AI角色设计→工程落地→持续运营），业务落地结合工程验证的双轮框架，原始资料-资料池-蒸馏笔记-研究问题的试点管理机制", "cases": ["己未文化咨询FDE落地", "甘食记经营智能体", "蜀道集团金租生产级AI", "传统集成商转型AI Agent生产企业"], "potential_relations": ["AI Agent工程知识", "AI产业链与数字基础设施", "政府资源配置与政策落地"]}, {"name": "AI Agent工程知识", "core_question": "如何将AI Agent从可用打造成可托付的生产级工程系统，明确标准、架构和落地方法", "key_concepts": ["生产级Agent", "Ontology", "六层工程架构", "多智能体协作"], "methodology": "生产级Agent六层职责架构，十层落地检查工程链，三维工程团队分工，主控-规划-执行-验收闭环流程，基于控制权的多Agent架构选型决策框架", "cases": ["甘食记经营日报Agent", "AI Office多智能体协作", "科技咨询项目交付Agent"], "potential_relations": ["企业AI与智能体商业化", "多智能体协作任务", "AI产业链与数字基础设施"]}, {"name": "AI产业链与数字基础设施", "core_question": "AI产业变革中，电力、算力、数据中心等基础设施与下游应用如何联动，区分真实产业需求和资本泡沫", "key_concepts": ["Token工厂", "算力金融化", "资本支出链", "智算中心"], "methodology": "资本支出传导链分析，智算中心项目核验清单，Token全产业链六步加工模型，三层出海路径划分", "cases": ["甘肃庆阳Token工厂", "汕头Token出海合规", "传统集成商转型AI基础设施"], "potential_relations": ["企业AI与智能体商业化", "AI Agent工程知识", "政府资源配置与政策落地"]}, {"name": "低空经济", "core_question": "梳理低空经济产业落地的空域审批规则、企业合作模式和投资测算逻辑", "key_concepts": ["空域审批", "低空物流", "无人机巡检", "NPV测算"], "methodology": "空域审批四层模型（政府搭台、企业主申、军方批复、平台监管）", "cases": ["成都双流常态化低空物流航线", "蜀道集团大疆无人机巡检", "空天智航与丰翼联合体合作"], "potential_relations": ["法律与政策决策", "政府资源配置与政策落地", "蜀道集团产业研究"]}, {"name": "法律与政策决策", "core_question": "梳理不同层级法律政策对经济社会的影响，提前预判市场机会和风险", "key_concepts": ["决策传导", "法律政策层级", "决策形态"], "methodology": "七层级决策传导框架（党内决定→国家法律→...→地方规范性文件），四步预判法（定层级→辨形态→看关联→判影响）", "cases": ["低空经济法律体系分析"], "potential_relations": ["所有产业研究领域", "政府资源配置与政策落地"]}, {"name": "多智能体协作任务", "core_question": "搭建稳定可落地的多智能体协作体系，解决上下文连续性和跨项目调度问题", "key_concepts": ["全域总控", "项目主控", "Memory Guard", "上下文连续性"], "methodology": "A000全域总控+MC-001项目主控分层架构，四层记录配合机制，标准化新项目接入流程，事件驱动上下文管理", "cases": ["多智能体协作工作台搭建", "Memory Guard上下文管理", "AI Office多智能体闭环"], "potential_relations": ["AI Agent工程知识", "Codex应用", "个人知识管理(Obsidian知识库架构)"]}, {"name": "Codex应用", "core_question": "沉淀Codex使用经验，形成成熟可复用的使用方法和演进体系", "key_concepts": ["Codex五级用法", "MCP", "智能体协作"], "methodology": "五级使用成熟度演进模型（从单条指令到多智能体生产系统）", "cases": ["Chrome CDP浏览器操控方案", "多端Codex协作架构"], "potential_relations": ["多智能体协作任务", "AI Agent工程知识"]}, {"name": "生物医疗与生物医药", "core_question": "梳理以刘朝山教授为核心的科研转化项目，分析投资价值和产业机会", "key_concepts": ["生物医药转化", "AI制药", "创新药", "科研投资"], "methodology": "结构化核心档案+产业价值链对照分析", "cases": ["刘朝山教授2500万科研项目", "南湖实验室GPAS项目", "赜灵生物AI制药"], "potential_relations": ["政府资源配置与政策落地", "AI产业链与AI制药应用"]}, {"name": "个人知识管理(Obsidian知识库架构)", "core_question": "搭建结构化可维护的个人知识库，实现高效知识沉淀和检索", "key_concepts": ["知识流水线", "三级知识分层", "三层同步机制"], "methodology": "总纲→专题入口→专题笔记三级图谱结构，知识流水线处理流程（原始资料→蒸馏→方法→成果），任务面板-Obsidian-飞书多维表格三层同步", "cases": ["徐总Obsidian知识库落地实践", "多智能体协作任务三层同步"], "potential_relations": ["所有专题领域", "多智能体协作任务"]}, {"name": "蜀道集团产业研究", "core_question": "梳理蜀道集团三大核心业务线的产业逻辑和投资机会", "key_concepts": ["资本运作", "生产级AI", "低空经济", "类REITs"], "methodology": "主体综述+跨专题聚合，分业务线深度拆解", "cases": ["成渝120亿类REITs项目", "蜀道金租生产级AI建设", "蜀道低空经济大疆采购NPV测算"], "potential_relations": ["AI产业链与数字基础设施", "低空经济", "企业AI与智能体商业化"]}]}, "relations": {"relations": [{"source": "法律与政策决策", "target": "所有产业研究领域", "type": "方法论迁移", "insight": "法律与政策决策领域的七层级决策传导框架，解决了产业研究中政策影响分析零散无结构的痛点，可为所有和政策强相关的产业提供统一的政策影响分析范式，提前预判机会与风险", "evidence": "法律与政策决策已经用七层级框架完成了低空经济法律体系分析，而AI产业链、生物医疗、低空经济、企业AI商业化都高度依赖政策导向，现有分析普遍缺乏结构化方法", "importance": "high", "action": "推动所有产业研究采用七层级决策传导框架开展系统性政策影响预判，形成标准化分析流程"}, {"source": "低空经济", "target": "企业AI与智能体商业化", "type": "方法论迁移", "insight": "低空经济成熟的NPV项目投资测算方法，可解决当前ToB AI服务核心痛点——价值难以量化、收费模式模糊，帮助AI服务明确可量化的业务价值，构建可持续收费的商业模式", "evidence": "企业AI与智能体商业化的核心问题就是形成可交付、可收费、可持续的ToB AI服务模式，低空经济已经形成了成熟的项目投资NPV测算逻辑可直接复用", "importance": "high", "action": "将NPV测算引入FDE五阶段方法论中的企业理解环节，开发ToB AI服务项目价值测算标准化模板"}, {"source": "个人知识管理(Obsidian知识库架构)", "target": "企业AI与智能体商业化", "type": "概念同构", "insight": "个人知识管理的三级分层知识流水线和企业知识资产化的资料处理逻辑完全同构，可将成熟的个人知识沉淀方法论直接迁移到企业知识资产化落地，解决企业知识转化为AI可用资产的流程问题", "evidence": "个人知识管理有「原始资料→蒸馏→方法→成果」的知识流水线，企业AI商业化有「原始资料-资料池-蒸馏笔记-研究问题」的试点管理机制，结构、目标完全对应", "importance": "high", "action": "基于个人知识管理方法论优化企业知识资产化落地流程，在己未文化咨询项目中验证同构可用性"}, {"source": "蜀道集团产业研究", "target": "企业AI与智能体商业化+低空经济", "type": "因果链条", "insight": "大型产业集团的多元化业务实践，可为跨领域产业方法论提供真实的验证场景，反向推动方法论的迭代优化，形成从实践到理论再到实践的闭环", "evidence": "蜀道集团同时有金租生产级AI、无人机巡检、低空物流多个项目，分别对应企业AI商业化、低空经济两个领域的核心落地场景，现有方法论已经在蜀道多个项目初步应用", "importance": "high", "action": "基于蜀道集团的多项目实践，迭代优化FDE五阶段方法论和空域审批四层模型，提升方法论成熟度"}, {"source": "Codex应用", "target": "AI Agent工程知识", "type": "方法论迁移", "insight": "Codex的五级使用成熟度演进模型，可填补当前生产级Agent缺乏清晰成熟度分级标准的空白，帮助明确从「可用」到「可托付」的升级路径", "evidence": "Codex已经有从单条指令到多智能体生产系统的五级成熟度模型，生产级Agent工程领域当前核心问题就是明确从可用到可托付的分级标准，演进逻辑一致", "importance": "medium", "action": "基于Codex五级成熟度模型，制定生产级Agent成熟度分级标准，纳入十层落地检查工程链"}, {"source": "企业AI与智能体商业化", "target": "AI产业链与数字基础设施", "type": "因果链条", "insight": "传统集成商向ToB AI Agent生产企业转型，和向AI基础设施转型是同一产业转型浪潮的两个方向，下游AI Agent商业化落地的需求会拉动上游基础设施的投资，上游基础设施成熟会降低下游AI Agent的成本，形成上下游联动的正循环", "evidence": "两个领域都有传统集成商转型的案例，上游AI基础设施需要下游应用需求拉动，下游AI Agent应用需要上游算力、Token加工支撑，存在明确的供需因果关系", "importance": "medium", "action": "开展传统集成商转型路径联合研究，梳理上下游联动的转型机会，形成转型指南"}, {"source": "多智能体协作任务", "target": "法律与政策决策", "type": "概念同构", "insight": "多智能体的全域总控-项目主控分层架构，和法律政策七层级决策传导逻辑本质同构，都是分层授权、分层管控模式，可借助多智能体协作逻辑解释政策传导效率瓶颈，优化政策落地分析方法", "evidence": "多智能体采用「A000全域总控+MC-001项目主控」分层架构，法律政策采用「中央党内决定→地方规范性文件」七层级传导，结构一致，都是顶层定方向、下层执行落地", "importance": "medium", "action": "用多智能体分层协作逻辑模拟政策决策传导，定位政策落地效率瓶颈，验证分析模型有效性"}, {"source": "AI产业链与数字基础设施", "target": "企业AI与智能体商业化", "type": "概念同构", "insight": "Token全产业链六步加工模型可迁移用于企业知识资产化加工，将企业原始知识资料类比为原始矿，经过多步加工成为可复用的AI训练材料，为知识资产化提供清晰的工业化加工框架", "evidence": "AI产业链有成熟的Token全产业链六步加工模型，企业AI知识资产化的核心就是把零散原始的企业资料加工为AI可用的结构化知识资产，加工逻辑完全一致", "importance": "medium", "action": "基于Token加工模型优化企业知识资产化加工流程，在FDE方法论的企业理解环节落地验证"}, {"source": "个人知识管理(Obsidian知识库架构)", "target": "多智能体协作任务", "type": "方法论迁移", "insight": "个人知识管理的三层跨平台同步机制，可解决多智能体协作的核心痛点——上下文连续性差、跨项目调度难，优化多智能体的上下文记忆管理", "evidence": "多智能体协作的核心问题就是保障上下文连续性和跨项目调度，个人知识管理已经有成熟的「任务面板-Obsidian-飞书多维表格」三层同步机制，同步逻辑可复用", "importance": "medium", "action": "将三层同步机制引入Memory Guard上下文管理模块，优化多智能体上下文连续性"}, {"source": "AI Agent工程知识", "target": "生物医疗与生物医药", "type": "空白交叉", "insight": "生产级Agent的工程化方法可迁移到AI制药领域，解决当前AI制药重算法原型、轻稳定交付工程化的痛点，打造可托付的生产级AI制药分子筛选系统", "evidence": "当前AI制药核心痛点是难以输出稳定可重复的筛选结果，AI Agent工程领域已经形成了从可用到可托付的生产级工程方法，正好匹配需求", "importance": "medium", "action": "推动用生产级Agent架构搭建AI制药药物筛选多智能体系统，开展原型验证"}, {"source": "生物医疗与生物医药", "target": "AI产业链与数字基础设施", "type": "空白交叉", "insight": "AI制药产业的发展会催生专门针对药物分子模拟筛选的算力需求，推动智算中心开发针对性算力服务产品，创造新的产业增长点", "evidence": "AI制药需要大量高密度算力做分子动力学模拟，当前通用智算中心没有针对性的产品方案，存在交叉创新空白", "importance": "low", "action": "开展AI制药算力需求调研，推动智算中心开发针对性算力服务产品"}]}, "gaps": {"gaps": [{"domain": "法律与政策决策", "type": "深度不足（有方法缺多领域验证案例）", "description": "已提出七层级决策传导框架和四步预判法，但目前仅完成低空经济单个领域的案例验证，缺乏其他高政策关联核心产业的验证，方法论普适性未得到充分验证", "severity": "critical", "impact": "无法推广标准化政策影响分析范式，多个依赖政策的核心产业（AI产业链、生物医疗、企业AI商业化等）缺乏结构化政策预判，容易带来机会误判和风险遗漏", "suggestion": "优先围绕AI产业链、生物医疗、企业AI与智能体商业化等高关联核心产业，应用七层级决策传导框架完成政策影响分析，验证普适性后逐步推广到所有产业领域"}, {"domain": "企业AI与智能体商业化", "type": "深度不足（核心环节缺失标准化方法）", "description": "该领域核心问题是构建可交付可收费的ToB AI服务模式，但当前FDE五阶段方法论中缺少ToB AI服务价值量化的标准化模块，无法解决价值难以量化、收费模式模糊的核心痛点", "severity": "high", "impact": "核心问题得不到解决，可持续的ToB AI服务商业模式无法跑通，影响整个领域的落地推广", "suggestion": "引入低空经济成熟的NPV项目测算方法，开发ToB AI服务项目价值测算标准化模板，纳入FDE五阶段方法论的企业理解环节"}, {"domain": "企业AI与智能体商业化", "type": "深度不足（核心概念无成熟落地流程）", "description": "知识资产化是该领域核心概念，目前仅有试点管理机制，未形成标准化的企业知识加工落地流程，落地质量依赖项目经验，无法批量复制", "severity": "high", "impact": "知识资产化落地质量不稳定，FDE五阶段方法论无法规模化复用，限制ToB AI服务的商业化推广", "suggestion": "基于个人知识管理的知识流水线方法论和AI产业链的Token六步加工模型，优化企业知识资产化加工流程，在己未文化咨询项目中验证落地效果"}, {"domain": "法律与政策决策", "type": "领域覆盖不足", "description": "该领域的七层级决策传导框架明确可迁移到所有产业研究领域，但目前尚未推动核心产业落地应用，覆盖范围严重不足", "severity": "high", "impact": "多个政策高相关产业缺乏标准化政策影响分析流程，无法提前系统性预判机会和风险", "suggestion": "按计划推动所有核心产业研究领域采用七层级决策传导框架开展政策影响预判，逐步形成全领域标准化分析流程"}, {"domain": "AI Agent工程知识", "type": "深度不足（核心标准缺失）", "description": "该领域核心目标是将Agent从可用打造成可托付的生产级系统，但目前缺乏清晰的成熟度分级标准，无法明确升级路径和验收标准", "severity": "medium", "impact": "工程落地验收没有统一依据，不同项目的生产级Agent质量参差不齐，影响可托付性的达成", "suggestion": "基于Codex五级成熟度模型，制定生产级Agent成熟度分级标准，纳入现有十层落地检查工程链"}, {"domain": "企业AI与智能体商业化 & 低空经济", "type": "有实践无方法论提炼升级", "description": "蜀道集团同时覆盖两个领域的多个落地项目，现有方法论已经初步应用，但尚未基于多项目实践完成方法论的迭代优化", "severity": "medium", "impact": "现有FDE五阶段方法论和空域审批四层模型缺乏大型集团多项目验证，方法论成熟度无法提升", "suggestion": "基于蜀道集团的多项目实践，总结经验迭代优化FDE五阶段方法论和空域审批四层模型，提升方法论成熟度"}, {"domain": "多智能体协作任务", "type": "深度不足（核心痛点未解决）", "description": "该领域核心痛点是上下文连续性差、跨项目调度难，现有Memory Guard上下文管理模块未引入成熟的同步机制优化", "severity": "medium", "impact": "多智能体协作体系稳定性不足，无法支撑长期稳定的生产级协作任务", "suggestion": "引入个人知识管理的三层跨平台同步机制，优化Memory Guard上下文管理模块，提升多智能体上下文连续性和跨项目调度能力"}, {"domain": "AI Agent工程知识 & 生物医疗与生物医药", "type": "交叉空白", "description": "生产级Agent的工程化方法尚未迁移应用到AI制药领域，当前AI制药领域重算法原型、轻工程化落地，缺乏稳定可重复的生产级系统搭建方法", "severity": "medium", "impact": "AI制药难以输出稳定可重复的药物分子筛选结果，阻碍AI制药的科研转化落地", "suggestion": "推动用生产级Agent六层架构搭建AI制药药物筛选多智能体系统，开展原型验证，探索工程化落地路径"}, {"domain": "企业AI与智能体商业化 & AI产业链与数字基础设施", "type": "交叉空白", "description": "传统集成商同时存在向ToB AI Agent生产企业转型和向AI基础设施转型两个路径，上下游的联动逻辑和转型机会尚未开展联合研究", "severity": "medium", "impact": "无法给转型中的传统集成商提供清晰的路径指导，容易错过产业转型机会", "suggestion": "开展传统集成商转型路径联合研究，梳理上下游联动的转型机会，形成传统集成商AI转型指南"}, {"domain": "生物医疗与生物医药 & AI产业链与数字基础设施", "type": "交叉空白", "description": "AI制药产业的针对性算力需求尚未被智算中心重视，当前通用智算中心没有针对AI制药分子模拟筛选的专属算力产品方案", "severity": "low", "impact": "AI制药产业的差异化算力需求无法得到满足，也限制了智算中心开拓新的产业增长点", "suggestion": "开展AI制药算力需求调研，推动智算中心开发针对分子模拟筛选的针对性算力服务产品"}]}, "insights": {"insights": [{"title": "推广七层级政策分析框架到核心产业验证普适性", "insight": "法律与政策决策领域的七层级决策传导框架解决了产业政策影响分析零散无结构的痛点，目前仅在低空经济单个领域验证，需在AI产业链、生物医疗等政策高关联核心产业完成落地验证，才能确立其标准化分析范式的地位。", "why_important": "该方法论若得不到多领域验证，普适性无法确认，多个政策依赖型核心产业会缺乏结构化政策预判，容易导致机会误判和风险遗漏。", "action": "优先围绕AI产业链、生物医疗、企业AI商业化等核心产业，应用七层级框架完成政策影响分析，验证普适性后逐步推广到全领域。", "evidence": "当前缺口明确将该问题定义为critical severity，指出缺乏多领域验证会阻碍方法论推广，影响核心产业决策质量。"}, {"title": "引入NPV测算构建可收费ToB AI服务模式", "insight": "当前企业AI与智能体商业化的核心痛点是ToB AI服务价值难以量化、收费模式模糊，现有FDE五阶段方法论缺少价值量化的标准化模块。引入低空经济成熟的NPV项目投资测算方法，可解决该核心问题，支撑可持续商业模式跑通。", "why_important": "价值量化问题得不到解决，可持续的ToB AI服务商业模式无法落地，会限制整个领域的商业化推广。", "action": "将NPV测算纳入FDE五阶段方法论的企业理解环节，开发ToB AI服务项目价值测算标准化模板。", "evidence": "该缺口被定义为high severity，跨领域关系已验证NPV测算逻辑和ToB AI价值量化需求匹配，且已有蜀道集团项目的成熟测算实践可复用。"}, {"title": "重构企业知识资产化标准化加工流程", "insight": "知识资产化是企业AI商业化的核心概念，目前仅有试点管理机制，无标准化加工流程，落地质量依赖个人经验无法批量复制。融合个人知识管理的知识流水线方法论和AI产业链的Token六步加工模型，可形成标准化流程，实现知识资产化批量落地。", "why_important": "知识资产化落地质量不稳定，会限制FDE方法论规模化复用，阻碍ToB AI服务的商业化推广。", "action": "基于两个领域的成熟方法论重构企业知识资产化加工流程，在己未文化咨询项目中验证落地效果。", "evidence": "个人知识管理的知识流水线和企业现有试点管理机制结构完全同构，Token加工逻辑和知识资产化加工逻辑一致，已有成熟方法可直接复用。"}, {"title": "依托蜀道集团跨领域实践迭代核心方法论", "insight": "大型产业集团的多元化业务实践，可为跨领域产业方法论提供真实的验证场景，反向推动方法论迭代优化。蜀道集团同时覆盖企业AI商业化、低空经济两个领域的多个落地项目，现有方法论已经初步应用，具备迭代优化基础。", "why_important": "现有核心方法论FDE五阶段和空域审批四层模型缺乏大型集团多项目验证，成熟度无法提升，影响市场对方法论的信任度和推广。", "action": "基于蜀道集团金租生产级AI、无人机巡检、低空物流等项目实践，总结经验迭代优化FDE五阶段方法论和空域审批四层模型。", "evidence": "蜀道集团多个项目已经完成初步落地，缺口明确提出需基于该实践提升方法论成熟度，符合从实践到理论再到实践的迭代逻辑。"}, {"title": "制定生产级Agent成熟度分级标准", "insight": "AI Agent工程领域的核心目标是将Agent从可用打造为可托付的生产级系统，但目前缺乏清晰的成熟度分级标准，无法明确升级路径和验收依据。引入Codex的五级成熟度演进模型，可填补该空白，统一工程落地验收标准。", "why_important": "没有统一的成熟度标准，工程落地验收无据可依，不同项目的生产级Agent质量参差不齐，影响生产级Agent的可托付性。", "action": "基于Codex五级成熟度模型制定生产级Agent成熟度分级标准，纳入现有十层落地检查工程链。", "evidence": "Codex已经有成熟的从单条指令到多智能体生产系统的五级演进模型，逻辑和生产级Agent从可用到可托付的升级路径完全匹配，符合缺口填补需求。"}, {"title": "引入三层同步机制优化多智能体上下文管理", "insight": "多智能体协作的核心痛点是上下文连续性差、跨项目调度难，现有Memory Guard上下文管理模块未引入成熟同步机制优化。引入个人知识管理的三层跨平台同步机制，可解决该痛点，提升多智能体协作体系稳定性。", "why_important": "上下文管理问题不解决，多智能体协作体系稳定性不足，无法支撑长期稳定的生产级协作任务。", "action": "将「任务面板-Obsidian-飞书多维表格」三层同步机制引入Memory Guard上下文管理模块，优化后验证落地效果。", "evidence": "个人知识管理的三层同步机制已经落地验证，同步逻辑完全匹配多智能体跨项目上下文同步需求，可直接复用。"}, {"title": "用生产级Agent方法解决AI制药工程化痛点", "insight": "当前AI制药领域重算法原型、轻工程化落地，缺乏稳定可重复的生产级系统搭建方法，导致难以输出稳定的药物分子筛选结果，阻碍科研转化。将生产级Agent的工程化方法迁移到AI制药领域，可填补该交叉空白，推动AI制药产业落地。", "why_important": "AI制药无法输出稳定可重复的筛选结果，会阻碍创新药研发的科研转化，错过产业升级机会。", "action": "推动用生产级Agent六层架构搭建AI制药药物筛选多智能体系统，开展原型验证探索工程化路径。", "evidence": "生产级Agent已经有成熟的六层工程架构和落地方法，正好匹配AI制药对稳定可重复系统的需求，属于明确的交叉空白填补，有较高应用价值。"}]}, "verification": {"insights_verification": [{"index": 0, "confidence": "high", "verified": true, "issue": "", "suggestion": ""}, {"index": 1, "confidence": "high", "verified": true, "issue": "", "suggestion": ""}, {"index": 2, "confidence": "high", "verified": true, "issue": "", "suggestion": ""}, {"index": 3, "confidence": "high", "verified": true, "issue": "", "suggestion": ""}, {"index": 4, "confidence": "high", "verified": true, "issue": "", "suggestion": ""}, {"index": 5, "confidence": "high", "verified": true, "issue": "", "suggestion": ""}, {"index": 6, "confidence": "high", "verified": true, "issue": "", "suggestion": ""}], "gaps_verification": [{"index": 0, "confidence": "high", "verified": true, "issue": "", "suggestion": ""}, {"index": 1, "confidence": "high", "verified": true, "issue": "", "suggestion": ""}, {"index": 2, "confidence": "high", "verified": true, "issue": "", "suggestion": ""}, {"index": 3, "confidence": "high", "verified": true, "issue": "", "suggestion": ""}, {"index": 4, "confidence": "high", "verified": true, "issue": "", "suggestion": ""}, {"index": 5, "confidence": "high", "verified": true, "issue": "", "suggestion": ""}, {"index": 6, "confidence": "high", "verified": true, "issue": "", "suggestion": ""}, {"index": 7, "confidence": "high", "verified": true, "issue": "", "suggestion": ""}, {"index": 8, "confidence": "high", "verified": true, "issue": "", "suggestion": ""}, {"index": 9, "confidence": "high", "verified": true, "issue": "", "suggestion": ""}]}}], "history_files": ["20260908-172749-doubao.json"], "generated_at": "2026-09-08 17:27"};
+let currentResult = null;
+let chart = null;
+
+function init() {
+  // 模型选择器
+  const selector = document.getElementById('modelSelector');
+  PAGE_DATA.results.forEach((r, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'model-btn' + (i === 0 ? ' active' : '');
+    btn.textContent = r.model_name;
+    btn.onclick = () => switchModel(i);
+    selector.appendChild(btn);
+  });
+
+  // 历史版本
+  const histSelect = document.getElementById('historySelect');
+  PAGE_DATA.history_files.forEach(f => {
+    const opt = document.createElement('option');
+    opt.value = f;
+    opt.textContent = f.replace('.json', '');
+    histSelect.appendChild(opt);
+  });
+
+  if (PAGE_DATA.results.length > 0) {
+    switchModel(0);
+  }
+}
+
+function switchModel(index) {
+  document.querySelectorAll('.model-btn').forEach((b, i) => b.classList.toggle('active', i === index));
+  currentResult = PAGE_DATA.results[index];
+  renderAll();
+}
+
+function renderAll() {
+  renderInsights();
+  renderGaps();
+  renderGraph();
+  renderStats();
+}
+
+function renderInsights() {
+  const body = document.getElementById('insightsBody');
+  const insights = currentResult.insights.insights || [];
+  const verification = currentResult.verification?.insights_verification || [];
+  document.getElementById('insightCount').textContent = insights.length;
+  body.innerHTML = '';
+  insights.forEach((ins, i) => {
+    const v = verification[i] || {};
+    const conf = v.confidence || 'medium';
+    const card = document.createElement('div');
+    card.className = 'insight-card';
+    card.innerHTML = `<div class="title">${i+1}. ${ins.title}</div>
+      <div class="desc">${ins.insight}</div>
+      <span class="confidence confidence-${conf}">${conf} 置信度</span>`;
+    card.onclick = () => showDetail('insight', ins, v);
+    body.appendChild(card);
+  });
+}
+
+function renderGaps() {
+  const body = document.getElementById('gapsBody');
+  const gaps = currentResult.gaps.gaps || [];
+  const verification = currentResult.verification?.gaps_verification || [];
+  document.getElementById('gapCount').textContent = gaps.length;
+  body.innerHTML = '';
+  gaps.forEach((gap, i) => {
+    const v = verification[i] || {};
+    const item = document.createElement('div');
+    item.className = 'gap-item';
+    item.innerHTML = `<span class="gap-severity severity-${gap.severity}">${gap.severity}</span>
+      <div class="desc"><b>${gap.domain}</b> · ${gap.description}</div>
+      <div class="suggestion">→ ${gap.suggestion}</div>`;
+    item.onclick = () => showDetail('gap', gap, v);
+    body.appendChild(item);
+  });
+}
+
+function renderGraph() {
+  if (!chart) chart = echarts.init(document.getElementById('graph'));
+  const domains = currentResult.domains.domains || [];
+  const relations = currentResult.relations.relations || [];
+  const color = currentResult.model_color || '#00d4ff';
+
+  const nodes = [{id:'kb', name:'徐总知识库', category:0, symbolSize:50, value:'Obsidian 知识库'}];
+  const domainNames = new Set();
+  domains.forEach(d => {
+    if (d.name && !domainNames.has(d.name)) {
+      domainNames.add(d.name);
+      nodes.push({id:d.name, name:d.name, category:1, symbolSize:36,
+        value:(d.core_question||'') + ' | ' + (d.key_concepts||[]).join(', ')});
+    }
+  });
+
+  const links = [];
+  relations.forEach(r => {
+    if (domainNames.has(r.source) && domainNames.has(r.target)) {
+      const w = r.importance === 'high' ? 3 : (r.importance === 'medium' ? 2 : 1);
+      links.push({source:r.source, target:r.target, value:r.insight, type:r.type, lineStyle:{width:w}});
+    }
+  });
+  domainNames.forEach(n => links.push({source:'kb', target:n, value:'核心领域', lineStyle:{width:1, opacity:0.3}}));
+
+  chart.setOption({
+    backgroundColor:'transparent',
+    tooltip:{trigger:'item', backgroundColor:'rgba(10,10,26,0.95)', borderColor:color+'44',
+      textStyle:{color:'#fff', fontSize:12},
+      formatter:p => p.dataType==='node' ? '<b>'+p.data.name+'</b><br>'+(p.data.value||'') :
+        '<b>'+p.data.source+' ↔ '+p.data.target+'</b><br>'+(p.data.value||'')},
+    series:[{type:'graph', layout:'force', data:nodes, links:links,
+      categories:[{name:'总览'},{name:'领域'}], roam:true, draggable:true, focusNodeAdjacency:true,
+      force:{repulsion:600, edgeLength:[120,220], gravity:0.08},
+      label:{show:true, position:'bottom', color:'#fff', fontSize:11, fontWeight:600,
+        textBorderColor:'rgba(0,0,0,0.8)', textBorderWidth:2},
+      lineStyle:{color:'source', curveness:0.2, opacity:0.5},
+      emphasis:{focus:'adjacency', lineStyle:{width:4, opacity:0.9}},
+      itemStyle:{borderColor:'#fff', borderWidth:1.5, shadowBlur:15, shadowColor:color+'44'},
+      animationDuration:1500}],
+    color:['#6bcb77', color]
+  }, true);
+
+  chart.off('click');
+  chart.on('click', p => {
+    if (p.dataType === 'edge') {
+      const rel = relations.find(r => (r.source===p.data.source&&r.target===p.data.target)||(r.source===p.data.target&&r.target===p.data.source));
+      if (rel) showDetail('relation', rel, {});
+    }
+  });
+}
+
+function renderStats() {
+  const d = currentResult.domains.domains?.length || 0;
+  const r = currentResult.relations.relations?.length || 0;
+  const g = currentResult.gaps.gaps?.length || 0;
+  const i = currentResult.insights.insights?.length || 0;
+  document.getElementById('stats').innerHTML = `<span>${d}</span> 领域 · <span>${r}</span> 关系 · <span>${g}</span> 缺口 · <span>${i}</span> 洞察 · ${currentResult.model_name}`;
+}
+
+function showDetail(type, data, verification) {
+  const panel = document.getElementById('detail-panel');
+  const body = document.getElementById('detailBody');
+  let html = '<div class="detail-content">';
+  if (type === 'insight') {
+    html += `<div class="dtype">💡 关键洞察</div>
+      <div class="dinsight"><b>${data.title}</b><br><br>${data.insight}</div>
+      <div class="devidence">📌 为什么重要：${data.why_important}</div>
+      <div class="devidence">🔍 证据：${data.evidence}</div>
+      <div class="daction">🎯 行动建议：${data.action}</div>`;
+    if (verification.confidence) html += `<div style="margin-top:10px"><span class="confidence confidence-${verification.confidence}">${verification.confidence} 置信度</span></div>`;
+  } else if (type === 'gap') {
+    html += `<div class="dtype">⚠️ 知识缺口</div>
+      <div class="dinsight"><b>${data.domain}</b> · ${data.description}</div>
+      <div class="devidence">📌 影响：${data.impact}</div>
+      <div class="daction">🎯 补全建议：${data.suggestion}</div>`;
+  } else if (type === 'relation') {
+    html += `<div class="dtype">🔗 ${data.type}</div>
+      <div class="dinsight">${data.insight}</div>
+      <div class="devidence">🔍 证据：${data.evidence}</div>
+      <div class="daction">🎯 ${data.action}</div>`;
+  }
+  html += '</div>';
+  body.innerHTML = html;
+  panel.style.display = 'block';
+}
+
+function togglePanel(id) { document.getElementById(id).classList.toggle('collapsed'); }
+function loadHistory(file) { /* 加载历史版本（需后端支持） */ console.log('加载历史:', file); }
+
+window.addEventListener('resize', () => chart && chart.resize());
+init();
+</script>
+</body>
+</html>
