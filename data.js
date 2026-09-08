@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-08",
- "generatedTime": "2026-09-08 12:08",
+ "generatedTime": "2026-09-08 14:18",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 25,
- "weeklyChanges": 499,
+ "weeklyChanges": 501,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-07｜AI知识增量整理.md",
  "topics": [
@@ -2628,17 +2628,18 @@ window.OBSIDIAN_DATA = {
    "links": [
     "企业AI与智能体商业化/零一万物企业AI落地专题",
     "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "原始资料/已整理｜2026-09-08｜李开复｜AI现状与未来深度对话原始稿索引",
+    "原始资料/已整理｜2026-08-11｜访谈｜李开复AI现状与未来深度对话",
     "企业AI与智能体商业化/零一万物FDE与企业AI落地模式",
     "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
-    "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版",
-    "原始资料/已整理｜2026-08-11｜访谈｜李开复AI现状与未来深度对话"
+    "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版"
    ],
    "backlinks": [
     "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md",
     "知识流水线/A_原始资料.md"
    ],
    "desc": "上级：企业AI与智能体商业化/零一万物企业AI落地专题、企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
-   "wordCount": 5092
+   "wordCount": 5189
   },
   {
    "path": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md",
@@ -3149,6 +3150,7 @@ window.OBSIDIAN_DATA = {
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
+    "原始资料/已整理｜2026-09-08｜腾讯研究院｜FDE模式行业观察与实践原始稿索引",
     "零一万物FDE与企业AI落地模式",
     "FDE生产级AI Agent五阶段方法论与AI基建协同",
     "FDE商业级智能体交付框架",
@@ -3164,7 +3166,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md"
    ],
    "desc": "上级：企业AI与智能体商业化专题",
-   "wordCount": 11743
+   "wordCount": 11882
   },
   {
    "path": "企业AI与智能体商业化/腾讯Marvis与操作系统级Agent产品思维.md",
@@ -8745,7 +8747,7 @@ window.OBSIDIAN_DATA = {
      "path": "徐总问题专题库/00_问题专题库总览.md",
      "title": "00_问题专题库总览",
      "kind": "note",
-     "wordCount": 5542,
+     "wordCount": 5675,
      "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
      "hasBody": true
     },
@@ -8933,8 +8935,8 @@ window.OBSIDIAN_DATA = {
      "path": "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md",
      "title": "腾讯FDE模式行业观察与实践报告研究",
      "kind": "note",
-     "wordCount": 10949,
-     "excerpt": "腾讯 FDE 模式行业观察与实践报告研究上级：企业AI与智能体商业化专题关联：零一万物FDE与企业AI落地模式、FDE生产级AI Agent五阶段方法论与AI基建协同、FDE商业级智能体交付框架、FDE与甲方沟通：从经营",
+     "wordCount": 11082,
+     "excerpt": "腾讯 FDE 模式行业观察与实践报告研究上级：企业AI与智能体商业化专题原始稿件索引：原始资料/已整理｜2026-09-08｜腾讯研究院｜FDE模式行业观察与实践原始稿索引原始 PDF：/Users/xucheng/De",
      "hasBody": true
     },
     {
@@ -9003,7 +9005,7 @@ window.OBSIDIAN_DATA = {
      "path": "徐总问题专题库/00_问题专题库总览.md",
      "title": "00_问题专题库总览",
      "kind": "note",
-     "wordCount": 5542,
+     "wordCount": 5675,
      "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
      "hasBody": true
     }
@@ -9051,7 +9053,7 @@ window.OBSIDIAN_DATA = {
      "path": "徐总问题专题库/00_问题专题库总览.md",
      "title": "00_问题专题库总览",
      "kind": "note",
-     "wordCount": 5542,
+     "wordCount": 5675,
      "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
      "hasBody": true
     },
@@ -9112,7 +9114,7 @@ window.OBSIDIAN_DATA = {
      "path": "徐总问题专题库/00_问题专题库总览.md",
      "title": "00_问题专题库总览",
      "kind": "note",
-     "wordCount": 5542,
+     "wordCount": 5675,
      "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
      "hasBody": true
     },
@@ -9190,7 +9192,7 @@ window.OBSIDIAN_DATA = {
      "path": "徐总问题专题库/00_问题专题库总览.md",
      "title": "00_问题专题库总览",
      "kind": "note",
-     "wordCount": 5542,
+     "wordCount": 5675,
      "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
      "hasBody": true
     },
@@ -9315,12 +9317,138 @@ window.OBSIDIAN_DATA = {
      "path": "徐总问题专题库/00_问题专题库总览.md",
      "title": "00_问题专题库总览",
      "kind": "note",
-     "wordCount": 5542,
+     "wordCount": 5675,
      "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
      "hasBody": true
     }
    ],
    "linkedCount": 1
+  },
+  {
+   "path": "徐总问题专题库/01_AI产业链与基础设施/2026-09-07_算力紧张与AI泡沫：同一个硬币的两面——供给约束与需求真实性的交叉判断.md",
+   "title": "算力紧张与AI泡沫：同一个硬币的两面——供给约束与需求真实性的交叉判断",
+   "date": "2026-09-07",
+   "updated": "2026-09-08",
+   "category": "AI产业链与基础设施",
+   "status": "已回答 → 已入库",
+   "questionType": "",
+   "originalQuestion": "\"根据我们知识库里面，我觉得有两个内容是不是有点可以整合在一起，就是之前我们说的，未来买不起算力以及算力紧张 以及整个 AI 的发展趋势到底是不是泡沫？这些内容是不是可以整合成一个问题专题库？\"",
+   "direction": "徐总这句话真正在问的不是两个独立问题，而是一个交叉判断： 如果算力真的紧张到\"买不起\"，说明AI需求是真实的，不是泡沫；但如果算力建设过度、利用率不足、资本囤积GPU空转，那就是泡沫。 这两个问题必须放在一起看，单独看任何一个都会得出片面结论： 只看\"算力紧张\"→ 会得出AI需求爆发、长期看好的结论，但忽略了可能的过度建设和利用率不足 只看\"AI泡沫\"→ 会得出估值过高、资本过热的结论，但忽略了真实的物理供给约束和需求增长 抽象到的层面：AI产业的供给约束（算力/电力/材料）与需求真实性（Token消耗/企业采用/",
+   "directionHtml": "<p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">徐总这句话真正在问的不是两个独立问题，而是一个交叉判断：</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>如果算力真的紧张到\"买不起\"，说明AI需求是真实的，不是泡沫；但如果算力建设过度、利用率不足、资本囤积GPU空转，那就是泡沫。</b></p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这两个问题必须放在一起看，单独看任何一个都会得出片面结论：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">只看\"算力紧张\"→ 会得出AI需求爆发、长期看好的结论，但忽略了可能的过度建设和利用率不足</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">只看\"AI泡沫\"→ 会得出估值过高、资本过热的结论，但忽略了真实的物理供给约束和需求增长</li></ul><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">抽象到的层面：<b>AI产业的供给约束（算力/电力/材料）与需求真实性（Token消耗/企业采用/Agent执行）之间的动态平衡判断</b>。</p>",
+   "summary": "核心结论 算力紧张和AI泡沫不是非此即彼的二选一，而是同时存在、动态博弈的两个力量。判断的关键不是\"是不是泡沫\"，而是\"在哪个环节、什么时间点、以什么形态存在泡沫\"。 具体来说： 1. 物理供给侧确实紧张——晶圆、电力、铜材、HVAC施工能力都有硬约束，这不是泡沫，是物理现实 2. 但资本配置侧可能有泡沫——部分GPU被资本囤积空转、部分智算中心利用率不足、",
+   "answerHtml": "<h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">核心结论</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>算力紧张和AI泡沫不是非此即彼的二选一，而是同时存在、动态博弈的两个力量。判断的关键不是\"是不是泡沫\"，而是\"在哪个环节、什么时间点、以什么形态存在泡沫\"。</b></p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">具体来说：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>物理供给侧确实紧张</b>——晶圆、电力、铜材、HVAC施工能力都有硬约束，这不是泡沫，是物理现实</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>但资本配置侧可能有泡沫</b>——部分GPU被资本囤积空转、部分智算中心利用率不足、部分公司为了\"AI叙事\"过度采购</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>需求侧正在从\"对话\"转向\"自动执行\"</b>——Token消耗呈指数级增长（重度工程师100倍，Atreides 5个月100倍），这是真实需求</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>判断泡沫的关键指标是利用率</b>——不是看建了多少算力，而是看MFU（模型浮点利用率）和商业利用率（实际产生收入的算力占比）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>最终会出现结构性分化</b>——优质算力（靠近需求、高利用率、有客户锁定）持续紧缺，劣质算力（偏远地区、无客户、低利用率）会成为泡沫</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">关键判断 / 框架</h2><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">框架一：三层判断法——物理层、资本层、需求层</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">把\"算力紧张vs AI泡沫\"拆成三层分别判断，不要混在一起：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">层级</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">判断问题</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">当前状态</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">是不是泡沫</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\"><b>物理层</b></td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">晶圆/电力/铜材/HVAC施工能力能不能跟上？</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">紧张，有硬约束，2028年前产能已十分紧张</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">❌ 不是泡沫，是物理现实</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\"><b>资本层</b></td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">谁在买算力？为什么买？买了用不用？</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">部分真实需求，部分资本囤积，部分为了AI叙事</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">⚠️ 有泡沫成分，需看利用率</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\"><b>需求层</b></td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Token消耗是不是真实增长？企业是不是真在用？</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">从对话转向自动执行，Token消耗指数级增长，企业采用加速</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">❌ 不是泡沫，是真实需求，但增速可能波动</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>关键洞察</b>：物理层紧张≠没有泡沫；需求层真实≠所有投资都合理。泡沫只存在于\"资本层中利用率不足的部分\"。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">框架二：利用率双指标——MFU vs 商业利用率</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">判断一个算力项目是不是泡沫，不要看\"建了多少GW\"，要看两个利用率指标：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>MFU（Model FLOPs Utilization，模型浮点利用率）</b>：GPU实际用于计算的时间占比。行业平均可能只有30-40%，优秀的能到50%+。MFU低说明算力在空转。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>商业利用率</b>：实际产生收入/价值的算力占总算力的比例。很多智算中心建好了但没有客户，商业利用率可能只有10-20%。</li></ul><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>泡沫判断公式</b>：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">高MFU + 高商业利用率 = 真实紧缺，不是泡沫</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">高MFU + 低商业利用率 = 内部使用（如前沿实验室训练），不是泡沫但不产生外部收入</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">低MFU + 高商业利用率 = 运营效率低，可能有管理问题但不是泡沫</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">低MFU + 低商业利用率 = <b>泡沫</b>，资本囤积空转</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">框架三：时间维度——短期泡沫vs长期紧缺</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>短期（1-2年）</b>：可能出现阶段性过剩——2024-2025年大量建设的算力集中上线，但企业采用和Agent执行还没完全跟上，部分地区/部分类型算力可能利用率不足</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>中期（2-3年）</b>：供需重新平衡——Agent执行爆发带来Token消耗指数级增长，消化过剩产能，同时物理供给约束开始显现</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>长期（3-5年）</b>：结构性紧缺——物理约束（电力、材料、施工）成为硬天花板，优质算力持续紧缺，劣质算力被淘汰，\"算力不平等\"加剧</li></ul><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>Gavin Baker的判断</b>：直到2028年前后，计划中的产能已经十分紧张，审批和政治阻力会进一步拖慢交付。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>吉姆·查诺斯的判断</b>：AI技术价值和投资回报分离，部分公司的AI投资不会产生对应回报。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>两者都对</b>：Baker说的是物理层和需求层的长期紧缺，查诺斯说的是资本层的短期错配。不是矛盾，是不同层级、不同时间维度的判断。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">重要数据 / 引证</h2><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">算力紧张侧（Gavin Baker / Atreides）</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">当前重度付费AI用户不足1000万，全球知识工作者约15亿——现在几百万人就让算力吃紧</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">重度工程师Token消耗暴增倍数可达100倍</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">Atreides从3月到8月Token支出增长了100倍，随后仅两人开始使用，预计月度支出还会增加10-20倍</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">建设1GW数据中心需要500亿美元，部分项目9-10个月回收期</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">10GW算力：8推理+2训练=年收入4800亿美元；2推理+8训练=年收入1200亿美元——巨头愿牺牲3600亿年收入换下一代模型领先</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">供给瓶颈：晶圆产能与精炼铜材、并网许可与表后发电、HVAC与现场布线能力</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">轨道计算方向：地面基础设施成本150亿美元（30%）vs 星舰复用后发射费&lt;10亿美元，宇宙自带无限太阳能和真空冷却</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">AI泡沫侧（吉姆·查诺斯 / 空头视角）</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">AI技术价值与投资回报分离——技术确实有价值，但投资不一定有回报</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">部分公司为了\"AI叙事\"过度采购GPU，实际利用率不足</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">历史类比：1990年代互联网泡沫，光纤过度建设，最后大量暗光纤，但互联网本身确实改变了世界——AI可能重演：算力过度建设，但AI本身确实改变世界</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">利用率侧（智算中心核验清单）</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">MFU（模型浮点利用率）：行业平均30-40%，优秀50%+</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">商业利用率：实际产生收入的算力占比，部分智算中心仅10-20%</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">有效算力≠名义算力：标称100P的算力，实际有效可能只有30-40P</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">需求侧（李开复 / 企业采用）</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">AI从\"对话\"转向\"自动执行\"，单次指令引发计算量连锁爆炸</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">企业AI落地从\"试点\"转向\"生产级\"，Agent进入企业生产流程</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">基座大模型 commoditize，企业竞争转向\"一号位工程\"和专有数据</li></ul>",
+   "formalNotes": [
+    "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离",
+    "AI产业链与数字基础设施/算力成为新一代房产——Token贷算力贷与算力金融化的中美双线观察",
+    "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率",
+    "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
+    "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程"
+   ],
+   "rawMaterials": [
+    "原始资料/未整理｜2026-09-07｜抖音分享｜智能的物理重量：为什么未来我们可能买不起算力",
+    "原始资料/已整理｜2026-08-07｜抖音豆包｜超哥奇点世界GPU空转泡沫AI资本囤积游戏",
+    "原始资料/已整理｜2026-08-11｜访谈｜李开复AI现状与未来深度对话"
+   ],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离",
+    "AI产业链与数字基础设施/算力成为新一代房产——Token贷算力贷与算力金融化的中美双线观察",
+    "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率",
+    "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+    "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
+    "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程",
+    "原始资料/未整理｜2026-09-07｜抖音分享｜智能的物理重量：为什么未来我们可能买不起算力",
+    "原始资料/已整理｜2026-08-07｜抖音豆包｜超哥奇点世界GPU空转泡沫AI资本囤积游戏",
+    "原始资料/已整理｜2026-08-11｜访谈｜李开复AI现状与未来深度对话"
+   ],
+   "wordCount": 3953,
+   "linkedNotes": [
+    {
+     "path": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md",
+     "title": "吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离",
+     "kind": "note",
+     "wordCount": 3321,
+     "excerpt": "吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离上级：AI产业链与数字基础设施/AI产业链与数字基础设施专题、AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用关联：AI产业链与数字基础设",
+     "hasBody": true
+    },
+    {
+     "path": "AI产业链与数字基础设施/算力成为新一代房产——Token贷算力贷与算力金融化的中美双线观察.md",
+     "title": "算力成为新一代房产——Token贷算力贷与算力金融化的中美双线观察",
+     "kind": "note",
+     "wordCount": 6074,
+     "excerpt": "算力成为新一代「房产」——Token贷/算力贷与算力金融化的中美双线观察🔭 重要观察对象：算力金融化（算力贷 / Token贷 / 券贷联动 / GPU资产化）是本知识库持续追踪的长期观察主题，重点跟踪中美两侧政策与资",
+     "hasBody": true
+    },
+    {
+     "path": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
+     "title": "AI时代资本支出链：从电力、算力、存储到Agent应用",
+     "kind": "note",
+     "wordCount": 8804,
+     "excerpt": "AI时代资本支出链：从电力、算力、存储到Agent应用上级：AI产业链与数字基础设施/AI产业链与数字基础设施专题、AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲关联：AI产业链与数字基础设施/AI基础设施发",
+     "hasBody": true
+    },
+    {
+     "path": "AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率.md",
+     "title": "有效算力与智算中心项目核验清单：从MFU到商业利用率",
+     "kind": "note",
+     "wordCount": 2785,
+     "excerpt": "有效算力与智算中心项目核验清单：从MFU到商业利用率上级：AI产业链与数字基础设施/AI产业链与数字基础设施专题关联：AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络、AI产业链与数字基",
+     "hasBody": true
+    },
+    {
+     "path": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
+     "title": "AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
+     "kind": "note",
+     "wordCount": 6606,
+     "excerpt": "AI基础设施发展路径：从服务器到智算中心再到AI算力网络上级：AI产业链与数字基础设施/AI产业链与数字基础设施专题、AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲关联：AI产业链与数字基础设施/甘肃庆阳AI",
+     "hasBody": true
+    },
+    {
+     "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断.md",
+     "title": "2026-08-06_智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
+     "kind": "note",
+     "wordCount": 3945,
+     "excerpt": "上级：徐总问题专题库/00_问题专题库总览关联专题：AI产业链与数字基础设施/AI产业链与数字基础设施专题一、原始提问（徐总原话，逐字保留）「那乌兰察布现在如果做一个节点进行推理的话，那它跟成都现在建的这种智算中心，它又",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
+     "title": "李开复企业AI认知：从基座大模型到一号位工程",
+     "kind": "note",
+     "wordCount": 5209,
+     "excerpt": "李开复企业 AI 认知：从基座大模型到一号位工程上级：企业AI与智能体商业化/零一万物企业AI落地专题、企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究原始稿件索引：原始资料/已整理｜2026",
+     "hasBody": true
+    },
+    {
+     "path": "原始资料/未整理｜2026-09-07｜抖音分享｜智能的物理重量：为什么未来我们可能买不起算力.md",
+     "title": "智能的物理重量：为什么未来我们可能买不起算力",
+     "kind": "raw",
+     "wordCount": 3989,
+     "excerpt": "智能的物理重量：为什么未来我们可能\"买不起\"算力？基于顶尖科技投资人Gavin Baker（Atreides）的底层逻辑推演如果AI需求才刚刚开始，为什么全世界已经在抢芯片、抢电力，连电工和水管工都成了稀缺资源？当所有人",
+     "hasBody": true
+    },
+    {
+     "path": "原始资料/已整理｜2026-08-07｜抖音豆包｜超哥奇点世界GPU空转泡沫AI资本囤积游戏.md",
+     "title": "超哥奇点世界GPU空转泡沫AI资本囤积游戏",
+     "kind": "raw",
+     "wordCount": 2252,
+     "excerpt": "GPU空转泡沫：AI行业最大的资本囤积游戏（超哥的奇点世界）上级：知识流水线/A_原始资料一、来源信息来源平台：抖音（短视频）作者 / 账号：超哥的奇点世界原始链接：https://v.douyin.com/J7ekgt",
+     "hasBody": true
+    },
+    {
+     "path": "原始资料/已整理｜2026-08-11｜访谈｜李开复AI现状与未来深度对话.md",
+     "title": "李开复AI现状与未来深度对话",
+     "kind": "raw",
+     "wordCount": 32362,
+     "excerpt": "李开复 AI 现状与未来深度对话上级：知识流水线/A_原始资料整理结果：企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程资料索引：原始资料/已整理｜2026-09-08｜李开复｜AI现状与未来深度对话",
+     "hasBody": true
+    }
+   ],
+   "linkedCount": 10
   },
   {
    "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_远景乌兰察布算力基地分析.md",
@@ -9429,7 +9557,7 @@ window.OBSIDIAN_DATA = {
      "path": "徐总问题专题库/00_问题专题库总览.md",
      "title": "00_问题专题库总览",
      "kind": "note",
-     "wordCount": 5542,
+     "wordCount": 5675,
      "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
      "hasBody": true
     },
@@ -9712,7 +9840,7 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-09-08",
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
-   "wordCount": 5092,
+   "wordCount": 5189,
    "desc": "上级：企业AI与智能体商业化/零一万物企业AI落地专题、企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究"
   },
   {
@@ -9721,7 +9849,7 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-09-08",
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
-   "wordCount": 11743,
+   "wordCount": 11882,
    "desc": "上级：企业AI与智能体商业化专题"
   },
   {
