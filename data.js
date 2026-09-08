@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-08",
- "generatedTime": "2026-09-08 11:13",
+ "generatedTime": "2026-09-08 12:08",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 29,
- "weeklyChanges": 539,
+ "weeklyPages": 25,
+ "weeklyChanges": 499,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-07｜AI知识增量整理.md",
  "topics": [
@@ -11,7 +11,7 @@ window.OBSIDIAN_DATA = {
    "name": "AI Agent工程知识",
    "key": "agent",
    "icon": "🤖",
-   "count": 41
+   "count": 36
   },
   {
    "name": "企业AI与智能体商业化",
@@ -29,19 +29,13 @@ window.OBSIDIAN_DATA = {
    "name": "知识流水线",
    "key": "pipeline",
    "icon": "📚",
-   "count": 49
+   "count": 46
   },
   {
    "name": "Codex 工作区",
    "key": "codex",
    "icon": "🛠",
    "count": 77
-  },
-  {
-   "name": "DeepSeek Harness 项目",
-   "key": "harness",
-   "icon": "🧪",
-   "count": 29
   },
   {
    "name": "多智能体协作",
@@ -80,18 +74,6 @@ window.OBSIDIAN_DATA = {
    "count": 4
   },
   {
-   "name": "个人能力提升",
-   "key": "growth",
-   "icon": "🌱",
-   "count": 21
-  },
-  {
-   "name": "徐总每日随记",
-   "key": "notes",
-   "icon": "📝",
-   "count": 41
-  },
-  {
    "name": "豆包工作区",
    "key": "doubao",
    "icon": "🫘",
@@ -114,7 +96,7 @@ window.OBSIDIAN_DATA = {
    "name": "原始资料 / 养料",
    "icon": "🗂",
    "color": "raw",
-   "count": 36
+   "count": 35
   }
  ],
  "nodes": [
@@ -190,8 +172,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
     "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
     "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
-    "企业AI与智能体商业化/原始资料/美团AI经营参谋与甘食记内部经营系统边界讨论.md",
-    "徐总每日随记/当日记录/2026-07-05.md"
+    "企业AI与智能体商业化/原始资料/美团AI经营参谋与甘食记内部经营系统边界讨论.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 9126
@@ -329,7 +310,6 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
     "AI Agent工程知识/AI模型选型与订阅历史.md",
-    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2.md",
     "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象.md",
     "AI Agent工程知识/为什么做多智能体：Codex内部多线程vs跨平台多智能体.md",
     "AI Agent工程知识/智能体使用逻辑问题复盘-垂直任务实践（旅行案例）.md",
@@ -352,9 +332,7 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/每日跨项目复盘/2026-07-10.md",
     "Codex工作区/每日跨项目复盘/2026-07-11.md",
     "Codex工作区/每日跨项目复盘/2026-07-13.md",
-    "Codex工作区/每日跨项目复盘/2026-07-28.md",
-    "DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
+    "Codex工作区/每日跨项目复盘/2026-07-28.md"
    ],
    "desc": "上级：徐总的知识库",
    "wordCount": 13867
@@ -377,8 +355,7 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "AI Agent工程知识/AI模型选型与订阅历史.md",
     "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
-    "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
-    "徐总每日随记/当日记录/2026-07-04.md"
+    "企业AI与智能体商业化/企业AI与生产级Agent总框架.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 32012
@@ -473,107 +450,6 @@ window.OBSIDIAN_DATA = {
    "wordCount": 6740
   },
   {
-   "path": "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md",
-   "title": "DeepSeek Harness Control Gateway 设计与调研",
-   "updated": "2026-08-31",
-   "topic": "agent",
-   "links": [
-    "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录",
-    "任务面板与知识库/任务卡/Alpha-Friday搭建与会话修复-20260830"
-   ],
-   "backlinks": [
-    "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md"
-   ],
-   "desc": "Alpha 单实例 Gateway 已完成第一条真实闭环：127.0.0.1:48111 通过 Alpha Web JSON-RPC 47911 向固化的 Alpha Friday",
-   "wordCount": 13500
-  },
-  {
-   "path": "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.1.md",
-   "title": "DeepSeek Harness 插件与模式设计规范 V1.1",
-   "updated": "2026-08-26",
-   "topic": "agent",
-   "links": [
-    "AI Agent工程知识专题",
-    "Deepseek Harness：框架概念与专属智能体搭建",
-    "生产级AI Agent知识体系总览：层级·特性·术语",
-    "全域智能体框架总览"
-   ],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
-   ],
-   "desc": "上级：AI Agent工程知识专题",
-   "wordCount": 15379
-  },
-  {
-   "path": "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2.md",
-   "title": "DeepSeek Harness 插件与模式设计规范 V1.2",
-   "updated": "2026-08-26",
-   "topic": "agent",
-   "links": [
-    "AI Agent工程知识专题",
-    "Deepseek Harness：框架概念与专属智能体搭建",
-    "生产级AI Agent知识体系总览：层级·特性·术语",
-    "全域智能体框架总览",
-    "徐总的知识库",
-    "AI Agent工程知识/AI Agent工程知识专题"
-   ],
-   "backlinks": [
-    "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md",
-    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
-    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
-    "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）.md",
-    "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
-   ],
-   "desc": "上级：AI Agent工程知识专题",
-   "wordCount": 22080
-  },
-  {
-   "path": "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md",
-   "title": "DeepSeek Harness 飞书 IM 接入搭建与运行记录",
-   "updated": "2026-08-30",
-   "topic": "agent",
-   "links": [
-    "AI Agent工程知识/多Agent协作架构-豆包助手WorkBuddyFridayCodex全链路",
-    "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论",
-    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2",
-    "全局记忆/02_系统架构",
-    "AI Agent工程知识/飞书多智能体连接故障恢复手册",
-    "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研"
-   ],
-   "backlinks": [
-    "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md",
-    "知识流水线/A_原始资料.md",
-    "Codex工作区/Memory Guard - 多Agent接入指南.md",
-    "任务面板与知识库/任务卡/Alpha-Friday搭建与会话修复-20260830.md"
-   ],
-   "desc": "DeepSeek Harness（Friday 主控 Agent）通过Harness 原生 IM 插件直接接入飞书机器人，无需经过 Codex/Jarvis 转发。这是 Harne",
-   "wordCount": 10889
-  },
-  {
-   "path": "AI Agent工程知识/DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）.md",
-   "title": "DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）",
-   "updated": "2026-08-31",
-   "topic": "agent",
-   "links": [
-    "原始资料/已整理｜2026-08-21｜Qwen-UI-Agent与Harness自重启能力方向",
-    "原始资料/已整理｜2026-08-21｜抖音DeepSeek Harness系列文案",
-    "原始资料/已整理｜2026-08-26｜dsh拆解系列｜拆解DeepSeekHarness：Profile与Bundle如何装配运行时",
-    "原始资料/已整理｜2026-08-26｜dsh拆解系列｜解读Cordis：dsh一切皆插件背后的运行时设计",
-    "原始资料/已整理｜2026-08-28｜GitHub优选｜DSH实测必装12个插件",
-    "原始资料/已整理｜2026-08-28｜微信公众号｜DSH到底把什么做成了插件",
-    "原始资料/已整理｜2026-08-28｜腾讯科技｜DeepSeek的Harness为何是一头黑色鲸鱼",
-    "原始资料/已整理｜2026-08-28｜腾讯科技｜黑鲸之后OpenAI开放Harness",
-    "原始资料/已整理｜2026-08-28｜蓝耘星河｜别把DSH当CodeX平替"
-   ],
-   "backlinks": [
-    "知识流水线/知识库健康巡检.md"
-   ],
-   "desc": "DeepSeek Harness 的核心价值不是“又一个聊天 Agent”，而是把模型、插件、Skill、Workflow、Session、权限和运行状态装配成可持续执行的 Age",
-   "wordCount": 1419
-  },
-  {
    "path": "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md",
    "title": "Deepseek Harness：框架概念与专属智能体搭建",
    "updated": "2026-08-26",
@@ -587,15 +463,12 @@ window.OBSIDIAN_DATA = {
     "多智能体共享记忆：TencentDB Agent Memory 评估",
     "AI模型选型与订阅历史",
     "DeepSeek Harness 插件与模式设计规范 V1.2",
-    "徐总每日随记/当日记录/2026-08-18",
+    "［内部笔记·不公开］/2026-08-18",
     "DeepSeek Harness项目/DeepSeek Harness项目记录",
     "DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南",
     "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环"
    ],
-   "backlinks": [
-    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
-   ],
+   "backlinks": [],
    "desc": "两条硬规则：",
    "wordCount": 15247
   },
@@ -747,9 +620,7 @@ window.OBSIDIAN_DATA = {
     "全域智能体健康度审查方法论",
     "飞书多智能体连接故障恢复手册"
    ],
-   "backlinks": [
-    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md"
-   ],
+   "backlinks": [],
    "desc": "- 通道层：飞书 lark-cli，统一管理 7 个飞书应用（appId 见第二节）；当前 currentApp 为伊森 clia92504e56d78dbd7，user 身份（徐",
    "wordCount": 2396
   },
@@ -789,12 +660,10 @@ window.OBSIDIAN_DATA = {
     "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论"
    ],
    "backlinks": [
-    "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md",
     "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
     "知识流水线/A_原始资料.md",
     "Codex工作区/Memory Guard - 多Agent上下文连续性管理.md",
-    "Codex工作区/Memory Guard - 多Agent接入指南.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
+    "Codex工作区/Memory Guard - 多Agent接入指南.md"
    ],
    "desc": "豆包助手和 WorkBuddy 首先是可以独立完成目标的 Agent 入口，不是必须把所有任务下放给 DeepSeek Harness 的路由前端。DeepSeek Harness",
    "wordCount": 5312
@@ -853,8 +722,7 @@ window.OBSIDIAN_DATA = {
     "全域智能体系统本体与健康治理"
    ],
    "backlinks": [
-    "Codex工作区/Memory Guard - 多Agent上下文连续性管理.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
+    "Codex工作区/Memory Guard - 多Agent上下文连续性管理.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 5666
@@ -883,9 +751,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
     "知识流水线/知识库健康巡检.md",
     "Codex工作区/每日跨项目复盘/2026-07-09.md",
-    "Codex工作区/每日跨项目复盘/2026-07-13.md",
-    "徐总每日随记/当日记录/2026-07-08.md",
-    "徐总每日随记/当日记录/2026-07-09.md"
+    "Codex工作区/每日跨项目复盘/2026-07-13.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 3796
@@ -1003,11 +869,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/原始资料/科技咨询项目交付Agent工程颗粒度选型.md",
     "企业AI与智能体商业化/原始资料/美团AI经营参谋与甘食记内部经营系统边界讨论.md",
     "知识流水线/A_原始资料.md",
-    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
     "知识流水线/知识库健康巡检.md",
-    "Codex工作区/每日跨项目复盘/2026-07-13.md",
-    "徐总每日随记/当日记录/2026-07-04.md",
-    "徐总每日随记/当日记录/2026-07-05.md"
+    "Codex工作区/每日跨项目复盘/2026-07-13.md"
    ],
    "desc": "定位：本页属于 企业AI与生产级Agent总框架 中的工程定义线。它负责定义生产级 Agent 的概念、标准、能力链路和验收口径；甘食记、美团、咨询公司、制造业等案例属于业务落地线",
    "wordCount": 44486
@@ -1031,8 +894,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/原始资料/GPT对话原稿：企业知识库与隐性经验资产化.md",
     "Codex工作区/Memory Guard - 多Agent上下文连续性管理.md",
     "Codex工作区/每日跨项目复盘/2026-07-09.md",
-    "Codex工作区/每日跨项目复盘/2026-07-13.md",
-    "徐总每日随记/当日记录/2026-07-09.md"
+    "Codex工作区/每日跨项目复盘/2026-07-13.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 5518
@@ -1052,7 +914,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
     "企业AI与智能体商业化/原始资料/科技咨询公司正式版知识库与RAG架构",
     "生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
-    "徐总每日随记/当日记录/2026-07-08",
+    "［内部笔记·不公开］/2026-07-08",
     "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
     "企业AI与生产级Agent总框架关系图",
     "三层知识库与RAG基础设施分型",
@@ -1071,9 +933,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/原始资料/GPT对话原稿：企业知识库与隐性经验资产化.md",
     "知识流水线/知识库健康巡检.md",
     "Codex工作区/每日跨项目复盘/2026-07-09.md",
-    "Codex工作区/每日跨项目复盘/2026-07-13.md",
-    "徐总每日随记/当日记录/2026-07-08.md",
-    "徐总每日随记/当日记录/2026-07-09.md"
+    "Codex工作区/每日跨项目复盘/2026-07-13.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 11644
@@ -1102,8 +962,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/原始资料/GPT对话原稿：企业知识库与隐性经验资产化.md",
     "企业AI与智能体商业化/原始资料/GPT对话原稿：隐性知识的工程化采集与入库机制.md",
     "Codex工作区/每日跨项目复盘/2026-07-09.md",
-    "Codex工作区/每日跨项目复盘/2026-07-13.md",
-    "徐总每日随记/当日记录/2026-07-08.md"
+    "Codex工作区/每日跨项目复盘/2026-07-13.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 8634
@@ -1114,9 +973,7 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-08-26",
    "topic": "agent",
    "links": [],
-   "backlinks": [
-    "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md"
-   ],
+   "backlinks": [],
    "desc": "快速判定\"谁在线\"：查看有哪些进程持有到飞书长连接服务器（125.64.35.248 / 125.64.35.249 / 182.x / msg-frontier.feishu.c",
    "wordCount": 4035
   },
@@ -1201,7 +1058,7 @@ window.OBSIDIAN_DATA = {
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
-    "徐总每日随记/当日记录/2026-08-12",
+    "［内部笔记·不公开］/2026-08-12",
     "企业AI与智能体商业化/己未文化AI落地首谈会议纪要：客户资产管理第一阶段",
     "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机",
     "企业AI与智能体商业化/FDE商业级智能体交付框架",
@@ -1443,8 +1300,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/知识库索引.md",
     "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
     "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
-    "知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作.md",
-    "徐总每日随记/当日记录/2026-07-04.md"
+    "知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作.md"
    ],
    "desc": "日期：2026-06-01",
    "wordCount": 12402
@@ -1730,7 +1586,7 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [
-    "徐总每日随记/当日记录/2026-06-10",
+    "［内部笔记·不公开］/2026-06-10",
     "多智能体双向连接架构_20260610"
    ],
    "backlinks": [],
@@ -2215,8 +2071,7 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
     "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
     "Codex工作区/每日跨项目复盘/2026-07-09.md",
-    "Codex工作区/每日跨项目复盘/2026-07-13.md",
-    "徐总每日随记/当日记录/2026-07-09.md"
+    "Codex工作区/每日跨项目复盘/2026-07-13.md"
    ],
    "desc": "创建日期：2026-07-05",
    "wordCount": 12106
@@ -2350,9 +2205,7 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-08-26",
    "topic": "enterprise",
    "links": [],
-   "backlinks": [
-    "徐总每日随记/当日记录/2026-06-10.md"
-   ],
+   "backlinks": [],
    "desc": "text",
    "wordCount": 2138
   },
@@ -2770,7 +2623,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
    "title": "李开复企业AI认知：从基座大模型到一号位工程",
-   "updated": "2026-08-26",
+   "updated": "2026-09-08",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/零一万物企业AI落地专题",
@@ -2785,7 +2638,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/A_原始资料.md"
    ],
    "desc": "上级：企业AI与智能体商业化/零一万物企业AI落地专题、企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
-   "wordCount": 4198
+   "wordCount": 5092
   },
   {
    "path": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md",
@@ -2860,7 +2713,7 @@ window.OBSIDIAN_DATA = {
    "links": [
     "FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
     "Palantir Ontology Pipeline商业模式与甘食记框架融合",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "企业AI与智能体商业化/资料池",
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
@@ -2914,8 +2767,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记Ontology对象网络设计.md",
     "企业AI与智能体商业化/飞书企业管理模块接入甘食记经营系统融合方案.md",
     "Codex工作区/每日跨项目复盘/2026-07-13.md",
-    "Codex工作区/每日跨项目复盘/2026-07-22.md",
-    "徐总每日随记/当日记录/2026-07-05.md"
+    "Codex工作区/每日跨项目复盘/2026-07-22.md"
    ],
    "desc": "日期：2026-06-18",
    "wordCount": 9302
@@ -3037,7 +2889,7 @@ window.OBSIDIAN_DATA = {
     "甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线",
     "客户业务API到经营分析与飞书多维表格闭环SOP",
     "甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "企业AI与智能体商业化/资料池"
    ],
    "backlinks": [
@@ -3188,7 +3040,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/玄学与东方智慧出海-内容策略与独立站电商体系-调研-20260811",
     "原始资料/已整理｜2026-08-12｜飞书妙记原始逐字稿｜己未文化AI落地首谈",
     "企业AI与智能体商业化/FDE商业级智能体交付框架",
-    "徐总每日随记/当日记录/2026-08-12",
+    "［内部笔记·不公开］/2026-08-12",
     "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
     "原始资料/已整理｜2026-08-12｜对话整理｜任务闭环与业务闭环分离-GrokBot数字岗位vs经营Agent",
     "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
@@ -3257,8 +3109,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
     "知识流水线/知识库健康巡检.md",
     "Codex工作区/每日跨项目复盘/2026-07-13.md",
-    "Codex工作区/每日跨项目复盘/2026-07-27.md",
-    "徐总每日随记/当日记录/2026-07-08.md"
+    "Codex工作区/每日跨项目复盘/2026-07-27.md"
    ],
    "desc": "创建日期：2026-07-02",
    "wordCount": 13457
@@ -3305,7 +3156,7 @@ window.OBSIDIAN_DATA = {
     "FDE搭建智能体落地：企业分级、平台选型与合规交付",
     "生产级AI Agent知识体系总览：层级·特性·术语",
     "可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
-    "徐总每日随记/当日记录/2026-08-11",
+    "［内部笔记·不公开］/2026-08-11",
     "原始资料/已整理｜2026-08-11｜访谈｜李开复AI现状与未来深度对话",
     "AI时代的FDE变体：从Palantir驻场模式到Agent工厂"
    ],
@@ -3748,9 +3599,7 @@ window.OBSIDIAN_DATA = {
     "../../AI Agent工程知识/AI Agent专业术语词典",
     "../蒸馏笔记"
    ],
-   "backlinks": [
-    "徐总每日随记/当日记录/2026-07-08.md"
-   ],
+   "backlinks": [],
    "desc": "来源：用户粘贴的 GPT 原对话",
    "wordCount": 6009
   },
@@ -3800,12 +3649,11 @@ window.OBSIDIAN_DATA = {
     "生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
     "生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
     "三层知识库与RAG基础设施分型",
-    "徐总每日随记/当日记录/2026-07-08",
+    "［内部笔记·不公开］/2026-07-08",
     "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈"
    ],
    "backlinks": [
-    "Codex工作区/每日跨项目复盘/2026-07-26.md",
-    "徐总每日随记/当日记录/2026-07-08.md"
+    "Codex工作区/每日跨项目复盘/2026-07-26.md"
    ],
    "desc": "- 日期：2026-07-08",
    "wordCount": 3937
@@ -3943,8 +3791,7 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
     "企业AI与智能体商业化/原始资料/GPT对话原稿：企业知识库与隐性经验资产化.md",
-    "企业AI与智能体商业化/原始资料/GPT对话原稿：隐性知识的工程化采集与入库机制.md",
-    "徐总每日随记/当日记录/2026-07-08.md"
+    "企业AI与智能体商业化/原始资料/GPT对话原稿：隐性知识的工程化采集与入库机制.md"
    ],
    "desc": "来源：用户与 Codex 关于“成熟科技咨询公司如何直接搭建知识库 / RAG / 数据库 / 状态机”的讨论",
    "wordCount": 4159
@@ -3999,8 +3846,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
     "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent.md",
     "企业AI与智能体商业化/原始资料/GPT对话原稿：ERP边界与生产级Agent数字化前置.md",
-    "企业AI与智能体商业化/原始资料/GPT对话原稿：线下餐饮门店数字化链路与Agent叠加点.md",
-    "徐总每日随记/当日记录/2026-07-05.md"
+    "企业AI与智能体商业化/原始资料/GPT对话原稿：线下餐饮门店数字化链路与Agent叠加点.md"
    ],
    "desc": "日期：2026-07-05",
    "wordCount": 10443
@@ -4599,9 +4445,9 @@ window.OBSIDIAN_DATA = {
     "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海",
     "原始资料/已整理｜2026-08-08｜抖音豆包｜三十亿智算中心利用率",
     "原始资料/已整理｜2026-08-07｜抖音豆包｜AI大模型果果姐AIAgent框架选错白忙三个月",
-    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
+    "［内部笔记·不公开］/沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
     "原始资料/已整理｜2026-08-08｜抖音豆包｜沟通能力强的人说话是什么样的",
-    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行",
+    "［内部笔记·不公开］：从政治成熟到闭环执行",
     "原始资料/已整理｜2026-08-08｜抖音豆包｜政治成熟优先级匹配精力",
     "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
     "原始资料/已整理｜2026-08-08｜抖音豆包｜用本体重塑企业AI语义基座",
@@ -4870,69 +4716,6 @@ window.OBSIDIAN_DATA = {
    "wordCount": 155
   },
   {
-   "path": "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
-   "title": "DeepSeek Harness 体系总览：运作原理与插件/能力包设计指南",
-   "updated": "2026-08-26",
-   "topic": "pipeline",
-   "links": [
-    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明",
-    "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）",
-    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2",
-    "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明",
-    "DeepSeek Harness项目/Material Office Capability Bundle V1 创建报告",
-    "DeepSeek Harness项目/DeepSeek Harness项目索引",
-    "DeepSeek Harness项目/DeepSeek Harness项目记录"
-   ],
-   "backlinks": [
-    "AI Agent工程知识/智能体使用逻辑问题复盘-垂直任务实践（旅行案例）.md",
-    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
-    "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）.md",
-    "DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录.md",
-    "DeepSeek Harness项目/游戏角色设计定版智能体-能力包设计草案V1.md"
-   ],
-   "desc": "DeepSeek Harness 是一个 Agent Runtime：模型负责推理，Harness 负责把推理接入真实世界。它不是\"再造一个聊天机器人\"，而是按插件标准组合模型、工",
-   "wordCount": 7836
-  },
-  {
-   "path": "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
-   "title": "DeepSeek Harness官方架构与本机控制中心分层说明",
-   "updated": "2026-08-26",
-   "topic": "pipeline",
-   "links": [
-    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南",
-    "知识流水线/知识流水线",
-    "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建",
-    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2",
-    "AI Agent工程知识/全域智能体框架总览",
-    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
-    "知识流水线/任务面板与Obsidian同步",
-    "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）"
-   ],
-   "backlinks": [
-    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
-    "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）.md",
-    "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明.md"
-   ],
-   "desc": "上级：知识流水线/知识流水线",
-   "wordCount": 6223
-  },
-  {
-   "path": "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）.md",
-   "title": "DeepSeek Harness 源码阅读地图（dsh-v0.1.0-rc.7）",
-   "updated": "2026-08-26",
-   "topic": "pipeline",
-   "links": [
-    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南",
-    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明"
-   ],
-   "backlinks": [
-    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
-    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md"
-   ],
-   "desc": "配置决定能力集合（base bundle）→ 循环推动工作（agent loop）→ 会话保存事实（session）→ 工具链约束动作（tools）。",
-   "wordCount": 3078
-  },
-  {
    "path": "知识流水线/Jarvis知识增长工作流总规则-整理草稿.md",
    "title": "Jarvis Office 知识增长工作流总规则（整理草稿）",
    "updated": "2026-08-26",
@@ -5117,7 +4900,6 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识流水线"
    ],
    "backlinks": [
-    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
     "知识流水线/Obsidian知识底座治理与知识自主生长方案.md",
     "Codex工作区/每日跨项目复盘/README.md",
     "任务面板与知识库/任务面板与Obsidian同步.md"
@@ -5246,10 +5028,10 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/AI Agent工程知识专题",
     "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海",
     "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
-    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
+    "［内部笔记·不公开］/沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
     "知识流水线/Mac Codex Obsidian知识库健康巡检专员启动提示词",
     "知识流水线/知识库健康巡检执行规范",
-    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行",
+    "［内部笔记·不公开］：从政治成熟到闭环执行",
     "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
     "AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率",
     "知识流水线/每日学习整理/2026-08-08｜AI知识增量整理",
@@ -5263,7 +5045,7 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/文秘助手项目记录",
     "企业AI与智能体商业化/FDE与AI架构师核心资产能力",
     "个人档案/个人档案",
-    "个人能力提升/个人能力提升",
+    "［内部笔记·不公开］",
     "个人健康/个人健康",
     "个人车辆/个人车辆",
     "Codex工作区/飞书多智能体会议流程：群协同与Obsidian拍板机制",
@@ -5291,7 +5073,7 @@ window.OBSIDIAN_DATA = {
     "法律/中国立法体系总览",
     "法律/法律专题",
     "知识流水线/每日学习整理/2026-07-31｜AI知识增量整理",
-    "个人能力提升/谈判与沟通/谈判与沟通专题",
+    "［内部笔记·不公开］/谈判与沟通专题",
     "个人健康/体重管理",
     "知识流水线/C_方法与Skill",
     "全局记忆/11_Obsidian知识库协作与Skills使用规则",
@@ -5456,7 +5238,6 @@ window.OBSIDIAN_DATA = {
     "知识流水线/B_知识蒸馏.md",
     "知识流水线/C_方法与Skill.md",
     "知识流水线/D_输出成果.md",
-    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
     "知识流水线/Obsidian知识底座治理与知识自主生长方案.md",
     "知识流水线/WikiLLM知识库编译方法论.md",
     "知识流水线/个人工作台设计与部署方法论.md",
@@ -5598,8 +5379,7 @@ window.OBSIDIAN_DATA = {
    "topic": "codex",
    "links": [],
    "backlinks": [
-    "Codex工作区/每日跨项目复盘/2026-08-16.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
+    "Codex工作区/每日跨项目复盘/2026-08-16.md"
    ],
    "desc": "结论摘要：subagentm3（MiniMax-M3 子代理派发）本身完全可用。此前调用报 Error: subagent run failed 是端点点错了：Harness 的 ",
    "wordCount": 2303
@@ -6036,8 +5816,6 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "Codex工作区/每日跨项目复盘/2026-07-10.md",
     "Codex工作区/飞书多智能体连接基线与故障域.md",
-    "徐总每日随记/当日记录/2026-07-04.md",
-    "徐总每日随记/当日记录/2026-07-10.md",
     "Codex/Codex专题.md",
     "Codex/Codex五级用法演进模型.md"
    ],
@@ -6205,7 +5983,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
     "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
     "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
@@ -6221,8 +5999,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/蒸馏笔记",
     "企业AI与智能体商业化/资料池",
     "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent",
-    "徐总每日随记/当日记录/2026-07-08",
-    "徐总每日随记/当日记录/2026-07-09",
+    "［内部笔记·不公开］/2026-07-08",
+    "［内部笔记·不公开］/2026-07-09",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
    ],
@@ -6242,7 +6020,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "全局记忆/05_平台差异",
     "Codex工作区/多端 Codex 协作架构",
     "全局记忆/12_Codex跨项目永久记忆与自动复盘",
@@ -6257,7 +6035,7 @@ window.OBSIDIAN_DATA = {
     "全局记忆/00_总览.md",
     "全局记忆/02_系统架构.md",
     "全局记忆/05_平台差异.md",
-    "徐总每日随记/当日记录/2026-07-10.md",
+    "［内部笔记·不公开］/2026-07-10.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
    ],
@@ -6277,7 +6055,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "AI Agent工程知识/AI Agent专业术语词典.md",
     "AI Agent工程知识/AI Agent工程知识专题.md",
     "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
@@ -6318,7 +6096,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-11.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
@@ -6339,7 +6117,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维.md",
     "AI Agent工程知识/AI Agent工程知识专题.md",
     "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
@@ -6389,14 +6167,14 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "个人健康/华西医院就诊经验",
     "个人健康/个人健康",
-    "徐总每日随记/当日记录/当日记录说明",
+    "［内部笔记·不公开］/当日记录说明",
     "Codex工作区/每日跨项目复盘/2026-07-13.md",
     "个人健康/个人健康.md",
     "个人健康/华西医院就诊经验.md",
-    "徐总每日随记/当日记录/2026-07-14.md",
+    "［内部笔记·不公开］/2026-07-14.md",
     "徐总的知识库.md",
     "知识库索引.md",
     "徐总的知识库",
@@ -6418,7 +6196,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-14.md",
     "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
     "企业AI与智能体商业化/FDE搭建智能体落地：企业分级、平台选型与合规交付.md",
@@ -6427,8 +6205,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
     "企业AI与智能体商业化/原始资料/行业视频原稿：交付结果而非交付工具，Vibe Coding打开企业付费意愿.md",
     "企业AI与智能体商业化/知识库索引.md",
-    "徐总每日随记/主题归档/健康身体.md",
-    "徐总每日随记/当日记录/2026-07-14.md",
+    "［内部笔记·不公开］/健康身体.md",
+    "［内部笔记·不公开］/2026-07-14.md",
     "知识库索引.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
@@ -6449,7 +6227,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-15.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
@@ -6470,10 +6248,10 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-16.md",
-    "个人能力提升/谈判与沟通/请贵人与领导吃饭的邀约方法：三种降低决策成本的话术.md",
-    "个人能力提升/谈判与沟通/谈判与沟通专题.md",
+    "［内部笔记·不公开］/请贵人与领导吃饭的邀约方法：三种降低决策成本的话术.md",
+    "［内部笔记·不公开］/谈判与沟通专题.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
    ],
@@ -6493,7 +6271,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-17.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
@@ -6514,7 +6292,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-18.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
@@ -6535,7 +6313,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-19.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
@@ -6556,7 +6334,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-20.md",
     "个人健康/个人健康.md",
     "个人健康/体重管理.md",
@@ -6569,7 +6347,7 @@ window.OBSIDIAN_DATA = {
     "全局记忆/11_Obsidian知识库协作与Skills使用规则.md",
     "全局记忆/13_Obsidian新增更新内容强制收口协作规则.md",
     "全局记忆/原始资料｜Obsidian新增更新内容强制收口协作规则（用户原文）.md",
-    "徐总每日随记/主题归档/健康身体.md",
+    "［内部笔记·不公开］/健康身体.md",
     "徐总的知识库.md",
     "知识库索引.md",
     "徐总的知识库",
@@ -6592,7 +6370,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-21.md",
     "个人健康/体重管理.md",
     "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂.md",
@@ -6622,14 +6400,14 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "个人健康/体重管理",
     "Codex工作区/每日跨项目复盘/2026-07-22.md",
     "个人健康/体重管理.md",
     "个人车辆/个人车辆.md",
     "个人车辆/个人车辆",
     "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案.md",
-    "徐总每日随记/当日记录/2026-07-23.md",
+    "［内部笔记·不公开］/2026-07-23.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
    ],
@@ -6650,7 +6428,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "Codex工作区/Codex工作区.md",
     "Codex工作区/飞书多智能体会议流程：群协同与Obsidian拍板机制",
     "Codex工作区/全域AI工具模型配置.md",
@@ -6684,11 +6462,11 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "个人健康/体重管理",
     "Codex工作区/每日跨项目复盘/2026-07-24.md",
     "个人健康/体重管理.md",
-    "徐总每日随记/当日记录/2026-07-25.md",
+    "［内部笔记·不公开］/2026-07-25.md",
     "徐总的知识库",
     "Codex工作区/文秘助手项目记录"
    ],
@@ -6708,7 +6486,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "Codex工作区/Codex工作区.md",
     "Codex工作区/全域AI工具模型配置.md",
     "Codex工作区/每日跨项目复盘/2026-07-21.md",
@@ -6749,7 +6527,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "Codex工作区/Codex Slides PPT 生产工作流.md",
     "Codex工作区/Codex工作区.md",
     "Codex工作区/新 Codex 对话启动入口.md",
@@ -6784,7 +6562,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "个人健康/体重管理",
     "个人车辆/个人车辆",
     "AI Agent工程知识/AI Agent专业术语词典.md",
@@ -6818,7 +6596,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/蒸馏笔记.md",
     "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
     "企业AI与智能体商业化/零一万物FDE与企业AI落地模式.md",
-    "徐总每日随记/当日记录/2026-07-28.md",
+    "［内部笔记·不公开］/2026-07-28.md",
     "知识库索引.md",
     "知识流水线/知识库健康巡检.md",
     "徐总的知识库",
@@ -6840,7 +6618,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/甘食记经营系统1.0框架总结",
     "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP",
     "Codex工作区/甘食记WorkBuddy_v2架构升级记录",
-    "徐总每日随记/当日记录/2026-06-17",
+    "［内部笔记·不公开］/2026-06-17",
     "Codex工作区/每日跨项目复盘/2026-07-28.md",
     "个人健康/体重管理.md",
     "个人车辆/个人车辆.md",
@@ -6887,7 +6665,7 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/任务面板每日工作日志机制：从执行态到日级进展档案",
     "Codex工作区/智能体协作-任务面板操作手册",
     "Codex工作区/多智能体分派框架复核：Codex主控、DK子Agent与外部Agent协作",
-    "徐总每日随记/当日记录/2026-08-05"
+    "［内部笔记·不公开］/2026-08-05"
    ],
    "backlinks": [
     "知识流水线/知识库健康巡检.md",
@@ -6948,7 +6726,7 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/Codex工作区",
     "Codex工作区/任务面板每日工作日志机制：从执行态到日级进展档案",
     "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海",
-    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行",
+    "［内部笔记·不公开］：从政治成熟到闭环执行",
     "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象",
     "AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率",
     "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow",
@@ -7255,8 +7033,7 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/每日跨项目复盘/2026-07-26.md",
     "Codex工作区/每日跨项目复盘/2026-07-27.md",
     "Codex工作区/每日跨项目复盘/2026-07-28.md",
-    "Codex工作区/每日跨项目复盘/2026-07-29.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
+    "Codex工作区/每日跨项目复盘/2026-07-29.md"
    ],
    "desc": "这个文件用于区分“真正项目目录”“Codex 会话目录”和“长期知识库”，同时为平板 Codex 与 Mac Codex 提供统一的 工作区 入口。",
    "wordCount": 2980
@@ -7311,503 +7088,6 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "飞书机器人连接不是一个整体系统，而是三段独立链路：飞书事件推送、机器人桥接进程、模型/Agent 执行器。排障必须按链路逐段验收，不能因为机器人能收到消息，就推断 Codex、Qo",
    "wordCount": 11295
-  },
-  {
-   "path": "DeepSeek Harness项目/Capability 分层审计报告 Friday-Jarvis 2026-08-20.md",
-   "title": "Capability 分层审计报告：Friday / Jarvis Preset",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [],
-   "backlinks": [
-    "DeepSeek Harness项目/DSH_贾维斯模式新建.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
-   ],
-   "desc": "- 审计者：Harness Capability Governance Advisor（governance preset，V0.1）",
-   "wordCount": 2921
-  },
-  {
-   "path": "DeepSeek Harness项目/DSH Marketplace 插件启用过程 2026-08-26.md",
-   "title": "DSH Marketplace 插件启用过程 2026-08-26",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [
-    "DSH v0.1.1-rc.2 升级副本验证记录",
-    "DeepSeek Harness 全流程拉通总结 2026-08-19~22",
-    "DeepSeek Harness 插件体系结构官方分层说明",
-    "DeepSeek Harness项目记录",
-    "DeepSeek Harness项目索引"
-   ],
-   "backlinks": [],
-   "desc": "周五（Friday）在徐总指示下，把社区 npm 包 dshmarket@1.29.2 通过官方 dsh plugin --profile web add 命令装进 rc.2 验证",
-   "wordCount": 3829
-  },
-  {
-   "path": "DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录.md",
-   "title": "DSH v0.1.1-rc.2 升级副本验证记录",
-   "updated": "2026-09-01",
-   "topic": "harness",
-   "links": [
-    "DeepSeek Harness项目/DeepSeek Harness项目索引",
-    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南"
-   ],
-   "backlinks": [
-    "DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研.md",
-    "DeepSeek Harness项目/DSH第三方插件适配新版本官方标准.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
-   ],
-   "desc": "rc.8 起 Claude Code / Codex 变成可安装的 Profile Bundle 子代理插件包——与我们的\"主控编排\"思路契合（Friday 主控可派发编码任务给 ",
-   "wordCount": 11723
-  },
-  {
-   "path": "DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研.md",
-   "title": "DSH 插件在 alpha 版本的独立安装方案与兼容性调研",
-   "updated": "2026-09-05",
-   "topic": "harness",
-   "links": [
-    "DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录",
-    "DeepSeek Harness项目/DeepSeek Harness项目索引",
-    "DeepSeek Harness项目/DeepSeek Harness搭建记录"
-   ],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
-   ],
-   "desc": "1. 机制可行：alpha 与 rc.2 一样，插件唯一官方入口是 dsh plugin --profile web add <pkg>（pnpm 转发器，装完自动 reconci",
-   "wordCount": 3973
-  },
-  {
-   "path": "DeepSeek Harness项目/DSH_贾维斯模式新建.md",
-   "title": "DSH 贾维斯模式新建",
-   "updated": "2026-08-30",
-   "topic": "harness",
-   "links": [
-    "DeepSeek Harness项目/DeepSeek Harness搭建记录",
-    "DeepSeek Harness项目/Jarvis Capability Extraction Audit Report V1 2026-08-20",
-    "DeepSeek Harness项目/Capability 分层审计报告 Friday-Jarvis 2026-08-20",
-    "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同"
-   ],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
-   ],
-   "desc": "1. 主控不抢执行活：不要自己挨个点工具，扔给子代理",
-   "wordCount": 1830
-  },
-  {
-   "path": "DeepSeek Harness项目/DSH第三方插件适配新版本官方标准.md",
-   "title": "DSH第三方插件适配新版本（≥ rc.8）官方标准",
-   "updated": "2026-08-28",
-   "topic": "harness",
-   "links": [
-    "DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录",
-    "DeepSeek Harness项目/DeepSeek Harness项目索引"
-   ],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
-   ],
-   "desc": "❌ 旧写法（不能用，启动失败）：",
-   "wordCount": 2821
-  },
-  {
-   "path": "DeepSeek Harness项目/DeepSeek Harness Doctor 插件设计.md",
-   "title": "DeepSeek Harness Doctor 插件设计",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
-   ],
-   "desc": "Harness Doctor 不是独立监控底座，而是基于 dsh 已有能力的体检层：",
-   "wordCount": 12912
-  },
-  {
-   "path": "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）.md",
-   "title": "DeepSeek Harness 专属插件搭建指南（Alpha4 版）",
-   "updated": "2026-09-05",
-   "topic": "harness",
-   "links": [
-    "DeepSeek Harness项目/DeepSeek Harness搭建记录",
-    "DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研",
-    "DeepSeek Harness项目/DSH第三方插件适配新版本官方标准",
-    "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明",
-    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2",
-    "DeepSeek Harness项目/DeepSeek Harness项目索引"
-   ],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
-   ],
-   "desc": "其他版本（rc.7=47880 / rc.2=47900）同理，只需把 DSHHOME 和 launchd 标签换成对应实例。",
-   "wordCount": 2868
-  },
-  {
-   "path": "DeepSeek Harness项目/DeepSeek Harness 会话轨迹报错排查 SOP.md",
-   "title": "DeepSeek Harness 会话轨迹报错排查 SOP",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [
-    "DeepSeek Harness项目/DeepSeek Harness项目索引"
-   ],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
-   ],
-   "desc": "Harness 把每一次操作的完整轨迹按顺序写进会话日志（JSONL 压缩）：",
-   "wordCount": 3253
-  },
-  {
-   "path": "DeepSeek Harness项目/DeepSeek Harness 全流程拉通总结 2026-08-19~22.md",
-   "title": "DeepSeek Harness 全流程拉通总结 2026-08-19~22",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [
-    "DeepSeek Harness项目/DeepSeek Harness项目索引",
-    "DeepSeek Harness项目/DeepSeek Harness项目记录",
-    "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同",
-    "DeepSeek Harness项目/Harness 自由边界与分级治理",
-    "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明"
-   ],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
-   ],
-   "desc": "上级：DeepSeek Harness项目/DeepSeek Harness项目索引",
-   "wordCount": 7403
-  },
-  {
-   "path": "DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南.md",
-   "title": "DeepSeek Harness 官方资源与插件开发指南",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [
-    "DeepSeek Harness项目/DeepSeek Harness项目记录",
-    "AI Agent工程知识/AI Agent工程知识专题",
-    "全局记忆/智能体启动与身份连续性统一合同"
-   ],
-   "backlinks": [
-    "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
-   ],
-   "desc": "本文档是 DeepSeek Harness 官方外部资源的汇总索引，按插件开发的重要性排序。要做标准化插件开发，按本文标注的优先级阅读即可。",
-   "wordCount": 3959
-  },
-  {
-   "path": "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明.md",
-   "title": "DeepSeek Harness 插件体系结构官方分层说明",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [
-    "DeepSeek Harness项目/DeepSeek Harness项目索引",
-    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2",
-    "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明"
-   ],
-   "backlinks": [
-    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
-    "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）.md",
-    "DeepSeek Harness项目/DeepSeek Harness 全流程拉通总结 2026-08-19~22.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目记录.md",
-    "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同.md"
-   ],
-   "desc": "上级：DeepSeek Harness项目/DeepSeek Harness项目索引",
-   "wordCount": 5774
-  },
-  {
-   "path": "DeepSeek Harness项目/DeepSeek Harness插件写回验收测试.md",
-   "title": "DeepSeek Harness 插件写回验收测试",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
-   ],
-   "desc": "本页由 assembled Headless Session 在 2026-08-15 写入，用于验证 Taskboard 与 Obsidian 插件在同一 Harness 流程中",
-   "wordCount": 243
-  },
-  {
-   "path": "DeepSeek Harness项目/DeepSeek Harness插件审核联动验收.md",
-   "title": "DeepSeek Harness 插件审核联动验收",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
-   ],
-   "desc": "本页验证 Taskboard 任务读取、Harness 审核和 Obsidian 受控写回的联动。",
-   "wordCount": 118
-  },
-  {
-   "path": "DeepSeek Harness项目/DeepSeek Harness搭建记录.md",
-   "title": "DeepSeek Harness 搭建记录",
-   "updated": "2026-09-07",
-   "topic": "harness",
-   "links": [
-    "DeepSeek Harness 插件与模式设计规范 V1.0",
-    "DSH Marketplace 插件启用过程 2026-08-26",
-    "DSH 插件在 alpha 版本的独立安装方案与兼容性调研",
-    "DSH第三方插件适配新版本官方标准",
-    "DeepSeek Harness 插件体系结构官方分层说明",
-    "DeepSeek Harness项目索引"
-   ],
-   "backlinks": [
-    "DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研.md",
-    "DeepSeek Harness项目/DSH_贾维斯模式新建.md",
-    "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
-   ],
-   "desc": "Jarvis Office 不是工具菜单，而是一个“资料采集与知识整理 Agent”。四个主模块组成一条业务流水线：知识中心负责接收和分流，信息处理负责提取和加工，文档中心负责整理",
-   "wordCount": 335271
-  },
-  {
-   "path": "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
-   "title": "DeepSeek Harness 项目索引",
-   "updated": "2026-09-05",
-   "topic": "harness",
-   "links": [
-    "DeepSeek Harness项目/DeepSeek Harness项目记录",
-    "DeepSeek Harness项目/DeepSeek Harness搭建记录",
-    "DeepSeek Harness项目/DSH_贾维斯模式新建",
-    "DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南",
-    "DeepSeek Harness项目/DeepSeek Harness 会话轨迹报错排查 SOP",
-    "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明",
-    "DeepSeek Harness项目/DeepSeek Harness Doctor 插件设计",
-    "DeepSeek Harness项目/DeepSeek Harness插件写回验收测试",
-    "DeepSeek Harness项目/DeepSeek Harness插件审核联动验收",
-    "DeepSeek Harness项目/Harness Capability Governance Agent Preset V0.1 规格与落地任务书",
-    "DeepSeek Harness项目/Capability 分层审计报告 Friday-Jarvis 2026-08-20",
-    "DeepSeek Harness项目/Harness Capability Governance Advisor V0.2 升级方案与完成报告",
-    "DeepSeek Harness项目/Jarvis Capability Extraction Audit Report V1 2026-08-20",
-    "DeepSeek Harness项目/Material Office Capability Bundle Design V1",
-    "DeepSeek Harness项目/Governance Agent V0.2.1 Capability Architecture Review Report",
-    "DeepSeek Harness项目/Material Office Capability Bundle V1 创建报告",
-    "DeepSeek Harness项目/Harness Capability Governance Advisor V0.3 升级与 Plugin 审查报告",
-    "DeepSeek Harness项目/Harness Governance Runtime Audit Upgrade Report",
-    "DeepSeek Harness项目/Harness 自由边界与分级治理",
-    "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同",
-    "DeepSeek Harness项目/DeepSeek Harness 全流程拉通总结 2026-08-19~22",
-    "DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录",
-    "DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研",
-    "DeepSeek Harness项目/DSH第三方插件适配新版本官方标准",
-    "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）",
-    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.1",
-    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2",
-    "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建",
-    "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环",
-    "DSH Marketplace 插件启用过程 2026-08-26"
-   ],
-   "backlinks": [
-    "AI Agent工程知识/AI Agent工程知识专题.md",
-    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
-    "DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录.md",
-    "DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研.md",
-    "DeepSeek Harness项目/DSH第三方插件适配新版本官方标准.md",
-    "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）.md",
-    "DeepSeek Harness项目/DeepSeek Harness 会话轨迹报错排查 SOP.md",
-    "DeepSeek Harness项目/DeepSeek Harness 全流程拉通总结 2026-08-19~22.md",
-    "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明.md",
-    "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同.md"
-   ],
-   "desc": "- DeepSeek Harness项目/DeepSeek Harness项目记录 — 项目长期入口，从零搭建到控制中心闭环完整建设总览",
-   "wordCount": 11913
-  },
-  {
-   "path": "DeepSeek Harness项目/DeepSeek Harness项目记录.md",
-   "title": "DeepSeek Harness 项目记录",
-   "updated": "2026-08-31",
-   "topic": "harness",
-   "links": [
-    "DeepSeek Harness项目/DeepSeek Harness插件写回验收测试",
-    "DeepSeek Harness项目/DeepSeek Harness插件审核联动验收",
-    "Codex工作区/项目索引",
-    "任务面板与知识库/方向推进与接力",
-    "AI Agent工程知识/AI Agent工程知识专题",
-    "AI Agent工程知识/工业级多智能体协作系统设计：任务编排、依赖治理与结果对齐",
-    "全局记忆/智能体启动与身份连续性统一合同",
-    "DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南",
-    "Codex工作区/2026-08-16_MiniMax-M3端点故障修复",
-    "徐总每日随记/当日记录/2026-08-19",
-    "徐总每日随记/当日记录/2026-08-20",
-    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.1",
-    "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同",
-    "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明",
-    "搭建记录",
-    "AI Agent工程知识/多Agent协作架构-豆包助手WorkBuddyFridayCodex全链路",
-    "豆包工作区/dsh-send.py",
-    "豆包工作区/dsh-send-README"
-   ],
-   "backlinks": [
-    "AI Agent工程知识/AI Agent工程知识专题.md",
-    "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md",
-    "知识流水线/A_原始资料.md",
-    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
-    "知识流水线/知识库健康巡检.md",
-    "Codex工作区/Codex工作区.md",
-    "Codex工作区/每日跨项目复盘/2026-08-16.md",
-    "Codex工作区/项目索引.md",
-    "DeepSeek Harness项目/DeepSeek Harness 全流程拉通总结 2026-08-19~22.md",
-    "DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
-    "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同.md"
-   ],
-   "desc": "这是 DeepSeek Harness 独立实验项目的长期入口。项目目标是基于 DeepSeek 官方 Developer Preview，验证 Harness 的插件、Profi",
-   "wordCount": 66104
-  },
-  {
-   "path": "DeepSeek Harness项目/Governance Agent V0.2.1 Capability Architecture Review Report.md",
-   "title": "Governance Agent V0.2.1 Capability Architecture Review Report",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
-   ],
-   "desc": "---",
-   "wordCount": 5243
-  },
-  {
-   "path": "DeepSeek Harness项目/Harness Capability Governance Advisor V0.2 升级方案与完成报告.md",
-   "title": "Harness Capability Governance Advisor V0.1 → V0.2 升级方案",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
-   ],
-   "desc": "- 日期：2026-08-20",
-   "wordCount": 3182
-  },
-  {
-   "path": "DeepSeek Harness项目/Harness Capability Governance Advisor V0.3 升级与 Plugin 审查报告.md",
-   "title": "Harness Capability Governance Advisor V0.3 升级与 Plugin 审查报告",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
-   ],
-   "desc": "两者均为只读审查，输出结论与整改建议，落地走 change-management（CR）。",
-   "wordCount": 2244
-  },
-  {
-   "path": "DeepSeek Harness项目/Harness Capability Governance Agent Preset V0.1 规格与落地任务书.md",
-   "title": "Harness Capability Governance Advisor Preset V0.1 — 规格与落地任务书",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
-   ],
-   "desc": "- 版本：V0.1（最小版）",
-   "wordCount": 6281
-  },
-  {
-   "path": "DeepSeek Harness项目/Harness Governance Runtime Audit Upgrade Report.md",
-   "title": "Harness Governance Runtime Audit Upgrade Report",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
-   ],
-   "desc": "判定：PASS / FAIL / PASS WITH CONDITIONS / REVISION REQUIRED（Agent Revision Request，不代写 Perso",
-   "wordCount": 5198
-  },
-  {
-   "path": "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同.md",
-   "title": "Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [
-    "DeepSeek Harness项目/DeepSeek Harness项目索引",
-    "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明",
-    "DeepSeek Harness项目/DeepSeek Harness项目记录",
-    "DeepSeek Harness项目/Harness 自由边界与分级治理"
-   ],
-   "backlinks": [
-    "DeepSeek Harness项目/DSH_贾维斯模式新建.md",
-    "DeepSeek Harness项目/DeepSeek Harness 全流程拉通总结 2026-08-19~22.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
-   ],
-   "desc": "上级：DeepSeek Harness项目/DeepSeek Harness项目索引",
-   "wordCount": 2263
-  },
-  {
-   "path": "DeepSeek Harness项目/Harness 自由边界与分级治理.md",
-   "title": "Harness 自由边界与分级治理（方法论定稿 2026-08-20）",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness 全流程拉通总结 2026-08-19~22.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
-    "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同.md"
-   ],
-   "desc": "自由体现在：可以创造新的 Plugin、Preset，组合 Skill / Workflow / Service / UI，改造界面与运行方式。",
-   "wordCount": 1427
-  },
-  {
-   "path": "DeepSeek Harness项目/Jarvis Capability Extraction Audit Report V1 2026-08-20.md",
-   "title": "Jarvis Capability Extraction Audit Report V1",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [],
-   "backlinks": [
-    "DeepSeek Harness项目/DSH_贾维斯模式新建.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
-   ],
-   "desc": "---",
-   "wordCount": 20433
-  },
-  {
-   "path": "DeepSeek Harness项目/Jarvis Workbench、Harness Plugin、Workflow 与官方验收标准.md",
-   "title": "Jarvis Workbench、Harness Plugin、Workflow 与官方验收标准",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [],
-   "backlinks": [],
-   "desc": "本文合并两份已审核搭建记录，整合Jarvis Workbench 资料流水线、Harness 插件开发、模型配置、子代理与协作规则和官方验收标准，形成完整归档。",
-   "wordCount": 23202
-  },
-  {
-   "path": "DeepSeek Harness项目/Material Office Capability Bundle Design V1.md",
-   "title": "Material Office Capability Bundle Design V1",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
-   ],
-   "desc": "边界原则：Persona 只回答\"我是谁、我怎么判断边界、我何时交还主控\"；回答\"业务怎么做\"的，一律下沉。",
-   "wordCount": 7608
-  },
-  {
-   "path": "DeepSeek Harness项目/Material Office Capability Bundle V1 创建报告.md",
-   "title": "Material Office Capability Bundle V1 创建报告",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [],
-   "backlinks": [
-    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
-    "DeepSeek Harness项目/游戏角色设计定版智能体-能力包设计草案V1.md"
-   ],
-   "desc": "workflow.material-office.lifecycle（workflows/material-lifecycle/WORKFLOW.md）",
-   "wordCount": 4207
-  },
-  {
-   "path": "DeepSeek Harness项目/游戏角色设计定版智能体-能力包设计草案V1.md",
-   "title": "游戏角色设计定版智能体-能力包设计草案 V1",
-   "updated": "2026-08-26",
-   "topic": "harness",
-   "links": [
-    "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南",
-    "DeepSeek Harness项目/Material Office Capability Bundle V1 创建报告",
-    "原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地"
-   ],
-   "backlinks": [],
-   "desc": "业务：游戏角色从概念到定版的全流程（当前靠人：6 小时评审会 + 通用生图\"一周 8000 张只挑 10 张\"）。",
-   "wordCount": 3679
   },
   {
    "path": "多智能体协作任务/2026-09-02｜全域主控与项目Agent协作流程搭建复盘.md",
@@ -7891,8 +7171,7 @@ window.OBSIDIAN_DATA = {
     "任务面板与知识库/多智能体协作工作台：WorkBuddy豆包Codex与Harness Alpha设计"
    ],
    "backlinks": [
-    "多智能体协作任务/AI-Office独立网页版产品化规划-Codex建议.md",
-    "徐总每日随记/当日记录/2026-09-01.md"
+    "多智能体协作任务/AI-Office独立网页版产品化规划-Codex建议.md"
    ],
    "desc": "上级：多智能体协作任务/多智能体协作任务专题",
    "wordCount": 8212
@@ -7989,7 +7268,6 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录"
    ],
    "backlinks": [
-    "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md",
     "豆包工作区/多Agent协作架构.md"
    ],
    "desc": "1. 搭建 DSH Alpha 版本（47911），具备插件市场能力",
@@ -8142,8 +7420,7 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/每日跨项目复盘/2026-08-14.md",
     "Codex工作区/每日跨项目复盘/2026-08-15.md",
     "Codex工作区/每日跨项目复盘/2026-08-16.md",
-    "Codex工作区/每日跨项目复盘/每日跨项目复盘说明.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
+    "Codex工作区/每日跨项目复盘/每日跨项目复盘说明.md"
    ],
    "desc": "上级：任务面板与知识库/00总入口、全局记忆/智能体启动与身份连续性统一合同",
    "wordCount": 2643
@@ -8782,1008 +8059,10 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识库健康巡检.md",
     "知识流水线/知识流水线.md",
     "政府资源配置与政策落地机制/政府资源配置与政策落地机制专题.md",
-    "政府资源配置与政策落地机制/省委专题会议支持天府新区：省级资源配置平台化案例.md",
-    "个人能力提升/谈判与沟通/合同争议谈判前置判断框架：从履约结构到和解区间.md"
+    "政府资源配置与政策落地机制/省委专题会议支持天府新区：省级资源配置平台化案例.md"
    ],
    "desc": "上级：徐总的知识库",
    "wordCount": 1012
-  },
-  {
-   "path": "个人能力提升/AI核实信息方法论：单平台状态不等于真实状态.md",
-   "title": "AI 核实信息方法论：单平台状态 ≠ 真实状态，多源交叉是底线",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [
-    "个人能力提升/个人能力提升",
-    "个人能力提升/个人能力提升核心能力框架",
-    "徐总的知识库"
-   ],
-   "backlinks": [],
-   "desc": "上级：个人能力提升/个人能力提升",
-   "wordCount": 1408
-  },
-  {
-   "path": "个人能力提升/ChatGPT导出包中的个人能力提升归类.md",
-   "title": "ChatGPT导出包中的个人能力提升归类",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [
-    "个人能力提升/个人能力提升",
-    "个人能力提升/个人能力提升核心能力框架",
-    "徐总的知识库"
-   ],
-   "backlinks": [
-    "个人能力提升/个人能力提升.md",
-    "个人能力提升/个人能力提升核心能力框架.md",
-    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
-   ],
-   "desc": "上级：个人能力提升/个人能力提升",
-   "wordCount": 878
-  },
-  {
-   "path": "个人能力提升/个人能力提升.md",
-   "title": "个人能力提升",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [
-    "徐总的知识库",
-    "徐总每日随记/徐总每日随记",
-    "个人能力提升/个人能力提升",
-    "个人能力提升/个人能力提升核心能力框架",
-    "个人能力提升/谈判与沟通/谈判与沟通专题",
-    "个人能力提升/组织信任与闭环执行：从执行者到共谋者",
-    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行",
-    "个人能力提升/ChatGPT导出包中的个人能力提升归类",
-    "个人能力提升/对话归档/原始对话｜沟通与谈判",
-    "个人能力提升/对话归档/原始对话｜博弈谈判模型",
-    "个人能力提升/对话归档/原始对话｜博弈思维对标模型"
-   ],
-   "backlinks": [
-    "知识流水线/知识库健康巡检.md",
-    "个人能力提升/AI核实信息方法论：单平台状态不等于真实状态.md",
-    "个人能力提升/ChatGPT导出包中的个人能力提升归类.md",
-    "个人能力提升/个人能力提升核心能力框架.md",
-    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行.md",
-    "个人能力提升/组织信任与闭环执行：从执行者到共谋者.md",
-    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
-   ],
-   "desc": "上级：徐总的知识库",
-   "wordCount": 1363
-  },
-  {
-   "path": "个人能力提升/个人能力提升核心能力框架.md",
-   "title": "个人能力提升核心能力框架",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [
-    "个人能力提升/个人能力提升",
-    "个人能力提升/ChatGPT导出包中的个人能力提升归类",
-    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
-    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾",
-    "徐总的知识库",
-    "个人能力提升/谈判与沟通/谈判与沟通专题",
-    "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈错误模式与场景卡",
-    "个人能力提升核心能力框架",
-    "个人能力提升/组织信任与闭环执行：从执行者到共谋者",
-    "原始资料/已整理｜2026-08-05｜ChatGPT｜组织信任建立与闭环能力",
-    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行",
-    "原始资料/已整理｜2026-08-08｜抖音豆包｜政治成熟优先级匹配精力"
-   ],
-   "backlinks": [
-    "个人能力提升/AI核实信息方法论：单平台状态不等于真实状态.md",
-    "个人能力提升/ChatGPT导出包中的个人能力提升归类.md",
-    "个人能力提升/个人能力提升.md",
-    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行.md",
-    "个人能力提升/组织信任与闭环执行：从执行者到共谋者.md",
-    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
-   ],
-   "desc": "上级：个人能力提升/个人能力提升",
-   "wordCount": 6622
-  },
-  {
-   "path": "个人能力提升/对话归档/原始对话｜博弈思维对标模型.md",
-   "title": "原始对话｜博弈思维对标模型",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [],
-   "backlinks": [
-    "个人能力提升/个人能力提升.md",
-    "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集.md",
-    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾.md"
-   ],
-   "desc": "来源：ChatGPT 导出包 ChatGPT File Jun 21 2026.zip",
-   "wordCount": 3495
-  },
-  {
-   "path": "个人能力提升/对话归档/原始对话｜博弈谈判模型.md",
-   "title": "原始对话｜博弈谈判模型",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [],
-   "backlinks": [
-    "个人能力提升/个人能力提升.md",
-    "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集.md",
-    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾.md"
-   ],
-   "desc": "来源：ChatGPT 导出包 ChatGPT File Jun 21 2026.zip",
-   "wordCount": 140749
-  },
-  {
-   "path": "个人能力提升/对话归档/原始对话｜沟通与谈判.md",
-   "title": "原始对话｜沟通与谈判",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [],
-   "backlinks": [
-    "个人能力提升/个人能力提升.md",
-    "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集.md",
-    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达.md"
-   ],
-   "desc": "来源：ChatGPT 导出包 ChatGPT File Jun 21 2026.zip",
-   "wordCount": 97666
-  },
-  {
-   "path": "个人能力提升/承载力与高阶政治成熟：压力、人性与混沌中的定力.md",
-   "title": "承载力与高阶政治成熟：压力、人性与混沌中的定力",
-   "updated": "2026-09-07",
-   "topic": "growth",
-   "links": [
-    "原始资料/已整理｜2026-09-02｜抖音｜承载力：职场高阶的政治成熟与四层认知觉醒"
-   ],
-   "backlinks": [],
-   "desc": "承载力是从“会做事”走向“能扛住复杂局面”的能力，核心不是压抑情绪，而是在压力、人性不确定和信息不完整的情况下，仍能稳住自己、稳住节奏、对结果负责。",
-   "wordCount": 381
-  },
-  {
-   "path": "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行.md",
-   "title": "权重识别与精力分配：从政治成熟到闭环执行",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [
-    "个人能力提升/个人能力提升",
-    "个人能力提升/个人能力提升核心能力框架",
-    "个人能力提升/组织信任与闭环执行：从执行者到共谋者",
-    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾",
-    "原始资料/已整理｜2026-08-08｜抖音豆包｜政治成熟优先级匹配精力",
-    "徐总的知识库"
-   ],
-   "backlinks": [
-    "知识流水线/A_原始资料.md",
-    "知识流水线/知识库健康巡检.md",
-    "Codex工作区/每日跨项目复盘/2026-08-08.md",
-    "个人能力提升/个人能力提升.md",
-    "个人能力提升/个人能力提升核心能力框架.md"
-   ],
-   "desc": "上级：个人能力提升/个人能力提升",
-   "wordCount": 1748
-  },
-  {
-   "path": "个人能力提升/组织信任与闭环执行：从执行者到共谋者.md",
-   "title": "组织信任与闭环执行：从执行者到共谋者",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [
-    "个人能力提升/个人能力提升",
-    "个人能力提升/个人能力提升核心能力框架",
-    "原始资料/已整理｜2026-08-05｜ChatGPT｜组织信任建立与闭环能力",
-    "徐总的知识库"
-   ],
-   "backlinks": [
-    "个人能力提升/个人能力提升.md",
-    "个人能力提升/个人能力提升核心能力框架.md",
-    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行.md"
-   ],
-   "desc": "上级：个人能力提升/个人能力提升、个人能力提升/个人能力提升核心能力框架",
-   "wordCount": 2184
-  },
-  {
-   "path": "个人能力提升/谈判与沟通/不确定事项解决型判断框架：从事实澄清到策略决策.md",
-   "title": "不确定事项解决型判断框架：从事实澄清到策略决策",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [
-    "个人能力提升/谈判与沟通/谈判与沟通专题",
-    "个人能力提升/谈判与沟通/合同争议谈判前置判断框架：从履约结构到和解区间",
-    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾",
-    "个人能力提升/谈判与沟通/高压谈判能力模型：不确定环境下的节奏控制与阶段落地",
-    "徐总的知识库"
-   ],
-   "backlinks": [
-    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
-   ],
-   "desc": "上级：个人能力提升/谈判与沟通/谈判与沟通专题",
-   "wordCount": 2362
-  },
-  {
-   "path": "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集.md",
-   "title": "原始资料｜沟通谈判与博弈三会话合集",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [
-    "个人能力提升/谈判与沟通/谈判与沟通专题",
-    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
-    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾",
-    "个人能力提升/对话归档/原始对话｜沟通与谈判",
-    "个人能力提升/对话归档/原始对话｜博弈谈判模型",
-    "个人能力提升/对话归档/原始对话｜博弈思维对标模型"
-   ],
-   "backlinks": [
-    "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈核心原则第一版.md",
-    "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈错误模式与场景卡.md",
-    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
-   ],
-   "desc": "上级：个人能力提升/谈判与沟通/谈判与沟通专题",
-   "wordCount": 242842
-  },
-  {
-   "path": "个人能力提升/谈判与沟通/合同争议谈判前置判断框架：从履约结构到和解区间.md",
-   "title": "合同相关争议的律师式前置分析框架：从合同结构到策略",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [
-    "个人能力提升/谈判与沟通/谈判与沟通专题",
-    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾",
-    "个人能力提升/谈判与沟通/高压谈判能力模型：不确定环境下的节奏控制与阶段落地",
-    "法律/法律专题",
-    "徐总的知识库"
-   ],
-   "backlinks": [
-    "个人能力提升/谈判与沟通/不确定事项解决型判断框架：从事实澄清到策略决策.md",
-    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
-   ],
-   "desc": "上级：个人能力提升/谈判与沟通/谈判与沟通专题",
-   "wordCount": 4859
-  },
-  {
-   "path": "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达.md",
-   "title": "沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [
-    "个人能力提升/谈判与沟通/谈判与沟通专题",
-    "个人能力提升/对话归档/原始对话｜沟通与谈判",
-    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾",
-    "原始资料/已整理｜2026-08-08｜抖音豆包｜沟通能力强的人说话是什么样的",
-    "徐总的知识库"
-   ],
-   "backlinks": [
-    "知识流水线/A_原始资料.md",
-    "知识流水线/知识库健康巡检.md",
-    "个人能力提升/个人能力提升核心能力框架.md",
-    "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集.md",
-    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾.md",
-    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
-   ],
-   "desc": "上级：个人能力提升/谈判与沟通/谈判与沟通专题",
-   "wordCount": 4404
-  },
-  {
-   "path": "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈核心原则第一版.md",
-   "title": "蒸馏｜沟通谈判与博弈核心原则第一版",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [
-    "个人能力提升/谈判与沟通/谈判与沟通专题",
-    "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集",
-    "徐总的知识库"
-   ],
-   "backlinks": [
-    "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈错误模式与场景卡.md",
-    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
-   ],
-   "desc": "上级：个人能力提升/谈判与沟通/谈判与沟通专题",
-   "wordCount": 3317
-  },
-  {
-   "path": "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈错误模式与场景卡.md",
-   "title": "蒸馏｜沟通谈判与博弈错误模式与场景卡",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [
-    "个人能力提升/谈判与沟通/谈判与沟通专题",
-    "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集",
-    "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈核心原则第一版",
-    "个人能力提升核心能力框架",
-    "徐总的知识库"
-   ],
-   "backlinks": [
-    "个人能力提升/个人能力提升核心能力框架.md",
-    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
-   ],
-   "desc": "上级：个人能力提升/谈判与沟通/谈判与沟通专题",
-   "wordCount": 3666
-  },
-  {
-   "path": "个人能力提升/谈判与沟通/请贵人与领导吃饭的邀约方法：三种降低决策成本的话术.md",
-   "title": "请贵人与领导吃饭的邀约方法：三种降低决策成本的话术",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [
-    "个人能力提升/谈判与沟通/谈判与沟通专题",
-    "谈判与博弈综合框架：筹码、位置、节点与主要矛盾",
-    "沟通与谈判能力框架：结构控制、节奏管理与博弈表达"
-   ],
-   "backlinks": [
-    "Codex工作区/每日跨项目复盘/2026-07-17.md",
-    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
-   ],
-   "desc": "上级：个人能力提升/谈判与沟通/谈判与沟通专题",
-   "wordCount": 1086
-  },
-  {
-   "path": "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾.md",
-   "title": "谈判与博弈综合框架：筹码、位置、节点与主要矛盾",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [
-    "个人能力提升/谈判与沟通/谈判与沟通专题",
-    "个人能力提升/对话归档/原始对话｜博弈思维对标模型",
-    "个人能力提升/对话归档/原始对话｜博弈谈判模型",
-    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
-    "徐总的知识库"
-   ],
-   "backlinks": [
-    "个人能力提升/个人能力提升核心能力框架.md",
-    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行.md",
-    "个人能力提升/谈判与沟通/不确定事项解决型判断框架：从事实澄清到策略决策.md",
-    "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集.md",
-    "个人能力提升/谈判与沟通/合同争议谈判前置判断框架：从履约结构到和解区间.md",
-    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达.md",
-    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
-   ],
-   "desc": "上级：个人能力提升/谈判与沟通/谈判与沟通专题",
-   "wordCount": 2493
-  },
-  {
-   "path": "个人能力提升/谈判与沟通/谈判与沟通专题.md",
-   "title": "谈判与沟通专题",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [
-    "个人能力提升/个人能力提升",
-    "个人能力提升/谈判与沟通/谈判与沟通专题.base",
-    "个人能力提升/谈判与沟通/谈判与沟通能力库.canvas",
-    "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集",
-    "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈核心原则第一版",
-    "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈错误模式与场景卡",
-    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
-    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾",
-    "个人能力提升/谈判与沟通/高压谈判能力模型：不确定环境下的节奏控制与阶段落地",
-    "个人能力提升/谈判与沟通/合同争议谈判前置判断框架：从履约结构到和解区间",
-    "个人能力提升/谈判与沟通/不确定事项解决型判断框架：从事实澄清到策略决策",
-    "个人能力提升/谈判与沟通/高压谈判与房产交易复盘：从不确定性到阶段性落地",
-    "个人能力提升/谈判与沟通/请贵人与领导吃饭的邀约方法：三种降低决策成本的话术",
-    "个人能力提升/个人能力提升核心能力框架",
-    "个人能力提升/ChatGPT导出包中的个人能力提升归类",
-    "徐总的知识库"
-   ],
-   "backlinks": [
-    "知识流水线/知识库健康巡检.md",
-    "Codex工作区/每日跨项目复盘/2026-07-17.md",
-    "个人能力提升/个人能力提升.md",
-    "个人能力提升/个人能力提升核心能力框架.md",
-    "个人能力提升/谈判与沟通/不确定事项解决型判断框架：从事实澄清到策略决策.md",
-    "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集.md",
-    "个人能力提升/谈判与沟通/合同争议谈判前置判断框架：从履约结构到和解区间.md",
-    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达.md",
-    "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈核心原则第一版.md",
-    "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈错误模式与场景卡.md",
-    "个人能力提升/谈判与沟通/请贵人与领导吃饭的邀约方法：三种降低决策成本的话术.md",
-    "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾.md",
-    "个人能力提升/谈判与沟通/高压谈判与房产交易复盘：从不确定性到阶段性落地.md",
-    "个人能力提升/谈判与沟通/高压谈判能力模型：不确定环境下的节奏控制与阶段落地.md"
-   ],
-   "desc": "上级：个人能力提升/个人能力提升",
-   "wordCount": 2848
-  },
-  {
-   "path": "个人能力提升/谈判与沟通/高压谈判与房产交易复盘：从不确定性到阶段性落地.md",
-   "title": "高压谈判与房产交易复盘：从不确定性到阶段性落地",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [
-    "个人能力提升/谈判与沟通/谈判与沟通专题",
-    "徐总的知识库"
-   ],
-   "backlinks": [
-    "个人能力提升/谈判与沟通/谈判与沟通专题.md",
-    "个人能力提升/谈判与沟通/高压谈判能力模型：不确定环境下的节奏控制与阶段落地.md"
-   ],
-   "desc": "日期：2026-06-21",
-   "wordCount": 2123
-  },
-  {
-   "path": "个人能力提升/谈判与沟通/高压谈判能力模型：不确定环境下的节奏控制与阶段落地.md",
-   "title": "高压谈判能力模型：不确定环境下的节奏控制与阶段落地",
-   "updated": "2026-08-26",
-   "topic": "growth",
-   "links": [
-    "个人能力提升/谈判与沟通/谈判与沟通专题",
-    "个人能力提升/谈判与沟通/高压谈判与房产交易复盘：从不确定性到阶段性落地",
-    "徐总的知识库"
-   ],
-   "backlinks": [
-    "个人能力提升/谈判与沟通/不确定事项解决型判断框架：从事实澄清到策略决策.md",
-    "个人能力提升/谈判与沟通/合同争议谈判前置判断框架：从履约结构到和解区间.md",
-    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
-   ],
-   "desc": "上级：个人能力提升/谈判与沟通/谈判与沟通专题",
-   "wordCount": 1605
-  },
-  {
-   "path": "徐总每日随记/主题归档/主题归档说明.md",
-   "title": "主题归档说明",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "徐总每日随记/徐总每日随记"
-   ],
-   "backlinks": [],
-   "desc": "上级：徐总每日随记/徐总每日随记",
-   "wordCount": 247
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-01.md",
-   "title": "2026-06-01",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "徐总每日随记/徐总每日随记"
-   ],
-   "backlinks": [],
-   "desc": "上级：徐总每日随记/徐总每日随记",
-   "wordCount": 3356
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-02.md",
-   "title": "2026-06-02 每日随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [],
-   "backlinks": [],
-   "desc": "- WorkBuddy 搭建干食记智能体，整体流程和落地效果不错",
-   "wordCount": 614
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-03.md",
-   "title": "2026-06-03 随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [],
-   "backlinks": [],
-   "desc": "今日工作计划与想法：",
-   "wordCount": 276
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-04.md",
-   "title": "2026-06-04 随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [],
-   "backlinks": [],
-   "desc": "- 和合伙人、电力工程哥老关一起喝咖啡",
-   "wordCount": 440
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-06.md",
-   "title": "2026-06-06 每日随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [],
-   "backlinks": [],
-   "desc": "哎呀，昨天正式启动了美签的这样一个过程。主要是填表和照片，然后再去官网上预约拿新的这个申请表。但昨天在平板 Codex 有个非常好的功能，就是基本上你把护照的照片放在文件夹里面，加",
-   "wordCount": 753
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-07.md",
-   "title": "2026-06-07",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [],
-   "backlinks": [],
-   "desc": "6 月 7 号 还是要解决这个美签签证的这个事情 不断在关心一个整个签证的动态 才知道整个系统其实目前波动比较大，名额比较少。不是像我以前说的，你填好资料随时预约，而是要等名额出来",
-   "wordCount": 302
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-10.md",
-   "title": "2026-06-10",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "企业AI与智能体商业化/多智能体双向连接架构_20260610"
-   ],
-   "backlinks": [
-    "企业AI与智能体商业化/WorkBuddy连接图谱.md"
-   ],
-   "desc": "这两天主要的还是美签的这个申请过程，反正孩子和徐驰现在已经申请到了。8 月 14 号在沈阳的面签 到时候可能会提前去做一些资料的准备，希望一切能顺利",
-   "wordCount": 387
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-13.md",
-   "title": "2026-06-13",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [],
-   "backlinks": [],
-   "desc": "反正这几天没有更新日志，是因为这几天确实没有什么额外的事发生。",
-   "wordCount": 484
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-14.md",
-   "title": "2026-06-14 每日随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "全局记忆/02_系统架构",
-    "全局记忆/09_全域智能体记忆体系"
-   ],
-   "backlinks": [],
-   "desc": "今天 OpenClaw 的微信直聊入口突然出现反复 Auto-compaction / context overflow，表现为微信消息无法正常进入当前主会话。",
-   "wordCount": 904
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-17.md",
-   "title": "2026-06-17 甘食记经营系统",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [],
-   "backlinks": [
-    "企业AI与智能体商业化/甘食记Ontology对象网络设计.md",
-    "企业AI与智能体商业化/甘食记经营系统1.0框架总结.md",
-    "Codex工作区/每日跨项目复盘/2026-07-09.md",
-    "Codex工作区/每日跨项目复盘/2026-07-10.md",
-    "Codex工作区/每日跨项目复盘/2026-07-11.md",
-    "Codex工作区/每日跨项目复盘/2026-07-12.md",
-    "Codex工作区/每日跨项目复盘/2026-07-13.md",
-    "Codex工作区/每日跨项目复盘/2026-07-14.md",
-    "Codex工作区/每日跨项目复盘/2026-07-15.md",
-    "Codex工作区/每日跨项目复盘/2026-07-16.md",
-    "Codex工作区/每日跨项目复盘/2026-07-17.md",
-    "Codex工作区/每日跨项目复盘/2026-07-18.md",
-    "Codex工作区/每日跨项目复盘/2026-07-19.md",
-    "Codex工作区/每日跨项目复盘/2026-07-20.md",
-    "Codex工作区/每日跨项目复盘/2026-07-21.md",
-    "Codex工作区/每日跨项目复盘/2026-07-22.md",
-    "Codex工作区/每日跨项目复盘/2026-07-23.md",
-    "Codex工作区/每日跨项目复盘/2026-07-24.md",
-    "Codex工作区/每日跨项目复盘/2026-07-25.md",
-    "Codex工作区/每日跨项目复盘/2026-07-26.md",
-    "Codex工作区/每日跨项目复盘/2026-07-27.md",
-    "Codex工作区/每日跨项目复盘/2026-07-28.md",
-    "Codex工作区/每日跨项目复盘/2026-07-29.md"
-   ],
-   "desc": "- 甘食记经营系统1.0框架总结（四层架构/字段结构/7页映射/5步流程）→ Obsidian",
-   "wordCount": 343
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-18.md",
-   "title": "2026-06-18 蜀道集团参观 + 战略转弯",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [],
-   "backlinks": [],
-   "desc": "- 去蜀道集团办公地点参观，吃了午饭",
-   "wordCount": 660
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-22.md",
-   "title": "2026-06-22 随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [],
-   "backlinks": [],
-   "desc": "最近这几天，确实效率非常低。从大半个月前开始，我一直在做甘食记\"经营系统\"的所谓落地。",
-   "wordCount": 605
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-28.md",
-   "title": "2026-06-28",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [],
-   "backlinks": [
-    "徐总每日随记/当日记录/2026-06-29.md"
-   ],
-   "desc": "重大突破：Mac 端 Codex 终于用上 OpenAI Plus 官方模型",
-   "wordCount": 1393
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-29.md",
-   "title": "2026-06-29",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "徐总每日随记/当日记录/2026-06-28"
-   ],
-   "backlinks": [],
-   "desc": "客户高频提问的回答沉淀：「有了 Aily / WorkBuddy，为什么还要做定制 Agent」",
-   "wordCount": 1820
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-07-04.md",
-   "title": "2026-07-04",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
-    "AI Agent工程知识/AI Agent工程知识框架",
-    "企业AI与智能体商业化/FDE商业级智能体交付框架",
-    "Codex工作区/多端 Codex 协作架构"
-   ],
-   "backlinks": [],
-   "desc": "继续更新 Obsidian 中“生产级 AI Agent”知识体系，并测试成功手机 / 平板 ChatGPT 连接 Mac Codex。",
-   "wordCount": 1619
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-07-05.md",
-   "title": "2026-07-05",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "企业AI与智能体商业化/原始资料/美团AI经营参谋与甘食记内部经营系统边界讨论",
-    "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
-    "AI Agent工程知识/AI Agent全面理解",
-    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
-    "企业AI与智能体商业化/资料池"
-   ],
-   "backlinks": [],
-   "desc": "今天围绕美团商家 AI 工具矩阵，补充更新了生产级 AI Agent 和甘食记经营系统的理解。",
-   "wordCount": 959
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-07-08.md",
-   "title": "2026-07-08",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
-    "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
-    "企业AI与智能体商业化/原始资料/科技咨询公司正式版知识库与RAG架构",
-    "企业AI与智能体商业化/原始资料/GPT对话原稿：企业级数据库与知识库架构边界",
-    "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
-    "企业AI与智能体商业化/原始资料/GPT对话原稿：隐性知识的工程化采集与入库机制",
-    "AI Agent工程知识/显性知识与隐性知识的工程化入库机制"
-   ],
-   "backlinks": [
-    "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
-    "企业AI与智能体商业化/原始资料/GPT对话原稿：隐性知识的工程化采集与入库机制.md",
-    "Codex工作区/每日跨项目复盘/2026-07-09.md"
-   ],
-   "desc": "- 类型：个人想法 / 学习记录 / AI Agent 工程认知",
-   "wordCount": 3016
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-07-09.md",
-   "title": "2026-07-09",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
-    "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
-    "AI Agent工程知识/显性知识与隐性知识的工程化入库机制",
-    "AI Agent工程知识/生产级AI Agent记忆系统与Context调度"
-   ],
-   "backlinks": [
-    "Codex工作区/每日跨项目复盘/2026-07-09.md"
-   ],
-   "desc": "- 类型：个人想法 / 学习记录 / AI Agent 工程认知",
-   "wordCount": 1499
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-07-10.md",
-   "title": "2026-07-10",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "全局记忆/05_平台差异",
-    "Codex工作区/多端 Codex 协作架构",
-    "全局记忆/12_Codex跨项目永久记忆与自动复盘"
-   ],
-   "backlinks": [
-    "Codex工作区/每日跨项目复盘/2026-07-10.md"
-   ],
-   "desc": "- 类型：工作流更新 / 平台认知 / 多端协作记录",
-   "wordCount": 1988
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-07-14.md",
-   "title": "2026-07-14",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "个人健康/华西医院就诊经验",
-    "个人健康/个人健康",
-    "徐总每日随记/当日记录/当日记录说明",
-    "徐总每日随记/主题归档/健康身体"
-   ],
-   "backlinks": [
-    "Codex工作区/每日跨项目复盘/2026-07-14.md",
-    "Codex工作区/每日跨项目复盘/2026-07-15.md"
-   ],
-   "desc": "- 类型：健康身体 / 个人经历",
-   "wordCount": 975
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-07-23.md",
-   "title": "2026-07-23 随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "个人健康/体重管理"
-   ],
-   "backlinks": [
-    "Codex工作区/每日跨项目复盘/2026-07-23.md"
-   ],
-   "desc": "- 7 月 23 号早上：空腹 76.5",
-   "wordCount": 437
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-07-25.md",
-   "title": "2026-07-25 周六",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "个人健康/体重管理"
-   ],
-   "backlinks": [
-    "Codex工作区/每日跨项目复盘/2026-07-25.md"
-   ],
-   "desc": "（数据已迁移至 个人健康/体重管理，本页不再重复记录。）",
-   "wordCount": 295
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-07-28.md",
-   "title": "2026-07-28 周二",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "个人健康/体重管理",
-    "个人车辆/个人车辆"
-   ],
-   "backlinks": [
-    "Codex工作区/每日跨项目复盘/2026-07-28.md"
-   ],
-   "desc": "详见 个人健康/体重管理（今日空腹 76.5 kg，9 日均 ≈ 76.31 kg）",
-   "wordCount": 951
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-07-30.md",
-   "title": "2026-07-30 早晨体重与昨日回顾",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "个人健康/体重管理"
-   ],
-   "backlinks": [],
-   "desc": "- 7 月 30 日早晨空腹：75.7 kg",
-   "wordCount": 776
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-08-02.md",
-   "title": "2026-08-02 周日",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "个人健康/体重管理",
-    "个人车辆/个人车辆"
-   ],
-   "backlinks": [],
-   "desc": "背景：最近与一位女性朋友频繁相处。她家里养了一只比熊犬，最近狗狗怀孕了。每次去她那里都感觉在\"逃避整个世界\"。",
-   "wordCount": 3576
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-08-05.md",
-   "title": "2026-08-05 周二",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [],
-   "backlinks": [
-    "Codex工作区/每日跨项目复盘/2026-08-05.md"
-   ],
-   "desc": "原话：",
-   "wordCount": 856
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-08-10.md",
-   "title": "2026-08-10 周日",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [],
-   "backlinks": [],
-   "desc": "- 来源：OpenClaw / 用户口述",
-   "wordCount": 3361
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-08-11.md",
-   "title": "2026-08-11",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地"
-   ],
-   "backlinks": [
-    "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md"
-   ],
-   "desc": "- 下午走访游戏公司（AI 落地咨询），晚间与伊森讨论游戏公司 AI 落地路径、员工使用习惯、本体论试点。",
-   "wordCount": 3544
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-08-12.md",
-   "title": "2026-08-12",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [],
-   "backlinks": [
-    "企业AI与智能体商业化/AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧.md",
-    "企业AI与智能体商业化/知识库索引.md"
-   ],
-   "desc": "- 今天去己未文化（文化咨询公司）当面谈 AI 落地。首次碰撞：重点是建立对方对 AI 的认知 + 产品认可，不急于梳理业务全貌。",
-   "wordCount": 1405
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-08-18.md",
-   "title": "2026-08-18",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "徐总每日随记/随记收件箱/随记收件箱说明"
-   ],
-   "backlinks": [
-    "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md"
-   ],
-   "desc": "- 连续两天（08-16/17）密集研究 DeepSeek Harness：搭建、评估其系统成熟度，一度想把整个插件化系统融入体系、变成控制中心，探索\"AI 交付中间层\"的落地产框",
-   "wordCount": 2386
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-08-19.md",
-   "title": "2026-08-19",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "徐总每日随记/随记收件箱/随记收件箱说明"
-   ],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
-   ],
-   "desc": "- 与之前的资源合伙人吃饭（很久没见面）。见面原因之前应已阐述过——包括合作、对一些事情的看法，以及他表露出来的态度。",
-   "wordCount": 2916
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-08-20.md",
-   "title": "2026-08-20",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "徐总每日随记/随记收件箱/随记收件箱说明"
-   ],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
-   ],
-   "desc": "- 贵州旅游路书精简版发布到飞书妙搭，公网可访问。去掉老人后通篇调整了底层逻辑（不只是删关键词）。",
-   "wordCount": 3007
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-08-27.md",
-   "title": "贵州8天自驾 · 实际行程记录（2大1小·无老人）",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [],
-   "backlinks": [],
-   "desc": "- 实际出行：2026-08-22（周六）— 08-26（周三），D5 当天从龙宫返蓉，提前 3 天收官",
-   "wordCount": 3846
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-08-31.md",
-   "title": "2026-08-31 当日记录",
-   "updated": "2026-08-31",
-   "topic": "notes",
-   "links": [],
-   "backlinks": [],
-   "desc": "---",
-   "wordCount": 2451
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-09-01.md",
-   "title": "2026-09-01 当日记录",
-   "updated": "2026-09-01",
-   "topic": "notes",
-   "links": [
-    "多智能体协作任务/KNOWLEDGEPIP-144-AI-Office多办公位智能体办公室搭建"
-   ],
-   "backlinks": [],
-   "desc": "本日记录由豆包助手整理，2026-09-01",
-   "wordCount": 147
-  },
-  {
-   "path": "徐总每日随记/当日记录/当日记录说明.md",
-   "title": "当日记录说明",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "徐总每日随记/徐总每日随记",
-    "徐总每日随记/随记收件箱/随记收件箱说明"
-   ],
-   "backlinks": [
-    "Codex工作区/每日跨项目复盘/2026-07-14.md",
-    "徐总每日随记/当日记录/2026-07-14.md",
-    "徐总每日随记/徐总每日随记.md"
-   ],
-   "desc": "上级：徐总每日随记/徐总每日随记",
-   "wordCount": 350
-  },
-  {
-   "path": "徐总每日随记/徐总每日随记.md",
-   "title": "徐总每日随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "徐总的知识库",
-    "徐总每日随记/随记收件箱/随记收件箱说明",
-    "徐总每日随记/当日记录/当日记录说明",
-    "徐总每日随记/零散随想/零散随想说明",
-    "徐总每日随记/月度复盘/月度复盘说明"
-   ],
-   "backlinks": [
-    "个人能力提升/个人能力提升.md",
-    "徐总每日随记/主题归档/主题归档说明.md",
-    "徐总每日随记/当日记录/2026-06-01.md",
-    "徐总每日随记/当日记录/当日记录说明.md",
-    "徐总每日随记/月度复盘/月度复盘说明.md",
-    "徐总每日随记/随记收件箱/随记收件箱说明.md",
-    "徐总每日随记/零散随想/零散随想说明.md"
-   ],
-   "desc": "上级：徐总的知识库",
-   "wordCount": 2493
-  },
-  {
-   "path": "徐总每日随记/月度复盘/月度复盘说明.md",
-   "title": "月度复盘说明",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "徐总每日随记/徐总每日随记",
-    "徐总每日随记/随记收件箱/随记收件箱说明"
-   ],
-   "backlinks": [
-    "徐总每日随记/徐总每日随记.md"
-   ],
-   "desc": "上级：徐总每日随记/徐总每日随记",
-   "wordCount": 408
-  },
-  {
-   "path": "徐总每日随记/随记收件箱/随记收件箱说明.md",
-   "title": "随记收件箱说明",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "徐总每日随记/徐总每日随记"
-   ],
-   "backlinks": [
-    "徐总每日随记/当日记录/2026-08-18.md",
-    "徐总每日随记/当日记录/2026-08-19.md",
-    "徐总每日随记/当日记录/2026-08-20.md",
-    "徐总每日随记/当日记录/当日记录说明.md",
-    "徐总每日随记/徐总每日随记.md",
-    "徐总每日随记/月度复盘/月度复盘说明.md",
-    "徐总每日随记/零散随想/零散随想说明.md"
-   ],
-   "desc": "上级：徐总每日随记/徐总每日随记",
-   "wordCount": 947
-  },
-  {
-   "path": "徐总每日随记/零散随想/零散随想说明.md",
-   "title": "零散随想说明",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "links": [
-    "徐总每日随记/徐总每日随记",
-    "徐总每日随记/随记收件箱/随记收件箱说明"
-   ],
-   "backlinks": [
-    "徐总每日随记/徐总每日随记.md"
-   ],
-   "desc": "上级：徐总每日随记/徐总每日随记",
-   "wordCount": 375
   },
   {
    "path": "豆包工作区/dsh-send-README.md",
@@ -9791,9 +8070,7 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-08-30",
    "topic": "doubao",
    "links": [],
-   "backlinks": [
-    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
-   ],
+   "backlinks": [],
    "desc": "通过 47900 端口的 DSH JSON-RPC API，直接给 Harness Web 端的指定会话发消息，无需打开浏览器。",
    "wordCount": 1708
   },
@@ -10155,7 +8432,7 @@ window.OBSIDIAN_DATA = {
    "items": [
     {
      "title": "窗口内变更清单",
-     "summary": "| 时间 | 文件 | 大小 | 层级判断 |\n|||||\n| 17:57 | `徐总每日随记/当日记录/20260901.md` | 3.4 KB | 个人层·当日随记（AI 主",
+     "summary": "| 时间 | 文件 | 大小 | 层级判断 |\n|||||\n| 17:57 | `［内部笔记·不公开］/20260901.md` | 3.4 KB | 个人层·当日随记（AI 主",
      "points": [],
      "date": "2026-09-01"
     },
@@ -10225,7 +8502,7 @@ window.OBSIDIAN_DATA = {
      "date": "2026-08-31"
     },
     {
-     "title": "**（更新·当日随记）`徐总每日随记/当日记录/2026-08-31.md`（11:19）** — 本日唯一的完整执行证据源：Harness 架构收敛（C1–C4 全完成）、自动化「每3小时归档清理」根因与修复、多 Session 语义纠正、当前收敛后端口架构表。",
+     "title": "**（更新·当日随记）`［内部笔记·不公开］/2026-08-31.md`（11:19）** — 本日唯一的完整执行证据源：Harness 架构收敛（C1–C4 全完成）、自动化「每3小时归档清理」根因与修复、多 Session 语义纠正、当前收敛后端口架构表。",
      "summary": "",
      "points": [],
      "date": "2026-08-31"
@@ -10265,779 +8542,53 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "模型与推理",
-   "matched": 28,
+   "matched": 21,
    "status": "已形成"
   },
   {
    "name": "数据与知识资产",
-   "matched": 61,
+   "matched": 58,
    "status": "已形成"
   },
   {
    "name": "Agent Runtime",
-   "matched": 27,
-   "status": "已形成"
-  },
-  {
-   "name": "工具与协议",
-   "matched": 9,
-   "status": "已形成"
-  },
-  {
-   "name": "记忆与上下文",
    "matched": 18,
    "status": "已形成"
   },
   {
-   "name": "安全、权限与治理",
+   "name": "工具与协议",
+   "matched": 8,
+   "status": "已形成"
+  },
+  {
+   "name": "记忆与上下文",
    "matched": 17,
    "status": "已形成"
   },
   {
-   "name": "评测与可观测性",
-   "matched": 6,
+   "name": "安全、权限与治理",
+   "matched": 14,
    "status": "已形成"
   },
   {
+   "name": "评测与可观测性",
+   "matched": 3,
+   "status": "正在形成"
+  },
+  {
    "name": "业务交付与 FDE",
-   "matched": 100,
+   "matched": 99,
    "status": "已形成"
   },
   {
    "name": "商业化与组织能力",
-   "matched": 84,
+   "matched": 80,
    "status": "已形成"
   }
  ],
  "questionTopics": [
   {
-   "path": "徐总问题专题库/06_企业AI与商业化/2026-09-08_生产级Agent形态选择与案例演进.md",
-   "title": "生产级 Agent 形态选择与案例演进",
-   "date": "2026-09-08",
-   "updated": "2026-09-08",
-   "category": "企业AI与商业化",
-   "status": "已回答 → 已整理",
-   "questionType": "",
-   "originalQuestion": "",
-   "direction": "这个实战手册我觉得再延伸一个问题专题库，就是在真实落地的过程中，结合我们之前知识库所讨论的：应该给什么样业务的公司做什么样的 Agent？到底是做 RPA，还是做业务流程化的 Agent，还是做整个的看板、战略看板，或者是工具类的 Agent、流程业务的 Agent？再结合 Ontology，在整个过程中怎么把不同的 Agent 和整个业务关系放进去？工具类 Agent 只是提供效率，但像文化咨询公司落地时，还要结合业务关系和自己建立的 Ontology，让它升级成为首先对业务有理解、能提供建议、提供业务帮助，最后",
-   "directionHtml": "<blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">这个实战手册我觉得再延伸一个问题专题库，就是在真实落地的过程中，结合我们之前知识库所讨论的：应该给什么样业务的公司做什么样的 Agent？到底是做 RPA，还是做业务流程化的 Agent，还是做整个的看板、战略看板，或者是工具类的 Agent、流程业务的 Agent？再结合 Ontology，在整个过程中怎么把不同的 Agent 和整个业务关系放进去？工具类 Agent 只是提供效率，但像文化咨询公司落地时，还要结合业务关系和自己建立的 Ontology，让它升级成为首先对业务有理解、能提供建议、提供业务帮助，最后参与决策。这个逻辑应该以文化咨询公司为案例拉通。</blockquote>",
-   "summary": "二、综合结论 FDE 不是先决定“给客户做几个 Agent”，而是先判断客户的业务动作属于哪一种生产形态，再决定 AI 介入深度。 这不是所有企业都必须走完的升级路线，也不是越靠近“决策 Agent”越高级。正确选择取决于： 横轴与纵轴：先定位企业，再选择 Agent 形态 腾讯 FDE 专题提供了这篇案例专题缺少的上位坐标系。选择 Agent 不能只看业务",
-   "answerHtml": "<h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">二、综合结论</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">FDE 不是先决定“给客户做几个 Agent”，而是先判断客户的业务动作属于哪一种生产形态，再决定 AI 介入深度。</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">确定性动作\n→ 工具 / RPA / API / Workflow\n→ AI 增强流程\n→ 业务闭环 Agent\n→ 经营分析与建议\n→ 决策辅助系统\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这不是所有企业都必须走完的升级路线，也不是越靠近“决策 Agent”越高级。正确选择取决于：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">业务判断深度\n× 数据成熟度\n× 跨对象关系复杂度\n× 风险与责任边界\n× 业务结果可衡量程度\n</pre><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">横轴与纵轴：先定位企业，再选择 Agent 形态</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">腾讯 FDE 专题提供了这篇案例专题缺少的上位坐标系。选择 Agent 不能只看业务部门或模型能力，而要同时看两个方向：</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">纵轴：AI 参与业务判断的深度</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">确定性自动化\n→ AI 增强流程\n→ 业务辅助 Agent\n→ 经营分析与建议\n→ 决策辅助\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">纵轴回答：</p><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">AI 只是替人完成一个动作，还是已经理解业务对象、解释业务状态、提出经营建议并参与方案比较？</blockquote><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">越往上，越需要稳定的业务对象、历史上下文、知识证据、状态机和人工授权；但纵轴高不代表所有动作都要交给模型，确定性计算和权限判断始终留在系统侧。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">横轴：从试点到生产的工程成熟度</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">L0 场景识别\n→ L1 原型验证\n→ L2 试点运行\n→ L3 生产部署\n→ L4 规模扩展\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">横轴回答：</p><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">这套能力是否已经从“能演示”走到“有人用、可追踪、可回滚、能复用”？</blockquote><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">横轴越往右，越需要 Schema、关系约束、权限、审计、幂等、评测、可观测性、灰度和 Runbook。生产级不等于一定要做复杂多 Agent，而是必须达到与风险和责任相匹配的工程成熟度。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">六类案例在坐标系中的位置</h3><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">案例</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">纵轴定位</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">横轴重点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">FDE 首先解决什么</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">风际游戏</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">工具型 AI Agent → 生产流程 → 组织知识</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">从个人工具试用走向团队流程采用</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Skill、素材、角色、评审、版本和知识沉淀</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">甘食记</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">经营分析与建议 AI Agent</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">从模拟数据走向受保护的经营运行</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">指标事实、异常识别、责任任务和反馈闭环</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">己未文化</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务辅助 → 客户经营 → 决策辅助</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">从客户记录 PoC 走向可审计的长期经营</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户、咨询、互动、任务和老师判断关系</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">蜀道成熟企业</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">经营中枢 → 决策辅助</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">系统整合、组织权限和规模化治理</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">跨系统对象、指标口径、风险和责任链</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">新成立公司</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">先从确定性流程，再逐步进入业务辅助</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">从零建立数据与流程基础</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">最小对象模型、录入纪律、责任动作和经营节奏</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">案例不是简单排成一条“先进程度”序列，而是分布在不同的横纵坐标位置：风际游戏的重点是生产资料和组织记忆，甘食记的重点是经营数据到行动，己未文化的重点是关系型客户经营，成熟企业的重点是跨系统决策，新公司的重点是先建立可信业务骨架。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">坐标系到交付方案的编译过程</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">业务访谈\n→ 判断业务动作的确定性与判断深度\n→ 判断数据、系统和组织的成熟度\n→ 在横纵轴上定位当前阶段\n→ 选择 RPA / API / Workflow / 工具 Agent / 业务 Agent / 决策辅助\n→ 用 Ontology 固定对象、关系、状态、动作和责任\n→ 用生产级工程链完成权限、评测、观测和回滚\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这就是 FDE 的核心判断：不是给每家公司发一套相同的 Agent，而是根据企业所处坐标，把合适的能力放进合适的业务关系里。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">三、五种交付形态：先判断做什么，再判断用什么工具</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">先统一一个容易混淆的说法：<b>RPA、API、Workflow、看板不是和 Agent 并列的同一种东西。</b></p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">工具型 AI Agent：负责理解、抽取、生成和调用工具\nRPA / API：负责确定性执行\nWorkflow：负责编排步骤和状态\n经营看板：负责展示事实、状态、风险和行动\n业务流程 Agent：负责在对象关系中理解并推动业务\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">因此，FDE 不能把“做一个 RPA”“做一个 Workflow”“做一个看板”都叫成“做一个 Agent”。要先说清楚 AI 负责哪一段，确定性系统负责哪一段。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">1. 工具型 AI Agent：解决“做得更快”</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">适合：查询、总结、生成、格式转换、批量整理、资料提取等局部任务。</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">输入文件 / 问题\n→ Agent 调用工具\n→ 输出结果\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">它的价值是节省人工时间，但通常还不了解企业完整业务关系，也不负责推动下一步。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">文化咨询例子：把一次咨询录音转成摘要、提取客户诉求、生成回访话术。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这类任务通常不需要完整 Ontology，只需要明确输入、输出、权限和质量检查。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">2. 确定性自动化底座：RPA / API / Workflow 解决“做得稳定”</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">适合重复、确定、规则清楚的动作：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">导入客户\n→ 校验字段\n→ 去重\n→ 写入系统\n→ 发送固定提醒\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这类能力本身不一定是 Agent，也不一定需要 LLM。能用代码、API 或流程规则稳定完成，就不应该为了显得智能而强行加入 Agent。只有当输入需要理解、规则需要解释或异常需要判断时，才在确定性底座上加工具型 AI Agent。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">文化咨询例子：根据下次跟进日期生成任务、计算沉默天数、统计咨询次数、检查必填字段、发送固定提醒。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">3. 业务流程 AI Agent：解决“把事情推进下去”</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">适合多步骤、涉及多个对象和责任人的业务闭环：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">客户进入\n→ 建档\n→ 咨询\n→ 形成记录\n→ 老师确认\n→ 创建跟进任务\n→ 回访\n→ 记录结果\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这时 Agent 不只是生成文本，而是要理解客户、咨询记录、任务、负责人和状态之间的关系，并在缺信息时追问、在节点卡住时提醒、在高风险处等待人工确认。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">4. 经营分析与建议 AI Agent：解决“看懂业务并提出下一步”</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">适合已经积累了结构化业务数据，管理者需要知道“发生了什么、为什么、下一步做什么”的场景。</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">已确认客户事实\n→ 状态与关系分析\n→ 找到异常 / 机会\n→ 生成带证据的建议\n→ 负责人确认并形成任务\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">文化咨询例子：识别长期未联系但历史价值较高的客户，结合过去咨询主题和课程参与情况，建议老师安排回访；AI 可以提出建议，但不能自行判断客户应该接受什么专业方案。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">5. 决策辅助系统：解决“让管理者在更完整的事实基础上决策”</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">它不是让 AI 代替老板或老师决策，而是把跨对象、跨时间和跨业务结果的信息组织起来，支持人做判断：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">客户 / 咨询 / 课程 / 互动 / 任务 / 收入\n→ 统一业务对象与关系\n→ 经营指标和风险信号\n→ 多方案比较\n→ 人授权、拍板并承担结果\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">文化咨询公司未来可以看到：客户来源、咨询转化、课程参与、复购、转介绍、老师时间投入和服务结果之间的关系。但这必须建立在数据持续记录、指标口径稳定和老师确认机制可靠的基础上。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">四、Ontology 在升级过程中的作用</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">Ontology 不是最后才加的一层，也不是一开始就要做成 Palantir 的重平台。它是把不同 Agent 放回同一个业务世界的语义骨架：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">对象：客户、咨询、课程、互动、任务、知识、老师\n关系：客户产生咨询、客户参加课程、咨询产生任务\n状态：新客户、已咨询、待跟进、持续服务、沉默\n动作：建档、记录、确认、回访、分配、复盘\n规则：谁能看、谁能改、什么状态可以流转\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">没有 Ontology 时，多个 Agent 容易各自维护一套客户名称、阶段和任务判断；有了统一对象和关系，Agent 之间传递的就不是“我觉得”，而是结构化对象、事实和待确认动作。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">文化咨询案例的升级关系</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">录音转写 Agent\n    ↓ 产生咨询记录草稿\n咨询助手 Agent\n    ↓ 关联客户与历史咨询\n跟进 Agent\n    ↓ 创建带负责人和期限的任务\n生命周期 Agent\n    ↓ 基于互动日期、次数和阶段生成经营信号\n经营分析 Agent\n    ↓ 结合客户关系和知识资产提出建议\n老师 / 管理者\n    ↓ 授权和决策\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这些不是五个互相独立的机器人，而是围绕同一组业务对象的能力模块。它们必须共享客户 ID、咨询 ID、任务 ID、状态定义、权限和操作日志。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">案例对照：四类主案例与两类企业边界</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这套形态选择不能只用己未文化一个案例解释。不同企业的起点、数据成熟度、业务对象和责任边界不同，Agent 的落点也不同。这里用四个主案例和两个对照场景建立参照系。</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">案例</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务特征</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">首选形态</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Ontology 重点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不能急着做什么</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">己未文化咨询</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户关系、咨询服务、课程活动、老师经验和长期跟进</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务流程 AI Agent → 生命周期经营 → 决策辅助</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户、咨询、互动、任务、课程、知识、老师判断</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不先做 AI 老师，不把未经确认的判断当知识</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">风际游戏</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">内容生产、创意协作、Skill、素材和团队经验沉淀</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">工具型 Agent → 生产流程协同 → 组织知识</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">角色、项目、素材、Skill、评审、版本、生产任务</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不把“会生成内容”直接等同于生产方式重构</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">甘食记</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">日常经营、门店数据、异常、责任人和复盘</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">经营分析 Agent → 异常到行动闭环</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">门店、菜品、销售、成本、异常、任务、反馈</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不让模型代替指标计算，不只做日报文字生成</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">女装直播 / 服装电商</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">达人、商品、订单、客服、仓储、板房和数据复盘</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">工具型 AI Agent + RPA → 电商经营流程 → 经营决策</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">达人、商品、店铺、订单、库存、仓位、退款、负责人、现金流</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不把 RPA 自动执行误称为 Agent，不先跳过数据治理</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">蜀道等成熟企业</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">已有多级组织、系统和复杂经营数据</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">系统连接 + 经营中枢 + 决策辅助</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">组织、项目、资金、资产、风险、审批、责任链</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不从零重建基础系统，不先堆部门机器人</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">新成立的小公司</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">没有历史系统，业务规则和组织还在形成</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">轻量业务 OS → 基础流程 → 经营看板</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户、项目、人员、任务、收支、知识和规则</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不一开始复制大企业 ERP，也不假设数据已经完整</td></tr></tbody></table></div><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">1. 己未文化：关系驱动的咨询业务</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">己未文化的关键不是“生成一段咨询话术”，而是让一次咨询成为客户全周期经营中的可追踪事件：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">客户进入\n→ 建档\n→ 咨询\n→ 记录老师判断\n→ 老师确认\n→ 创建跟进任务\n→ 后续互动\n→ 客户阶段变化\n→ 经营建议\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">因此它最适合从“咨询后记录与跟进闭环”开始，再逐步进入客户生命周期和经营建议。Ontology 的价值在于保存客户与咨询、任务、课程、互动和知识之间的关系，让 Agent 具备业务上下文，而不是只会生成文本。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">2. 风际游戏：生产资料和组织记忆驱动的协同业务</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">游戏公司的核心对象更偏向：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">项目\n→ 角色\n→ 需求\n→ 素材\n→ Skill\n→ 评审\n→ 版本\n→ 上线反馈\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">它可以先从生图、素材整理、方案生成和知识检索等工具型 Agent 做起，再把工具嵌入选角、评审、生产和复盘流程。只有当角色、任务、素材版本、评审结论和生产结果都被持续记录，才有可能进一步形成组织记忆和生产流程 Agent。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">3. 甘食记：经营数据驱动的异常闭环</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">甘食记更适合说明“经营 Agent”如何从数据开始：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">门店经营数据\n→ 确定性计算指标\n→ 识别异常\n→ 分析可能原因\n→ 生成责任任务\n→ 店长执行\n→ 结果反馈\n→ 总部复盘\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">其中销售额、毛利、成本、异常阈值和任务状态由程序计算；Agent 负责解释异常、提出行动建议和协助复盘。经营看板是这条闭环的事实投影，不是单独漂浮的大屏 Agent。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">4. 女装直播 / 服装电商：AI 判断、RPA 执行和数据治理先行</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">女装直播案例最适合说明“工具型 AI Agent”和“确定性自动化”如何组合，而不是把所有自动化都命名为 Agent。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">具体拆分如下：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务动作</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">正确命名</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">具体作用</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">按 GMV、场次、违约率、口碑分筛选达人和商家</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">工具型 AI Agent / AI 选择器</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">理解筛选条件、比较候选对象、提出合作名单</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">自动打开后台、抓取店铺数据、下载报表</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">RPA / API 自动化</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">按固定规则执行，不承担开放式业务判断</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">退款后拦截货物、回仓、更新状态</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务流程自动化 + 异常处理 Agent</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">RPA 执行固定动作，Agent 处理例外和解释</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">板房扫码、仓位追踪、借还记录</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务数据采集 Workflow</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">把商品、仓位、人员和流转状态记录下来</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">根据销量阈值决定退板衣、减少损耗</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">经营分析与建议 AI Agent</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">基于商品和库存事实提出处理建议，由负责人确认</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">AI 生成人物搭配和商品图</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">工具型内容生产 Agent</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">提高单款内容生产效率，不等于完成商品经营闭环</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这类业务的完整链路是：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">达人 / 商品 / 订单 / 退款 / 仓位数据\n→ 数据治理与统一口径\n→ AI 选择或分析\n→ RPA / API 执行\n→ 异常转人工\n→ 结果回流\n→ 经营复盘\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">服装电商的关键不是“AI 替代了多少人”，而是 AI、RPA 和业务数据是否共同减少损耗、加快货物周转、改善现金流和释放人力去拓展新业务。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">Corvera 的电商数据治理案例进一步说明：客户真正缺的可能不是一个更强的 AI 管理系统，而是先把订单、库存、线下门店和物流数据清洗、打通、标准化。数据不可信时，应该先交付数据治理和事实底座，再谈经营 Agent。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">4. 蜀道成熟企业：不是从零搭建，而是连接和治理</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">对于蜀道等已有多级组织和既有系统的企业，FDE 的切入点通常不是重新做客户表或部门机器人，而是：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">已有 ERP / CRM / 财务 / 项目 / 风险数据\n→ 统一对象和权限\n→ 连接跨系统业务关系\n→ 形成经营分析与风险信号\n→ 提供管理层决策辅助\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这类客户的难点是系统整合、组织权限、指标口径和责任链，而不是单纯生成内容。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">5. 新成立公司：先造轻量业务骨架</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">新公司没有历史系统时，可以用 WorkBuddy + 轻量数据库 / Base + 统一业务入口快速建立：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">客户 / 项目 / 人员 / 任务 / 收支 / 知识\n→ 形成最小对象模型\n→ 固定日常录入和状态流转\n→ 生成经营看板\n→ 数据积累后再增加业务 Agent\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这不是把大企业方案缩小，而是先建立“业务事实、责任动作和经营节奏”的最小骨架。WorkBuddy 可以降低录入门槛，但正式事实源、权限和审计仍要在业务增长前逐步补齐。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">6. 六类案例对应的演进层级</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">风际游戏：工具型 AI Agent → 生产流程 → 组织记忆\n甘食记：数据计算 → 异常行动 → 经营复盘\n己未文化：资料记录 → 咨询服务 → 客户经营 → 决策辅助\n女装直播 / 服装电商：数据治理 → 工具型 AI Agent + RPA → 电商经营 → 决策辅助\n成熟企业：系统连接 → 经营中枢 → 管理决策\n新公司：轻量对象 → 基础流程 → 经营数据 → 后续智能化\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">案例的差异不是“谁更先进”，而是业务对象、数据基础和责任边界不同。FDE 的专业性，就是把正确形态放在正确的业务阶段。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">五、用己未文化判断 Agent 应该做到哪一层</h2><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">第一步：看业务动作，不看部门名称</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">不要只问“要不要做客户管理 Agent”，要问：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">哪个动作最耗人？\n哪个动作最容易漏？\n哪个动作需要专业判断？\n哪个动作跨越多个对象和责任人？\n错了会产生什么后果？\n</pre><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">第二步：判断是工具问题、流程问题还是经营问题</h3><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">现象</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">首选形态</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">资料整理太慢</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">工具型 Agent</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">固定步骤经常漏</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">RPA / API / Workflow</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">多人协作容易断</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务流程 Agent</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">数据很多但看不懂</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">经营分析与建议 Agent</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">管理者缺少跨业务事实</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">决策辅助系统</td></tr></tbody></table></div><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">第三步：确定 AI 介入深度</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">只读和生成\n→ 受控写入\n→ 推动任务\n→ 解释业务状态\n→ 提出经营建议\n→ 人授权后参与决策\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">越往后，越需要业务对象、状态机、权限、审计、评测和人工接管；不是因为 Agent 更“聪明”，而是因为责任范围更大。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">六、文化咨询公司的完整落地路径</h2><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">阶段 1：客户记录工具化</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">先解决客户资料、咨询录音、纪要整理和回访话术的重复劳动。</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">WorkBuddy 接收文字 / 录音 / 文件\n→ Agent 抽取字段和摘要\n→ 助理或老师确认\n→ 写入客户和咨询记录\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">验收重点：录入准确、来源清楚、不会重复建档。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">阶段 2：咨询服务流程化</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">把咨询前、咨询中、咨询后的动作串起来：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">咨询预约\n→ 调取客户背景\n→ 完成咨询\n→ 生成记录草稿\n→ 老师确认\n→ 创建跟进任务\n→ 下次咨询回读历史\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">验收重点：每次服务都有记录、每个后续动作有负责人和截止时间。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">阶段 3：客户全周期经营化</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">在持续积累客户、咨询、课程和互动数据后，建立客户阶段和经营信号：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">新客户\n→ 已建立联系\n→ 已完成咨询\n→ 课程 / 活动参与\n→ 持续服务\n→ 沉默客户\n→ 回访 / 复购 / 转介绍\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">沉默天数、咨询次数、消费金额和任务逾期应由确定性逻辑计算；Agent 负责解释信号和生成建议。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">阶段 4：经营建议与决策辅助</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">当业务数据和知识资产达到一定质量后，再做经营总览和建议：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">客户关系网络\n→ 服务过程\n→ 课程与活动\n→ 任务完成\n→ 收入与复购\n→ 经营趋势\n→ 老师 / 管理者决策\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">经营看板不是独立的 Agent，也不是把所有数据画成大屏。它是 Ontology 和业务流程运行之后，对事实、状态、风险和行动的统一投影。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">七、FDE 如何选择交付方案</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">FDE 的交付对象不是“一个 Agent”，而是以下四个层次的组合：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">公司级业务地图\n→ 找到业务域和跨部门关系\n→ 选择一个业务闭环\n→ 选择适当的 Agent / RPA / Workflow / 看板形态\n→ 用 Ontology 把对象、关系、状态和责任串起来\n→ 用生产级工程链保证可控运行\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">对应到己未文化：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">公司级地图：客户经营、咨询服务、课程活动、知识传承\n业务闭环：咨询后记录与跟进\n工具层：WorkBuddy、MCP、录音转写、资料检索\n事实层：客户、咨询、互动、任务、知识对象\n执行层：状态机、人工确认、权限、审计、回滚\n呈现层：Harness 桌面工作台、移动 H5 经营展示\n</pre><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">八、面试中应该如何表达</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">当面试官问“你们给企业做什么 Agent”时，可以回答：</p><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">我不会先按部门数量或工具数量决定 Agent 形态，而会先看业务动作的确定性、判断深度、跨对象关系、风险和数据成熟度。重复确定的动作优先用 API、RPA 或 Workflow；需要理解和生成的局部任务用工具型 Agent；当客户、记录、任务和责任人需要连续推进时，才做业务流程 Agent；数据积累后，再做经营分析和决策辅助。以文化咨询公司为例，我们先从咨询后记录与跟进闭环切入，用 Ontology 统一客户、咨询、互动、任务和知识对象，WorkBuddy 负责输入与资料加工，确定性控制层负责状态、权限、幂等和审计，老师确认专业判断，最终再把可信事实投影到经营看板和决策辅助中。</blockquote><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">九、最终判断</h2><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">工具型 Agent：提升个人效率\n流程型 Agent：推动业务动作\n经营型 Agent：理解业务状态并提出建议\n决策辅助系统：组织事实、比较方案、支持人拍板\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">Ontology 的价值，是让这几种能力不再各自为战，而是围绕同一个业务世界协作。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">文化咨询案例最适合说明这条路径：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">客户资料整理\n→ 咨询服务记录\n→ 跟进任务闭环\n→ 客户全周期经营\n→ 经营建议\n→ 决策辅助\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">终极目标不是让 AI 代替老师做决定，而是让系统逐步理解业务对象、保留事实依据、发现经营信号、提出可审计建议，最后由老师和管理者完成授权与决策。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">十、后续整理项</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 已与己未文化 FDE 实战手册建立双向关联</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 已把工具 Agent、RPA / Workflow、业务流程 Agent、经营建议 Agent 和决策辅助系统放进同一条演进链</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 已把 Ontology 放到 Agent 升级过程的核心位置</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[ ] 后续可补充制造、餐饮、科技咨询等行业的对照案例</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[ ] 后续可把五种形态整理成 FDE 客户访谈判断表</li></ul>",
-   "formalNotes": [
-    "徐总问题专题库/00_问题专题库总览",
-    "知识库索引",
-    "企业AI与智能体商业化/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册",
-    "企业AI与智能体商业化/己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径",
-    "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构",
-    "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
-    "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
-    "徐总问题专题库/06_企业AI与商业化/2026-08-31_腾讯FDE报告与生产级Agent横纵轴判断",
-    "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
-    "企业AI与智能体商业化/企业AI与生产级Agent总框架",
-    "AI Agent工程知识/Palantir式Ontology的真实价值：从业务语义到可执行系统"
-   ],
-   "rawMaterials": [
-    "原始资料/已整理｜2026-08-17｜口播文案｜女装直播用AI省500万(唐承佳案例)",
-    "原始资料/已整理｜2026-08-19｜口播文案｜AI电商数据治理先行(子墨说AI-Corvera案例)"
-   ],
-   "distillItems": [],
-   "nextQuestions": [],
-   "links": [
-    "徐总问题专题库/00_问题专题库总览",
-    "知识库索引",
-    "企业AI与智能体商业化/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册",
-    "企业AI与智能体商业化/己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径",
-    "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构",
-    "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
-    "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
-    "徐总问题专题库/06_企业AI与商业化/2026-08-31_腾讯FDE报告与生产级Agent横纵轴判断",
-    "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
-    "企业AI与智能体商业化/企业AI与生产级Agent总框架",
-    "AI Agent工程知识/Palantir式Ontology的真实价值：从业务语义到可执行系统",
-    "原始资料/已整理｜2026-08-17｜口播文案｜女装直播用AI省500万(唐承佳案例)",
-    "原始资料/已整理｜2026-08-19｜口播文案｜AI电商数据治理先行(子墨说AI-Corvera案例)"
-   ],
-   "wordCount": 8729,
-   "linkedNotes": [
-    {
-     "path": "徐总问题专题库/00_问题专题库总览.md",
-     "title": "00_问题专题库总览",
-     "kind": "note",
-     "wordCount": 5249,
-     "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
-     "hasBody": true
-    },
-    {
-     "path": "知识库索引.md",
-     "title": "知识库索引",
-     "kind": "note",
-     "wordCount": 80117,
-     "excerpt": "知识库索引（快速查找版）2026-09-08｜蜀道集团主体研究线（聚合入口·新）蜀道集团研究线：蜀道集团（四川蜀道投资集团）主体综述 + 跨专题聚合入口。综述型：页内直接可读——金融与资本运作线（蜀道金租内部资金通道 +",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册.md",
-     "title": "己未文化咨询公司 FDE 落地与生产级 Agent 实战手册",
-     "kind": "note",
-     "wordCount": 25337,
-     "excerpt": "己未文化咨询公司 FDE 落地与生产级 Agent 实战手册上级：企业AI与智能体商业化/企业AI与智能体商业化专题总关系图：企业AI与生产级Agent总框架关系图关联：企业AI与智能体商业化/FDE业务需求访谈SOP、",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径.md",
-     "title": "己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径",
-     "kind": "note",
-     "wordCount": 10960,
-     "excerpt": "己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径上级：企业AI与智能体商业化/企业AI与智能体商业化专题关联：己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团、己未",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构.md",
-     "title": "企业级部门智能体全景到跨部门落地架构",
-     "kind": "note",
-     "wordCount": 4514,
-     "excerpt": "企业级部门智能体全景到跨部门落地架构上级：企业AI与智能体商业化专题原始资料：企业AI与智能体商业化/原始资料/抖音视频原文：实体制造企业12部门与586个AI业务场景讨论原稿：企业AI与智能体商业化/原始资料/GPT对",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线.md",
-     "title": "任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
-     "kind": "note",
-     "wordCount": 1680,
-     "excerpt": "任务闭环与业务闭环分离：数字岗位 Agent 与经营 Agent 的两条路线上级：企业AI与智能体商业化/企业AI与智能体商业化专题关联：企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢.md",
-     "title": "FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
-     "kind": "note",
-     "wordCount": 3581,
-     "excerpt": "FDE与甲方沟通：从经营问题到业务闭环 Agent 与 AI 经营中枢上级：企业AI与智能体商业化专题来源对话：chatgpt-conversation://6a224385-8104-83e8-8168-bd78bf6",
-     "hasBody": true
-    },
-    {
-     "path": "徐总问题专题库/06_企业AI与商业化/2026-08-31_腾讯FDE报告与生产级Agent横纵轴判断.md",
-     "title": "2026-08-31_腾讯FDE报告与生产级Agent横纵轴判断",
-     "kind": "note",
-     "wordCount": 1520,
-     "excerpt": "腾讯 FDE 报告与生产级 Agent 横纵轴判断一、徐总的核心问题腾讯研究院关于 FDE、超级个体和 AI 原生组织的报告，是否已经讨论了我们当前遇到的生产级 AI Agent 矛盾？企业是否必须直接建设复杂 Agen",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
-     "title": "按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
-     "kind": "note",
-     "wordCount": 2740,
-     "excerpt": "按业务形态设计 AI Agent 架构：日经营型、项目制与生产制造型上级：企业AI与智能体商业化专题关联：AI Agent工程知识/AI Agent工程知识专题、企业AI与智能体商业化/FDE商业级智能体交付框架、企业A",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
-     "title": "企业AI与生产级Agent总框架",
-     "kind": "note",
-     "wordCount": 6087,
-     "excerpt": "企业 AI 与生产级 Agent 总框架上级：徐总的知识库关联：AI Agent工程知识/AI Agent工程知识专题、企业AI与智能体商业化/企业AI与智能体商业化专题、AI Agent工程知识/生产级AI Agent",
-     "hasBody": true
-    },
-    {
-     "path": "AI Agent工程知识/Palantir式Ontology的真实价值：从业务语义到可执行系统.md",
-     "title": "Palantir式Ontology的真实价值：从业务语义到可执行系统",
-     "kind": "note",
-     "wordCount": 529,
-     "excerpt": "Palantir 式 Ontology 的真实价值Ontology 的价值不在于给数据换一套术语，而在于把企业中的业务对象、关系、状态、规则、动作和责任统一表达，使 AI 能从“查到数据”走向“理解业务并在边界内执行”。",
-     "hasBody": true
-    },
-    {
-     "path": "原始资料/已整理｜2026-08-17｜口播文案｜女装直播用AI省500万(唐承佳案例).md",
-     "title": "女装直播用AI省500万(唐承佳案例)",
-     "kind": "raw",
-     "wordCount": 4817,
-     "excerpt": "本文件为口播母本 + 工作任务模式拆解（选题 / 分镜脚本 / 标题备选 / 封面文案 / 发布物料），按\"未整理\"入库，尚未蒸馏为正式知识笔记。〇、口播母本（完整原文，逐字保留）用AI省了多少钱？您整体AI用下来有算过",
-     "hasBody": true
-    },
-    {
-     "path": "原始资料/已整理｜2026-08-19｜口播文案｜AI电商数据治理先行(子墨说AI-Corvera案例).md",
-     "title": "AI电商数据治理先行(子墨说AI-Corvera案例)",
-     "kind": "raw",
-     "wordCount": 979,
-     "excerpt": "（子墨说AI｜4个人的AI电商团队，5周做到21万营收、融资420万美金）四人团队靠AI一个月逆袭，营收21万，融资420万美金，同时拿下了12个电商快销品牌的合作。最夸张的是，从签下第一单客户到服务满12个品牌，他们只",
-     "hasBody": true
-    }
-   ],
-   "linkedCount": 13
-  },
-  {
-   "path": "徐总问题专题库/06_企业AI与商业化/2026-09-07_工信部414号文与AI应用服务商中间层机会.md",
-   "title": "工信部414号文与AI应用服务商中间层机会",
-   "date": "2026-09-07",
-   "updated": "2026-09-07",
-   "category": "企业AI与商业化",
-   "status": "已回答 → 已整理",
-   "questionType": "",
-   "originalQuestion": "",
-   "direction": "工信部414号文对 AI 应用服务商、FDE 和企业 AI 落地意味着什么？它解决的是模型能力问题，还是应用交付的中间层问题？",
-   "directionHtml": "<p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">工信部414号文对 AI 应用服务商、FDE 和企业 AI 落地意味着什么？它解决的是模型能力问题，还是应用交付的中间层问题？</p>",
-   "summary": "结论 政策明确把 AI 应用服务商定义为覆盖咨询规划、交付实施、运营管理和安全治理的综合服务主体，并鼓励建设 FDE 团队扎根用户现场。这说明 AI 产业的关键瓶颈正在从模型供给转向“把模型嵌入真实业务”的中间层。 但资源池和服务团不是订单，首购首用、风险补偿和场景开放也不能替代真实交付能力。服务商真正的竞争力仍是行业理解、现场交付密度、可复用方案、安全治理",
-   "answerHtml": "<h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">结论</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">政策明确把 AI 应用服务商定义为覆盖咨询规划、交付实施、运营管理和安全治理的综合服务主体，并鼓励建设 FDE 团队扎根用户现场。这说明 AI 产业的关键瓶颈正在从模型供给转向“把模型嵌入真实业务”的中间层。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">但资源池和服务团不是订单，首购首用、风险补偿和场景开放也不能替代真实交付能力。服务商真正的竞争力仍是行业理解、现场交付密度、可复用方案、安全治理和持续运营。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">与现有 FDE 方法论的关系</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">FDE 不应先销售复杂 Agent，而应先判断客户的生产形态，再组合 RPA、Workflow、Agent、数据底座、Harness 和人工治理。工信部文件中的“懂行业痛点、通技术机理、知安全风险、善交付运营”，与现有 FDE 的业务诊断、对象建模、工程落地和持续运营四段能力相互印证。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">来源：原始资料/已整理｜2026-09-03｜工信部官网+用户提供｜工信部414号文原文及解读：AI赚钱的逻辑变了、政府资源配置与政策落地机制/工信部414号文：人工智能应用服务商培育与FDE中间层机会。</p>",
-   "formalNotes": [
-    "政府资源配置与政策落地机制/工信部414号文：人工智能应用服务商培育与FDE中间层机会"
-   ],
-   "rawMaterials": [
-    "原始资料/已整理｜2026-09-03｜工信部官网+用户提供｜工信部414号文原文及解读：AI赚钱的逻辑变了"
-   ],
-   "distillItems": [],
-   "nextQuestions": [],
-   "links": [
-    "原始资料/已整理｜2026-09-03｜工信部官网+用户提供｜工信部414号文原文及解读：AI赚钱的逻辑变了",
-    "政府资源配置与政策落地机制/工信部414号文：人工智能应用服务商培育与FDE中间层机会"
-   ],
-   "wordCount": 527,
-   "linkedNotes": [
-    {
-     "path": "原始资料/已整理｜2026-09-03｜工信部官网+用户提供｜工信部414号文原文及解读：AI赚钱的逻辑变了.md",
-     "title": "工信部414号文原文及解读：AI赚钱的逻辑变了",
-     "kind": "raw",
-     "wordCount": 4304,
-     "excerpt": "工信部414号文原文及解读：AI赚钱的逻辑变了本文件包含两部分：①政策原文（工信部官网完整收录）；②用户提供的深度解读。向上父级：政策与产业观察（待建）横向关联：AI产业与应用落地（待建）、FDE前线部署工程师（待建）溯",
-     "hasBody": true
-    },
-    {
-     "path": "政府资源配置与政策落地机制/工信部414号文：人工智能应用服务商培育与FDE中间层机会.md",
-     "title": "工信部414号文：人工智能应用服务商培育与FDE中间层机会",
-     "kind": "note",
-     "wordCount": 629,
-     "excerpt": "工信部414号文：人工智能应用服务商培育与 FDE 中间层机会工信厅科函〔2026〕414号把人工智能应用服务商定义为覆盖咨询规划、交付实施、运营管理和安全治理的综合服务主体，说明政策关注点已从模型供给进一步转向“把模型",
-     "hasBody": true
-    }
-   ],
-   "linkedCount": 2
-  },
-  {
-   "path": "徐总问题专题库/06_企业AI与商业化/2026-08-31_腾讯FDE报告与生产级Agent横纵轴判断.md",
-   "title": "腾讯FDE报告与生产级Agent横纵轴判断",
-   "date": "2026-08-31",
-   "updated": "2026-09-08",
-   "category": "企业AI与商业化",
-   "status": "已回答 → 已整理",
-   "questionType": "",
-   "originalQuestion": "",
-   "direction": "腾讯研究院关于 FDE、超级个体和 AI 原生组织的报告，是否已经讨论了我们当前遇到的生产级 AI Agent 矛盾？企业是否必须直接建设复杂 Agent、完整 Ontology 或 Harness？WorkBuddy、千问办公、DeepSeek Harness 与 RPA 应该如何选择？",
-   "directionHtml": "<p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">腾讯研究院关于 FDE、超级个体和 AI 原生组织的报告，是否已经讨论了我们当前遇到的生产级 AI Agent 矛盾？企业是否必须直接建设复杂 Agent、完整 Ontology 或 Harness？WorkBuddy、千问办公、DeepSeek Harness 与 RPA 应该如何选择？</p>",
-   "summary": "二、综合结论 腾讯报告与我们当前讨论高度重合，但它补充了两个重要边界：生产级不等于复杂化；Ontology 不是入场券。企业 AI 要先按任务的判断深度和风险等级分流，再逐步增加工程保障。 1. 纵轴：AI 参与业务判断的深度 越往上，越需要企业上下文、业务对象、组织记忆和复杂协作；处于底部的 RPA/API/Workflow 只要把确定性动作稳定完成，同样",
-   "answerHtml": "<h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">二、综合结论</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">腾讯报告与我们当前讨论高度重合，但它补充了两个重要边界：生产级不等于复杂化；Ontology 不是入场券。企业 AI 要先按任务的判断深度和风险等级分流，再逐步增加工程保障。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">1. 纵轴：AI 参与业务判断的深度</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">确定性自动化 → AI增强流程 → 业务辅助Agent → 经营决策Agent → 多Agent系统\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">越往上，越需要企业上下文、业务对象、组织记忆和复杂协作；处于底部的 RPA/API/Workflow 只要把确定性动作稳定完成，同样可以产生生产价值。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">2. 横轴：从 Demo 到生产的工程成熟度</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">L0 场景识别 → L1 原型验证 → L2 试点运行 → L3 生产部署 → L4 规模扩展\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">也可以用 0→80→95→99 理解：0到80是模型和 Prompt 做出可演示效果；80到95要处理术语、数据、规则、测试集和 BadCase；95到99才集中出现权限、审计、回滚、人工接管、合规和长尾异常。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">三、执行框架的选择原则</h2><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务类型</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">优先形态</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">适合的执行框架</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">重复、确定、低判断</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">RPA / API / Workflow</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">RPA平台、脚本、系统集成</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">局部需要理解或生成</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">AI增强流程</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">WorkBuddy、千问办公、轻量 Agent</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">多步骤、需状态和工具协作</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Agentic Workflow</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Harness、Workflow、权限和日志</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">高风险经营或责任任务</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生产级 Agent 系统</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Harness + Ontology/数据底座 + Evals + HITL</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">选择不是 WorkBuddy、千问办公、DeepSeek Harness 三选一，而是由生产形态决定组合。WorkBuddy/千问办公更像直接使用的执行型工作台；DeepSeek Harness 更像可自建、可控制的 Agent Runtime；RPA负责确定性动作；FDE负责把业务翻译成可落地结构。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">四、Ontology 的正确节奏</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">不应先完整建设 Palantir 式 Ontology，再寻找业务。更现实的路径是：真实项目 → 可用 Skill → 跨项目模板 → 轻量语义层 → 有足够数据和复用需求后再形成完整 Ontology。Ontology 是随着业务运行长出来的资产，不是所有生产级 Agent 的前置门槛。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">五、FDE 的真正职责</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">FDE 不是销售一个 Agent，也不是证明自己掌握最多工具，而是判断：客户的业务属于哪种生产形态、AI 应该在哪个节点介入、需要多深的企业上下文、应该配置多少工程保障，以及如何用真实指标和 BadCase 闭环证明价值。</p>",
-   "formalNotes": [
-    "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究",
-    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
-    "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
-    "徐总问题专题库/06_企业AI与商业化/2026-09-08_生产级Agent形态选择与案例演进"
-   ],
-   "rawMaterials": [
-    "原始资料/已整理｜2026-09-08｜腾讯研究院｜FDE模式行业观察与实践原始稿索引",
-    "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论"
-   ],
-   "distillItems": [],
-   "nextQuestions": [],
-   "links": [
-    "原始资料/已整理｜2026-09-08｜腾讯研究院｜FDE模式行业观察与实践原始稿索引",
-    "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究",
-    "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论",
-    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
-    "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
-    "徐总问题专题库/06_企业AI与商业化/2026-09-08_生产级Agent形态选择与案例演进"
-   ],
-   "wordCount": 1621,
-   "linkedNotes": [
-    {
-     "path": "原始资料/已整理｜2026-09-08｜腾讯研究院｜FDE模式行业观察与实践原始稿索引.md",
-     "title": "FDE模式行业观察与实践原始稿索引",
-     "kind": "raw",
-     "wordCount": 555,
-     "excerpt": "腾讯研究院 FDE 模式行业观察与实践原始稿索引来源确认这是腾讯研究院《FDE 模式行业观察与实践》原始 PDF，不是《超级个体时代》报告。本地原始文件：/Users/xucheng/Desktop/2026年文件/腾讯",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md",
-     "title": "腾讯FDE模式行业观察与实践报告研究",
-     "kind": "note",
-     "wordCount": 10949,
-     "excerpt": "腾讯 FDE 模式行业观察与实践报告研究上级：企业AI与智能体商业化专题关联：零一万物FDE与企业AI落地模式、FDE生产级AI Agent五阶段方法论与AI基建协同、FDE商业级智能体交付框架、FDE与甲方沟通：从经营",
-     "hasBody": true
-    },
-    {
-     "path": "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论.md",
-     "title": "DeepSeekHarness专属智能体与多Agent控制层讨论",
-     "kind": "raw",
-     "wordCount": 915,
-     "excerpt": "DeepSeek Harness 专属智能体与多 Agent 控制层讨论来源：ChatGPT 对话《DeespseekHarness 专属智能体》；本页保留讨论原始脉络，结论已回流到协作架构和 Harness 搭建记录。",
-     "hasBody": true
-    },
-    {
-     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
-     "title": "生产级AI Agent知识体系总览：层级·特性·术语",
-     "kind": "note",
-     "wordCount": 40978,
-     "excerpt": "生产级 AI Agent 知识体系总览：层级·特性·术语（含 Palantir Ontology 对标）一句话定义：生产级 AI Agent 不是更聪明的聊天机器人，而是把模型判断、工具执行、数据知识、记忆管理、流程编排",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
-     "title": "FDE生产级AI Agent五阶段方法论与AI基建协同",
-     "kind": "note",
-     "wordCount": 7241,
-     "excerpt": "FDE生产级AI Agent五阶段方法论与AI基建协同上级：企业AI与智能体商业化专题关联：FDE交付方法论与甘食记案例、FDE与AI架构师核心资产能力、FDE商业级智能体交付框架、AI产业链与数字基础设施/AI时代演进",
-     "hasBody": true
-    },
-    {
-     "path": "徐总问题专题库/06_企业AI与商业化/2026-09-08_生产级Agent形态选择与案例演进.md",
-     "title": "2026-09-08_生产级Agent形态选择与案例演进",
-     "kind": "note",
-     "wordCount": 8078,
-     "excerpt": "生产级 Agent 形态选择与案例演进上级：徐总问题专题库/00_问题专题库总览、知识库索引关联正式笔记：企业AI与智能体商业化/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册企业AI与智能体商业化/己未文",
-     "hasBody": true
-    }
-   ],
-   "linkedCount": 6
-  },
-  {
-   "path": "徐总问题专题库/06_企业AI与商业化/2026-08-19_企业AI知识库：手册库-数据库-萃取库三分类.md",
-   "title": "企业AI知识库：手册库-数据库-萃取库三分类",
-   "date": "2026-08-19",
-   "updated": "2026-08-26",
-   "category": "企业AI与商业化",
-   "status": "indexed",
-   "questionType": "",
-   "originalQuestion": "",
-   "direction": "",
-   "directionHtml": "",
-   "summary": "一句话核心 老板做 AI 提效的第一件事不是找场景，而是建立企业知识库——知识库就三类：手册库（文档归拢）+ 数据库（财务×业务）+ 萃取库（结构化判断），三库建立后才谈得上 AI 的复用与复利。 一、知识库的定义：文档加表格 知识库简单理解就是文档加表格。 文档 = 手册、资料等以文字为主的常规内容；表格 = 萃取出来的结构化数据。 表格和文档是形式，按性",
-   "answerHtml": "<h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">一句话核心</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">老板做 AI 提效的<b>第一件事不是找场景，而是建立企业知识库</b>——知识库就三类：<b>手册库（文档归拢）+ 数据库（财务×业务）+ 萃取库（结构化判断）</b>，三库建立后才谈得上 AI 的复用与复利。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">一、知识库的定义：文档加表格</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">知识库简单理解就是<b>文档加表格</b>。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">文档 = 手册、资料等以文字为主的常规内容；表格 = 萃取出来的结构化数据。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">表格和文档是<b>形式</b>，按<b>性质</b>分，企业知识库一共三类。</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">二、三库框架（核心知识点）</h2><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">1. 手册库（常规文档类知识库）</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>内容</b>：工作手册、标准化流程、产品手册、公司介绍等常规文档形式。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>核心痛点（文档归拢）</b>：</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">很多公司的文档散落在老板个人电脑、财务电脑等处，<b>没有一个归拢的地方</b>；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">如果文档无法集中、无法被访问，<b>AI 很难帮助你</b>——AI 无法利用散落不可及的文档。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">归拢载体：企微群、QQ 群、飞书等团队协作工具。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>结论</b>：手册、文档必须先有一个\"地方\"（归拢地），这是三库建设的第一前提。</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">2. 数据库（财务数据 × 业务数据）</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>内容</b>：财务数据和业务数据，本质是\"做生意每天发生的账\"与\"账背后的行为\"。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>财务 × 业务对应关系</b>（独家要点）：</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">无论 ToC、ToB 还是高客单，<b>一笔财务的发生，前面一定对应着行为</b>——销售行为、电商运营行为等；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">这个\"行为是什么、行为怎么和财务数据对应\"，要<b>想办法存进表格</b>——这就是数据库。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>结论</b>：数据库 = 把\"财务数据 ↔ 前置业务行为\"的对应关系结构化存表。</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">3. 萃取库（独家概念）</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>为什么要萃取库</b>：</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">纯文档、纯手册是<b>静态的</b>，且是<b>非结构化的</b>——全是字，没有按表格一列一列列好结构；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>AI 看结构化数据天然容易，看纯文档天然费劲</b>——结构化是 AI 可读性的关键。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>萃取什么</b>：内部能结构化出来的东西——</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">案例：一条案例、一条案例；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">老板的核心业务判断：一条判断、一条判断。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>边界</b>：很难结构化、很冗杂很长的部分，扔进文档，作为传统知识库（手册库）；能结构化的部分做成萃取库。</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">三、老板做 AI 提效第一件事：建三库</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">找不到 AI 场景，或者想长期有复利地做 AI 提效 → <b>最先要做的事是建立企业知识库</b>。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">三库复习：</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">传统的文档类知识库（手册库）；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">财务和业务数据的数据库；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">萃取库。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">复利逻辑：三库建立是\"AI 提效复利\"的地基，之后才谈场景放大与持续复用。</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">四、财务 × 业务对应（要点展开）</h2><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">维度</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">内容</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">财务数据</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">每天的账：支出、收入、消费等</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">前置行为</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">销售行为（ToB/高客单）、电商运营行为（ToC）等</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">对应关系</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">一笔财务发生 → 前面一定有行为 → 行为如何与财务对应，存进表格</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">落地形式</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">行为与财务的对应关系 = 数据库的核心内容</td></tr></tbody></table></div><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">五、与知识库既有内容的同源对照（蒸馏建议）</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">三库分类与「飞书多维表格 = 操作型 Ontology」的判断<b>同源</b>，蒸馏定稿时建议合并对照。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">《中小企业AI提效手册》（业务智能体怎么搭、中小企业怎么找第一个 AI 落地场景）对应知识库「中小企业AI落地」脉络，可作延伸素材。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">本片定位为「企业需要什么样的 AI / 企业AI落地」问题专题（徐总问题专题库/06）的新素材。</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">六、待审项（定稿前需确认）</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">\"萃取库是独家发明\"的表述是否需要弱化（避免被质疑/引发争议）；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">三库框架是否与飞书多维表格/知识库产品强绑定，需确认是否脱敏；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">与 06 专题既有笔记（游戏公司AI落地通用执行框架等）的并入方式：独立成篇 or 合并对照。</li></ul><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">来源：原始资料/已整理｜2026-08-18｜口播文案｜企业AI知识库搭建</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">返回：徐总问题专题库/00_问题专题库总览</p>",
-   "formalNotes": [
-    "徐总问题专题库/00_问题专题库总览"
-   ],
-   "rawMaterials": [
-    "原始资料/已整理｜2026-08-18｜口播文案｜企业AI知识库搭建"
-   ],
-   "distillItems": [],
-   "nextQuestions": [],
-   "links": [
-    "原始资料/已整理｜2026-08-18｜口播文案｜企业AI知识库搭建",
-    "徐总问题专题库/00_问题专题库总览"
-   ],
-   "wordCount": 1669,
-   "linkedNotes": [
-    {
-     "path": "原始资料/已整理｜2026-08-18｜口播文案｜企业AI知识库搭建.md",
-     "title": "企业AI知识库搭建",
-     "kind": "raw",
-     "wordCount": 3560,
-     "excerpt": "本文件为口播母本 + 工作任务模式拆解（选题 / 分镜脚本 / 标题备选 / 封面文案 / 发布物料），按\"未整理\"入库，尚未蒸馏为正式知识笔记。〇、口播母本（完整原文，逐字保留）企业AI知识库搭建这个点我觉得还是比较重",
-     "hasBody": true
-    },
-    {
-     "path": "徐总问题专题库/00_问题专题库总览.md",
-     "title": "00_问题专题库总览",
-     "kind": "note",
-     "wordCount": 5249,
-     "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
-     "hasBody": true
-    }
-   ],
-   "linkedCount": 2
-  },
-  {
-   "path": "徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构.md",
-   "title": "企业需要什么样的AI：节点放大效率还是组织架构",
-   "date": "2026-08-18",
-   "updated": "2026-08-26",
-   "category": "企业AI与商业化",
-   "status": "已回答 → 已入库",
-   "questionType": "",
-   "originalQuestion": "看了这两家电商的 AI 的加入，其实我就会觉得我们在做 Harness 的时候到底是在为啥？到底是跟极客相关，还是把 Harness 培养到能进入到生产级的企业？如果说现在的 AI 如果没法产生一个效益的话，我觉得就不是好 AI。 你们去拆分一下，他们用的可能那种 AI 都是很简单的，就是一种标准化的流程去嵌入到整个流程当中。 这个问题专题库主要就是讲企业到底需要什么样的 AI 以及企业 AI 落地案例的思考——到底是这个 AI 在节点放大效率，还是说它要引导整个公司变成 AI 组织架构？因为之前更多的是讲怎么样去",
-   "direction": "本页不是记录两篇口播的文案内容，而是提炼徐总的真实关切： 结论先行（三方一致）： 两家电商证明，企业里产生真实效益的 AI 是「标准化流程 + 在关键节点嵌 RPA/AI 的标准化零件」，不是\"智能体总控整个公司\"。AI 在节点放大效率是今天能落地、能算账的形态；组织整体 AI 化是长期方向，但前提是先把节点做扎实。以此反照 Harness：我们之前堆的插件/控制中心/派发层属于\"极客自嗨\"，偏离了\"生产级 = 效益可算账\"这条线。",
-   "directionHtml": "<p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本页不是记录两篇口播的文案内容，而是提炼徐总的真实关切：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">1. 企业里\"好用的 AI\"到底长什么样？是标准化流程里嵌几个点状 AI，还是整个组织被 AI 重构？\n2. 两家电商案例（唐承佳女装直播、森马/跨境黄总）的共同模式是什么？\n3. 以这个标准回头看我们的 Harness 建设，定位错了没有？\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>结论先行（三方一致）：</b> 两家电商证明，企业里产生真实效益的 AI 是「标准化流程 + 在关键节点嵌 RPA/AI 的标准化零件」，不是\"智能体总控整个公司\"。AI 在<b>节点放大效率</b>是今天能落地、能算账的形态；<b>组织整体 AI 化</b>是长期方向，但前提是先把节点做扎实。以此反照 Harness：我们之前堆的插件/控制中心/派发层属于\"极客自嗨\"，偏离了\"生产级 = 效益可算账\"这条线。</p><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\">",
-   "summary": "一、两篇案例拆解（来自原始资料，非转述） 1. 唐承佳｜女装直播用 AI 省近 500 万（净利极低行业） 环节 做法 量化结果 达人画像 RPA 自动筛 GMV/场次/违约率/口碑分 → 匹配联系方式 → 加微信 找商家/达人两端，AI 决策、RPA 执行 爆品 AI 选品 一双靴子卖 20 万双 客服拦截 AI 24 小时自动拦截\"发货未收到就退款\"的订",
-   "answerHtml": "<h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">一、两篇案例拆解（来自原始资料，非转述）</h2><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">1. 唐承佳｜女装直播用 AI 省近 500 万（净利极低行业）</h3><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">环节</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">做法</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">量化结果</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">达人画像</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">RPA 自动筛 GMV/场次/违约率/口碑分 → 匹配联系方式 → 加微信</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">找商家/达人两端，AI 决策、RPA 执行</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">爆品</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">AI 选品</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">一双靴子卖 20 万双</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客服拦截</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">AI 24 小时自动拦截\"发货未收到就退款\"的订单，快速回仓</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">高峰 12 个客服 → 现在 1 人</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">数据复盘</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">早 6 点 AI 自动下载店铺数据 → 分发给负责人 + 给 AI 分析</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">以前每天 4–5 小时下载、凌晨上班，现在 9 点直接复盘</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">上架工具</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">护理专业小白用 AI+Codex 辅助开发影刀 RPA 工具</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">3 小时做出，每天省 2 小时</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">板房损耗</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">板房\"杆上挂码 + 扫码仓位\"，7 天销量不达标自动踢出退板衣，所有衣物扫码进系统</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">板衣损耗 2023 年 40 多万 → 2025 年 1 万多</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">拍摄</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">AI 设定人物/搭配、建需求表，替代寄国外拍样衣（45 天、单款 4000–5000 元）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">几十倍提升</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">组织</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">被 AI 替代下来的人不裁，转去做跨境商品卡短视频新业务</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">守江山 → 打江山</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">核心方法论（唐承佳原话）：企业落地三原则——①最痛的点；②AI 能快速解决；③能快速见效。\"大公司用 AI 是赌未来，小公司用 AI 只看现在。对中小企业，AI 首先不是赚钱工具，而是救命、活下来。\"</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">2. 森马 + 跨境黄总｜企业 AI 落地与数字化转型干货</h3><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">内容</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">森马数字员工</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">一台电脑 = 3 个员工，抓数据、处理采购订单、上架下架、BI 看板全自动；老板每天盯\"奏折\"（数据结果），人只做监管与思考 → 构成\"硅基组织\"</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">黄总选品系统</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">RPA 抓取 → 4 个不同 AI 分析/拆人群 → 1 个 AI 萃取 → 每天产 2000 个，1000 产品裂变 17000 多，再筛再审</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">一横一纵 OS</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">横向 = 战略流程（选品→产品运维→广告投放→数据纠偏→财务核算），纵向 = 岗位 OS（岗位目标 GMV → 待办 → 时间切片 → 判断该用 RPA 还是 AI）；流程锚点全清晰</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">时间切片 SOP</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">员工 8 小时工作切成 5 分钟颗粒，分段录制 → AI 解析 → AI 生成初版 SOP → 人工审核校准 → 主管复核 → 20 人做同一件事合成一个 85 分 SOP 复用全员</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">知识库观</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">\"知识库是底座，但 AI 给你建的知识库可能是幻觉\"；好的知识库 = 从 SOP 起步、不断升级迭代、两个月可建成；最难在 SOP（把员工日常操作变成可复用可传承）</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">边界观</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不把亚马逊后台交给 Codex 操作；影刀是本地执行软件；\"取回 10 个地方的数据，每个都只有 80% 时，决策会做得一塌糊涂\"</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">RPA vs AI</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">\"RPA 解决人重复且复杂的动作，确定和固定；AI 是流水线上随时在变的机器人\"；AI+ERP / AI+CRM / AI+RPA，至少共生 10 年</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">结果</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">170 多人 → 四五十人；三家公司合计约 8 亿；核心是单个人的人效和思维逻辑发生巨大变化</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">泼冷水</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">别执着于 Agent，\"上来就谈 Agent，幻觉会不断迭代\"；企业 AI 落地要基于自身业务，不盲从、不焦虑；缺的是方法论</td></tr></tbody></table></div><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">二、伊森（执行端）总结：共同模式</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>流程先行，AI 只嵌在固定节点</b>——两家底层骨架一样，先有清晰的一级流程，AI 是\"判断\"环节的标准化增强件，不是主角。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>RPA 干确定的，AI 干变化的</b>——重复固定的全 RPA 化（抓数据、切店铺、加微信、扫码仓位、退款拦截），分析/选品/拍图这类变化的交给 AI。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>飞书多维表格 = 操作型业务 Ontology</b>——黄总的\"一横一纵\"把商品/达人/店铺/仓位/岗位做成实体并锚定到流程；唐承佳的板房扫码仓位把每件衣服的位置变成数据对象。这是 Palantir 式 Ontology 的低成本操作型版本。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>本地优先、核心后台不交 AI</b>——克制、可解释，10 个 80% 数据源不拼决策。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>结果可量化、当天见效</b>——每笔 AI 投入都对着具体成本/效率数字（省 500 万、12 客服→1、40 万→1 万、170 人→40 人）。</li></ul><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>他们用的\"简单 AI\"本质</b>：不是大模型推理成精，是标准化流程 + 几个节点上\"套上就好用\"的点状能力（选品判断、拍摄生图、SOP 生成、客服拦截规则）。核心认知与徐总完全一致：上来就做 Agent = 幻觉迭代；企业 AI 落地不要执着于 Agent。</p><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">三、奥利弗（Oliver）总结：照出 Harness 的尴尬</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>这两家用的 AI 拆穿了很朴素</b>：标准化流程 + 效益可量化，一点都不极客。RPA 干确定的、AI 干变化的，绝不混用；AI 嵌进现成业务流、每笔都算得清账；底座是知识库 + SOP 而不是 Agent。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>\"关系库/多维表格\"本质是一套业务本体</b>：黄总一横一纵 OS 就是围绕业务流程长出来的 Ontology，岗位/流程/任务/数据全结构化；但它是<b>从业务里自然长出来的</b>，不是为了 Ontology 而 Ontology。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>Harness 的尴尬</b>：我们堆的是\"agent 运行时、插件化、控制中心、多智能体调度、可观测\"——回答的是\"系统能不能跑\"，不是\"这单业务省了多少钱\"。<b>如果停在这里，Harness 就是极客玩具，不是生产工具。</b></li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>定位必须二选一</b>：极客/研究方向 → 现在的路没错，但只是实验，不能当生产承诺，不能再无限堆能力；生产级企业 → 反过来做，<b>先锁定一个真实业务闭环（电商选品/内容生产/客服拦截），让 Harness 承载那条标准化流程，第一件事算清\"用 AI 后省多少、提多少\"</b>。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>一句话</b>：AI 的胜负手不在框架多炫，而在能不能嵌进标准流程、今天就算得出效益。Harness 要进生产，就得从\"造运行时\"转向\"跑通一条能算账的业务线\"。</li></ul><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">四、合并判断框架（伊森 + 奥利弗，结论一致）</h2><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">核心结论</h3><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\"><b>企业要的好 AI，是把 AI 嵌进标准化流程的节点上放大效率，而不是先造一个智能体总控去重构组织。</b> 组织 AI 化（硅基组织）是长出来的结果——节点先放大效率 → 人效提升 → 被释放的人去新业务 → 组织形态自然变化——不是从第一天就\"设计一个 AI 组织\"。</blockquote><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">判断框架：给任何\"AI 该不该上 / 该买什么\"做裁决</h3><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">判断维度</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生产级标准（这两家的）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">极客自嗨（我们之前的 Harness）</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">起点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">真实业务闭环（一条流程）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">框架能力（运行时/插件/调度）</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">问题</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">这单业务省多少/提多少</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">系统能不能跑、跑得好不好</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">AI 形态</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">节点上的标准化零件</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">智能体总控/派发层</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">基建</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">知识库 + SOP + 业务 Ontology</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">记忆/插件/控制中心堆叠</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">验收</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">当天/当月见效、费用可归因</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">功能点齐不齐</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">边界</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">核心后台不交 AI、人审关键</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">全链路自动</td></tr></tbody></table></div><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">节点放大效率 → 组织架构的路径（不是选择题，是顺序）</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">1. 选一条真实高频流程（选品/客服/复盘/内容）\n2. 把流程里确定动作 RPA 化、变化动作 AI 化（节点放大）\n3. 用飞书多维表格/扫码把业务对象与关系结构化（操作型 Ontology）\n4. 时间切片把岗位动作沉淀成 SOP 进知识库，人审核校准\n5. 每节点量化省多少/提多少（可算账 = 生产级门槛）\n6. 被释放的人力转新业务 → 组织自然 AI 化（硅基组织）\n</pre><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">对 Harness 的具体裁决</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">重装后的 Harness 不再堆层（维持官方基线），这是对的，但只是\"不添乱\"的底线。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">要跨到\"产效益\"：给 Harness 锁一个真实业务闭环（例如内容生产/客服拦截/选品），用官方基线承载那条标准化流程，第一件事算清效益账。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">衡量标准就一句话：<b>任何一次给 Harness 加东西，先回答\"这能给业务省多少钱/时间、提多少准\"？答不上来就不加。</b></li></ul><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">五、与既有知识的关系</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>游戏公司案例</b>（2026-08-11）讲的是\"组织记忆与执行习惯层\"——AI 落地的组织侧难点；本页补充的是\"节点效率层\"——先有标准化流程节点，再谈组织改造。两条合起来才是完整链路：<b>节点放大效率（本页）→ 员工执行习惯与组织记忆（游戏案例）→ 组织 AI 化</b>。本专题即通用执行框架（徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆）在服装/电商行业的实例化，框架主文第四章已纳入本专题作第三行业迁移实例（游戏公司 / 己未文化 / 服装电商三行业对照）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>\"操作型 Ontology\"</b> 与本库 Ontology 方法论同源（企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐））：对象类型 + 关系 + 锚定流程，只是这两家靠人在飞书 Base 维护，成本极低。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>与 Harness 复盘</b>（原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环、DeepSeek Harness项目/DeepSeek Harness项目记录）互为印证：从简到繁失控 = 极客自嗨的代价。</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">六、后续整理项</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 两篇未整理口播蒸馏为问题专题库（本页）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[ ] 可升级为正式专题「企业 AI 落地真实案例：节点放大效率方法论」（放企业AI与智能体商业化/），含一横一纵 OS 图、时间切片 SOP 模板、RPA/AI 分工表。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[ ] 将\"操作型业务 Ontology\"方法论单独提炼（对比语义层 Ontology 的适用边界）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[ ] 重装后的 Harness 是否锁一条业务闭环做试点，待徐总决策。</li></ul><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">返回：徐总问题专题库/00_问题专题库总览</p>",
-   "formalNotes": [
-    "徐总问题专题库/00_问题专题库总览",
-    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构",
-    "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
-    "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆",
-    "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
-    "DeepSeek Harness项目/DeepSeek Harness项目记录"
-   ],
-   "rawMaterials": [
-    "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环"
-   ],
-   "distillItems": [],
-   "nextQuestions": [],
-   "links": [
-    "徐总问题专题库/00_问题专题库总览",
-    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构",
-    "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
-    "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆",
-    "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
-    "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环",
-    "DeepSeek Harness项目/DeepSeek Harness项目记录"
-   ],
-   "wordCount": 4646,
-   "linkedNotes": [
-    {
-     "path": "徐总问题专题库/00_问题专题库总览.md",
-     "title": "00_问题专题库总览",
-     "kind": "note",
-     "wordCount": 5249,
-     "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
-     "title": "游戏公司AI组织落地：从流程提效到生产方式重构",
-     "kind": "note",
-     "wordCount": 5743,
-     "excerpt": "游戏公司 AI 组织落地：从流程提效到生产方式重构上级：企业AI与智能体商业化/企业AI与智能体商业化专题关联：原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地、企业AI与智能体商业化/游戏公司AI落地",
-     "hasBody": true
-    },
-    {
-     "path": "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
-     "title": "2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
-     "kind": "note",
-     "wordCount": 6985,
-     "excerpt": "2026-08-11｜游戏公司 AI 落地通用执行框架：从生产侧库到组织记忆上级：徐总问题专题库/00_问题专题库总览关联：企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构、企业AI与智能体商业化/",
-     "hasBody": true
-    },
-    {
-     "path": "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆.md",
-     "title": "2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆",
-     "kind": "note",
-     "wordCount": 469,
-     "excerpt": "2026-08-11｜企业 AI 落地为什么会卡在员工执行习惯与组织记忆上级：徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆本页已降级为子问题指针。徐总纠",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）.md",
-     "title": "FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
-     "kind": "note",
-     "wordCount": 14577,
-     "excerpt": "FDE 在甲方搭建 Ontology Objects 的完整工作流（含客户沟通+行业语言对齐）日期：2026-06-17（IMA 笔记），2026-06-18 同步至 Obsidian上级：企业AI与智能体商业化专题关联",
-     "hasBody": true
-    },
-    {
-     "path": "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环.md",
-     "title": "Harness控制中心架构闭环",
-     "kind": "raw",
-     "wordCount": 3191,
-     "excerpt": "状态：已整理，已回流正式项目记录创建：2026-08-16来源：DeepSeek Harness 控制中心收敛任务（KNOWLEDGEPIP-115）整理结果：DeepSeek Harness项目/DeepSeek Ha",
-     "hasBody": true
-    },
-    {
-     "path": "DeepSeek Harness项目/DeepSeek Harness项目记录.md",
-     "title": "DeepSeek Harness项目记录",
-     "kind": "note",
-     "wordCount": 70323,
-     "excerpt": "DeepSeek Harness 项目记录这是 DeepSeek Harness 独立实验项目的长期入口。项目目标是基于 DeepSeek 官方 Developer Preview，验证 Harness 的插件、Prof",
-     "hasBody": true
-    }
-   ],
-   "linkedCount": 7
-  },
-  {
-   "path": "徐总问题专题库/06_企业AI与商业化/2026-08-18_企业AI落地问题总和：战略-机制-卡点三层融合.md",
-   "title": "企业AI落地问题总和：战略-机制-卡点三层融合",
-   "date": "2026-08-18",
-   "updated": "2026-08-26",
-   "category": "企业AI与商业化",
-   "status": "已融合 → 已入库",
-   "questionType": "",
-   "originalQuestion": "",
-   "direction": "上级：徐总问题专题库/00问题专题库总览 本页是「06 企业 AI 与商业化」专题的总和 / 总入口。它不重复各源文全文，而是把本专题下几篇核心文章的「问题」融合为一条纵深的完整问题链，并链接到各详文供深读。读这一篇，即可掌握本专题全部问题的骨架；要细节，点链接下钻。 统一问题陈述（一句话） 企业 AI 落地不是一个问题，而是三层递进：先定「要节点效率还是组织重构」（战略）→ 再建「生产侧库 + 任务闭环 + ANC」的通用机制（构建）→ 最后直面「执行习惯与组织记忆」这个必然卡点（卡点）。三层缺一不可，顺序不能反",
-   "directionHtml": "<p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">上级：徐总问题专题库/00_问题专题库总览</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本页是「06 企业 AI 与商业化」专题的<b>总和 / 总入口</b>。它不重复各源文全文，而是把本专题下几篇核心文章的「问题」融合为一条纵深的完整问题链，并链接到各详文供深读。读这一篇，即可掌握本专题全部问题的骨架；要细节，点链接下钻。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">统一问题陈述（一句话）</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">企业 AI 落地不是一个问题，而是三层递进：<b>先定「要节点效率还是组织重构」（战略）→ 再建「生产侧库 + 任务闭环 + ANC」的通用机制（构建）→ 最后直面「执行习惯与组织记忆」这个必然卡点（卡点）</b>。三层缺一不可，顺序不能反。</p><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">注：本页的「三层」是<b>问题视角</b>的分层；游戏公司主文另有「生产机制层 / 切入路线层 / 组织形态层」的<b>构建视角</b>三层，二者正交互补——本页回答「问题怎么串」，主文回答「框架怎么搭」。</blockquote><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">三层问题融合</h2><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">第一层 · 战略 / 选择层——企业需要什么样的 AI？</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>提出的问题</b>：企业到底需要什么样的 AI？是让 AI 放大单个流程节点的效率，还是引导整个公司变成 AI 组织架构？</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>融合回答</b>：优先「节点放大效率」——先有标准化、可验收的流程节点（RPA 干确定、AI 干变化），再谈组织改造。跳到「组织重构」往往落空，因为底层节点还没标准化。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>行业证据</b>：唐承佳女装直播用 AI 省 500 万（流程节点标准化 + 飞书多维表格作操作型 Ontology + 本地优先 + 结果可量化）；森马 / 跨境黄总案例同样先搭流程再谈智能化。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>详文</b>：徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">第二层 · 机制 / 构建层——AI 落地怎么真正发生？</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>提出的问题</b>：有了战略方向，AI 落地靠什么机制真正跑起来、可复用？</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>融合回答（通用执行框架，三层构建）</b>：</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>生产机制层</b>（第一至四章）：真实工作持续沉淀为对象、判断、理由、确认、复用（生产侧库 + 低摩擦留痕 + 会议决策 + 组织记忆）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>切入路线层</b>（第五章，任务闭环与业务闭环分离）：从边界清晰的任务先切——数字岗位 Agent（Task-first，可验收）vs 经营 Agent（Business-process-first，懂整条闭环）；生产级 = 责任范围内稳定可验收，不取决于理解多宽。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>组织形态层</b>（第六章，ANC 方法论）：多 Agent / 多任务嵌入组织协作与权限——FDE 用「Skill + 企业真实语料 × 组织 / 权限梳理」生成企业专属 AI 原生组织（ANC-X），角色变为 Owner / DRI / Builder / Player Coach。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>融合要点</b>：三层顺序即落地顺序——先跑通生产机制，再用任务闭环切入高频工作，最后重构为 AI 原生组织。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>详文（主框架）</b>：徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>并入来源</b>：企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线、企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">第三层 · 卡点 / 微观层——为什么「用了 ≠ 落地」？</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>提出的问题</b>：员工明明用了 AI 工具，为什么组织仍没完成 AI 落地？</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>融合回答</b>：卡在「员工执行习惯与组织记忆」。截图、记录、确认、反馈这些低摩擦动作决定系统能否跑起来；组织记忆不是文档堆积，而是判断理由和结果反馈能被下一轮复用。绕过这一层，前面战略和机制都悬空。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>详文（子问题指针）</b>：徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">三层关系（为什么顺序不能反）</h2><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">战略层（要什么样的AI：节点效率优先）\n   ↓ 决定切哪类工作\n机制层（通用执行框架：生产侧库→任务闭环→ANC）\n   ↓ 跑通后暴露\n卡点层（执行习惯与组织记忆：低摩擦动作决定能否复用）\n</pre><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">没有战略层，机制层容易一上来做「经营中枢」而失控；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">没有机制层，战略层只是口号，落不到节点；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">没有卡点层，前两层跑通也被人的习惯和组织失忆打回原形。</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">行业实例化（三行业对照，统一挂在通用框架主文下）</h2><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">维度</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">游戏公司（案例源）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">己未文化（咨询客户）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">服装 / 电商（战略层实例）</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">战略层落点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">先固化美术 / 选角流程节点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">先固化交付物节点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">先标准化直播 / 供应链节点</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">机制层落点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生产侧库 + 老板截图复盘</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Ontology Objects 工作流</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">飞书多维表格作操作型 Ontology</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">卡点层落点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">员工留痕习惯</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户沟通 + 行业语言对齐</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">结果可量化、本地优先</td></tr></tbody></table></div><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">关联文章清单（本专题全部核心文，点链下钻）</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">总和 / 总入口（本页）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆（机制层主框架，含任务闭环 + ANC 并入）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构（战略层实例化，KNOWLEDGEPIP-121）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆（卡点层子问题）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线（机制层第五章来源）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地（机制层第六章来源）</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">年检机制</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">周期：每年一次（首次 2027-08-18）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">触发：到日由人工或 Agent 复核，检查三行业实例是否仍有效、框架是否需补新行业。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">检查清单：① 战略层「节点效率优先」是否被新案例推翻；② 机制层三层顺序是否仍成立；③ 卡点层是否出现新卡点（如新工具改变留痕习惯）；④ 行业实例是否需要增补；⑤ 链接是否失效；⑥ 年检记录是否追加。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">执行记录：</li></ul><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">日期</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">复核人</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">结论</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">调整</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">2026-08-18</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">伊森</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">建页，三层融合完成</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">无</td></tr></tbody></table></div><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">返回：徐总问题专题库/00_问题专题库总览</p>",
-   "summary": "统一问题陈述（一句话） 企业 AI 落地不是一个问题，而是三层递进：先定「要节点效率还是组织重构」（战略）→ 再建「生产侧库 + 任务闭环 + ANC」的通用机制（构建）→ 最后直面「执行习惯与组织记忆」这个必然卡点（卡点）。三层缺一不可，顺序不能反。 注：本页的「三层」是问题视角的分层；游戏公司主文另有「生产机制层 / 切入路线层 / 组织形态层」的构建视",
-   "answerHtml": "<h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">统一问题陈述（一句话）</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">企业 AI 落地不是一个问题，而是三层递进：<b>先定「要节点效率还是组织重构」（战略）→ 再建「生产侧库 + 任务闭环 + ANC」的通用机制（构建）→ 最后直面「执行习惯与组织记忆」这个必然卡点（卡点）</b>。三层缺一不可，顺序不能反。</p><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">注：本页的「三层」是<b>问题视角</b>的分层；游戏公司主文另有「生产机制层 / 切入路线层 / 组织形态层」的<b>构建视角</b>三层，二者正交互补——本页回答「问题怎么串」，主文回答「框架怎么搭」。</blockquote><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">三层问题融合</h2><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">第一层 · 战略 / 选择层——企业需要什么样的 AI？</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>提出的问题</b>：企业到底需要什么样的 AI？是让 AI 放大单个流程节点的效率，还是引导整个公司变成 AI 组织架构？</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>融合回答</b>：优先「节点放大效率」——先有标准化、可验收的流程节点（RPA 干确定、AI 干变化），再谈组织改造。跳到「组织重构」往往落空，因为底层节点还没标准化。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>行业证据</b>：唐承佳女装直播用 AI 省 500 万（流程节点标准化 + 飞书多维表格作操作型 Ontology + 本地优先 + 结果可量化）；森马 / 跨境黄总案例同样先搭流程再谈智能化。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>详文</b>：徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">第二层 · 机制 / 构建层——AI 落地怎么真正发生？</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>提出的问题</b>：有了战略方向，AI 落地靠什么机制真正跑起来、可复用？</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>融合回答（通用执行框架，三层构建）</b>：</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>生产机制层</b>（第一至四章）：真实工作持续沉淀为对象、判断、理由、确认、复用（生产侧库 + 低摩擦留痕 + 会议决策 + 组织记忆）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>切入路线层</b>（第五章，任务闭环与业务闭环分离）：从边界清晰的任务先切——数字岗位 Agent（Task-first，可验收）vs 经营 Agent（Business-process-first，懂整条闭环）；生产级 = 责任范围内稳定可验收，不取决于理解多宽。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>组织形态层</b>（第六章，ANC 方法论）：多 Agent / 多任务嵌入组织协作与权限——FDE 用「Skill + 企业真实语料 × 组织 / 权限梳理」生成企业专属 AI 原生组织（ANC-X），角色变为 Owner / DRI / Builder / Player Coach。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>融合要点</b>：三层顺序即落地顺序——先跑通生产机制，再用任务闭环切入高频工作，最后重构为 AI 原生组织。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>详文（主框架）</b>：徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>并入来源</b>：企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线、企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">第三层 · 卡点 / 微观层——为什么「用了 ≠ 落地」？</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>提出的问题</b>：员工明明用了 AI 工具，为什么组织仍没完成 AI 落地？</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>融合回答</b>：卡在「员工执行习惯与组织记忆」。截图、记录、确认、反馈这些低摩擦动作决定系统能否跑起来；组织记忆不是文档堆积，而是判断理由和结果反馈能被下一轮复用。绕过这一层，前面战略和机制都悬空。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>详文（子问题指针）</b>：徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">三层关系（为什么顺序不能反）</h2><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">战略层（要什么样的AI：节点效率优先）\n   ↓ 决定切哪类工作\n机制层（通用执行框架：生产侧库→任务闭环→ANC）\n   ↓ 跑通后暴露\n卡点层（执行习惯与组织记忆：低摩擦动作决定能否复用）\n</pre><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">没有战略层，机制层容易一上来做「经营中枢」而失控；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">没有机制层，战略层只是口号，落不到节点；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">没有卡点层，前两层跑通也被人的习惯和组织失忆打回原形。</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">行业实例化（三行业对照，统一挂在通用框架主文下）</h2><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">维度</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">游戏公司（案例源）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">己未文化（咨询客户）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">服装 / 电商（战略层实例）</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">战略层落点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">先固化美术 / 选角流程节点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">先固化交付物节点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">先标准化直播 / 供应链节点</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">机制层落点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生产侧库 + 老板截图复盘</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Ontology Objects 工作流</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">飞书多维表格作操作型 Ontology</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">卡点层落点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">员工留痕习惯</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户沟通 + 行业语言对齐</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">结果可量化、本地优先</td></tr></tbody></table></div><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">关联文章清单（本专题全部核心文，点链下钻）</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">总和 / 总入口（本页）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆（机制层主框架，含任务闭环 + ANC 并入）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构（战略层实例化，KNOWLEDGEPIP-121）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆（卡点层子问题）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线（机制层第五章来源）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地（机制层第六章来源）</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">年检机制</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">周期：每年一次（首次 2027-08-18）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">触发：到日由人工或 Agent 复核，检查三行业实例是否仍有效、框架是否需补新行业。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">检查清单：① 战略层「节点效率优先」是否被新案例推翻；② 机制层三层顺序是否仍成立；③ 卡点层是否出现新卡点（如新工具改变留痕习惯）；④ 行业实例是否需要增补；⑤ 链接是否失效；⑥ 年检记录是否追加。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">执行记录：</li></ul><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">日期</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">复核人</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">结论</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">调整</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">2026-08-18</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">伊森</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">建页，三层融合完成</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">无</td></tr></tbody></table></div><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">返回：徐总问题专题库/00_问题专题库总览</p>",
-   "formalNotes": [
-    "徐总问题专题库/00_问题专题库总览",
-    "徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构",
-    "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
-    "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
-    "企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地",
-    "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆"
-   ],
-   "rawMaterials": [],
-   "distillItems": [],
-   "nextQuestions": [],
-   "links": [
-    "徐总问题专题库/00_问题专题库总览",
-    "徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构",
-    "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
-    "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
-    "企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地",
-    "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆"
-   ],
-   "wordCount": 2624,
-   "linkedNotes": [
-    {
-     "path": "徐总问题专题库/00_问题专题库总览.md",
-     "title": "00_问题专题库总览",
-     "kind": "note",
-     "wordCount": 5249,
-     "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
-     "hasBody": true
-    },
-    {
-     "path": "徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构.md",
-     "title": "2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构",
-     "kind": "note",
-     "wordCount": 4347,
-     "excerpt": "2026-08-18｜企业需要什么样的 AI：节点放大效率还是组织架构上级：徐总问题专题库/00_问题专题库总览关联：企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构、徐总问题专题库/06_企业AI",
-     "hasBody": true
-    },
-    {
-     "path": "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
-     "title": "2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
-     "kind": "note",
-     "wordCount": 6985,
-     "excerpt": "2026-08-11｜游戏公司 AI 落地通用执行框架：从生产侧库到组织记忆上级：徐总问题专题库/00_问题专题库总览关联：企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构、企业AI与智能体商业化/",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线.md",
-     "title": "任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
-     "kind": "note",
-     "wordCount": 1680,
-     "excerpt": "任务闭环与业务闭环分离：数字岗位 Agent 与经营 Agent 的两条路线上级：企业AI与智能体商业化/企业AI与智能体商业化专题关联：企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地.md",
-     "title": "ANC方法论：FDE如何用AI原生组织承接企业落地",
-     "kind": "note",
-     "wordCount": 1586,
-     "excerpt": "ANC 方法论：FDE 如何用 AI 原生组织承接企业落地上级：企业AI与智能体商业化/企业AI与智能体商业化专题关联：企业AI与智能体商业化/FDE商业级智能体交付框架、企业AI与智能体商业化/FDE生产级AI Age",
-     "hasBody": true
-    },
-    {
-     "path": "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆.md",
-     "title": "2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆",
-     "kind": "note",
-     "wordCount": 469,
-     "excerpt": "2026-08-11｜企业 AI 落地为什么会卡在员工执行习惯与组织记忆上级：徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆本页已降级为子问题指针。徐总纠",
-     "hasBody": true
-    }
-   ],
-   "linkedCount": 6
-  },
-  {
-   "path": "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
-   "title": "游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
-   "date": "2026-08-11",
-   "updated": "2026-08-28",
-   "category": "企业AI与商业化",
-   "status": "已回答 → 已入库",
-   "questionType": "",
-   "originalQuestion": "我觉得把游戏公司升级成了这个，学出来的一些通用的经验，你放在那个问题专题库里面，好吧。游戏公司的这个只是作为一个案例。 游戏公司 AI 落地通用执行框架不就是这个问题专题库吗？然后你现在通用经验进的这个问题专题库的“企业 AI 落地为什么会卡在员工执行习惯”，这个应该作为它的一个附属问题。",
-   "direction": "本页的主问题不是“风际游戏这一家公司怎么做 AI”，也不是单独讨论“员工为什么不配合 AI”。真正要沉淀的是： 因此： 游戏公司是案例来源； “员工执行习惯与组织记忆”是本框架下的子问题； 主文档应放在问题专题库，作为可迁移到己未文化、餐饮、科技咨询、内容生产等客户的通用执行框架。",
-   "directionHtml": "<p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本页的主问题不是“风际游戏这一家公司怎么做 AI”，也不是单独讨论“员工为什么不配合 AI”。真正要沉淀的是：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">从游戏公司走访案例中，能抽象出一套怎样的企业 AI 落地通用执行框架？\n\n这个框架如何处理生产侧库、低摩擦留痕、员工执行习惯、会议决策、组织记忆和 FDE 首期交付？\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">因此：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">游戏公司是案例来源；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">“员工执行习惯与组织记忆”是本框架下的子问题；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">主文档应放在问题专题库，作为可迁移到己未文化、餐饮、科技咨询、内容生产等客户的通用执行框架。</li></ul>",
-   "summary": "框架总览（三层结构） 本通用执行框架由三层构成，20260818 整合后补全： 层 章节 回答的问题 来源 生产机制层 第一至四章 真实工作如何被持续沉淀为对象、判断、理由、确认、复用 游戏公司案例原框架 切入路线层 第五章 从哪一类任务先切、如何判断能否做成 Agent 任务闭环与业务闭环分离 组织形态层 第六章 多 Agent / 多任务如何嵌入组织协作",
-   "answerHtml": "<h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">框架总览（三层结构）</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本通用执行框架由三层构成，2026-08-18 整合后补全：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">章节</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">回答的问题</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">来源</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生产机制层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">第一至四章</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">真实工作如何被持续沉淀为对象、判断、理由、确认、复用</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">游戏公司案例原框架</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">切入路线层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">第五章</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">从哪一类任务先切、如何判断能否做成 Agent</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">任务闭环与业务闭环分离</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">组织形态层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">第六章</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">多 Agent / 多任务如何嵌入组织协作与权限</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">ANC 方法论</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">三层顺序也是 FDE 的落地顺序：先把生产机制跑通（第一至四章），再用任务闭环切入高频工作（第五章），最后把组织形态重构为 AI 原生组织（第六章）。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">核心结论</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本专题与“生产级 Agent”总框架的连接点，是生产形态分流：游戏角色设计属于创意生产系统，不应按普通 RPA 或通用办公 Agent 设计。生成与判断由模型、Agent、Evals 和专业人员共同完成；文件、版本、资产流转由确定性 Workflow 或 RPA 完成；Ontology 用于记录 Brief、候选、评价、决策、最终资产和复用规则。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">游戏公司案例学出来的通用经验是：</p><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">企业 AI 落地的关键，不是员工会不会试 AI 工具，而是组织能不能围绕真实工作持续沉淀“对象、判断、理由、确认、结果和复用”。</blockquote><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">工具进入工作，只是第一步；流程被 AI 加速，也还不是终点。真正的落地要看：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">有没有明确的生产对象库，而不是零散文件和聊天记录；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">员工是否愿意持续截图、记录、确认、反馈；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">Leader 是否把自己的判断标准说出来、写下来、让团队复用；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">会议是否记录“为什么选 / 为什么不选”，而不是只记录结论；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">AI 生成的结果是否能被人工复核、责任人确认、结果回流；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">下一轮工作是否真的使用上一轮沉淀的知识。</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">通用执行框架</h2><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">一、从工具使用升级到生产侧库</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">游戏公司已经会用生图工具、Skill 和知识库，但如果每次生成、筛选、开会、确认都散落在不同工具里，AI 只能做局部提效。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">第一阶段应该建立一个不替代原系统的“生产侧库”：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">GenerationBrief\n→ Candidate\n→ Evaluation\n→ Decision\n→ FinalAsset\n→ ReuseRule\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这个侧库不是一开始就做大型业务系统，而是先接住真实生产中最容易丢失的内容：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">这次要生成什么；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">为什么生成这个方向；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">哪些候选被淘汰；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">淘汰原因是什么；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">哪个版本被确认；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">下次生成应复用什么经验。</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">二、从会议结论升级到决策留痕</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">很多企业的会议只留下“选 A，不选 B”，但 AI 真正需要的是背后的理由。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">游戏公司的选角会议可以抽象为通用机制：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">会议动作</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">AI 落地需要沉淀的内容</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">看多个候选</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">待判断对象</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">讨论优劣</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">判断标准</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">选中某一版</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">决策结果</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">淘汰其他版本</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">反例样本</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">老板最终拍板</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">人工确认</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">下一轮继续生成</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">规则复用</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">只要这个结构成立，AI 才能从“帮忙整理会议纪要”变成“辅助下一轮判断”。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">三、员工执行习惯是附属但关键的子问题</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">“企业 AI 落地为什么会卡在员工执行习惯与组织记忆”不是本次主标题，但它是这个框架下的关键子问题。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">游戏公司里最关键的现象是：老板能持续截图、研究工具、复盘体验；员工却可能截七八张图就嫌累。这说明 AI 落地有一个常被低估的层级：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">模型层\n→ 工具层\n→ 流程层\n→ 员工执行习惯层\n→ 组织层\n→ 记忆层\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">如果员工不愿配合留痕，AI 系统就没有真实输入；如果员工只在领导盯着时补材料，数据就断断续续；只有当截图、确认、补一句理由、使用历史记录变成顺手动作，AI 才能从工具变成生产机制。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">子问题详见：徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">四、从案例迁移到其他行业</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">游戏公司的特殊业务对象是图片候选、角色、标签、选角会议；但通用结构是：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">游戏公司对象</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">通用对象</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">己未文化迁移</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">图片候选</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">待判断对象</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户 / 咨询记录 / 跟进事项</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">选角会议</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">判断场景</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">咨询复盘 / 老师确认</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">选中/淘汰理由</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">判断理由</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">为什么这样建议 / 下次提醒什么</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">角色定版</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">最终确认</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">老师确认后的客户记录</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">下一轮生图复用</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">组织记忆复用</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">下次咨询前自动准备背景</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">所以游戏公司案例的价值，不是“游戏行业独有”，而是它把企业 AI 落地的通用矛盾暴露得比较清楚：工具、流程、人、记忆和责任必须同时被设计。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">四·补、服装与电商行业的迁移实例</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">2026-08-18 的「企业需要什么样的 AI：节点放大效率还是组织架构」专题（唐承佳女装直播、森马/跨境黄总）是<b>本框架在服装/电商行业的完整实例化</b>，与游戏公司、己未文化形成三行业对照：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">框架层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">通用对象</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">游戏公司</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">己未文化</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">服装/电商（唐承佳·森马）</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生产侧库（一~二章）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">待判断对象+判断理由</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生图候选/选角会议</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户/咨询记录</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">飞书多维表格=操作型业务 Ontology（一横一纵 OS、板房扫码仓位）</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">任务闭环（五章）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">边界清晰的高频任务</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生图筛选、会议留痕</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户录入、跟进提醒</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">流程先行，RPA 干确定的（抓数据/加微信/退款拦截）、AI 干变化的（选品/拍图/SOP）</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">验收（FDE 首期步骤）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">结果可验收、可量化</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">候选淘汰可追溯</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">老师确认可复核</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">省 500 万、12 客服→1、板衣损耗 40 万→1 万、170 人→40 人</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">员工习惯（三章）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">顺手留痕</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">老板截图复盘、员工嫌累</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">老师确认复用</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">时间切片 SOP、人审 AI 校准</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">组织形态（六章）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">AI 原生组织</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">老板 ANP 雏形</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">老师 ANP</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">被 AI 释放的人力转跨境新业务（硅基组织）</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">服装案例补上了游戏案例缺的另一半：<b>节点放大效率先于组织重构</b>——它的主线是“标准化流程 + 节点嵌 RPA/AI”，而非先设计 AI 组织。这与本框架三层顺序一致（先生产机制/任务闭环，后组织形态），也印证第五章“不要从经营中枢开始”。完整链路：<b>节点放大效率（服装专题）→ 生产机制与任务闭环（本框架一~五章）→ 组织 AI 化（本框架六章 ANC）</b>。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">专题详见：徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">五、切入路线：任务闭环与业务闭环分离（数字岗位 Agent）</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">（并入来源：企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线）</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本章与前面一致，仍以游戏公司场景贯穿：游戏公司把“生图候选筛选 + 选角会议决策留痕”作为第一个任务闭环，而不是一上来做“游戏生产经营中枢”——正是这条路线。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">企业 AI 落地不应默认从“完整经营中枢”开始。先把落地拆成两条路线，从边界清晰的任务切：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">生产级 Agent 不一定要先理解企业完整经营闭环。\n只要它负责的任务边界清晰、输入明确、动作可控、结果可验收，它也可以是生产级 Agent。\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">“生产级”不是业务理解范围有多宽，而是责任范围内能否稳定完成。</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">路线</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">切入问题</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">典型形态</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">任务 / 岗位 Agent</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">哪一件工作可以交给数字员工完整完成？</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">报销录入、候选客户筛选、会议纪要、材料缺口检查、客户跟进</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务 / 经营 Agent</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">整条业务如何形成经营闭环？</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">销售经营、项目交付、客户生命周期、企业经营中枢</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">任务闭环与业务闭环不是同一回事：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">任务闭环：任务触发 → 获取信息 → 判断 → 执行 → 验证 → 完成\n业务闭环：客户获取 → 销售跟进 → 成交 → 交付 → 回款 → 复购\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">一个 Agent 可以只承担业务闭环中的一段（如“筛选潜在客户并录入 CRM”），不需要理解合同、交付、财务、复购，只要把自己接口做好，后续由人或其他 Agent 接住。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>判断一个任务能不能做成 Agent</b>（关键标准不是“重不重要”，而是能否切成稳定工作单元）：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">判断项</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">可做任务 / 岗位 Agent</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">需要更重业务工程</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">起点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">明确触发事件</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">目标模糊</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">输入</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">数据来源清楚</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">信息散乱且依赖隐性判断</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">动作</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">步骤可描述</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">需要跨部门经营协调</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">结果</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">可验收</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">结果受多变量影响</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">异常</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">可转人工</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">异常本身就是业务核心</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>生产级 Agent 的二维定义</b>（业务范围宽度 × 工程成熟度）：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">类型</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务范围</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">工程成熟度</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">判断</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">窄范围高成熟</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">窄</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">高</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">典型数字岗位 Agent，值得做</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">宽范围高成熟</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">宽</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">高</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">经营 Agent / 企业中枢，难度最高</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">窄范围低成熟</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">窄</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">低</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Demo / 工具脚本</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">宽范围低成熟</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">宽</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">低</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">最危险，容易变成“老板 AI 胡说八道”</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>对 FDE 的切入顺序（与第一章生产侧库直接衔接）</b>：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">1. 找出边界清晰的高频任务\n2. 定义输入、动作、输出和验收\n3. 判断是否能形成数字岗位\n4. 先跑任务闭环\n5. 再把多个任务闭环接成业务闭环\n6. 最后才讨论经营 Agent / AI 经营中枢\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本框架第一至四章的“生产侧库、决策留痕、留痕习惯”正是任务闭环的具体化；先把这些任务闭环跑稳，再接业务闭环，最后才到第六章的组织重构。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">六、组织形态：AI 原生组织（ANC 方法论）</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">（并入来源：企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地）</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本章仍以游戏公司场景贯穿：游戏公司老板能持续截图、研究工具、复盘体验（第三章），正是“老板成为 ANP（AI Native Person）”的雏形——ANC 成立的前提在一号位，游戏案例已暴露这一点。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">当多个任务闭环、岗位 Agent 嵌入企业协作，就需要组织形态层的方法论。ANC（AI Native Company）是一种把企业真实语料、组织角色、权限关系、项目协作和 Skill 体系组合起来的 AI 原生组织方法论：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">FDE 方法论\n× 企业真实语料\n× 组织与权限梳理\n× Agent / Skill 系统\n→ ANC-X\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">同一套底层方法进入不同企业，会生成不同目录、流程、Skill 和角色分工。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>ANC 与传统“上系统”的区别</b>：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">先让真实沟通、会议、项目进展进入企业知识系统；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">Agent 持续发现上下文、沉淀上下文、生成任务；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">权限随项目变化而授予、收回和重新组合；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">汇报、上传下达、进度追踪由 Agent 部分承担；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">人的角色从固定岗位转向 Owner、DRI、Builder、Player Coach 等任务责任结构。</li></ul><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>关键机制</b>：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">机制</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">作用</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">会议内容自动进入知识系统</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">把一次性沟通变成可复用上下文</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Agent 夜间整理 / 持续整理</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">发现新任务、沉淀新知识、跨时区同步</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">对话变知识，知识变 Skill</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">让经验从聊天记录进入可执行能力</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">企业新闻 / 自动推送</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">替代部分人工汇报和上传下达</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">项目化权限</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">权限跟随任务和项目动态变化</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">DRI / Builder / Player Coach</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">把组织责任从层级职务转向结果责任和带教责任</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>FDE 在 ANC 中的角色变化</b>：FDE 不只是部署 Agent，而是“AI 时代的组织系统设计者”——既懂 Agent、知识库和 Skill，又能把企业真实工作拆成对象、任务、责任和反馈。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>落地障碍：老板是否成为 ANP（AI Native Person）</b>。ANC 的关键障碍不是模型，而是一号位是否实际使用 AI、把沟通/判断/任务/会议沉淀进系统。这与本框架第三章“员工执行习惯层”一致：游戏公司老板能持续截图复盘、但员工是否愿意持续留痕决定系统能不能跑；ANC 要求老板和核心成员先成为 AI 原生协作者，企业才可能成为 AI 原生组织。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>ANC 与本框架其他层的关系</b>：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">现有主线</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">关注点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">ANC 补充</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">FDE 交付</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">如何进场、访谈、建模、交付</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">FDE 如何参与组织设计</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Ontology Objects</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务对象、关系、动作</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">对象如何连接到角色和权限</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生产侧库</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">先接住真实工作留痕</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">留痕如何成为企业新闻、任务和 Skill</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">任务闭环</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">单个任务如何稳定完成</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">多任务如何嵌入组织协作</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">组织记忆</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">判断理由和反馈复用</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">组织记忆如何驱动权限、任务和角色变化</td></tr></tbody></table></div><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">AI 落地六层诊断</h2><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">层级</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">问题</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">模型层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">模型输出能否达到业务质量</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">工具层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Skill、API、知识库能否稳定调用</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">流程层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">AI 是否进入真实生产链路</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">员工执行习惯层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">员工是否愿意持续截图、记录、确认和反馈</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">组织层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">谁定义标准、谁复核、谁负责结果</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">记忆层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">判断理由和结果是否能被下一轮复用</td></tr></tbody></table></div><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">员工配合度四级</h2><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">层级</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">表现</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">判断</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不配合</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不截图、不记录、不反馈</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">系统只能演示</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">被动配合</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">领导要求时才补材料</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">数据断续</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">顺手配合</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">在原动作中截图、确认、补一句理由</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">可做第一阶段</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">主动共建</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">主动提供反例、规则和复盘</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">可进入组织改造</td></tr></tbody></table></div><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">FDE 首期落地步骤</h2><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">1. 选真实高频流程\n2. 找到待判断对象\n3. 设计低摩擦留痕动作\n4. 明确人工确认和责任人\n5. 用 AI 做初筛、整理、提醒\n6. 把判断理由和结果回流\n7. 跑 2-3 轮验证员工是否持续配合\n8. 再决定是否扩展系统和数据库\n</pre><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">年检机制</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本框架为可迁移方法论文档，须按年度复核，防止模型能力、FDE 交付实践与客户组织形态演进后框架过时。</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>周期</b>：每年一次，于创建日周年（首次年检 2027-08-11）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>触发</b>：到 <code style=\"background:#EEF1F8;padding:1px 5px;border-radius:4px;font-size:0.9em;color:#2563EB;\">annual_review</code> 日期前由任务面板 / 个人随记提醒，复核后更新 <code style=\"background:#EEF1F8;padding:1px 5px;border-radius:4px;font-size:0.9em;color:#2563EB;\">last_review</code> 与 <code style=\"background:#EEF1F8;padding:1px 5px;border-radius:4px;font-size:0.9em;color:#2563EB;\">annual_review</code>，并在下方《年检执行记录》留痕。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>年检检查清单</b>：</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">六层诊断（模型层→记忆层）是否仍适用，有无被新模型能力颠覆的层级；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">FDE 首期八步是否仍有效，是否需要补“AI 经营中枢 / 多 Agent 编排”新步骤；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">第五章待观察问题（数字岗位产品化、中小企业付费意愿、岗位 Agent 接业务闭环的 MCP/Base/Workflow 机制、任务 Agent 与经营 Agent 定价验收分离）是否有新结论；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">第六章待验证问题（ANC 是否形成可复制交付包、DRI/Builder/Player Coach 是否被中国中小企业理解、ANC 适用边界、Skill+语料→ANC-X 是否成稳定工具链）是否有新结论；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">案例迁移是否扩展到新行业（己未文化、餐饮、科技咨询、内容生产之外）；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">本次年检是否发现需回流到 企业AI与智能体商业化/企业AI与智能体商业化专题 或 徐总问题专题库/00_问题专题库总览 的更新。</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">年检执行记录</h3><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">日期</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">执行人</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">结论</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">下次年检</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">2026-08-18</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Ethan</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">整合任务闭环（第五章）、ANC（第六章）与游戏公司原框架为三层结构；新增年检机制</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">2027-08-11</td></tr></tbody></table></div><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">后续整理项</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 将游戏公司案例保留在企业 AI 专题，作为来源案例。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 将通用执行框架沉淀到问题专题库。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 将“员工执行习惯与组织记忆”降为本框架下的子问题。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 将员工执行习惯 / AI 配合度补入己未文化首次沟通作战卡。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 将「任务闭环与业务闭环分离」并入本框架第五章（2026-08-18）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 将「ANC 方法论」并入本框架第六章（2026-08-18）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 建立年检机制，首次年检 2027-08-11（2026-08-18）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[ ] 后续推进 KNOWLEDGEPIP-87 时，再输出风际游戏首期实施方案、流程图和人机分工表。</li></ul><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">返回：徐总问题专题库/00_问题专题库总览</p>",
-   "formalNotes": [
-    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构",
-    "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版",
-    "企业AI与智能体商业化/FDE商业级智能体交付框架",
-    "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
-    "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
-    "企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地",
-    "徐总问题专题库/00_问题专题库总览",
-    "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆",
-    "徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构",
-    "企业AI与智能体商业化/企业AI与智能体商业化专题"
-   ],
-   "rawMaterials": [
-    "原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地",
-    "企业AI与智能体商业化/原始资料/ChatGPT对话｜游戏公司AI组织落地｜2026-08-11",
-    "原始资料/已整理｜2026-08-12｜对话整理｜任务闭环与业务闭环分离-GrokBot数字岗位vs经营Agent",
-    "原始资料/已整理｜2026-08-12｜抖音｜Solo们chat-FDE如何用ANC搭建AI原生组织"
-   ],
-   "distillItems": [],
-   "nextQuestions": [],
-   "links": [
-    "徐总问题专题库/00_问题专题库总览",
-    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构",
-    "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版",
-    "企业AI与智能体商业化/FDE商业级智能体交付框架",
-    "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
-    "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆",
-    "徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构",
-    "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
-    "企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地",
-    "原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地",
-    "企业AI与智能体商业化/原始资料/ChatGPT对话｜游戏公司AI组织落地｜2026-08-11",
-    "原始资料/已整理｜2026-08-12｜对话整理｜任务闭环与业务闭环分离-GrokBot数字岗位vs经营Agent",
-    "原始资料/已整理｜2026-08-12｜抖音｜Solo们chat-FDE如何用ANC搭建AI原生组织",
-    "企业AI与智能体商业化/企业AI与智能体商业化专题"
-   ],
-   "wordCount": 7761,
-   "linkedNotes": [
-    {
-     "path": "徐总问题专题库/00_问题专题库总览.md",
-     "title": "00_问题专题库总览",
-     "kind": "note",
-     "wordCount": 5249,
-     "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
-     "title": "游戏公司AI组织落地：从流程提效到生产方式重构",
-     "kind": "note",
-     "wordCount": 5743,
-     "excerpt": "游戏公司 AI 组织落地：从流程提效到生产方式重构上级：企业AI与智能体商业化/企业AI与智能体商业化专题关联：原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地、企业AI与智能体商业化/游戏公司AI落地",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md",
-     "title": "己未文化AI落地-首次接触沟通作战卡-测试版",
-     "kind": "note",
-     "wordCount": 10228,
-     "excerpt": "己未文化 AI 落地：首次接触沟通作战卡（测试版）使用说明：本卡已完成 2026-08-12 首谈后的第一次校准。前半部分保留为后续类似客户的首次沟通模板；己未文化本项目后续应优先读取「六、首谈后确认的真实业务信息」与 ",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/FDE商业级智能体交付框架.md",
-     "title": "FDE商业级智能体交付框架",
-     "kind": "note",
-     "wordCount": 11083,
-     "excerpt": "FDE 商业级智能体交付框架：业务需求、落地架构、使用体验日期：2026-06-011. 核心判断商业级 AI 智能体项目，最后比拼的不是谁用了百炼、Dify、OpenClaw、Hermes、DeepSeek 或 Qwe",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）.md",
-     "title": "FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
-     "kind": "note",
-     "wordCount": 14577,
-     "excerpt": "FDE 在甲方搭建 Ontology Objects 的完整工作流（含客户沟通+行业语言对齐）日期：2026-06-17（IMA 笔记），2026-06-18 同步至 Obsidian上级：企业AI与智能体商业化专题关联",
-     "hasBody": true
-    },
-    {
-     "path": "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆.md",
-     "title": "2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆",
-     "kind": "note",
-     "wordCount": 469,
-     "excerpt": "2026-08-11｜企业 AI 落地为什么会卡在员工执行习惯与组织记忆上级：徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆本页已降级为子问题指针。徐总纠",
-     "hasBody": true
-    },
-    {
-     "path": "徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构.md",
-     "title": "2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构",
-     "kind": "note",
-     "wordCount": 4347,
-     "excerpt": "2026-08-18｜企业需要什么样的 AI：节点放大效率还是组织架构上级：徐总问题专题库/00_问题专题库总览关联：企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构、徐总问题专题库/06_企业AI",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线.md",
-     "title": "任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
-     "kind": "note",
-     "wordCount": 1680,
-     "excerpt": "任务闭环与业务闭环分离：数字岗位 Agent 与经营 Agent 的两条路线上级：企业AI与智能体商业化/企业AI与智能体商业化专题关联：企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地.md",
-     "title": "ANC方法论：FDE如何用AI原生组织承接企业落地",
-     "kind": "note",
-     "wordCount": 1586,
-     "excerpt": "ANC 方法论：FDE 如何用 AI 原生组织承接企业落地上级：企业AI与智能体商业化/企业AI与智能体商业化专题关联：企业AI与智能体商业化/FDE商业级智能体交付框架、企业AI与智能体商业化/FDE生产级AI Age",
-     "hasBody": true
-    },
-    {
-     "path": "原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地.md",
-     "title": "游戏公司AI组织落地",
-     "kind": "raw",
-     "wordCount": 5752,
-     "excerpt": "游戏公司 AI 组织落地走访原始记录上级：知识流水线/A_原始资料本页保留随记中的游戏公司走访实录和妙记提炼，作为专题文章的原始依据。专题提炼结果见 企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/原始资料/ChatGPT对话｜游戏公司AI组织落地｜2026-08-11.md",
-     "title": "ChatGPT对话｜游戏公司AI组织落地｜2026-08-11",
-     "kind": "raw",
-     "wordCount": 1014,
-     "excerpt": "ChatGPT 对话｜游戏公司 AI 组织落地来源与用途来源：ChatGPT 对话「游戏公司AI组织落地」Conversation ID：6a7b25ec-3dec-83ea-9c6a-c91474589b28捕获日期：",
-     "hasBody": true
-    },
-    {
-     "path": "原始资料/已整理｜2026-08-12｜对话整理｜任务闭环与业务闭环分离-GrokBot数字岗位vs经营Agent.md",
-     "title": "任务闭环与业务闭环分离-GrokBot数字岗位vs经营Agent",
-     "kind": "raw",
-     "wordCount": 3436,
-     "excerpt": "任务闭环与业务闭环分离：Grok Bot 的任务/岗位 Agent 路线 vs 经营 Agent 路线上级：知识流水线/A_原始资料整理结果：企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Age",
-     "hasBody": true
-    },
-    {
-     "path": "原始资料/已整理｜2026-08-12｜抖音｜Solo们chat-FDE如何用ANC搭建AI原生组织.md",
-     "title": "Solo们chat-FDE如何用ANC搭建AI原生组织",
-     "kind": "raw",
-     "wordCount": 3643,
-     "excerpt": "「Solo们 chat」FDE如何用ANC搭建AI原生组织上级：知识流水线/A_原始资料整理结果：企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地一、来源信息来源平台：抖音作者 / 账号：所罗门",
-     "hasBody": true
-    },
-    {
-     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
-     "title": "企业AI与智能体商业化专题",
-     "kind": "note",
-     "wordCount": 18607,
-     "excerpt": "企业 AI 与智能体商业化专题上级：徐总的知识库全局总框架入口：企业AI与生产级Agent总框架这个专题用于沉淀企业 AI、智能体、FDE、ToB AI 服务、科技咨询公司 AI 转型、企业流程 AI 化和 AI 商业化",
-     "hasBody": true
-    }
-   ],
-   "linkedCount": 14
-  },
-  {
-   "path": "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆.md",
-   "title": "企业AI落地为什么会卡在员工执行习惯与组织记忆",
-   "date": "2026-08-11",
-   "updated": "2026-08-26",
-   "category": "企业AI与商业化",
-   "status": "已并入主问题",
-   "questionType": "",
-   "originalQuestion": "",
-   "direction": "“员工执行习惯与组织记忆”不是本次整理的主标题，而是“游戏公司 AI 落地通用执行框架”下的一个关键子问题： 该子问题主要回答： 为什么员工会用 AI 工具，不等于组织已经完成 AI 落地； 为什么截图、记录、确认、反馈这些低摩擦动作决定系统能否跑起来； 为什么组织记忆不是文档堆积，而是判断理由和结果反馈可以被下一轮复用。 完整论证与通用框架见主文： 徐总问题专题库/06企业AI与商业化/20260811游戏公司AI落地通用执行框架：从生产侧库到组织记忆 返回：徐总问题专题库/00问题专题库总览",
-   "directionHtml": "<p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">“员工执行习惯与组织记忆”不是本次整理的主标题，而是“游戏公司 AI 落地通用执行框架”下的一个关键子问题：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">企业 AI 落地框架\n→ 生产侧库\n→ 会议决策留痕\n→ 员工执行习惯\n→ 人工确认与责任机制\n→ 组织记忆复用\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">该子问题主要回答：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">为什么员工会用 AI 工具，不等于组织已经完成 AI 落地；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">为什么截图、记录、确认、反馈这些低摩擦动作决定系统能否跑起来；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">为什么组织记忆不是文档堆积，而是判断理由和结果反馈可以被下一轮复用。</li></ul><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">完整论证与通用框架见主文：</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆</p><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">返回：徐总问题专题库/00_问题专题库总览</p>",
-   "summary": "子问题定位 “员工执行习惯与组织记忆”不是本次整理的主标题，而是“游戏公司 AI 落地通用执行框架”下的一个关键子问题： 该子问题主要回答： 为什么员工会用 AI 工具，不等于组织已经完成 AI 落地； 为什么截图、记录、确认、反馈这些低摩擦动作决定系统能否跑起来； 为什么组织记忆不是文档堆积，而是判断理由和结果反馈可以被下一轮复用。 完整论证与通用框架见主",
-   "answerHtml": "<h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">子问题定位</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">“员工执行习惯与组织记忆”不是本次整理的主标题，而是“游戏公司 AI 落地通用执行框架”下的一个关键子问题：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">企业 AI 落地框架\n→ 生产侧库\n→ 会议决策留痕\n→ 员工执行习惯\n→ 人工确认与责任机制\n→ 组织记忆复用\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">该子问题主要回答：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">为什么员工会用 AI 工具，不等于组织已经完成 AI 落地；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">为什么截图、记录、确认、反馈这些低摩擦动作决定系统能否跑起来；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">为什么组织记忆不是文档堆积，而是判断理由和结果反馈可以被下一轮复用。</li></ul><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">完整论证与通用框架见主文：</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆</p><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">返回：徐总问题专题库/00_问题专题库总览</p>",
-   "formalNotes": [
-    "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
-    "徐总问题专题库/00_问题专题库总览"
-   ],
-   "rawMaterials": [],
-   "distillItems": [],
-   "nextQuestions": [],
-   "links": [
-    "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
-    "徐总问题专题库/00_问题专题库总览"
-   ],
-   "wordCount": 504,
-   "linkedNotes": [
-    {
-     "path": "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
-     "title": "2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
-     "kind": "note",
-     "wordCount": 6985,
-     "excerpt": "2026-08-11｜游戏公司 AI 落地通用执行框架：从生产侧库到组织记忆上级：徐总问题专题库/00_问题专题库总览关联：企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构、企业AI与智能体商业化/",
-     "hasBody": true
-    },
-    {
-     "path": "徐总问题专题库/00_问题专题库总览.md",
-     "title": "00_问题专题库总览",
-     "kind": "note",
-     "wordCount": 5249,
-     "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
-     "hasBody": true
-    }
-   ],
-   "linkedCount": 2
-  },
-  {
-   "path": "徐总问题专题库/02_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度.md",
+   "path": "徐总问题专题库/03_跨专题综合/2026-08-05_AI智能体的工程化与前端交付的困难度.md",
    "title": "AI智能体的工程化与前端交付的困难度",
    "date": "2026-08-05",
    "updated": "2026-08-26",
@@ -11140,6 +8691,636 @@ window.OBSIDIAN_DATA = {
     }
    ],
    "linkedCount": 8
+  },
+  {
+   "path": "徐总问题专题库/02_企业AI与商业化/2026-09-08_生产级Agent形态选择与案例演进.md",
+   "title": "生产级 Agent 形态选择与案例演进",
+   "date": "2026-09-08",
+   "updated": "2026-09-08",
+   "category": "企业AI与商业化",
+   "status": "已回答 → 已整理",
+   "questionType": "",
+   "originalQuestion": "",
+   "direction": "这个实战手册我觉得再延伸一个问题专题库，就是在真实落地的过程中，结合我们之前知识库所讨论的：应该给什么样业务的公司做什么样的 Agent？到底是做 RPA，还是做业务流程化的 Agent，还是做整个的看板、战略看板，或者是工具类的 Agent、流程业务的 Agent？再结合 Ontology，在整个过程中怎么把不同的 Agent 和整个业务关系放进去？工具类 Agent 只是提供效率，但像文化咨询公司落地时，还要结合业务关系和自己建立的 Ontology，让它升级成为首先对业务有理解、能提供建议、提供业务帮助，最后",
+   "directionHtml": "<blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">这个实战手册我觉得再延伸一个问题专题库，就是在真实落地的过程中，结合我们之前知识库所讨论的：应该给什么样业务的公司做什么样的 Agent？到底是做 RPA，还是做业务流程化的 Agent，还是做整个的看板、战略看板，或者是工具类的 Agent、流程业务的 Agent？再结合 Ontology，在整个过程中怎么把不同的 Agent 和整个业务关系放进去？工具类 Agent 只是提供效率，但像文化咨询公司落地时，还要结合业务关系和自己建立的 Ontology，让它升级成为首先对业务有理解、能提供建议、提供业务帮助，最后参与决策。这个逻辑应该以文化咨询公司为案例拉通。</blockquote>",
+   "summary": "二、综合结论 FDE 不是先决定“给客户做几个 Agent”，而是先判断客户的业务动作属于哪一种生产形态，再决定 AI 介入深度。 这不是所有企业都必须走完的升级路线，也不是越靠近“决策 Agent”越高级。正确选择取决于： 横轴与纵轴：先定位企业，再选择 Agent 形态 腾讯 FDE 专题提供了这篇案例专题缺少的上位坐标系。选择 Agent 不能只看业务",
+   "answerHtml": "<h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">二、综合结论</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">FDE 不是先决定“给客户做几个 Agent”，而是先判断客户的业务动作属于哪一种生产形态，再决定 AI 介入深度。</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">确定性动作\n→ 工具 / RPA / API / Workflow\n→ AI 增强流程\n→ 业务闭环 Agent\n→ 经营分析与建议\n→ 决策辅助系统\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这不是所有企业都必须走完的升级路线，也不是越靠近“决策 Agent”越高级。正确选择取决于：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">业务判断深度\n× 数据成熟度\n× 跨对象关系复杂度\n× 风险与责任边界\n× 业务结果可衡量程度\n</pre><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">横轴与纵轴：先定位企业，再选择 Agent 形态</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">腾讯 FDE 专题提供了这篇案例专题缺少的上位坐标系。选择 Agent 不能只看业务部门或模型能力，而要同时看两个方向：</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">纵轴：AI 参与业务判断的深度</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">确定性自动化\n→ AI 增强流程\n→ 业务辅助 Agent\n→ 经营分析与建议\n→ 决策辅助\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">纵轴回答：</p><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">AI 只是替人完成一个动作，还是已经理解业务对象、解释业务状态、提出经营建议并参与方案比较？</blockquote><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">越往上，越需要稳定的业务对象、历史上下文、知识证据、状态机和人工授权；但纵轴高不代表所有动作都要交给模型，确定性计算和权限判断始终留在系统侧。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">横轴：从试点到生产的工程成熟度</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">L0 场景识别\n→ L1 原型验证\n→ L2 试点运行\n→ L3 生产部署\n→ L4 规模扩展\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">横轴回答：</p><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">这套能力是否已经从“能演示”走到“有人用、可追踪、可回滚、能复用”？</blockquote><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">横轴越往右，越需要 Schema、关系约束、权限、审计、幂等、评测、可观测性、灰度和 Runbook。生产级不等于一定要做复杂多 Agent，而是必须达到与风险和责任相匹配的工程成熟度。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">六类案例在坐标系中的位置</h3><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">案例</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">纵轴定位</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">横轴重点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">FDE 首先解决什么</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">风际游戏</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">工具型 AI Agent → 生产流程 → 组织知识</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">从个人工具试用走向团队流程采用</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Skill、素材、角色、评审、版本和知识沉淀</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">甘食记</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">经营分析与建议 AI Agent</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">从模拟数据走向受保护的经营运行</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">指标事实、异常识别、责任任务和反馈闭环</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">己未文化</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务辅助 → 客户经营 → 决策辅助</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">从客户记录 PoC 走向可审计的长期经营</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户、咨询、互动、任务和老师判断关系</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">蜀道成熟企业</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">经营中枢 → 决策辅助</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">系统整合、组织权限和规模化治理</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">跨系统对象、指标口径、风险和责任链</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">新成立公司</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">先从确定性流程，再逐步进入业务辅助</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">从零建立数据与流程基础</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">最小对象模型、录入纪律、责任动作和经营节奏</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">案例不是简单排成一条“先进程度”序列，而是分布在不同的横纵坐标位置：风际游戏的重点是生产资料和组织记忆，甘食记的重点是经营数据到行动，己未文化的重点是关系型客户经营，成熟企业的重点是跨系统决策，新公司的重点是先建立可信业务骨架。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">坐标系到交付方案的编译过程</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">业务访谈\n→ 判断业务动作的确定性与判断深度\n→ 判断数据、系统和组织的成熟度\n→ 在横纵轴上定位当前阶段\n→ 选择 RPA / API / Workflow / 工具 Agent / 业务 Agent / 决策辅助\n→ 用 Ontology 固定对象、关系、状态、动作和责任\n→ 用生产级工程链完成权限、评测、观测和回滚\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这就是 FDE 的核心判断：不是给每家公司发一套相同的 Agent，而是根据企业所处坐标，把合适的能力放进合适的业务关系里。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">三、五种交付形态：先判断做什么，再判断用什么工具</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">先统一一个容易混淆的说法：<b>RPA、API、Workflow、看板不是和 Agent 并列的同一种东西。</b></p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">工具型 AI Agent：负责理解、抽取、生成和调用工具\nRPA / API：负责确定性执行\nWorkflow：负责编排步骤和状态\n经营看板：负责展示事实、状态、风险和行动\n业务流程 Agent：负责在对象关系中理解并推动业务\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">因此，FDE 不能把“做一个 RPA”“做一个 Workflow”“做一个看板”都叫成“做一个 Agent”。要先说清楚 AI 负责哪一段，确定性系统负责哪一段。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">1. 工具型 AI Agent：解决“做得更快”</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">适合：查询、总结、生成、格式转换、批量整理、资料提取等局部任务。</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">输入文件 / 问题\n→ Agent 调用工具\n→ 输出结果\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">它的价值是节省人工时间，但通常还不了解企业完整业务关系，也不负责推动下一步。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">文化咨询例子：把一次咨询录音转成摘要、提取客户诉求、生成回访话术。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这类任务通常不需要完整 Ontology，只需要明确输入、输出、权限和质量检查。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">2. 确定性自动化底座：RPA / API / Workflow 解决“做得稳定”</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">适合重复、确定、规则清楚的动作：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">导入客户\n→ 校验字段\n→ 去重\n→ 写入系统\n→ 发送固定提醒\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这类能力本身不一定是 Agent，也不一定需要 LLM。能用代码、API 或流程规则稳定完成，就不应该为了显得智能而强行加入 Agent。只有当输入需要理解、规则需要解释或异常需要判断时，才在确定性底座上加工具型 AI Agent。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">文化咨询例子：根据下次跟进日期生成任务、计算沉默天数、统计咨询次数、检查必填字段、发送固定提醒。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">3. 业务流程 AI Agent：解决“把事情推进下去”</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">适合多步骤、涉及多个对象和责任人的业务闭环：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">客户进入\n→ 建档\n→ 咨询\n→ 形成记录\n→ 老师确认\n→ 创建跟进任务\n→ 回访\n→ 记录结果\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这时 Agent 不只是生成文本，而是要理解客户、咨询记录、任务、负责人和状态之间的关系，并在缺信息时追问、在节点卡住时提醒、在高风险处等待人工确认。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">4. 经营分析与建议 AI Agent：解决“看懂业务并提出下一步”</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">适合已经积累了结构化业务数据，管理者需要知道“发生了什么、为什么、下一步做什么”的场景。</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">已确认客户事实\n→ 状态与关系分析\n→ 找到异常 / 机会\n→ 生成带证据的建议\n→ 负责人确认并形成任务\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">文化咨询例子：识别长期未联系但历史价值较高的客户，结合过去咨询主题和课程参与情况，建议老师安排回访；AI 可以提出建议，但不能自行判断客户应该接受什么专业方案。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">5. 决策辅助系统：解决“让管理者在更完整的事实基础上决策”</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">它不是让 AI 代替老板或老师决策，而是把跨对象、跨时间和跨业务结果的信息组织起来，支持人做判断：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">客户 / 咨询 / 课程 / 互动 / 任务 / 收入\n→ 统一业务对象与关系\n→ 经营指标和风险信号\n→ 多方案比较\n→ 人授权、拍板并承担结果\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">文化咨询公司未来可以看到：客户来源、咨询转化、课程参与、复购、转介绍、老师时间投入和服务结果之间的关系。但这必须建立在数据持续记录、指标口径稳定和老师确认机制可靠的基础上。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">四、Ontology 在升级过程中的作用</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">Ontology 不是最后才加的一层，也不是一开始就要做成 Palantir 的重平台。它是把不同 Agent 放回同一个业务世界的语义骨架：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">对象：客户、咨询、课程、互动、任务、知识、老师\n关系：客户产生咨询、客户参加课程、咨询产生任务\n状态：新客户、已咨询、待跟进、持续服务、沉默\n动作：建档、记录、确认、回访、分配、复盘\n规则：谁能看、谁能改、什么状态可以流转\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">没有 Ontology 时，多个 Agent 容易各自维护一套客户名称、阶段和任务判断；有了统一对象和关系，Agent 之间传递的就不是“我觉得”，而是结构化对象、事实和待确认动作。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">文化咨询案例的升级关系</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">录音转写 Agent\n    ↓ 产生咨询记录草稿\n咨询助手 Agent\n    ↓ 关联客户与历史咨询\n跟进 Agent\n    ↓ 创建带负责人和期限的任务\n生命周期 Agent\n    ↓ 基于互动日期、次数和阶段生成经营信号\n经营分析 Agent\n    ↓ 结合客户关系和知识资产提出建议\n老师 / 管理者\n    ↓ 授权和决策\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这些不是五个互相独立的机器人，而是围绕同一组业务对象的能力模块。它们必须共享客户 ID、咨询 ID、任务 ID、状态定义、权限和操作日志。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">案例对照：四类主案例与两类企业边界</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这套形态选择不能只用己未文化一个案例解释。不同企业的起点、数据成熟度、业务对象和责任边界不同，Agent 的落点也不同。这里用四个主案例和两个对照场景建立参照系。</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">案例</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务特征</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">首选形态</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Ontology 重点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不能急着做什么</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">己未文化咨询</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户关系、咨询服务、课程活动、老师经验和长期跟进</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务流程 AI Agent → 生命周期经营 → 决策辅助</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户、咨询、互动、任务、课程、知识、老师判断</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不先做 AI 老师，不把未经确认的判断当知识</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">风际游戏</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">内容生产、创意协作、Skill、素材和团队经验沉淀</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">工具型 Agent → 生产流程协同 → 组织知识</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">角色、项目、素材、Skill、评审、版本、生产任务</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不把“会生成内容”直接等同于生产方式重构</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">甘食记</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">日常经营、门店数据、异常、责任人和复盘</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">经营分析 Agent → 异常到行动闭环</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">门店、菜品、销售、成本、异常、任务、反馈</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不让模型代替指标计算，不只做日报文字生成</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">女装直播 / 服装电商</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">达人、商品、订单、客服、仓储、板房和数据复盘</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">工具型 AI Agent + RPA → 电商经营流程 → 经营决策</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">达人、商品、店铺、订单、库存、仓位、退款、负责人、现金流</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不把 RPA 自动执行误称为 Agent，不先跳过数据治理</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">蜀道等成熟企业</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">已有多级组织、系统和复杂经营数据</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">系统连接 + 经营中枢 + 决策辅助</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">组织、项目、资金、资产、风险、审批、责任链</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不从零重建基础系统，不先堆部门机器人</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">新成立的小公司</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">没有历史系统，业务规则和组织还在形成</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">轻量业务 OS → 基础流程 → 经营看板</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户、项目、人员、任务、收支、知识和规则</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不一开始复制大企业 ERP，也不假设数据已经完整</td></tr></tbody></table></div><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">1. 己未文化：关系驱动的咨询业务</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">己未文化的关键不是“生成一段咨询话术”，而是让一次咨询成为客户全周期经营中的可追踪事件：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">客户进入\n→ 建档\n→ 咨询\n→ 记录老师判断\n→ 老师确认\n→ 创建跟进任务\n→ 后续互动\n→ 客户阶段变化\n→ 经营建议\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">因此它最适合从“咨询后记录与跟进闭环”开始，再逐步进入客户生命周期和经营建议。Ontology 的价值在于保存客户与咨询、任务、课程、互动和知识之间的关系，让 Agent 具备业务上下文，而不是只会生成文本。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">2. 风际游戏：生产资料和组织记忆驱动的协同业务</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">游戏公司的核心对象更偏向：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">项目\n→ 角色\n→ 需求\n→ 素材\n→ Skill\n→ 评审\n→ 版本\n→ 上线反馈\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">它可以先从生图、素材整理、方案生成和知识检索等工具型 Agent 做起，再把工具嵌入选角、评审、生产和复盘流程。只有当角色、任务、素材版本、评审结论和生产结果都被持续记录，才有可能进一步形成组织记忆和生产流程 Agent。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">3. 甘食记：经营数据驱动的异常闭环</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">甘食记更适合说明“经营 Agent”如何从数据开始：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">门店经营数据\n→ 确定性计算指标\n→ 识别异常\n→ 分析可能原因\n→ 生成责任任务\n→ 店长执行\n→ 结果反馈\n→ 总部复盘\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">其中销售额、毛利、成本、异常阈值和任务状态由程序计算；Agent 负责解释异常、提出行动建议和协助复盘。经营看板是这条闭环的事实投影，不是单独漂浮的大屏 Agent。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">4. 女装直播 / 服装电商：AI 判断、RPA 执行和数据治理先行</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">女装直播案例最适合说明“工具型 AI Agent”和“确定性自动化”如何组合，而不是把所有自动化都命名为 Agent。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">具体拆分如下：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务动作</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">正确命名</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">具体作用</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">按 GMV、场次、违约率、口碑分筛选达人和商家</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">工具型 AI Agent / AI 选择器</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">理解筛选条件、比较候选对象、提出合作名单</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">自动打开后台、抓取店铺数据、下载报表</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">RPA / API 自动化</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">按固定规则执行，不承担开放式业务判断</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">退款后拦截货物、回仓、更新状态</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务流程自动化 + 异常处理 Agent</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">RPA 执行固定动作，Agent 处理例外和解释</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">板房扫码、仓位追踪、借还记录</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务数据采集 Workflow</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">把商品、仓位、人员和流转状态记录下来</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">根据销量阈值决定退板衣、减少损耗</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">经营分析与建议 AI Agent</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">基于商品和库存事实提出处理建议，由负责人确认</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">AI 生成人物搭配和商品图</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">工具型内容生产 Agent</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">提高单款内容生产效率，不等于完成商品经营闭环</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这类业务的完整链路是：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">达人 / 商品 / 订单 / 退款 / 仓位数据\n→ 数据治理与统一口径\n→ AI 选择或分析\n→ RPA / API 执行\n→ 异常转人工\n→ 结果回流\n→ 经营复盘\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">服装电商的关键不是“AI 替代了多少人”，而是 AI、RPA 和业务数据是否共同减少损耗、加快货物周转、改善现金流和释放人力去拓展新业务。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">Corvera 的电商数据治理案例进一步说明：客户真正缺的可能不是一个更强的 AI 管理系统，而是先把订单、库存、线下门店和物流数据清洗、打通、标准化。数据不可信时，应该先交付数据治理和事实底座，再谈经营 Agent。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">4. 蜀道成熟企业：不是从零搭建，而是连接和治理</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">对于蜀道等已有多级组织和既有系统的企业，FDE 的切入点通常不是重新做客户表或部门机器人，而是：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">已有 ERP / CRM / 财务 / 项目 / 风险数据\n→ 统一对象和权限\n→ 连接跨系统业务关系\n→ 形成经营分析与风险信号\n→ 提供管理层决策辅助\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这类客户的难点是系统整合、组织权限、指标口径和责任链，而不是单纯生成内容。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">5. 新成立公司：先造轻量业务骨架</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">新公司没有历史系统时，可以用 WorkBuddy + 轻量数据库 / Base + 统一业务入口快速建立：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">客户 / 项目 / 人员 / 任务 / 收支 / 知识\n→ 形成最小对象模型\n→ 固定日常录入和状态流转\n→ 生成经营看板\n→ 数据积累后再增加业务 Agent\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这不是把大企业方案缩小，而是先建立“业务事实、责任动作和经营节奏”的最小骨架。WorkBuddy 可以降低录入门槛，但正式事实源、权限和审计仍要在业务增长前逐步补齐。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">6. 六类案例对应的演进层级</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">风际游戏：工具型 AI Agent → 生产流程 → 组织记忆\n甘食记：数据计算 → 异常行动 → 经营复盘\n己未文化：资料记录 → 咨询服务 → 客户经营 → 决策辅助\n女装直播 / 服装电商：数据治理 → 工具型 AI Agent + RPA → 电商经营 → 决策辅助\n成熟企业：系统连接 → 经营中枢 → 管理决策\n新公司：轻量对象 → 基础流程 → 经营数据 → 后续智能化\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">案例的差异不是“谁更先进”，而是业务对象、数据基础和责任边界不同。FDE 的专业性，就是把正确形态放在正确的业务阶段。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">五、用己未文化判断 Agent 应该做到哪一层</h2><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">第一步：看业务动作，不看部门名称</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">不要只问“要不要做客户管理 Agent”，要问：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">哪个动作最耗人？\n哪个动作最容易漏？\n哪个动作需要专业判断？\n哪个动作跨越多个对象和责任人？\n错了会产生什么后果？\n</pre><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">第二步：判断是工具问题、流程问题还是经营问题</h3><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">现象</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">首选形态</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">资料整理太慢</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">工具型 Agent</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">固定步骤经常漏</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">RPA / API / Workflow</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">多人协作容易断</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务流程 Agent</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">数据很多但看不懂</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">经营分析与建议 Agent</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">管理者缺少跨业务事实</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">决策辅助系统</td></tr></tbody></table></div><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">第三步：确定 AI 介入深度</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">只读和生成\n→ 受控写入\n→ 推动任务\n→ 解释业务状态\n→ 提出经营建议\n→ 人授权后参与决策\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">越往后，越需要业务对象、状态机、权限、审计、评测和人工接管；不是因为 Agent 更“聪明”，而是因为责任范围更大。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">六、文化咨询公司的完整落地路径</h2><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">阶段 1：客户记录工具化</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">先解决客户资料、咨询录音、纪要整理和回访话术的重复劳动。</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">WorkBuddy 接收文字 / 录音 / 文件\n→ Agent 抽取字段和摘要\n→ 助理或老师确认\n→ 写入客户和咨询记录\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">验收重点：录入准确、来源清楚、不会重复建档。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">阶段 2：咨询服务流程化</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">把咨询前、咨询中、咨询后的动作串起来：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">咨询预约\n→ 调取客户背景\n→ 完成咨询\n→ 生成记录草稿\n→ 老师确认\n→ 创建跟进任务\n→ 下次咨询回读历史\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">验收重点：每次服务都有记录、每个后续动作有负责人和截止时间。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">阶段 3：客户全周期经营化</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">在持续积累客户、咨询、课程和互动数据后，建立客户阶段和经营信号：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">新客户\n→ 已建立联系\n→ 已完成咨询\n→ 课程 / 活动参与\n→ 持续服务\n→ 沉默客户\n→ 回访 / 复购 / 转介绍\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">沉默天数、咨询次数、消费金额和任务逾期应由确定性逻辑计算；Agent 负责解释信号和生成建议。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">阶段 4：经营建议与决策辅助</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">当业务数据和知识资产达到一定质量后，再做经营总览和建议：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">客户关系网络\n→ 服务过程\n→ 课程与活动\n→ 任务完成\n→ 收入与复购\n→ 经营趋势\n→ 老师 / 管理者决策\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">经营看板不是独立的 Agent，也不是把所有数据画成大屏。它是 Ontology 和业务流程运行之后，对事实、状态、风险和行动的统一投影。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">七、FDE 如何选择交付方案</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">FDE 的交付对象不是“一个 Agent”，而是以下四个层次的组合：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">公司级业务地图\n→ 找到业务域和跨部门关系\n→ 选择一个业务闭环\n→ 选择适当的 Agent / RPA / Workflow / 看板形态\n→ 用 Ontology 把对象、关系、状态和责任串起来\n→ 用生产级工程链保证可控运行\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">对应到己未文化：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">公司级地图：客户经营、咨询服务、课程活动、知识传承\n业务闭环：咨询后记录与跟进\n工具层：WorkBuddy、MCP、录音转写、资料检索\n事实层：客户、咨询、互动、任务、知识对象\n执行层：状态机、人工确认、权限、审计、回滚\n呈现层：Harness 桌面工作台、移动 H5 经营展示\n</pre><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">八、面试中应该如何表达</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">当面试官问“你们给企业做什么 Agent”时，可以回答：</p><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">我不会先按部门数量或工具数量决定 Agent 形态，而会先看业务动作的确定性、判断深度、跨对象关系、风险和数据成熟度。重复确定的动作优先用 API、RPA 或 Workflow；需要理解和生成的局部任务用工具型 Agent；当客户、记录、任务和责任人需要连续推进时，才做业务流程 Agent；数据积累后，再做经营分析和决策辅助。以文化咨询公司为例，我们先从咨询后记录与跟进闭环切入，用 Ontology 统一客户、咨询、互动、任务和知识对象，WorkBuddy 负责输入与资料加工，确定性控制层负责状态、权限、幂等和审计，老师确认专业判断，最终再把可信事实投影到经营看板和决策辅助中。</blockquote><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">九、最终判断</h2><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">工具型 Agent：提升个人效率\n流程型 Agent：推动业务动作\n经营型 Agent：理解业务状态并提出建议\n决策辅助系统：组织事实、比较方案、支持人拍板\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">Ontology 的价值，是让这几种能力不再各自为战，而是围绕同一个业务世界协作。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">文化咨询案例最适合说明这条路径：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">客户资料整理\n→ 咨询服务记录\n→ 跟进任务闭环\n→ 客户全周期经营\n→ 经营建议\n→ 决策辅助\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">终极目标不是让 AI 代替老师做决定，而是让系统逐步理解业务对象、保留事实依据、发现经营信号、提出可审计建议，最后由老师和管理者完成授权与决策。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">十、后续整理项</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 已与己未文化 FDE 实战手册建立双向关联</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 已把工具 Agent、RPA / Workflow、业务流程 Agent、经营建议 Agent 和决策辅助系统放进同一条演进链</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 已把 Ontology 放到 Agent 升级过程的核心位置</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[ ] 后续可补充制造、餐饮、科技咨询等行业的对照案例</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[ ] 后续可把五种形态整理成 FDE 客户访谈判断表</li></ul>",
+   "formalNotes": [
+    "徐总问题专题库/00_问题专题库总览",
+    "知识库索引",
+    "企业AI与智能体商业化/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册",
+    "企业AI与智能体商业化/己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径",
+    "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构",
+    "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
+    "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-31_腾讯FDE报告与生产级Agent横纵轴判断",
+    "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
+    "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "AI Agent工程知识/Palantir式Ontology的真实价值：从业务语义到可执行系统"
+   ],
+   "rawMaterials": [
+    "原始资料/已整理｜2026-08-17｜口播文案｜女装直播用AI省500万(唐承佳案例)",
+    "原始资料/已整理｜2026-08-19｜口播文案｜AI电商数据治理先行(子墨说AI-Corvera案例)"
+   ],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "徐总问题专题库/00_问题专题库总览",
+    "知识库索引",
+    "企业AI与智能体商业化/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册",
+    "企业AI与智能体商业化/己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径",
+    "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构",
+    "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
+    "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-31_腾讯FDE报告与生产级Agent横纵轴判断",
+    "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
+    "企业AI与智能体商业化/企业AI与生产级Agent总框架",
+    "AI Agent工程知识/Palantir式Ontology的真实价值：从业务语义到可执行系统",
+    "原始资料/已整理｜2026-08-17｜口播文案｜女装直播用AI省500万(唐承佳案例)",
+    "原始资料/已整理｜2026-08-19｜口播文案｜AI电商数据治理先行(子墨说AI-Corvera案例)"
+   ],
+   "wordCount": 8729,
+   "linkedNotes": [
+    {
+     "path": "徐总问题专题库/00_问题专题库总览.md",
+     "title": "00_问题专题库总览",
+     "kind": "note",
+     "wordCount": 5542,
+     "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
+     "hasBody": true
+    },
+    {
+     "path": "知识库索引.md",
+     "title": "知识库索引",
+     "kind": "note",
+     "wordCount": 80227,
+     "excerpt": "知识库索引（快速查找版）2026-09-08｜蜀道集团主体研究线（聚合入口·新）蜀道集团研究线：蜀道集团（四川蜀道投资集团）主体综述 + 跨专题聚合入口。综述型：页内直接可读——金融与资本运作线（蜀道金租内部资金通道 +",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册.md",
+     "title": "己未文化咨询公司 FDE 落地与生产级 Agent 实战手册",
+     "kind": "note",
+     "wordCount": 25337,
+     "excerpt": "己未文化咨询公司 FDE 落地与生产级 Agent 实战手册上级：企业AI与智能体商业化/企业AI与智能体商业化专题总关系图：企业AI与生产级Agent总框架关系图关联：企业AI与智能体商业化/FDE业务需求访谈SOP、",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径.md",
+     "title": "己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径",
+     "kind": "note",
+     "wordCount": 10960,
+     "excerpt": "己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径上级：企业AI与智能体商业化/企业AI与智能体商业化专题关联：己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团、己未",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构.md",
+     "title": "企业级部门智能体全景到跨部门落地架构",
+     "kind": "note",
+     "wordCount": 4514,
+     "excerpt": "企业级部门智能体全景到跨部门落地架构上级：企业AI与智能体商业化专题原始资料：企业AI与智能体商业化/原始资料/抖音视频原文：实体制造企业12部门与586个AI业务场景讨论原稿：企业AI与智能体商业化/原始资料/GPT对",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线.md",
+     "title": "任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
+     "kind": "note",
+     "wordCount": 1680,
+     "excerpt": "任务闭环与业务闭环分离：数字岗位 Agent 与经营 Agent 的两条路线上级：企业AI与智能体商业化/企业AI与智能体商业化专题关联：企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢.md",
+     "title": "FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+     "kind": "note",
+     "wordCount": 3581,
+     "excerpt": "FDE与甲方沟通：从经营问题到业务闭环 Agent 与 AI 经营中枢上级：企业AI与智能体商业化专题来源对话：chatgpt-conversation://6a224385-8104-83e8-8168-bd78bf6",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
+     "title": "按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
+     "kind": "note",
+     "wordCount": 2740,
+     "excerpt": "按业务形态设计 AI Agent 架构：日经营型、项目制与生产制造型上级：企业AI与智能体商业化专题关联：AI Agent工程知识/AI Agent工程知识专题、企业AI与智能体商业化/FDE商业级智能体交付框架、企业A",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
+     "title": "企业AI与生产级Agent总框架",
+     "kind": "note",
+     "wordCount": 6087,
+     "excerpt": "企业 AI 与生产级 Agent 总框架上级：徐总的知识库关联：AI Agent工程知识/AI Agent工程知识专题、企业AI与智能体商业化/企业AI与智能体商业化专题、AI Agent工程知识/生产级AI Agent",
+     "hasBody": true
+    },
+    {
+     "path": "AI Agent工程知识/Palantir式Ontology的真实价值：从业务语义到可执行系统.md",
+     "title": "Palantir式Ontology的真实价值：从业务语义到可执行系统",
+     "kind": "note",
+     "wordCount": 529,
+     "excerpt": "Palantir 式 Ontology 的真实价值Ontology 的价值不在于给数据换一套术语，而在于把企业中的业务对象、关系、状态、规则、动作和责任统一表达，使 AI 能从“查到数据”走向“理解业务并在边界内执行”。",
+     "hasBody": true
+    },
+    {
+     "path": "原始资料/已整理｜2026-08-17｜口播文案｜女装直播用AI省500万(唐承佳案例).md",
+     "title": "女装直播用AI省500万(唐承佳案例)",
+     "kind": "raw",
+     "wordCount": 4817,
+     "excerpt": "本文件为口播母本 + 工作任务模式拆解（选题 / 分镜脚本 / 标题备选 / 封面文案 / 发布物料），按\"未整理\"入库，尚未蒸馏为正式知识笔记。〇、口播母本（完整原文，逐字保留）用AI省了多少钱？您整体AI用下来有算过",
+     "hasBody": true
+    },
+    {
+     "path": "原始资料/已整理｜2026-08-19｜口播文案｜AI电商数据治理先行(子墨说AI-Corvera案例).md",
+     "title": "AI电商数据治理先行(子墨说AI-Corvera案例)",
+     "kind": "raw",
+     "wordCount": 979,
+     "excerpt": "（子墨说AI｜4个人的AI电商团队，5周做到21万营收、融资420万美金）四人团队靠AI一个月逆袭，营收21万，融资420万美金，同时拿下了12个电商快销品牌的合作。最夸张的是，从签下第一单客户到服务满12个品牌，他们只",
+     "hasBody": true
+    }
+   ],
+   "linkedCount": 12
+  },
+  {
+   "path": "徐总问题专题库/02_企业AI与商业化/2026-09-07_工信部414号文与AI应用服务商中间层机会.md",
+   "title": "工信部414号文与AI应用服务商中间层机会",
+   "date": "2026-09-07",
+   "updated": "2026-09-07",
+   "category": "企业AI与商业化",
+   "status": "已回答 → 已整理",
+   "questionType": "",
+   "originalQuestion": "",
+   "direction": "工信部414号文对 AI 应用服务商、FDE 和企业 AI 落地意味着什么？它解决的是模型能力问题，还是应用交付的中间层问题？",
+   "directionHtml": "<p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">工信部414号文对 AI 应用服务商、FDE 和企业 AI 落地意味着什么？它解决的是模型能力问题，还是应用交付的中间层问题？</p>",
+   "summary": "结论 政策明确把 AI 应用服务商定义为覆盖咨询规划、交付实施、运营管理和安全治理的综合服务主体，并鼓励建设 FDE 团队扎根用户现场。这说明 AI 产业的关键瓶颈正在从模型供给转向“把模型嵌入真实业务”的中间层。 但资源池和服务团不是订单，首购首用、风险补偿和场景开放也不能替代真实交付能力。服务商真正的竞争力仍是行业理解、现场交付密度、可复用方案、安全治理",
+   "answerHtml": "<h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">结论</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">政策明确把 AI 应用服务商定义为覆盖咨询规划、交付实施、运营管理和安全治理的综合服务主体，并鼓励建设 FDE 团队扎根用户现场。这说明 AI 产业的关键瓶颈正在从模型供给转向“把模型嵌入真实业务”的中间层。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">但资源池和服务团不是订单，首购首用、风险补偿和场景开放也不能替代真实交付能力。服务商真正的竞争力仍是行业理解、现场交付密度、可复用方案、安全治理和持续运营。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">与现有 FDE 方法论的关系</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">FDE 不应先销售复杂 Agent，而应先判断客户的生产形态，再组合 RPA、Workflow、Agent、数据底座、Harness 和人工治理。工信部文件中的“懂行业痛点、通技术机理、知安全风险、善交付运营”，与现有 FDE 的业务诊断、对象建模、工程落地和持续运营四段能力相互印证。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">来源：原始资料/已整理｜2026-09-03｜工信部官网+用户提供｜工信部414号文原文及解读：AI赚钱的逻辑变了、政府资源配置与政策落地机制/工信部414号文：人工智能应用服务商培育与FDE中间层机会。</p>",
+   "formalNotes": [
+    "政府资源配置与政策落地机制/工信部414号文：人工智能应用服务商培育与FDE中间层机会"
+   ],
+   "rawMaterials": [
+    "原始资料/已整理｜2026-09-03｜工信部官网+用户提供｜工信部414号文原文及解读：AI赚钱的逻辑变了"
+   ],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "原始资料/已整理｜2026-09-03｜工信部官网+用户提供｜工信部414号文原文及解读：AI赚钱的逻辑变了",
+    "政府资源配置与政策落地机制/工信部414号文：人工智能应用服务商培育与FDE中间层机会"
+   ],
+   "wordCount": 527,
+   "linkedNotes": [
+    {
+     "path": "原始资料/已整理｜2026-09-03｜工信部官网+用户提供｜工信部414号文原文及解读：AI赚钱的逻辑变了.md",
+     "title": "工信部414号文原文及解读：AI赚钱的逻辑变了",
+     "kind": "raw",
+     "wordCount": 4304,
+     "excerpt": "工信部414号文原文及解读：AI赚钱的逻辑变了本文件包含两部分：①政策原文（工信部官网完整收录）；②用户提供的深度解读。向上父级：政策与产业观察（待建）横向关联：AI产业与应用落地（待建）、FDE前线部署工程师（待建）溯",
+     "hasBody": true
+    },
+    {
+     "path": "政府资源配置与政策落地机制/工信部414号文：人工智能应用服务商培育与FDE中间层机会.md",
+     "title": "工信部414号文：人工智能应用服务商培育与FDE中间层机会",
+     "kind": "note",
+     "wordCount": 629,
+     "excerpt": "工信部414号文：人工智能应用服务商培育与 FDE 中间层机会工信厅科函〔2026〕414号把人工智能应用服务商定义为覆盖咨询规划、交付实施、运营管理和安全治理的综合服务主体，说明政策关注点已从模型供给进一步转向“把模型",
+     "hasBody": true
+    }
+   ],
+   "linkedCount": 2
+  },
+  {
+   "path": "徐总问题专题库/02_企业AI与商业化/2026-08-31_腾讯FDE报告与生产级Agent横纵轴判断.md",
+   "title": "腾讯FDE报告与生产级Agent横纵轴判断",
+   "date": "2026-08-31",
+   "updated": "2026-09-08",
+   "category": "企业AI与商业化",
+   "status": "已回答 → 已整理",
+   "questionType": "",
+   "originalQuestion": "",
+   "direction": "腾讯研究院关于 FDE、超级个体和 AI 原生组织的报告，是否已经讨论了我们当前遇到的生产级 AI Agent 矛盾？企业是否必须直接建设复杂 Agent、完整 Ontology 或 Harness？WorkBuddy、千问办公、DeepSeek Harness 与 RPA 应该如何选择？",
+   "directionHtml": "<p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">腾讯研究院关于 FDE、超级个体和 AI 原生组织的报告，是否已经讨论了我们当前遇到的生产级 AI Agent 矛盾？企业是否必须直接建设复杂 Agent、完整 Ontology 或 Harness？WorkBuddy、千问办公、DeepSeek Harness 与 RPA 应该如何选择？</p>",
+   "summary": "二、综合结论 腾讯报告与我们当前讨论高度重合，但它补充了两个重要边界：生产级不等于复杂化；Ontology 不是入场券。企业 AI 要先按任务的判断深度和风险等级分流，再逐步增加工程保障。 1. 纵轴：AI 参与业务判断的深度 越往上，越需要企业上下文、业务对象、组织记忆和复杂协作；处于底部的 RPA/API/Workflow 只要把确定性动作稳定完成，同样",
+   "answerHtml": "<h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">二、综合结论</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">腾讯报告与我们当前讨论高度重合，但它补充了两个重要边界：生产级不等于复杂化；Ontology 不是入场券。企业 AI 要先按任务的判断深度和风险等级分流，再逐步增加工程保障。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">1. 纵轴：AI 参与业务判断的深度</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">确定性自动化 → AI增强流程 → 业务辅助Agent → 经营决策Agent → 多Agent系统\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">越往上，越需要企业上下文、业务对象、组织记忆和复杂协作；处于底部的 RPA/API/Workflow 只要把确定性动作稳定完成，同样可以产生生产价值。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">2. 横轴：从 Demo 到生产的工程成熟度</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">L0 场景识别 → L1 原型验证 → L2 试点运行 → L3 生产部署 → L4 规模扩展\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">也可以用 0→80→95→99 理解：0到80是模型和 Prompt 做出可演示效果；80到95要处理术语、数据、规则、测试集和 BadCase；95到99才集中出现权限、审计、回滚、人工接管、合规和长尾异常。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">三、执行框架的选择原则</h2><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务类型</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">优先形态</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">适合的执行框架</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">重复、确定、低判断</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">RPA / API / Workflow</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">RPA平台、脚本、系统集成</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">局部需要理解或生成</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">AI增强流程</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">WorkBuddy、千问办公、轻量 Agent</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">多步骤、需状态和工具协作</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Agentic Workflow</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Harness、Workflow、权限和日志</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">高风险经营或责任任务</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生产级 Agent 系统</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Harness + Ontology/数据底座 + Evals + HITL</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">选择不是 WorkBuddy、千问办公、DeepSeek Harness 三选一，而是由生产形态决定组合。WorkBuddy/千问办公更像直接使用的执行型工作台；DeepSeek Harness 更像可自建、可控制的 Agent Runtime；RPA负责确定性动作；FDE负责把业务翻译成可落地结构。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">四、Ontology 的正确节奏</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">不应先完整建设 Palantir 式 Ontology，再寻找业务。更现实的路径是：真实项目 → 可用 Skill → 跨项目模板 → 轻量语义层 → 有足够数据和复用需求后再形成完整 Ontology。Ontology 是随着业务运行长出来的资产，不是所有生产级 Agent 的前置门槛。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">五、FDE 的真正职责</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">FDE 不是销售一个 Agent，也不是证明自己掌握最多工具，而是判断：客户的业务属于哪种生产形态、AI 应该在哪个节点介入、需要多深的企业上下文、应该配置多少工程保障，以及如何用真实指标和 BadCase 闭环证明价值。</p>",
+   "formalNotes": [
+    "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究",
+    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "徐总问题专题库/06_企业AI与商业化/2026-09-08_生产级Agent形态选择与案例演进"
+   ],
+   "rawMaterials": [
+    "原始资料/已整理｜2026-09-08｜腾讯研究院｜FDE模式行业观察与实践原始稿索引",
+    "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论"
+   ],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "原始资料/已整理｜2026-09-08｜腾讯研究院｜FDE模式行业观察与实践原始稿索引",
+    "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究",
+    "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论",
+    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "徐总问题专题库/06_企业AI与商业化/2026-09-08_生产级Agent形态选择与案例演进"
+   ],
+   "wordCount": 1621,
+   "linkedNotes": [
+    {
+     "path": "原始资料/已整理｜2026-09-08｜腾讯研究院｜FDE模式行业观察与实践原始稿索引.md",
+     "title": "FDE模式行业观察与实践原始稿索引",
+     "kind": "raw",
+     "wordCount": 555,
+     "excerpt": "腾讯研究院 FDE 模式行业观察与实践原始稿索引来源确认这是腾讯研究院《FDE 模式行业观察与实践》原始 PDF，不是《超级个体时代》报告。本地原始文件：/Users/xucheng/Desktop/2026年文件/腾讯",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md",
+     "title": "腾讯FDE模式行业观察与实践报告研究",
+     "kind": "note",
+     "wordCount": 10949,
+     "excerpt": "腾讯 FDE 模式行业观察与实践报告研究上级：企业AI与智能体商业化专题关联：零一万物FDE与企业AI落地模式、FDE生产级AI Agent五阶段方法论与AI基建协同、FDE商业级智能体交付框架、FDE与甲方沟通：从经营",
+     "hasBody": true
+    },
+    {
+     "path": "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论.md",
+     "title": "DeepSeekHarness专属智能体与多Agent控制层讨论",
+     "kind": "raw",
+     "wordCount": 915,
+     "excerpt": "DeepSeek Harness 专属智能体与多 Agent 控制层讨论来源：ChatGPT 对话《DeespseekHarness 专属智能体》；本页保留讨论原始脉络，结论已回流到协作架构和 Harness 搭建记录。",
+     "hasBody": true
+    },
+    {
+     "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+     "title": "生产级AI Agent知识体系总览：层级·特性·术语",
+     "kind": "note",
+     "wordCount": 40978,
+     "excerpt": "生产级 AI Agent 知识体系总览：层级·特性·术语（含 Palantir Ontology 对标）一句话定义：生产级 AI Agent 不是更聪明的聊天机器人，而是把模型判断、工具执行、数据知识、记忆管理、流程编排",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
+     "title": "FDE生产级AI Agent五阶段方法论与AI基建协同",
+     "kind": "note",
+     "wordCount": 7241,
+     "excerpt": "FDE生产级AI Agent五阶段方法论与AI基建协同上级：企业AI与智能体商业化专题关联：FDE交付方法论与甘食记案例、FDE与AI架构师核心资产能力、FDE商业级智能体交付框架、AI产业链与数字基础设施/AI时代演进",
+     "hasBody": true
+    }
+   ],
+   "linkedCount": 5
+  },
+  {
+   "path": "徐总问题专题库/02_企业AI与商业化/2026-08-19_企业AI知识库：手册库-数据库-萃取库三分类.md",
+   "title": "企业AI知识库：手册库-数据库-萃取库三分类",
+   "date": "2026-08-19",
+   "updated": "2026-08-26",
+   "category": "企业AI与商业化",
+   "status": "indexed",
+   "questionType": "",
+   "originalQuestion": "",
+   "direction": "",
+   "directionHtml": "",
+   "summary": "一句话核心 老板做 AI 提效的第一件事不是找场景，而是建立企业知识库——知识库就三类：手册库（文档归拢）+ 数据库（财务×业务）+ 萃取库（结构化判断），三库建立后才谈得上 AI 的复用与复利。 一、知识库的定义：文档加表格 知识库简单理解就是文档加表格。 文档 = 手册、资料等以文字为主的常规内容；表格 = 萃取出来的结构化数据。 表格和文档是形式，按性",
+   "answerHtml": "<h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">一句话核心</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">老板做 AI 提效的<b>第一件事不是找场景，而是建立企业知识库</b>——知识库就三类：<b>手册库（文档归拢）+ 数据库（财务×业务）+ 萃取库（结构化判断）</b>，三库建立后才谈得上 AI 的复用与复利。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">一、知识库的定义：文档加表格</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">知识库简单理解就是<b>文档加表格</b>。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">文档 = 手册、资料等以文字为主的常规内容；表格 = 萃取出来的结构化数据。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">表格和文档是<b>形式</b>，按<b>性质</b>分，企业知识库一共三类。</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">二、三库框架（核心知识点）</h2><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">1. 手册库（常规文档类知识库）</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>内容</b>：工作手册、标准化流程、产品手册、公司介绍等常规文档形式。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>核心痛点（文档归拢）</b>：</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">很多公司的文档散落在老板个人电脑、财务电脑等处，<b>没有一个归拢的地方</b>；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">如果文档无法集中、无法被访问，<b>AI 很难帮助你</b>——AI 无法利用散落不可及的文档。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">归拢载体：企微群、QQ 群、飞书等团队协作工具。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>结论</b>：手册、文档必须先有一个\"地方\"（归拢地），这是三库建设的第一前提。</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">2. 数据库（财务数据 × 业务数据）</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>内容</b>：财务数据和业务数据，本质是\"做生意每天发生的账\"与\"账背后的行为\"。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>财务 × 业务对应关系</b>（独家要点）：</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">无论 ToC、ToB 还是高客单，<b>一笔财务的发生，前面一定对应着行为</b>——销售行为、电商运营行为等；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">这个\"行为是什么、行为怎么和财务数据对应\"，要<b>想办法存进表格</b>——这就是数据库。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>结论</b>：数据库 = 把\"财务数据 ↔ 前置业务行为\"的对应关系结构化存表。</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">3. 萃取库（独家概念）</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>为什么要萃取库</b>：</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">纯文档、纯手册是<b>静态的</b>，且是<b>非结构化的</b>——全是字，没有按表格一列一列列好结构；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>AI 看结构化数据天然容易，看纯文档天然费劲</b>——结构化是 AI 可读性的关键。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>萃取什么</b>：内部能结构化出来的东西——</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">案例：一条案例、一条案例；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">老板的核心业务判断：一条判断、一条判断。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>边界</b>：很难结构化、很冗杂很长的部分，扔进文档，作为传统知识库（手册库）；能结构化的部分做成萃取库。</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">三、老板做 AI 提效第一件事：建三库</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">找不到 AI 场景，或者想长期有复利地做 AI 提效 → <b>最先要做的事是建立企业知识库</b>。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">三库复习：</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">传统的文档类知识库（手册库）；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">财务和业务数据的数据库；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">萃取库。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">复利逻辑：三库建立是\"AI 提效复利\"的地基，之后才谈场景放大与持续复用。</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">四、财务 × 业务对应（要点展开）</h2><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">维度</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">内容</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">财务数据</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">每天的账：支出、收入、消费等</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">前置行为</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">销售行为（ToB/高客单）、电商运营行为（ToC）等</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">对应关系</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">一笔财务发生 → 前面一定有行为 → 行为如何与财务对应，存进表格</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">落地形式</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">行为与财务的对应关系 = 数据库的核心内容</td></tr></tbody></table></div><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">五、与知识库既有内容的同源对照（蒸馏建议）</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">三库分类与「飞书多维表格 = 操作型 Ontology」的判断<b>同源</b>，蒸馏定稿时建议合并对照。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">《中小企业AI提效手册》（业务智能体怎么搭、中小企业怎么找第一个 AI 落地场景）对应知识库「中小企业AI落地」脉络，可作延伸素材。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">本片定位为「企业需要什么样的 AI / 企业AI落地」问题专题（徐总问题专题库/06）的新素材。</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">六、待审项（定稿前需确认）</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">\"萃取库是独家发明\"的表述是否需要弱化（避免被质疑/引发争议）；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">三库框架是否与飞书多维表格/知识库产品强绑定，需确认是否脱敏；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">与 06 专题既有笔记（游戏公司AI落地通用执行框架等）的并入方式：独立成篇 or 合并对照。</li></ul><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">来源：原始资料/已整理｜2026-08-18｜口播文案｜企业AI知识库搭建</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">返回：徐总问题专题库/00_问题专题库总览</p>",
+   "formalNotes": [
+    "徐总问题专题库/00_问题专题库总览"
+   ],
+   "rawMaterials": [
+    "原始资料/已整理｜2026-08-18｜口播文案｜企业AI知识库搭建"
+   ],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "原始资料/已整理｜2026-08-18｜口播文案｜企业AI知识库搭建",
+    "徐总问题专题库/00_问题专题库总览"
+   ],
+   "wordCount": 1669,
+   "linkedNotes": [
+    {
+     "path": "原始资料/已整理｜2026-08-18｜口播文案｜企业AI知识库搭建.md",
+     "title": "企业AI知识库搭建",
+     "kind": "raw",
+     "wordCount": 3560,
+     "excerpt": "本文件为口播母本 + 工作任务模式拆解（选题 / 分镜脚本 / 标题备选 / 封面文案 / 发布物料），按\"未整理\"入库，尚未蒸馏为正式知识笔记。〇、口播母本（完整原文，逐字保留）企业AI知识库搭建这个点我觉得还是比较重",
+     "hasBody": true
+    },
+    {
+     "path": "徐总问题专题库/00_问题专题库总览.md",
+     "title": "00_问题专题库总览",
+     "kind": "note",
+     "wordCount": 5542,
+     "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
+     "hasBody": true
+    }
+   ],
+   "linkedCount": 2
+  },
+  {
+   "path": "徐总问题专题库/02_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构.md",
+   "title": "企业需要什么样的AI：节点放大效率还是组织架构",
+   "date": "2026-08-18",
+   "updated": "2026-08-26",
+   "category": "企业AI与商业化",
+   "status": "已回答 → 已入库",
+   "questionType": "",
+   "originalQuestion": "看了这两家电商的 AI 的加入，其实我就会觉得我们在做 Harness 的时候到底是在为啥？到底是跟极客相关，还是把 Harness 培养到能进入到生产级的企业？如果说现在的 AI 如果没法产生一个效益的话，我觉得就不是好 AI。 你们去拆分一下，他们用的可能那种 AI 都是很简单的，就是一种标准化的流程去嵌入到整个流程当中。 这个问题专题库主要就是讲企业到底需要什么样的 AI 以及企业 AI 落地案例的思考——到底是这个 AI 在节点放大效率，还是说它要引导整个公司变成 AI 组织架构？因为之前更多的是讲怎么样去",
+   "direction": "本页不是记录两篇口播的文案内容，而是提炼徐总的真实关切： 结论先行（三方一致）： 两家电商证明，企业里产生真实效益的 AI 是「标准化流程 + 在关键节点嵌 RPA/AI 的标准化零件」，不是\"智能体总控整个公司\"。AI 在节点放大效率是今天能落地、能算账的形态；组织整体 AI 化是长期方向，但前提是先把节点做扎实。以此反照 Harness：我们之前堆的插件/控制中心/派发层属于\"极客自嗨\"，偏离了\"生产级 = 效益可算账\"这条线。",
+   "directionHtml": "<p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本页不是记录两篇口播的文案内容，而是提炼徐总的真实关切：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">1. 企业里\"好用的 AI\"到底长什么样？是标准化流程里嵌几个点状 AI，还是整个组织被 AI 重构？\n2. 两家电商案例（唐承佳女装直播、森马/跨境黄总）的共同模式是什么？\n3. 以这个标准回头看我们的 Harness 建设，定位错了没有？\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>结论先行（三方一致）：</b> 两家电商证明，企业里产生真实效益的 AI 是「标准化流程 + 在关键节点嵌 RPA/AI 的标准化零件」，不是\"智能体总控整个公司\"。AI 在<b>节点放大效率</b>是今天能落地、能算账的形态；<b>组织整体 AI 化</b>是长期方向，但前提是先把节点做扎实。以此反照 Harness：我们之前堆的插件/控制中心/派发层属于\"极客自嗨\"，偏离了\"生产级 = 效益可算账\"这条线。</p><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\">",
+   "summary": "一、两篇案例拆解（来自原始资料，非转述） 1. 唐承佳｜女装直播用 AI 省近 500 万（净利极低行业） 环节 做法 量化结果 达人画像 RPA 自动筛 GMV/场次/违约率/口碑分 → 匹配联系方式 → 加微信 找商家/达人两端，AI 决策、RPA 执行 爆品 AI 选品 一双靴子卖 20 万双 客服拦截 AI 24 小时自动拦截\"发货未收到就退款\"的订",
+   "answerHtml": "<h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">一、两篇案例拆解（来自原始资料，非转述）</h2><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">1. 唐承佳｜女装直播用 AI 省近 500 万（净利极低行业）</h3><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">环节</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">做法</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">量化结果</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">达人画像</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">RPA 自动筛 GMV/场次/违约率/口碑分 → 匹配联系方式 → 加微信</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">找商家/达人两端，AI 决策、RPA 执行</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">爆品</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">AI 选品</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">一双靴子卖 20 万双</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客服拦截</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">AI 24 小时自动拦截\"发货未收到就退款\"的订单，快速回仓</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">高峰 12 个客服 → 现在 1 人</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">数据复盘</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">早 6 点 AI 自动下载店铺数据 → 分发给负责人 + 给 AI 分析</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">以前每天 4–5 小时下载、凌晨上班，现在 9 点直接复盘</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">上架工具</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">护理专业小白用 AI+Codex 辅助开发影刀 RPA 工具</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">3 小时做出，每天省 2 小时</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">板房损耗</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">板房\"杆上挂码 + 扫码仓位\"，7 天销量不达标自动踢出退板衣，所有衣物扫码进系统</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">板衣损耗 2023 年 40 多万 → 2025 年 1 万多</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">拍摄</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">AI 设定人物/搭配、建需求表，替代寄国外拍样衣（45 天、单款 4000–5000 元）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">几十倍提升</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">组织</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">被 AI 替代下来的人不裁，转去做跨境商品卡短视频新业务</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">守江山 → 打江山</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">核心方法论（唐承佳原话）：企业落地三原则——①最痛的点；②AI 能快速解决；③能快速见效。\"大公司用 AI 是赌未来，小公司用 AI 只看现在。对中小企业，AI 首先不是赚钱工具，而是救命、活下来。\"</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">2. 森马 + 跨境黄总｜企业 AI 落地与数字化转型干货</h3><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">内容</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">森马数字员工</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">一台电脑 = 3 个员工，抓数据、处理采购订单、上架下架、BI 看板全自动；老板每天盯\"奏折\"（数据结果），人只做监管与思考 → 构成\"硅基组织\"</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">黄总选品系统</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">RPA 抓取 → 4 个不同 AI 分析/拆人群 → 1 个 AI 萃取 → 每天产 2000 个，1000 产品裂变 17000 多，再筛再审</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">一横一纵 OS</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">横向 = 战略流程（选品→产品运维→广告投放→数据纠偏→财务核算），纵向 = 岗位 OS（岗位目标 GMV → 待办 → 时间切片 → 判断该用 RPA 还是 AI）；流程锚点全清晰</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">时间切片 SOP</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">员工 8 小时工作切成 5 分钟颗粒，分段录制 → AI 解析 → AI 生成初版 SOP → 人工审核校准 → 主管复核 → 20 人做同一件事合成一个 85 分 SOP 复用全员</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">知识库观</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">\"知识库是底座，但 AI 给你建的知识库可能是幻觉\"；好的知识库 = 从 SOP 起步、不断升级迭代、两个月可建成；最难在 SOP（把员工日常操作变成可复用可传承）</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">边界观</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不把亚马逊后台交给 Codex 操作；影刀是本地执行软件；\"取回 10 个地方的数据，每个都只有 80% 时，决策会做得一塌糊涂\"</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">RPA vs AI</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">\"RPA 解决人重复且复杂的动作，确定和固定；AI 是流水线上随时在变的机器人\"；AI+ERP / AI+CRM / AI+RPA，至少共生 10 年</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">结果</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">170 多人 → 四五十人；三家公司合计约 8 亿；核心是单个人的人效和思维逻辑发生巨大变化</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">泼冷水</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">别执着于 Agent，\"上来就谈 Agent，幻觉会不断迭代\"；企业 AI 落地要基于自身业务，不盲从、不焦虑；缺的是方法论</td></tr></tbody></table></div><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">二、伊森（执行端）总结：共同模式</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>流程先行，AI 只嵌在固定节点</b>——两家底层骨架一样，先有清晰的一级流程，AI 是\"判断\"环节的标准化增强件，不是主角。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>RPA 干确定的，AI 干变化的</b>——重复固定的全 RPA 化（抓数据、切店铺、加微信、扫码仓位、退款拦截），分析/选品/拍图这类变化的交给 AI。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>飞书多维表格 = 操作型业务 Ontology</b>——黄总的\"一横一纵\"把商品/达人/店铺/仓位/岗位做成实体并锚定到流程；唐承佳的板房扫码仓位把每件衣服的位置变成数据对象。这是 Palantir 式 Ontology 的低成本操作型版本。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>本地优先、核心后台不交 AI</b>——克制、可解释，10 个 80% 数据源不拼决策。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>结果可量化、当天见效</b>——每笔 AI 投入都对着具体成本/效率数字（省 500 万、12 客服→1、40 万→1 万、170 人→40 人）。</li></ul><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>他们用的\"简单 AI\"本质</b>：不是大模型推理成精，是标准化流程 + 几个节点上\"套上就好用\"的点状能力（选品判断、拍摄生图、SOP 生成、客服拦截规则）。核心认知与徐总完全一致：上来就做 Agent = 幻觉迭代；企业 AI 落地不要执着于 Agent。</p><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">三、奥利弗（Oliver）总结：照出 Harness 的尴尬</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>这两家用的 AI 拆穿了很朴素</b>：标准化流程 + 效益可量化，一点都不极客。RPA 干确定的、AI 干变化的，绝不混用；AI 嵌进现成业务流、每笔都算得清账；底座是知识库 + SOP 而不是 Agent。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>\"关系库/多维表格\"本质是一套业务本体</b>：黄总一横一纵 OS 就是围绕业务流程长出来的 Ontology，岗位/流程/任务/数据全结构化；但它是<b>从业务里自然长出来的</b>，不是为了 Ontology 而 Ontology。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>Harness 的尴尬</b>：我们堆的是\"agent 运行时、插件化、控制中心、多智能体调度、可观测\"——回答的是\"系统能不能跑\"，不是\"这单业务省了多少钱\"。<b>如果停在这里，Harness 就是极客玩具，不是生产工具。</b></li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>定位必须二选一</b>：极客/研究方向 → 现在的路没错，但只是实验，不能当生产承诺，不能再无限堆能力；生产级企业 → 反过来做，<b>先锁定一个真实业务闭环（电商选品/内容生产/客服拦截），让 Harness 承载那条标准化流程，第一件事算清\"用 AI 后省多少、提多少\"</b>。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>一句话</b>：AI 的胜负手不在框架多炫，而在能不能嵌进标准流程、今天就算得出效益。Harness 要进生产，就得从\"造运行时\"转向\"跑通一条能算账的业务线\"。</li></ul><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">四、合并判断框架（伊森 + 奥利弗，结论一致）</h2><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">核心结论</h3><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\"><b>企业要的好 AI，是把 AI 嵌进标准化流程的节点上放大效率，而不是先造一个智能体总控去重构组织。</b> 组织 AI 化（硅基组织）是长出来的结果——节点先放大效率 → 人效提升 → 被释放的人去新业务 → 组织形态自然变化——不是从第一天就\"设计一个 AI 组织\"。</blockquote><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">判断框架：给任何\"AI 该不该上 / 该买什么\"做裁决</h3><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">判断维度</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生产级标准（这两家的）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">极客自嗨（我们之前的 Harness）</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">起点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">真实业务闭环（一条流程）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">框架能力（运行时/插件/调度）</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">问题</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">这单业务省多少/提多少</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">系统能不能跑、跑得好不好</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">AI 形态</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">节点上的标准化零件</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">智能体总控/派发层</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">基建</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">知识库 + SOP + 业务 Ontology</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">记忆/插件/控制中心堆叠</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">验收</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">当天/当月见效、费用可归因</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">功能点齐不齐</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">边界</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">核心后台不交 AI、人审关键</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">全链路自动</td></tr></tbody></table></div><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">节点放大效率 → 组织架构的路径（不是选择题，是顺序）</h3><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">1. 选一条真实高频流程（选品/客服/复盘/内容）\n2. 把流程里确定动作 RPA 化、变化动作 AI 化（节点放大）\n3. 用飞书多维表格/扫码把业务对象与关系结构化（操作型 Ontology）\n4. 时间切片把岗位动作沉淀成 SOP 进知识库，人审核校准\n5. 每节点量化省多少/提多少（可算账 = 生产级门槛）\n6. 被释放的人力转新业务 → 组织自然 AI 化（硅基组织）\n</pre><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">对 Harness 的具体裁决</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">重装后的 Harness 不再堆层（维持官方基线），这是对的，但只是\"不添乱\"的底线。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">要跨到\"产效益\"：给 Harness 锁一个真实业务闭环（例如内容生产/客服拦截/选品），用官方基线承载那条标准化流程，第一件事算清效益账。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">衡量标准就一句话：<b>任何一次给 Harness 加东西，先回答\"这能给业务省多少钱/时间、提多少准\"？答不上来就不加。</b></li></ul><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">五、与既有知识的关系</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>游戏公司案例</b>（2026-08-11）讲的是\"组织记忆与执行习惯层\"——AI 落地的组织侧难点；本页补充的是\"节点效率层\"——先有标准化流程节点，再谈组织改造。两条合起来才是完整链路：<b>节点放大效率（本页）→ 员工执行习惯与组织记忆（游戏案例）→ 组织 AI 化</b>。本专题即通用执行框架（徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆）在服装/电商行业的实例化，框架主文第四章已纳入本专题作第三行业迁移实例（游戏公司 / 己未文化 / 服装电商三行业对照）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>\"操作型 Ontology\"</b> 与本库 Ontology 方法论同源（企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐））：对象类型 + 关系 + 锚定流程，只是这两家靠人在飞书 Base 维护，成本极低。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>与 Harness 复盘</b>（原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环、DeepSeek Harness项目/DeepSeek Harness项目记录）互为印证：从简到繁失控 = 极客自嗨的代价。</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">六、后续整理项</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 两篇未整理口播蒸馏为问题专题库（本页）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[ ] 可升级为正式专题「企业 AI 落地真实案例：节点放大效率方法论」（放企业AI与智能体商业化/），含一横一纵 OS 图、时间切片 SOP 模板、RPA/AI 分工表。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[ ] 将\"操作型业务 Ontology\"方法论单独提炼（对比语义层 Ontology 的适用边界）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[ ] 重装后的 Harness 是否锁一条业务闭环做试点，待徐总决策。</li></ul><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">返回：徐总问题专题库/00_问题专题库总览</p>",
+   "formalNotes": [
+    "徐总问题专题库/00_问题专题库总览",
+    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆",
+    "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录"
+   ],
+   "rawMaterials": [
+    "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环"
+   ],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "徐总问题专题库/00_问题专题库总览",
+    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆",
+    "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环",
+    "DeepSeek Harness项目/DeepSeek Harness项目记录"
+   ],
+   "wordCount": 4646,
+   "linkedNotes": [
+    {
+     "path": "徐总问题专题库/00_问题专题库总览.md",
+     "title": "00_问题专题库总览",
+     "kind": "note",
+     "wordCount": 5542,
+     "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
+     "title": "游戏公司AI组织落地：从流程提效到生产方式重构",
+     "kind": "note",
+     "wordCount": 5743,
+     "excerpt": "游戏公司 AI 组织落地：从流程提效到生产方式重构上级：企业AI与智能体商业化/企业AI与智能体商业化专题关联：原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地、企业AI与智能体商业化/游戏公司AI落地",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）.md",
+     "title": "FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+     "kind": "note",
+     "wordCount": 14577,
+     "excerpt": "FDE 在甲方搭建 Ontology Objects 的完整工作流（含客户沟通+行业语言对齐）日期：2026-06-17（IMA 笔记），2026-06-18 同步至 Obsidian上级：企业AI与智能体商业化专题关联",
+     "hasBody": true
+    }
+   ],
+   "linkedCount": 3
+  },
+  {
+   "path": "徐总问题专题库/02_企业AI与商业化/2026-08-18_企业AI落地问题总和：战略-机制-卡点三层融合.md",
+   "title": "企业AI落地问题总和：战略-机制-卡点三层融合",
+   "date": "2026-08-18",
+   "updated": "2026-08-26",
+   "category": "企业AI与商业化",
+   "status": "已融合 → 已入库",
+   "questionType": "",
+   "originalQuestion": "",
+   "direction": "上级：徐总问题专题库/00问题专题库总览 本页是「06 企业 AI 与商业化」专题的总和 / 总入口。它不重复各源文全文，而是把本专题下几篇核心文章的「问题」融合为一条纵深的完整问题链，并链接到各详文供深读。读这一篇，即可掌握本专题全部问题的骨架；要细节，点链接下钻。 统一问题陈述（一句话） 企业 AI 落地不是一个问题，而是三层递进：先定「要节点效率还是组织重构」（战略）→ 再建「生产侧库 + 任务闭环 + ANC」的通用机制（构建）→ 最后直面「执行习惯与组织记忆」这个必然卡点（卡点）。三层缺一不可，顺序不能反",
+   "directionHtml": "<p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">上级：徐总问题专题库/00_问题专题库总览</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本页是「06 企业 AI 与商业化」专题的<b>总和 / 总入口</b>。它不重复各源文全文，而是把本专题下几篇核心文章的「问题」融合为一条纵深的完整问题链，并链接到各详文供深读。读这一篇，即可掌握本专题全部问题的骨架；要细节，点链接下钻。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">统一问题陈述（一句话）</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">企业 AI 落地不是一个问题，而是三层递进：<b>先定「要节点效率还是组织重构」（战略）→ 再建「生产侧库 + 任务闭环 + ANC」的通用机制（构建）→ 最后直面「执行习惯与组织记忆」这个必然卡点（卡点）</b>。三层缺一不可，顺序不能反。</p><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">注：本页的「三层」是<b>问题视角</b>的分层；游戏公司主文另有「生产机制层 / 切入路线层 / 组织形态层」的<b>构建视角</b>三层，二者正交互补——本页回答「问题怎么串」，主文回答「框架怎么搭」。</blockquote><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">三层问题融合</h2><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">第一层 · 战略 / 选择层——企业需要什么样的 AI？</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>提出的问题</b>：企业到底需要什么样的 AI？是让 AI 放大单个流程节点的效率，还是引导整个公司变成 AI 组织架构？</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>融合回答</b>：优先「节点放大效率」——先有标准化、可验收的流程节点（RPA 干确定、AI 干变化），再谈组织改造。跳到「组织重构」往往落空，因为底层节点还没标准化。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>行业证据</b>：唐承佳女装直播用 AI 省 500 万（流程节点标准化 + 飞书多维表格作操作型 Ontology + 本地优先 + 结果可量化）；森马 / 跨境黄总案例同样先搭流程再谈智能化。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>详文</b>：徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">第二层 · 机制 / 构建层——AI 落地怎么真正发生？</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>提出的问题</b>：有了战略方向，AI 落地靠什么机制真正跑起来、可复用？</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>融合回答（通用执行框架，三层构建）</b>：</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>生产机制层</b>（第一至四章）：真实工作持续沉淀为对象、判断、理由、确认、复用（生产侧库 + 低摩擦留痕 + 会议决策 + 组织记忆）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>切入路线层</b>（第五章，任务闭环与业务闭环分离）：从边界清晰的任务先切——数字岗位 Agent（Task-first，可验收）vs 经营 Agent（Business-process-first，懂整条闭环）；生产级 = 责任范围内稳定可验收，不取决于理解多宽。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>组织形态层</b>（第六章，ANC 方法论）：多 Agent / 多任务嵌入组织协作与权限——FDE 用「Skill + 企业真实语料 × 组织 / 权限梳理」生成企业专属 AI 原生组织（ANC-X），角色变为 Owner / DRI / Builder / Player Coach。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>融合要点</b>：三层顺序即落地顺序——先跑通生产机制，再用任务闭环切入高频工作，最后重构为 AI 原生组织。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>详文（主框架）</b>：徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>并入来源</b>：企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线、企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">第三层 · 卡点 / 微观层——为什么「用了 ≠ 落地」？</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>提出的问题</b>：员工明明用了 AI 工具，为什么组织仍没完成 AI 落地？</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>融合回答</b>：卡在「员工执行习惯与组织记忆」。截图、记录、确认、反馈这些低摩擦动作决定系统能否跑起来；组织记忆不是文档堆积，而是判断理由和结果反馈能被下一轮复用。绕过这一层，前面战略和机制都悬空。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>详文（子问题指针）</b>：徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">三层关系（为什么顺序不能反）</h2><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">战略层（要什么样的AI：节点效率优先）\n   ↓ 决定切哪类工作\n机制层（通用执行框架：生产侧库→任务闭环→ANC）\n   ↓ 跑通后暴露\n卡点层（执行习惯与组织记忆：低摩擦动作决定能否复用）\n</pre><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">没有战略层，机制层容易一上来做「经营中枢」而失控；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">没有机制层，战略层只是口号，落不到节点；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">没有卡点层，前两层跑通也被人的习惯和组织失忆打回原形。</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">行业实例化（三行业对照，统一挂在通用框架主文下）</h2><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">维度</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">游戏公司（案例源）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">己未文化（咨询客户）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">服装 / 电商（战略层实例）</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">战略层落点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">先固化美术 / 选角流程节点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">先固化交付物节点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">先标准化直播 / 供应链节点</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">机制层落点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生产侧库 + 老板截图复盘</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Ontology Objects 工作流</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">飞书多维表格作操作型 Ontology</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">卡点层落点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">员工留痕习惯</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户沟通 + 行业语言对齐</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">结果可量化、本地优先</td></tr></tbody></table></div><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">关联文章清单（本专题全部核心文，点链下钻）</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">总和 / 总入口（本页）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆（机制层主框架，含任务闭环 + ANC 并入）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构（战略层实例化，KNOWLEDGEPIP-121）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆（卡点层子问题）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线（机制层第五章来源）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地（机制层第六章来源）</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">年检机制</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">周期：每年一次（首次 2027-08-18）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">触发：到日由人工或 Agent 复核，检查三行业实例是否仍有效、框架是否需补新行业。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">检查清单：① 战略层「节点效率优先」是否被新案例推翻；② 机制层三层顺序是否仍成立；③ 卡点层是否出现新卡点（如新工具改变留痕习惯）；④ 行业实例是否需要增补；⑤ 链接是否失效；⑥ 年检记录是否追加。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">执行记录：</li></ul><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">日期</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">复核人</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">结论</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">调整</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">2026-08-18</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">伊森</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">建页，三层融合完成</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">无</td></tr></tbody></table></div><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">返回：徐总问题专题库/00_问题专题库总览</p>",
+   "summary": "统一问题陈述（一句话） 企业 AI 落地不是一个问题，而是三层递进：先定「要节点效率还是组织重构」（战略）→ 再建「生产侧库 + 任务闭环 + ANC」的通用机制（构建）→ 最后直面「执行习惯与组织记忆」这个必然卡点（卡点）。三层缺一不可，顺序不能反。 注：本页的「三层」是问题视角的分层；游戏公司主文另有「生产机制层 / 切入路线层 / 组织形态层」的构建视",
+   "answerHtml": "<h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">统一问题陈述（一句话）</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">企业 AI 落地不是一个问题，而是三层递进：<b>先定「要节点效率还是组织重构」（战略）→ 再建「生产侧库 + 任务闭环 + ANC」的通用机制（构建）→ 最后直面「执行习惯与组织记忆」这个必然卡点（卡点）</b>。三层缺一不可，顺序不能反。</p><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">注：本页的「三层」是<b>问题视角</b>的分层；游戏公司主文另有「生产机制层 / 切入路线层 / 组织形态层」的<b>构建视角</b>三层，二者正交互补——本页回答「问题怎么串」，主文回答「框架怎么搭」。</blockquote><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">三层问题融合</h2><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">第一层 · 战略 / 选择层——企业需要什么样的 AI？</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>提出的问题</b>：企业到底需要什么样的 AI？是让 AI 放大单个流程节点的效率，还是引导整个公司变成 AI 组织架构？</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>融合回答</b>：优先「节点放大效率」——先有标准化、可验收的流程节点（RPA 干确定、AI 干变化），再谈组织改造。跳到「组织重构」往往落空，因为底层节点还没标准化。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>行业证据</b>：唐承佳女装直播用 AI 省 500 万（流程节点标准化 + 飞书多维表格作操作型 Ontology + 本地优先 + 结果可量化）；森马 / 跨境黄总案例同样先搭流程再谈智能化。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>详文</b>：徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">第二层 · 机制 / 构建层——AI 落地怎么真正发生？</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>提出的问题</b>：有了战略方向，AI 落地靠什么机制真正跑起来、可复用？</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>融合回答（通用执行框架，三层构建）</b>：</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>生产机制层</b>（第一至四章）：真实工作持续沉淀为对象、判断、理由、确认、复用（生产侧库 + 低摩擦留痕 + 会议决策 + 组织记忆）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>切入路线层</b>（第五章，任务闭环与业务闭环分离）：从边界清晰的任务先切——数字岗位 Agent（Task-first，可验收）vs 经营 Agent（Business-process-first，懂整条闭环）；生产级 = 责任范围内稳定可验收，不取决于理解多宽。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>组织形态层</b>（第六章，ANC 方法论）：多 Agent / 多任务嵌入组织协作与权限——FDE 用「Skill + 企业真实语料 × 组织 / 权限梳理」生成企业专属 AI 原生组织（ANC-X），角色变为 Owner / DRI / Builder / Player Coach。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>融合要点</b>：三层顺序即落地顺序——先跑通生产机制，再用任务闭环切入高频工作，最后重构为 AI 原生组织。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>详文（主框架）</b>：徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>并入来源</b>：企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线、企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">第三层 · 卡点 / 微观层——为什么「用了 ≠ 落地」？</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>提出的问题</b>：员工明明用了 AI 工具，为什么组织仍没完成 AI 落地？</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>融合回答</b>：卡在「员工执行习惯与组织记忆」。截图、记录、确认、反馈这些低摩擦动作决定系统能否跑起来；组织记忆不是文档堆积，而是判断理由和结果反馈能被下一轮复用。绕过这一层，前面战略和机制都悬空。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>详文（子问题指针）</b>：徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">三层关系（为什么顺序不能反）</h2><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">战略层（要什么样的AI：节点效率优先）\n   ↓ 决定切哪类工作\n机制层（通用执行框架：生产侧库→任务闭环→ANC）\n   ↓ 跑通后暴露\n卡点层（执行习惯与组织记忆：低摩擦动作决定能否复用）\n</pre><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">没有战略层，机制层容易一上来做「经营中枢」而失控；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">没有机制层，战略层只是口号，落不到节点；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">没有卡点层，前两层跑通也被人的习惯和组织失忆打回原形。</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">行业实例化（三行业对照，统一挂在通用框架主文下）</h2><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">维度</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">游戏公司（案例源）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">己未文化（咨询客户）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">服装 / 电商（战略层实例）</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">战略层落点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">先固化美术 / 选角流程节点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">先固化交付物节点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">先标准化直播 / 供应链节点</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">机制层落点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生产侧库 + 老板截图复盘</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Ontology Objects 工作流</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">飞书多维表格作操作型 Ontology</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">卡点层落点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">员工留痕习惯</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户沟通 + 行业语言对齐</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">结果可量化、本地优先</td></tr></tbody></table></div><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">关联文章清单（本专题全部核心文，点链下钻）</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">总和 / 总入口（本页）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆（机制层主框架，含任务闭环 + ANC 并入）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构（战略层实例化，KNOWLEDGEPIP-121）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆（卡点层子问题）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线（机制层第五章来源）</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地（机制层第六章来源）</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">年检机制</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">周期：每年一次（首次 2027-08-18）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">触发：到日由人工或 Agent 复核，检查三行业实例是否仍有效、框架是否需补新行业。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">检查清单：① 战略层「节点效率优先」是否被新案例推翻；② 机制层三层顺序是否仍成立；③ 卡点层是否出现新卡点（如新工具改变留痕习惯）；④ 行业实例是否需要增补；⑤ 链接是否失效；⑥ 年检记录是否追加。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">执行记录：</li></ul><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">日期</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">复核人</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">结论</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">调整</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">2026-08-18</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">伊森</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">建页，三层融合完成</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">无</td></tr></tbody></table></div><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">返回：徐总问题专题库/00_问题专题库总览</p>",
+   "formalNotes": [
+    "徐总问题专题库/00_问题专题库总览",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
+    "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
+    "企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆"
+   ],
+   "rawMaterials": [],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "徐总问题专题库/00_问题专题库总览",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
+    "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
+    "企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆"
+   ],
+   "wordCount": 2624,
+   "linkedNotes": [
+    {
+     "path": "徐总问题专题库/00_问题专题库总览.md",
+     "title": "00_问题专题库总览",
+     "kind": "note",
+     "wordCount": 5542,
+     "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线.md",
+     "title": "任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
+     "kind": "note",
+     "wordCount": 1680,
+     "excerpt": "任务闭环与业务闭环分离：数字岗位 Agent 与经营 Agent 的两条路线上级：企业AI与智能体商业化/企业AI与智能体商业化专题关联：企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地.md",
+     "title": "ANC方法论：FDE如何用AI原生组织承接企业落地",
+     "kind": "note",
+     "wordCount": 1586,
+     "excerpt": "ANC 方法论：FDE 如何用 AI 原生组织承接企业落地上级：企业AI与智能体商业化/企业AI与智能体商业化专题关联：企业AI与智能体商业化/FDE商业级智能体交付框架、企业AI与智能体商业化/FDE生产级AI Age",
+     "hasBody": true
+    }
+   ],
+   "linkedCount": 3
+  },
+  {
+   "path": "徐总问题专题库/02_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
+   "title": "游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
+   "date": "2026-08-11",
+   "updated": "2026-08-28",
+   "category": "企业AI与商业化",
+   "status": "已回答 → 已入库",
+   "questionType": "",
+   "originalQuestion": "我觉得把游戏公司升级成了这个，学出来的一些通用的经验，你放在那个问题专题库里面，好吧。游戏公司的这个只是作为一个案例。 游戏公司 AI 落地通用执行框架不就是这个问题专题库吗？然后你现在通用经验进的这个问题专题库的“企业 AI 落地为什么会卡在员工执行习惯”，这个应该作为它的一个附属问题。",
+   "direction": "本页的主问题不是“风际游戏这一家公司怎么做 AI”，也不是单独讨论“员工为什么不配合 AI”。真正要沉淀的是： 因此： 游戏公司是案例来源； “员工执行习惯与组织记忆”是本框架下的子问题； 主文档应放在问题专题库，作为可迁移到己未文化、餐饮、科技咨询、内容生产等客户的通用执行框架。",
+   "directionHtml": "<p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本页的主问题不是“风际游戏这一家公司怎么做 AI”，也不是单独讨论“员工为什么不配合 AI”。真正要沉淀的是：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">从游戏公司走访案例中，能抽象出一套怎样的企业 AI 落地通用执行框架？\n\n这个框架如何处理生产侧库、低摩擦留痕、员工执行习惯、会议决策、组织记忆和 FDE 首期交付？\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">因此：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">游戏公司是案例来源；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">“员工执行习惯与组织记忆”是本框架下的子问题；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">主文档应放在问题专题库，作为可迁移到己未文化、餐饮、科技咨询、内容生产等客户的通用执行框架。</li></ul>",
+   "summary": "框架总览（三层结构） 本通用执行框架由三层构成，20260818 整合后补全： 层 章节 回答的问题 来源 生产机制层 第一至四章 真实工作如何被持续沉淀为对象、判断、理由、确认、复用 游戏公司案例原框架 切入路线层 第五章 从哪一类任务先切、如何判断能否做成 Agent 任务闭环与业务闭环分离 组织形态层 第六章 多 Agent / 多任务如何嵌入组织协作",
+   "answerHtml": "<h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">框架总览（三层结构）</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本通用执行框架由三层构成，2026-08-18 整合后补全：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">章节</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">回答的问题</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">来源</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生产机制层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">第一至四章</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">真实工作如何被持续沉淀为对象、判断、理由、确认、复用</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">游戏公司案例原框架</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">切入路线层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">第五章</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">从哪一类任务先切、如何判断能否做成 Agent</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">任务闭环与业务闭环分离</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">组织形态层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">第六章</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">多 Agent / 多任务如何嵌入组织协作与权限</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">ANC 方法论</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">三层顺序也是 FDE 的落地顺序：先把生产机制跑通（第一至四章），再用任务闭环切入高频工作（第五章），最后把组织形态重构为 AI 原生组织（第六章）。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">核心结论</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本专题与“生产级 Agent”总框架的连接点，是生产形态分流：游戏角色设计属于创意生产系统，不应按普通 RPA 或通用办公 Agent 设计。生成与判断由模型、Agent、Evals 和专业人员共同完成；文件、版本、资产流转由确定性 Workflow 或 RPA 完成；Ontology 用于记录 Brief、候选、评价、决策、最终资产和复用规则。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">游戏公司案例学出来的通用经验是：</p><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">企业 AI 落地的关键，不是员工会不会试 AI 工具，而是组织能不能围绕真实工作持续沉淀“对象、判断、理由、确认、结果和复用”。</blockquote><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">工具进入工作，只是第一步；流程被 AI 加速，也还不是终点。真正的落地要看：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">有没有明确的生产对象库，而不是零散文件和聊天记录；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">员工是否愿意持续截图、记录、确认、反馈；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">Leader 是否把自己的判断标准说出来、写下来、让团队复用；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">会议是否记录“为什么选 / 为什么不选”，而不是只记录结论；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">AI 生成的结果是否能被人工复核、责任人确认、结果回流；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">下一轮工作是否真的使用上一轮沉淀的知识。</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">通用执行框架</h2><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">一、从工具使用升级到生产侧库</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">游戏公司已经会用生图工具、Skill 和知识库，但如果每次生成、筛选、开会、确认都散落在不同工具里，AI 只能做局部提效。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">第一阶段应该建立一个不替代原系统的“生产侧库”：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">GenerationBrief\n→ Candidate\n→ Evaluation\n→ Decision\n→ FinalAsset\n→ ReuseRule\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这个侧库不是一开始就做大型业务系统，而是先接住真实生产中最容易丢失的内容：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">这次要生成什么；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">为什么生成这个方向；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">哪些候选被淘汰；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">淘汰原因是什么；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">哪个版本被确认；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">下次生成应复用什么经验。</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">二、从会议结论升级到决策留痕</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">很多企业的会议只留下“选 A，不选 B”，但 AI 真正需要的是背后的理由。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">游戏公司的选角会议可以抽象为通用机制：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">会议动作</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">AI 落地需要沉淀的内容</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">看多个候选</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">待判断对象</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">讨论优劣</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">判断标准</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">选中某一版</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">决策结果</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">淘汰其他版本</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">反例样本</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">老板最终拍板</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">人工确认</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">下一轮继续生成</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">规则复用</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">只要这个结构成立，AI 才能从“帮忙整理会议纪要”变成“辅助下一轮判断”。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">三、员工执行习惯是附属但关键的子问题</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">“企业 AI 落地为什么会卡在员工执行习惯与组织记忆”不是本次主标题，但它是这个框架下的关键子问题。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">游戏公司里最关键的现象是：老板能持续截图、研究工具、复盘体验；员工却可能截七八张图就嫌累。这说明 AI 落地有一个常被低估的层级：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">模型层\n→ 工具层\n→ 流程层\n→ 员工执行习惯层\n→ 组织层\n→ 记忆层\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">如果员工不愿配合留痕，AI 系统就没有真实输入；如果员工只在领导盯着时补材料，数据就断断续续；只有当截图、确认、补一句理由、使用历史记录变成顺手动作，AI 才能从工具变成生产机制。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">子问题详见：徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">四、从案例迁移到其他行业</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">游戏公司的特殊业务对象是图片候选、角色、标签、选角会议；但通用结构是：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">游戏公司对象</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">通用对象</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">己未文化迁移</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">图片候选</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">待判断对象</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户 / 咨询记录 / 跟进事项</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">选角会议</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">判断场景</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">咨询复盘 / 老师确认</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">选中/淘汰理由</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">判断理由</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">为什么这样建议 / 下次提醒什么</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">角色定版</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">最终确认</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">老师确认后的客户记录</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">下一轮生图复用</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">组织记忆复用</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">下次咨询前自动准备背景</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">所以游戏公司案例的价值，不是“游戏行业独有”，而是它把企业 AI 落地的通用矛盾暴露得比较清楚：工具、流程、人、记忆和责任必须同时被设计。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">四·补、服装与电商行业的迁移实例</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">2026-08-18 的「企业需要什么样的 AI：节点放大效率还是组织架构」专题（唐承佳女装直播、森马/跨境黄总）是<b>本框架在服装/电商行业的完整实例化</b>，与游戏公司、己未文化形成三行业对照：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">框架层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">通用对象</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">游戏公司</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">己未文化</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">服装/电商（唐承佳·森马）</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生产侧库（一~二章）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">待判断对象+判断理由</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生图候选/选角会议</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户/咨询记录</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">飞书多维表格=操作型业务 Ontology（一横一纵 OS、板房扫码仓位）</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">任务闭环（五章）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">边界清晰的高频任务</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生图筛选、会议留痕</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户录入、跟进提醒</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">流程先行，RPA 干确定的（抓数据/加微信/退款拦截）、AI 干变化的（选品/拍图/SOP）</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">验收（FDE 首期步骤）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">结果可验收、可量化</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">候选淘汰可追溯</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">老师确认可复核</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">省 500 万、12 客服→1、板衣损耗 40 万→1 万、170 人→40 人</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">员工习惯（三章）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">顺手留痕</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">老板截图复盘、员工嫌累</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">老师确认复用</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">时间切片 SOP、人审 AI 校准</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">组织形态（六章）</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">AI 原生组织</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">老板 ANP 雏形</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">老师 ANP</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">被 AI 释放的人力转跨境新业务（硅基组织）</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">服装案例补上了游戏案例缺的另一半：<b>节点放大效率先于组织重构</b>——它的主线是“标准化流程 + 节点嵌 RPA/AI”，而非先设计 AI 组织。这与本框架三层顺序一致（先生产机制/任务闭环，后组织形态），也印证第五章“不要从经营中枢开始”。完整链路：<b>节点放大效率（服装专题）→ 生产机制与任务闭环（本框架一~五章）→ 组织 AI 化（本框架六章 ANC）</b>。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">专题详见：徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">五、切入路线：任务闭环与业务闭环分离（数字岗位 Agent）</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">（并入来源：企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线）</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本章与前面一致，仍以游戏公司场景贯穿：游戏公司把“生图候选筛选 + 选角会议决策留痕”作为第一个任务闭环，而不是一上来做“游戏生产经营中枢”——正是这条路线。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">企业 AI 落地不应默认从“完整经营中枢”开始。先把落地拆成两条路线，从边界清晰的任务切：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">生产级 Agent 不一定要先理解企业完整经营闭环。\n只要它负责的任务边界清晰、输入明确、动作可控、结果可验收，它也可以是生产级 Agent。\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">“生产级”不是业务理解范围有多宽，而是责任范围内能否稳定完成。</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">路线</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">切入问题</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">典型形态</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">任务 / 岗位 Agent</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">哪一件工作可以交给数字员工完整完成？</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">报销录入、候选客户筛选、会议纪要、材料缺口检查、客户跟进</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务 / 经营 Agent</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">整条业务如何形成经营闭环？</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">销售经营、项目交付、客户生命周期、企业经营中枢</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">任务闭环与业务闭环不是同一回事：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">任务闭环：任务触发 → 获取信息 → 判断 → 执行 → 验证 → 完成\n业务闭环：客户获取 → 销售跟进 → 成交 → 交付 → 回款 → 复购\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">一个 Agent 可以只承担业务闭环中的一段（如“筛选潜在客户并录入 CRM”），不需要理解合同、交付、财务、复购，只要把自己接口做好，后续由人或其他 Agent 接住。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>判断一个任务能不能做成 Agent</b>（关键标准不是“重不重要”，而是能否切成稳定工作单元）：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">判断项</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">可做任务 / 岗位 Agent</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">需要更重业务工程</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">起点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">明确触发事件</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">目标模糊</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">输入</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">数据来源清楚</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">信息散乱且依赖隐性判断</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">动作</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">步骤可描述</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">需要跨部门经营协调</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">结果</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">可验收</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">结果受多变量影响</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">异常</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">可转人工</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">异常本身就是业务核心</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>生产级 Agent 的二维定义</b>（业务范围宽度 × 工程成熟度）：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">类型</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务范围</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">工程成熟度</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">判断</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">窄范围高成熟</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">窄</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">高</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">典型数字岗位 Agent，值得做</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">宽范围高成熟</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">宽</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">高</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">经营 Agent / 企业中枢，难度最高</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">窄范围低成熟</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">窄</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">低</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Demo / 工具脚本</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">宽范围低成熟</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">宽</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">低</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">最危险，容易变成“老板 AI 胡说八道”</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>对 FDE 的切入顺序（与第一章生产侧库直接衔接）</b>：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">1. 找出边界清晰的高频任务\n2. 定义输入、动作、输出和验收\n3. 判断是否能形成数字岗位\n4. 先跑任务闭环\n5. 再把多个任务闭环接成业务闭环\n6. 最后才讨论经营 Agent / AI 经营中枢\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本框架第一至四章的“生产侧库、决策留痕、留痕习惯”正是任务闭环的具体化；先把这些任务闭环跑稳，再接业务闭环，最后才到第六章的组织重构。</p><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">六、组织形态：AI 原生组织（ANC 方法论）</h3><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">（并入来源：企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地）</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本章仍以游戏公司场景贯穿：游戏公司老板能持续截图、研究工具、复盘体验（第三章），正是“老板成为 ANP（AI Native Person）”的雏形——ANC 成立的前提在一号位，游戏案例已暴露这一点。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">当多个任务闭环、岗位 Agent 嵌入企业协作，就需要组织形态层的方法论。ANC（AI Native Company）是一种把企业真实语料、组织角色、权限关系、项目协作和 Skill 体系组合起来的 AI 原生组织方法论：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">FDE 方法论\n× 企业真实语料\n× 组织与权限梳理\n× Agent / Skill 系统\n→ ANC-X\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">同一套底层方法进入不同企业，会生成不同目录、流程、Skill 和角色分工。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>ANC 与传统“上系统”的区别</b>：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">先让真实沟通、会议、项目进展进入企业知识系统；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">Agent 持续发现上下文、沉淀上下文、生成任务；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">权限随项目变化而授予、收回和重新组合；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">汇报、上传下达、进度追踪由 Agent 部分承担；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">人的角色从固定岗位转向 Owner、DRI、Builder、Player Coach 等任务责任结构。</li></ul><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>关键机制</b>：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">机制</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">作用</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">会议内容自动进入知识系统</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">把一次性沟通变成可复用上下文</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Agent 夜间整理 / 持续整理</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">发现新任务、沉淀新知识、跨时区同步</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">对话变知识，知识变 Skill</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">让经验从聊天记录进入可执行能力</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">企业新闻 / 自动推送</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">替代部分人工汇报和上传下达</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">项目化权限</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">权限跟随任务和项目动态变化</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">DRI / Builder / Player Coach</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">把组织责任从层级职务转向结果责任和带教责任</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>FDE 在 ANC 中的角色变化</b>：FDE 不只是部署 Agent，而是“AI 时代的组织系统设计者”——既懂 Agent、知识库和 Skill，又能把企业真实工作拆成对象、任务、责任和反馈。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>落地障碍：老板是否成为 ANP（AI Native Person）</b>。ANC 的关键障碍不是模型，而是一号位是否实际使用 AI、把沟通/判断/任务/会议沉淀进系统。这与本框架第三章“员工执行习惯层”一致：游戏公司老板能持续截图复盘、但员工是否愿意持续留痕决定系统能不能跑；ANC 要求老板和核心成员先成为 AI 原生协作者，企业才可能成为 AI 原生组织。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>ANC 与本框架其他层的关系</b>：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">现有主线</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">关注点</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">ANC 补充</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">FDE 交付</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">如何进场、访谈、建模、交付</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">FDE 如何参与组织设计</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Ontology Objects</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">业务对象、关系、动作</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">对象如何连接到角色和权限</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生产侧库</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">先接住真实工作留痕</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">留痕如何成为企业新闻、任务和 Skill</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">任务闭环</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">单个任务如何稳定完成</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">多任务如何嵌入组织协作</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">组织记忆</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">判断理由和反馈复用</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">组织记忆如何驱动权限、任务和角色变化</td></tr></tbody></table></div><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">AI 落地六层诊断</h2><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">层级</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">问题</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">模型层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">模型输出能否达到业务质量</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">工具层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Skill、API、知识库能否稳定调用</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">流程层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">AI 是否进入真实生产链路</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">员工执行习惯层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">员工是否愿意持续截图、记录、确认和反馈</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">组织层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">谁定义标准、谁复核、谁负责结果</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">记忆层</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">判断理由和结果是否能被下一轮复用</td></tr></tbody></table></div><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">员工配合度四级</h2><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">层级</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">表现</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">判断</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不配合</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">不截图、不记录、不反馈</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">系统只能演示</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">被动配合</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">领导要求时才补材料</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">数据断续</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">顺手配合</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">在原动作中截图、确认、补一句理由</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">可做第一阶段</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">主动共建</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">主动提供反例、规则和复盘</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">可进入组织改造</td></tr></tbody></table></div><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">FDE 首期落地步骤</h2><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">1. 选真实高频流程\n2. 找到待判断对象\n3. 设计低摩擦留痕动作\n4. 明确人工确认和责任人\n5. 用 AI 做初筛、整理、提醒\n6. 把判断理由和结果回流\n7. 跑 2-3 轮验证员工是否持续配合\n8. 再决定是否扩展系统和数据库\n</pre><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">年检机制</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">本框架为可迁移方法论文档，须按年度复核，防止模型能力、FDE 交付实践与客户组织形态演进后框架过时。</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>周期</b>：每年一次，于创建日周年（首次年检 2027-08-11）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>触发</b>：到 <code style=\"background:#EEF1F8;padding:1px 5px;border-radius:4px;font-size:0.9em;color:#2563EB;\">annual_review</code> 日期前由任务面板 / 个人随记提醒，复核后更新 <code style=\"background:#EEF1F8;padding:1px 5px;border-radius:4px;font-size:0.9em;color:#2563EB;\">last_review</code> 与 <code style=\"background:#EEF1F8;padding:1px 5px;border-radius:4px;font-size:0.9em;color:#2563EB;\">annual_review</code>，并在下方《年检执行记录》留痕。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>年检检查清单</b>：</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">六层诊断（模型层→记忆层）是否仍适用，有无被新模型能力颠覆的层级；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">FDE 首期八步是否仍有效，是否需要补“AI 经营中枢 / 多 Agent 编排”新步骤；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">第五章待观察问题（数字岗位产品化、中小企业付费意愿、岗位 Agent 接业务闭环的 MCP/Base/Workflow 机制、任务 Agent 与经营 Agent 定价验收分离）是否有新结论；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">第六章待验证问题（ANC 是否形成可复制交付包、DRI/Builder/Player Coach 是否被中国中小企业理解、ANC 适用边界、Skill+语料→ANC-X 是否成稳定工具链）是否有新结论；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">案例迁移是否扩展到新行业（己未文化、餐饮、科技咨询、内容生产之外）；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">本次年检是否发现需回流到 企业AI与智能体商业化/企业AI与智能体商业化专题 或 徐总问题专题库/00_问题专题库总览 的更新。</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">年检执行记录</h3><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">日期</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">执行人</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">结论</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">下次年检</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">2026-08-18</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Ethan</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">整合任务闭环（第五章）、ANC（第六章）与游戏公司原框架为三层结构；新增年检机制</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">2027-08-11</td></tr></tbody></table></div><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">后续整理项</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 将游戏公司案例保留在企业 AI 专题，作为来源案例。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 将通用执行框架沉淀到问题专题库。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 将“员工执行习惯与组织记忆”降为本框架下的子问题。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 将员工执行习惯 / AI 配合度补入己未文化首次沟通作战卡。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 将「任务闭环与业务闭环分离」并入本框架第五章（2026-08-18）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 将「ANC 方法论」并入本框架第六章（2026-08-18）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 建立年检机制，首次年检 2027-08-11（2026-08-18）。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[ ] 后续推进 KNOWLEDGEPIP-87 时，再输出风际游戏首期实施方案、流程图和人机分工表。</li></ul><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">返回：徐总问题专题库/00_问题专题库总览</p>",
+   "formalNotes": [
+    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构",
+    "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版",
+    "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
+    "企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地",
+    "徐总问题专题库/00_问题专题库总览",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构",
+    "企业AI与智能体商业化/企业AI与智能体商业化专题"
+   ],
+   "rawMaterials": [
+    "原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地",
+    "企业AI与智能体商业化/原始资料/ChatGPT对话｜游戏公司AI组织落地｜2026-08-11",
+    "原始资料/已整理｜2026-08-12｜对话整理｜任务闭环与业务闭环分离-GrokBot数字岗位vs经营Agent",
+    "原始资料/已整理｜2026-08-12｜抖音｜Solo们chat-FDE如何用ANC搭建AI原生组织"
+   ],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "徐总问题专题库/00_问题专题库总览",
+    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构",
+    "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版",
+    "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-18_企业需要什么样的AI：节点放大效率还是组织架构",
+    "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
+    "企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地",
+    "原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地",
+    "企业AI与智能体商业化/原始资料/ChatGPT对话｜游戏公司AI组织落地｜2026-08-11",
+    "原始资料/已整理｜2026-08-12｜对话整理｜任务闭环与业务闭环分离-GrokBot数字岗位vs经营Agent",
+    "原始资料/已整理｜2026-08-12｜抖音｜Solo们chat-FDE如何用ANC搭建AI原生组织",
+    "企业AI与智能体商业化/企业AI与智能体商业化专题"
+   ],
+   "wordCount": 7761,
+   "linkedNotes": [
+    {
+     "path": "徐总问题专题库/00_问题专题库总览.md",
+     "title": "00_问题专题库总览",
+     "kind": "note",
+     "wordCount": 5542,
+     "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
+     "title": "游戏公司AI组织落地：从流程提效到生产方式重构",
+     "kind": "note",
+     "wordCount": 5743,
+     "excerpt": "游戏公司 AI 组织落地：从流程提效到生产方式重构上级：企业AI与智能体商业化/企业AI与智能体商业化专题关联：原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地、企业AI与智能体商业化/游戏公司AI落地",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md",
+     "title": "己未文化AI落地-首次接触沟通作战卡-测试版",
+     "kind": "note",
+     "wordCount": 10228,
+     "excerpt": "己未文化 AI 落地：首次接触沟通作战卡（测试版）使用说明：本卡已完成 2026-08-12 首谈后的第一次校准。前半部分保留为后续类似客户的首次沟通模板；己未文化本项目后续应优先读取「六、首谈后确认的真实业务信息」与 ",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/FDE商业级智能体交付框架.md",
+     "title": "FDE商业级智能体交付框架",
+     "kind": "note",
+     "wordCount": 11083,
+     "excerpt": "FDE 商业级智能体交付框架：业务需求、落地架构、使用体验日期：2026-06-011. 核心判断商业级 AI 智能体项目，最后比拼的不是谁用了百炼、Dify、OpenClaw、Hermes、DeepSeek 或 Qwe",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）.md",
+     "title": "FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
+     "kind": "note",
+     "wordCount": 14577,
+     "excerpt": "FDE 在甲方搭建 Ontology Objects 的完整工作流（含客户沟通+行业语言对齐）日期：2026-06-17（IMA 笔记），2026-06-18 同步至 Obsidian上级：企业AI与智能体商业化专题关联",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线.md",
+     "title": "任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
+     "kind": "note",
+     "wordCount": 1680,
+     "excerpt": "任务闭环与业务闭环分离：数字岗位 Agent 与经营 Agent 的两条路线上级：企业AI与智能体商业化/企业AI与智能体商业化专题关联：企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地.md",
+     "title": "ANC方法论：FDE如何用AI原生组织承接企业落地",
+     "kind": "note",
+     "wordCount": 1586,
+     "excerpt": "ANC 方法论：FDE 如何用 AI 原生组织承接企业落地上级：企业AI与智能体商业化/企业AI与智能体商业化专题关联：企业AI与智能体商业化/FDE商业级智能体交付框架、企业AI与智能体商业化/FDE生产级AI Age",
+     "hasBody": true
+    },
+    {
+     "path": "原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地.md",
+     "title": "游戏公司AI组织落地",
+     "kind": "raw",
+     "wordCount": 5752,
+     "excerpt": "游戏公司 AI 组织落地走访原始记录上级：知识流水线/A_原始资料本页保留随记中的游戏公司走访实录和妙记提炼，作为专题文章的原始依据。专题提炼结果见 企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/原始资料/ChatGPT对话｜游戏公司AI组织落地｜2026-08-11.md",
+     "title": "ChatGPT对话｜游戏公司AI组织落地｜2026-08-11",
+     "kind": "raw",
+     "wordCount": 1014,
+     "excerpt": "ChatGPT 对话｜游戏公司 AI 组织落地来源与用途来源：ChatGPT 对话「游戏公司AI组织落地」Conversation ID：6a7b25ec-3dec-83ea-9c6a-c91474589b28捕获日期：",
+     "hasBody": true
+    },
+    {
+     "path": "原始资料/已整理｜2026-08-12｜对话整理｜任务闭环与业务闭环分离-GrokBot数字岗位vs经营Agent.md",
+     "title": "任务闭环与业务闭环分离-GrokBot数字岗位vs经营Agent",
+     "kind": "raw",
+     "wordCount": 3436,
+     "excerpt": "任务闭环与业务闭环分离：Grok Bot 的任务/岗位 Agent 路线 vs 经营 Agent 路线上级：知识流水线/A_原始资料整理结果：企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Age",
+     "hasBody": true
+    },
+    {
+     "path": "原始资料/已整理｜2026-08-12｜抖音｜Solo们chat-FDE如何用ANC搭建AI原生组织.md",
+     "title": "Solo们chat-FDE如何用ANC搭建AI原生组织",
+     "kind": "raw",
+     "wordCount": 3643,
+     "excerpt": "「Solo们 chat」FDE如何用ANC搭建AI原生组织上级：知识流水线/A_原始资料整理结果：企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地一、来源信息来源平台：抖音作者 / 账号：所罗门",
+     "hasBody": true
+    },
+    {
+     "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+     "title": "企业AI与智能体商业化专题",
+     "kind": "note",
+     "wordCount": 18607,
+     "excerpt": "企业 AI 与智能体商业化专题上级：徐总的知识库全局总框架入口：企业AI与生产级Agent总框架这个专题用于沉淀企业 AI、智能体、FDE、ToB AI 服务、科技咨询公司 AI 转型、企业流程 AI 化和 AI 商业化",
+     "hasBody": true
+    }
+   ],
+   "linkedCount": 12
+  },
+  {
+   "path": "徐总问题专题库/02_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆.md",
+   "title": "企业AI落地为什么会卡在员工执行习惯与组织记忆",
+   "date": "2026-08-11",
+   "updated": "2026-08-26",
+   "category": "企业AI与商业化",
+   "status": "已并入主问题",
+   "questionType": "",
+   "originalQuestion": "",
+   "direction": "“员工执行习惯与组织记忆”不是本次整理的主标题，而是“游戏公司 AI 落地通用执行框架”下的一个关键子问题： 该子问题主要回答： 为什么员工会用 AI 工具，不等于组织已经完成 AI 落地； 为什么截图、记录、确认、反馈这些低摩擦动作决定系统能否跑起来； 为什么组织记忆不是文档堆积，而是判断理由和结果反馈可以被下一轮复用。 完整论证与通用框架见主文： 徐总问题专题库/06企业AI与商业化/20260811游戏公司AI落地通用执行框架：从生产侧库到组织记忆 返回：徐总问题专题库/00问题专题库总览",
+   "directionHtml": "<p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">“员工执行习惯与组织记忆”不是本次整理的主标题，而是“游戏公司 AI 落地通用执行框架”下的一个关键子问题：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">企业 AI 落地框架\n→ 生产侧库\n→ 会议决策留痕\n→ 员工执行习惯\n→ 人工确认与责任机制\n→ 组织记忆复用\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">该子问题主要回答：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">为什么员工会用 AI 工具，不等于组织已经完成 AI 落地；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">为什么截图、记录、确认、反馈这些低摩擦动作决定系统能否跑起来；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">为什么组织记忆不是文档堆积，而是判断理由和结果反馈可以被下一轮复用。</li></ul><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">完整论证与通用框架见主文：</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆</p><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">返回：徐总问题专题库/00_问题专题库总览</p>",
+   "summary": "子问题定位 “员工执行习惯与组织记忆”不是本次整理的主标题，而是“游戏公司 AI 落地通用执行框架”下的一个关键子问题： 该子问题主要回答： 为什么员工会用 AI 工具，不等于组织已经完成 AI 落地； 为什么截图、记录、确认、反馈这些低摩擦动作决定系统能否跑起来； 为什么组织记忆不是文档堆积，而是判断理由和结果反馈可以被下一轮复用。 完整论证与通用框架见主",
+   "answerHtml": "<h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">子问题定位</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">“员工执行习惯与组织记忆”不是本次整理的主标题，而是“游戏公司 AI 落地通用执行框架”下的一个关键子问题：</p><pre style=\"background:#0F1B33;color:#D8E2F5;border-radius:12px;padding:14px;font-size:12.5px;line-height:1.7;overflow-x:auto;margin:14px 0;white-space:pre-wrap;word-break:break-word;\">企业 AI 落地框架\n→ 生产侧库\n→ 会议决策留痕\n→ 员工执行习惯\n→ 人工确认与责任机制\n→ 组织记忆复用\n</pre><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">该子问题主要回答：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">为什么员工会用 AI 工具，不等于组织已经完成 AI 落地；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">为什么截图、记录、确认、反馈这些低摩擦动作决定系统能否跑起来；</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">为什么组织记忆不是文档堆积，而是判断理由和结果反馈可以被下一轮复用。</li></ul><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">完整论证与通用框架见主文：</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆</p><hr style=\"border:none;border-top:1px solid #E3E8F0;margin:18px 0;\"><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">返回：徐总问题专题库/00_问题专题库总览</p>",
+   "formalNotes": [
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
+    "徐总问题专题库/00_问题专题库总览"
+   ],
+   "rawMaterials": [],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "徐总问题专题库/06_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
+    "徐总问题专题库/00_问题专题库总览"
+   ],
+   "wordCount": 504,
+   "linkedNotes": [
+    {
+     "path": "徐总问题专题库/00_问题专题库总览.md",
+     "title": "00_问题专题库总览",
+     "kind": "note",
+     "wordCount": 5542,
+     "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
+     "hasBody": true
+    }
+   ],
+   "linkedCount": 1
   },
   {
    "path": "徐总问题专题库/01_AI产业链与基础设施/2026-08-06_远景乌兰察布算力基地分析.md",
@@ -11248,7 +9429,7 @@ window.OBSIDIAN_DATA = {
      "path": "徐总问题专题库/00_问题专题库总览.md",
      "title": "00_问题专题库总览",
      "kind": "note",
-     "wordCount": 5249,
+     "wordCount": 5542,
      "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
      "hasBody": true
     },
@@ -11487,60 +9668,7 @@ window.OBSIDIAN_DATA = {
    "linkedCount": 14
   }
  ],
- "tasks": {
-  "summary": {
-   "in_progress": 15,
-   "todo": 18,
-   "in_review": 14,
-   "blocked": 1
-  },
-  "recent": [
-   {
-    "id": "KP-115",
-    "title": "DeepSeek Harness 搭建过程总结（收敛）（blocked）",
-    "status": "blocked",
-    "priority": "medium",
-    "assignee": "伊森"
-   },
-   {
-    "id": "KP-79",
-    "title": "Codex 的内部合作机制",
-    "status": "in_progress",
-    "priority": "urgent",
-    "assignee": "伊森"
-   },
-   {
-    "id": "KP-147",
-    "title": "己未 CRM Web 视觉重构 V3",
-    "status": "in_review",
-    "priority": "high",
-    "assignee": "Codex"
-   },
-   {
-    "id": "KP-146",
-    "title": "AI Office 一人公司 V3 持久化迁移 0001 提案复核（Codex 字段级 diff 与决策）",
-    "status": "todo",
-    "priority": "high",
-    "assignee": "Codex（GPT-5.6主控）"
-   },
-   {
-    "id": "KP-144",
-    "title": "Alpha AI Agent Office：多办公位智能体办公室 UI 与接入设计",
-    "status": "todo",
-    "priority": "high",
-    "assignee": "Codex"
-   },
-   {
-    "id": "KP-140",
-    "title": "DeepSeek Harness Control Gateway：Alpha Friday统一调用路由建设",
-    "status": "in_progress",
-    "priority": "high",
-    "assignee": "Codex"
-   }
-  ],
-  "total": 116,
-  "fetchedAt": "2026年9月8日 11:13"
- },
+ "tasks": null,
  "recentUpdates": [
   {
    "path": "知识流水线/A_原始资料.md",
@@ -11579,6 +9707,15 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
   },
   {
+   "path": "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
+   "title": "李开复企业AI认知：从基座大模型到一号位工程",
+   "updated": "2026-09-08",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 5092,
+   "desc": "上级：企业AI与智能体商业化/零一万物企业AI落地专题、企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究"
+  },
+  {
    "path": "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md",
    "title": "腾讯FDE模式行业观察与实践报告研究",
    "updated": "2026-09-08",
@@ -11615,15 +9752,6 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：徐总的知识库"
   },
   {
-   "path": "DeepSeek Harness项目/DeepSeek Harness搭建记录.md",
-   "title": "DeepSeek Harness 搭建记录",
-   "updated": "2026-09-07",
-   "topic": "harness",
-   "topicName": "DeepSeek Harness 项目",
-   "wordCount": 335271,
-   "desc": "Jarvis Office 不是工具菜单，而是一个“资料采集与知识整理 Agent”。四个主模块组成一条业务流水线：知识中心负责接收和分流，信息处理负责提取和加工，文档中心负责整理"
-  },
-  {
    "path": "AI Agent工程知识/Palantir式Ontology的真实价值：从业务语义到可执行系统.md",
    "title": "Palantir式Ontology的真实价值：从业务语义到可执行系统",
    "updated": "2026-09-07",
@@ -11658,15 +9786,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 886,
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
-  },
-  {
-   "path": "个人能力提升/承载力与高阶政治成熟：压力、人性与混沌中的定力.md",
-   "title": "承载力与高阶政治成熟：压力、人性与混沌中的定力",
-   "updated": "2026-09-07",
-   "topic": "growth",
-   "topicName": "个人能力提升",
-   "wordCount": 381,
-   "desc": "承载力是从“会做事”走向“能扛住复杂局面”的能力，核心不是压抑情绪，而是在压力、人性不确定和信息不完整的情况下，仍能稳住自己、稳住节奏、对结果负责。"
   },
   {
    "path": "政府资源配置与政策落地机制/政府资源配置与政策落地机制专题.md",
@@ -11712,33 +9831,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "低空经济",
    "wordCount": 1787,
    "desc": "本文把「蜀道集团×大疆无人机巡检」案例（技术方案与算法分层，已另文归档）与「大疆机场3 采购投资的财务测算」合并，回答同一个问题：这套系统不仅技术上成立，账面上买不买得起、怎么付最"
-  },
-  {
-   "path": "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）.md",
-   "title": "DeepSeek Harness 专属插件搭建指南（Alpha4 版）",
-   "updated": "2026-09-05",
-   "topic": "harness",
-   "topicName": "DeepSeek Harness 项目",
-   "wordCount": 2868,
-   "desc": "其他版本（rc.7=47880 / rc.2=47900）同理，只需把 DSHHOME 和 launchd 标签换成对应实例。"
-  },
-  {
-   "path": "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
-   "title": "DeepSeek Harness 项目索引",
-   "updated": "2026-09-05",
-   "topic": "harness",
-   "topicName": "DeepSeek Harness 项目",
-   "wordCount": 11913,
-   "desc": "- DeepSeek Harness项目/DeepSeek Harness项目记录 — 项目长期入口，从零搭建到控制中心闭环完整建设总览"
-  },
-  {
-   "path": "DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研.md",
-   "title": "DSH 插件在 alpha 版本的独立安装方案与兼容性调研",
-   "updated": "2026-09-05",
-   "topic": "harness",
-   "topicName": "DeepSeek Harness 项目",
-   "wordCount": 3973,
-   "desc": "1. 机制可行：alpha 与 rc.2 一样，插件唯一官方入口是 dsh plugin --profile web add <pkg>（pnpm 转发器，装完自动 reconci"
   },
   {
    "path": "任务面板与知识库/方向推进与接力.md",
@@ -11804,15 +9896,6 @@ window.OBSIDIAN_DATA = {
    "desc": "本文记录多智能体协作中“如何分工、如何传递、如何留痕、如何验收”的通用方法。AI Office 仅作为本次实践案例，用来暴露流程问题；本文不以 AI Office 的页面、版本或具"
   },
   {
-   "path": "徐总每日随记/当日记录/2026-09-01.md",
-   "title": "2026-09-01 当日记录",
-   "updated": "2026-09-01",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 147,
-   "desc": "本日记录由豆包助手整理，2026-09-01"
-  },
-  {
    "path": "知识流水线/Agent Notifier统一通知机制.md",
    "title": "Agent Notifier 统一通知机制",
    "updated": "2026-09-01",
@@ -11831,15 +9914,6 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：多智能体协作任务/KNOWLEDGEPIP-144-AI-Office多办公位智能体办公室搭建"
   },
   {
-   "path": "DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录.md",
-   "title": "DSH v0.1.1-rc.2 升级副本验证记录",
-   "updated": "2026-09-01",
-   "topic": "harness",
-   "topicName": "DeepSeek Harness 项目",
-   "wordCount": 11723,
-   "desc": "rc.8 起 Claude Code / Codex 变成可安装的 Profile Bundle 子代理插件包——与我们的\"主控编排\"思路契合（Friday 主控可派发编码任务给 "
-  },
-  {
    "path": "多智能体协作任务/KNOWLEDGEPIP-145-Harness任务完成通知机制.md",
    "title": "KNOWLEDGEPIP-145 Harness 任务完成通知机制（Webhook 事件队列）",
    "updated": "2026-09-01",
@@ -11847,15 +9921,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "多智能体协作",
    "wordCount": 4202,
    "desc": "构建 Harness 任务完成通知机制，使 Harness 子 Agent 完成任务后通过 webhook 主动上报到主控端事件队列，任意主控端（豆包助手 / 伊森（WorkBud"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-08-31.md",
-   "title": "2026-08-31 当日记录",
-   "updated": "2026-08-31",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 2451,
-   "desc": "---"
   },
   {
    "path": "知识流水线/AI原生组织与多Agent工作空间增量整理（2026-08-28）.md",
@@ -11874,33 +9939,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "任务面板与知识库",
    "wordCount": 6706,
    "desc": "1. 搭建 DSH Alpha 版本（47911），具备插件市场能力"
-  },
-  {
-   "path": "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md",
-   "title": "DeepSeek Harness Control Gateway 设计与调研",
-   "updated": "2026-08-31",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 13500,
-   "desc": "Alpha 单实例 Gateway 已完成第一条真实闭环：127.0.0.1:48111 通过 Alpha Web JSON-RPC 47911 向固化的 Alpha Friday"
-  },
-  {
-   "path": "DeepSeek Harness项目/DeepSeek Harness项目记录.md",
-   "title": "DeepSeek Harness 项目记录",
-   "updated": "2026-08-31",
-   "topic": "harness",
-   "topicName": "DeepSeek Harness 项目",
-   "wordCount": 66104,
-   "desc": "这是 DeepSeek Harness 独立实验项目的长期入口。项目目标是基于 DeepSeek 官方 Developer Preview，验证 Harness 的插件、Profi"
-  },
-  {
-   "path": "AI Agent工程知识/DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）.md",
-   "title": "DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）",
-   "updated": "2026-08-31",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 1419,
-   "desc": "DeepSeek Harness 的核心价值不是“又一个聊天 Agent”，而是把模型、插件、Skill、Workflow、Session、权限和运行状态装配成可持续执行的 Age"
   },
   {
    "path": "多智能体协作任务/KNOWLEDGEPIP-142-Memory Guard上下文连续性管理.md",
@@ -12011,24 +10049,6 @@ window.OBSIDIAN_DATA = {
    "desc": "验证 Alpha Friday（47911）能否作为主控 Agent 调用子代理（subagent）完成多子任务编排，并产出可汇总报告。跑通完整流程后同步更新 Skills。"
   },
   {
-   "path": "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md",
-   "title": "DeepSeek Harness 飞书 IM 接入搭建与运行记录",
-   "updated": "2026-08-30",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 10889,
-   "desc": "DeepSeek Harness（Friday 主控 Agent）通过Harness 原生 IM 插件直接接入飞书机器人，无需经过 Codex/Jarvis 转发。这是 Harne"
-  },
-  {
-   "path": "DeepSeek Harness项目/DSH_贾维斯模式新建.md",
-   "title": "DSH 贾维斯模式新建",
-   "updated": "2026-08-30",
-   "topic": "harness",
-   "topicName": "DeepSeek Harness 项目",
-   "wordCount": 1830,
-   "desc": "1. 主控不抢执行活：不要自己挨个点工具，扔给子代理"
-  },
-  {
    "path": "豆包工作区/dsh-send-README.md",
    "title": "dsh-send: 通过 47900 与 Harness (Friday) 直接通信",
    "updated": "2026-08-30",
@@ -12081,15 +10101,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "Codex 工作区",
    "wordCount": 8843,
    "desc": "本项目解决的是 Codex 内部如何调用和管理子 Agent，不是知识库 Ontology 项目，也不是桌面 DeepSeek Codex 启动项目。"
-  },
-  {
-   "path": "DeepSeek Harness项目/DSH第三方插件适配新版本官方标准.md",
-   "title": "DSH第三方插件适配新版本（≥ rc.8）官方标准",
-   "updated": "2026-08-28",
-   "topic": "harness",
-   "topicName": "DeepSeek Harness 项目",
-   "wordCount": 2821,
-   "desc": "❌ 旧写法（不能用，启动失败）："
   },
   {
    "path": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法.md",
@@ -12326,132 +10337,6 @@ window.OBSIDIAN_DATA = {
    "desc": "成都高新区生物医药产业管理体系与运作模式解析成都高新区生物医药产业的管理体系涉及行政机构、产业园区、市场化运营主体的多方协同，形成“政府主导+专业运营+产业生态共建”的运作模式。以"
   },
   {
-   "path": "徐总每日随记/当日记录/2026-06-01.md",
-   "title": "2026-06-01",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 3356,
-   "desc": "上级：徐总每日随记/徐总每日随记"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-02.md",
-   "title": "2026-06-02 每日随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 614,
-   "desc": "- WorkBuddy 搭建干食记智能体，整体流程和落地效果不错"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-03.md",
-   "title": "2026-06-03 随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 276,
-   "desc": "今日工作计划与想法："
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-04.md",
-   "title": "2026-06-04 随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 440,
-   "desc": "- 和合伙人、电力工程哥老关一起喝咖啡"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-06.md",
-   "title": "2026-06-06 每日随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 753,
-   "desc": "哎呀，昨天正式启动了美签的这样一个过程。主要是填表和照片，然后再去官网上预约拿新的这个申请表。但昨天在平板 Codex 有个非常好的功能，就是基本上你把护照的照片放在文件夹里面，加"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-07.md",
-   "title": "2026-06-07",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 302,
-   "desc": "6 月 7 号 还是要解决这个美签签证的这个事情 不断在关心一个整个签证的动态 才知道整个系统其实目前波动比较大，名额比较少。不是像我以前说的，你填好资料随时预约，而是要等名额出来"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-10.md",
-   "title": "2026-06-10",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 387,
-   "desc": "这两天主要的还是美签的这个申请过程，反正孩子和徐驰现在已经申请到了。8 月 14 号在沈阳的面签 到时候可能会提前去做一些资料的准备，希望一切能顺利"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-13.md",
-   "title": "2026-06-13",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 484,
-   "desc": "反正这几天没有更新日志，是因为这几天确实没有什么额外的事发生。"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-14.md",
-   "title": "2026-06-14 每日随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 904,
-   "desc": "今天 OpenClaw 的微信直聊入口突然出现反复 Auto-compaction / context overflow，表现为微信消息无法正常进入当前主会话。"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-17.md",
-   "title": "2026-06-17 甘食记经营系统",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 343,
-   "desc": "- 甘食记经营系统1.0框架总结（四层架构/字段结构/7页映射/5步流程）→ Obsidian"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-18.md",
-   "title": "2026-06-18 蜀道集团参观 + 战略转弯",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 660,
-   "desc": "- 去蜀道集团办公地点参观，吃了午饭"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-22.md",
-   "title": "2026-06-22 随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 605,
-   "desc": "最近这几天，确实效率非常低。从大半个月前开始，我一直在做甘食记\"经营系统\"的所谓落地。"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-28.md",
-   "title": "2026-06-28",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 1393,
-   "desc": "重大突破：Mac 端 Codex 终于用上 OpenAI Plus 官方模型"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-29.md",
-   "title": "2026-06-29",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 1820,
-   "desc": "客户高频提问的回答沉淀：「有了 Aily / WorkBuddy，为什么还要做定制 Agent」"
-  },
-  {
    "path": "政府资源配置与政策落地机制/原始资料/2026-07-03省委专题会议支持天府新区公开报道与对话摘录.md",
    "title": "2026-07-03省委专题会议支持天府新区公开报道与对话摘录",
    "updated": "2026-08-26",
@@ -12461,42 +10346,6 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：政府资源配置与政策落地机制专题"
   },
   {
-   "path": "徐总每日随记/当日记录/2026-07-04.md",
-   "title": "2026-07-04",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 1619,
-   "desc": "继续更新 Obsidian 中“生产级 AI Agent”知识体系，并测试成功手机 / 平板 ChatGPT 连接 Mac Codex。"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-07-05.md",
-   "title": "2026-07-05",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 959,
-   "desc": "今天围绕美团商家 AI 工具矩阵，补充更新了生产级 AI Agent 和甘食记经营系统的理解。"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-07-08.md",
-   "title": "2026-07-08",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 3016,
-   "desc": "- 类型：个人想法 / 学习记录 / AI Agent 工程认知"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-07-09.md",
-   "title": "2026-07-09",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 1499,
-   "desc": "- 类型：个人想法 / 学习记录 / AI Agent 工程认知"
-  },
-  {
    "path": "Codex工作区/每日跨项目复盘/2026-07-09.md",
    "title": "2026-07-09 跨项目自动复盘",
    "updated": "2026-08-26",
@@ -12504,15 +10353,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "Codex 工作区",
    "wordCount": 17295,
    "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-07-10.md",
-   "title": "2026-07-10",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 1988,
-   "desc": "- 类型：工作流更新 / 平台认知 / 多端协作记录"
   },
   {
    "path": "Codex工作区/每日跨项目复盘/2026-07-10.md",
@@ -12549,15 +10389,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "Codex 工作区",
    "wordCount": 16940,
    "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-07-14.md",
-   "title": "2026-07-14",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 975,
-   "desc": "- 类型：健康身体 / 个人经历"
   },
   {
    "path": "Codex工作区/每日跨项目复盘/2026-07-14.md",
@@ -12621,6 +10452,303 @@ window.OBSIDIAN_DATA = {
    "topicName": "Codex 工作区",
    "wordCount": 15283,
    "desc": "上级：Codex工作区/项目索引"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-07-21.md",
+   "title": "2026-07-21 跨项目自动复盘",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 15890,
+   "desc": "上级：Codex工作区/项目索引"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-07-22.md",
+   "title": "2026-07-22 跨项目自动复盘",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 15800,
+   "desc": "上级：Codex工作区/项目索引"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-07-23.md",
+   "title": "2026-07-23 跨项目自动复盘",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 16038,
+   "desc": "上级：Codex工作区/项目索引"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-07-24.md",
+   "title": "2026-07-24 跨项目自动复盘",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 15909,
+   "desc": "上级：Codex工作区/项目索引"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-07-25.md",
+   "title": "2026-07-25 跨项目自动复盘",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 15745,
+   "desc": "上级：Codex工作区/项目索引"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-07-26.md",
+   "title": "2026-07-26 跨项目自动复盘",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 16344,
+   "desc": "上级：Codex工作区/项目索引"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-07-27.md",
+   "title": "2026-07-27 跨项目自动复盘",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 18486,
+   "desc": "上级：Codex工作区/项目索引"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-07-28.md",
+   "title": "2026-07-28 跨项目自动复盘",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 21924,
+   "desc": "上级：Codex工作区/项目索引"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-07-29.md",
+   "title": "2026-07-29 跨项目自动复盘",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 19065,
+   "desc": "上级：Codex工作区/项目索引"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-08-04.md",
+   "title": "2026-08-04 工作进展日记",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 897,
+   "desc": "上级：Codex工作区/Codex工作区"
+  },
+  {
+   "path": "Codex工作区/2026-08-04_QoderWork_Lucas飞书长连接修复.md",
+   "title": "2026-08-04｜Lucas 飞书长连接无法建立：QoderWork 虚报 connected 修复",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 2366,
+   "desc": "Lucas（QoderWork 飞书通道，appId clia93f8a327ba11bd7）此前在飞书里能正常收发，某天起突然收不到消息。飞书开发者后台一直显示\"订阅方式连接失败"
+  },
+  {
+   "path": "Codex工作区/2026-08-04_WorkBuddy_伊森飞书长连接假connected修复.md",
+   "title": "2026-08-04｜WorkBuddy 伊森飞书长连接\"假 connected\"：双通道残留与占位冲突修复",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 2191,
+   "desc": "群里同时出现两个叠加症状："
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-08-05.md",
+   "title": "2026-08-05 工作进展日记",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 1728,
+   "desc": "上级：Codex工作区/Codex工作区"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-08-06.md",
+   "title": "2026-08-06 工作进展日记",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 1980,
+   "desc": "上级：Codex工作区/Codex工作区"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-08-07.md",
+   "title": "2026-08-07 工作进展日记",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 2274,
+   "desc": "上级：Codex工作区/Codex工作区"
+  },
+  {
+   "path": "Codex工作区/2026-08-08_Obsidian_CLI配置成功记录.md",
+   "title": "2026-08-08 Obsidian CLI 配置成功记录（Oliver 完成）",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 2624,
+   "desc": "此前 CodeX 尝试启用 Obsidian CLI 未成功：Obsidian app 版本已自动更新到 1.13.4，但 Settings > General 中找不到官方文档要"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-08-08.md",
+   "title": "2026-08-08 工作进展日记",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 3783,
+   "desc": "上级：Codex工作区/Codex工作区"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-08-09.md",
+   "title": "2026-08-09 工作进展日记",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 922,
+   "desc": "上级：Codex工作区/Codex工作区"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-08-10.md",
+   "title": "2026-08-10 工作进展日记",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 931,
+   "desc": "上级：Codex工作区/Codex工作区"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-08-11.md",
+   "title": "2026-08-11 工作进展日记",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 1436,
+   "desc": "上级：Codex工作区/Codex工作区"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-08-12.md",
+   "title": "2026-08-12｜Codex 跨项目复盘",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 1373,
+   "desc": "上级：Codex工作区/每日跨项目复盘/每日跨项目复盘说明"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-08-13.md",
+   "title": "2026-08-13｜Codex 跨项目复盘",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 2123,
+   "desc": "上级：Codex工作区/每日跨项目复盘/每日跨项目复盘说明"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-08-14.md",
+   "title": "2026-08-14｜Codex 跨项目复盘",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 1487,
+   "desc": "上级：Codex工作区/每日跨项目复盘/每日跨项目复盘说明"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-08-15.md",
+   "title": "2026-08-15｜Codex 跨项目复盘",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 1047,
+   "desc": "上级：Codex工作区/每日跨项目复盘/每日跨项目复盘说明"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-08-16.md",
+   "title": "2026-08-16｜Codex 跨项目复盘",
+   "updated": "2026-08-26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 1994,
+   "desc": "上级：Codex工作区/每日跨项目复盘/每日跨项目复盘说明"
+  },
+  {
+   "path": "知识流水线/Agent Ontology 1.0运行数据库与闭环落地.md",
+   "title": "Agent Ontology 1.0 运行数据库与闭环落地",
+   "updated": "2026-08-26",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 7280,
+   "desc": "- Task: KNOWLEDGEPIP-72"
+  },
+  {
+   "path": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
+   "title": "Agent系统架构模式选型：从单Agent到Graph Workflow",
+   "updated": "2026-08-26",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 6740,
+   "desc": "上级：AI Agent工程知识专题"
+  },
+  {
+   "path": "AI Agent工程知识/AI Agent专业术语词典.md",
+   "title": "AI Agent 专业术语词典",
+   "updated": "2026-08-26",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 40916,
+   "desc": "上级：AI Agent工程知识专题"
+  },
+  {
+   "path": "AI Agent工程知识/AI Agent全面理解.md",
+   "title": "AI Agent 全面理解",
+   "updated": "2026-08-26",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 9126,
+   "desc": "上级：AI Agent工程知识专题"
+  },
+  {
+   "path": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维.md",
+   "title": "AI Agent 后端工程化能力框架：分布式、异步、状态与可运维",
+   "updated": "2026-08-26",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 12170,
+   "desc": "创建日期：2026-07-02"
+  },
+  {
+   "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
+   "title": "AI Agent 工程的行业语言映射：从内部术语到 Palantir / FDE / 数据治理标准",
+   "updated": "2026-08-26",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 6009,
+   "desc": "上级：AI Agent工程知识专题"
+  },
+  {
+   "path": "AI Agent工程知识/AI Agent工程知识专题.md",
+   "title": "AI Agent 工程知识专题",
+   "updated": "2026-08-26",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 13867,
+   "desc": "上级：徐总的知识库"
+  },
+  {
+   "path": "AI Agent工程知识/AI Agent工程知识框架.md",
+   "title": "AI Agent 工程知识框架",
+   "updated": "2026-08-26",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 32012,
+   "desc": "上级：AI Agent工程知识专题"
   }
  ]
 };
