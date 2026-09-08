@@ -780,6 +780,8 @@
   .kp-rel .rp { max-width:64px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 
 
+    .cf-ex { font-size:12px; color:var(--dim); line-height:1.5; margin-top:3px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+    .cf-sub { font-size:13px; font-weight:700; color:var(--ink); margin:14px 0 6px; padding-left:9px; border-left:3px solid var(--amber, #d9a13b); }
 </style>
 </head>
 <body class="desktop-app">
@@ -1183,8 +1185,8 @@
   <div id="live-body" class="app-body"></div>
 </div>
 
-<script src="data.js?v=202609080959"></script>
-<script src="docs.js?v=202609080959" defer></script>
+<script src="data.js?v=202609081033"></script>
+<script src="docs.js?v=202609081033" defer></script>
 <script>
 /* 悬浮式底部控制条浏览器（华为/UC/夸克/小米/百度等）会覆盖页面底部，给 html 打标记以便上抬底部栏 */
 (function () {
@@ -1587,6 +1589,46 @@ function cfRelatedNotes(q, limit){
   return fb;
 }
 
+/* 关联原文卡片（问题专题声明的正式笔记 / 原始资料） */
+function cfLinkedCard(x){
+  var wc = x.wordCount || 0;
+  var meta = [];
+  meta.push(wc ? (wc > 1000 ? (Math.round(wc / 100) / 10) + 'k 字' : wc + ' 字') : '—');
+  meta.push(x.hasBody ? '全文可读' : '未编译');
+  var ic = x.kind === 'raw' ? '🗂' : '📘';
+  return '<div class="cf-doc" onclick="openLinkedDoc(\'' + String(x.path).replace(/'/g, "\\'") + '\')">'
+    + '<div class="d-ic ' + (x.kind === 'raw' ? 'pipeline' : 'enterprise') + '">' + ic + '</div>'
+    + '<div class="d-body"><h4>' + escapeHtml(x.title) + '</h4>'
+    + '<div class="d-meta">' + meta.join(' · ') + '</div>'
+    + (x.excerpt ? '<div class="cf-ex">' + escapeHtml(x.excerpt) + '</div>' : '')
+    + '</div><div class="d-check">›</div></div>';
+}
+
+/* 打开关联原文：已收录节点走原阅读器，未收录（白名单外）直接用编译正文渲染 */
+function openLinkedDoc(p){
+  var nodes = (window.OBSIDIAN_DATA && window.OBSIDIAN_DATA.nodes) || [];
+  var hit = null;
+  for (var i = 0; i < nodes.length; i++) { if (nodes[i].path === p) { hit = nodes[i]; break; } }
+  if (hit) { openGraphNodeByPath(p); return; }
+  var body = (window.OBSIDIAN_DOCS || {})[p] || '';
+  var title = displayNameOfPath(p);
+  var back = window._qReturnPath ? "openQuestionTopicByPath(\'" + String(window._qReturnPath).replace(/'/g, "\\'") + "\')" : 'historyBack()';
+  var h = '<div class="reader"><div class="reader-head"><span class="back" onclick="' + back + '">‹</span><span class="rh-title">关联原文</span><span class="fav">☆</span></div>';
+  h += '<div class="reader-body"><h1>' + escapeHtml(title) + '</h1>';
+  h += '<div class="r-meta"><span>来源 Obsidian</span></div><div class="source-line">真实路径：' + escapeHtml(p) + '</div>';
+  h += body ? '<div class="reader-full">' + body + '</div>' : '<div class="review-box"><p>该原文暂未编译进工作台，可在 Obsidian 中查看。</p></div>';
+  h += '</div><div class="reader-bottom"><div class="rb-btn done" onclick="' + back + '">返回</div></div></div>';
+  var el = document.getElementById('live-body');
+  if (el) { el.innerHTML = h; el.scrollTop = 0; }
+  if (typeof setReadingMode === 'function') setReadingMode(true);
+}
+
+function displayNameOfPath(p){
+  var t = String(p || '').split('/').pop().replace(/\.md$/, '');
+  t = t.replace(/^(?:已整理|未整理)｜[^｜]*｜[^｜]*｜/, '');
+  return t;
+}
+
 function cfQuestionRow(q){
   var lead = q.direction || q.originalQuestion || q.summary || '';
   lead = String(lead).replace(/\s+/g, ' ').trim();
@@ -1594,9 +1636,8 @@ function cfQuestionRow(q){
   var meta = [];
   if (q.category) meta.push('<span>' + escapeHtml(q.category) + '</span>');
   if (q.status) meta.push('<span class="st">' + escapeHtml(q.status) + '</span>');
-  var relAll = cfRelatedNotes(q, 99);
-  var noteCount = (q.formalNotes||[]).length || (relAll.fuzzy ? 0 : relAll.length);
-  if (noteCount) meta.push('<span>' + noteCount + ' 篇关联笔记</span>');
+  var noteCount = (q.linkedCount != null ? q.linkedCount : (q.linkedNotes || []).length) || (q.formalNotes || []).length;
+  if (noteCount) meta.push('<span>' + noteCount + ' 篇关联原文</span>');
   if ((q.nextQuestions||[]).length) meta.push('<span>' + q.nextQuestions.length + ' 个可追问</span>');
   if (q.updated || q.date) meta.push('<span>' + escapeHtml(q.updated || q.date) + '</span>');
   return '<div class="cf-qcard" onclick="openQuestionTopicByPath(\'' + String(q.path).replace(/'/g,"\\'") + '\')">'
@@ -1802,7 +1843,7 @@ function showQuestionHub(){
   h += '<div class="sec-title">已沉淀问题 <span class="more">'+questions.length+' 条</span></div>';
   if (questions.length) {
     questions.forEach(function(q){
-      h += '<div class="state-card" style="cursor:pointer;margin:10px 0" onclick="openQuestionTopicByPath(\''+q.path.replace(/'/g,"\\'")+'\')"><div class="state-head"><b>'+escapeHtml(q.title)+'</b><span class="state-badge">'+escapeHtml(q.status)+'</span></div><p>'+escapeHtml(q.direction || q.originalQuestion || q.summary)+'</p><div class="source-line">'+escapeHtml(q.category)+' · '+escapeHtml(q.date)+' · 下一步追问 '+q.nextQuestions.length+' 个</div></div>';
+      h += '<div class="state-card" style="cursor:pointer;margin:10px 0" onclick="openQuestionTopicByPath(\''+q.path.replace(/'/g,"\\'")+'\')"><div class="state-head"><b>'+escapeHtml(q.title)+'</b><span class="state-badge">'+escapeHtml(q.status)+'</span></div><p>'+escapeHtml(q.direction || q.originalQuestion || q.summary)+'</p><div class="source-line">'+escapeHtml(q.category)+' · '+escapeHtml(q.date)+' · 下一步追问 '+q.nextQuestions.length+' 个'+(q.linkedCount ? ' · '+q.linkedCount+' 篇关联原文' : '')+'</div></div>';
     });
   } else {
     h += '<div class="fav-note">暂无问题专题。等 OpenClaw / Codex 产出符合规格的问题笔记后，重新编译工作台即可显示。</div>';
@@ -1826,14 +1867,32 @@ function openQuestionTopicByPath(path){
   h += '<h2>回答框架</h2><div class="reader-full">'+answerBody+'</div>';
   if (q.nextQuestions && q.nextQuestions.length) h += '<h2>下一步可追问</h2><ul>'+q.nextQuestions.map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
   if (q.distillItems && q.distillItems.length) h += '<h2>下一步沉淀动作</h2><ul>'+q.distillItems.map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
-  h += '<h2>资料依据</h2><details class="review-box"><summary>展开关联正式笔记和原始资料</summary>';
-  if (q.formalNotes && q.formalNotes.length) h += '<h3>关联的正式笔记</h3><ul>'+q.formalNotes.map(function(x){ return linkedNoteItem(x); }).join('')+'</ul>';
-  if (q.rawMaterials && q.rawMaterials.length) h += '<h3>关联的原始资料</h3><ul>'+q.rawMaterials.slice(0,6).map(function(x){ return linkedNoteItem(x); }).join('')+'</ul>';
-  h += '</details>';
+  var linked = q.linkedNotes || [];
+  var lnNotes = linked.filter(function(x){ return x.kind !== 'raw'; });
+  var lnRaw = linked.filter(function(x){ return x.kind === 'raw'; });
+  h += '<h2>资料依据 · 点开即读</h2>';
+  if (lnNotes.length) h += '<div class="cf-sub">关联正式笔记</div>' + lnNotes.map(cfLinkedCard).join('');
+  if (lnRaw.length) h += '<div class="cf-sub">关联原始资料</div>' + lnRaw.map(cfLinkedCard).join('');
+  if (!linked.length) {
+    h += '<details class="review-box"><summary>展开关联正式笔记和原始资料</summary>';
+    if (q.formalNotes && q.formalNotes.length) h += '<h3>关联的正式笔记</h3><ul>'+q.formalNotes.map(function(x){ return linkedNoteItem(x); }).join('')+'</ul>';
+    if (q.rawMaterials && q.rawMaterials.length) h += '<h3>关联的原始资料</h3><ul>'+q.rawMaterials.slice(0,6).map(function(x){ return linkedNoteItem(x); }).join('')+'</ul>';
+    h += '</details>';
+  }
   if (contentHtml && contentHtml.length > 50 && q.answerHtml) h += '<details class="review-box"><summary>展开完整 Obsidian 问题笔记</summary><div class="reader-full">'+contentHtml+'</div></details>';
-  var relNotes = cfRelatedNotes(q, 5);
-  if (relNotes.length) h += '<h2>' + (relNotes.fuzzy ? '同主线最近更新' : '相关正式笔记') + '</h2><div style="margin-top:6px">'+relNotes.map(function(n){ return cfDocRow(n); }).join('')+'</div>';
+  if ((q.answerHtml || '').replace(/\s/g, '').length < 200) {
+    var emb = lnRaw[0] || lnNotes[0];
+    if (emb) {
+      var embBody = (window.OBSIDIAN_DOCS || {})[emb.path] || '';
+      if (embBody) h += '<h2>来源原文 · ' + escapeHtml(emb.title) + '</h2><div class="reader-full">' + embBody + '</div>';
+    }
+  }
+  if (!linked.length) {
+    var relNotes = cfRelatedNotes(q, 5);
+    if (relNotes.length) h += '<h2>' + (relNotes.fuzzy ? '同主线最近更新' : '相关正式笔记') + '</h2><div style="margin-top:6px">'+relNotes.map(function(n){ return cfDocRow(n); }).join('')+'</div>';
+  }
   h += '</div><div class="reader-bottom"><div class="rb-btn done" onclick="showQuestionHub()">返回问题库</div></div></div>';
+  window._qReturnPath = q.path;
   window._lastTab = currentTab;
   document.getElementById('live-body').innerHTML = h;
   document.getElementById('live-body').scrollTop = 0;

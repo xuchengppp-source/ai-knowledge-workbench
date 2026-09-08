@@ -341,17 +341,59 @@ function parseWeeklyReview() {
   };
 }
 
+/* 问题专题：结构性章节（不属于「回答内容」，解析正文主体时排除） */
+const Q_STRUCT_HEADINGS = [
+  '核心问题', '原始提问', '提问方向', '待蒸馏项', '下次可追问', '下一步可追问',
+  '关联的正式笔记', '关联的原始资料', '关联笔记', '来源', '元信息', '相关链接', '状态',
+];
+
+function uniq(arr) {
+  const seen = new Set();
+  return (arr || []).filter(x => { const k = String(x); if (seen.has(k)) return false; seen.add(k); return true; });
+}
+
+function mergeLinks(sectionArr, pathArr) {
+  return (sectionArr || []).map(x => String(x).replace(/^\[\[|\]\]$/g, '').trim())
+    .concat(pathArr || [])
+    .map(x => String(x || '').trim())
+    .filter(Boolean);
+}
+
+/* 枚举正文二级章节 → [{heading, text}] */
+function bodySections(raw) {
+  const lines = String(raw || '').split('\n');
+  const out = [];
+  let cur = null;
+  for (let i = 0; i < lines.length; i++) {
+    const m = lines[i].match(/^(#{1,6})\s+(.+)$/);
+    if (m && m[1].length <= 2) {
+      if (cur) out.push(cur);
+      cur = m[1].length === 2 ? { heading: m[2].trim(), lines: [] } : null;
+      continue;
+    }
+    if (cur) cur.lines.push(lines[i]);
+  }
+  if (cur) out.push(cur);
+  return out.map(s => ({ heading: s.heading, text: s.lines.join('\n').trim() })).filter(s => s.text);
+}
+
+/* 展示标题：去掉「已整理｜2026-09-03｜来源｜」类前缀 */
+function displayTitle(relPath) {
+  let t = path.basename(String(relPath || ''), '.md');
+  t = t.replace(/^(?:已整理|未整理)\uFF5C[^\uFF5C]*\uFF5C[^\uFF5C]*\uFF5C/, '');
+  return t || path.basename(String(relPath || ''), '.md');
+}
+
 function parseQuestionTopic(filePath) {
   const raw = fs.readFileSync(filePath, 'utf-8');
   const base = parseMD(filePath);
   const rel = path.relative(VAULT, filePath).replace(/\\/g, '/');
   const originalQuestion = sectionText(raw, '原始提问') || sectionText(raw, '原始提问（逐字保留）');
-  const direction = sectionText(raw, '提问方向') || sectionText(raw, '提问方向（徐总真正在问什么）');
+  const direction = sectionText(raw, '提问方向') || sectionText(raw, '提问方向（徐总真正在问什么）') || sectionText(raw, '核心问题') || sectionText(raw, '问题背景') || sectionText(raw, '问题');
   const appendix = sectionText(raw, '关联笔记 / 原始资料') || sectionText(raw, '关联笔记');
-  const formalNotes = (sectionText(raw, '关联的正式笔记') || appendix)
-    .match(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]/g) || [];
-  const rawMaterials = (sectionText(raw, '关联的原始资料') || appendix)
-    .match(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]/g) || [];
+  const linkRe = /\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]/g;
+  const formalNotes = (sectionText(raw, '关联的正式笔记') || appendix).match(linkRe) || [];
+  const rawMaterials = (sectionText(raw, '关联的原始资料') || appendix).match(linkRe) || [];
   const distillItems = sectionText(raw, '待蒸馏项').split('\n')
     .map(l => l.trim())
     .filter(l => /^-\s+\[[ xX]\]/.test(l))
@@ -374,9 +416,22 @@ function parseQuestionTopic(filePath) {
       return text ? `## ${label}\n\n${text}` : '';
     })
     .filter(Boolean);
-  const answer = answerSections.length
+  let answer = answerSections.length
     ? answerSections.join('\n\n')
     : (sectionText(raw, '我的回答（核心结构）') || sectionText(raw, '我的回答') || sectionText(raw, '回答摘要'));
+  // 兜底：模板未使用「我的回答」章节时（如只有「结论 / 分析 / 与现有…的关系」），
+  // 取除结构性章节外的全部正文，避免问题专题只剩一句提问、点开无内容。
+  if (!answer || answer.replace(/\s/g, '').length < 30) {
+    const restSections = bodySections(raw)
+      .filter(s => !Q_STRUCT_HEADINGS.some(h => s.heading.indexOf(h) >= 0));
+    if (restSections.length) {
+      answer = restSections.map(s => '## ' + s.heading + '\n\n' + s.text).join('\n\n');
+    }
+  }
+  // 全文双链按路径分类：原始资料 → 养料，其余 → 正式笔记（补充 Obsidian 未写「关联笔记」章节的情况）
+  const allLinks = (base.links || []).filter(Boolean);
+  const noteLinks = allLinks.filter(p => !/原始资料/.test(p));
+  const rawLinks = allLinks.filter(p => /原始资料/.test(p));
   const summary = stripMd(answer || direction || originalQuestion || base.desc, 180);
   const directionHtml = mdToHtml(direction);
   const answerHtml = mdToHtml(answer);
@@ -394,11 +449,12 @@ function parseQuestionTopic(filePath) {
     directionHtml,
     summary,
     answerHtml,
-    formalNotes: formalNotes.map(x => x.replace(/^\[\[|\]\]$/g, '')).slice(0, 10),
-    rawMaterials: rawMaterials.map(x => x.replace(/^\[\[|\]\]$/g, '')).slice(0, 10),
+    formalNotes: uniq(mergeLinks(formalNotes, noteLinks)).slice(0, 12),
+    rawMaterials: uniq(mergeLinks(rawMaterials, rawLinks)).slice(0, 12),
     distillItems,
     nextQuestions,
     links: base.links,
+    linkPaths: base.links,
     wordCount: base.wordCount,
     contentHtml: base.contentHtml,
   };
@@ -407,6 +463,15 @@ function parseQuestionTopic(filePath) {
 function parseQuestionTopics() {
   const files = readMDFilesRecursive(QUESTION_DIR)
     .filter(f => !/00_问题专题库总览\.md$/.test(f))
+    // 任务占位文件（type: task-knowledge / 只有 Task link 与 Task binding）不是问题专题，剔除
+    .filter(f => {
+      try {
+        const raw = fs.readFileSync(f, 'utf-8');
+        if (/^type:\s*task-knowledge/m.test(raw)) return false;
+        const body = raw.replace(/^---\n[\s\S]*?\n---/, '').replace(/\s/g, '');
+        return body.replace(/(Tasklink|Taskbinding|TaskID|Bound|ObsidianURI|[-:.\dTZ])/g, '').length > 60;
+      } catch (e) { return true; }
+    })
     .sort()
     .reverse();
   return files.map(parseQuestionTopic);
@@ -557,6 +622,37 @@ async function build() {
   const weeklyReview = parseWeeklyReview();
   const architectureLayers = buildArchitectureLayers(graph.nodes);
   const questionTopics = parseQuestionTopics();
+
+  // 问题专题关联的原文（可能不在发布白名单专题内，如「政府资源配置与政策落地机制」「原始资料」）：
+  // 按问题笔记声明的双链补编译正文，保证点开能读到原文，而不是只剩一个标题。
+  const extraDocs = {};
+  const extraSeen = new Set();
+  questionTopics.forEach(q => {
+    const paths = uniq((q.linkPaths || []).concat(q.formalNotes || [], q.rawMaterials || []));
+    q.linkedNotes = paths.map(p => {
+      const rel = /\.md$/.test(p) ? p : p + '.md';
+      if (EXCLUDE_PATTERNS.some(re => re.test(rel))) return null;
+      const full = path.join(VAULT, rel);
+      if (!full.startsWith(VAULT) || !fs.existsSync(full)) return null;
+      let body = '';
+      try {
+        raw_ = fs.readFileSync(full, 'utf-8');
+        body = mdToHtml(raw_.replace(/^---\n[\s\S]*?\n---/, '').trim());
+      } catch (e) { return null; }
+      if (!extraSeen.has(rel)) { extraSeen.add(rel); extraDocs[rel] = body; }
+      const plain = String(body).replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+      return {
+        path: rel,
+        title: displayTitle(rel),
+        kind: /原始资料/.test(rel) ? 'raw' : 'note',
+        wordCount: plain.replace(/\s/g, '').length,
+        excerpt: plain.slice(0, 110),
+        hasBody: plain.length > 30,
+      };
+    }).filter(Boolean);
+    delete q.linkPaths;
+    q.linkedCount = q.linkedNotes.length;
+  });
   const tasksSnapshot = await fetchTasksSnapshot();
 
   // 虚拟专题「原始资料 / 养料」：不移动节点归属，仅按路径聚合入口（抖音分享、未提炼素材）
@@ -624,6 +720,8 @@ async function build() {
   const docsMap = {};
   data.nodes.forEach(n => { docsMap[n.path] = n.contentHtml || ''; });
   data.questionTopics.forEach(q => { docsMap[q.path] = q.contentHtml || ''; });
+  // 补编译：问题专题关联的原文正文（不在白名单专题内但被问题笔记引用）
+  Object.keys(extraDocs || {}).forEach(p => { if (!docsMap[p]) docsMap[p] = extraDocs[p]; });
 
   // 写 data.js（轻数据）
   const js = 'window.OBSIDIAN_DATA = ' + JSON.stringify(dataLight, null, 1) + ';';
