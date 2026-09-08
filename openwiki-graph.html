@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenWiki 知识关系图谱</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+    background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    color: #fff;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  .header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    padding: 16px 24px;
+    background: rgba(15, 12, 41, 0.85);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header h1 {
+    font-size: 18px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #00d4ff, #7b2ff7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .header .meta {
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+  }
+  .legend {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 100;
+    background: rgba(15, 12, 41, 0.85);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 14px 18px;
+    font-size: 12px;
+  }
+  .legend h3 {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: rgba(255,255,255,0.8);
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 6px 0;
+    color: rgba(255,255,255,0.7);
+  }
+  .legend-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  .controls {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .ctrl-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.15);
+    background: rgba(15, 12, 41, 0.85);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+  }
+  .ctrl-btn:hover {
+    background: rgba(0, 212, 255, 0.2);
+    border-color: #00d4ff;
+  }
+  #graph {
+    width: 100vw;
+    height: 100vh;
+  }
+  .tooltip-detail {
+    max-width: 320px;
+    line-height: 1.6;
+  }
+  .tooltip-detail .rel-title {
+    font-weight: 700;
+    color: #00d4ff;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  .tooltip-detail .rel-desc {
+    color: rgba(255,255,255,0.85);
+    font-size: 12px;
+  }
+  .back-btn {
+    position: fixed;
+    top: 16px;
+    right: 24px;
+    z-index: 101;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.08);
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .back-btn:hover {
+    background: rgba(0, 212, 255, 0.2);
+    border-color: #00d4ff;
+  }
+  .stats {
+    position: fixed;
+    top: 60px;
+    left: 20px;
+    z-index: 100;
+    background: rgba(15, 12, 41, 0.85);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 12px 16px;
+    font-size: 11px;
+    color: rgba(255,255,255,0.6);
+  }
+  .stats span {
+    color: #00d4ff;
+    font-weight: 700;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🌐 OpenWiki 知识关系图谱</h1>
+  <div class="meta">由 OpenWiki 从 Obsidian 知识库编译发现 · 2026-09-08</div>
+</div>
+
+<a href="index.html" class="back-btn">← 返回工作台</a>
+
+<div class="stats">
+  节点 <span id="nodeCount">0</span> · 关系 <span id="linkCount">0</span> · 拖拽节点 · 滚轮缩放 · 悬停看详情
+</div>
+
+<div class="legend">
+  <h3>知识分类</h3>
+  <div class="legend-item"><div class="legend-dot" style="background:#00d4ff"></div>核心领域</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#7b2ff7"></div>主题专题</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#ff6b6b"></div>工作流</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#ffd93d"></div>核心概念</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#6bcb77"></div>知识库总览</div>
+</div>
+
+<div class="controls">
+  <button class="ctrl-btn" onclick="resetZoom()" title="重置视图">⟲</button>
+  <button class="ctrl-btn" onclick="toggleLayout()" title="切换布局">⚙</button>
+</div>
+
+<div id="graph"></div>
+
+<script>
+// ===== 图谱数据（来自 OpenWiki 发现） =====
+const categories = [
+  { name: '知识库总览' },
+  { name: '核心领域' },
+  { name: '主题专题' },
+  { name: '工作流' },
+  { name: '核心概念' }
+];
+
+const nodes = [
+  // 总览
+  { id: 'kb', name: '徐总知识库', category: 0, symbolSize: 60, value: 'Obsidian Markdown vault，记录企业AI、Agent工程、多智能体协作、AI基建、个人能力等领域的研究与实操沉淀。由多个AI智能体长期协作维护。' },
+  
+  // 核心领域（5个）
+  { id: 'eai', name: '企业AI商业化', category: 1, symbolSize: 48, value: '核心主题：FDE、甘食记、客户交付、产品化。回答"业务怎么用AI"。' },
+  { id: 'aeng', name: '生产级Agent工程', category: 1, symbolSize: 48, value: '生产级架构、RAG/Memory、后端工程。定义"系统怎么建"。六层架构、完整链路。' },
+  { id: 'ainf', name: 'AI产业链与基建', category: 1, symbolSize: 42, value: '电力、算力、智算中心、资本支出。构成企业AI的上游供给与资本底座。' },
+  { id: 'aeco', name: '全域智能体协作', category: 1, symbolSize: 46, value: 'CodeX/WorkBuddy/OpenClaw分工、飞书链路。以Obsidian为真相层，执行结果回流知识流水线。' },
+  { id: 'pers', name: '个人档案与行为', category: 1, symbolSize: 36, value: '个人画像、协作基线、会议机制、个人能力提升。为智能体协作提供基线。' },
+  
+  // 主题专题（4个）
+  { id: 'lae', name: '低空经济', category: 2, symbolSize: 32, value: '区域经济、eVTOL、政策传导、产业落地。' },
+  { id: 'law', name: '法律体系', category: 2, symbolSize: 30, value: '政策层级、合规框架、法律风险。' },
+  { id: 'gov', name: '政府资源配置', category: 2, symbolSize: 34, value: '政策落地机制、算力招商、区域资源配置。与AI基建在算力招商上互相印证。' },
+  { id: 'codex', name: 'Codex使用经验', category: 2, symbolSize: 30, value: '工具实操、Codex工作流、AI工具线下使用。' },
+  
+  // 工作流（3个）
+  { id: 'kp', name: '知识流水线', category: 3, symbolSize: 40, value: '内容收口、健康巡检、任务面板。四状态流程、三入口分流、六步收口。所有执行结果回流至此收口。' },
+  { id: 'obs', name: 'Obsidian治理', category: 3, symbolSize: 36, value: '知识底座治理与自主生长。V1→V2演进、知识库分层、强制收口规则。' },
+  { id: 'tp', name: '任务面板同步', category: 3, symbolSize: 34, value: '状态层任务卡、task-obsidian-sync五命令、面板与知识库协同。' },
+  
+  // 核心概念（子节点）
+  { id: 'fde', name: 'FDE交付方法论', category: 4, symbolSize: 26, value: '五阶段方法论：访谈与对象建模→...企业AI交付的核心方法论。' },
+  { id: 'gsj', name: '甘食记案例', category: 4, symbolSize: 26, value: '经营系统案例、演进主线、关键对象与闭环。企业AI落地的实战案例。' },
+  { id: 'wb', name: 'WorkBuddy智能体', category: 4, symbolSize: 24, value: '企业AI落地工具、智能体执行端。与飞书链路串联。' },
+  { id: 'feishu', name: '飞书链路', category: 4, symbolSize: 26, value: '通道层要点、故障域与恢复、状态与风险。多智能体连接的核心通道。' },
+  { id: 'gm', name: '全局记忆', category: 4, symbolSize: 26, value: '长期记忆与规则聚合。智能体体系的记忆底座。' },
+  { id: 'pg', name: '生产级Agent体系', category: 4, symbolSize: 24, value: '三层标准、六层架构、一次任务完整链路。' },
+  { id: 'arch', name: '知识库架构', category: 4, symbolSize: 28, value: '一级入口与职责、主题目录、关系层级图。' }
+];
+
+const links = [
+  // 总览连接
+  { source: 'kb', target: 'eai', value: '核心领域' },
+  { source: 'kb', target: 'aeng', value: '核心领域' },
+  { source: 'kb', target: 'ainf', value: '核心领域' },
+  { source: 'kb', target: 'aeco', value: '核心领域' },
+  { source: 'kb', target: 'pers', value: '核心领域' },
+  { source: 'kb', target: 'kp', value: '治理工作流' },
+  { source: 'kb', target: 'arch', value: '架构定义' },
+  
+  // OpenWiki 发现的核心跨领域关系
+  { source: 'eai', target: 'aeng', value: '同一问题的两面：前者回答"业务怎么用"，后者定义"系统怎么建"。通过企业AI与生产级Agent总框架关系图相互校验。' },
+  { source: 'ainf', target: 'eai', value: 'AI产业链构成企业AI的资本与供给上游。算力电力与资本构成供给底座。' },
+  { source: 'aeco', target: 'kp', value: '全域智能体以Obsidian为真相层，所有执行结果回流到知识流水线收口。' },
+  { source: 'aeng', target: 'eai', value: '生产级Agent工程定义工程标准供企业AI引用；业务案例反向校验能力边界与术语。' },
+  { source: 'ainf', target: 'aeng', value: 'AI产业链是生产级Agent工程的产业上下文。' },
+  { source: 'ainf', target: 'gov', value: 'AI基建与政府资源配置在算力招商、区域资源配置上互相印证。' },
+  
+  // 领域内关系
+  { source: 'eai', target: 'fde', value: '核心方法论' },
+  { source: 'eai', target: 'gsj', value: '实战案例' },
+  { source: 'eai', target: 'wb', value: '落地工具' },
+  { source: 'aeng', target: 'pg', value: '知识体系' },
+  { source: 'aeco', target: 'feishu', value: '通道层' },
+  { source: 'aeco', target: 'gm', value: '记忆底座' },
+  { source: 'aeco', target: 'wb', value: '执行端串联' },
+  { source: 'pers', target: 'aeco', value: '个人画像为智能体协作提供基线' },
+  { source: 'pers', target: 'tp', value: '会议记录与任务面板联动' },
+  { source: 'pers', target: 'feishu', value: '会议记录与飞书链路联动' },
+  
+  // 工作流关系
+  { source: 'kp', target: 'obs', value: '知识流水线依赖Obsidian治理规则' },
+  { source: 'kp', target: 'tp', value: '知识流水线与任务面板状态同步' },
+  { source: 'obs', target: 'arch', value: 'Obsidian治理定义知识库架构' },
+  { source: 'tp', target: 'aeco', value: '任务面板是多智能体协作的状态层' },
+  
+  // 主题关系
+  { source: 'gov', target: 'lae', value: '政策落地机制适用于低空经济等区域产业' },
+  { source: 'law', target: 'gov', value: '法律体系约束政府资源配置' },
+  { source: 'codex', target: 'aeng', value: 'Codex使用经验支撑Agent工程实践' }
+];
+
+// ===== 初始化图谱 =====
+const chart = echarts.init(document.getElementById('graph'));
+document.getElementById('nodeCount').textContent = nodes.length;
+document.getElementById('linkCount').textContent = links.length;
+
+let useForce = true;
+
+function getOption() {
+  return {
+    backgroundColor: 'transparent',
+    tooltip: {
+      trigger: 'item',
+      backgroundColor: 'rgba(15, 12, 41, 0.95)',
+      borderColor: 'rgba(0, 212, 255, 0.3)',
+      borderWidth: 1,
+      textStyle: { color: '#fff', fontSize: 12 },
+      formatter: function(params) {
+        if (params.dataType === 'node') {
+          return '<div class="tooltip-detail"><div class="rel-title">' + params.data.name + '</div><div class="rel-desc">' + (params.data.value || '') + '</div></div>';
+        } else {
+          return '<div class="tooltip-detail"><div class="rel-title">' + params.data.source + ' ↔ ' + params.data.target + '</div><div class="rel-desc">' + (params.data.value || '') + '</div></div>';
+        }
+      }
+    },
+    series: [{
+      type: 'graph',
+      layout: useForce ? 'force' : 'circular',
+      data: nodes,
+      links: links,
+      categories: categories,
+      roam: true,
+      draggable: true,
+      focusNodeAdjacency: true,
+      force: {
+        repulsion: 800,
+        edgeLength: [100, 200],
+        gravity: 0.08,
+        layoutAnimation: true
+      },
+      label: {
+        show: true,
+        position: 'bottom',
+        color: '#fff',
+        fontSize: 11,
+        fontWeight: 600,
+        textBorderColor: 'rgba(0,0,0,0.8)',
+        textBorderWidth: 2
+      },
+      lineStyle: {
+        color: 'source',
+        curveness: 0.2,
+        opacity: 0.5,
+        width: 1.5
+      },
+      emphasis: {
+        focus: 'adjacency',
+        lineStyle: { width: 3, opacity: 0.9 },
+        label: { fontSize: 13, fontWeight: 700 }
+      },
+      itemStyle: {
+        borderColor: '#fff',
+        borderWidth: 1.5,
+        shadowBlur: 15,
+        shadowColor: 'rgba(0, 212, 255, 0.3)'
+      },
+      animationDuration: 1500,
+      animationEasingUpdate: 'quinticInOut'
+    }],
+    color: ['#6bcb77', '#00d4ff', '#7b2ff7', '#ff6b6b', '#ffd93d']
+  };
+}
+
+chart.setOption(getOption());
+
+// 窗口大小变化
+window.addEventListener('resize', function() {
+  chart.resize();
+});
+
+// 重置缩放
+function resetZoom() {
+  chart.dispatchAction({ type: 'restore' });
+}
+
+// 切换布局
+function toggleLayout() {
+  useForce = !useForce;
+  chart.setOption(getOption(), true);
+}
+</script>
+
+</body>
+</html>
