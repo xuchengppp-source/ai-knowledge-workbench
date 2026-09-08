@@ -44,12 +44,21 @@ const OUT_DIR = process.argv.includes('--out')
 // 注意：/原始资料/ 已移出排除列表——原始资料随各 TOPIC 的「原始资料」子目录（及根目录同名文件）
 // 一并发布（见 build() 中 rawMatDir 扫描）；如需重新屏蔽，把 /原始资料/ 加回此数组即可。
 // 2026-09-07 补充：递归扫描时跳过系统/备份/记忆等内部目录，避免污染发布内容。
+// 2026-09-08 补充：添加白名单，重要的"知识卡调用日志"等文件即使命中排除模式也强制发布。
+const WHITELIST_PATTERNS = [
+  /知识卡调用日志/, /候选知识卡/, /知识卡片与Agent调用标准/,
+];
 const EXCLUDE_PATTERNS = [
   /资料池/, /蒸馏笔记/, /研究问题/, /健康身体/,
   /\.bak/, /\.tmp/, /nohup/, /日志/, /全局记忆/, /^\./,
   /\.maintenance-backups/, /\.workbuddy/, /\.trash/, /\.obsidian/,
   /_archive/, /存档/, /archive/, /旧版/, /_bak/,
 ];
+// 白名单优先：命中白名单的文件即使命中排除模式也强制发布
+function isExcluded(name) {
+  if (WHITELIST_PATTERNS.some(p => p.test(name))) return false;
+  return EXCLUDE_PATTERNS.some(p => p.test(name));
+}
 // 目录级硬排除：递归扫描时若命中则不进入该目录（.maintenance-backups/.workbuddy/.trash 等）
 const EXCLUDE_DIRS = ['.maintenance-backups', '.workbuddy', '.trash', '.obsidian', 'archive', '_archive', '存档', '_bak'];
 
@@ -58,7 +67,7 @@ function readMDFiles(dir) {
   if (!fs.existsSync(dir)) return [];
   return fs.readdirSync(dir, { withFileTypes: true })
     .filter(e => e.isFile() && e.name.endsWith('.md'))
-    .filter(e => !EXCLUDE_PATTERNS.some(p => p.test(e.name)))
+    .filter(e => !isExcluded(e.name))
     .map(e => path.join(dir, e.name));
 }
 
@@ -73,7 +82,7 @@ function readMDFilesRecursive(dir) {
       if (/^\./.test(e.name)) return;
       out.push(...readMDFilesRecursive(full));
     }
-    else if (e.isFile() && e.name.endsWith('.md') && !EXCLUDE_PATTERNS.some(p => p.test(full))) out.push(full);
+    else if (e.isFile() && e.name.endsWith('.md') && !isExcluded(full)) out.push(full);
   });
   return out;
 }

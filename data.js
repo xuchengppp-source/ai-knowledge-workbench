@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-08",
- "generatedTime": "2026-09-08 23:31",
+ "generatedTime": "2026-09-08 23:48",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 38,
- "weeklyChanges": 619,
+ "weeklyPages": 40,
+ "weeklyChanges": 626,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-08｜AI知识增量整理.md",
  "topics": [
@@ -35,7 +35,7 @@ window.OBSIDIAN_DATA = {
    "name": "Codex 工作区",
    "key": "codex",
    "icon": "🛠",
-   "count": 77
+   "count": 78
   },
   {
    "name": "DeepSeek Harness 项目",
@@ -7307,6 +7307,20 @@ window.OBSIDIAN_DATA = {
    "wordCount": 1994
   },
   {
+   "path": "Codex工作区/每日跨项目复盘/2026-09-08.md",
+   "title": "2026-09-08｜智能体学习与跨项目推进复盘",
+   "updated": "2026-09-08",
+   "topic": "codex",
+   "links": [
+    "每日智能体学习与跨项目推进复盘说明",
+    "全局记忆/12_Codex跨项目永久记忆与自动复盘",
+    "徐总每日随记/当日记录/2026-09-08"
+   ],
+   "backlinks": [],
+   "desc": "今天确认需要把“每天所有智能体推进了什么”单独记录为学习 / 项目复盘线，与生活随记分开；现有每日跨项目复盘机制需要扩展为 Codex、豆包、WorkBuddy、Harness/F",
+   "wordCount": 645
+  },
+  {
    "path": "Codex工作区/每日跨项目复盘/README.md",
    "title": "每日跨项目复盘日志",
    "updated": "2026-08-28",
@@ -7322,7 +7336,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "Codex工作区/每日跨项目复盘/每日跨项目复盘说明.md",
    "title": "每日跨项目复盘说明",
-   "updated": "2026-08-26",
+   "updated": "2026-09-08",
    "topic": "codex",
    "links": [
     "Codex工作区/Codex工作区",
@@ -7338,7 +7352,7 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/每日跨项目复盘/2026-08-16.md"
    ],
    "desc": "上级：Codex工作区/Codex工作区",
-   "wordCount": 525
+   "wordCount": 1314
   },
   {
    "path": "Codex工作区/甘食记WorkBuddy_v2架构升级记录.md",
@@ -9869,7 +9883,9 @@ window.OBSIDIAN_DATA = {
    "links": [
     "徐总每日随记/徐总每日随记"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "Codex工作区/每日跨项目复盘/2026-09-08.md"
+   ],
    "desc": "- 从贵州回来后仍按以往节奏；名义上每天在学 AI agents，但怀疑这种节奏对个人确实有不好的影响——没人沟通、没有在工作的环境下，很多能力没得到锻炼。",
    "wordCount": 1685
   },
@@ -10652,7 +10668,7 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 81016,
+     "wordCount": 81066,
      "excerpt": "知识库索引（快速查找版）2026-09-08｜知识库可调用层标准（V2.1试点）知识流水线/知识卡片与Agent调用标准：在现有原始资料、问题专题、正式知识和执行规则之间建立“候选知识卡”逻辑层；当前采用轻量执行模式，先",
      "hasBody": true
     },
@@ -11712,7 +11728,7 @@ window.OBSIDIAN_DATA = {
  "tasks": {
   "summary": {
    "in_progress": 16,
-   "todo": 18,
+   "todo": 19,
    "in_review": 14,
    "blocked": 1
   },
@@ -11730,6 +11746,13 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "urgent",
     "assignee": "伊森"
+   },
+   {
+    "id": "KP-151",
+    "title": "个人知识系统：知识生长—Agent调用—Skill—AI工作台闭环",
+    "status": "todo",
+    "priority": "high",
+    "assignee": "Codex"
    },
    {
     "id": "KP-150",
@@ -11751,17 +11774,10 @@ window.OBSIDIAN_DATA = {
     "status": "todo",
     "priority": "high",
     "assignee": "Codex（GPT-5.6主控）"
-   },
-   {
-    "id": "KP-144",
-    "title": "Alpha AI Agent Office：多办公位智能体办公室 UI 与接入设计",
-    "status": "todo",
-    "priority": "high",
-    "assignee": "Codex"
    }
   ],
-  "total": 117,
-  "fetchedAt": "2026年9月8日 23:31"
+  "total": 118,
+  "fetchedAt": "2026年9月8日 23:48"
  },
  "recentUpdates": [
   {
@@ -11772,6 +11788,15 @@ window.OBSIDIAN_DATA = {
    "topicName": "徐总每日随记",
    "wordCount": 1685,
    "desc": "- 从贵州回来后仍按以往节奏；名义上每天在学 AI agents，但怀疑这种节奏对个人确实有不好的影响——没人沟通、没有在工作的环境下，很多能力没得到锻炼。"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/2026-09-08.md",
+   "title": "2026-09-08｜智能体学习与跨项目推进复盘",
+   "updated": "2026-09-08",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 645,
+   "desc": "今天确认需要把“每天所有智能体推进了什么”单独记录为学习 / 项目复盘线，与生活随记分开；现有每日跨项目复盘机制需要扩展为 Codex、豆包、WorkBuddy、Harness/F"
   },
   {
    "path": "知识流水线/A_原始资料.md",
@@ -11871,6 +11896,15 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 5189,
    "desc": "上级：企业AI与智能体商业化/零一万物企业AI落地专题、企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究"
+  },
+  {
+   "path": "Codex工作区/每日跨项目复盘/每日跨项目复盘说明.md",
+   "title": "每日跨项目复盘说明",
+   "updated": "2026-09-08",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 1314,
+   "desc": "上级：Codex工作区/Codex工作区"
   },
   {
    "path": "知识流水线/知识卡片与Agent调用标准.md",
@@ -12824,24 +12858,6 @@ window.OBSIDIAN_DATA = {
    "topic": "codex",
    "topicName": "Codex 工作区",
    "wordCount": 17868,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-11.md",
-   "title": "2026-07-11 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 16338,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-12.md",
-   "title": "2026-07-12 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15283,
    "desc": "上级：Codex工作区/项目索引"
   }
  ]
