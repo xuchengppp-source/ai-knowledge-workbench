@@ -14,10 +14,24 @@ const path = require('path');
 // ========== 配置 ==========
 const VAULT = '/Users/xucheng/Documents/c 徐的知识库';
 const TOPICS = [
-  { key: 'agent',     name: 'AI Agent工程知识',        dir: 'AI Agent工程知识',              icon: '🤖', color: 'agent' },
-  { key: 'enterprise', name: '企业AI与智能体商业化',    dir: '企业AI与智能体商业化',          icon: '🏢', color: 'enterprise' },
-  { key: 'infrastructure', name: 'AI产业链与数字基础设施', dir: 'AI产业链与数字基础设施', icon: '⚡', color: 'enterprise' },
-  { key: 'pipeline', name: '知识流水线',              dir: '知识流水线',                    icon: '📚', color: 'pipeline' },
+  { key: 'agent',     name: 'AI Agent工程知识',        dir: 'AI Agent工程知识',              icon: '🤖', color: 'agent', group: 'core' },
+  { key: 'enterprise', name: '企业AI与智能体商业化',    dir: '企业AI与智能体商业化',          icon: '🏢', color: 'enterprise', group: 'core' },
+  { key: 'infrastructure', name: 'AI产业链与数字基础设施', dir: 'AI产业链与数字基础设施', icon: '⚡', color: 'enterprise', group: 'core' },
+  { key: 'pipeline', name: '知识流水线',              dir: '知识流水线',                    icon: '📚', color: 'pipeline', group: 'core' },
+  // 2026-09-08 白名单扩容：学习向 / 方法论向内容全部纳入，隐私类（个人健康·出行·车辆·档案·会议记录·全局记忆）保持排除
+  { key: 'codex',      name: 'Codex 工作区',            dir: 'Codex工作区',                  icon: '🛠', color: 'agent', group: 'ext', recursive: true },
+  { key: 'harness',    name: 'DeepSeek Harness 项目',   dir: 'DeepSeek Harness项目',          icon: '🧪', color: 'agent', group: 'ext', recursive: true },
+  { key: 'multiagent', name: '多智能体协作',            dir: '多智能体协作任务',              icon: '🕸', color: 'agent', group: 'ext', recursive: true },
+  { key: 'taskboard',  name: '任务面板与知识库',        dir: '任务面板与知识库',              icon: '🧭', color: 'pipeline', group: 'ext', recursive: true },
+  { key: 'gov',        name: '政府资源配置与政策落地',  dir: '政府资源配置与政策落地机制',    icon: '🏛', color: 'enterprise', group: 'ext', recursive: true },
+  { key: 'bio',        name: '生物医疗与生物医药',      dir: '生物医疗与生物医药',            icon: '🧬', color: 'enterprise', group: 'ext', recursive: true },
+  { key: 'lowalt',     name: '低空经济',                dir: '低空经济',                      icon: '🛫', color: 'enterprise', group: 'ext', recursive: true },
+  { key: 'law',        name: '法律',                    dir: '法律',                          icon: '⚖️', color: 'enterprise', group: 'ext', recursive: true },
+  { key: 'growth',     name: '个人能力提升',            dir: '个人能力提升',                  icon: '🌱', color: 'pipeline', group: 'ext', recursive: true },
+  { key: 'notes',      name: '徐总每日随记',            dir: '徐总每日随记',                  icon: '📝', color: 'pipeline', group: 'ext', recursive: true },
+  { key: 'doubao',     name: '豆包工作区',              dir: '豆包工作区',                    icon: '🫘', color: 'agent', group: 'ext', recursive: true },
+  { key: 'codexmisc',  name: 'Codex',                   dir: 'Codex',                         icon: '📦', color: 'agent', group: 'ext', recursive: true },
+  { key: 'aitools',    name: 'AI 工具操作手册',         dir: 'AI 工具线下使用操作手册',        icon: '📖', color: 'agent', group: 'ext', recursive: true },
 ];
 const DAILY_DIR = path.join(VAULT, '知识流水线', '每日学习整理');
 const WEEKLY_DIR = path.join(VAULT, '知识流水线', '每周知识复盘');
@@ -31,7 +45,7 @@ const OUT_DIR = process.argv.includes('--out')
 // 一并发布（见 build() 中 rawMatDir 扫描）；如需重新屏蔽，把 /原始资料/ 加回此数组即可。
 // 2026-09-07 补充：递归扫描时跳过系统/备份/记忆等内部目录，避免污染发布内容。
 const EXCLUDE_PATTERNS = [
-  /资料池/, /蒸馏笔记/, /研究问题/,
+  /资料池/, /蒸馏笔记/, /研究问题/, /健康身体/,
   /\.bak/, /\.tmp/, /nohup/, /日志/, /全局记忆/, /^\./,
   /\.maintenance-backups/, /\.workbuddy/, /\.trash/, /\.obsidian/,
   /_archive/, /存档/, /archive/, /旧版/, /_bak/,
@@ -69,6 +83,18 @@ function frontmatterValue(raw, key) {
   if (!fmMatch) return '';
   const match = fmMatch[1].match(new RegExp('^' + key + ':\\s*(.+)$', 'm'));
   return match ? match[1].trim().replace(/^["']|["']$/g, '') : '';
+}
+
+/* 发布脱敏：正文与摘要中的 API Key / Token 一律打码。
+   白名单扩容后纳入了 Harness、Codex 工作区等工程笔记，里面出现真实密钥，
+   静态站是公开的，必须在编译阶段清掉（Obsidian 原文不动）。 */
+function sanitizeSecrets(text) {
+  if (!text) return text;
+  let out = String(text);
+  out = out.replace(/sk-[A-Za-z0-9]{16,}/g, 'sk-***已脱敏***');
+  out = out.replace(/Bearer\s+[A-Za-z0-9_\-\.]{20,}/g, 'Bearer ***已脱敏***');
+  out = out.replace(/(API_KEY|API_TOKEN|api[_-]?key|apikey|access[_-]?key|ACCESS_KEY|secret|SECRET|password|PASSWORD|token|TOKEN|AK|ak)(["'\s]*[:=]["'\s]*)([A-Za-z0-9_\-]{12,})/g, '$1$2***已脱敏***');
+  return out;
 }
 
 function sectionText(raw, heading) {
@@ -154,14 +180,14 @@ function parseMD(filePath) {
   }
 
   // 摘要（取正文首个非空段落，去 MD 符号）
-  const cleanBody = body.replace(/^---[\s\S]*?---/m, '').trim();
+  const cleanBody = sanitizeSecrets(body).replace(/^---[\s\S]*?---/m, '').trim();
   const para = cleanBody.split(/\n+/).find(l => l.trim() && !l.trim().startsWith('#') && !l.trim().startsWith('>') && !l.trim().startsWith('|'));
   const desc = para
     ? para.replace(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]/g, '$1').replace(/[*_`#]/g, '').trim().slice(0, 90)
     : '';
 
-  // 完整正文（MD → HTML）
-  const contentHtml = mdToHtml(body);
+  // 完整正文（MD → HTML，先脱敏）
+  const contentHtml = mdToHtml(sanitizeSecrets(body));
 
   // 字数
   const wordCount = cleanBody.replace(/\s/g, '').length;
@@ -569,11 +595,15 @@ async function build() {
   const allNodes = [];
   TOPICS.forEach(t => {
     const dir = path.join(VAULT, t.dir);
-    const files = readMDFiles(dir);
-    // 纳入「原始资料」子目录（默认只递归此子目录，避免误带 每日学习整理/每周知识复盘/会议 等其余子目录）
-    const rawMatDir = path.join(dir, '原始资料');
-    if (fs.existsSync(rawMatDir)) {
-      files.push(...readMDFilesRecursive(rawMatDir));
+    // recursive 组（扩展白名单）：整目录递归，子目录内容一并纳入
+    // 非 recursive 组（原有 4 主线）：保持原行为——只扫根目录 + 「原始资料」子目录
+    let files;
+    if (t.recursive) {
+      files = readMDFilesRecursive(dir);
+    } else {
+      files = readMDFiles(dir);
+      const rawMatDir = path.join(dir, '原始资料');
+      if (fs.existsSync(rawMatDir)) files.push(...readMDFilesRecursive(rawMatDir));
     }
     const topicNodes = [];
     files.forEach(f => {
@@ -719,17 +749,57 @@ async function build() {
   // 正文映射：path -> contentHtml
   const docsMap = {};
   data.nodes.forEach(n => { docsMap[n.path] = n.contentHtml || ''; });
+  Object.keys(docsMap).forEach(k => { docsMap[k] = sanitizeSecrets(docsMap[k]); });
   data.questionTopics.forEach(q => { docsMap[q.path] = q.contentHtml || ''; });
   // 补编译：问题专题关联的原文正文（不在白名单专题内但被问题笔记引用）
   Object.keys(extraDocs || {}).forEach(p => { if (!docsMap[p]) docsMap[p] = extraDocs[p]; });
+
+  // 正文分片：热数据（首页最近更新前 80 篇 + 问题专题 + 问题关联原文）留在 docs.js 随首屏加载，
+  // 其余按专题切成 docs-<key>.js，点开时按需加载，避免手机端一次性下载十几 MB 正文。
+  const topicOfPath = {};
+  data.nodes.forEach(n => { topicOfPath[n.path] = n.topic; });
+
+  // 热数据优先级：①问题专题正文 ②问题关联原文 ③最近更新（按序填充到体积上限为止）
+  const HOT_LIMIT = 3 * 1024 * 1024;
+  const hotDocs = {};
+  const chunks = {};
+  let hotBytes = 0;
+  const putHot = (p, html) => {
+    if (hotDocs[p] !== undefined) return;
+    hotDocs[p] = html || '';
+    hotBytes += (html || '').length * 3;
+  };
+  data.questionTopics.forEach(q => { if (docsMap[q.path] !== undefined) putHot(q.path, docsMap[q.path]); });
+  Object.keys(extraDocs || {}).forEach(p => { if (docsMap[p] !== undefined) putHot(p, docsMap[p]); });
+  (dataLight.recentUpdates || []).forEach(r => {
+    if (hotBytes >= HOT_LIMIT) return;
+    if (docsMap[r.path] !== undefined) putHot(r.path, docsMap[r.path]);
+  });
+  Object.keys(docsMap).forEach(p => {
+    if (hotDocs[p] !== undefined) return;
+    const key = topicOfPath[p] || 'misc';
+    (chunks[key] = chunks[key] || {})[p] = docsMap[p];
+  });
+  const docRoute = {};
+  Object.keys(chunks).forEach(k => Object.keys(chunks[k]).forEach(p => { docRoute[p] = k; }));
 
   // 写 data.js（轻数据）
   const js = 'window.OBSIDIAN_DATA = ' + JSON.stringify(dataLight, null, 1) + ';';
   fs.writeFileSync(path.join(OUT_DIR, 'data.js'), js, 'utf-8');
 
-  // 写 docs.js（正文，延迟加载）
-  const docsJs = 'window.OBSIDIAN_DOCS = ' + JSON.stringify(docsMap) + ';';
+  // 写 docs.js（热正文 + 分片路由表，延迟加载）
+  const docVer = nowChina.replace(/[-:T ]/g, '').slice(0, 14);
+  const docsJs = 'window.OBSIDIAN_DOCS = ' + JSON.stringify(hotDocs)
+    + ';\nwindow.OBSIDIAN_DOC_ROUTE = ' + JSON.stringify(docRoute)
+    + ';\nwindow.__DOCV = "' + docVer + '";';
   fs.writeFileSync(path.join(OUT_DIR, 'docs.js'), docsJs, 'utf-8');
+
+  // 写正文分片 docs-<topic>.js
+  Object.keys(chunks).forEach(k => {
+    const chunkJs = 'window.OBSIDIAN_DOCS_CHUNK=window.OBSIDIAN_DOCS_CHUNK||{};'
+      + 'window.OBSIDIAN_DOCS_CHUNK["' + k + '"]=' + JSON.stringify(chunks[k]) + ';';
+    fs.writeFileSync(path.join(OUT_DIR, 'docs-' + k + '.js'), chunkJs, 'utf-8');
+  });
 
   // 更新页面脚本版本号，避免手机浏览器继续使用旧 data.js / docs.js 缓存
   const assetVersion = data.generatedTime.replace(/\D/g, '');

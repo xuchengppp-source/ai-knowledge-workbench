@@ -1211,8 +1211,8 @@
   <div id="live-body" class="app-body"></div>
 </div>
 
-<script src="data.js?v=202609081033"></script>
-<script src="docs.js?v=202609081033" defer></script>
+<script src="data.js?v=202609081105"></script>
+<script src="docs.js?v=202609081105" defer></script>
 <script>
 /* 悬浮式底部控制条浏览器（华为/UC/夸克/小米/百度等）会覆盖页面底部，给 html 打标记以便上抬底部栏 */
 (function () {
@@ -1552,6 +1552,18 @@ function renderToday() {
   return h;
 }
 
+function shortTopicName(name){
+  var n = String(name || '');
+  n = n.replace('AI Agent工程知识', 'AI Agent 工程').replace('企业AI与智能体商业化', '企业 AI')
+       .replace('AI产业链与数字基础设施', 'AI 基础设施').replace('知识流水线', '知识流水线')
+       .replace('政府资源配置与政策落地', '政策落地').replace('生物医疗与生物医药', '生物医疗')
+       .replace('DeepSeek Harness 项目', 'Harness').replace('任务面板与知识库', '任务面板')
+       .replace('多智能体协作', '多智能体').replace('个人能力提升', '能力提升')
+       .replace('徐总每日随记', '每日随记').replace('原始资料 / 养料', '原始资料')
+       .replace('AI 工具操作手册', '工具手册');
+  return n.length > 7 ? n.slice(0, 7) : n;
+}
+
 function openTopicByKey(key){
   var topics = OBSIDIAN_DATA.topics || [];
   for (var i = 0; i < topics.length; i++) { if (topics[i].key === key) { openTopic(i); return; } }
@@ -1640,11 +1652,18 @@ function openLinkedDoc(p){
   var h = '<div class="reader"><div class="reader-head"><span class="back" onclick="' + back + '">‹</span><span class="rh-title">关联原文</span><span class="fav">☆</span></div>';
   h += '<div class="reader-body"><h1>' + escapeHtml(title) + '</h1>';
   h += '<div class="r-meta"><span>来源 Obsidian</span></div><div class="source-line">真实路径：' + escapeHtml(p) + '</div>';
-  h += body ? '<div class="reader-full">' + body + '</div>' : '<div class="review-box"><p>该原文暂未编译进工作台，可在 Obsidian 中查看。</p></div>';
+  h += '<div id="doc-slot">' + (body ? '<div class="reader-full">' + body + '</div>' : '<div class="review-box"><p>📖 正文加载中…</p></div>') + '</div>';
   h += '</div><div class="reader-bottom"><div class="rb-btn done" onclick="' + back + '">返回</div></div></div>';
   var el = document.getElementById('live-body');
   if (el) { el.innerHTML = h; el.scrollTop = 0; }
   if (typeof setReadingMode === 'function') setReadingMode(true);
+  if (!body) {
+    ensureDoc(p, function(b2){
+      var slot2 = document.getElementById('doc-slot');
+      if (!slot2) return;
+      slot2.innerHTML = (b2 && b2.length > 50) ? ('<div class="reader-full">' + b2 + '</div>') : '<div class="review-box"><p>该原文暂未编译进工作台，可在 Obsidian 中查看。</p></div>';
+    });
+  }
 }
 
 function displayNameOfPath(p){
@@ -1720,15 +1739,19 @@ function renderDesktopToday() {
     h += '</section>';
   }
   /* ③ 按专题浏览：每个专题列出最新 5 篇，直接可读 */
-  h += '<section class="desktop-section"><div class="desktop-section-title"><h3>按专题浏览</h3><span>每个专题展示最新 5 篇</span></div>';
-  topics.forEach(function(t){
+  var topicRank = topics.map(function(t){
     var list = (t.key === 'raw'
       ? nodes.filter(function(n){ return /原始资料/.test(n.path); })
       : nodes.filter(function(n){ return n.topic === t.key; }))
-      .sort(function(a,b){ return String(b.updated||'').localeCompare(String(a.updated||'')); }).slice(0, 5);
-    if (!list.length) return;
+      .sort(function(a,b){ return String(b.updated||'').localeCompare(String(a.updated||'')); });
+    return { t: t, list: list, latest: list.length ? (list[0].updated || '') : '' };
+  }).filter(function(x){ return x.list.length; })
+    .sort(function(a,b){ return String(b.latest).localeCompare(String(a.latest)); });
+  h += '<section class="desktop-section"><div class="desktop-section-title"><h3>按专题浏览</h3><span style="cursor:pointer;color:var(--blue)" onclick="switchTab(\'topic\')">全部 ' + topicRank.length + ' 个专题 · 查看 ›</span></div>';
+  topicRank.slice(0, 6).forEach(function(x){
+    var t = x.t;
     h += '<div class="cf-topic"><div class="cth" onclick="openTopicByKey(\'' + t.key + '\')"><b>' + (t.icon||'📚') + ' ' + escapeHtml(t.name) + '</b><span>' + t.count + ' 篇 · 查看全部 ›</span></div>';
-    h += '<div class="ctlist">' + list.map(cfDocRow).join('') + '</div></div>';
+    h += '<div class="ctlist">' + x.list.slice(0, 5).map(cfDocRow).join('') + '</div></div>';
   });
   h += '</section>';
 
@@ -1924,28 +1947,85 @@ function openQuestionTopicByPath(path){
   document.getElementById('live-body').scrollTop = 0;
 }
 
-function openTopic(idx){
-  var names = ["AI Agent工程知识","企业AI与智能体商业化","AI产业链与数字基础设施","知识流水线","原始资料 / 养料"];
-  var keys = ["agent","enterprise","infrastructure","pipeline","raw"];
-  var t = OBSIDIAN_DATA.topics.find(function(x){ return x.key === keys[idx]; }) || {count:0};
-  var files = (keys[idx] === 'raw'
-    ? OBSIDIAN_GRAPH.nodes.filter(function(n){ return /原始资料/.test(n.path); })
-    : OBSIDIAN_GRAPH.nodes.filter(function(n){ return n.topic === keys[idx]; }))
+function topicFilesOf(key){
+  var nodes = (window.OBSIDIAN_DATA && window.OBSIDIAN_DATA.nodes) || OBSIDIAN_GRAPH.nodes || [];
+  return (key === 'raw'
+    ? nodes.filter(function(n){ return /原始资料/.test(n.path); })
+    : nodes.filter(function(n){ return n.topic === key; }))
     .sort(function(a,b){ return (b.updated||'').localeCompare(a.updated||''); });
+}
+
+function openTopic(idx){
+  var topics = OBSIDIAN_DATA.topics || [];
+  var t = topics[idx] || topics[0];
+  if (!t) return;
+  var key = t.key;
+  var files = topicFilesOf(key);
   var h = '<div class="page">';
-  h += '<div class="head-row"><div class="title" style="cursor:pointer;" onclick="switchTab(\'topic\')">‹ 学习地图<span class="sub-line">'+names[idx]+' · '+files.length+' 篇 · Obsidian 编译数据</span></div></div>';
-  h += '<div class="seg"><div class="sg'+(idx===0?' on':'')+'" onclick="openTopic(0)">AI Agent 工程</div><div class="sg'+(idx===1?' on':'')+'" onclick="openTopic(1)">企业 AI</div><div class="sg'+(idx===2?' on':'')+'" onclick="openTopic(2)">AI 基础设施</div></div>';
+  h += '<div class="head-row"><div class="title" style="cursor:pointer;" onclick="switchTab(\'topic\')">‹ 学习地图<span class="sub-line">'+escapeHtml(t.name)+' · '+files.length+' 篇 · Obsidian 编译数据</span></div></div>';
+  h += '<div class="seg" style="overflow-x:auto;flex-wrap:nowrap;justify-content:flex-start">';
+  topics.forEach(function(tt, i){
+    h += '<div class="sg'+(i===idx?' on':'')+'" style="white-space:nowrap" onclick="openTopic('+i+')">'+escapeHtml(shortTopicName(tt.name))+'</div>';
+  });
+  h += '</div>';
   h += '<div class="source-line">节点与链接来自真实 Obsidian 编译数据 · '+OBSIDIAN_GRAPH.generatedAt+' '+OBSIDIAN_GRAPH.generatedTime+'</div>';
-  files.forEach(function(n, i){
-    var done = i < 3;
-    var dcls = idx===0 ? 'agent' : (idx===4 ? 'agent' : 'enterprise');
-    var demo = idx===0 ? '📘' : (idx===4 ? '🗂' : '🏢');
-    h += '<div class="doc-item" onclick="openGraphNodeByPath(\''+n.path.replace(/'/g,"\\'")+'\')"><div class="d-ic '+dcls+'">'+demo+'</div><div class="d-body"><h4>'+n.title+'</h4><div class="d-meta">更新 '+n.updated+' · '+(n.wordCount>0?Math.round(n.wordCount/100)/10+'k 字':'')+'</div></div><div class="d-check'+(done?' done':'')+'">✓</div></div>';
+  files.forEach(function(n){
+    var dcls = (key === 'agent' || key === 'codex' || key === 'harness') ? 'agent' : 'enterprise';
+    var demo = t.icon || '📘';
+    h += '<div class="doc-item" onclick="openGraphNodeByPath(\''+n.path.replace(/'/g,"\\'")+'\')"><div class="d-ic '+dcls+'">'+demo+'</div><div class="d-body"><h4>'+escapeHtml(n.title)+'</h4><div class="d-meta">更新 '+n.updated+' · '+(n.wordCount>0?Math.round(n.wordCount/100)/10+'k 字':'')+'</div></div><div class="d-check">›</div></div>';
   });
   h += '</div>';
   document.getElementById('live-body').innerHTML = h;
   setReadingMode(false);
   document.getElementById('live-body').scrollTop = 0;
+}
+
+/* 正文按需加载：docs.js 只带热数据，其余正文按专题分片 docs-<key>.js，点开时再取 */
+function mergeDocChunk(key){
+  var c = (window.OBSIDIAN_DOCS_CHUNK || {})[key];
+  if (!c) return;
+  window.OBSIDIAN_DOCS = window.OBSIDIAN_DOCS || {};
+  Object.keys(c).forEach(function(k){ window.OBSIDIAN_DOCS[k] = c[k]; });
+}
+
+function loadDocChunk(p, cb){
+  var key = (window.OBSIDIAN_DOC_ROUTE || {})[p];
+  if (!key) { cb(''); return; }
+  window.OBSIDIAN_DOCS_CHUNK = window.OBSIDIAN_DOCS_CHUNK || {};
+  if (window.OBSIDIAN_DOCS_CHUNK[key]) { mergeDocChunk(key); cb((window.OBSIDIAN_DOCS || {})[p] || ''); return; }
+  var s = document.createElement('script');
+  s.src = 'docs-' + key + '.js?v=' + (window.__DOCV || '');
+  s.onload = function(){ mergeDocChunk(key); cb((window.OBSIDIAN_DOCS || {})[p] || ''); };
+  s.onerror = function(){ cb(''); };
+  document.head.appendChild(s);
+}
+
+function ensureDoc(p, cb){
+  var d = window.OBSIDIAN_DOCS;
+  if (d && Object.keys(d).length) {
+    var v = d[p];
+    if (v !== undefined) { cb(v); return; }
+    loadDocChunk(p, cb);
+    return;
+  }
+  var tries = 0;
+  (function wait(){
+    d = window.OBSIDIAN_DOCS;
+    if (d && Object.keys(d).length) {
+      var vv = d[p];
+      if (vv !== undefined) { cb(vv); return; }
+      loadDocChunk(p, cb);
+      return;
+    }
+    if (++tries > 40) { cb(''); return; }
+    setTimeout(wait, 500);
+  })();
+}
+
+function docEmptyBlock(n){
+  return '<div class="review-box"><h4>这篇暂无正文</h4><p>该节点在 Obsidian 中可能是索引页或空笔记，可在 Obsidian 内打开确认原始内容。链接关系用于组织学习路径，不等同于阅读打卡状态。</p></div>'
+    + '<h2>它连接到</h2><ul>' + (n.links || []).slice(0, 8).map(function(x){ return '<li>' + escapeHtml(x) + '</li>'; }).join('') + '</ul>'
+    + '<h2>被这些节点连接</h2><ul>' + (n.backlinks || []).slice(0, 8).map(function(x){ return '<li>' + escapeHtml(x) + '</li>'; }).join('') + '</ul>';
 }
 
 function openGraphNodeByIndex(i){ var n = OBSIDIAN_GRAPH.nodes[i]; if(n) openGraphNode(n); }
@@ -1993,28 +2073,14 @@ function openGraphNode(n){
   h += '<div class="reader-body"><div class="r-tag-row"><span class="tag '+(n.topic==='agent'?'agent':'enterprise')+'">'+topicName+'</span><span class="tag amber">'+n.updated+' · 更新</span></div><h1>'+n.title+'</h1><div class="r-meta"><span>⏱ 约 '+readMin+' 分钟</span><span>'+(wc>0?wc+' 字':'')+'</span><span>来源 Obsidian</span></div><div class="source-line">真实路径：'+n.path+'</div>';
   var contentHtml = (window.OBSIDIAN_DOCS || {})[n.path] || '';
   var related = recommendNextNodes(n);
-  var docNotReady = !window.OBSIDIAN_DOCS || !Object.keys(window.OBSIDIAN_DOCS).length;
   var emptyDoc = !(contentHtml && contentHtml.length > 50);
-  if (docNotReady && emptyDoc && n.wordCount > 0) {
-    /* docs.js（正文 8MB+）defer 加载尚未就绪 → 显示加载占位，就绪后自动重填 */
-    clearTimeout(window.__docRetryTimer);
-    (function(path){
-      var tries = 0;
-      (function wait(){
-        if (window.OBSIDIAN_DOCS && Object.keys(window.OBSIDIAN_DOCS).length && (window.OBSIDIAN_DOCS[path]||'').length > 50) {
-          var node = OBSIDIAN_GRAPH.nodes.find(function(x){ return x.path === path; });
-          if (node) { window.__docRetryTimer = setTimeout(function(){ openGraphNode(node); }, 0); return; }
-        }
-        if (++tries > 40) return; // ~20s 后放弃自动补
-        window.__docRetryTimer = setTimeout(wait, 500);
-      })();
-    })(n.path);
-    h += '<div class="review-box" style="background:var(--amber-soft);border:1px solid var(--amber);"><h4>📖 正文加载中</h4><p>这篇文档（约 '+(wc>0?Math.round(wc/100)/10+'k 字':'')+'）正在从本地知识库读取，稍候会自动显示正文。若一直停留在此，请刷新页面重试。</p></div>';
-  } else if (emptyDoc) {
-    h += '<div class="review-box"><h4>这篇暂无正文</h4><p>该节点在 Obsidian 中可能是索引页或空笔记，可在 Obsidian 内打开确认原始内容。链接关系用于组织学习路径，不等同于阅读打卡状态。</p></div><h2>它连接到</h2><ul>'+n.links.slice(0,8).map(function(x){return '<li>'+escapeHtml(x)+'</li>';}).join('')+'</ul><h2>被这些节点连接</h2><ul>'+n.backlinks.slice(0,8).map(function(x){return '<li>'+escapeHtml(x)+'</li>';}).join('')+'</ul>';
+  h += '<div id="doc-slot">';
+  if (emptyDoc) {
+    h += '<div class="review-box" style="background:var(--amber-soft);border:1px solid var(--amber);"><h4>📖 正文加载中</h4><p>正在读取这篇'+(wc>0?'（约 '+Math.round(wc/100)/10+'k 字）':'')+'内容，稍候自动显示。</p></div>';
   } else {
     h += '<div class="reader-full">'+contentHtml+'</div>';
   }
+  h += '</div>';
   h += '<div class="review-box" style="margin-top:18px;"><h4>✨ AI 学习编排</h4><p>这篇内容不是终点。下面的推荐根据真实双向链接、共同专题和标题语义生成，帮助你从当前节点继续理解。</p></div><div class="related-list">';
   if (related.length) related.forEach(function(r){
     h += '<div class="state-card" style="cursor:pointer;margin:8px 0" onclick="openGraphNodeByPath(\''+r.node.path.replace(/'/g,"\\'")+'\')">'
@@ -2027,9 +2093,17 @@ function openGraphNode(n){
   h += '</div>';
   h += '</div><div class="reader-bottom"><div class="rb-btn ai" onclick="showAiInterpretation(\''+n.path.replace(/'/g,"\\'")+'\')">✨ AI 怎么学</div><div class="rb-btn done" onclick="historyBack()">返回地图</div></div></div>';
   window._lastTab = currentTab;
-  document.getElementById('live-body').innerHTML = h;
+  var liveEl = document.getElementById('live-body');
+  liveEl.innerHTML = h;
   setReadingMode(true);
-  document.getElementById('live-body').scrollTop = 0;
+  liveEl.scrollTop = 0;
+  if (emptyDoc) {
+    ensureDoc(n.path, function(body){
+      var slot = document.getElementById('doc-slot');
+      if (!slot) return;
+      slot.innerHTML = (body && body.length > 50) ? ('<div class="reader-full">' + body + '</div>') : docEmptyBlock(n);
+    });
+  }
 }
 
 function recommendNextNodes(current){
