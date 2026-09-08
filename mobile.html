@@ -171,6 +171,17 @@
     #live-app .cf-q span { color:var(--ink-faint); font-size:11.5px; }
     #live-app .cf-mini-stat { display:flex; gap:14px; flex-wrap:wrap; font-size:12px; color:var(--ink-soft); margin-top:10px; }
     #live-app .cf-mini-stat b { color:var(--ink); font-size:15px; }
+
+    /* 问题专题卡片 */
+    #live-app .cf-qcard { background:#fff; border:1px solid var(--line); border-radius:14px; padding:12px 14px; margin-bottom:8px; cursor:pointer; }
+    #live-app .cf-qcard:hover { border-color:var(--violet); box-shadow:var(--shadow); }
+    #live-app .cf-qcard .qh { display:flex; gap:8px; align-items:flex-start; }
+    #live-app .cf-qcard .qi { width:26px; height:26px; border-radius:8px; background:var(--violet-soft); display:flex; align-items:center; justify-content:center; font-size:14px; flex:0 0 auto; }
+    #live-app .cf-qcard h4 { font-size:14px; margin:0 0 4px; line-height:1.35; color:var(--ink); }
+    #live-app .cf-qcard .qq { font-size:12px; color:var(--ink-soft); line-height:1.55; margin-bottom:6px; }
+    #live-app .cf-qcard .qm { font-size:11.5px; color:var(--ink-faint); display:flex; gap:6px; flex-wrap:wrap; align-items:center; }
+    #live-app .cf-qcard .qm .st { color:var(--violet); }
+    #live-app .cf-qcard .qgo { color:var(--violet); font-size:16px; padding-top:2px; }
     #live-app .gap-item { display:flex; justify-content:space-between; gap:12px; padding:11px 0; border-bottom:1px solid #EDF0F5; font-size:12px; }
     #live-app .gap-item:last-child { border-bottom:0; }
     #live-app .gap-item span { color:#B45309; background:var(--amber-soft); border-radius:999px; padding:3px 7px; font-size:10px; white-space:nowrap; }
@@ -1190,9 +1201,9 @@
   <div class="tabbar-wrap">
     <div class="tabbar" id="live-tabbar">
       <div class="t on" data-tab="today"><span class="ic">⌂</span>内容</div>
+      <div class="t" data-tab="question"><span class="ic">？</span>问题</div>
       <div class="t" data-tab="topic"><span class="ic">▤</span>地图</div>
       <div class="t" data-tab="fav"><span class="ic">☆</span>架构</div>
-      <div class="t" data-tab="me"><span class="ic">◉</span>建设</div>
     </div>
   </div>
   <div id="live-body" class="app-body"></div>
@@ -1471,6 +1482,15 @@ function renderToday() {
     h += '</div>';
   }
 
+  /* —— 问题专题库：提问 → 深挖 → 沉淀 —— */
+  var qs2 = cfQuestionsSorted();
+  if (qs2.length) {
+    h += '<div class="kp-zone-title" style="cursor:pointer" onclick="showQuestionHub()"><span class="dot"></span><b>问题专题库 · 提问驱动</b><span>' + qs2.length + ' 个 · 查看全部 ›</span></div>';
+    h += '<div class="kp-map-note" style="margin-bottom:8px">你提出一个真问题 → 拿 Obsidian 知识库反复追问 → 沉淀成专题：判断框架、关联笔记、下一步追问都在里面。</div>';
+    qs2.slice(0, 6).forEach(function(q){ h += cfQuestionRow(q); });
+    if (qs2.length > 6) h += '<div class="pc-link" style="text-align:center;margin:6px 0 2px;cursor:pointer" onclick="showQuestionHub()">查看全部 ' + qs2.length + ' 个问题专题 ›</div>';
+  }
+
   /* —— 今日脉冲：时间轴要点（区分知识增长 / 任务进展） —— */
   h += '<div class="kp-zone-title"><span class="dot"></span><b>今日脉冲</b><span>'+(todayCount ? todayCount+' 条增量 · '+gtFull : '今日待更新')+'</span></div>';
   if (items.length) {
@@ -1568,6 +1588,53 @@ function cfDocRow(n){
     + '<div class="cf-go">›</div></div>';
 }
 
+/* 问题专题卡片：提问 → 深挖 → 沉淀成专题 */
+/* 问题专题 → 自动关联正式笔记（按标题关键词匹配，补充 Obsidian 未写「关联笔记」章节的情况） */
+function cfRelatedNotes(q, limit){
+  var t = String(q.title || '').replace(/（[^）]*）/g, '').replace(/\([^)]*\)/g, '').trim();
+  var keys = t.split(/[：:、,，\/| ]+/).filter(function(x){ return x.length >= 3; }).slice(0, 3);
+  if (!keys.length && t.length >= 4) keys = [t.slice(0, 4)];
+  if (!keys.length) return [];
+  var out = [];
+  (OBSIDIAN_GRAPH.nodes || []).forEach(function(n){
+    if (out.length >= (limit || 5)) return;
+    var hit = false;
+    for (var i = 0; i < keys.length; i++) { if (String(n.title).indexOf(keys[i]) >= 0) { hit = true; break; } }
+    if (hit) out.push(n);
+  });
+  if (out.length) { out.fuzzy = false; return out; }
+  var catMap = { '企业AI与商业化':'enterprise', 'AI产业链与基础设施':'infrastructure', 'AI Agent工程':'agent', '跨专题综合':'enterprise' };
+  var tk = catMap[String(q.category || '').trim()] || '';
+  var fb = tk ? (OBSIDIAN_GRAPH.nodes || []).filter(function(n){ return n.topic === tk; })
+      .sort(function(a,b){ return String(b.updated||'').localeCompare(String(a.updated||'')); }).slice(0, limit || 5) : [];
+  fb.fuzzy = true;
+  return fb;
+}
+
+function cfQuestionRow(q){
+  var lead = q.direction || q.originalQuestion || q.summary || '';
+  lead = String(lead).replace(/\s+/g, ' ').trim();
+  if (lead.length > 88) lead = lead.slice(0, 88) + '…';
+  var meta = [];
+  if (q.category) meta.push('<span>' + escapeHtml(q.category) + '</span>');
+  if (q.status) meta.push('<span class="st">' + escapeHtml(q.status) + '</span>');
+  var relAll = cfRelatedNotes(q, 99);
+  var noteCount = (q.formalNotes||[]).length || (relAll.fuzzy ? 0 : relAll.length);
+  if (noteCount) meta.push('<span>' + noteCount + ' 篇关联笔记</span>');
+  if ((q.nextQuestions||[]).length) meta.push('<span>' + q.nextQuestions.length + ' 个可追问</span>');
+  if (q.updated || q.date) meta.push('<span>' + escapeHtml(q.updated || q.date) + '</span>');
+  return '<div class="cf-qcard" onclick="openQuestionTopicByPath(\'' + String(q.path).replace(/'/g,"\\'") + '\')">'
+    + '<div class="qh"><div class="qi">？</div>'
+    + '<div style="flex:1;min-width:0"><h4>' + escapeHtml(q.title) + '</h4>'
+    + (lead ? '<div class="qq">' + escapeHtml(lead) + '</div>' : '')
+    + '<div class="qm">' + meta.join('') + '</div></div>'
+    + '<div class="qgo">›</div></div></div>';
+}
+function cfQuestionsSorted(){
+  return (OBSIDIAN_DATA.questionTopics || []).slice()
+    .sort(function(a,b){ return String(b.updated || b.date || '').localeCompare(String(a.updated || a.date || '')); });
+}
+
 function renderDesktopToday() {
   var nodes = OBSIDIAN_GRAPH.nodes || [];
   var topics = OBSIDIAN_DATA.topics || [];
@@ -1603,7 +1670,15 @@ function renderDesktopToday() {
   }
   h += '</section>';
 
-  /* ② 按专题浏览：每个专题列出最新 5 篇，直接可读 */
+  /* ② 问题专题库：提问 → 深挖 → 沉淀（首页主线之一） */
+  var qs = cfQuestionsSorted();
+  if (qs.length) {
+    h += '<section class="desktop-section"><div class="desktop-section-title"><h3>问题专题库 · 提问驱动</h3><span style="cursor:pointer;color:var(--blue)" onclick="showQuestionHub()">' + qs.length + ' 个专题 · 查看全部 ›</span></div>';
+    h += '<div class="desktop-panel" style="margin-bottom:12px;background:var(--violet-soft);border-color:#DDD6FE"><b style="font-size:13px;color:var(--ink)">怎么来的</b><p style="margin-top:6px">你提出一个真问题 → 拿 Obsidian 知识库反复追问 → 答案、判断框架、关联笔记和下一步追问沉淀成一个问题专题。它是知识库的“提问侧入口”，和按专题浏览互补。</p></div>';
+    qs.forEach(function(q){ h += cfQuestionRow(q); });
+    h += '</section>';
+  }
+  /* ③ 按专题浏览：每个专题列出最新 5 篇，直接可读 */
   h += '<section class="desktop-section"><div class="desktop-section-title"><h3>按专题浏览</h3><span>每个专题展示最新 5 篇</span></div>';
   topics.forEach(function(t){
     var list = (t.key === 'raw'
@@ -1616,16 +1691,6 @@ function renderDesktopToday() {
   });
   h += '</section>';
 
-  /* ③ 问题专题库 */
-  if (questions.length) {
-    h += '<section class="desktop-section"><div class="desktop-section-title"><h3>问题专题库</h3><span style="cursor:pointer;color:var(--blue)" onclick="showQuestionHub()">查看全部 ›</span></div><div class="desktop-panel">';
-    questions.slice(0, 6).forEach(function(q){
-      h += '<div class="cf-q" onclick="openQuestionTopicByPath(\'' + String(q.path).replace(/'/g,"\\'") + '\')">'
-        + '<div style="flex:1"><b>' + escapeHtml(q.title) + '</b><div><span>' + escapeHtml(q.category||'') + ' · ' + escapeHtml(q.status||'') + ' · ' + ((q.formalNotes||[]).length) + ' 条笔记关联</span></div></div>'
-        + '<div style="color:var(--blue);padding-top:2px">›</div></div>';
-    });
-    h += '</div></section>';
-  }
 
   /* ④ 今日增量（次要，折叠展示） */
   h += '<section class="desktop-section"><div class="desktop-section-title"><h3>今日增量</h3><span style="cursor:pointer;color:var(--blue)" onclick="showDailyDetail()">完整整理 ›</span></div><div class="desktop-panel">';
@@ -1767,7 +1832,7 @@ function showQuestionHub(){
     h += '<div class="fav-note">暂无问题专题。等 OpenClaw / Codex 产出符合规格的问题笔记后，重新编译工作台即可显示。</div>';
   }
   h += '</div>';
-  window._lastTab = currentTab;
+  window._lastTab = (currentTab === 'question') ? 'today' : currentTab;
   document.getElementById('live-body').innerHTML = h;
   setReadingMode(false);
   document.getElementById('live-body').scrollTop = 0;
@@ -1782,14 +1847,17 @@ function openQuestionTopicByPath(path){
   h += '<div class="r-meta"><span>'+escapeHtml(q.date)+'</span><span>'+escapeHtml(q.questionType || '问题串联')+'</span><span>来源 Obsidian</span></div><div class="source-line">真实路径：'+escapeHtml(q.path)+'</div>';
   h += '<div class="review-box"><h4>我这次到底在问什么</h4>'+(q.directionHtml || '<p>'+escapeHtml(q.direction || q.originalQuestion || '这条问题笔记暂未提取到提问方向。')+'</p>')+'</div>';
   if (q.originalQuestion) h += '<h2>原始提问</h2><blockquote>'+escapeHtml(q.originalQuestion)+'</blockquote>';
-  h += '<h2>回答框架</h2><div class="reader-full">'+(q.answerHtml || '<div class="review-box"><h4>核心回答</h4><p>'+escapeHtml(q.summary || '这条问题笔记暂未提取到回答摘要。')+'</p></div>')+'</div>';
+  var answerBody = q.answerHtml || contentHtml || ('<div class="review-box"><h4>核心回答</h4><p>'+escapeHtml(q.summary || '这条问题笔记暂未提取到回答摘要。')+'</p></div>');
+  h += '<h2>回答框架</h2><div class="reader-full">'+answerBody+'</div>';
   if (q.nextQuestions && q.nextQuestions.length) h += '<h2>下一步可追问</h2><ul>'+q.nextQuestions.map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
   if (q.distillItems && q.distillItems.length) h += '<h2>下一步沉淀动作</h2><ul>'+q.distillItems.map(function(x){ return '<li>'+escapeHtml(x)+'</li>'; }).join('')+'</ul>';
   h += '<h2>资料依据</h2><details class="review-box"><summary>展开关联正式笔记和原始资料</summary>';
   if (q.formalNotes && q.formalNotes.length) h += '<h3>关联的正式笔记</h3><ul>'+q.formalNotes.map(function(x){ return linkedNoteItem(x); }).join('')+'</ul>';
   if (q.rawMaterials && q.rawMaterials.length) h += '<h3>关联的原始资料</h3><ul>'+q.rawMaterials.slice(0,6).map(function(x){ return linkedNoteItem(x); }).join('')+'</ul>';
   h += '</details>';
-  if (contentHtml && contentHtml.length > 50) h += '<details class="review-box"><summary>展开完整 Obsidian 问题笔记</summary><div class="reader-full">'+contentHtml+'</div></details>';
+  if (contentHtml && contentHtml.length > 50 && q.answerHtml) h += '<details class="review-box"><summary>展开完整 Obsidian 问题笔记</summary><div class="reader-full">'+contentHtml+'</div></details>';
+  var relNotes = cfRelatedNotes(q, 5);
+  if (relNotes.length) h += '<h2>' + (relNotes.fuzzy ? '同主线最近更新' : '相关正式笔记') + '</h2><div style="margin-top:6px">'+relNotes.map(function(n){ return cfDocRow(n); }).join('')+'</div>';
   h += '</div><div class="reader-bottom"><div class="rb-btn done" onclick="showQuestionHub()">返回问题库</div></div></div>';
   window._lastTab = currentTab;
   document.getElementById('live-body').innerHTML = h;
@@ -2030,6 +2098,7 @@ function switchTab(tab){
   var tabs = document.querySelectorAll('#live-tabbar .t');
   tabs.forEach(function(t){ t.className = 't' + (t.getAttribute('data-tab')===tab ? ' on' : ''); });
   if(tab==='today') body.innerHTML = renderToday();
+  else if(tab==='question'){ body.innerHTML = ''; showQuestionHub(); return; }
   else if(tab==='topic') body.innerHTML = renderTopic();
   else if(tab==='fav') body.innerHTML = renderFav();
   else if(tab==='me') body.innerHTML = renderMe();
