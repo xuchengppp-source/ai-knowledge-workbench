@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-08",
- "generatedTime": "2026-09-08 23:04",
+ "generatedTime": "2026-09-08 23:31",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 37,
- "weeklyChanges": 615,
+ "weeklyPages": 38,
+ "weeklyChanges": 619,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-08｜AI知识增量整理.md",
  "topics": [
@@ -29,7 +29,7 @@ window.OBSIDIAN_DATA = {
    "name": "知识流水线",
    "key": "pipeline",
    "icon": "📚",
-   "count": 52
+   "count": 53
   },
   {
    "name": "Codex 工作区",
@@ -5064,7 +5064,7 @@ window.OBSIDIAN_DATA = {
     "任务面板与知识库/智能体协作-任务面板操作手册.md"
    ],
    "desc": "上级：知识流水线/知识流水线、徐总的知识库",
-   "wordCount": 4047
+   "wordCount": 4172
   },
   {
    "path": "知识流水线/WikiLLM知识库编译方法论.md",
@@ -5207,7 +5207,10 @@ window.OBSIDIAN_DATA = {
     "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08",
     "AI Agent工程知识/多智能体协作闭环方法：主控-规划-执行-验收"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
+    "知识流水线/知识卡片与Agent调用标准.md"
+   ],
    "desc": "- 候选卡文件：知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md（12 张：KC-01~KC-12）。",
    "wordCount": 8074
   },
@@ -5239,14 +5242,29 @@ window.OBSIDIAN_DATA = {
     "多智能体协作任务/多智能体协作体系总览",
     "全局记忆/智能体启动与身份连续性统一合同",
     "全局记忆/13_Obsidian新增更新内容强制收口协作规则",
-    "全局记忆/09_全域智能体记忆体系"
+    "全局记忆/09_全域智能体记忆体系",
+    "知识流水线/候选知识卡真实调用评估记录｜2026-09-08｜AI Agent工程知识"
    ],
    "backlinks": [
     "知识流水线/候选知识卡真实调用评估记录｜2026-09-08｜AI Agent工程知识.md",
+    "知识流水线/候选知识卡调用测试记录｜2026-09-08｜豆包Skill v0.1.md",
     "知识流水线/知识卡片与Agent调用标准.md"
    ],
    "desc": "上级：AI Agent工程知识/AI Agent工程知识专题",
-   "wordCount": 8162
+   "wordCount": 8643
+  },
+  {
+   "path": "知识流水线/候选知识卡调用测试记录｜2026-09-08｜豆包Skill v0.1.md",
+   "title": "候选知识卡调用测试记录（2026-09-08｜豆包Skill v0.1）",
+   "updated": "2026-09-08",
+   "topic": "pipeline",
+   "links": [
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08",
+    "知识流水线/知识卡片与Agent调用标准"
+   ],
+   "backlinks": [],
+   "desc": "- Skill 文件：knowledge-card-caller-v0.1/SKILL.md（隔离工作区）",
+   "wordCount": 14939
   },
   {
    "path": "知识流水线/四个外部Agent任务卡与Obsidian Skill统一接入.md",
@@ -5337,14 +5355,16 @@ window.OBSIDIAN_DATA = {
     "知识流水线/OpenWiki知识增量/2026-09-08_外部观点对重建计划的启发",
     "知识库索引",
     "全局记忆/13_Obsidian新增更新内容强制收口协作规则",
-    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08"
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08",
+    "知识流水线/候选知识卡真实调用评估记录｜2026-09-08｜AI Agent工程知识"
    ],
    "backlinks": [
     "知识流水线/Obsidian知识底座治理与知识自主生长方案.md",
-    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md"
+    "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
+    "知识流水线/候选知识卡调用测试记录｜2026-09-08｜豆包Skill v0.1.md"
    ],
    "desc": "上级：知识流水线/知识流水线",
-   "wordCount": 2692
+   "wordCount": 4662
   },
   {
    "path": "知识流水线/知识库健康巡检.md",
@@ -10632,8 +10652,8 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 80753,
-     "excerpt": "知识库索引（快速查找版）2026-09-08｜知识库可调用层标准（V2.1试点）知识流水线/知识卡片与Agent调用标准：在现有原始资料、问题专题、正式知识和执行规则之间建立“候选知识卡”逻辑层，定义调用场景、适用范围、",
+     "wordCount": 81016,
+     "excerpt": "知识库索引（快速查找版）2026-09-08｜知识库可调用层标准（V2.1试点）知识流水线/知识卡片与Agent调用标准：在现有原始资料、问题专题、正式知识和执行规则之间建立“候选知识卡”逻辑层；当前采用轻量执行模式，先",
      "hasBody": true
     },
     {
@@ -11741,7 +11761,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 117,
-  "fetchedAt": "2026年9月8日 23:04"
+  "fetchedAt": "2026年9月8日 23:31"
  },
  "recentUpdates": [
   {
@@ -11777,7 +11797,7 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-09-08",
    "topic": "pipeline",
    "topicName": "知识流水线",
-   "wordCount": 4047,
+   "wordCount": 4172,
    "desc": "上级：知识流水线/知识流水线、徐总的知识库"
   },
   {
@@ -11804,8 +11824,17 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-09-08",
    "topic": "pipeline",
    "topicName": "知识流水线",
-   "wordCount": 8162,
+   "wordCount": 8643,
    "desc": "上级：AI Agent工程知识/AI Agent工程知识专题"
+  },
+  {
+   "path": "知识流水线/候选知识卡调用测试记录｜2026-09-08｜豆包Skill v0.1.md",
+   "title": "候选知识卡调用测试记录（2026-09-08｜豆包Skill v0.1）",
+   "updated": "2026-09-08",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 14939,
+   "desc": "- Skill 文件：knowledge-card-caller-v0.1/SKILL.md（隔离工作区）"
   },
   {
    "path": "企业AI与智能体商业化/制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通.md",
@@ -11849,7 +11878,7 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-09-08",
    "topic": "pipeline",
    "topicName": "知识流水线",
-   "wordCount": 2692,
+   "wordCount": 4662,
    "desc": "上级：知识流水线/知识流水线"
   },
   {
@@ -12813,15 +12842,6 @@ window.OBSIDIAN_DATA = {
    "topic": "codex",
    "topicName": "Codex 工作区",
    "wordCount": 15283,
-   "desc": "上级：Codex工作区/项目索引"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-13.md",
-   "title": "2026-07-13 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 16940,
    "desc": "上级：Codex工作区/项目索引"
   }
  ]
