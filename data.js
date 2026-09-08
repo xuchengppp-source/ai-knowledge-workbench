@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-08",
- "generatedTime": "2026-09-08 20:55",
+ "generatedTime": "2026-09-08 21:04",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 28,
- "weeklyChanges": 527,
+ "weeklyPages": 29,
+ "weeklyChanges": 528,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-07｜AI知识增量整理.md",
  "topics": [
@@ -95,7 +95,7 @@ window.OBSIDIAN_DATA = {
    "name": "我的洞察",
    "key": "myinsights",
    "icon": "💡",
-   "count": 1
+   "count": 2
   },
   {
    "key": "raw",
@@ -8283,6 +8283,18 @@ window.OBSIDIAN_DATA = {
    "wordCount": 268
   },
   {
+   "path": "我的洞察/AI Agent 商业化路径与方向.md",
+   "title": "AI Agent 商业化路径与方向",
+   "updated": "2026-09-08",
+   "topic": "myinsights",
+   "links": [
+    "FDE（前线部署工程师）学习与研究"
+   ],
+   "backlinks": [],
+   "desc": "AI Agent 的商业化路径不是单一的，而是有多个层次。工具型 AI Agent 最容易被替代，真正有壁垒的是深入企业业务流程、沉淀标准化方法论、并能以 FDE 方式嵌入企业生产",
+   "wordCount": 1054
+  },
+  {
    "path": "我的洞察/FDE（前线部署工程师）学习与研究.md",
    "title": "FDE（前线部署工程师）学习与研究",
    "updated": "2026-09-08",
@@ -8645,12 +8657,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 102,
+   "matched": 103,
    "status": "已形成"
   },
   {
    "name": "商业化与组织能力",
-   "matched": 81,
+   "matched": 82,
    "status": "已形成"
   }
  ],
@@ -9874,6 +9886,15 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：知识流水线/知识流水线"
   },
   {
+   "path": "我的洞察/AI Agent 商业化路径与方向.md",
+   "title": "AI Agent 商业化路径与方向",
+   "updated": "2026-09-08",
+   "topic": "myinsights",
+   "topicName": "我的洞察",
+   "wordCount": 1054,
+   "desc": "AI Agent 的商业化路径不是单一的，而是有多个层次。工具型 AI Agent 最容易被替代，真正有壁垒的是深入企业业务流程、沉淀标准化方法论、并能以 FDE 方式嵌入企业生产"
+  },
+  {
    "path": "我的洞察/FDE（前线部署工程师）学习与研究.md",
    "title": "FDE（前线部署工程师）学习与研究",
    "updated": "2026-09-08",
@@ -10934,15 +10955,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "AI Agent工程知识",
    "wordCount": 9126,
    "desc": "上级：AI Agent工程知识专题"
-  },
-  {
-   "path": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维.md",
-   "title": "AI Agent 后端工程化能力框架：分布式、异步、状态与可运维",
-   "updated": "2026-08-26",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 12170,
-   "desc": "创建日期：2026-07-02"
   }
  ]
 };
