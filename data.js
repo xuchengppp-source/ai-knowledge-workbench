@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-08",
- "generatedTime": "2026-09-08 00:37",
+ "generatedTime": "2026-09-08 09:33",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 9,
- "weeklyChanges": 277,
+ "weeklyPages": 11,
+ "weeklyChanges": 293,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-07｜AI知识增量整理.md",
  "topics": [
@@ -17,7 +17,7 @@ window.OBSIDIAN_DATA = {
    "name": "企业AI与智能体商业化",
    "key": "enterprise",
    "icon": "🏢",
-   "count": 116
+   "count": 117
   },
   {
    "name": "AI产业链与数字基础设施",
@@ -1410,7 +1410,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
-   "wordCount": 16219
+   "wordCount": 22208
   },
   {
    "path": "企业AI与智能体商业化/OpenClaw统一调用入口与委派规则.md",
@@ -1766,6 +1766,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线.md",
     "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
     "企业AI与智能体商业化/己未文化AI落地首谈会议纪要：客户资产管理第一阶段.md",
+    "企业AI与智能体商业化/己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径.md",
     "企业AI与智能体商业化/己未文化资料速查入口.md",
     "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
     "企业AI与智能体商业化/斯坦福企业AI实战手册：51个成功样本与三档人机协作模式.md",
@@ -2347,15 +2348,37 @@ window.OBSIDIAN_DATA = {
    "wordCount": 2634
   },
   {
+   "path": "企业AI与智能体商业化/己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径.md",
+   "title": "己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径",
+   "updated": "2026-09-07",
+   "topic": "enterprise",
+   "links": [
+    "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
+    "己未文化资料速查入口",
+    "小型文化咨询公司 AI Agent 整体落地方案",
+    "案例-美团小团Agent工程化差距分析",
+    "FDE面试通关手册：五重身份、八关流程与分轮真题答法",
+    "生产级AI Agent知识体系总览：层级·特性·术语",
+    "AI Agent全面理解"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/己未文化资料速查入口.md"
+   ],
+   "desc": "己未文化第一阶段CRM系统的核心架构：",
+   "wordCount": 12070
+  },
+  {
    "path": "企业AI与智能体商业化/己未文化资料速查入口.md",
    "title": "己未文化资料速查入口",
-   "updated": "2026-08-26",
+   "updated": "2026-09-07",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
     "企业AI与智能体商业化/己未文化AI落地首谈会议纪要：客户资产管理第一阶段",
     "原始资料/已整理｜2026-08-12｜飞书妙记原始逐字稿｜己未文化AI落地首谈",
     "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
+    "企业AI与智能体商业化/己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径",
     "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版",
     "知识流水线/玄学与东方智慧出海-内容策略与独立站电商体系-调研-20260811",
     "企业AI与智能体商业化/AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧"
@@ -2365,7 +2388,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/玄学与东方智慧出海-内容策略与独立站电商体系-调研-20260811.md"
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
-   "wordCount": 805
+   "wordCount": 886
   },
   {
    "path": "企业AI与智能体商业化/待整理稿｜AI商业落地第一步是数据治理（Corvera案例）.md",
@@ -4282,7 +4305,7 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识获取与录入三条链路现状与卡壳点.md"
    ],
    "desc": "上级：知识流水线/知识流水线",
-   "wordCount": 12322
+   "wordCount": 12492
   },
   {
    "path": "知识流水线/Agent Notifier统一通知机制.md",
@@ -5921,7 +5944,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 116,
-  "fetchedAt": "2026年9月8日 00:37"
+  "fetchedAt": "2026年9月8日 09:33"
  },
  "recentUpdates": [
   {
@@ -5930,7 +5953,7 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-09-07",
    "topic": "pipeline",
    "topicName": "知识流水线",
-   "wordCount": 12322,
+   "wordCount": 12492,
    "desc": "上级：知识流水线/知识流水线"
   },
   {
@@ -5939,7 +5962,7 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-09-07",
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
-   "wordCount": 16219,
+   "wordCount": 22208,
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
   },
   {
@@ -5968,6 +5991,24 @@ window.OBSIDIAN_DATA = {
    "topicName": "AI Agent工程知识",
    "wordCount": 637,
    "desc": "三种模式的底层区别不是名词，而是控制权最终落在谁手里。"
+  },
+  {
+   "path": "企业AI与智能体商业化/己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径.md",
+   "title": "己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径",
+   "updated": "2026-09-07",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 12070,
+   "desc": "己未文化第一阶段CRM系统的核心架构："
+  },
+  {
+   "path": "企业AI与智能体商业化/己未文化资料速查入口.md",
+   "title": "己未文化资料速查入口",
+   "updated": "2026-09-07",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 886,
+   "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
   },
   {
    "path": "企业AI与智能体商业化/蜀道金租生产级AI建设方案：从个人辅助到企业生产级的演进路径.md",
@@ -6984,24 +7025,6 @@ window.OBSIDIAN_DATA = {
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
    "wordCount": 4059,
-   "desc": "上级：企业AI与智能体商业化专题"
-  },
-  {
-   "path": "AI Agent工程知识/工业级多智能体协作系统设计：任务编排、依赖治理与结果对齐.md",
-   "title": "工业级多智能体协作系统设计：任务编排、依赖治理与结果对齐",
-   "updated": "2026-08-26",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 5666,
-   "desc": "上级：AI Agent工程知识专题"
-  },
-  {
-   "path": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团.md",
-   "title": "己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
-   "updated": "2026-08-26",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 11497,
    "desc": "上级：企业AI与智能体商业化专题"
   }
  ]
