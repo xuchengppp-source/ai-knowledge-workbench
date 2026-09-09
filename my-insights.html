@@ -74,6 +74,19 @@ body { font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaH
 .detail-body a { color:#0066cc; text-decoration:none; }
 .detail-body code { background:#f5f5f7; padding:2px 6px; border-radius:4px; font-size:13px; color:#1d1d1f; }
 .detail-meta { font-size:11px; color:#86868b; margin-bottom:16px; padding-bottom:12px; border-bottom:1px solid #e5e5e7; }
+
+/* Tab 切换 */
+.tab-bar { display:flex; gap:8px; margin-bottom:20px; background:#fff; border-radius:10px; padding:6px; border:1px solid #e5e5e7; }
+.tab-btn { flex:1; padding:10px 16px; border-radius:8px; border:none; background:transparent; color:#86868b; font-size:13px; font-weight:600; cursor:pointer; transition:all 0.2s; text-align:center; }
+.tab-btn:hover { background:#f5f5f7; }
+.tab-btn.active { background:linear-gradient(135deg,#fbbf24,#f97316); color:#fff; box-shadow:0 2px 8px rgba(251,191,36,0.3); }
+.tab-btn .count { display:inline-block; margin-left:6px; padding:1px 7px; border-radius:10px; font-size:10px; background:rgba(0,0,0,0.1); }
+.tab-btn.active .count { background:rgba(255,255,255,0.25); }
+
+/* 来源标签 */
+.source-badge { display:inline-block; padding:2px 8px; border-radius:4px; font-size:10px; font-weight:600; margin-right:6px; }
+.source-user { background:#dbeafe; color:#2563eb; }
+.source-session { background:#fce7f3; color:#db2777; }
 </style>
 </head>
 <body>
@@ -90,6 +103,12 @@ body { font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaH
     <div class="stat-card"><div class="num" id="highCount">0</div><div class="label">高关注</div></div>
     <div class="stat-card"><div class="num" id="mediumCount">0</div><div class="label">中关注</div></div>
     <div class="stat-card"><div class="num" id="lowCount">0</div><div class="label">低关注</div></div>
+  </div>
+
+  <div class="tab-bar">
+    <button class="tab-btn active" data-filter="all" onclick="switchTab('all')">全部 <span class="count" id="countAll">0</span></button>
+    <button class="tab-btn" data-filter="user" onclick="switchTab('user')">徐总口述 <span class="count" id="countUser">0</span></button>
+    <button class="tab-btn" data-filter="session" onclick="switchTab('session')">会话洞察 <span class="count" id="countSession">0</span></button>
   </div>
 
   <div id="insightsList">
@@ -152,6 +171,59 @@ function priorityLabel(p) {
   return {high:'🔴 高关注', medium:'🟡 中关注', low:'🟢 低关注'}[p] || p;
 }
 
+function getSource(path) {
+  if (path.includes('徐总口述') || path.includes('/user/')) return 'user';
+  if (path.includes('会话洞察') || path.includes('/session/')) return 'session';
+  return 'unknown';
+}
+
+function sourceLabel(s) {
+  return {user:'徐总口述', session:'会话洞察', unknown:'未分类'}[s] || s;
+}
+
+let currentFilter = 'all';
+let allInsights = [];
+
+function switchTab(filter) {
+  currentFilter = filter;
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.filter === filter);
+  });
+  renderInsights();
+}
+
+function renderInsights() {
+  const list = document.getElementById('insightsList');
+  const filtered = currentFilter === 'all'
+    ? allInsights
+    : allInsights.filter(item => getSource(item.path) === currentFilter);
+
+  if (filtered.length === 0) {
+    list.innerHTML = '<div class="empty-state"><div class="icon">💡</div><div class="text">这个分类下还没有洞察</div></div>';
+    return;
+  }
+
+  list.innerHTML = filtered.map(item => {
+    const source = getSource(item.path);
+    return `
+    <div class="insight-card" onclick="openInsight('${item.path.replace(/'/g, "\\'")}', '${item.title.replace(/'/g, "\\'")}')">
+      <div class="card-header">
+        <div class="title">
+          <span class="source-badge source-${source}">${sourceLabel(source)}</span>
+          ${item.title}
+        </div>
+        <span class="priority priority-${item.priority}">${priorityLabel(item.priority)}</span>
+      </div>
+      <div class="content">${item.desc || '点击查看完整内容'}</div>
+      ${item.tags.length ? `<div class="tags">${item.tags.map(t => `<span class="tag">#${t}</span>`).join('')}</div>` : ''}
+      <div class="card-footer">
+        <span class="date">更新于 ${formatDate(item.updated)}</span>
+        <span class="word-count">${item.wordCount || 0} 字</span>
+      </div>
+    </div>
+  `}).join('');
+}
+
 function loadInsights() {
   const list = document.getElementById('insightsList');
   
@@ -164,20 +236,27 @@ function loadInsights() {
   myInsights.sort((a, b) => new Date(b.updated) - new Date(a.updated));
 
   let high = 0, medium = 0, low = 0;
-  const insightsWithMeta = myInsights.map(node => {
+  let userCount = 0, sessionCount = 0;
+  allInsights = myInsights.map(node => {
     const docHtml = getDocHtml(node.path);
     const priority = extractPriority(docHtml);
     const tags = extractTags(docHtml);
+    const source = getSource(node.path);
     if (priority === 'high') high++;
     else if (priority === 'low') low++;
     else medium++;
-    return { ...node, priority, tags, docHtml };
+    if (source === 'user') userCount++;
+    else if (source === 'session') sessionCount++;
+    return { ...node, priority, tags, docHtml, source };
   });
 
   document.getElementById('totalCount').textContent = myInsights.length;
   document.getElementById('highCount').textContent = high;
   document.getElementById('mediumCount').textContent = medium;
   document.getElementById('lowCount').textContent = low;
+  document.getElementById('countAll').textContent = myInsights.length;
+  document.getElementById('countUser').textContent = userCount;
+  document.getElementById('countSession').textContent = sessionCount;
   document.getElementById('syncInfo').textContent = `已同步 ${OBSIDIAN_DATA.generatedTime || ''}`;
 
   if (myInsights.length === 0) {
@@ -185,20 +264,7 @@ function loadInsights() {
     return;
   }
 
-  list.innerHTML = insightsWithMeta.map(item => `
-    <div class="insight-card" onclick="openInsight('${item.path.replace(/'/g, "\\'")}', '${item.title.replace(/'/g, "\\'")}')">
-      <div class="card-header">
-        <div class="title">${item.title}</div>
-        <span class="priority priority-${item.priority}">${priorityLabel(item.priority)}</span>
-      </div>
-      <div class="content">${item.desc || '点击查看完整内容'}</div>
-      ${item.tags.length ? `<div class="tags">${item.tags.map(t => `<span class="tag">#${t}</span>`).join('')}</div>` : ''}
-      <div class="card-footer">
-        <span class="date">更新于 ${formatDate(item.updated)}</span>
-        <span class="word-count">${item.wordCount || 0} 字</span>
-      </div>
-    </div>
-  `).join('');
+  renderInsights();
 }
 
 function openInsight(path, title) {
