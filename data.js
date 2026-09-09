@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-09",
- "generatedTime": "2026-09-09 15:06",
+ "generatedTime": "2026-09-09 16:38",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 40,
  "weeklyChanges": 576,
@@ -8611,12 +8611,12 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/多智能体Session扫描与每日工作总结机制.md",
    "title": "多智能体 Session 扫描与每日工作总结机制",
    "updated": "2026-09-09",
-   "updatedTime": "2026-09-09 13:20",
+   "updatedTime": "2026-09-09 16:20",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
    "desc": "由于 trajectory.jsonl 没有时间戳，无法直接按日期过滤消息，采用增量扫描：",
-   "wordCount": 4008
+   "wordCount": 4789
   },
   {
    "path": "任务面板与知识库/多智能体协作工作台：WorkBuddy豆包Codex与Harness Alpha设计.md",
@@ -8724,21 +8724,21 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/每日工作记录/2026-09-09.md",
    "title": "2026-09-09｜多智能体工作记录",
    "updated": "2026-09-09",
-   "updatedTime": "2026-09-09 14:44",
+   "updatedTime": "2026-09-09 15:35",
    "topic": "taskboard",
    "links": [
     "任务面板与知识库/每日工作记录/每日工作记录说明",
     "任务面板与知识库/智能体协作-任务面板操作手册"
    ],
    "backlinks": [],
-   "desc": "今天主要推进己未文化 AI Agent 项目的入口层设计——意图识别与路由。完成了四大类26个意图的完整分类体系、Skill五层内部架构设计、从设计文档到可执行Skill的七步落地",
-   "wordCount": 5835
+   "desc": "今天最重要的成果是建立了每日工作总结自动化系统（project-daily-summary Skill）：通过扫描三个平台（豆包工作、Codex、WorkBuddy）的 Sessi",
+   "wordCount": 9622
   },
   {
    "path": "任务面板与知识库/每日工作记录/每日工作记录说明.md",
    "title": "每日工作记录说明",
-   "updated": "2026-09-08",
-   "updatedTime": "2026-09-08 23:54",
+   "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 15:39",
    "topic": "taskboard",
    "links": [],
    "backlinks": [
@@ -8746,7 +8746,7 @@ window.OBSIDIAN_DATA = {
     "任务面板与知识库/每日工作记录/2026-09-09.md"
    ],
    "desc": "这是 Codex、豆包、WorkBuddy、Harness/Friday 和其他执行线共同使用的日常工作记录，不属于任何单一 Agent，也不属于个人生活随记。",
-   "wordCount": 693
+   "wordCount": 1703
   },
   {
    "path": "任务面板与知识库/面板改动记录-议题看板V2还原-2026-08-10.md",
@@ -12288,7 +12288,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 119,
-  "fetchedAt": "2026年9月9日 15:06"
+  "fetchedAt": "2026年9月9日 16:38"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -12336,11 +12336,11 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/每日工作记录/2026-09-09.md",
    "title": "2026-09-09｜多智能体工作记录",
    "updated": "2026-09-09",
-   "updatedTime": "2026-09-09 14:44",
+   "updatedTime": "2026-09-09 15:35",
    "topic": "taskboard",
    "topicName": "任务面板与知识库",
-   "wordCount": 5835,
-   "desc": "今天主要推进己未文化 AI Agent 项目的入口层设计——意图识别与路由。完成了四大类26个意图的完整分类体系、Skill五层内部架构设计、从设计文档到可执行Skill的七步落地"
+   "wordCount": 9622,
+   "desc": "今天最重要的成果是建立了每日工作总结自动化系统（project-daily-summary Skill）：通过扫描三个平台（豆包工作、Codex、WorkBuddy）的 Sessi"
   },
   {
    "path": "企业AI与智能体商业化/FDE企业真实落地案例库：按行业分类的企业AI落地实战.md",
@@ -12366,10 +12366,10 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/多智能体Session扫描与每日工作总结机制.md",
    "title": "多智能体 Session 扫描与每日工作总结机制",
    "updated": "2026-09-09",
-   "updatedTime": "2026-09-09 13:20",
+   "updatedTime": "2026-09-09 16:20",
    "topic": "taskboard",
    "topicName": "任务面板与知识库",
-   "wordCount": 4008,
+   "wordCount": 4789,
    "desc": "由于 trajectory.jsonl 没有时间戳，无法直接按日期过滤消息，采用增量扫描："
   },
   {
@@ -12381,6 +12381,16 @@ window.OBSIDIAN_DATA = {
    "topicName": "任务面板与知识库",
    "wordCount": 2795,
    "desc": "上级：任务面板与知识库/00总入口、全局记忆/智能体启动与身份连续性统一合同"
+  },
+  {
+   "path": "任务面板与知识库/每日工作记录/每日工作记录说明.md",
+   "title": "每日工作记录说明",
+   "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 15:39",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 1703,
+   "desc": "这是 Codex、豆包、WorkBuddy、Harness/Friday 和其他执行线共同使用的日常工作记录，不属于任何单一 Agent，也不属于个人生活随记。"
   },
   {
    "path": "徐总每日随记/当日记录/2026-09-08.md",
@@ -12511,16 +12521,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 5189,
    "desc": "上级：企业AI与智能体商业化/零一万物企业AI落地专题、企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究"
-  },
-  {
-   "path": "任务面板与知识库/每日工作记录/每日工作记录说明.md",
-   "title": "每日工作记录说明",
-   "updated": "2026-09-08",
-   "updatedTime": "2026-09-08 23:54",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 693,
-   "desc": "这是 Codex、豆包、WorkBuddy、Harness/Friday 和其他执行线共同使用的日常工作记录，不属于任何单一 Agent，也不属于个人生活随记。"
   },
   {
    "path": "知识流水线/知识卡片与Agent调用标准.md",
