@@ -1677,6 +1677,9 @@ function renderDesktopToday() {
   var nodes = OBSIDIAN_GRAPH.nodes || [];
   var topics = OBSIDIAN_DATA.topics || [];
   var genDay = OBSIDIAN_DATA.generatedAt || '';
+  var gt = OBSIDIAN_GRAPH.generatedTime || '';
+  var gm = gt.match(/^(\d{4})-(\d{2})-(\d{2}) (\d{2}:\d{2})/);
+  var gtFull = gm ? gm[1] + '年' + parseInt(gm[2],10) + '月' + parseInt(gm[3],10) + '日 ' + gm[4] : gt;
   var updates = getRecentUpdates(24);
   var questions = OBSIDIAN_DATA.questionTopics || [];
   var td = OBSIDIAN_DATA.today || {items:[], judgments:[]};
