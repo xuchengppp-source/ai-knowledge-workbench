@@ -1211,8 +1211,8 @@
   <div id="live-body" class="app-body"></div>
 </div>
 
-<script src="data.js?v=202609092021"></script>
-<script src="docs.js?v=202609092021" defer></script>
+<script src="data.js?v=202609091137"></script>
+<script src="docs.js?v=202609091137" defer></script>
 <script>
 /* 悬浮式底部控制条浏览器（华为/UC/夸克/小米/百度等）会覆盖页面底部，给 html 打标记以便上抬底部栏 */
 (function () {
@@ -1576,9 +1576,9 @@ function getRecentUpdates(limit){
   var names = {};
   (OBSIDIAN_DATA.topics || []).forEach(function(t){ names[t.key] = t.name; });
   return (OBSIDIAN_GRAPH.nodes || []).slice()
-    .sort(function(a,b){ return String(b.updated||'').localeCompare(String(a.updated||'')); })
+    .sort(function(a,b){ return String(b.updatedTime||b.updated||'').localeCompare(String(a.updatedTime||a.updated||'')); })
     .slice(0, limit || 20)
-    .map(function(n){ return {path:n.path, title:n.title, updated:n.updated, topic:n.topic, topicName:names[n.topic]||'', wordCount:n.wordCount||0, desc:n.desc||''}; });
+    .map(function(n){ return {path:n.path, title:n.title, updated:n.updated, updatedTime:n.updatedTime, topic:n.topic, topicName:names[n.topic]||'', wordCount:n.wordCount||0, desc:n.desc||''}; });
 }
 function cfDayLabel(d, genDay){
   if (d === genDay) return '今天 · ' + d;
@@ -1593,7 +1593,7 @@ function cfDocRow(n){
   var icon = n.topic === 'infrastructure' ? '⚡' : (n.topic === 'enterprise' ? '🏢' : (n.topic === 'pipeline' ? '📚' : (n.topic === 'raw' ? '🗂' : '🤖')));
   var meta = [];
   if (n.topicName) meta.push('<span>'+escapeHtml(n.topicName)+'</span>');
-  if (n.updated) meta.push('<span>'+escapeHtml(n.updated)+'</span>');
+  if (n.updated) meta.push('<span>'+escapeHtml(n.updatedTime || n.updated)+'</span>');
   if (wc) meta.push('<span>'+Math.round(wc/100)/10+'k 字 · '+mins+' 分钟</span><span class="rd">全文可读</span>');
   return '<div class="cf-doc" onclick="openGraphNodeByPath(\'' + String(n.path).replace(/'/g,"\\'") + '\')">'
     + '<div class="cf-ic t-' + (n.topic || 'agent') + '">' + icon + '</div>'
@@ -1619,7 +1619,7 @@ function cfRelatedNotes(q, limit){
   var catMap = { '企业AI与商业化':'enterprise', 'AI产业链与基础设施':'infrastructure', 'AI Agent工程':'agent', '跨专题综合':'enterprise' };
   var tk = catMap[String(q.category || '').trim()] || '';
   var fb = tk ? (OBSIDIAN_GRAPH.nodes || []).filter(function(n){ return n.topic === tk; })
-      .sort(function(a,b){ return String(b.updated||'').localeCompare(String(a.updated||'')); }).slice(0, limit || 5) : [];
+      .sort(function(a,b){ return String(b.updatedTime||b.updated||'').localeCompare(String(a.updatedTime||a.updated||'')); }).slice(0, limit || 5) : [];
   fb.fuzzy = true;
   return fb;
 }
@@ -1743,7 +1743,7 @@ function renderDesktopToday() {
     var list = (t.key === 'raw'
       ? nodes.filter(function(n){ return /原始资料/.test(n.path); })
       : nodes.filter(function(n){ return n.topic === t.key; }))
-      .sort(function(a,b){ return String(b.updated||'').localeCompare(String(a.updated||'')); });
+      .sort(function(a,b){ return String(b.updatedTime||b.updated||'').localeCompare(String(a.updatedTime||a.updated||'')); });
     return { t: t, list: list, latest: list.length ? (list[0].updated || '') : '' };
   }).filter(function(x){ return x.list.length; })
     .sort(function(a,b){ return String(b.latest).localeCompare(String(a.latest)); });
@@ -1953,7 +1953,7 @@ function topicFilesOf(key){
   return (key === 'raw'
     ? nodes.filter(function(n){ return /原始资料/.test(n.path); })
     : nodes.filter(function(n){ return n.topic === key; }))
-    .sort(function(a,b){ return (b.updated||'').localeCompare(a.updated||''); });
+    .sort(function(a,b){ return (b.updatedTime||b.updated||'').localeCompare(a.updatedTime||a.updated||''); });
 }
 
 function openTopic(idx){

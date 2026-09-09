@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-09",
- "generatedTime": "2026-09-09 20:21",
+ "generatedTime": "2026-09-09 20:48",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 39,
- "weeklyChanges": 592,
+ "weeklyPages": 112,
+ "weeklyChanges": 515,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-08｜AI知识增量整理.md",
  "topics": [
@@ -110,11 +110,17 @@ window.OBSIDIAN_DATA = {
    "count": 2
   },
   {
+   "name": "我的洞察",
+   "key": "myinsights",
+   "icon": "💡",
+   "count": 2
+  },
+  {
    "key": "raw",
    "name": "原始资料 / 养料",
    "icon": "🗂",
    "color": "raw",
-   "count": 36
+   "count": 124
   }
  ],
  "nodes": [
@@ -122,6 +128,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/AI Agent专业术语词典.md",
    "title": "AI Agent 专业术语词典",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -164,7 +171,8 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识库健康巡检执行规范.md",
     "Codex工作区/每日跨项目复盘/2026-07-09.md",
     "Codex工作区/每日跨项目复盘/2026-07-11.md",
-    "Codex工作区/每日跨项目复盘/2026-07-28.md"
+    "Codex工作区/每日跨项目复盘/2026-07-28.md",
+    "原始资料/已整理｜2026-08-06｜抖音豆包｜张宇技术栈Agent系统7种架构.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 40916
@@ -173,6 +181,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/AI Agent全面理解.md",
    "title": "AI Agent 全面理解",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -200,6 +209,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
    "title": "AI Agent发展路径：从会说到会做再到能操作业务",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "AI Agent工程知识/AI Agent工程知识专题",
@@ -230,6 +240,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/AI Agent后端工程化能力框架：分布式、异步、状态与可运维.md",
    "title": "AI Agent 后端工程化能力框架：分布式、异步、状态与可运维",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -253,6 +264,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
    "title": "AI Agent 工程的行业语言映射：从内部术语到 Palantir / FDE / 数据治理标准",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -284,6 +296,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/AI Agent工程知识专题.md",
    "title": "AI Agent 工程知识专题",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "徐总的知识库",
@@ -356,7 +369,8 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/每日跨项目复盘/2026-07-13.md",
     "Codex工作区/每日跨项目复盘/2026-07-28.md",
     "DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
+    "DeepSeek Harness项目/DeepSeek Harness项目记录.md",
+    "原始资料/已整理｜2026-08-06｜抖音豆包｜张宇技术栈Agent系统7种架构.md"
    ],
    "desc": "上级：徐总的知识库",
    "wordCount": 13867
@@ -365,6 +379,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/AI Agent工程知识框架.md",
    "title": "AI Agent 工程知识框架",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -389,6 +404,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/AI Agent面试14题学习版：从概念到甘食记项目落地.md",
    "title": "AI Agent 面试 14 题学习版：从概念到甘食记项目落地",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -415,6 +431,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/AI Agent面试知识地图.md",
    "title": "AI Agent 面试知识地图",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "AI Agent专业术语词典",
@@ -435,6 +452,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/AI模型选型与订阅历史.md",
    "title": "AI 模型选型与订阅历史",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "AI Agent工程知识/AI Agent工程知识专题",
@@ -451,6 +469,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
    "title": "Agent系统架构模式选型：从单Agent到Graph Workflow",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -470,7 +489,9 @@ window.OBSIDIAN_DATA = {
     "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
     "知识流水线/知识库健康巡检.md",
     "Codex工作区/每日跨项目复盘/2026-08-07.md",
-    "Codex工作区/每日跨项目复盘/2026-08-08.md"
+    "Codex工作区/每日跨项目复盘/2026-08-08.md",
+    "原始资料/已整理｜2026-08-06｜抖音豆包｜张宇技术栈Agent系统7种架构.md",
+    "原始资料/已整理｜2026-08-07｜抖音豆包｜AI大模型果果姐AIAgent框架选错白忙三个月.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 6740
@@ -479,6 +500,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md",
    "title": "DeepSeek Harness Control Gateway 设计与调研",
    "updated": "2026-08-31",
+   "updatedTime": "2026-08-31 11:03",
    "topic": "agent",
    "links": [
     "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录",
@@ -494,6 +516,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.1.md",
    "title": "DeepSeek Harness 插件与模式设计规范 V1.1",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -512,6 +535,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2.md",
    "title": "DeepSeek Harness 插件与模式设计规范 V1.2",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -527,7 +551,8 @@ window.OBSIDIAN_DATA = {
     "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
     "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）.md",
     "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
+    "原始资料/已整理｜2026-08-21｜人工测试｜测试 Jarvis 四阶段工作流验证.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 22080
@@ -536,6 +561,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md",
    "title": "DeepSeek Harness 飞书 IM 接入搭建与运行记录",
    "updated": "2026-08-30",
+   "updatedTime": "2026-08-30 21:55",
    "topic": "agent",
    "links": [
     "AI Agent工程知识/多Agent协作架构-豆包助手WorkBuddyFridayCodex全链路",
@@ -549,7 +575,8 @@ window.OBSIDIAN_DATA = {
     "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md",
     "知识流水线/A_原始资料.md",
     "Codex工作区/Memory Guard - 多Agent接入指南.md",
-    "任务面板与知识库/任务卡/Alpha-Friday搭建与会话修复-20260830.md"
+    "任务面板与知识库/任务卡/Alpha-Friday搭建与会话修复-20260830.md",
+    "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论.md"
    ],
    "desc": "DeepSeek Harness（Friday 主控 Agent）通过Harness 原生 IM 插件直接接入飞书机器人，无需经过 Codex/Jarvis 转发。这是 Harne",
    "wordCount": 10889
@@ -558,6 +585,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）.md",
    "title": "DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）",
    "updated": "2026-08-31",
+   "updatedTime": "2026-08-31 16:21",
    "topic": "agent",
    "links": [
     "原始资料/已整理｜2026-08-21｜Qwen-UI-Agent与Harness自重启能力方向",
@@ -580,6 +608,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md",
    "title": "Deepseek Harness：框架概念与专属智能体搭建",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -606,6 +635,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/FDE业务输出到后端工程的翻译映射：从业务对象到工程实现.md",
    "title": "FDE 业务输出到后端工程的翻译映射：从业务对象到工程实现",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -624,6 +654,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象.md",
    "title": "Ontology基础概念：从本体论到企业业务对象",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "agent",
    "links": [
     "AI Agent工程知识/AI Agent工程知识专题",
@@ -645,7 +676,8 @@ window.OBSIDIAN_DATA = {
     "知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作.md",
     "知识流水线/知识库健康巡检.md",
     "知识流水线/知识库架构判断原则：从资料到概念、方法论、案例与专题归属.md",
-    "Codex工作区/每日跨项目复盘/2026-08-08.md"
+    "Codex工作区/每日跨项目复盘/2026-08-08.md",
+    "原始资料/已整理｜2026-08-08｜抖音豆包｜用本体重塑企业AI语义基座.md"
    ],
    "desc": "上级：AI Agent工程知识/AI Agent工程知识专题",
    "wordCount": 5726
@@ -654,6 +686,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/Palantir式Ontology的真实价值：从业务语义到可执行系统.md",
    "title": "Palantir式Ontology的真实价值：从业务语义到可执行系统",
    "updated": "2026-09-07",
+   "updatedTime": "2026-09-07 17:56",
    "topic": "agent",
    "links": [
     "原始资料/已整理｜2026-09-04｜微信公众号｜万字长文Palantir式本体对AI的真实价值",
@@ -669,6 +702,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/WorkBuddy助理配置与记忆管理手册.md",
    "title": "WorkBuddy 助理配置与记忆管理手册",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "生产级AI Agent记忆系统与Context调度",
@@ -684,6 +718,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/WorkBuddy智能体运营机制（Agent Ontology）.md",
    "title": "WorkBuddy 智能体运营机制（Agent Ontology）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "WorkBuddy助理配置与记忆管理手册",
@@ -699,6 +734,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/三层知识库与RAG基础设施分型.md",
    "title": "三层知识库与 RAG 基础设施分型",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -723,6 +759,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/为什么做多智能体：Codex内部多线程vs跨平台多智能体.md",
    "title": "为什么做多智能体：Codex 内部多线程 vs 跨平台多智能体",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "AI Agent工程知识/AI Agent工程知识专题",
@@ -740,6 +777,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/全域智能体健康度审查方法论.md",
    "title": "全域智能体健康度审查方法论",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [],
    "backlinks": [],
@@ -750,6 +788,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/全域智能体框架总览.md",
    "title": "全域智能体框架总览",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "全域智能体健康度审查方法论",
@@ -765,6 +804,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/全域智能体系统本体与健康治理.md",
    "title": "全域智能体系统本体与健康治理",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [],
    "backlinks": [
@@ -777,6 +817,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）.md",
    "title": "整理稿｜ChatGPT 生产级 AI Agent 框架（2026-06-11）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "AI Agent工程知识框架",
@@ -792,6 +833,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/多Agent协作架构-豆包助手WorkBuddyFridayCodex全链路.md",
    "title": "多 Agent 协作架构",
    "updated": "2026-08-30",
+   "updatedTime": "2026-08-30 23:41",
    "topic": "agent",
    "links": [
     "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论"
@@ -802,7 +844,8 @@ window.OBSIDIAN_DATA = {
     "知识流水线/A_原始资料.md",
     "Codex工作区/Memory Guard - 多Agent上下文连续性管理.md",
     "Codex工作区/Memory Guard - 多Agent接入指南.md",
-    "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
+    "DeepSeek Harness项目/DeepSeek Harness项目记录.md",
+    "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论.md"
    ],
    "desc": "豆包助手和 WorkBuddy 首先是可以独立完成目标的 Agent 入口，不是必须把所有任务下放给 DeepSeek Harness 的路由前端。DeepSeek Harness",
    "wordCount": 5312
@@ -811,6 +854,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/多Agent架构选型决策卡：Manager-Handoff-Agent-as-Tool.md",
    "title": "多Agent架构选型决策卡：Manager-Handoff-Agent-as-Tool",
    "updated": "2026-09-07",
+   "updatedTime": "2026-09-07 17:56",
    "topic": "agent",
    "links": [
     "原始资料/已整理｜2026-09-04｜抖音｜多Agent架构选型：Manager Handoff Agent-as-Tool底层区别"
@@ -825,6 +869,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/多智能体共享记忆：TencentDB Agent Memory 评估.md",
    "title": "多智能体共享记忆：TencentDB Agent Memory 评估",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [],
    "backlinks": [
@@ -837,6 +882,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/多智能体协作闭环方法：主控-规划-执行-验收.md",
    "title": "多智能体协作闭环方法：主控-规划-执行-验收",
    "updated": "2026-09-02",
+   "updatedTime": "2026-09-02 12:55",
    "topic": "agent",
    "links": [
     "全局记忆/智能体启动与身份连续性统一合同",
@@ -856,6 +902,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/工业级多智能体协作系统设计：任务编排、依赖治理与结果对齐.md",
    "title": "工业级多智能体协作系统设计：任务编排、依赖治理与结果对齐",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -875,6 +922,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/显性知识与隐性知识的工程化入库机制.md",
    "title": "显性知识与隐性知识的工程化入库机制",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -907,6 +955,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/智能体使用逻辑问题复盘-垂直任务实践（旅行案例）.md",
    "title": "智能体使用逻辑问题复盘：垂直任务实践（旅行案例）",
    "updated": "2026-08-28",
+   "updatedTime": "2026-08-28 19:11",
    "topic": "agent",
    "links": [
     "AI Agent工程知识/AI Agent工程知识专题",
@@ -927,6 +976,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/生产级AI Agent工程体系的完整链路.md",
    "title": "生产级 AI Agent 工程体系的完整链路",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "生产级AI Agent知识体系总览：层级·特性·术语",
@@ -971,6 +1021,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
    "title": "生产级 AI Agent 知识体系总览：层级·特性·术语（含 Palantir Ontology 对标）",
    "updated": "2026-08-31",
+   "updatedTime": "2026-08-31 17:04",
    "topic": "agent",
    "links": [
     "企业AI与生产级Agent总框架",
@@ -1021,7 +1072,10 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识库健康巡检.md",
     "Codex工作区/每日跨项目复盘/2026-07-13.md",
     "徐总每日随记/当日记录/2026-07-04.md",
-    "徐总每日随记/当日记录/2026-07-05.md"
+    "徐总每日随记/当日记录/2026-07-05.md",
+    "原始资料/已整理｜2026-08-05｜ChatGPT｜美团小团Agent架构与Ontology分析.md",
+    "原始资料/已整理｜2026-08-25｜微信公众号·远川研究所｜办公Agent大战重点不是Agent（上下文才是护城河）.md",
+    "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论.md"
    ],
    "desc": "定位：本页属于 企业AI与生产级Agent总框架 中的工程定义线。它负责定义生产级 Agent 的概念、标准、能力链路和验收口径；甘食记、美团、咨询公司、制造业等案例属于业务落地线",
    "wordCount": 44486
@@ -1030,6 +1084,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/生产级AI Agent记忆系统与Context调度.md",
    "title": "生产级 AI Agent 记忆系统与 Context 调度",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -1056,6 +1111,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
    "title": "生产级 RAG 与数据库知识库架构：事实库、文档知识库与状态机",
    "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 19:13",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -1101,6 +1157,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈.md",
    "title": "生产级知识库工程的 8 大模块：数据·切分·索引·检索·生成·评估·工程·反馈",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -1131,6 +1188,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI Agent工程知识/飞书多智能体连接故障恢复手册.md",
    "title": "飞书多智能体连接故障恢复手册（外部智能体执行版）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "agent",
    "links": [],
    "backlinks": [
@@ -1143,6 +1201,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机.md",
    "title": "AI交付行业观察：走访7个团队后的困境机会与危机",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -1156,7 +1215,8 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "企业AI与智能体商业化/AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧.md",
     "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
-    "知识流水线/A_原始资料.md"
+    "知识流水线/A_原始资料.md",
+    "原始资料/已整理｜2026-08-04｜抖音豆包｜NeoPicks聊了7个AI交付团队总结困难机会危机.md"
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
    "wordCount": 1962
@@ -1165,6 +1225,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/AI数字化招标与合规治理框架.md",
    "title": "AI数字化招标与合规治理框架",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -1177,7 +1238,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
     "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
     "知识流水线/A_原始资料.md",
-    "知识流水线/知识库健康巡检.md"
+    "知识流水线/知识库健康巡检.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜电网数字化是腐败重灾区.md"
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
    "wordCount": 1897
@@ -1186,6 +1248,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/AI时代的FDE变体：从Palantir驻场模式到Agent工厂.md",
    "title": "AI时代的FDE变体：从Palantir驻场模式到Agent工厂",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1217,6 +1280,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧.md",
    "title": "AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -1234,7 +1298,8 @@ window.OBSIDIAN_DATA = {
     "知识流水线/A_原始资料.md",
     "Codex工作区/每日跨项目复盘/2026-08-12.md",
     "Codex工作区/每日跨项目复盘/2026-08-13.md",
-    "Codex工作区/每日跨项目复盘/2026-08-14.md"
+    "Codex工作区/每日跨项目复盘/2026-08-14.md",
+    "原始资料/已整理｜2026-08-13｜ChatGPT｜AI行业落地认知的混乱.md"
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
    "wordCount": 2684
@@ -1243,6 +1308,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地.md",
    "title": "ANC方法论：FDE如何用AI原生组织承接企业落地",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -1253,7 +1319,8 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [
     "知识流水线/A_原始资料.md",
-    "Codex工作区/每日跨项目复盘/2026-08-12.md"
+    "Codex工作区/每日跨项目复盘/2026-08-12.md",
+    "原始资料/已整理｜2026-08-12｜抖音｜Solo们chat-FDE如何用ANC搭建AI原生组织.md"
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
    "wordCount": 1728
@@ -1262,6 +1329,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法.md",
    "title": "FDE 访谈到业务关系模型的编译方法",
    "updated": "2026-08-28",
+   "updatedTime": "2026-08-28 15:17",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1279,7 +1347,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
     "知识流水线/A_原始资料.md",
     "知识流水线/知识库健康巡检.md",
-    "Codex工作区/每日跨项目复盘/2026-07-28.md"
+    "Codex工作区/每日跨项目复盘/2026-07-28.md",
+    "原始资料/已整理｜2026-08-25｜微信公众号·远川研究所｜办公Agent大战重点不是Agent（上下文才是护城河）.md"
    ],
    "desc": "日期：2026-06-14",
    "wordCount": 3833
@@ -1288,6 +1357,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/FDE与AI架构师核心资产能力.md",
    "title": "FDE与AI架构师核心资产能力",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -1318,6 +1388,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢.md",
    "title": "FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1352,7 +1423,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
     "企业AI与智能体商业化/零一万物企业AI落地专题.md",
     "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md",
-    "Codex工作区/每日跨项目复盘/2026-07-28.md"
+    "Codex工作区/每日跨项目复盘/2026-07-28.md",
+    "原始资料/已整理｜2026-07-30｜抖音｜企业AI落地真实内幕4个反常识真相.md"
    ],
    "desc": "上级：企业AI与智能体商业化专题",
    "wordCount": 3899
@@ -1361,6 +1433,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
    "title": "FDE业务需求访谈SOP",
    "updated": "2026-08-28",
+   "updatedTime": "2026-08-28 15:17",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -1398,6 +1471,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/FDE交付方法论与甘食记案例.md",
    "title": "FDE 交付方法论与甘食记案例",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1430,6 +1504,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/FDE企业真实落地案例库：按行业分类的企业AI落地实战.md",
    "title": "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
    "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 10:47",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化",
@@ -1449,6 +1524,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/FDE商业级智能体交付框架.md",
    "title": "FDE 商业级智能体交付框架：业务需求、落地架构、使用体验",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "按业务形态设计AI Agent架构：日经营型、项目制与产品化项目",
@@ -1482,7 +1558,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
     "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
     "知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作.md",
-    "徐总每日随记/当日记录/2026-07-04.md"
+    "徐总每日随记/当日记录/2026-07-04.md",
+    "原始资料/已整理｜2026-07-30｜抖音｜企业AI落地真实内幕4个反常识真相.md"
    ],
    "desc": "日期：2026-06-01",
    "wordCount": 12402
@@ -1491,6 +1568,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）.md",
    "title": "FDE 在甲方搭建 Ontology Objects 的完整工作流（含客户沟通+行业语言对齐）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1517,6 +1595,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/FDE建设轻量业务Ontology：从关系模型设计到飞书实施验收.md",
    "title": "FDE 建设轻量业务 Ontology：从关系模型设计到飞书实施验收",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1540,6 +1619,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/FDE搭建智能体落地：企业分级、平台选型与合规交付.md",
    "title": "FDE搭建智能体落地：企业分级、平台选型与合规交付",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI落地的五堵墙+四层面系统工程+五层落地方法论"
@@ -1555,6 +1635,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
    "title": "FDE生产级AI Agent五阶段方法论与AI基建协同",
    "updated": "2026-08-28",
+   "updatedTime": "2026-08-28 15:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1588,7 +1669,8 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/每日跨项目复盘/2026-07-13.md",
     "Codex工作区/每日跨项目复盘/2026-07-22.md",
     "Codex工作区/每日跨项目复盘/2026-07-27.md",
-    "Codex工作区/每日跨项目复盘/2026-07-28.md"
+    "Codex工作区/每日跨项目复盘/2026-07-28.md",
+    "原始资料/已整理｜2026-08-25｜微信公众号·远川研究所｜办公Agent大战重点不是Agent（上下文才是护城河）.md"
    ],
    "desc": "上级：企业AI与智能体商业化专题",
    "wordCount": 7821
@@ -1597,6 +1679,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/OpenClaw统一调用入口与委派规则.md",
    "title": "OpenClaw统一调用入口与委派规则",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1611,6 +1694,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/Palantir Ontology Pipeline商业模式与甘食记框架融合.md",
    "title": "Palantir Ontology Pipeline商业模式与甘食记框架融合",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1650,6 +1734,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/WorkBuddy与MCP落地业务场景的通用失败模式与治理框架.md",
    "title": "WorkBuddy与MCP落地业务场景的通用失败模式与治理框架",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1670,6 +1755,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/WorkBuddy专家包与专家团搭建SOP.md",
    "title": "WorkBuddy专家包与专家团搭建SOP",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1691,6 +1777,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/WorkBuddy稳定智能体架构搭建框架.md",
    "title": "WorkBuddy稳定智能体架构搭建框架",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1712,6 +1799,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/WorkBuddy经营主理人搭建与甘食记模拟数据测试.md",
    "title": "WorkBuddy经营主理人搭建与甘食记模拟数据测试",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1736,6 +1824,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/WorkBuddy自动化任务与手动会话运行一致性.md",
    "title": "WorkBuddy自动化任务与手动会话运行一致性",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -1755,6 +1844,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/WorkBuddy调用百炼Agent与Workflow的组合打法.md",
    "title": "WorkBuddy 调用百炼 Agent / Workflow 的组合打法",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题"
@@ -1767,6 +1857,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/WorkBuddy连接图谱.md",
    "title": "WorkBuddy 连接图谱",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "徐总每日随记/当日记录/2026-06-10",
@@ -1780,6 +1871,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/从甘食记MVP到可交付B端产品：FDE产品化路线图.md",
    "title": "从甘食记 MVP 到可交付 B 端产品：FDE 产品化路线图",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
@@ -1801,6 +1893,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线.md",
    "title": "任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -1815,7 +1908,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md",
     "企业AI与智能体商业化/知识库索引.md",
     "知识流水线/A_原始资料.md",
-    "Codex工作区/每日跨项目复盘/2026-08-12.md"
+    "Codex工作区/每日跨项目复盘/2026-08-12.md",
+    "原始资料/已整理｜2026-08-12｜对话整理｜任务闭环与业务闭环分离-GrokBot数字岗位vs经营Agent.md"
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
    "wordCount": 1896
@@ -1824,6 +1918,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/企业AI与FDE增量整理（2026-08-27至08-28）.md",
    "title": "企业AI与FDE增量整理（2026-08-27至08-28）",
    "updated": "2026-08-31",
+   "updatedTime": "2026-08-31 16:23",
    "topic": "enterprise",
    "links": [
     "原始资料/已整理｜2026-08-27｜探讨·企业级AI工程化闭环选型：必要性边界、RPA替代与维护可持续性",
@@ -1845,6 +1940,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
    "title": "企业 AI 与智能体商业化专题",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 10:05",
    "topic": "enterprise",
    "links": [
     "徐总的知识库",
@@ -1990,7 +2086,11 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/每日跨项目复盘/2026-08-12.md",
     "Codex工作区/飞书多智能体会议流程：群协同与Obsidian拍板机制.md",
     "政府资源配置与政策落地机制/政府推动产业发展的政策传导与招商逻辑.md",
-    "政府资源配置与政策落地机制/政府资源配置与政策落地机制专题.md"
+    "政府资源配置与政策落地机制/政府资源配置与政策落地机制专题.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜电网数字化是腐败重灾区.md",
+    "原始资料/已整理｜2026-08-04｜抖音豆包｜NeoPicks聊了7个AI交付团队总结困难机会危机.md",
+    "原始资料/已整理｜2026-08-05｜ChatGPT｜美团小团Agent架构与Ontology分析.md",
+    "原始资料/已整理｜2026-08-15｜斯坦福｜Enterprise AI Playbook 企业AI实战手册51个成功落地项目.md"
    ],
    "desc": "上级：徐总的知识库",
    "wordCount": 19894
@@ -1999,6 +2099,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
    "title": "企业 AI 与生产级 Agent 总框架",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "徐总的知识库",
@@ -2039,6 +2140,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/企业AI专题轻量编译流程.md",
    "title": "企业 AI 专题轻量编译流程",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2059,6 +2161,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
    "title": "企业 AI 从试点到可交付项目：商业化与组织落地实战",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2097,7 +2200,9 @@ window.OBSIDIAN_DATA = {
     "知识流水线/A_原始资料.md",
     "Codex工作区/每日跨项目复盘/2026-07-13.md",
     "Codex工作区/每日跨项目复盘/2026-07-15.md",
-    "Codex/Codex五级用法演进模型.md"
+    "Codex/Codex五级用法演进模型.md",
+    "原始资料/已整理｜2026-07-30｜抖音｜企业AI落地真实内幕4个反常识真相.md",
+    "原始资料/已整理｜2026-09-08｜抖音分享｜FDE企业真实落地案例：汽车零部件制造企业AI数据分析系统.md"
    ],
    "desc": "创建日期：2026-07-02",
    "wordCount": 18269
@@ -2106,6 +2211,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图.md",
    "title": "企业AI知识资产与RAG工程关系图",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2136,6 +2242,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利.md",
    "title": "企业AI知识资产：从知识库到组织能力与AI复利",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2152,7 +2259,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战.md",
     "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
     "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
-    "Codex工作区/每日跨项目复盘/2026-07-13.md"
+    "Codex工作区/每日跨项目复盘/2026-07-13.md",
+    "原始资料/已整理｜2026-07-30｜抖音｜企业AI落地真实内幕4个反常识真相.md"
    ],
    "desc": "上级：企业AI与智能体商业化专题",
    "wordCount": 2827
@@ -2161,6 +2269,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
    "title": "企业 AI 落地的五堵墙 + 四层面系统工程 + 五层落地方法论",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2187,7 +2296,8 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "企业AI与智能体商业化/知识库索引.md",
     "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
-    "Codex工作区/每日跨项目复盘/2026-07-15.md"
+    "Codex工作区/每日跨项目复盘/2026-07-15.md",
+    "原始资料/已整理｜2026-07-30｜抖音｜企业AI落地真实内幕4个反常识真相.md"
    ],
    "desc": "上级：企业AI与智能体商业化专题",
    "wordCount": 9455
@@ -2196,6 +2306,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/企业AI蓝图：经营、知识、AI架构与工程.md",
    "title": "企业AI蓝图：经营、知识、AI架构与工程",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2236,6 +2347,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径.md",
    "title": "企业应用架构六阶段演化与 AI Agent 融合路径",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2266,6 +2378,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/企业智能体架构层次：框架、服务器、模型平台与业务系统.md",
    "title": "企业智能体架构层次：框架、服务器、模型平台与业务系统",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2296,6 +2409,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构.md",
    "title": "企业级部门智能体全景到跨部门落地架构",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2327,6 +2441,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes.md",
    "title": "内部超级团队架构：WorkBuddy与平板Codex调用OpenClaw和Hermes",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2347,6 +2462,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通.md",
    "title": "制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通",
    "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 10:47",
    "topic": "enterprise",
    "links": [
     "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
@@ -2364,6 +2480,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料.md",
    "title": "原始资料",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2384,6 +2501,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁.md",
    "title": "可交付型智能体搭建方法论：从软规则到确定性运行时与质量门禁",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2406,6 +2524,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/多智能体双向连接架构_20260610.md",
    "title": "多智能体双向连接架构（2026-06-10 实现）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [],
    "backlinks": [
@@ -2418,6 +2537,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/多门店经营智能体的批量分析与扩展性架构.md",
    "title": "多门店经营智能体的批量分析与扩展性架构",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2437,6 +2557,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/客户业务API到经营分析与飞书多维表格闭环SOP.md",
    "title": "客户业务API到经营分析与飞书多维表格闭环SOP",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2478,6 +2599,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/小型文化咨询公司 AI Agent 整体落地方案.md",
    "title": "小型文化咨询公司 AI Agent 整体落地方案",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2506,6 +2628,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/小程序数据结构与API接入调研框架.md",
    "title": "小程序数据结构与API接入调研框架",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2523,6 +2646,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团.md",
    "title": "己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2558,6 +2682,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md",
    "title": "己未文化AI落地：首次接触沟通作战卡（测试版）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团",
@@ -2592,6 +2717,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/己未文化AI落地首谈会议纪要：客户资产管理第一阶段.md",
    "title": "己未文化AI落地首谈会议纪要：客户资产管理第一阶段",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -2618,6 +2744,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径.md",
    "title": "己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 10:05",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -2640,6 +2767,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册.md",
    "title": "己未文化咨询公司 FDE 落地与生产级 Agent 实战手册",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 10:22",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -2662,6 +2790,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/己未文化资料速查入口.md",
    "title": "己未文化资料速查入口",
    "updated": "2026-09-07",
+   "updatedTime": "2026-09-08 01:49",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -2685,6 +2814,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/待整理稿｜AI商业落地第一步是数据治理（Corvera案例）.md",
    "title": "AI商业落地第一步是数据治理（Corvera 案例蒸馏）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "enterprise",
    "links": [],
    "backlinks": [],
@@ -2695,6 +2825,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
    "title": "按业务形态设计 AI Agent 架构：日经营型、项目制与生产制造型",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2720,6 +2851,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/政务AI Agent工程化与上海6598万招标研究.md",
    "title": "政务AI Agent工程化与上海6598万招标研究",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
@@ -2743,6 +2875,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/文化咨询公司AI Agent主方案V4.3.md",
    "title": "文化咨询公司AI Agent主方案V4.3",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2774,6 +2907,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/文化咨询公司甲方最小切口：咨询后服务记录闭环.md",
    "title": "文化咨询公司甲方最小切口：咨询后服务记录闭环",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2795,6 +2929,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/斯坦福企业AI实战手册：51个成功样本与三档人机协作模式.md",
    "title": "斯坦福企业AI实战手册：51个成功样本与三档人机协作模式",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -2806,7 +2941,8 @@ window.OBSIDIAN_DATA = {
     "任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线"
    ],
    "backlinks": [
-    "知识流水线/A_原始资料.md"
+    "知识流水线/A_原始资料.md",
+    "原始资料/已整理｜2026-08-15｜斯坦福｜Enterprise AI Playbook 企业AI实战手册51个成功落地项目.md"
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
    "wordCount": 2591
@@ -2815,6 +2951,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/本地智能体项目文件分层与产品交付框架.md",
    "title": "本地智能体项目文件分层与产品交付框架",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2832,6 +2969,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
    "title": "李开复企业AI认知：从基座大模型到一号位工程",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 12:15",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/零一万物企业AI落地专题",
@@ -2844,7 +2982,9 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [
     "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md",
-    "知识流水线/A_原始资料.md"
+    "知识流水线/A_原始资料.md",
+    "原始资料/已整理｜2026-09-08｜抖音分享｜FDE企业真实落地案例：汽车零部件制造企业AI数据分析系统.md",
+    "原始资料/已整理｜2026-09-08｜李开复｜AI现状与未来深度对话原始稿索引.md"
    ],
    "desc": "上级：企业AI与智能体商业化/零一万物企业AI落地专题、企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
    "wordCount": 5189
@@ -2853,6 +2993,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md",
    "title": "案例-美团小团Agent工程化差距分析",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -2864,7 +3005,8 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
-    "知识流水线/A_原始资料.md"
+    "知识流水线/A_原始资料.md",
+    "原始资料/已整理｜2026-08-05｜ChatGPT｜美团小团Agent架构与Ontology分析.md"
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
    "wordCount": 1782
@@ -2873,6 +3015,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
    "title": "游戏公司 AI 组织落地：从流程提效到生产方式重构",
    "updated": "2026-08-28",
+   "updatedTime": "2026-08-28 15:17",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -2898,6 +3041,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
    "title": "游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -2910,7 +3054,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md",
     "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
     "知识流水线/A_原始资料.md",
-    "Codex工作区/每日跨项目复盘/2026-08-11.md"
+    "Codex工作区/每日跨项目复盘/2026-08-11.md",
+    "原始资料/已整理｜2026-08-25｜微信公众号·远川研究所｜办公Agent大战重点不是Agent（上下文才是护城河）.md"
    ],
    "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题",
    "wordCount": 832
@@ -2919,6 +3064,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/甘食记Ontology对象网络设计.md",
    "title": "甘食记 Ontology 对象网络 — 完整版（2026-06-17）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）",
@@ -2940,6 +3086,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
    "title": "甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
    "updated": "2026-08-28",
+   "updatedTime": "2026-08-28 15:17",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -2987,6 +3134,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时.md",
    "title": "甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -3005,6 +3153,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/甘食记经营工作台建设与验收.md",
    "title": "甘食记经营工作台建设与验收",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -3024,6 +3173,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器.md",
    "title": "甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -3045,6 +3195,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线.md",
    "title": "甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "甘食记经营专家团试验复盘：从MD规则驱动转向确定性运行时",
@@ -3058,6 +3209,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/甘食记经营智能体需求诊断清单.md",
    "title": "甘食记经营智能体需求诊断清单",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "FDE交付方法论与甘食记案例",
@@ -3075,6 +3227,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/甘食记经营智能体：从规则补丁到三角色协作.md",
    "title": "甘食记经营智能体：从规则补丁到三角色协作",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -3093,6 +3246,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/甘食记经营系统1.0框架总结.md",
    "title": "甘食记经营系统 1.0 框架总结",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "甘食记经营工作台建设与验收",
@@ -3135,6 +3289,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/甘食记经营系统完整演进时间线.md",
    "title": "甘食记经营系统完整演进时间线",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "甘食记经营智能体完整演进复盘：从模拟数据到受保护生产基线",
@@ -3159,6 +3314,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执.md",
    "title": "甘食记经营系统生产级架构演进：从MD规则到确定性运行时与发布回执",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -3180,6 +3336,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
    "title": "生产级 AI Agent 的三层标准：方法标准、实现标准与对标标准",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "AI Agent工程知识/AI Agent工程知识专题",
@@ -3198,7 +3355,8 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "AI Agent工程知识/AI Agent工程知识专题.md",
     "企业AI与智能体商业化/企业AI与生产级Agent总框架.md",
-    "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md"
+    "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
+    "原始资料/已整理｜2026-08-13｜ChatGPT｜AI行业落地认知的混乱.md"
    ],
    "desc": "创建日期：2026-07-01",
    "wordCount": 3867
@@ -3207,6 +3365,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/生产级AI Agent融合架构：AI推理+企业级数据治理.md",
    "title": "生产级 AI Agent 融合架构：AI 推理 + 企业级数据治理",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -3225,6 +3384,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/电力合作伙伴能力画像与充电桩新政挂钩.md",
    "title": "电力合作伙伴能力画像与充电桩新政挂钩",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化",
@@ -3240,6 +3400,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/知识库索引.md",
    "title": "知识库索引（快速查找版）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "enterprise",
    "links": [
     "徐总的知识库",
@@ -3292,6 +3453,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
    "title": "科技咨询公司 FDE 访谈样本：从业务线选择到项目交付 Agent",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -3330,6 +3492,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
    "title": "科技咨询公司业务AI系统落地方案",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -3358,6 +3521,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md",
    "title": "腾讯FDE模式行业观察与实践报告研究",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 12:15",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -3374,7 +3538,9 @@ window.OBSIDIAN_DATA = {
     "AI时代的FDE变体：从Palantir驻场模式到Agent工厂"
    ],
    "backlinks": [
-    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md"
+    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
+    "原始资料/已整理｜2026-09-08｜李开复｜AI现状与未来深度对话原始稿索引.md",
+    "原始资料/已整理｜2026-09-08｜腾讯研究院｜FDE模式行业观察与实践原始稿索引.md"
    ],
    "desc": "上级：企业AI与智能体商业化专题",
    "wordCount": 11882
@@ -3383,6 +3549,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/腾讯Marvis与操作系统级Agent产品思维.md",
    "title": "腾讯 Marvis 与操作系统级 Agent 产品思维",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -3396,6 +3563,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/蜀道金租生产级AI建设方案：从个人辅助到企业生产级的演进路径.md",
    "title": "蜀道金租生产级AI建设方案：从个人辅助到企业生产级的演进路径",
    "updated": "2026-09-07",
+   "updatedTime": "2026-09-08 00:28",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -3422,6 +3590,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/阿里云百炼与FDE智能体项目沉淀索引.md",
    "title": "阿里云百炼与 FDE 智能体项目沉淀索引",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -3439,6 +3608,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
    "title": "集成商AI基础设施布局到AI Agent生产企业演进路径",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -3475,6 +3645,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
    "title": "零一万物CTO视角：从万策概念到私有化部署与数据库工程",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/零一万物企业AI落地专题",
@@ -3499,6 +3670,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/零一万物FDE与企业AI落地模式.md",
    "title": "零一万物、FDE 与企业 AI 落地模式",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "徐总的知识库",
@@ -3522,6 +3694,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/零一万物企业AI落地专题.md",
    "title": "零一万物企业AI落地专题",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -3556,6 +3729,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究.md",
    "title": "零一万物：万策决策中枢、一号位工程与企业AI落地研究",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/零一万物企业AI落地专题",
@@ -3585,7 +3759,8 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/零一万物企业AI落地专题.md",
     "企业AI与智能体商业化/原始资料/GPT对话原稿：零一万物AI智能体落地与万策官方解读.md",
     "知识流水线/知识库健康巡检.md",
-    "Codex工作区/每日跨项目复盘/2026-07-29.md"
+    "Codex工作区/每日跨项目复盘/2026-07-29.md",
+    "原始资料/已整理｜2026-09-08｜李开复｜AI现状与未来深度对话原始稿索引.md"
    ],
    "desc": "上级：企业AI与智能体商业化/零一万物企业AI落地专题、企业AI与智能体商业化/企业AI与智能体商业化专题",
    "wordCount": 21400
@@ -3594,6 +3769,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/飞书企业管理模块接入甘食记经营系统融合方案.md",
    "title": "飞书企业管理模块接入甘食记经营系统融合方案",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
@@ -3609,6 +3785,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环.md",
    "title": "飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -3629,6 +3806,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/飞书轻量经营系统 vs Palantir 企业级壁垒：核心哲学一致但工程代差.md",
    "title": "跨生态融合策略：用三层体系低成本复制 Palantir 的 Ontology + AI 闭环",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -3654,6 +3832,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/餐饮客户已有基础设施后的AI Agent.md",
    "title": "餐饮客户已有基础设施后的 AI Agent",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -3683,6 +3862,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/餐饮经营智能体模板与FDE客户对接知识框架.md",
    "title": "餐饮经营智能体模板与FDE客户对接知识框架",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
@@ -3706,6 +3886,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/黄仁勋Harness工程论：企业AI落地的范式转移.md",
    "title": "黄仁勋Harness工程论：企业AI落地的范式转移",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -3731,6 +3912,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/ChatGPT对话｜游戏公司AI组织落地｜2026-08-11.md",
    "title": "ChatGPT 对话｜游戏公司 AI 组织落地",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "../游戏公司AI组织落地：从流程提效到生产方式重构"
@@ -3743,6 +3925,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/GPT对话原稿：AI时代演进史与数字基础设施方向.md",
    "title": "GPT对话原稿：AI时代演进史与数字基础设施方向",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
@@ -3763,6 +3946,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/GPT对话原稿：ERP边界与生产级Agent数字化前置.md",
    "title": "GPT 对话原稿：ERP 边界与生产级 Agent 数字化前置",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "../企业应用架构六阶段演化与AI Agent融合路径",
@@ -3784,6 +3968,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/GPT对话原稿：企业知识库与隐性经验资产化.md",
    "title": "GPT 对话原稿：企业知识库与隐性经验资产化",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/原始资料/科技咨询公司正式版知识库与RAG架构",
@@ -3805,6 +3990,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/GPT对话原稿：企业级数据库与知识库架构边界.md",
    "title": "GPT 对话原稿：企业级数据库与知识库架构边界",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "../科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
@@ -3822,6 +4008,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/GPT对话原稿：线下餐饮门店数字化链路与Agent叠加点.md",
    "title": "GPT对话原稿：线下餐饮门店数字化链路与Agent叠加点",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "原始资料",
@@ -3843,6 +4030,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/GPT对话原稿：部门Agent、业务闭环与AI经营中枢三层关系.md",
    "title": "GPT对话原稿：部门Agent、业务闭环与AI经营中枢三层关系",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构"
@@ -3858,6 +4046,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/GPT对话原稿：隐性知识的工程化采集与入库机制.md",
    "title": "GPT 对话原稿：隐性知识的工程化采集与入库机制",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/原始资料/科技咨询公司正式版知识库与RAG架构",
@@ -3878,6 +4067,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/GPT对话原稿：零一万物AI智能体落地与万策官方解读.md",
    "title": "GPT对话原稿：零一万物AI智能体落地与万策官方解读",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/零一万物企业AI落地专题",
@@ -3897,6 +4087,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/GPT对话原稿：项目交付型Agent的RAG知识库工程链路.md",
    "title": "GPT 对话原稿：项目交付型 Agent 的 RAG 知识库工程链路",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "../科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
@@ -3910,6 +4101,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/IMA检索记录：AI时代资本支出链与应用承接断点.md",
    "title": "IMA检索记录：AI时代资本支出链与应用承接断点",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -3927,6 +4119,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/WorkBuddy甘食记经营分析专家团搭建全记录.md",
    "title": "甘食记经营分析专家团 · 搭建全记录",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [],
    "backlinks": [
@@ -3939,6 +4132,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/企业应用架构六阶段演化：从三张Excel到六大中台.md",
    "title": "企业应用架构六阶段演化：从三张 Excel 到六大中台",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "../企业AI与智能体商业化专题",
@@ -3956,6 +4150,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/制造业AI改造前线判断：先碰信息流而不是生产线.md",
    "title": "制造业 AI 改造前线判断：先碰信息流而不是生产线",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "../资料池",
@@ -3970,6 +4165,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/抖音视频原文：实体制造企业12部门与586个AI业务场景.md",
    "title": "抖音视频原文：实体制造企业12部门与586个AI业务场景",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/企业级部门智能体全景到跨部门落地架构"
@@ -3985,6 +4181,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/科技咨询公司三类业务形态与访谈顺序.md",
    "title": "科技咨询公司三类业务形态与访谈顺序",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "../科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
@@ -4000,6 +4197,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/科技咨询公司正式版知识库与RAG架构.md",
    "title": "科技咨询公司正式版知识库与 RAG 架构",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "../科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent"
@@ -4017,6 +4215,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/科技咨询项目交付Agent工程颗粒度选型.md",
    "title": "科技咨询项目交付 Agent 工程颗粒度选型",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "../科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
@@ -4032,6 +4231,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/科技咨询项目交付作战系统与轻量Ontology设计.md",
    "title": "科技咨询项目交付作战系统与轻量 Ontology 设计",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "../科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent"
@@ -4047,6 +4247,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/美团AI经营参谋与甘食记内部经营系统边界讨论.md",
    "title": "美团 AI 经营参谋与甘食记内部经营系统边界讨论",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "AI Agent工程知识/AI Agent全面理解",
@@ -4073,6 +4274,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/行业视频原稿：交付结果而非交付工具，Vibe Coding打开企业付费意愿.md",
    "title": "行业视频原稿：交付结果而非交付工具，Vibe Coding 打开企业付费意愿",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "原始资料",
@@ -4094,6 +4296,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/原始资料/飞书跨部门协作视频文案：汽车销售生产与一线任务闭环.md",
    "title": "飞书跨部门协作视频文案：汽车销售生产与一线任务闭环",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化/飞书跨部门协作案例：从汽车销售生产到甘食记经营任务闭环"
@@ -4108,6 +4311,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
    "title": "AI产业链与数字基础设施专题",
    "updated": "2026-09-02",
+   "updatedTime": "2026-09-02 18:06",
    "topic": "infrastructure",
    "links": [
     "徐总的知识库",
@@ -4168,7 +4372,21 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识库健康巡检.md",
     "知识流水线/知识库健康巡检执行规范.md",
     "知识流水线/知识库架构判断原则：从资料到概念、方法论、案例与专题归属.md",
-    "Codex工作区/每日跨项目复盘/2026-07-28.md"
+    "Codex工作区/每日跨项目复盘/2026-07-28.md",
+    "原始资料/已整理｜2026-08-02｜抖音豆包衍生｜福建token工厂落地厦门.md",
+    "原始资料/已整理｜2026-08-02｜抖音豆包｜Token工厂三大玩家.md",
+    "原始资料/已整理｜2026-08-02｜抖音豆包｜中国不缺算力真相.md",
+    "原始资料/已整理｜2026-08-02｜抖音豆包｜看懂三类商业模式理清Token发展路线.md",
+    "原始资料/已整理｜2026-08-02｜抖音豆包｜运营商下场词元聚合分发.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包衍生｜各省算力账本摊开看.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包衍生｜理清Token从业者发展路线.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜Token才是中国真正意义上的电力出口.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜Token是中国新型电力出口.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜味精公司砸6亿搞算力一台没摸到.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜电怎么卡住了AI的脖子.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜福建token工厂落地厦门.md",
+    "原始资料/已整理｜2026-08-04｜抖音豆包｜Token工厂单机vs集群卖Token商业化.md",
+    "原始资料/已整理｜2026-08-07｜抖音豆包｜超哥奇点世界GPU空转泡沫AI资本囤积游戏.md"
    ],
    "desc": "上级：徐总的知识库、知识库索引",
    "wordCount": 5427
@@ -4177,6 +4395,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
    "title": "AI基础设施发展路径：从服务器到智算中心再到AI算力网络",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "infrastructure",
    "links": [
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
@@ -4223,6 +4442,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
    "title": "AI时代演进史与数字基础设施总纲",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "infrastructure",
    "links": [
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
@@ -4263,6 +4483,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
    "title": "AI时代资本支出链：从电力、算力、存储到Agent应用",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "infrastructure",
    "links": [
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
@@ -4294,7 +4515,19 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
     "AI产业链与数字基础设施/算力成为新一代房产——Token贷算力贷与算力金融化的中美双线观察.md",
     "知识流水线/知识库健康巡检.md",
-    "Codex工作区/每日跨项目复盘/2026-07-28.md"
+    "Codex工作区/每日跨项目复盘/2026-07-28.md",
+    "原始资料/已整理｜2026-08-02｜抖音豆包｜Token工厂三大玩家.md",
+    "原始资料/已整理｜2026-08-02｜抖音豆包｜中国不缺算力真相.md",
+    "原始资料/已整理｜2026-08-02｜抖音豆包｜看懂三类商业模式理清Token发展路线.md",
+    "原始资料/已整理｜2026-08-02｜抖音豆包｜运营商下场词元聚合分发.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包衍生｜各省算力账本摊开看.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包衍生｜理清Token从业者发展路线.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜Token才是中国真正意义上的电力出口.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜Token是中国新型电力出口.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜味精公司砸6亿搞算力一台没摸到.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜电怎么卡住了AI的脖子.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜福建token工厂落地厦门.md",
+    "原始资料/已整理｜2026-08-04｜抖音豆包｜Token工厂单机vs集群卖Token商业化.md"
    ],
    "desc": "上级：AI产业链与数字基础设施/AI产业链与数字基础设施专题、AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
    "wordCount": 9424
@@ -4303,6 +4536,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI产业链与数字基础设施/Token工厂完整产业链洞察：六个加工动作、网络护城河与三层包装.md",
    "title": "Token工厂完整产业链洞察：六个加工动作、网络护城河与三层包装",
    "updated": "2026-09-03",
+   "updatedTime": "2026-09-03 10:45",
    "topic": "infrastructure",
    "links": [
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
@@ -4321,6 +4555,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI产业链与数字基础设施/吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离.md",
    "title": "吉姆查诺斯AI投资泡沫论：技术价值与投资回报的分离",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "infrastructure",
    "links": [
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
@@ -4343,6 +4578,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率.md",
    "title": "有效算力与智算中心项目核验清单：从MFU到商业利用率",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "infrastructure",
    "links": [
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
@@ -4363,7 +4599,10 @@ window.OBSIDIAN_DATA = {
     "知识流水线/A_原始资料.md",
     "知识流水线/知识库健康巡检.md",
     "Codex工作区/每日跨项目复盘/2026-08-07.md",
-    "Codex工作区/每日跨项目复盘/2026-08-08.md"
+    "Codex工作区/每日跨项目复盘/2026-08-08.md",
+    "原始资料/已整理｜2026-08-07｜抖音豆包｜超哥奇点世界GPU空转泡沫AI资本囤积游戏.md",
+    "原始资料/已整理｜2026-08-08｜抖音豆包｜三十亿智算中心利用率.md",
+    "原始资料/已整理｜2026-08-08｜抖音豆包｜美国AI基建东数西算.md"
    ],
    "desc": "上级：AI产业链与数字基础设施/AI产业链与数字基础设施专题",
    "wordCount": 3106
@@ -4372,6 +4611,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
    "title": "甘肃庆阳AI算力产业崛起与Token工厂",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "infrastructure",
    "links": [
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
@@ -4411,6 +4651,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI产业链与数字基础设施/算力基础设施与金融化增量整理（2026-08-21至08-28）.md",
    "title": "算力基础设施与金融化增量整理（2026-08-21至08-28）",
    "updated": "2026-08-31",
+   "updatedTime": "2026-08-31 16:21",
    "topic": "infrastructure",
    "links": [
     "原始资料/已整理｜2026-08-21｜豆包对话｜阿里云灵骏真武M890超节点与算力体系辨析",
@@ -4427,6 +4668,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
    "title": "算力工厂与算力出海：从基础设施到跨境交付的完整链路",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "infrastructure",
    "links": [
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
@@ -4457,7 +4699,20 @@ window.OBSIDIAN_DATA = {
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
     "AI产业链与数字基础设施/Token工厂完整产业链洞察：六个加工动作、网络护城河与三层包装.md",
     "AI产业链与数字基础设施/算力成为新一代房产——Token贷算力贷与算力金融化的中美双线观察.md",
-    "知识流水线/知识库健康巡检.md"
+    "知识流水线/知识库健康巡检.md",
+    "原始资料/已整理｜2026-08-02｜抖音豆包｜Token工厂三大玩家.md",
+    "原始资料/已整理｜2026-08-02｜抖音豆包｜中国不缺算力真相.md",
+    "原始资料/已整理｜2026-08-02｜抖音豆包｜看懂三类商业模式理清Token发展路线.md",
+    "原始资料/已整理｜2026-08-02｜抖音豆包｜运营商下场词元聚合分发.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包衍生｜各省算力账本摊开看.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包衍生｜理清Token从业者发展路线.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜Token才是中国真正意义上的电力出口.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜Token是中国新型电力出口.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜味精公司砸6亿搞算力一台没摸到.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜电怎么卡住了AI的脖子.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜福建token工厂落地厦门.md",
+    "原始资料/已整理｜2026-08-04｜抖音豆包｜Token工厂单机vs集群卖Token商业化.md",
+    "原始资料/已整理｜2026-08-08｜抖音豆包｜美国AI基建东数西算.md"
    ],
    "desc": "上级：AI产业链与数字基础设施/AI产业链与数字基础设施专题",
    "wordCount": 7613
@@ -4466,6 +4721,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI产业链与数字基础设施/算力成为新一代房产——Token贷算力贷与算力金融化的中美双线观察.md",
    "title": "算力成为新一代房产——Token贷算力贷与算力金融化的中美双线观察",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "infrastructure",
    "links": [
     "AI产业链与数字基础设施/AI产业链与数字基础设施专题",
@@ -4488,6 +4744,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/AI原生组织与多Agent工作空间增量整理（2026-08-28）.md",
    "title": "AI原生组织与多Agent工作空间增量整理（2026-08-28）",
    "updated": "2026-08-31",
+   "updatedTime": "2026-08-31 16:21",
    "topic": "pipeline",
    "links": [
     "原始资料/已整理｜2026-08-28｜Omnigent开源元编排层Meta-Harness（统一多Agent共享会话）",
@@ -4506,6 +4763,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/AI知识学习与复盘工作台.md",
    "title": "AI知识学习与复盘工作台",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "pipeline",
    "links": [
     "知识流水线/个人工作台设计与部署方法论",
@@ -4527,7 +4785,8 @@ window.OBSIDIAN_DATA = {
     "知识流水线/个人工作台设计与部署方法论.md",
     "知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作.md",
     "知识流水线/知识库健康巡检.md",
-    "Codex工作区/Codex多智能体副手矩阵与任务编排-完整建设总结.md"
+    "Codex工作区/Codex多智能体副手矩阵与任务编排-完整建设总结.md",
+    "原始资料/已整理｜2026-08-06｜抖音+ChatGPT｜专家搭建的Obsidian AI Knowledge OS.md"
    ],
    "desc": "这是一个建立在 Obsidian 知识库之上的 AI 知识成长视图。它不是移动版 Obsidian，也不是每天打卡的学习 App，而是把 Obsidian 中已经形成的知识、专题、",
    "wordCount": 4747
@@ -4536,6 +4795,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/AI知识自动化整理入口.md",
    "title": "AI知识自动化整理入口",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -4565,6 +4825,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/A_原始资料.md",
    "title": "A_原始资料",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 22:12",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -4708,7 +4969,54 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/每日跨项目复盘/2026-08-12.md",
     "Codex工作区/每日跨项目复盘/2026-08-13.md",
     "豆包工作区/豆包对话归档工作流.md",
-    "豆包工作区/豆包工作区.md"
+    "豆包工作区/豆包工作区.md",
+    "原始资料/已整理｜2026-08-02｜抖音豆包｜Token工厂三大玩家.md",
+    "原始资料/已整理｜2026-08-02｜抖音豆包｜中国不缺算力真相.md",
+    "原始资料/已整理｜2026-08-02｜抖音豆包｜看懂三类商业模式理清Token发展路线.md",
+    "原始资料/已整理｜2026-08-02｜抖音豆包｜运营商下场词元聚合分发.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包衍生｜各省算力账本摊开看.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包衍生｜理清Token从业者发展路线.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜Token才是中国真正意义上的电力出口.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜Token是中国新型电力出口.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜味精公司砸6亿搞算力一台没摸到.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜电怎么卡住了AI的脖子.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜电网数字化是腐败重灾区.md",
+    "原始资料/已整理｜2026-08-03｜抖音豆包｜福建token工厂落地厦门.md",
+    "原始资料/已整理｜2026-08-04｜抖音豆包｜NeoPicks聊了7个AI交付团队总结困难机会危机.md",
+    "原始资料/已整理｜2026-08-04｜抖音豆包｜Token工厂单机vs集群卖Token商业化.md",
+    "原始资料/已整理｜2026-08-04｜抖音豆包｜南吴NANWU总结Codex的5级用法.md",
+    "原始资料/已整理｜2026-08-06｜抖音豆包｜张宇技术栈Agent系统7种架构.md",
+    "原始资料/已整理｜2026-08-06｜抖音｜王自如聊如何正确减肥.md",
+    "原始资料/已整理｜2026-08-07｜抖音豆包｜AI大模型果果姐AIAgent框架选错白忙三个月.md",
+    "原始资料/已整理｜2026-08-07｜抖音豆包｜央视新闻记者医学减重一年掉40斤.md",
+    "原始资料/已整理｜2026-08-07｜抖音豆包｜超哥奇点世界GPU空转泡沫AI资本囤积游戏.md",
+    "原始资料/已整理｜2026-08-08｜抖音豆包｜三十亿智算中心利用率.md",
+    "原始资料/已整理｜2026-08-08｜抖音豆包｜政治成熟优先级匹配精力.md",
+    "原始资料/已整理｜2026-08-08｜抖音豆包｜沟通能力强的人说话是什么样的.md",
+    "原始资料/已整理｜2026-08-08｜抖音豆包｜用本体重塑企业AI语义基座.md",
+    "原始资料/已整理｜2026-08-08｜抖音豆包｜美国AI基建东数西算.md",
+    "原始资料/已整理｜2026-08-12｜对话整理｜任务闭环与业务闭环分离-GrokBot数字岗位vs经营Agent.md",
+    "原始资料/已整理｜2026-08-12｜抖音｜Solo们chat-FDE如何用ANC搭建AI原生组织.md",
+    "原始资料/已整理｜2026-08-15｜斯坦福｜Enterprise AI Playbook 企业AI实战手册51个成功落地项目.md",
+    "原始资料/已整理｜2026-08-26｜dsh拆解系列｜拆解DeepSeekHarness：Profile与Bundle如何装配运行时.md",
+    "原始资料/已整理｜2026-08-26｜dsh拆解系列｜解读Cordis：dsh一切皆插件背后的运行时设计.md",
+    "原始资料/已整理｜2026-08-26｜极客公园｜离开剪映后创业，她想把一支设计团队装进AI工作台.md",
+    "原始资料/已整理｜2026-08-26｜棱镜｜AI尽头，也是放贷.md",
+    "原始资料/已整理｜2026-08-28｜53AI转载｜超级个体时代腾讯研究院报告.md",
+    "原始资料/已整理｜2026-08-28｜GitHub优选｜DSH实测必装12个插件.md",
+    "原始资料/已整理｜2026-08-28｜吴晓波频道｜养龙虾退热企业AI落地.md",
+    "原始资料/已整理｜2026-08-28｜微信公众号｜DSH到底把什么做成了插件.md",
+    "原始资料/已整理｜2026-08-28｜微信公众号｜我为什么不建议普通人现在去做企业知识库.md",
+    "原始资料/已整理｜2026-08-28｜投资界｜生产200万AI打工人冲刺IPO.md",
+    "原始资料/已整理｜2026-08-28｜机器之心｜翁荔AI自进化在Harness.md",
+    "原始资料/已整理｜2026-08-28｜腾讯科技｜DeepSeek的Harness为何是一头黑色鲸鱼.md",
+    "原始资料/已整理｜2026-08-28｜腾讯科技｜黑鲸之后OpenAI开放Harness.md",
+    "原始资料/已整理｜2026-08-28｜蓝耘星河｜别把DSH当CodeX平替.md",
+    "原始资料/已整理｜2026-08-28｜钛媒体｜产品经理排队转型FDE.md",
+    "原始资料/已整理｜2026-08-28｜韩叙HanXu｜300个AI搭团队跑通一人公司.md",
+    "原始资料/已整理｜2026-09-02｜抖音｜承载力：职场高阶的政治成熟与四层认知觉醒.md",
+    "原始资料/已整理｜2026-09-04｜微信公众号｜万字长文Palantir式本体对AI的真实价值.md",
+    "原始资料/已整理｜2026-09-04｜抖音｜多Agent架构选型：Manager Handoff Agent-as-Tool底层区别.md"
    ],
    "desc": "上级：知识流水线/知识流水线",
    "wordCount": 13751
@@ -4717,6 +5025,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Agent Notifier统一通知机制.md",
    "title": "Agent Notifier 统一通知机制",
    "updated": "2026-09-01",
+   "updatedTime": "2026-09-01 10:59",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
@@ -4727,6 +5036,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Agent Ontology 1.0运行数据库与闭环落地.md",
    "title": "Agent Ontology 1.0 运行数据库与闭环落地",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
@@ -4737,6 +5047,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Agent Ontology历史任务-关系与证据模型.md",
    "title": "Ontology v0.1 关系与证据模型设计",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
@@ -4747,6 +5058,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Agent Ontology历史任务-关系模型设计.md",
    "title": "Ontology v0.1：AI知识工作台关系模型设计",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
@@ -4757,6 +5069,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Agent Ontology历史任务-关系词表边界与反例.md",
    "title": "Ontology v0.1：关系词表边界与反例检查",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
@@ -4767,6 +5080,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Agent Ontology历史任务-双链证据盘点.md",
    "title": "Ontology v0.1：AI主线双链证据盘点（返工）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
@@ -4777,6 +5091,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Agent Ontology历史任务-样本关系映射.md",
    "title": "Ontology v0.1 样本关系映射",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
@@ -4787,6 +5102,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Agent Ontology历史任务-知识对象与范围.md",
    "title": "Ontology v0.1：AI知识对象与范围清单",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
@@ -4797,6 +5113,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Agent Ontology历史任务-编译层接入与验收.md",
    "title": "Ontology v0.1 编译层接入与验收",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
@@ -4807,6 +5124,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Agent任务-DK-One架构与入口分析.md",
    "title": "子任务：架构与入口分析（执行者：DK-One）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
@@ -4817,6 +5135,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Agent任务-DK-One架构与入口审核.md",
    "title": "架构与入口分析（DK-One）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
@@ -4827,6 +5146,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Agent任务-DK-One稳定性与成本测试.md",
    "title": "子任务：稳定性与成本测试（执行者：DK-One）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
@@ -4837,6 +5157,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Agent任务-DK-Two isolated-write方案设计.md",
    "title": "子任务：isolated-write 方案设计（执行者：DK-Two）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
@@ -4847,6 +5168,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Agent任务-DK-Two风险与验收分析.md",
    "title": "子任务：风险与验收分析（执行者：DK-Two）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
@@ -4857,6 +5179,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Agent任务-DK-Two风险与验收审核.md",
    "title": "风险与验收分析（DK-Two）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
@@ -4867,6 +5190,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Agent任务-架构与入口分析.md",
    "title": "子Agent：架构与入口分析",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
@@ -4877,6 +5201,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Agent任务-风险与验收分析.md",
    "title": "子Agent：风险与验收分析",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
@@ -4887,6 +5212,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/B_知识蒸馏.md",
    "title": "B_知识蒸馏",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -4902,6 +5228,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/CAI-Obsidian CLI通道验收.md",
    "title": "CAI → Obsidian CLI 通道验收",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
@@ -4912,6 +5239,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/C_方法与Skill.md",
    "title": "C_方法与Skill",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -4935,6 +5263,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/D_输出成果.md",
    "title": "D_输出成果",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -4948,6 +5277,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南.md",
    "title": "DeepSeek Harness 体系总览：运作原理与插件/能力包设计指南",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [
     "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明",
@@ -4972,6 +5302,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
    "title": "DeepSeek Harness官方架构与本机控制中心分层说明",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [
     "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南",
@@ -4995,6 +5326,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/DeepSeek Harness源码阅读地图（dsh-v0.1.0-rc.7）.md",
    "title": "DeepSeek Harness 源码阅读地图（dsh-v0.1.0-rc.7）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [
     "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南",
@@ -5011,6 +5343,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Jarvis知识增长工作流总规则-整理草稿.md",
    "title": "Jarvis Office 知识增长工作流总规则（整理草稿）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "pipeline",
    "links": [
     "知识流水线",
@@ -5028,6 +5361,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Mac Codex Obsidian知识库健康巡检专员启动提示词.md",
    "title": "Mac Codex Obsidian知识库健康巡检专员启动提示词",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识库健康巡检执行规范",
@@ -5048,6 +5382,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/Obsidian知识底座治理与知识自主生长方案.md",
    "title": "Obsidian知识底座治理与知识自主生长方案",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 23:08",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -5075,6 +5410,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/WikiLLM知识库编译方法论.md",
    "title": "WikiLLM知识库编译方法论",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线"
@@ -5092,6 +5428,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/YC开源QM多人在线Agent Harness对我们的启示.md",
    "title": "YC开源QM：多人在线Agent Harness对我们与企业AI的启示",
    "updated": "2026-08-28",
+   "updatedTime": "2026-08-28 10:33",
    "topic": "pipeline",
    "links": [
     "企业AI与智能体商业化",
@@ -5110,6 +5447,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/个人工作台设计与部署方法论.md",
    "title": "个人工作台设计与部署方法论",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "pipeline",
    "links": [
     "知识流水线/AI知识学习与复盘工作台",
@@ -5124,7 +5462,8 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "知识流水线/AI知识学习与复盘工作台.md",
     "知识流水线/A_原始资料.md",
-    "知识流水线/知识库健康巡检.md"
+    "知识流水线/知识库健康巡检.md",
+    "原始资料/已整理｜2026-08-06｜抖音+ChatGPT｜专家搭建的Obsidian AI Knowledge OS.md"
    ],
    "desc": "本页沉淀的是“个人工作台”这类系统的通用设计和部署方法，不专门解释某一个前端页面。知识流水线/AI知识学习与复盘工作台 是这套方法的第一个落地实例；本页负责把它抽象成以后可以复用到",
    "wordCount": 4884
@@ -5133,6 +5472,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/个人级多Agent与多引擎搭配调研.md",
    "title": "个人级多Agent与多引擎搭配调研（QM组织级之外的姊妹篇）",
    "updated": "2026-08-28",
+   "updatedTime": "2026-08-28 10:42",
    "topic": "pipeline",
    "links": [
     "知识流水线/YC开源QM多人在线Agent Harness对我们的启示",
@@ -5151,6 +5491,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/任务—Obsidian旧卡迁移清单.md",
    "title": "任务—Obsidian 旧卡迁移清单",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-27 00:29",
    "topic": "pipeline",
    "links": [
     "Obsidian知识底座治理与知识自主生长方案",
@@ -5176,6 +5517,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/任务面板—Obsidian同步试点.md",
    "title": "任务面板—Obsidian同步试点",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [],
    "backlinks": [
@@ -5189,6 +5531,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/任务面板与Obsidian同步.md",
    "title": "任务面板与 Obsidian 同步",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [
     "Obsidian知识底座治理与知识自主生长方案",
@@ -5207,6 +5550,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/候选知识卡真实调用评估记录｜2026-09-08｜AI Agent工程知识.md",
    "title": "候选知识卡真实调用评估记录（2026-09-08）",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 23:04",
    "topic": "pipeline",
    "links": [
     "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08",
@@ -5223,6 +5567,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
    "title": "候选知识卡试点：AI Agent 工程知识（2026-09-08）",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 23:05",
    "topic": "pipeline",
    "links": [
     "AI Agent工程知识/AI Agent工程知识专题",
@@ -5262,6 +5607,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/候选知识卡调用测试记录｜2026-09-08｜豆包Skill v0.1.md",
    "title": "候选知识卡调用测试记录（2026-09-08｜豆包Skill v0.1）",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 23:23",
    "topic": "pipeline",
    "links": [
     "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08",
@@ -5275,6 +5621,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/四个外部Agent任务卡与Obsidian Skill统一接入.md",
    "title": "统一四个外部 Agent 的任务卡与 Obsidian Skill 接入",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [
     "相对路径"
@@ -5289,6 +5636,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/平板Obsidian每日轻量巡检员启动提示词.md",
    "title": "平板Obsidian每日轻量巡检员启动提示词",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -5304,6 +5652,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作.md",
    "title": "支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -5333,6 +5682,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/玄学与东方智慧出海-内容策略与独立站电商体系-调研-20260811.md",
    "title": "玄学与东方智慧出海：内容策略与独立站电商体系调研",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [
     "企业AI与智能体商业化/己未文化资料速查入口",
@@ -5353,6 +5703,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/知识卡片与Agent调用标准.md",
    "title": "知识卡片与 Agent 调用标准",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 23:29",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -5375,6 +5726,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/知识库健康巡检.md",
    "title": "知识库健康巡检",
    "updated": "2026-09-07",
+   "updatedTime": "2026-09-08 00:21",
    "topic": "pipeline",
    "links": [
     "政府资源配置与政策落地机制/政府资源配置与政策落地机制专题",
@@ -5522,6 +5874,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/知识库健康巡检执行规范.md",
    "title": "知识库健康巡检执行规范",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -5560,6 +5913,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/知识库架构判断原则：从资料到概念、方法论、案例与专题归属.md",
    "title": "知识库架构判断原则：从资料到概念、方法论、案例与专题归属",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -5588,6 +5942,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/知识流水线.md",
    "title": "知识流水线",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "pipeline",
    "links": [
     "徐总的知识库",
@@ -5652,6 +6007,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/知识获取与录入三条链路现状与卡壳点.md",
    "title": "知识获取与录入三条链路现状与卡壳点",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -5666,6 +6022,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/跨智能体执行能力评估.md",
    "title": "跨智能体执行能力评估",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [],
    "backlinks": [],
@@ -5676,6 +6033,7 @@ window.OBSIDIAN_DATA = {
    "path": "知识流水线/问题专题库搭建机制与角色分工.md",
    "title": "问题专题库搭建机制与角色分工",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "pipeline",
    "links": [
     "知识流水线/知识流水线",
@@ -5692,6 +6050,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/2026-05-28-29-model-routing-setup.md",
    "title": "模型路由与代理配置记录（2026-05-28~29）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [],
    "backlinks": [
@@ -5704,6 +6063,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/2026-08-04_QoderWork_Lucas飞书长连接修复.md",
    "title": "2026-08-04｜Lucas 飞书长连接无法建立：QoderWork 虚报 connected 修复",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/飞书多智能体连接基线与故障域",
@@ -5721,6 +6081,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/2026-08-04_WorkBuddy_伊森飞书长连接假connected修复.md",
    "title": "2026-08-04｜WorkBuddy 伊森飞书长连接\"假 connected\"：双通道残留与占位冲突修复",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/飞书多智能体连接基线与故障域",
@@ -5738,6 +6099,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/2026-08-05_WorkBuddy_伊森飞书长连接启动失败修复.md",
    "title": "WorkBuddy 伊森飞书长连接启动失败修复（2026-08-05）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/飞书多智能体连接基线与故障域",
@@ -5754,6 +6116,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/2026-08-08_Obsidian_CLI配置成功记录.md",
    "title": "2026-08-08 Obsidian CLI 配置成功记录（Oliver 完成）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [],
    "backlinks": [],
@@ -5764,6 +6127,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/2026-08-16_MiniMax-M3端点故障修复.md",
    "title": "MiniMax-M3 端点故障修复",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [],
    "backlinks": [
@@ -5777,6 +6141,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/AGENTS.md",
    "title": "Codex Workspace Instructions",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "徐总的知识库"
@@ -5789,6 +6154,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/Codex Slides PPT 生产工作流.md",
    "title": "Codex Slides PPT 生产工作流",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [],
    "backlinks": [
@@ -5801,6 +6167,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/Codex Workspace 低 Token 主控工作区方案.md",
    "title": "Codex Workspace 低 Token 主控工作区方案",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [],
    "backlinks": [
@@ -5816,6 +6183,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/Codex-DeepSeek内部智能体通信与编排.md",
    "title": "Codex-DeepSeek 内部智能体通信与编排（直连 DeepSeek）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [],
    "backlinks": [],
@@ -5826,6 +6194,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/Codex-MoonBridge多Agent任务面板与Obsidian归档机制.md",
    "title": "Codex-DeepSeek内部智能体通信与Obsidian归档机制（直连 DeepSeek）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/新 Codex 对话启动入口",
@@ -5849,6 +6218,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/Codex会话级Agent协作协议-v0.1.md",
    "title": "Codex会话级Agent协作协议 v0.1",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/Codex工作区"
@@ -5864,6 +6234,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/Codex全局治理与工作区总结-2026-09-07.md",
    "title": "Codex 全局治理与工作区总结",
    "updated": "2026-09-07",
+   "updatedTime": "2026-09-07 15:55",
    "topic": "codex",
    "links": [
     "Codex工作区/Codex工作区",
@@ -5877,6 +6248,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/Codex多智能体副手矩阵与任务编排-完整建设总结.md",
    "title": "Codex 多智能体副手矩阵与任务编排：完整建设总结",
    "updated": "2026-08-28",
+   "updatedTime": "2026-08-28 19:11",
    "topic": "codex",
    "links": [
     "知识流水线/AI知识学习与复盘工作台",
@@ -5893,6 +6265,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/Codex多智能体副手通信闭环验收.md",
    "title": "Codex 多智能体副手通信闭环验收（内部 DK + 外部 Agent）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [],
    "backlinks": [],
@@ -5903,6 +6276,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/Codex工作区.md",
    "title": "Codex 工作区",
    "updated": "2026-09-07",
+   "updatedTime": "2026-09-07 15:50",
    "topic": "codex",
    "links": [
     "徐总的知识库",
@@ -5962,6 +6336,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/Codex的内部合作机制.md",
    "title": "Codex 的内部合作机制（视频口播稿）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [],
    "backlinks": [
@@ -5975,6 +6350,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/DeepSeek Codex 搭建与双模型并行机制.md",
    "title": "DeepSeek Codex 搭建与双模型并行机制",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/当前状态",
@@ -5995,6 +6371,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/Mac Codex 主控化运行基线.md",
    "title": "Mac Codex 主控化运行基线",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [],
    "backlinks": [
@@ -6010,6 +6387,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/Memory Guard - 命令参考手册.md",
    "title": "Memory Guard - 命令参考手册",
    "updated": "2026-08-31",
+   "updatedTime": "2026-08-31 10:06",
    "topic": "codex",
    "links": [
     "Codex工作区/Codex工作区",
@@ -6032,6 +6410,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/Memory Guard - 多Agent上下文连续性管理.md",
    "title": "Memory Guard - 多Agent上下文连续性管理",
    "updated": "2026-08-31",
+   "updatedTime": "2026-08-31 10:06",
    "topic": "codex",
    "links": [
     "Codex工作区/Codex工作区",
@@ -6057,6 +6436,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/Memory Guard - 多Agent接入指南.md",
    "title": "Memory Guard - 多Agent接入指南",
    "updated": "2026-08-31",
+   "updatedTime": "2026-08-31 11:07",
    "topic": "codex",
    "links": [
     "Codex工作区/Codex工作区",
@@ -6080,6 +6460,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/Memory Guard - 标准项目初始化流程.md",
    "title": "Memory Guard - 标准项目初始化流程",
    "updated": "2026-08-31",
+   "updatedTime": "2026-08-31 10:06",
    "topic": "codex",
    "links": [
     "Codex工作区/Codex工作区",
@@ -6102,6 +6483,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/OpenClaw跨渠道MEMORY实时同步机制.md",
    "title": "OpenClaw 跨渠道 MEMORY.md 实时同步机制",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/Codex工作区",
@@ -6117,6 +6499,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/任务级会话隔离工作法.md",
    "title": "任务级会话隔离工作法（奥利弗专属）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "全局记忆/智能体健康度 Ontology",
@@ -6131,6 +6514,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/全域AI工具模型配置.md",
    "title": "[model_providers.openai]  ← 由 Codex 内置提供，无需手写",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/DeepSeek Codex 搭建与双模型并行机制",
@@ -6163,6 +6547,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/决策记录.md",
    "title": "决策记录",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "徐总的知识库"
@@ -6175,6 +6560,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/多智能体分派框架复核：Codex主控、DK子Agent与外部Agent协作.md",
    "title": "多智能体分派框架复核：Codex主控、DK子Agent与外部Agent协作",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/Codex-MoonBridge多Agent任务面板与Obsidian归档机制",
@@ -6195,6 +6581,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/多端 Codex 协作架构.md",
    "title": "多端 Codex 协作架构",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex/Codex使用总结与知识库体系",
@@ -6216,6 +6603,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/当前状态.md",
    "title": "Codex工作区当前状态：多端协作、任务面板与Obsidian知识库联动",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "徐总的知识库",
@@ -6233,6 +6621,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/文秘助手项目记录.md",
    "title": "文秘助手项目记录",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/Codex工作区"
@@ -6269,6 +6658,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/新 Codex 对话启动入口.md",
    "title": "新 Codex 对话启动入口",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区",
@@ -6292,6 +6682,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/智能体协作-任务面板操作手册.md",
    "title": "给智能体：任务面板（Taskboard）操作手册",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "codex",
    "links": [
     "任务面板与知识库/任务面板与Obsidian同步",
@@ -6315,6 +6706,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/智能体协作共享问答.md",
    "title": "智能体协作共享问答",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "codex",
    "links": [
     "Codex工作区/Codex工作区",
@@ -6332,6 +6724,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/智能体移动应用内容读取与Obsidian沉淀SOP.md",
    "title": "智能体移动应用内容读取与 Obsidian 沉淀 SOP",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区",
@@ -6350,6 +6743,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/智能体设备接入SOP：电脑连接手机和平板.md",
    "title": "智能体设备接入 SOP：电脑连接手机和平板",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区",
@@ -6367,6 +6761,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-09.md",
    "title": "2026-07-09 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -6404,6 +6799,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-10.md",
    "title": "2026-07-10 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -6439,6 +6835,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-11.md",
    "title": "2026-07-11 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -6480,6 +6877,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-12.md",
    "title": "2026-07-12 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -6501,6 +6899,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-13.md",
    "title": "2026-07-13 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -6551,6 +6950,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-14.md",
    "title": "2026-07-14 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -6580,6 +6980,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-15.md",
    "title": "2026-07-15 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -6611,6 +7012,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-16.md",
    "title": "2026-07-16 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -6632,6 +7034,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-17.md",
    "title": "2026-07-17 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -6655,6 +7058,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-18.md",
    "title": "2026-07-18 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -6676,6 +7080,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-19.md",
    "title": "2026-07-19 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -6697,6 +7102,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-20.md",
    "title": "2026-07-20 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -6718,6 +7124,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-21.md",
    "title": "2026-07-21 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -6754,6 +7161,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-22.md",
    "title": "2026-07-22 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -6784,6 +7192,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-23.md",
    "title": "2026-07-23 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -6812,6 +7221,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-24.md",
    "title": "2026-07-24 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -6846,6 +7256,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-25.md",
    "title": "2026-07-25 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -6870,6 +7281,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-26.md",
    "title": "2026-07-26 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -6911,6 +7323,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-27.md",
    "title": "2026-07-27 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -6946,6 +7359,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-28.md",
    "title": "2026-07-28 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -7002,6 +7416,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-07-29.md",
    "title": "2026-07-29 跨项目自动复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/项目索引",
@@ -7030,6 +7445,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-08-04.md",
    "title": "2026-08-04 工作进展日记",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/Codex工作区",
@@ -7049,6 +7465,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-08-05.md",
    "title": "2026-08-05 工作进展日记",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/Codex工作区",
@@ -7068,6 +7485,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-08-06.md",
    "title": "2026-08-06 工作进展日记",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/Codex工作区",
@@ -7088,6 +7506,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-08-07.md",
    "title": "2026-08-07 工作进展日记",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "codex",
    "links": [
     "Codex工作区/Codex工作区",
@@ -7111,6 +7530,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-08-08.md",
    "title": "2026-08-08 工作进展日记",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "codex",
    "links": [
     "Codex工作区/Codex工作区",
@@ -7142,6 +7562,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-08-09.md",
    "title": "2026-08-09 工作进展日记",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/Codex工作区",
@@ -7162,6 +7583,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-08-10.md",
    "title": "2026-08-10 工作进展日记",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "codex",
    "links": [
     "Codex工作区/Codex工作区",
@@ -7181,6 +7603,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-08-11.md",
    "title": "2026-08-11 工作进展日记",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "codex",
    "links": [
     "Codex工作区/Codex工作区",
@@ -7202,6 +7625,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-08-12.md",
    "title": "2026-08-12｜Codex 跨项目复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "codex",
    "links": [
     "Codex工作区/每日跨项目复盘/每日跨项目复盘说明",
@@ -7227,6 +7651,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-08-13.md",
    "title": "2026-08-13｜Codex 跨项目复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "codex",
    "links": [
     "Codex工作区/每日跨项目复盘/每日跨项目复盘说明",
@@ -7252,6 +7677,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-08-14.md",
    "title": "2026-08-14｜Codex 跨项目复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "codex",
    "links": [
     "Codex工作区/每日跨项目复盘/每日跨项目复盘说明",
@@ -7274,6 +7700,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-08-15.md",
    "title": "2026-08-15｜Codex 跨项目复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/每日跨项目复盘/每日跨项目复盘说明",
@@ -7294,6 +7721,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/2026-08-16.md",
    "title": "2026-08-16｜Codex 跨项目复盘",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/每日跨项目复盘/每日跨项目复盘说明",
@@ -7314,6 +7742,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/每日跨项目复盘/README.md",
    "title": "每日跨项目复盘日志",
    "updated": "2026-08-28",
+   "updatedTime": "2026-08-28 19:11",
    "topic": "codex",
    "links": [
     "Codex工作区/智能体协作-任务面板操作手册",
@@ -7327,6 +7756,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/甘食记WorkBuddy_v2架构升级记录.md",
    "title": "甘食记 WorkBuddy 经营分析团队 v2 架构升级记录",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [],
    "backlinks": [
@@ -7359,6 +7789,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/自动路由与反馈编译真实测试记录.md",
    "title": "自动路由与反馈编译真实测试记录",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [],
    "backlinks": [
@@ -7371,6 +7802,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/项目索引.md",
    "title": "项目索引",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/文秘助手项目记录",
@@ -7412,6 +7844,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/飞书多智能体会议流程：群协同与Obsidian拍板机制.md",
    "title": "飞书多智能体会议流程：群协同与Obsidian拍板机制",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "徐总的知识库",
@@ -7437,6 +7870,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex工作区/飞书多智能体连接基线与故障域.md",
    "title": "飞书多智能体连接基线与故障域",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codex",
    "links": [
     "Codex工作区/2026-08-04_QoderWork_Lucas飞书长连接修复",
@@ -7463,6 +7897,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/Capability 分层审计报告 Friday-Jarvis 2026-08-20.md",
    "title": "Capability 分层审计报告：Friday / Jarvis Preset",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "harness",
    "links": [],
    "backlinks": [
@@ -7476,6 +7911,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/DSH Marketplace 插件启用过程 2026-08-26.md",
    "title": "DSH Marketplace 插件启用过程 2026-08-26",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "harness",
    "links": [
     "DSH v0.1.1-rc.2 升级副本验证记录",
@@ -7492,6 +7928,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录.md",
    "title": "DSH v0.1.1-rc.2 升级副本验证记录",
    "updated": "2026-09-01",
+   "updatedTime": "2026-09-02 00:06",
    "topic": "harness",
    "links": [
     "DeepSeek Harness项目/DeepSeek Harness项目索引",
@@ -7509,6 +7946,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研.md",
    "title": "DSH 插件在 alpha 版本的独立安装方案与兼容性调研",
    "updated": "2026-09-05",
+   "updatedTime": "2026-09-05 08:23",
    "topic": "harness",
    "links": [
     "DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录",
@@ -7526,6 +7964,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/DSH_贾维斯模式新建.md",
    "title": "DSH 贾维斯模式新建",
    "updated": "2026-08-30",
+   "updatedTime": "2026-08-30 21:35",
    "topic": "harness",
    "links": [
     "DeepSeek Harness项目/DeepSeek Harness搭建记录",
@@ -7543,6 +7982,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/DSH第三方插件适配新版本官方标准.md",
    "title": "DSH第三方插件适配新版本（≥ rc.8）官方标准",
    "updated": "2026-08-28",
+   "updatedTime": "2026-08-28 19:11",
    "topic": "harness",
    "links": [
     "DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录",
@@ -7559,6 +7999,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/DeepSeek Harness Doctor 插件设计.md",
    "title": "DeepSeek Harness Doctor 插件设计",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "harness",
    "links": [],
    "backlinks": [
@@ -7571,6 +8012,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）.md",
    "title": "DeepSeek Harness 专属插件搭建指南（Alpha4 版）",
    "updated": "2026-09-05",
+   "updatedTime": "2026-09-05 08:28",
    "topic": "harness",
    "links": [
     "DeepSeek Harness项目/DeepSeek Harness搭建记录",
@@ -7590,6 +8032,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/DeepSeek Harness 会话轨迹报错排查 SOP.md",
    "title": "DeepSeek Harness 会话轨迹报错排查 SOP",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "harness",
    "links": [
     "DeepSeek Harness项目/DeepSeek Harness项目索引"
@@ -7604,6 +8047,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/DeepSeek Harness 全流程拉通总结 2026-08-19~22.md",
    "title": "DeepSeek Harness 全流程拉通总结 2026-08-19~22",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "harness",
    "links": [
     "DeepSeek Harness项目/DeepSeek Harness项目索引",
@@ -7622,6 +8066,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南.md",
    "title": "DeepSeek Harness 官方资源与插件开发指南",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "harness",
    "links": [
     "DeepSeek Harness项目/DeepSeek Harness项目记录",
@@ -7640,6 +8085,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/DeepSeek Harness 插件体系结构官方分层说明.md",
    "title": "DeepSeek Harness 插件体系结构官方分层说明",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "harness",
    "links": [
     "DeepSeek Harness项目/DeepSeek Harness项目索引",
@@ -7661,6 +8107,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/DeepSeek Harness插件写回验收测试.md",
    "title": "DeepSeek Harness 插件写回验收测试",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "harness",
    "links": [],
    "backlinks": [
@@ -7674,6 +8121,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/DeepSeek Harness插件审核联动验收.md",
    "title": "DeepSeek Harness 插件审核联动验收",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "harness",
    "links": [],
    "backlinks": [
@@ -7687,6 +8135,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/DeepSeek Harness搭建记录.md",
    "title": "DeepSeek Harness 搭建记录",
    "updated": "2026-09-07",
+   "updatedTime": "2026-09-07 10:19",
    "topic": "harness",
    "links": [
     "DeepSeek Harness 插件与模式设计规范 V1.0",
@@ -7709,6 +8158,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
    "title": "DeepSeek Harness 项目索引",
    "updated": "2026-09-05",
+   "updatedTime": "2026-09-05 08:29",
    "topic": "harness",
    "links": [
     "DeepSeek Harness项目/DeepSeek Harness项目记录",
@@ -7761,6 +8211,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/DeepSeek Harness项目记录.md",
    "title": "DeepSeek Harness 项目记录",
    "updated": "2026-08-31",
+   "updatedTime": "2026-08-31 16:54",
    "topic": "harness",
    "links": [
     "DeepSeek Harness项目/DeepSeek Harness插件写回验收测试",
@@ -7794,7 +8245,8 @@ window.OBSIDIAN_DATA = {
     "DeepSeek Harness项目/DeepSeek Harness 全流程拉通总结 2026-08-19~22.md",
     "DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南.md",
     "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
-    "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同.md"
+    "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同.md",
+    "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环.md"
    ],
    "desc": "这是 DeepSeek Harness 独立实验项目的长期入口。项目目标是基于 DeepSeek 官方 Developer Preview，验证 Harness 的插件、Profi",
    "wordCount": 66104
@@ -7803,6 +8255,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/Governance Agent V0.2.1 Capability Architecture Review Report.md",
    "title": "Governance Agent V0.2.1 Capability Architecture Review Report",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "harness",
    "links": [],
    "backlinks": [
@@ -7815,6 +8268,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/Harness Capability Governance Advisor V0.2 升级方案与完成报告.md",
    "title": "Harness Capability Governance Advisor V0.1 → V0.2 升级方案",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "harness",
    "links": [],
    "backlinks": [
@@ -7827,6 +8281,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/Harness Capability Governance Advisor V0.3 升级与 Plugin 审查报告.md",
    "title": "Harness Capability Governance Advisor V0.3 升级与 Plugin 审查报告",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "harness",
    "links": [],
    "backlinks": [
@@ -7839,6 +8294,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/Harness Capability Governance Agent Preset V0.1 规格与落地任务书.md",
    "title": "Harness Capability Governance Advisor Preset V0.1 — 规格与落地任务书",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "harness",
    "links": [],
    "backlinks": [
@@ -7851,6 +8307,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/Harness Governance Runtime Audit Upgrade Report.md",
    "title": "Harness Governance Runtime Audit Upgrade Report",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "harness",
    "links": [],
    "backlinks": [
@@ -7863,6 +8320,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同.md",
    "title": "Harness 任务形成方法论 Plugin-Skill-Workflow-UI 协同",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "harness",
    "links": [
     "DeepSeek Harness项目/DeepSeek Harness项目索引",
@@ -7883,6 +8341,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/Harness 自由边界与分级治理.md",
    "title": "Harness 自由边界与分级治理（方法论定稿 2026-08-20）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "harness",
    "links": [],
    "backlinks": [
@@ -7897,6 +8356,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/Jarvis Capability Extraction Audit Report V1 2026-08-20.md",
    "title": "Jarvis Capability Extraction Audit Report V1",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "harness",
    "links": [],
    "backlinks": [
@@ -7910,6 +8370,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/Jarvis Workbench、Harness Plugin、Workflow 与官方验收标准.md",
    "title": "Jarvis Workbench、Harness Plugin、Workflow 与官方验收标准",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "harness",
    "links": [],
    "backlinks": [],
@@ -7920,6 +8381,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/Material Office Capability Bundle Design V1.md",
    "title": "Material Office Capability Bundle Design V1",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "harness",
    "links": [],
    "backlinks": [
@@ -7932,6 +8394,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/Material Office Capability Bundle V1 创建报告.md",
    "title": "Material Office Capability Bundle V1 创建报告",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "harness",
    "links": [],
    "backlinks": [
@@ -7946,6 +8409,7 @@ window.OBSIDIAN_DATA = {
    "path": "DeepSeek Harness项目/游戏角色设计定版智能体-能力包设计草案V1.md",
    "title": "游戏角色设计定版智能体-能力包设计草案 V1",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "harness",
    "links": [
     "知识流水线/DeepSeek Harness体系总览：运作原理与插件能力包设计指南",
@@ -7960,6 +8424,7 @@ window.OBSIDIAN_DATA = {
    "path": "多智能体协作任务/2026-09-02｜全域主控与项目Agent协作流程搭建复盘.md",
    "title": "2026-09-02｜全域主控与项目Agent协作流程搭建复盘",
    "updated": "2026-09-02",
+   "updatedTime": "2026-09-02 13:06",
    "topic": "multiagent",
    "links": [
     "AI Agent工程知识/多智能体协作闭环方法：主控-规划-执行-验收",
@@ -7974,6 +8439,7 @@ window.OBSIDIAN_DATA = {
    "path": "多智能体协作任务/AI-Office独立网页版产品化规划-Codex建议.md",
    "title": "AI Office 独立网页版产品化规划（Codex 建议）",
    "updated": "2026-09-01",
+   "updatedTime": "2026-09-01 23:35",
    "topic": "multiagent",
    "links": [
     "多智能体协作任务/KNOWLEDGEPIP-144-AI-Office多办公位智能体办公室搭建",
@@ -7988,6 +8454,7 @@ window.OBSIDIAN_DATA = {
    "path": "多智能体协作任务/KNOWLEDGEPIP-142-Memory Guard上下文连续性管理.md",
    "title": "KNOWLEDGEPIP-142 Memory Guard 上下文连续性管理（融合完成）",
    "updated": "2026-08-31",
+   "updatedTime": "2026-08-31 15:47",
    "topic": "multiagent",
    "links": [
     "多智能体协作任务/多智能体协作任务专题",
@@ -8009,6 +8476,7 @@ window.OBSIDIAN_DATA = {
    "path": "多智能体协作任务/KNOWLEDGEPIP-143-多智能体协作工作台搭建.md",
    "title": "KNOWLEDGEPIP-143 多智能体协作工作台搭建",
    "updated": "2026-08-31",
+   "updatedTime": "2026-08-31 17:32",
    "topic": "multiagent",
    "links": [
     "多智能体协作任务/多智能体协作任务专题",
@@ -8030,6 +8498,7 @@ window.OBSIDIAN_DATA = {
    "path": "多智能体协作任务/KNOWLEDGEPIP-144-AI-Office多办公位智能体办公室搭建.md",
    "title": "KNOWLEDGEPIP-144 AI Office 多办公位智能体办公室搭建",
    "updated": "2026-09-02",
+   "updatedTime": "2026-09-02 18:04",
    "topic": "multiagent",
    "links": [
     "多智能体协作任务/多智能体协作任务专题",
@@ -8048,6 +8517,7 @@ window.OBSIDIAN_DATA = {
    "path": "多智能体协作任务/KNOWLEDGEPIP-145-Harness任务完成通知机制.md",
    "title": "KNOWLEDGEPIP-145 Harness 任务完成通知机制（Webhook 事件队列）",
    "updated": "2026-09-01",
+   "updatedTime": "2026-09-01 11:50",
    "topic": "multiagent",
    "links": [],
    "backlinks": [
@@ -8061,6 +8531,7 @@ window.OBSIDIAN_DATA = {
    "path": "多智能体协作任务/多智能体协作任务专题.md",
    "title": "多智能体协作任务专题",
    "updated": "2026-08-31",
+   "updatedTime": "2026-08-31 16:14",
    "topic": "multiagent",
    "links": [
     "徐总的知识库",
@@ -8084,6 +8555,7 @@ window.OBSIDIAN_DATA = {
    "path": "多智能体协作任务/多智能体协作体系总览.md",
    "title": "多智能体协作体系总览",
    "updated": "2026-09-02",
+   "updatedTime": "2026-09-02 17:06",
    "topic": "multiagent",
    "links": [
     "徐总的知识库",
@@ -8105,6 +8577,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/00_总入口.md",
    "title": "任务面板与知识库（专题总入口）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "taskboard",
    "links": [
     "任务面板与知识库/智能体协作-任务面板操作手册",
@@ -8122,6 +8595,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/任务卡/Alpha-Friday子代理编排能力基线测试-20260829.md",
    "title": "Alpha Friday 子代理编排能力基线测试",
    "updated": "2026-08-30",
+   "updatedTime": "2026-08-30 14:18",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
@@ -8132,6 +8606,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/任务卡/Alpha-Friday搭建与会话修复-20260830.md",
    "title": "Alpha Friday 搭建、插件市场合并与会话修复",
    "updated": "2026-08-31",
+   "updatedTime": "2026-08-31 11:02",
    "topic": "taskboard",
    "links": [
     "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录"
@@ -8147,6 +8622,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/任务卡/Taskboard自测-Codex-M3路径验收.md",
    "title": "Taskboard 自测 · Codex-M3 路径验收",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
@@ -8157,6 +8633,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/任务卡-知识库匹配核对（2026-08-17）.md",
    "title": "任务卡 ↔ 知识库匹配核对专项（2026-08-17）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
@@ -8167,6 +8644,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/任务面板与Obsidian同步.md",
    "title": "任务面板与 Obsidian 同步",
    "updated": "2026-08-28",
+   "updatedTime": "2026-08-28 19:11",
    "topic": "taskboard",
    "links": [
     "知识流水线/任务面板与Obsidian同步",
@@ -8188,6 +8666,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/任务面板堆积专项巡检（2026-08-17）.md",
    "title": "任务面板堆积专项巡检报告",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
@@ -8198,6 +8677,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/历史遗留/Codex-MoonBridge多Agent任务面板与Obsidian归档机制.md",
    "title": "Codex-DeepSeek内部智能体通信与Obsidian归档机制（直连 DeepSeek）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "taskboard",
    "links": [
     "Codex工作区/新 Codex 对话启动入口",
@@ -8214,6 +8694,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/历史遗留/任务—Obsidian旧卡迁移清单.md",
    "title": "任务—Obsidian 旧卡迁移清单",
    "updated": "2026-08-28",
+   "updatedTime": "2026-08-28 19:11",
    "topic": "taskboard",
    "links": [
     "知识流水线/任务—Obsidian旧卡迁移清单",
@@ -8238,6 +8719,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/历史遗留/任务面板—Obsidian同步试点.md",
    "title": "任务面板—Obsidian同步试点",
    "updated": "2026-08-28",
+   "updatedTime": "2026-08-28 19:11",
    "topic": "taskboard",
    "links": [
     "知识流水线/任务面板—Obsidian同步试点"
@@ -8250,6 +8732,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/历史遗留/四个外部Agent任务卡与Obsidian Skill统一接入.md",
    "title": "统一四个外部 Agent 的任务卡与 Obsidian Skill 接入",
    "updated": "2026-08-28",
+   "updatedTime": "2026-08-28 19:11",
    "topic": "taskboard",
    "links": [
     "知识流水线/四个外部Agent任务卡与Obsidian Skill统一接入",
@@ -8263,6 +8746,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/多智能体Session扫描与每日工作总结机制.md",
    "title": "多智能体 Session 扫描与每日工作总结机制",
    "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 16:20",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
@@ -8273,6 +8757,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/多智能体协作工作台：WorkBuddy豆包Codex与Harness Alpha设计.md",
    "title": "多智能体协作工作台：WorkBuddy、豆包助手、Codex 与 Harness Alpha 设计",
    "updated": "2026-08-31",
+   "updatedTime": "2026-08-31 13:15",
    "topic": "taskboard",
    "links": [],
    "backlinks": [
@@ -8286,6 +8771,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/方向推进与接力.md",
    "title": "方向推进与接力",
    "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 10:47",
    "topic": "taskboard",
    "links": [
     "任务面板与知识库/00_总入口",
@@ -8310,6 +8796,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/智能体协作-任务面板操作手册.md",
    "title": "给智能体：任务面板（Taskboard）操作手册",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 23:54",
    "topic": "taskboard",
    "links": [
     "任务面板与知识库/任务面板与Obsidian同步",
@@ -8336,6 +8823,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/智能体协作共享问答.md",
    "title": "智能体协作共享问答",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "taskboard",
    "links": [
     "Codex工作区/Codex工作区",
@@ -8355,6 +8843,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/每日工作记录/2026-09-08.md",
    "title": "2026-09-08｜多智能体工作记录",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-09 00:04",
    "topic": "taskboard",
    "links": [
     "任务面板与知识库/每日工作记录/每日工作记录说明",
@@ -8370,6 +8859,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/每日工作记录/2026-09-09.md",
    "title": "2026-09-09｜多智能体工作记录",
    "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 15:35",
    "topic": "taskboard",
    "links": [
     "任务面板与知识库/每日工作记录/每日工作记录说明",
@@ -8383,6 +8873,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/每日工作记录/每日工作记录说明.md",
    "title": "每日工作记录说明",
    "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 15:39",
    "topic": "taskboard",
    "links": [],
    "backlinks": [
@@ -8396,6 +8887,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/面板改动记录-议题看板V2还原-2026-08-10.md",
    "title": "任务面板议题看板 V2 还原改动记录（2026-08-10）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "taskboard",
    "links": [],
    "backlinks": [
@@ -8408,6 +8900,7 @@ window.OBSIDIAN_DATA = {
    "path": "任务面板与知识库/飞书群通知机制建立.md",
    "title": "KNOWLEDGEPIP-139 飞书群通知机制建立（2026-08-29）",
    "updated": "2026-08-29",
+   "updatedTime": "2026-08-29 19:37",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
@@ -8418,6 +8911,7 @@ window.OBSIDIAN_DATA = {
    "path": "政府资源配置与政策落地机制/原始资料/2026-07-03省委专题会议支持天府新区公开报道与对话摘录.md",
    "title": "2026-07-03省委专题会议支持天府新区公开报道与对话摘录",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "gov",
    "links": [
     "政府资源配置与政策落地机制专题",
@@ -8431,6 +8925,7 @@ window.OBSIDIAN_DATA = {
    "path": "政府资源配置与政策落地机制/工信部414号文：人工智能应用服务商培育与FDE中间层机会.md",
    "title": "工信部414号文：人工智能应用服务商培育与FDE中间层机会",
    "updated": "2026-09-07",
+   "updatedTime": "2026-09-07 17:56",
    "topic": "gov",
    "links": [
     "原始资料/已整理｜2026-09-03｜工信部官网+用户提供｜工信部414号文原文及解读：AI赚钱的逻辑变了"
@@ -8443,6 +8938,7 @@ window.OBSIDIAN_DATA = {
    "path": "政府资源配置与政策落地机制/政府推动产业发展的政策传导与招商逻辑.md",
    "title": "政府推动产业发展的政策传导与招商逻辑",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "gov",
    "links": [
     "政府资源配置与政策落地机制专题",
@@ -8462,6 +8958,7 @@ window.OBSIDIAN_DATA = {
    "path": "政府资源配置与政策落地机制/政府资源配置与政策落地机制专题.md",
    "title": "政府资源配置与政策落地机制专题",
    "updated": "2026-09-07",
+   "updatedTime": "2026-09-08 00:21",
    "topic": "gov",
    "links": [
     "徐总的知识库",
@@ -8491,6 +8988,7 @@ window.OBSIDIAN_DATA = {
    "path": "政府资源配置与政策落地机制/政府重大项目决策机制与省市区三级分工：以成都为案例.md",
    "title": "政府重大项目决策机制与省市区三级分工",
    "updated": "2026-08-28",
+   "updatedTime": "2026-08-28 19:52",
    "topic": "gov",
    "links": [
     "政府资源配置与政策落地机制/政府资源配置与政策落地机制专题",
@@ -8509,6 +9007,7 @@ window.OBSIDIAN_DATA = {
    "path": "政府资源配置与政策落地机制/政策传导链条分析模板.md",
    "title": "政策传导链条分析模板",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "gov",
    "links": [
     "政府资源配置与政策落地机制专题"
@@ -8521,6 +9020,7 @@ window.OBSIDIAN_DATA = {
    "path": "政府资源配置与政策落地机制/政策法规层级与国家省市区传导逻辑：以低空空域制度为背景.md",
    "title": "政策法规层级与国家省市区传导逻辑：以低空空域制度为背景",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "gov",
    "links": [
     "政府资源配置与政策落地机制专题",
@@ -8540,6 +9040,7 @@ window.OBSIDIAN_DATA = {
    "path": "政府资源配置与政策落地机制/省委专题会议支持天府新区：省级资源配置平台化案例.md",
    "title": "省委专题会议支持天府新区：省级资源配置平台化案例",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "gov",
    "links": [
     "政府资源配置与政策落地机制专题",
@@ -8560,6 +9061,7 @@ window.OBSIDIAN_DATA = {
    "path": "政府资源配置与政策落地机制/蜀道集团存量资产证券化：从四川成渝120亿类REITs看基建资金盘活与一卖一建.md",
    "title": "蜀道集团存量资产证券化：从四川成渝120亿类REITs看基建资金盘活与一卖一建",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 00:28",
    "topic": "gov",
    "links": [
     "政府资源配置与政策落地机制/政府资源配置与政策落地机制专题",
@@ -8571,7 +9073,9 @@ window.OBSIDIAN_DATA = {
     "政府资源配置与政策落地机制/政府重大项目决策机制与省市区三级分工：以成都为案例",
     "企业AI与智能体商业化/蜀道金租生产级AI建设方案：从个人辅助到企业生产级的演进路径"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "原始资料/已整理｜2026-09-08｜科创四川｜蜀道集团四川成渝120亿卖路与存量资产变现.md"
+   ],
    "desc": "四川成渝（蜀道集团旗下高速公路上市平台）拟以成都二绕西段收费经营权为底层资产，发行不超过 120 亿的权益并表型类REITs。这不是孤立动作：同一集团内公募REITs（雅泸高速 1",
    "wordCount": 3467
   },
@@ -8579,6 +9083,7 @@ window.OBSIDIAN_DATA = {
    "path": "生物医疗与生物医药/IMA原始资料/01_刘教授落地成都核心诉求全解析.md",
    "title": "01_刘教授落地成都核心诉求全解析",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "bio",
    "links": [],
    "backlinks": [
@@ -8591,6 +9096,7 @@ window.OBSIDIAN_DATA = {
    "path": "生物医疗与生物医药/IMA原始资料/02_生物医药产业-刘朝山教授.md",
    "title": "02_生物医药产业-刘朝山教授",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "bio",
    "links": [],
    "backlinks": [
@@ -8603,6 +9109,7 @@ window.OBSIDIAN_DATA = {
    "path": "生物医疗与生物医药/IMA原始资料/03_南湖实验室GPAS项目.md",
    "title": "03_南湖实验室GPAS项目",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "bio",
    "links": [],
    "backlinks": [
@@ -8615,6 +9122,7 @@ window.OBSIDIAN_DATA = {
    "path": "生物医疗与生物医药/IMA原始资料/04_赜灵生物发展前景.md",
    "title": "04_赜灵生物发展前景",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "bio",
    "links": [],
    "backlinks": [
@@ -8627,6 +9135,7 @@ window.OBSIDIAN_DATA = {
    "path": "生物医疗与生物医药/IMA原始资料/05_从青千到杰青全景图谱.md",
    "title": "05_从青千到杰青全景图谱",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "bio",
    "links": [],
    "backlinks": [
@@ -8639,6 +9148,7 @@ window.OBSIDIAN_DATA = {
    "path": "生物医疗与生物医药/IMA原始资料/06_生物医药产业链上下游相关分析.md",
    "title": "06_生物医药产业链上下游相关分析",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "bio",
    "links": [],
    "backlinks": [
@@ -8651,6 +9161,7 @@ window.OBSIDIAN_DATA = {
    "path": "生物医疗与生物医药/IMA原始资料/07_生物医药专业术语概念解析.md",
    "title": "07_生物医药专业术语概念解析",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "bio",
    "links": [],
    "backlinks": [
@@ -8663,6 +9174,7 @@ window.OBSIDIAN_DATA = {
    "path": "生物医疗与生物医药/IMA原始资料/08_生物科技转化服务链条.md",
    "title": "08_生物科技转化服务链条",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "bio",
    "links": [],
    "backlinks": [
@@ -8675,6 +9187,7 @@ window.OBSIDIAN_DATA = {
    "path": "生物医疗与生物医药/IMA原始资料/09_创新药和科研医药消费品.md",
    "title": "09_创新药和科研医药消费品",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "bio",
    "links": [],
    "backlinks": [
@@ -8687,6 +9200,7 @@ window.OBSIDIAN_DATA = {
    "path": "生物医疗与生物医药/IMA原始资料/10_生物医疗产业布局.md",
    "title": "10_生物医疗产业布局",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "bio",
    "links": [],
    "backlinks": [
@@ -8699,6 +9213,7 @@ window.OBSIDIAN_DATA = {
    "path": "生物医疗与生物医药/刘教授2500万项目判断.md",
    "title": "刘教授 2500 万项目判断",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "bio",
    "links": [
     "生物医疗与生物医药/生物医疗与生物医药专题",
@@ -8717,6 +9232,7 @@ window.OBSIDIAN_DATA = {
    "path": "生物医疗与生物医药/刘教授_上游机制研究与下游工程AI价值链.md",
    "title": "刘教授上游机制研究 vs 下游工程 AI 价值链与转化路径",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "bio",
    "links": [
     "生物医疗与生物医药/抗癌药两条路线与AI定位"
@@ -8731,6 +9247,7 @@ window.OBSIDIAN_DATA = {
    "path": "生物医疗与生物医药/刘教授核心档案.md",
    "title": "刘教授核心档案",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "bio",
    "links": [
     "生物医疗与生物医药/生物医疗与生物医药专题",
@@ -8750,6 +9267,7 @@ window.OBSIDIAN_DATA = {
    "path": "生物医疗与生物医药/抗癌药两条路线与AI定位.md",
    "title": "抗癌药两条技术路线与 AI 定位（徐总梳理）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "bio",
    "links": [
     "生物医疗与生物医药/生物医疗与生物医药专题",
@@ -8767,6 +9285,7 @@ window.OBSIDIAN_DATA = {
    "path": "生物医疗与生物医药/生物医疗与生物医药专题.md",
    "title": "生物医疗与生物医药专题",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "bio",
    "links": [
     "徐总的知识库",
@@ -8799,6 +9318,7 @@ window.OBSIDIAN_DATA = {
    "path": "生物医疗与生物医药/生物医药内容提炼.md",
    "title": "生物医药内容提炼",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "bio",
    "links": [
     "生物医疗与生物医药/生物医疗与生物医药专题",
@@ -8816,6 +9336,7 @@ window.OBSIDIAN_DATA = {
    "path": "低空经济/低空经济专题.md",
    "title": "低空经济专题",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "lowalt",
    "links": [
     "徐总的知识库",
@@ -8840,6 +9361,7 @@ window.OBSIDIAN_DATA = {
    "path": "低空经济/成都双流低空物流航线空域审批深度分析.md",
    "title": "成都双流低空物流航线空域审批深度分析",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "lowalt",
    "links": [
     "成都首条常态化低空城市物流航线",
@@ -8855,6 +9377,7 @@ window.OBSIDIAN_DATA = {
    "path": "低空经济/成都首条常态化低空城市物流航线.md",
    "title": "双流企业领飞！成都首条常态化低空城市物流航线正式开通",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "lowalt",
    "links": [
     "徐总的知识库"
@@ -8867,6 +9390,7 @@ window.OBSIDIAN_DATA = {
    "path": "低空经济/空天智航与丰翼合作模式分析.md",
    "title": "空天智航与丰翼合作模式分析——联合体模式的审批逻辑",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "lowalt",
    "links": [
     "成都首条常态化低空城市物流航线",
@@ -8881,6 +9405,7 @@ window.OBSIDIAN_DATA = {
    "path": "低空经济/蜀道集团低空经济：无人机巡检·招投标采购与产业协作体系.md",
    "title": "蜀道集团低空经济：无人机巡检·招投标采购与产业协作体系",
    "updated": "2026-09-07",
+   "updatedTime": "2026-09-08 00:28",
    "topic": "lowalt",
    "links": [
     "低空经济专题",
@@ -8899,6 +9424,7 @@ window.OBSIDIAN_DATA = {
    "path": "低空经济/蜀道集团大疆无人机巡检：采购投资与融资租赁测算.md",
    "title": "蜀道集团大疆无人机巡检：采购投资与融资租赁测算",
    "updated": "2026-09-07",
+   "updatedTime": "2026-09-08 00:28",
    "topic": "lowalt",
    "links": [
     "蜀道集团低空经济：无人机巡检·招投标采购与产业协作体系",
@@ -8916,6 +9442,7 @@ window.OBSIDIAN_DATA = {
    "path": "法律/中国立法体系总览.md",
    "title": "中国立法体系：对社会、经济、政治的影响",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "law",
    "links": [
     "决策传导框架：法律政策的层级体系与影响预判",
@@ -8933,6 +9460,7 @@ window.OBSIDIAN_DATA = {
    "path": "法律/低空经济法律体系：按层级梳理对社会经济政治的影响.md",
    "title": "低空经济法律体系：决策传导框架的案例应用",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "law",
    "links": [
     "法律专题",
@@ -8953,6 +9481,7 @@ window.OBSIDIAN_DATA = {
    "path": "法律/决策传导框架：法律政策的层级体系与影响预判.md",
    "title": "决策传导框架：法律政策的层级体系与影响预判",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "law",
    "links": [
     "法律专题",
@@ -8972,6 +9501,7 @@ window.OBSIDIAN_DATA = {
    "path": "法律/法律专题.md",
    "title": "法律专题",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "law",
    "links": [
     "徐总的知识库",
@@ -8993,6 +9523,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/AI核实信息方法论：单平台状态不等于真实状态.md",
    "title": "AI 核实信息方法论：单平台状态 ≠ 真实状态，多源交叉是底线",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "growth",
    "links": [
     "个人能力提升/个人能力提升",
@@ -9007,6 +9538,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/ChatGPT导出包中的个人能力提升归类.md",
    "title": "ChatGPT导出包中的个人能力提升归类",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "growth",
    "links": [
     "个人能力提升/个人能力提升",
@@ -9025,6 +9557,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/个人能力提升.md",
    "title": "个人能力提升",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "growth",
    "links": [
     "徐总的知识库",
@@ -9055,6 +9588,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/个人能力提升核心能力框架.md",
    "title": "个人能力提升核心能力框架",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "growth",
    "links": [
     "个人能力提升/个人能力提升",
@@ -9076,7 +9610,8 @@ window.OBSIDIAN_DATA = {
     "个人能力提升/个人能力提升.md",
     "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行.md",
     "个人能力提升/组织信任与闭环执行：从执行者到共谋者.md",
-    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
+    "个人能力提升/谈判与沟通/谈判与沟通专题.md",
+    "原始资料/已整理｜2026-08-08｜抖音豆包｜政治成熟优先级匹配精力.md"
    ],
    "desc": "上级：个人能力提升/个人能力提升",
    "wordCount": 6622
@@ -9085,6 +9620,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/对话归档/原始对话｜博弈思维对标模型.md",
    "title": "原始对话｜博弈思维对标模型",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "growth",
    "links": [],
    "backlinks": [
@@ -9099,6 +9635,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/对话归档/原始对话｜博弈谈判模型.md",
    "title": "原始对话｜博弈谈判模型",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "growth",
    "links": [],
    "backlinks": [
@@ -9113,6 +9650,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/对话归档/原始对话｜沟通与谈判.md",
    "title": "原始对话｜沟通与谈判",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "growth",
    "links": [],
    "backlinks": [
@@ -9127,6 +9665,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/承载力与高阶政治成熟：压力、人性与混沌中的定力.md",
    "title": "承载力与高阶政治成熟：压力、人性与混沌中的定力",
    "updated": "2026-09-07",
+   "updatedTime": "2026-09-07 17:56",
    "topic": "growth",
    "links": [
     "原始资料/已整理｜2026-09-02｜抖音｜承载力：职场高阶的政治成熟与四层认知觉醒"
@@ -9139,6 +9678,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行.md",
    "title": "权重识别与精力分配：从政治成熟到闭环执行",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "growth",
    "links": [
     "个人能力提升/个人能力提升",
@@ -9153,7 +9693,8 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识库健康巡检.md",
     "Codex工作区/每日跨项目复盘/2026-08-08.md",
     "个人能力提升/个人能力提升.md",
-    "个人能力提升/个人能力提升核心能力框架.md"
+    "个人能力提升/个人能力提升核心能力框架.md",
+    "原始资料/已整理｜2026-08-08｜抖音豆包｜政治成熟优先级匹配精力.md"
    ],
    "desc": "上级：个人能力提升/个人能力提升",
    "wordCount": 1748
@@ -9162,6 +9703,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/组织信任与闭环执行：从执行者到共谋者.md",
    "title": "组织信任与闭环执行：从执行者到共谋者",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "growth",
    "links": [
     "个人能力提升/个人能力提升",
@@ -9173,7 +9715,9 @@ window.OBSIDIAN_DATA = {
     "知识流水线/A_原始资料.md",
     "个人能力提升/个人能力提升.md",
     "个人能力提升/个人能力提升核心能力框架.md",
-    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行.md"
+    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行.md",
+    "原始资料/已整理｜2026-08-05｜ChatGPT｜组织信任建立与闭环能力.md",
+    "原始资料/已整理｜2026-08-08｜抖音豆包｜政治成熟优先级匹配精力.md"
    ],
    "desc": "上级：个人能力提升/个人能力提升、个人能力提升/个人能力提升核心能力框架",
    "wordCount": 2184
@@ -9182,6 +9726,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/谈判与沟通/不确定事项解决型判断框架：从事实澄清到策略决策.md",
    "title": "不确定事项解决型判断框架：从事实澄清到策略决策",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "growth",
    "links": [
     "个人能力提升/谈判与沟通/谈判与沟通专题",
@@ -9200,6 +9745,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集.md",
    "title": "原始资料｜沟通谈判与博弈三会话合集",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "growth",
    "links": [
     "个人能力提升/谈判与沟通/谈判与沟通专题",
@@ -9221,6 +9767,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/谈判与沟通/合同争议谈判前置判断框架：从履约结构到和解区间.md",
    "title": "合同相关争议的律师式前置分析框架：从合同结构到策略",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "growth",
    "links": [
     "个人能力提升/谈判与沟通/谈判与沟通专题",
@@ -9240,6 +9787,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达.md",
    "title": "沟通与谈判能力框架：结构控制、节奏管理与博弈表达",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "growth",
    "links": [
     "个人能力提升/谈判与沟通/谈判与沟通专题",
@@ -9254,7 +9802,8 @@ window.OBSIDIAN_DATA = {
     "个人能力提升/个人能力提升核心能力框架.md",
     "个人能力提升/谈判与沟通/原始资料｜沟通谈判与博弈三会话合集.md",
     "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾.md",
-    "个人能力提升/谈判与沟通/谈判与沟通专题.md"
+    "个人能力提升/谈判与沟通/谈判与沟通专题.md",
+    "原始资料/已整理｜2026-08-08｜抖音豆包｜沟通能力强的人说话是什么样的.md"
    ],
    "desc": "上级：个人能力提升/谈判与沟通/谈判与沟通专题",
    "wordCount": 4404
@@ -9263,6 +9812,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈核心原则第一版.md",
    "title": "蒸馏｜沟通谈判与博弈核心原则第一版",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "growth",
    "links": [
     "个人能力提升/谈判与沟通/谈判与沟通专题",
@@ -9280,6 +9830,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/谈判与沟通/蒸馏｜沟通谈判与博弈错误模式与场景卡.md",
    "title": "蒸馏｜沟通谈判与博弈错误模式与场景卡",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "growth",
    "links": [
     "个人能力提升/谈判与沟通/谈判与沟通专题",
@@ -9299,6 +9850,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/谈判与沟通/请贵人与领导吃饭的邀约方法：三种降低决策成本的话术.md",
    "title": "请贵人与领导吃饭的邀约方法：三种降低决策成本的话术",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "growth",
    "links": [
     "个人能力提升/谈判与沟通/谈判与沟通专题",
@@ -9316,6 +9868,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/谈判与沟通/谈判与博弈综合框架：筹码、位置、节点与主要矛盾.md",
    "title": "谈判与博弈综合框架：筹码、位置、节点与主要矛盾",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "growth",
    "links": [
     "个人能力提升/谈判与沟通/谈判与沟通专题",
@@ -9340,6 +9893,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/谈判与沟通/谈判与沟通专题.md",
    "title": "谈判与沟通专题",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "growth",
    "links": [
     "个人能力提升/个人能力提升",
@@ -9382,6 +9936,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/谈判与沟通/高压谈判与房产交易复盘：从不确定性到阶段性落地.md",
    "title": "高压谈判与房产交易复盘：从不确定性到阶段性落地",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "growth",
    "links": [
     "个人能力提升/谈判与沟通/谈判与沟通专题",
@@ -9398,6 +9953,7 @@ window.OBSIDIAN_DATA = {
    "path": "个人能力提升/谈判与沟通/高压谈判能力模型：不确定环境下的节奏控制与阶段落地.md",
    "title": "高压谈判能力模型：不确定环境下的节奏控制与阶段落地",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "growth",
    "links": [
     "个人能力提升/谈判与沟通/谈判与沟通专题",
@@ -9416,6 +9972,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/主题归档/主题归档说明.md",
    "title": "主题归档说明",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "徐总每日随记/徐总每日随记"
@@ -9428,6 +9985,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-06-01.md",
    "title": "2026-06-01",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "徐总每日随记/徐总每日随记"
@@ -9440,6 +9998,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-06-02.md",
    "title": "2026-06-02 每日随记",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [],
    "backlinks": [],
@@ -9450,6 +10009,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-06-03.md",
    "title": "2026-06-03 随记",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [],
    "backlinks": [],
@@ -9460,6 +10020,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-06-04.md",
    "title": "2026-06-04 随记",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [],
    "backlinks": [],
@@ -9470,6 +10031,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-06-06.md",
    "title": "2026-06-06 每日随记",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [],
    "backlinks": [],
@@ -9480,6 +10042,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-06-07.md",
    "title": "2026-06-07",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [],
    "backlinks": [],
@@ -9490,6 +10053,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-06-10.md",
    "title": "2026-06-10",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "企业AI与智能体商业化/多智能体双向连接架构_20260610"
@@ -9504,6 +10068,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-06-13.md",
    "title": "2026-06-13",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [],
    "backlinks": [],
@@ -9514,6 +10079,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-06-14.md",
    "title": "2026-06-14 每日随记",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "全局记忆/02_系统架构",
@@ -9527,6 +10093,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-06-17.md",
    "title": "2026-06-17 甘食记经营系统",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [],
    "backlinks": [
@@ -9561,6 +10128,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-06-18.md",
    "title": "2026-06-18 蜀道集团参观 + 战略转弯",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [],
    "backlinks": [],
@@ -9571,6 +10139,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-06-22.md",
    "title": "2026-06-22 随记",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [],
    "backlinks": [],
@@ -9581,6 +10150,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-06-28.md",
    "title": "2026-06-28",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [],
    "backlinks": [
@@ -9593,6 +10163,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-06-29.md",
    "title": "2026-06-29",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "徐总每日随记/当日记录/2026-06-28"
@@ -9605,6 +10176,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-07-04.md",
    "title": "2026-07-04",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
@@ -9620,6 +10192,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-07-05.md",
    "title": "2026-07-05",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "企业AI与智能体商业化/原始资料/美团AI经营参谋与甘食记内部经营系统边界讨论",
@@ -9636,6 +10209,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-07-08.md",
    "title": "2026-07-08",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机",
@@ -9658,6 +10232,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-07-09.md",
    "title": "2026-07-09",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "企业AI与智能体商业化/企业应用架构六阶段演化与AI Agent融合路径",
@@ -9675,6 +10250,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-07-10.md",
    "title": "2026-07-10",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "全局记忆/05_平台差异",
@@ -9691,6 +10267,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-07-14.md",
    "title": "2026-07-14",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "个人健康/华西医院就诊经验",
@@ -9709,6 +10286,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-07-23.md",
    "title": "2026-07-23 随记",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "个人健康/体重管理"
@@ -9723,6 +10301,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-07-25.md",
    "title": "2026-07-25 周六",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "个人健康/体重管理"
@@ -9737,6 +10316,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-07-28.md",
    "title": "2026-07-28 周二",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "个人健康/体重管理",
@@ -9752,6 +10332,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-07-30.md",
    "title": "2026-07-30 早晨体重与昨日回顾",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "个人健康/体重管理"
@@ -9764,6 +10345,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-08-02.md",
    "title": "2026-08-02 周日",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "个人健康/体重管理",
@@ -9777,6 +10359,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-08-05.md",
    "title": "2026-08-05 周二",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [],
    "backlinks": [
@@ -9789,6 +10372,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-08-10.md",
    "title": "2026-08-10 周日",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [],
    "backlinks": [],
@@ -9799,6 +10383,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-08-11.md",
    "title": "2026-08-11",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "notes",
    "links": [
     "原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地"
@@ -9813,6 +10398,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-08-12.md",
    "title": "2026-08-12",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [],
    "backlinks": [
@@ -9826,6 +10412,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-08-18.md",
    "title": "2026-08-18",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "徐总每日随记/随记收件箱/随记收件箱说明"
@@ -9840,6 +10427,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-08-19.md",
    "title": "2026-08-19",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "徐总每日随记/随记收件箱/随记收件箱说明"
@@ -9854,6 +10442,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-08-20.md",
    "title": "2026-08-20",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "徐总每日随记/随记收件箱/随记收件箱说明"
@@ -9868,6 +10457,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-08-27.md",
    "title": "贵州8天自驾 · 实际行程记录（2大1小·无老人）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-27 00:23",
    "topic": "notes",
    "links": [],
    "backlinks": [],
@@ -9878,6 +10468,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-08-31.md",
    "title": "2026-08-31 当日记录",
    "updated": "2026-08-31",
+   "updatedTime": "2026-08-31 11:19",
    "topic": "notes",
    "links": [],
    "backlinks": [],
@@ -9888,6 +10479,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-09-01.md",
    "title": "2026-09-01 当日记录",
    "updated": "2026-09-01",
+   "updatedTime": "2026-09-01 17:57",
    "topic": "notes",
    "links": [
     "多智能体协作任务/KNOWLEDGEPIP-144-AI-Office多办公位智能体办公室搭建"
@@ -9900,6 +10492,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/2026-09-08.md",
    "title": "2026-09-08",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 13:12",
    "topic": "notes",
    "links": [
     "徐总每日随记/徐总每日随记"
@@ -9914,6 +10507,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/当日记录/当日记录说明.md",
    "title": "当日记录说明",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "徐总每日随记/徐总每日随记",
@@ -9931,6 +10525,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/徐总每日随记.md",
    "title": "徐总每日随记",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "徐总的知识库",
@@ -9956,6 +10551,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/月度复盘/月度复盘说明.md",
    "title": "月度复盘说明",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "徐总每日随记/徐总每日随记",
@@ -9971,6 +10567,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/随记收件箱/随记收件箱说明.md",
    "title": "随记收件箱说明",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "徐总每日随记/徐总每日随记"
@@ -9991,6 +10588,7 @@ window.OBSIDIAN_DATA = {
    "path": "徐总每日随记/零散随想/零散随想说明.md",
    "title": "零散随想说明",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "notes",
    "links": [
     "徐总每日随记/徐总每日随记",
@@ -10006,6 +10604,7 @@ window.OBSIDIAN_DATA = {
    "path": "豆包工作区/dsh-send-README.md",
    "title": "dsh-send: 通过 47900 与 Harness (Friday) 直接通信",
    "updated": "2026-08-30",
+   "updatedTime": "2026-08-30 09:27",
    "topic": "doubao",
    "links": [],
    "backlinks": [
@@ -10018,6 +10617,7 @@ window.OBSIDIAN_DATA = {
    "path": "豆包工作区/多Agent协作架构.md",
    "title": "多 Agent 协作架构",
    "updated": "2026-08-30",
+   "updatedTime": "2026-08-30 13:31",
    "topic": "doubao",
    "links": [
     "任务面板与知识库/任务卡/Alpha-Friday搭建与会话修复-20260830"
@@ -10030,6 +10630,7 @@ window.OBSIDIAN_DATA = {
    "path": "豆包工作区/豆包对话归档工作流.md",
    "title": "豆包对话归档工作流",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "topic": "doubao",
    "links": [
     "知识流水线/知识流水线",
@@ -10048,6 +10649,7 @@ window.OBSIDIAN_DATA = {
    "path": "豆包工作区/豆包工作区.md",
    "title": "豆包工作区",
    "updated": "2026-08-28",
+   "updatedTime": "2026-08-28 19:28",
    "topic": "doubao",
    "links": [
     "知识库索引",
@@ -10067,6 +10669,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex/Chrome CDP 浏览器操控技能.md",
    "title": "Chrome CDP 浏览器操控技能",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codexmisc",
    "links": [
     "Codex/Codex专题",
@@ -10080,6 +10683,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex/Codex专题.md",
    "title": "Codex 专题",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codexmisc",
    "links": [
     "徐总的知识库",
@@ -10095,7 +10699,8 @@ window.OBSIDIAN_DATA = {
     "知识流水线/知识流水线.md",
     "Codex工作区/每日跨项目复盘/2026-07-10.md",
     "Codex/Chrome CDP 浏览器操控技能.md",
-    "Codex/Codex五级用法演进模型.md"
+    "Codex/Codex五级用法演进模型.md",
+    "原始资料/已整理｜2026-08-04｜抖音豆包｜南吴NANWU总结Codex的5级用法.md"
    ],
    "desc": "上级：徐总的知识库",
    "wordCount": 867
@@ -10104,6 +10709,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex/Codex五级用法演进模型.md",
    "title": "Codex 五级用法演进模型",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "topic": "codexmisc",
    "links": [
     "Codex/Codex专题",
@@ -10114,7 +10720,8 @@ window.OBSIDIAN_DATA = {
     "原始资料/已整理｜2026-08-04｜抖音豆包｜南吴NANWU总结Codex的5级用法"
    ],
    "backlinks": [
-    "知识流水线/A_原始资料.md"
+    "知识流水线/A_原始资料.md",
+    "原始资料/已整理｜2026-08-04｜抖音豆包｜南吴NANWU总结Codex的5级用法.md"
    ],
    "desc": "上级：Codex/Codex专题",
    "wordCount": 1834
@@ -10123,6 +10730,7 @@ window.OBSIDIAN_DATA = {
    "path": "Codex/Codex使用总结与知识库体系.md",
    "title": "Codex 使用总结与知识库体系",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "codexmisc",
    "links": [
     "全局记忆/00_总览",
@@ -10146,6 +10754,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI 工具线下使用操作手册/2026-08-08-飞书妙记工作流整合.md",
    "title": "飞书妙记工作流 × 文化咨询公司 AI 落地对接（整合）",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "aitools",
    "links": [],
    "backlinks": [],
@@ -10156,6 +10765,7 @@ window.OBSIDIAN_DATA = {
    "path": "AI 工具线下使用操作手册/README.md",
    "title": "AI 工具线下使用操作手册",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "topic": "aitools",
    "links": [
     "2026-08-08-飞书妙记工作流整合"
@@ -10163,6 +10773,1505 @@ window.OBSIDIAN_DATA = {
    "backlinks": [],
    "desc": "- 2026-08-08-飞书妙记工作流整合 — 飞书妙记录制 + WorkBuddy 经飞书 API 直读会谈记录的工作流（移动端体验、阶段边界、待补环节）",
    "wordCount": 268
+  },
+  {
+   "path": "我的洞察/徐总口述/AI Agent 商业化路径与方向.md",
+   "title": "AI Agent 商业化路径与方向",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 21:03",
+   "topic": "myinsights",
+   "links": [
+    "FDE（前线部署工程师）学习与研究"
+   ],
+   "backlinks": [],
+   "desc": "AI Agent 的商业化路径不是单一的，而是有多个层次。工具型 AI Agent 最容易被替代，真正有壁垒的是深入企业业务流程、沉淀标准化方法论、并能以 FDE 方式嵌入企业生产",
+   "wordCount": 1054
+  },
+  {
+   "path": "我的洞察/徐总口述/FDE（前线部署工程师）学习与研究.md",
+   "title": "FDE（前线部署工程师）学习与研究",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 20:55",
+   "topic": "myinsights",
+   "links": [],
+   "backlinks": [],
+   "desc": "FDE不是凭空冒出来的新职业，它是基础模型能力趋同之后，把模型变成可托付产品的关键角色。FDE是连接政策资金、技术能力和真实业务场景的翻译器和执行者。",
+   "wordCount": 893
+  },
+  {
+   "path": "原始资料/已整理｜2026-07-21｜用户直接指令｜Obsidian六步收口规则原文.md",
+   "title": "原始资料｜Obsidian新增更新内容强制收口协作规则（用户原文）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "全局记忆/13_Obsidian新增更新内容强制收口协作规则"
+   ],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：全局记忆/13Obsidian新增更新内容强制收口协作规则",
+   "wordCount": 1431
+  },
+  {
+   "path": "原始资料/已整理｜2026-07-30｜抖音｜企业AI落地真实内幕4个反常识真相.md",
+   "title": "企业AI落地真实内幕（4 个反常识真相）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "徐总的知识库",
+    "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "企业AI与智能体商业化/FDE商业级智能体交付框架",
+    "企业AI与智能体商业化/FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "企业AI与智能体商业化/企业AI知识资产：从知识库到组织能力与AI复利",
+    "企业AI与智能体商业化/企业AI落地的五堵墙+四层面系统工程+五层落地方法论"
+   ],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：徐总的知识库",
+   "wordCount": 3503
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-02｜抖音豆包衍生｜福建token工厂落地厦门.md",
+   "title": "福建 Token 工厂落地厦门（豆包衍生解读）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题"
+   ],
+   "backlinks": [
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+    "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
+    "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "Token 凯哥视频｜厦门全栈 Token 工厂完整解读（纠正视频文字笔误：夏门 = 厦门）",
+   "wordCount": 1956
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-02｜抖音豆包｜Token工厂三大玩家.md",
+   "title": "Token 工厂三大玩家",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题"
+   ],
+   "backlinks": [
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+    "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
+    "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 2094
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-02｜抖音豆包｜中国不缺算力真相.md",
+   "title": "中国不缺算力真相（呼呼智算重庆）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题"
+   ],
+   "backlinks": [
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+    "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
+    "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 1467
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-02｜抖音豆包｜看懂三类商业模式理清Token发展路线.md",
+   "title": "看懂三类商业模式，理清 Token 从业者发展路线",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题"
+   ],
+   "backlinks": [
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+    "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
+    "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 2266
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-02｜抖音豆包｜运营商下场词元聚合分发.md",
+   "title": "运营商下场词元聚合分发，中小玩家还能做吗（牧野词元掘金社）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题"
+   ],
+   "backlinks": [
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+    "AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
+    "AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂.md",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 1972
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-03｜抖音豆包衍生｜各省算力账本摊开看.md",
+   "title": "各省算力账本摊开看：谁在疯狂建、谁在悄悄停",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题"
+   ],
+   "backlinks": [
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 2511
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-03｜抖音豆包衍生｜理清Token从业者发展路线.md",
+   "title": "理清 Token 从业者发展路线：词元经济下的三条路径",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题"
+   ],
+   "backlinks": [
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 2653
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-03｜抖音豆包｜Token才是中国真正意义上的电力出口.md",
+   "title": "Token 才是中国真正意义上的电力出口",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题"
+   ],
+   "backlinks": [
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 2477
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-03｜抖音豆包｜Token是中国新型电力出口.md",
+   "title": "Token是中国新型电力出口",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题"
+   ],
+   "backlinks": [
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 2440
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-03｜抖音豆包｜味精公司砸6亿搞算力一台没摸到.md",
+   "title": "味精公司砸6亿搞算力一台没摸到（莲花控股算力投资踩坑）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题"
+   ],
+   "backlinks": [
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 2356
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-03｜抖音豆包｜电怎么卡住了AI的脖子.md",
+   "title": "电，怎么卡住了 AI 的脖子？",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题"
+   ],
+   "backlinks": [
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 2146
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-03｜抖音豆包｜电网数字化是腐败重灾区.md",
+   "title": "电网数字化是腐败重灾区",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "企业AI与智能体商业化/AI数字化招标与合规治理框架",
+    "企业AI与智能体商业化/资料池",
+    "企业AI与智能体商业化/企业AI与智能体商业化专题"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/AI数字化招标与合规治理框架.md",
+    "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+    "知识流水线/A_原始资料.md",
+    "知识流水线/知识库健康巡检.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 2479
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-03｜抖音豆包｜福建token工厂落地厦门.md",
+   "title": "福建 token 工厂落地厦门",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题"
+   ],
+   "backlinks": [
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 1799
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-04｜抖音豆包｜NeoPicks聊了7个AI交付团队总结困难机会危机.md",
+   "title": "NeoPicks聊了7个AI交付团队总结困难机会危机",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "企业AI与智能体商业化/AI交付行业观察：走访7个团队后的困境机会与危机",
+    "企业AI与智能体商业化/企业AI与智能体商业化专题"
+   ],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 2702
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-04｜抖音豆包｜Token工厂单机vs集群卖Token商业化.md",
+   "title": "Token 工厂单机 vs 集群（卖 Token 商业化门槛）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路",
+    "AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用",
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题"
+   ],
+   "backlinks": [
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 4619
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-04｜抖音豆包｜南吴NANWU总结Codex的5级用法.md",
+   "title": "南吴NANWU总结Codex的5级用法",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "Codex/Codex五级用法演进模型",
+    "Codex/Codex专题",
+    "知识库索引"
+   ],
+   "backlinks": [
+    "知识流水线/A_原始资料.md",
+    "Codex/Codex五级用法演进模型.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 1865
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-05｜ChatGPT｜组织信任建立与闭环能力.md",
+   "title": "原文：组织信任建立与闭环能力",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "个人能力提升/组织信任与闭环执行：从执行者到共谋者"
+   ],
+   "backlinks": [
+    "知识流水线/A_原始资料.md",
+    "个人能力提升/个人能力提升核心能力框架.md",
+    "个人能力提升/组织信任与闭环执行：从执行者到共谋者.md"
+   ],
+   "desc": "你这段话背后的核心，其实不是简单的\"多做一点事情\"，而是一种更高阶的组织信任建立能力。",
+   "wordCount": 1794
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-05｜ChatGPT｜美团小团Agent架构与Ontology分析.md",
+   "title": "美团小团Agent架构分析：从Demo到生产级的鸿沟（ChatGPT深聊）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/案例-美团小团Agent工程化差距分析.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "小团的问题不是模型不会理解，而是它背后的 Agent 架构大概率仍然是「LLM + 搜索工具调用」，而不是「LLM 驱动的搜索决策系统」。",
+   "wordCount": 3729
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-06｜抖音+ChatGPT｜专家搭建的Obsidian AI Knowledge OS.md",
+   "title": "专家搭建的 Obsidian AI Knowledge OS",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/AI知识学习与复盘工作台",
+    "知识流水线/个人工作台设计与部署方法论",
+    "链接"
+   ],
+   "backlinks": [
+    "知识流水线/AI知识学习与复盘工作台.md",
+    "知识流水线/A_原始资料.md",
+    "知识流水线/个人工作台设计与部署方法论.md"
+   ],
+   "desc": "这个页面是整个 Knowledge OS 的知识中心（Knowledge Center）页面。它不是简单展示笔记，而是在展示\"知识资产管理层\"。",
+   "wordCount": 2659
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-06｜抖音豆包｜张宇技术栈Agent系统7种架构.md",
+   "title": "张宇技术栈：从零搭建 Agent 系统主流 7 种架构选型（口播文案）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow",
+    "AI Agent工程知识/AI Agent专业术语词典",
+    "AI Agent工程知识/AI Agent工程知识专题"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 3033
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-06｜抖音｜王自如聊如何正确减肥.md",
+   "title": "王自如聊如何正确减肥（口播稿）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "个人健康/体重管理",
+    "个人健康/个人健康"
+   ],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 2019
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-07｜抖音豆包｜AI大模型果果姐AIAgent框架选错白忙三个月.md",
+   "title": "做AI Agent，框架选错，真的可能白忙三个月",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 2081
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-07｜抖音豆包｜央视新闻记者医学减重一年掉40斤.md",
+   "title": "央视新闻记者尝试医学减重一年掉40斤",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "个人健康/体重管理"
+   ],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 1696
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-07｜抖音豆包｜超哥奇点世界GPU空转泡沫AI资本囤积游戏.md",
+   "title": "GPU空转泡沫：AI行业最大的资本囤积游戏（超哥的奇点世界）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率",
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题"
+   ],
+   "backlinks": [
+    "AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 2325
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-08｜抖音豆包｜三十亿智算中心利用率.md",
+   "title": "三十亿智算中心机柜全亮没人用：全国平均利用率百分之...",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "徐总问题专题库/01_AI产业链与基础设施/2026-08-03_算力工厂与算力出海",
+    "AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率"
+   ],
+   "backlinks": [
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+    "AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 1781
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-08｜抖音豆包｜政治成熟优先级匹配精力.md",
+   "title": "政治成熟，读懂优先级匹配精力做事",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行",
+    "个人能力提升/个人能力提升核心能力框架",
+    "个人能力提升/组织信任与闭环执行：从执行者到共谋者"
+   ],
+   "backlinks": [
+    "知识流水线/A_原始资料.md",
+    "个人能力提升/个人能力提升核心能力框架.md",
+    "个人能力提升/权重识别与精力分配：从政治成熟到闭环执行.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 1591
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-08｜抖音豆包｜沟通能力强的人说话是什么样的.md",
+   "title": "沟通能力强的人说话是什么样的",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达"
+   ],
+   "backlinks": [
+    "知识流水线/A_原始资料.md",
+    "个人能力提升/谈判与沟通/沟通与谈判能力框架：结构控制、节奏管理与博弈表达.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 1501
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-08｜抖音豆包｜用本体重塑企业AI语义基座.md",
+   "title": "用本体重塑企业AI的语义基座",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/Ontology基础概念：从本体论到企业业务对象.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 2185
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-08｜抖音豆包｜美国AI基建东数西算.md",
+   "title": "美国AI基建撞上新瓶颈，中国\"东数西算\"为何是另一套解法",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率",
+    "AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路"
+   ],
+   "backlinks": [
+    "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
+    "AI产业链与数字基础设施/有效算力与智算中心项目核验清单：从MFU到商业利用率.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 2016
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-11｜访谈｜李开复AI现状与未来深度对话.md",
+   "title": "李开复AI现状与未来深度对话",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "徐总的知识库"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
+    "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md",
+    "知识流水线/A_原始资料.md",
+    "Codex工作区/每日跨项目复盘/2026-08-12.md",
+    "原始资料/已整理｜2026-09-08｜李开复｜AI现状与未来深度对话原始稿索引.md"
+   ],
+   "desc": "总库：徐总的知识库",
+   "wordCount": 14725
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地.md",
+   "title": "游戏公司 AI 组织落地走访原始记录",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
+    "知识流水线/A_原始资料.md",
+    "Codex工作区/每日跨项目复盘/2026-08-11.md",
+    "DeepSeek Harness项目/游戏角色设计定版智能体-能力包设计草案V1.md",
+    "徐总每日随记/当日记录/2026-08-11.md"
+   ],
+   "desc": "- 现状：内部美术团队用通用模型（如 Image 2）生图，「一周跑 8000 张只挑出 10 张」，且这些图仍达不到要求；美术只能依赖 Image 2，还要人工修图。",
+   "wordCount": 2047
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-12｜对话整理｜任务闭环与业务闭环分离-GrokBot数字岗位vs经营Agent.md",
+   "title": "任务闭环与业务闭环分离：Grok Bot 的任务/岗位 Agent 路线 vs 经营 Agent 路线",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/知识库索引.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 3509
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-12｜抖音｜Solo们chat-FDE如何用ANC搭建AI原生组织.md",
+   "title": "「Solo们 chat」FDE如何用ANC搭建AI原生组织",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "企业AI与智能体商业化/ANC方法论：FDE如何用AI原生组织承接企业落地"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/知识库索引.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 3702
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-12｜飞书妙记原始逐字稿｜己未文化AI落地首谈.md",
+   "title": "飞书妙记原始逐字稿｜己未文化AI落地首谈",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "企业AI与智能体商业化/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团.md",
+    "企业AI与智能体商业化/己未文化AI落地-首次接触沟通作战卡-测试版.md",
+    "企业AI与智能体商业化/己未文化AI落地首谈会议纪要：客户资产管理第一阶段.md",
+    "企业AI与智能体商业化/己未文化资料速查入口.md",
+    "企业AI与智能体商业化/知识库索引.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "- 客户（己未文化）后续补充提到：当前正通过一个本地平台做引流，形态类似「活动报名」，但带推广分成机制——把自己所有活动放上去。",
+   "wordCount": 630
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-13｜ChatGPT｜AI行业落地认知的混乱.md",
+   "title": "ChatGPT 对话｜AI 行业落地认知的混乱",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "企业AI与智能体商业化/AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧",
+    "企业AI与智能体商业化/生产级AI Agent的三层标准：方法标准、实现标准与对标标准"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧.md",
+    "知识流水线/A_原始资料.md",
+    "Codex工作区/每日跨项目复盘/2026-08-13.md",
+    "Codex工作区/每日跨项目复盘/2026-08-14.md"
+   ],
+   "desc": "- 对话标题：AI 行业落地认知的混乱",
+   "wordCount": 1762
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-15｜斯坦福｜Enterprise AI Playbook 企业AI实战手册51个成功落地项目.md",
+   "title": "斯坦福《Enterprise AI Playbook》企业AI实战手册（51个成功落地项目）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "企业AI与智能体商业化/斯坦福企业AI实战手册：51个成功样本与三档人机协作模式",
+    "企业AI与智能体商业化/企业AI与智能体商业化专题"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/斯坦福企业AI实战手册：51个成功样本与三档人机协作模式.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 2481
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环.md",
+   "title": "Harness控制中心架构闭环",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:55",
+   "topic": "raw",
+   "links": [
+    "DeepSeek Harness项目/DeepSeek Harness项目记录"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/Deepseek Harness：框架概念与专属智能体搭建.md",
+    "知识流水线/A_原始资料.md",
+    "知识流水线/知识库健康巡检.md",
+    "DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+   ],
+   "desc": "1. 定位：Harness Agent Control Center 是官方 Harness 之上的「决策与执行」编排层，不修改 packages/core agent-loop，",
+   "wordCount": 3453
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-17｜口播文案｜企业AI落地与数字化转型干货分享.md",
+   "title": "已整理｜2026-08-17｜口播文案｜企业AI落地与数字化转型干货分享",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "- 品类：企业AI落地 / 数字化转型·认知纠偏类干货",
+   "wordCount": 2925
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-17｜口播文案｜女装直播用AI省500万(唐承佳案例).md",
+   "title": "已整理｜2026-08-17｜口播文案｜女装直播用AI省500万（唐承佳案例）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "- 品类：企业AI落地·真实降本案例（女装直播行业）",
+   "wordCount": 2831
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-18｜口播文案｜企业AI知识库搭建.md",
+   "title": "已整理｜2026-08-18｜口播文案｜企业AI知识库搭建",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "- 品类：企业AI落地·认知方法论（知识库是AI提效第一件事）",
+   "wordCount": 2373
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-19｜Harness｜全文接入链路测试.md",
+   "title": "Harness 全文接入链路测试",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "Jarvis Office 的第一条业务链路是：接收完整全文，保留原文，标记为未整理，并把后续整理交给下一阶段。",
+   "wordCount": 170
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-19｜口播文案｜AI电商数据治理先行(子墨说AI-Corvera案例).md",
+   "title": "（子墨说AI｜4个人的AI电商团队，5周做到21万营收、融资420万美金）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "四人团队靠AI一个月逆袭，营收21万，融资420万美金，同时拿下了12个电商快销品牌的合作。最夸张的是，从签下第一单客户到服务满12个品牌，他们只用了短短5个星期。就在今年5月，这",
+   "wordCount": 988
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-19｜工作流规则｜Jarvis知识增长工作流总规则.md",
+   "title": "Jarvis Office 知识增长工作流总规则",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "Jarvis Office 不是单纯的资料整理聊天框，而是一个由 DeepSeek Harness 驱动的知识增长执行体：把资料保存、内容提炼、专题整合、知识库巡检和后续研究建议串",
+   "wordCount": 2210
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-21｜Qwen-UI-Agent与Harness自重启能力方向.md",
+   "title": "Qwen-UI-Agent 与 Harness 自重启能力方向",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "AI Agent工程知识/DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "Qwen-UI-Agent 可能不只是浏览器控制能力，还覆盖手机 App、桌面电脑、浏览器、跨设备流程以及 GUI 与 CLI 混合执行。未来可研究是否把它接入 DeepSeek ",
+   "wordCount": 1030
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-21｜人工测试｜测试 Jarvis 四阶段工作流验证.md",
+   "title": "测试 Jarvis 四阶段工作流验证",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/B_知识蒸馏/测试 Jarvis 四阶段工作流验证",
+    "AI Agent工程知识/DeepSeek Harness 插件与模式设计规范 V1.2"
+   ],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "- 2026-08-21 23:09 Jarvis → received → classified（识别为 fulltext）",
+   "wordCount": 315
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-21｜抖音DeepSeek Harness系列文案.md",
+   "title": "抖音 DeepSeek Harness 系列文案",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "未整理｜2026-08-21｜抖音DeepSeek Harness系列文案.txt"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "原始完整文案已保存在：未整理｜2026-08-21｜抖音DeepSeek Harness系列文案.txt。",
+   "wordCount": 1027
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-21｜红杉AI闭门会解读｜AI产业下半场：应用反攻模型层与Eval护城河.md",
+   "title": "红杉资本 2026 年 AI 闭门会解读：AI 产业下半场竞争逻辑变化",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "原始资料/未整理｜2026-08-21｜红杉Eval判断落地｜把行业经验变成打分规则与闭环迭代"
+   ],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "- 过去 AI 产业格局：模型公司垄断智能能力，应用公司通过接 API 赚取差价。",
+   "wordCount": 2224
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-21｜红杉Eval判断落地｜把行业经验变成打分规则与闭环迭代.md",
+   "title": "红杉Eval判断落地：从定义好结果到可执行打分规则与闭环迭代",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "\"定义好的结果\"本质是把老板 / 资深员工的隐性经验，拆解成结构化的评估维度、打分规则、验收标准，再通过\"评估 - 优化 - 沉淀\"的闭环，让 AI 持续对齐行业认知。",
+   "wordCount": 2175
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-21｜豆包对话｜阿里云灵骏真武M890超节点与算力体系辨析.md",
+   "title": "阿里云灵骏真武 M890 超节点与算力体系辨析",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "AI产业链与数字基础设施/算力基础设施与金融化增量整理（2026-08-21至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "国产超节点落地元年，阿里云超两万亿参数大模型超节点算力上线 超节点算力 AI 科技 大模型 灵骏真武 M890",
+   "wordCount": 2475
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-25｜微信公众号·远川研究所｜办公Agent大战重点不是Agent（上下文才是护城河）.md",
+   "title": "办公Agent大战，重点不是Agent",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法",
+    "企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
+    "chatgpt-conversation://6a2a3141-6278-83e8-b95b-b6f5bf5bf2f1"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/智能体使用逻辑问题复盘-垂直任务实践（旅行案例）.md",
+    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "- 2026-08-28：结合 ChatGPT 会话《生产级AI agent 框架》完成二次整理。",
+   "wordCount": 5651
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-25｜视频·高盛算力研报解读｜远景星河基地与算电协同：中国AI换道超车.md",
+   "title": "已整理｜2026-08-25｜视频·高盛算力研报解读｜远景星河基地与算电协同：中国AI换道超车",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "AI产业链与数字基础设施/算力基础设施与金融化增量整理（2026-08-21至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "中美的AI竞赛，你觉得最后拼的到底是什么？是芯片、算法还是大模型？最近高盛发布了一份中国算力研报，抛出了一个重磅的信号。今年上半年乌兰察布签约的算力负荷规模干到了12.5GW，什么",
+   "wordCount": 2867
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-26｜dsh拆解系列｜拆解DeepSeekHarness：Profile与Bundle如何装配运行时.md",
+   "title": "拆解 DeepSeek Harness：Profile 与 Bundle 如何装配运行时",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 5846
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-26｜dsh拆解系列｜解读Cordis：dsh一切皆插件背后的运行时设计.md",
+   "title": "解读 Cordis：dsh 一切皆插件背后的运行时设计",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 5915
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-26｜极客公园｜离开剪映后创业，她想把一支设计团队装进AI工作台.md",
+   "title": "离开剪映后创业，她想把一支设计团队装进 AI 工作台",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/企业AI与FDE增量整理（2026-08-27至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 4990
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-26｜棱镜｜AI尽头，也是放贷.md",
+   "title": "AI尽头，也是放贷",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料"
+   ],
+   "backlinks": [
+    "AI产业链与数字基础设施/算力基础设施与金融化增量整理（2026-08-21至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 3846
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-27｜探讨·企业级AI工程化闭环选型：必要性边界、RPA替代与维护可持续性.md",
+   "title": "企业级AI工程化闭环选型探讨：必要性边界、RPA替代与维护可持续性",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "企业AI与智能体商业化/企业AI与FDE增量整理（2026-08-27至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "企业级 AI Agent / RAG 上线后，是否必须搭建完整的 BadCase 闭环（埋点→筛选→评审→修复→回归）？工程化每个细节都\"麻烦\"，企业级是否一定要做满？",
+   "wordCount": 821
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-27｜视频·大模型秋招模拟面试｜RAG-Agent上线后的BadCase闭环五步流程.md",
+   "title": "RAG/Agent上线后的BadCase闭环五步流程",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "企业AI与智能体商业化/企业AI与FDE增量整理（2026-08-27至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "RAG/Agent 上线后，必须搭建完整的 BadCase 闭环，这是系统持续迭代的关键。缺少闭环会导致系统效果越来越差（错误累积、无法定位根因）。",
+   "wordCount": 621
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜53AI转载｜超级个体时代腾讯研究院报告.md",
+   "title": "超级个体时代｜腾讯研究院3万字报告",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+    "知识流水线/AI原生组织与多Agent工作空间增量整理（2026-08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 33765
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜GitHub优选｜DSH实测必装12个插件.md",
+   "title": "已整理｜2026-08-28｜GitHub优选｜DSH实测必装12个插件",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 4713
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜Omnigent开源元编排层Meta-Harness（统一多Agent共享会话）.md",
+   "title": "Omnigent 开源元编排层（Meta-Harness）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "知识流水线/AI原生组织与多Agent工作空间增量整理（2026-08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "\"Omnigent is an open-source meta-harness that gives you a common orchestration layer over ",
+   "wordCount": 2527
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜吴晓波频道｜养龙虾退热企业AI落地.md",
+   "title": "已整理｜2026-08-28｜吴晓波频道｜养龙虾退热企业AI落地",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/企业AI与FDE增量整理（2026-08-27至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 2267
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜微信公众号｜DSH到底把什么做成了插件.md",
+   "title": "[docs-search] 已给模型加上 search_dsh_docs 工具",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 4448
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜微信公众号｜我为什么不建议普通人现在去做企业知识库.md",
+   "title": "已整理｜2026-08-28｜微信公众号｜我为什么不建议普通人现在去做企业知识库",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/企业AI与FDE增量整理（2026-08-27至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 3652
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜投资界｜生产200万AI打工人冲刺IPO.md",
+   "title": "已整理｜2026-08-28｜投资界｜生产200万AI打工人冲刺IPO",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/企业AI与FDE增量整理（2026-08-27至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 5278
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜抖音｜Macro开源企业级一体化工作空间.md",
+   "title": "Macro开源企业级一体化工作空间（邮件/消息/任务/文档/CRM+AI Agent）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "知识流水线/AI原生组织与多Agent工作空间增量整理（2026-08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "Macro 是为\"你和你团队\"打造的一体化工作空间，把 email + messages + docs + tasks + agents + CRM 统一进一个快速界面，带共享的团",
+   "wordCount": 1749
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜抖音｜YC开源内部Agent办公系统QM.md",
+   "title": "YC开源内部Agent办公系统QM",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "知识流水线/AI原生组织与多Agent工作空间增量整理（2026-08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "YC刚刚把自己的内部 Agent 开源了，代号 QM。这不是玩具，是 YC 在产品、市场、工程等部门真刀真枪跑了几个月的多 Agent 协助系统。想要进化成 AI 原生团队的可以闭",
+   "wordCount": 496
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜机器之心｜翁荔AI自进化在Harness.md",
+   "title": "已整理｜2026-08-28｜机器之心｜翁荔AI自进化在Harness",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料"
+   ],
+   "backlinks": [
+    "知识流水线/AI原生组织与多Agent工作空间增量整理（2026-08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 18743
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜腾讯科技｜DeepSeek的Harness为何是一头黑色鲸鱼.md",
+   "title": "已整理｜2026-08-28｜腾讯科技｜DeepSeek的Harness为何是一头黑色鲸鱼",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 4316
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜腾讯科技｜黑鲸之后OpenAI开放Harness.md",
+   "title": "已整理｜2026-08-28｜腾讯科技｜黑鲸之后OpenAI开放Harness",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 5051
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜蓝耘星河｜别把DSH当CodeX平替.md",
+   "title": "已整理｜2026-08-28｜蓝耘星河｜别把DSH当CodeX平替",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 2054
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜豆包对话｜政府重大项目决策机制详解（含多项目推动层级）.md",
+   "title": "已整理｜2026-08-28｜豆包对话｜政府重大项目决策机制详解（含多项目推动层级）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "知识流水线/A_原始资料.md",
+    "政府资源配置与政策落地机制/政府重大项目决策机制与省市区三级分工：以成都为案例.md"
+   ],
+   "desc": "你的问题非常深刻，触及了中国地方政府重大项目决策机制的核心逻辑。你提出的两点质疑——“如此重大的项目难道不是市委书记甚至省长去谈的吗？” 和 “45亿元土地返还怎么可能由市长一个人",
+   "wordCount": 9163
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜钛媒体｜产品经理排队转型FDE.md",
+   "title": "已整理｜2026-08-28｜钛媒体｜产品经理排队转型FDE",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/企业AI与FDE增量整理（2026-08-27至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 3303
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜韩叙HanXu｜300个AI搭团队跑通一人公司.md",
+   "title": "已整理｜2026-08-28｜韩叙HanXu｜300个AI搭团队跑通一人公司",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/企业AI与FDE增量整理（2026-08-27至08-28）.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 2996
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论.md",
+   "title": "DeepSeek Harness 专属智能体与多 Agent 控制层讨论",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "AI Agent工程知识/多Agent协作架构-豆包助手WorkBuddyFridayCodex全链路",
+    "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录",
+    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语",
+    "知识库索引"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md",
+    "AI Agent工程知识/多Agent协作架构-豆包助手WorkBuddyFridayCodex全链路.md",
+    "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "讨论 Codex、WorkBuddy、豆包助手和 DeepSeek Harness 之间的关系：是否必须由 Codex 统一主控；Harness 外是否需要增加一层稳定 Agent",
+   "wordCount": 963
+  },
+  {
+   "path": "原始资料/已整理｜2026-09-02｜抖音｜承载力：职场高阶的政治成熟与四层认知觉醒.md",
+   "title": "承载力：政治成熟高阶的四层认知觉醒与三个心法",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料"
+   ],
+   "backlinks": [
+    "知识流水线/A_原始资料.md",
+    "个人能力提升/承载力与高阶政治成熟：压力、人性与混沌中的定力.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 1703
+  },
+  {
+   "path": "原始资料/已整理｜2026-09-03｜工信部官网+用户提供｜工信部414号文原文及解读：AI赚钱的逻辑变了.md",
+   "title": "工信部414号文原文及解读：AI赚钱的逻辑变了",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "知识流水线/A_原始资料.md",
+    "政府资源配置与政策落地机制/工信部414号文：人工智能应用服务商培育与FDE中间层机会.md"
+   ],
+   "desc": "工信厅科函〔2026〕414号",
+   "wordCount": 2934
+  },
+  {
+   "path": "原始资料/已整理｜2026-09-04｜微信公众号｜万字长文Palantir式本体对AI的真实价值.md",
+   "title": "已整理｜2026-09-04｜微信公众号｜万字长文Palantir式本体对AI的真实价值",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/Palantir式Ontology的真实价值：从业务语义到可执行系统.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 5923
+  },
+  {
+   "path": "原始资料/已整理｜2026-09-04｜抖音｜多Agent架构选型：Manager Handoff Agent-as-Tool底层区别.md",
+   "title": "多Agent架构选型：Manager / Handoff / Agent-as-Tool 的底层区别",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "知识流水线/A_原始资料",
+    "AI Office 一人公司 1.0",
+    "AI Agent工程知识"
+   ],
+   "backlinks": [
+    "AI Agent工程知识/多Agent架构选型决策卡：Manager-Handoff-Agent-as-Tool.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：知识流水线/A原始资料",
+   "wordCount": 5704
+  },
+  {
+   "path": "原始资料/已整理｜2026-09-08｜抖音分享｜FDE企业真实落地案例：汽车零部件制造企业AI数据分析系统.md",
+   "title": "FDE企业真实落地案例：汽车零部件制造企业AI数据分析系统",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "企业AI与智能体商业化/企业AI从试点到可交付项目：商业化与组织落地实战",
+    "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程",
+    "徐总问题专题库/02_企业AI与商业化/2026-08-11_企业AI落地为什么会卡在员工执行习惯与组织记忆",
+    "徐总问题专题库/02_企业AI与商业化/2026-08-18_企业AI落地问题总和：战略-机制-卡点三层融合",
+    "企业AI与智能体商业化/FDE面试通关手册：五重身份、八关流程与分轮真题答法"
+   ],
+   "backlinks": [],
+   "desc": "这个案例中提到了多个制造企业常用的数据系统，以下是各系统的含义和作用：",
+   "wordCount": 3357
+  },
+  {
+   "path": "原始资料/已整理｜2026-09-08｜李开复｜AI现状与未来深度对话原始稿索引.md",
+   "title": "李开复 AI 现状与未来深度对话原始稿索引",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "原始资料/已整理｜2026-08-11｜访谈｜李开复AI现状与未来深度对话",
+    "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程",
+    "企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究",
+    "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "这是徐总于 2026-08-11 提供的李开复深度访谈转写稿，约 3.38 万字。它与腾讯 FDE PDF 不同：腾讯 FDE 偏“企业 AI 如何交付和规模化”，本资料偏“企业为",
+   "wordCount": 1613
+  },
+  {
+   "path": "原始资料/已整理｜2026-09-08｜科创四川｜蜀道集团四川成渝120亿卖路与存量资产变现.md",
+   "title": "蜀道集团旗下四川成渝120亿\"卖路\"背后，四川存量资产变现撬动\"洪荒之力\"？",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "政府资源配置与政策落地机制/蜀道集团存量资产证券化：从四川成渝120亿类REITs看基建资金盘活与一卖一建"
+   ],
+   "backlinks": [
+    "知识流水线/A_原始资料.md",
+    "政府资源配置与政策落地机制/蜀道集团存量资产证券化：从四川成渝120亿类REITs看基建资金盘活与一卖一建.md"
+   ],
+   "desc": "整理结果（2026-09-08，WorkBuddy/伊森）： 已蒸馏为正式笔记 政府资源配置与政策落地机制/蜀道集团存量资产证券化：从四川成渝120亿类REITs看基建资金盘活与一",
+   "wordCount": 224
+  },
+  {
+   "path": "原始资料/已整理｜2026-09-08｜腾讯研究院｜FDE模式行业观察与实践原始稿索引.md",
+   "title": "腾讯研究院 FDE 模式行业观察与实践原始稿索引",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [
+    "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究",
+    "徐总问题专题库/06_企业AI与商业化/2026-08-31_腾讯FDE报告与生产级Agent横纵轴判断"
+   ],
+   "backlinks": [
+    "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md",
+    "知识流水线/A_原始资料.md"
+   ],
+   "desc": "这是腾讯研究院《FDE 模式行业观察与实践》原始 PDF，不是《超级个体时代》报告。",
+   "wordCount": 604
+  },
+  {
+   "path": "原始资料/未整理｜2026-09-07｜抖音分享｜智能的物理重量：为什么未来我们可能买不起算力.md",
+   "title": "智能的物理重量：为什么未来我们可能买不起算力？",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 当前重度付费AI用户：不足1000万",
+   "wordCount": 3685
+  },
+  {
+   "path": "原始资料/未整理｜2026-09-07｜用户提供｜生产级Agent六大治理模块：语义路由执行编排可观测性权限审计评估体系与Tool Schema.md",
+   "title": "生产级Agent六大治理模块：语义路由、执行编排、可观测性、权限审计、评估体系与Tool Schema",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [],
+   "desc": "总而言之，Tool Schema解决了\"怎么调\"的格式问题。而语义路由解决了\"调哪个\"，执行编排解决了\"按什么顺序调\"，可观测性解决了\"调得怎么样\"，权限审计解决了\"谁允许调\"，评",
+   "wordCount": 5426
+  },
+  {
+   "path": "原始资料/未整理｜2026-09-08｜抖音分享｜AI知识系统不是高级收藏夹.md",
+   "title": "AI知识系统不是高级收藏夹：知识卡片、调用规则与反馈循环",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 22:13",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [],
+   "desc": "我就纳了闷了，往一个文件夹里塞几百篇文章，怎么就成AI知识库了？它照样不知道该用哪一篇。因为你搭的可能根本不是知识系统，只是一个高级收藏夹。",
+   "wordCount": 3072
+  },
+  {
+   "path": "原始资料/未整理｜2026-09-09｜用户提供｜分散探索与重新集中：D国共生张力下的组织重建与信用极限.md",
+   "title": "分散探索与重新集中：D国共生张力下的组织重建与信用极限",
+   "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 20:21",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [],
+   "desc": "2012年进入最高权力中心时，接手了一个怎样的D、一个怎样的国家，以及改革开放三十余年的巨大成功究竟留下了什么。",
+   "wordCount": 17253
   }
  ],
  "today": {
@@ -10473,17 +12582,17 @@ window.OBSIDIAN_DATA = {
  "architectureLayers": [
   {
    "name": "能源与算力",
-   "matched": 9,
+   "matched": 17,
    "status": "已形成"
   },
   {
    "name": "模型与推理",
-   "matched": 28,
+   "matched": 43,
    "status": "已形成"
   },
   {
    "name": "数据与知识资产",
-   "matched": 63,
+   "matched": 73,
    "status": "已形成"
   },
   {
@@ -10493,32 +12602,32 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "工具与协议",
-   "matched": 9,
+   "matched": 13,
    "status": "已形成"
   },
   {
    "name": "记忆与上下文",
-   "matched": 18,
+   "matched": 19,
    "status": "已形成"
   },
   {
    "name": "安全、权限与治理",
-   "matched": 17,
+   "matched": 18,
    "status": "已形成"
   },
   {
    "name": "评测与可观测性",
-   "matched": 6,
+   "matched": 7,
    "status": "已形成"
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 102,
+   "matched": 117,
    "status": "已形成"
   },
   {
    "name": "商业化与组织能力",
-   "matched": 85,
+   "matched": 92,
    "status": "已形成"
   }
  ],
@@ -10528,6 +12637,7 @@ window.OBSIDIAN_DATA = {
    "title": "AI智能体的工程化与前端交付的困难度",
    "date": "2026-08-05",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "category": "跨专题综合",
    "status": "已蒸馏 → 待徐总确认",
    "questionType": "",
@@ -10633,6 +12743,7 @@ window.OBSIDIAN_DATA = {
    "title": "生产级 Agent 形态选择与案例演进",
    "date": "2026-09-08",
    "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 19:23",
    "category": "企业AI与商业化",
    "status": "已回答 → 已整理",
    "questionType": "",
@@ -10791,6 +12902,7 @@ window.OBSIDIAN_DATA = {
    "title": "工信部414号文与AI应用服务商中间层机会",
    "date": "2026-09-07",
    "updated": "2026-09-07",
+   "updatedTime": "2026-09-07 17:57",
    "category": "企业AI与商业化",
    "status": "已回答 → 已整理",
    "questionType": "",
@@ -10837,6 +12949,7 @@ window.OBSIDIAN_DATA = {
    "title": "腾讯FDE报告与生产级Agent横纵轴判断",
    "date": "2026-08-31",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 11:13",
    "category": "企业AI与商业化",
    "status": "已回答 → 已整理",
    "questionType": "",
@@ -10915,6 +13028,7 @@ window.OBSIDIAN_DATA = {
    "title": "企业AI知识库：手册库-数据库-萃取库三分类",
    "date": "2026-08-19",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "category": "企业AI与商业化",
    "status": "indexed",
    "questionType": "",
@@ -10961,6 +13075,7 @@ window.OBSIDIAN_DATA = {
    "title": "企业需要什么样的AI：节点放大效率还是组织架构",
    "date": "2026-08-18",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "category": "企业AI与商业化",
    "status": "已回答 → 已入库",
    "questionType": "",
@@ -11041,6 +13156,7 @@ window.OBSIDIAN_DATA = {
    "title": "企业AI落地问题总和：战略-机制-卡点三层融合",
    "date": "2026-08-18",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "category": "企业AI与商业化",
    "status": "已融合 → 已入库",
    "questionType": "",
@@ -11102,6 +13218,7 @@ window.OBSIDIAN_DATA = {
    "title": "游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
    "date": "2026-08-11",
    "updated": "2026-08-28",
+   "updatedTime": "2026-08-28 15:17",
    "category": "企业AI与商业化",
    "status": "已回答 → 已入库",
    "questionType": "",
@@ -11252,6 +13369,7 @@ window.OBSIDIAN_DATA = {
    "title": "企业AI落地为什么会卡在员工执行习惯与组织记忆",
    "date": "2026-08-11",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "category": "企业AI与商业化",
    "status": "已并入主问题",
    "questionType": "",
@@ -11289,6 +13407,7 @@ window.OBSIDIAN_DATA = {
    "title": "算力紧张与AI泡沫：同一个硬币的两面——供给约束与需求真实性的交叉判断",
    "date": "2026-09-08",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 14:35",
    "category": "AI产业链与基础设施",
    "status": "已回答 → 已入库",
    "questionType": "",
@@ -11415,6 +13534,7 @@ window.OBSIDIAN_DATA = {
    "title": "远景乌兰察布算力基地分析（国产芯片 + 推理定位 + 结构性错配）",
    "date": "2026-08-06",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "category": "AI产业链与基础设施",
    "status": "已回答 → 已入库",
    "questionType": "🧠 概念理解 + 🔗 跨专题串联 + ⚖️ 行业角色定位",
@@ -11480,6 +13600,7 @@ window.OBSIDIAN_DATA = {
    "title": "智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
    "date": "2026-08-06",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "category": "AI产业链与基础设施",
    "status": "已回答 → 已入库",
    "questionType": "🧠 概念理解 + 🔗 跨专题串联 + ⚖️ 行业判断",
@@ -11585,6 +13706,7 @@ window.OBSIDIAN_DATA = {
    "title": "算力工厂与算力出海（多轮深化）",
    "date": "2026-08-03",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "category": "AI产业链与基础设施",
    "status": "已回答 → 已入库 → 实操展开追加（2026-08-04）",
    "questionType": "🧠 概念理解 + 🔗 跨专题串联 + ⚖️ 行业角色定位",
@@ -11808,7 +13930,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 119,
-  "fetchedAt": "2026年9月9日 20:21"
+  "fetchedAt": "2026年9月9日 20:48"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -11816,6 +13938,7 @@ window.OBSIDIAN_DATA = {
     "path": "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
     "title": "候选知识卡试点：AI Agent 工程知识（2026-09-08）",
     "updated": "2026-09-08",
+    "updatedTime": "2026-09-08 23:05",
     "wordCount": 8643,
     "desc": "上级：AI Agent工程知识/AI Agent工程知识专题"
    }
@@ -11826,6 +13949,7 @@ window.OBSIDIAN_DATA = {
     "path": "知识流水线/知识卡片与Agent调用标准.md",
     "title": "知识卡片与 Agent 调用标准",
     "updated": "2026-09-08",
+    "updatedTime": "2026-09-08 23:29",
     "wordCount": 4662,
     "desc": "上级：知识流水线/知识流水线"
    }
@@ -11835,6 +13959,7 @@ window.OBSIDIAN_DATA = {
     "path": "知识流水线/候选知识卡真实调用评估记录｜2026-09-08｜AI Agent工程知识.md",
     "title": "候选知识卡真实调用评估记录（2026-09-08）",
     "updated": "2026-09-08",
+    "updatedTime": "2026-09-08 23:04",
     "wordCount": 8074,
     "desc": "- 候选卡文件：知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md（12 张：KC-01~KC-12）。"
    },
@@ -11842,6 +13967,7 @@ window.OBSIDIAN_DATA = {
     "path": "知识流水线/候选知识卡调用测试记录｜2026-09-08｜豆包Skill v0.1.md",
     "title": "候选知识卡调用测试记录（2026-09-08｜豆包Skill v0.1）",
     "updated": "2026-09-08",
+    "updatedTime": "2026-09-08 23:23",
     "wordCount": 14939,
     "desc": "- Skill 文件：knowledge-card-caller-v0.1/SKILL.md（隔离工作区）"
    }
@@ -11849,9 +13975,60 @@ window.OBSIDIAN_DATA = {
  },
  "recentUpdates": [
   {
+   "path": "原始资料/未整理｜2026-09-09｜用户提供｜分散探索与重新集中：D国共生张力下的组织重建与信用极限.md",
+   "title": "分散探索与重新集中：D国共生张力下的组织重建与信用极限",
+   "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 20:21",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 17253,
+   "desc": "2012年进入最高权力中心时，接手了一个怎样的D、一个怎样的国家，以及改革开放三十余年的巨大成功究竟留下了什么。"
+  },
+  {
+   "path": "徐总问题专题库/02_企业AI与商业化/2026-09-08_生产级Agent形态选择与案例演进.md",
+   "title": "生产级 Agent 形态选择与案例演进",
+   "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 19:23",
+   "topic": "question",
+   "topicName": "问题专题库",
+   "wordCount": 9891,
+   "desc": ""
+  },
+  {
+   "path": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
+   "title": "生产级 RAG 与数据库知识库架构：事实库、文档知识库与状态机",
+   "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 19:13",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 12943,
+   "desc": "上级：AI Agent工程知识专题"
+  },
+  {
+   "path": "任务面板与知识库/多智能体Session扫描与每日工作总结机制.md",
+   "title": "多智能体 Session 扫描与每日工作总结机制",
+   "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 16:20",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 4789,
+   "desc": "由于 trajectory.jsonl 没有时间戳，无法直接按日期过滤消息，采用增量扫描："
+  },
+  {
+   "path": "任务面板与知识库/每日工作记录/每日工作记录说明.md",
+   "title": "每日工作记录说明",
+   "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 15:39",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 1703,
+   "desc": "这是 Codex、豆包、WorkBuddy、Harness/Friday 和其他执行线共同使用的日常工作记录，不属于任何单一 Agent，也不属于个人生活随记。"
+  },
+  {
    "path": "任务面板与知识库/每日工作记录/2026-09-09.md",
    "title": "2026-09-09｜多智能体工作记录",
    "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 15:35",
    "topic": "taskboard",
    "topicName": "任务面板与知识库",
    "wordCount": 9622,
@@ -11861,6 +14038,7 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/FDE企业真实落地案例库：按行业分类的企业AI落地实战.md",
    "title": "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
    "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 10:47",
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
    "wordCount": 4100,
@@ -11870,1063 +14048,1081 @@ window.OBSIDIAN_DATA = {
    "path": "企业AI与智能体商业化/制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通.md",
    "title": "制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通",
    "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 10:47",
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
    "wordCount": 13792,
    "desc": "上级：FDE企业真实落地案例库：按行业分类的企业AI落地实战"
   },
   {
-   "path": "任务面板与知识库/多智能体Session扫描与每日工作总结机制.md",
-   "title": "多智能体 Session 扫描与每日工作总结机制",
-   "updated": "2026-09-09",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 4789,
-   "desc": "由于 trajectory.jsonl 没有时间戳，无法直接按日期过滤消息，采用增量扫描："
-  },
-  {
    "path": "任务面板与知识库/方向推进与接力.md",
    "title": "方向推进与接力",
    "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 10:47",
    "topic": "taskboard",
    "topicName": "任务面板与知识库",
    "wordCount": 2795,
    "desc": "上级：任务面板与知识库/00总入口、全局记忆/智能体启动与身份连续性统一合同"
   },
   {
-   "path": "任务面板与知识库/每日工作记录/每日工作记录说明.md",
-   "title": "每日工作记录说明",
-   "updated": "2026-09-09",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 1703,
-   "desc": "这是 Codex、豆包、WorkBuddy、Harness/Friday 和其他执行线共同使用的日常工作记录，不属于任何单一 Agent，也不属于个人生活随记。"
-  },
-  {
-   "path": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
-   "title": "生产级 RAG 与数据库知识库架构：事实库、文档知识库与状态机",
-   "updated": "2026-09-09",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 12943,
-   "desc": "上级：AI Agent工程知识专题"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-09-08.md",
-   "title": "2026-09-08",
-   "updated": "2026-09-08",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 1685,
-   "desc": "- 从贵州回来后仍按以往节奏；名义上每天在学 AI agents，但怀疑这种节奏对个人确实有不好的影响——没人沟通、没有在工作的环境下，很多能力没得到锻炼。"
-  },
-  {
    "path": "任务面板与知识库/每日工作记录/2026-09-08.md",
    "title": "2026-09-08｜多智能体工作记录",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-09 00:04",
    "topic": "taskboard",
    "topicName": "任务面板与知识库",
    "wordCount": 1743,
    "desc": "今天完成了知识卡系统的三层联动：候选知识卡作为 Agent 可调用内容，Skill 作为调用规则，AI 工作台作为只读展示入口。同时建立了每日工作记录的统一规则，正式入口统一为 任"
   },
   {
-   "path": "知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-09-08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 13751,
-   "desc": "上级：知识流水线/知识流水线"
-  },
-  {
-   "path": "知识流水线/Obsidian知识底座治理与知识自主生长方案.md",
-   "title": "Obsidian知识底座治理与知识自主生长方案",
-   "updated": "2026-09-08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4172,
-   "desc": "上级：知识流水线/知识流水线、徐总的知识库"
-  },
-  {
-   "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
-   "title": "企业 AI 与智能体商业化专题",
-   "updated": "2026-09-08",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 19894,
-   "desc": "上级：徐总的知识库"
-  },
-  {
-   "path": "知识流水线/候选知识卡真实调用评估记录｜2026-09-08｜AI Agent工程知识.md",
-   "title": "候选知识卡真实调用评估记录（2026-09-08）",
-   "updated": "2026-09-08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 8074,
-   "desc": "- 候选卡文件：知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md（12 张：KC-01~KC-12）。"
-  },
-  {
-   "path": "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
-   "title": "候选知识卡试点：AI Agent 工程知识（2026-09-08）",
-   "updated": "2026-09-08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 8643,
-   "desc": "上级：AI Agent工程知识/AI Agent工程知识专题"
-  },
-  {
-   "path": "知识流水线/候选知识卡调用测试记录｜2026-09-08｜豆包Skill v0.1.md",
-   "title": "候选知识卡调用测试记录（2026-09-08｜豆包Skill v0.1）",
-   "updated": "2026-09-08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 14939,
-   "desc": "- Skill 文件：knowledge-card-caller-v0.1/SKILL.md（隔离工作区）"
-  },
-  {
-   "path": "企业AI与智能体商业化/己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径.md",
-   "title": "己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径",
-   "updated": "2026-09-08",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 12077,
-   "desc": "己未文化第一阶段CRM系统的核心架构："
-  },
-  {
-   "path": "企业AI与智能体商业化/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册.md",
-   "title": "己未文化咨询公司 FDE 落地与生产级 Agent 实战手册",
-   "updated": "2026-09-08",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 26787,
-   "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
-  },
-  {
-   "path": "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
-   "title": "李开复企业AI认知：从基座大模型到一号位工程",
-   "updated": "2026-09-08",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 5189,
-   "desc": "上级：企业AI与智能体商业化/零一万物企业AI落地专题、企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究"
-  },
-  {
-   "path": "知识流水线/知识卡片与Agent调用标准.md",
-   "title": "知识卡片与 Agent 调用标准",
-   "updated": "2026-09-08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4662,
-   "desc": "上级：知识流水线/知识流水线"
-  },
-  {
    "path": "任务面板与知识库/智能体协作-任务面板操作手册.md",
    "title": "给智能体：任务面板（Taskboard）操作手册",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 23:54",
    "topic": "taskboard",
    "topicName": "任务面板与知识库",
    "wordCount": 16950,
    "desc": "先记住这条，所有动作都不跑偏："
   },
   {
+   "path": "知识流水线/知识卡片与Agent调用标准.md",
+   "title": "知识卡片与 Agent 调用标准",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 23:29",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 4662,
+   "desc": "上级：知识流水线/知识流水线"
+  },
+  {
+   "path": "知识流水线/候选知识卡调用测试记录｜2026-09-08｜豆包Skill v0.1.md",
+   "title": "候选知识卡调用测试记录（2026-09-08｜豆包Skill v0.1）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 23:23",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 14939,
+   "desc": "- Skill 文件：knowledge-card-caller-v0.1/SKILL.md（隔离工作区）"
+  },
+  {
+   "path": "知识流水线/Obsidian知识底座治理与知识自主生长方案.md",
+   "title": "Obsidian知识底座治理与知识自主生长方案",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 23:08",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 4172,
+   "desc": "上级：知识流水线/知识流水线、徐总的知识库"
+  },
+  {
+   "path": "知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
+   "title": "候选知识卡试点：AI Agent 工程知识（2026-09-08）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 23:05",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 8643,
+   "desc": "上级：AI Agent工程知识/AI Agent工程知识专题"
+  },
+  {
+   "path": "知识流水线/候选知识卡真实调用评估记录｜2026-09-08｜AI Agent工程知识.md",
+   "title": "候选知识卡真实调用评估记录（2026-09-08）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 23:04",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 8074,
+   "desc": "- 候选卡文件：知识流水线/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md（12 张：KC-01~KC-12）。"
+  },
+  {
+   "path": "原始资料/未整理｜2026-09-08｜抖音分享｜AI知识系统不是高级收藏夹.md",
+   "title": "AI知识系统不是高级收藏夹：知识卡片、调用规则与反馈循环",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 22:13",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 3072,
+   "desc": "我就纳了闷了，往一个文件夹里塞几百篇文章，怎么就成AI知识库了？它照样不知道该用哪一篇。因为你搭的可能根本不是知识系统，只是一个高级收藏夹。"
+  },
+  {
+   "path": "知识流水线/A_原始资料.md",
+   "title": "A_原始资料",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 22:12",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 13751,
+   "desc": "上级：知识流水线/知识流水线"
+  },
+  {
+   "path": "我的洞察/徐总口述/AI Agent 商业化路径与方向.md",
+   "title": "AI Agent 商业化路径与方向",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 21:03",
+   "topic": "myinsights",
+   "topicName": "我的洞察",
+   "wordCount": 1054,
+   "desc": "AI Agent 的商业化路径不是单一的，而是有多个层次。工具型 AI Agent 最容易被替代，真正有壁垒的是深入企业业务流程、沉淀标准化方法论、并能以 FDE 方式嵌入企业生产"
+  },
+  {
+   "path": "我的洞察/徐总口述/FDE（前线部署工程师）学习与研究.md",
+   "title": "FDE（前线部署工程师）学习与研究",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 20:55",
+   "topic": "myinsights",
+   "topicName": "我的洞察",
+   "wordCount": 893,
+   "desc": "FDE不是凭空冒出来的新职业，它是基础模型能力趋同之后，把模型变成可托付产品的关键角色。FDE是连接政策资金、技术能力和真实业务场景的翻译器和执行者。"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环.md",
+   "title": "Harness控制中心架构闭环",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:55",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 3453,
+   "desc": "1. 定位：Harness Agent Control Center 是官方 Harness 之上的「决策与执行」编排层，不修改 packages/core agent-loop，"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-19｜口播文案｜AI电商数据治理先行(子墨说AI-Corvera案例).md",
+   "title": "（子墨说AI｜4个人的AI电商团队，5周做到21万营收、融资420万美金）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 988,
+   "desc": "四人团队靠AI一个月逆袭，营收21万，融资420万美金，同时拿下了12个电商快销品牌的合作。最夸张的是，从签下第一单客户到服务满12个品牌，他们只用了短短5个星期。就在今年5月，这"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜微信公众号｜DSH到底把什么做成了插件.md",
+   "title": "[docs-search] 已给模型加上 search_dsh_docs 工具",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 4448,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-12｜抖音｜Solo们chat-FDE如何用ANC搭建AI原生组织.md",
+   "title": "「Solo们 chat」FDE如何用ANC搭建AI原生组织",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 3702,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-26｜棱镜｜AI尽头，也是放贷.md",
+   "title": "AI尽头，也是放贷",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 3846,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-13｜ChatGPT｜AI行业落地认知的混乱.md",
+   "title": "ChatGPT 对话｜AI 行业落地认知的混乱",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1762,
+   "desc": "- 对话标题：AI 行业落地认知的混乱"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论.md",
+   "title": "DeepSeek Harness 专属智能体与多 Agent 控制层讨论",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 963,
+   "desc": "讨论 Codex、WorkBuddy、豆包助手和 DeepSeek Harness 之间的关系：是否必须由 Codex 统一主控；Harness 外是否需要增加一层稳定 Agent"
+  },
+  {
+   "path": "原始资料/已整理｜2026-09-08｜抖音分享｜FDE企业真实落地案例：汽车零部件制造企业AI数据分析系统.md",
+   "title": "FDE企业真实落地案例：汽车零部件制造企业AI数据分析系统",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 3357,
+   "desc": "这个案例中提到了多个制造企业常用的数据系统，以下是各系统的含义和作用："
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-07｜抖音豆包｜超哥奇点世界GPU空转泡沫AI资本囤积游戏.md",
+   "title": "GPU空转泡沫：AI行业最大的资本囤积游戏（超哥的奇点世界）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2325,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-19｜Harness｜全文接入链路测试.md",
+   "title": "Harness 全文接入链路测试",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 170,
+   "desc": "Jarvis Office 的第一条业务链路是：接收完整全文，保留原文，标记为未整理，并把后续整理交给下一阶段。"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-19｜工作流规则｜Jarvis知识增长工作流总规则.md",
+   "title": "Jarvis Office 知识增长工作流总规则",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2210,
+   "desc": "Jarvis Office 不是单纯的资料整理聊天框，而是一个由 DeepSeek Harness 驱动的知识增长执行体：把资料保存、内容提炼、专题整合、知识库巡检和后续研究建议串"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜抖音｜Macro开源企业级一体化工作空间.md",
+   "title": "Macro开源企业级一体化工作空间（邮件/消息/任务/文档/CRM+AI Agent）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1749,
+   "desc": "Macro 是为\"你和你团队\"打造的一体化工作空间，把 email + messages + docs + tasks + agents + CRM 统一进一个快速界面，带共享的团"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-04｜抖音豆包｜NeoPicks聊了7个AI交付团队总结困难机会危机.md",
+   "title": "NeoPicks聊了7个AI交付团队总结困难机会危机",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2702,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜Omnigent开源元编排层Meta-Harness（统一多Agent共享会话）.md",
+   "title": "Omnigent 开源元编排层（Meta-Harness）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2527,
+   "desc": "\"Omnigent is an open-source meta-harness that gives you a common orchestration layer over "
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-21｜Qwen-UI-Agent与Harness自重启能力方向.md",
+   "title": "Qwen-UI-Agent 与 Harness 自重启能力方向",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1030,
+   "desc": "Qwen-UI-Agent 可能不只是浏览器控制能力，还覆盖手机 App、桌面电脑、浏览器、跨设备流程以及 GUI 与 CLI 混合执行。未来可研究是否把它接入 DeepSeek "
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-27｜视频·大模型秋招模拟面试｜RAG-Agent上线后的BadCase闭环五步流程.md",
+   "title": "RAG/Agent上线后的BadCase闭环五步流程",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 621,
+   "desc": "RAG/Agent 上线后，必须搭建完整的 BadCase 闭环，这是系统持续迭代的关键。缺少闭环会导致系统效果越来越差（错误累积、无法定位根因）。"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-02｜抖音豆包｜Token工厂三大玩家.md",
+   "title": "Token 工厂三大玩家",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2094,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-04｜抖音豆包｜Token工厂单机vs集群卖Token商业化.md",
+   "title": "Token 工厂单机 vs 集群（卖 Token 商业化门槛）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 4619,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-03｜抖音豆包｜Token才是中国真正意义上的电力出口.md",
+   "title": "Token 才是中国真正意义上的电力出口",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2477,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-03｜抖音豆包｜Token是中国新型电力出口.md",
+   "title": "Token是中国新型电力出口",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2440,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜抖音｜YC开源内部Agent办公系统QM.md",
+   "title": "YC开源内部Agent办公系统QM",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 496,
+   "desc": "YC刚刚把自己的内部 Agent 开源了，代号 QM。这不是玩具，是 YC 在产品、市场、工程等部门真刀真枪跑了几个月的多 Agent 协助系统。想要进化成 AI 原生团队的可以闭"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-08｜抖音豆包｜三十亿智算中心利用率.md",
+   "title": "三十亿智算中心机柜全亮没人用：全国平均利用率百分之...",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1781,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-06｜抖音+ChatGPT｜专家搭建的Obsidian AI Knowledge OS.md",
+   "title": "专家搭建的 Obsidian AI Knowledge OS",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2659,
+   "desc": "这个页面是整个 Knowledge OS 的知识中心（Knowledge Center）页面。它不是简单展示笔记，而是在展示\"知识资产管理层\"。"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-02｜抖音豆包｜中国不缺算力真相.md",
+   "title": "中国不缺算力真相（呼呼智算重庆）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1467,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-12｜对话整理｜任务闭环与业务闭环分离-GrokBot数字岗位vs经营Agent.md",
+   "title": "任务闭环与业务闭环分离：Grok Bot 的任务/岗位 Agent 路线 vs 经营 Agent 路线",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 3509,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-07-30｜抖音｜企业AI落地真实内幕4个反常识真相.md",
+   "title": "企业AI落地真实内幕（4 个反常识真相）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 3503,
+   "desc": "上级：徐总的知识库"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-27｜探讨·企业级AI工程化闭环选型：必要性边界、RPA替代与维护可持续性.md",
+   "title": "企业级AI工程化闭环选型探讨：必要性边界、RPA替代与维护可持续性",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 821,
+   "desc": "企业级 AI Agent / RAG 上线后，是否必须搭建完整的 BadCase 闭环（埋点→筛选→评审→修复→回归）？工程化每个细节都\"麻烦\"，企业级是否一定要做满？"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-07｜抖音豆包｜AI大模型果果姐AIAgent框架选错白忙三个月.md",
+   "title": "做AI Agent，框架选错，真的可能白忙三个月",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2081,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-25｜微信公众号·远川研究所｜办公Agent大战重点不是Agent（上下文才是护城河）.md",
+   "title": "办公Agent大战，重点不是Agent",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 5651,
+   "desc": "- 2026-08-28：结合 ChatGPT 会话《生产级AI agent 框架》完成二次整理。"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-04｜抖音豆包｜南吴NANWU总结Codex的5级用法.md",
+   "title": "南吴NANWU总结Codex的5级用法",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1865,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-07-21｜用户直接指令｜Obsidian六步收口规则原文.md",
+   "title": "原始资料｜Obsidian新增更新内容强制收口协作规则（用户原文）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1431,
+   "desc": "上级：全局记忆/13Obsidian新增更新内容强制收口协作规则"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-05｜ChatGPT｜组织信任建立与闭环能力.md",
+   "title": "原文：组织信任建立与闭环能力",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1794,
+   "desc": "你这段话背后的核心，其实不是简单的\"多做一点事情\"，而是一种更高阶的组织信任建立能力。"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-03｜抖音豆包衍生｜各省算力账本摊开看.md",
+   "title": "各省算力账本摊开看：谁在疯狂建、谁在悄悄停",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2511,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-03｜抖音豆包｜味精公司砸6亿搞算力一台没摸到.md",
+   "title": "味精公司砸6亿搞算力一台没摸到（莲花控股算力投资踩坑）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2356,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-09-04｜抖音｜多Agent架构选型：Manager Handoff Agent-as-Tool底层区别.md",
+   "title": "多Agent架构选型：Manager / Handoff / Agent-as-Tool 的底层区别",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 5704,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-07｜抖音豆包｜央视新闻记者医学减重一年掉40斤.md",
+   "title": "央视新闻记者尝试医学减重一年掉40斤",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1696,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-09-03｜工信部官网+用户提供｜工信部414号文原文及解读：AI赚钱的逻辑变了.md",
+   "title": "工信部414号文原文及解读：AI赚钱的逻辑变了",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2934,
+   "desc": "工信厅科函〔2026〕414号"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-17｜口播文案｜企业AI落地与数字化转型干货分享.md",
+   "title": "已整理｜2026-08-17｜口播文案｜企业AI落地与数字化转型干货分享",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2925,
+   "desc": "- 品类：企业AI落地 / 数字化转型·认知纠偏类干货"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-17｜口播文案｜女装直播用AI省500万(唐承佳案例).md",
+   "title": "已整理｜2026-08-17｜口播文案｜女装直播用AI省500万（唐承佳案例）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2831,
+   "desc": "- 品类：企业AI落地·真实降本案例（女装直播行业）"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-18｜口播文案｜企业AI知识库搭建.md",
+   "title": "已整理｜2026-08-18｜口播文案｜企业AI知识库搭建",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2373,
+   "desc": "- 品类：企业AI落地·认知方法论（知识库是AI提效第一件事）"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-25｜视频·高盛算力研报解读｜远景星河基地与算电协同：中国AI换道超车.md",
+   "title": "已整理｜2026-08-25｜视频·高盛算力研报解读｜远景星河基地与算电协同：中国AI换道超车",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2867,
+   "desc": "中美的AI竞赛，你觉得最后拼的到底是什么？是芯片、算法还是大模型？最近高盛发布了一份中国算力研报，抛出了一个重磅的信号。今年上半年乌兰察布签约的算力负荷规模干到了12.5GW，什么"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜GitHub优选｜DSH实测必装12个插件.md",
+   "title": "已整理｜2026-08-28｜GitHub优选｜DSH实测必装12个插件",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 4713,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜吴晓波频道｜养龙虾退热企业AI落地.md",
+   "title": "已整理｜2026-08-28｜吴晓波频道｜养龙虾退热企业AI落地",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2267,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜微信公众号｜我为什么不建议普通人现在去做企业知识库.md",
+   "title": "已整理｜2026-08-28｜微信公众号｜我为什么不建议普通人现在去做企业知识库",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 3652,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜投资界｜生产200万AI打工人冲刺IPO.md",
+   "title": "已整理｜2026-08-28｜投资界｜生产200万AI打工人冲刺IPO",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 5278,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜机器之心｜翁荔AI自进化在Harness.md",
+   "title": "已整理｜2026-08-28｜机器之心｜翁荔AI自进化在Harness",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 18743,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜腾讯科技｜DeepSeek的Harness为何是一头黑色鲸鱼.md",
+   "title": "已整理｜2026-08-28｜腾讯科技｜DeepSeek的Harness为何是一头黑色鲸鱼",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 4316,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜腾讯科技｜黑鲸之后OpenAI开放Harness.md",
+   "title": "已整理｜2026-08-28｜腾讯科技｜黑鲸之后OpenAI开放Harness",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 5051,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜蓝耘星河｜别把DSH当CodeX平替.md",
+   "title": "已整理｜2026-08-28｜蓝耘星河｜别把DSH当CodeX平替",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2054,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜豆包对话｜政府重大项目决策机制详解（含多项目推动层级）.md",
+   "title": "已整理｜2026-08-28｜豆包对话｜政府重大项目决策机制详解（含多项目推动层级）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 9163,
+   "desc": "你的问题非常深刻，触及了中国地方政府重大项目决策机制的核心逻辑。你提出的两点质疑——“如此重大的项目难道不是市委书记甚至省长去谈的吗？” 和 “45亿元土地返还怎么可能由市长一个人"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜钛媒体｜产品经理排队转型FDE.md",
+   "title": "已整理｜2026-08-28｜钛媒体｜产品经理排队转型FDE",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 3303,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜韩叙HanXu｜300个AI搭团队跑通一人公司.md",
+   "title": "已整理｜2026-08-28｜韩叙HanXu｜300个AI搭团队跑通一人公司",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2996,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-09-04｜微信公众号｜万字长文Palantir式本体对AI的真实价值.md",
+   "title": "已整理｜2026-09-04｜微信公众号｜万字长文Palantir式本体对AI的真实价值",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 5923,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-06｜抖音豆包｜张宇技术栈Agent系统7种架构.md",
+   "title": "张宇技术栈：从零搭建 Agent 系统主流 7 种架构选型（口播文案）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 3033,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-09-02｜抖音｜承载力：职场高阶的政治成熟与四层认知觉醒.md",
+   "title": "承载力：政治成熟高阶的四层认知觉醒与三个心法",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1703,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-21｜抖音DeepSeek Harness系列文案.md",
+   "title": "抖音 DeepSeek Harness 系列文案",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1027,
+   "desc": "原始完整文案已保存在：未整理｜2026-08-21｜抖音DeepSeek Harness系列文案.txt。"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-26｜dsh拆解系列｜拆解DeepSeekHarness：Profile与Bundle如何装配运行时.md",
+   "title": "拆解 DeepSeek Harness：Profile 与 Bundle 如何装配运行时",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 5846,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-08｜抖音豆包｜政治成熟优先级匹配精力.md",
+   "title": "政治成熟，读懂优先级匹配精力做事",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1591,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-15｜斯坦福｜Enterprise AI Playbook 企业AI实战手册51个成功落地项目.md",
+   "title": "斯坦福《Enterprise AI Playbook》企业AI实战手册（51个成功落地项目）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2481,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/未整理｜2026-09-07｜抖音分享｜智能的物理重量：为什么未来我们可能买不起算力.md",
+   "title": "智能的物理重量：为什么未来我们可能买不起算力？",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 3685,
+   "desc": "- 当前重度付费AI用户：不足1000万"
+  },
+  {
+   "path": "原始资料/已整理｜2026-09-08｜李开复｜AI现状与未来深度对话原始稿索引.md",
+   "title": "李开复 AI 现状与未来深度对话原始稿索引",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1613,
+   "desc": "这是徐总于 2026-08-11 提供的李开复深度访谈转写稿，约 3.38 万字。它与腾讯 FDE PDF 不同：腾讯 FDE 偏“企业 AI 如何交付和规模化”，本资料偏“企业为"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-11｜访谈｜李开复AI现状与未来深度对话.md",
+   "title": "李开复AI现状与未来深度对话",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 14725,
+   "desc": "总库：徐总的知识库"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-08｜抖音豆包｜沟通能力强的人说话是什么样的.md",
+   "title": "沟通能力强的人说话是什么样的",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1501,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-21｜人工测试｜测试 Jarvis 四阶段工作流验证.md",
+   "title": "测试 Jarvis 四阶段工作流验证",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 315,
+   "desc": "- 2026-08-21 23:09 Jarvis → received → classified（识别为 fulltext）"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地.md",
+   "title": "游戏公司 AI 组织落地走访原始记录",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2047,
+   "desc": "- 现状：内部美术团队用通用模型（如 Image 2）生图，「一周跑 8000 张只挑出 10 张」，且这些图仍达不到要求；美术只能依赖 Image 2，还要人工修图。"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-06｜抖音｜王自如聊如何正确减肥.md",
+   "title": "王自如聊如何正确减肥（口播稿）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2019,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-03｜抖音豆包衍生｜理清Token从业者发展路线.md",
+   "title": "理清 Token 从业者发展路线：词元经济下的三条路径",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2653,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/未整理｜2026-09-07｜用户提供｜生产级Agent六大治理模块：语义路由执行编排可观测性权限审计评估体系与Tool Schema.md",
+   "title": "生产级Agent六大治理模块：语义路由、执行编排、可观测性、权限审计、评估体系与Tool Schema",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 5426,
+   "desc": "总而言之，Tool Schema解决了\"怎么调\"的格式问题。而语义路由解决了\"调哪个\"，执行编排解决了\"按什么顺序调\"，可观测性解决了\"调得怎么样\"，权限审计解决了\"谁允许调\"，评"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-08｜抖音豆包｜用本体重塑企业AI语义基座.md",
+   "title": "用本体重塑企业AI的语义基座",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2185,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-03｜抖音豆包｜电怎么卡住了AI的脖子.md",
+   "title": "电，怎么卡住了 AI 的脖子？",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2146,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-03｜抖音豆包｜电网数字化是腐败重灾区.md",
+   "title": "电网数字化是腐败重灾区",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2479,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-02｜抖音豆包｜看懂三类商业模式理清Token发展路线.md",
+   "title": "看懂三类商业模式，理清 Token 从业者发展路线",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2266,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-03｜抖音豆包｜福建token工厂落地厦门.md",
+   "title": "福建 token 工厂落地厦门",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1799,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-02｜抖音豆包衍生｜福建token工厂落地厦门.md",
+   "title": "福建 Token 工厂落地厦门（豆包衍生解读）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1956,
+   "desc": "Token 凯哥视频｜厦门全栈 Token 工厂完整解读（纠正视频文字笔误：夏门 = 厦门）"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-26｜极客公园｜离开剪映后创业，她想把一支设计团队装进AI工作台.md",
+   "title": "离开剪映后创业，她想把一支设计团队装进 AI 工作台",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 4990,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-21｜红杉Eval判断落地｜把行业经验变成打分规则与闭环迭代.md",
+   "title": "红杉Eval判断落地：从定义好结果到可执行打分规则与闭环迭代",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2175,
+   "desc": "\"定义好的结果\"本质是把老板 / 资深员工的隐性经验，拆解成结构化的评估维度、打分规则、验收标准，再通过\"评估 - 优化 - 沉淀\"的闭环，让 AI 持续对齐行业认知。"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-21｜红杉AI闭门会解读｜AI产业下半场：应用反攻模型层与Eval护城河.md",
+   "title": "红杉资本 2026 年 AI 闭门会解读：AI 产业下半场竞争逻辑变化",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2224,
+   "desc": "- 过去 AI 产业格局：模型公司垄断智能能力，应用公司通过接 API 赚取差价。"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-05｜ChatGPT｜美团小团Agent架构与Ontology分析.md",
+   "title": "美团小团Agent架构分析：从Demo到生产级的鸿沟（ChatGPT深聊）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 3729,
+   "desc": "小团的问题不是模型不会理解，而是它背后的 Agent 架构大概率仍然是「LLM + 搜索工具调用」，而不是「LLM 驱动的搜索决策系统」。"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-08｜抖音豆包｜美国AI基建东数西算.md",
+   "title": "美国AI基建撞上新瓶颈，中国\"东数西算\"为何是另一套解法",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2016,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-09-08｜腾讯研究院｜FDE模式行业观察与实践原始稿索引.md",
+   "title": "腾讯研究院 FDE 模式行业观察与实践原始稿索引",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 604,
+   "desc": "这是腾讯研究院《FDE 模式行业观察与实践》原始 PDF，不是《超级个体时代》报告。"
+  },
+  {
+   "path": "原始资料/已整理｜2026-09-08｜科创四川｜蜀道集团四川成渝120亿卖路与存量资产变现.md",
+   "title": "蜀道集团旗下四川成渝120亿\"卖路\"背后，四川存量资产变现撬动\"洪荒之力\"？",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 224,
+   "desc": "整理结果（2026-09-08，WorkBuddy/伊森）： 已蒸馏为正式笔记 政府资源配置与政策落地机制/蜀道集团存量资产证券化：从四川成渝120亿类REITs看基建资金盘活与一"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-26｜dsh拆解系列｜解读Cordis：dsh一切皆插件背后的运行时设计.md",
+   "title": "解读 Cordis：dsh 一切皆插件背后的运行时设计",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 5915,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-28｜53AI转载｜超级个体时代腾讯研究院报告.md",
+   "title": "超级个体时代｜腾讯研究院3万字报告",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 33765,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-02｜抖音豆包｜运营商下场词元聚合分发.md",
+   "title": "运营商下场词元聚合分发，中小玩家还能做吗（牧野词元掘金社）",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1972,
+   "desc": "上级：知识流水线/A原始资料"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-21｜豆包对话｜阿里云灵骏真武M890超节点与算力体系辨析.md",
+   "title": "阿里云灵骏真武 M890 超节点与算力体系辨析",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2475,
+   "desc": "国产超节点落地元年，阿里云超两万亿参数大模型超节点算力上线 超节点算力 AI 科技 大模型 灵骏真武 M890"
+  },
+  {
+   "path": "原始资料/已整理｜2026-08-12｜飞书妙记原始逐字稿｜己未文化AI落地首谈.md",
+   "title": "飞书妙记原始逐字稿｜己未文化AI落地首谈",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 19:54",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 630,
+   "desc": "- 客户（己未文化）后续补充提到：当前正通过一个本地平台做引流，形态类似「活动报名」，但带推广分成机制——把自己所有活动放上去。"
+  },
+  {
+   "path": "徐总问题专题库/01_AI产业链与基础设施/2026-09-08_算力紧张与AI泡沫：同一个硬币的两面——供给约束与需求真实性的交叉判断.md",
+   "title": "算力紧张与AI泡沫：同一个硬币的两面——供给约束与需求真实性的交叉判断",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 14:35",
+   "topic": "question",
+   "topicName": "问题专题库",
+   "wordCount": 10850,
+   "desc": ""
+  },
+  {
+   "path": "徐总每日随记/当日记录/2026-09-08.md",
+   "title": "2026-09-08",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 13:12",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 1685,
+   "desc": "- 从贵州回来后仍按以往节奏；名义上每天在学 AI agents，但怀疑这种节奏对个人确实有不好的影响——没人沟通、没有在工作的环境下，很多能力没得到锻炼。"
+  },
+  {
+   "path": "企业AI与智能体商业化/李开复企业AI认知：从基座大模型到一号位工程.md",
+   "title": "李开复企业AI认知：从基座大模型到一号位工程",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 12:15",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 5189,
+   "desc": "上级：企业AI与智能体商业化/零一万物企业AI落地专题、企业AI与智能体商业化/零一万物：万策决策中枢、一号位工程与企业AI落地研究"
+  },
+  {
    "path": "企业AI与智能体商业化/腾讯FDE模式行业观察与实践报告研究.md",
    "title": "腾讯FDE模式行业观察与实践报告研究",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 12:15",
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
    "wordCount": 11882,
    "desc": "上级：企业AI与智能体商业化专题"
   },
   {
+   "path": "徐总问题专题库/02_企业AI与商业化/2026-08-31_腾讯FDE报告与生产级Agent横纵轴判断.md",
+   "title": "腾讯FDE报告与生产级Agent横纵轴判断",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 11:13",
+   "topic": "question",
+   "topicName": "问题专题库",
+   "wordCount": 1621,
+   "desc": ""
+  },
+  {
+   "path": "企业AI与智能体商业化/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册.md",
+   "title": "己未文化咨询公司 FDE 落地与生产级 Agent 实战手册",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 10:22",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 26787,
+   "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
+  },
+  {
+   "path": "企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+   "title": "企业 AI 与智能体商业化专题",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 10:05",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 19894,
+   "desc": "上级：徐总的知识库"
+  },
+  {
+   "path": "企业AI与智能体商业化/己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径.md",
+   "title": "己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 10:05",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 12077,
+   "desc": "己未文化第一阶段CRM系统的核心架构："
+  },
+  {
    "path": "政府资源配置与政策落地机制/蜀道集团存量资产证券化：从四川成渝120亿类REITs看基建资金盘活与一卖一建.md",
    "title": "蜀道集团存量资产证券化：从四川成渝120亿类REITs看基建资金盘活与一卖一建",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 00:28",
    "topic": "gov",
    "topicName": "政府资源配置与政策落地",
    "wordCount": 3467,
    "desc": "四川成渝（蜀道集团旗下高速公路上市平台）拟以成都二绕西段收费经营权为底层资产，发行不超过 120 亿的权益并表型类REITs。这不是孤立动作：同一集团内公募REITs（雅泸高速 1"
-  },
-  {
-   "path": "Codex工作区/Codex全局治理与工作区总结-2026-09-07.md",
-   "title": "Codex 全局治理与工作区总结",
-   "updated": "2026-09-07",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 2896,
-   "desc": "上级：Codex工作区/Codex工作区、全局记忆/00总览"
-  },
-  {
-   "path": "Codex工作区/Codex工作区.md",
-   "title": "Codex 工作区",
-   "updated": "2026-09-07",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 3342,
-   "desc": "上级：徐总的知识库"
-  },
-  {
-   "path": "DeepSeek Harness项目/DeepSeek Harness搭建记录.md",
-   "title": "DeepSeek Harness 搭建记录",
-   "updated": "2026-09-07",
-   "topic": "harness",
-   "topicName": "DeepSeek Harness 项目",
-   "wordCount": 335271,
-   "desc": "Jarvis Office 不是工具菜单，而是一个“资料采集与知识整理 Agent”。四个主模块组成一条业务流水线：知识中心负责接收和分流，信息处理负责提取和加工，文档中心负责整理"
-  },
-  {
-   "path": "AI Agent工程知识/Palantir式Ontology的真实价值：从业务语义到可执行系统.md",
-   "title": "Palantir式Ontology的真实价值：从业务语义到可执行系统",
-   "updated": "2026-09-07",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 546,
-   "desc": "Ontology 的价值不在于给数据换一套术语，而在于把企业中的业务对象、关系、状态、规则、动作和责任统一表达，使 AI 能从“查到数据”走向“理解业务并在边界内执行”。"
-  },
-  {
-   "path": "AI Agent工程知识/多Agent架构选型决策卡：Manager-Handoff-Agent-as-Tool.md",
-   "title": "多Agent架构选型决策卡：Manager-Handoff-Agent-as-Tool",
-   "updated": "2026-09-07",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 637,
-   "desc": "三种模式的底层区别不是名词，而是控制权最终落在谁手里。"
-  },
-  {
-   "path": "政府资源配置与政策落地机制/工信部414号文：人工智能应用服务商培育与FDE中间层机会.md",
-   "title": "工信部414号文：人工智能应用服务商培育与FDE中间层机会",
-   "updated": "2026-09-07",
-   "topic": "gov",
-   "topicName": "政府资源配置与政策落地",
-   "wordCount": 642,
-   "desc": "工信厅科函〔2026〕414号把人工智能应用服务商定义为覆盖咨询规划、交付实施、运营管理和安全治理的综合服务主体，说明政策关注点已从模型供给进一步转向“把模型带进用户现场”的中间层"
-  },
-  {
-   "path": "企业AI与智能体商业化/己未文化资料速查入口.md",
-   "title": "己未文化资料速查入口",
-   "updated": "2026-09-07",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 886,
-   "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
-  },
-  {
-   "path": "个人能力提升/承载力与高阶政治成熟：压力、人性与混沌中的定力.md",
-   "title": "承载力与高阶政治成熟：压力、人性与混沌中的定力",
-   "updated": "2026-09-07",
-   "topic": "growth",
-   "topicName": "个人能力提升",
-   "wordCount": 381,
-   "desc": "承载力是从“会做事”走向“能扛住复杂局面”的能力，核心不是压抑情绪，而是在压力、人性不确定和信息不完整的情况下，仍能稳住自己、稳住节奏、对结果负责。"
-  },
-  {
-   "path": "政府资源配置与政策落地机制/政府资源配置与政策落地机制专题.md",
-   "title": "政府资源配置与政策落地机制专题",
-   "updated": "2026-09-07",
-   "topic": "gov",
-   "topicName": "政府资源配置与政策落地",
-   "wordCount": 2115,
-   "desc": "上级：徐总的知识库"
-  },
-  {
-   "path": "知识流水线/知识库健康巡检.md",
-   "title": "知识库健康巡检",
-   "updated": "2026-09-07",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 49899,
-   "desc": "- 徐总转发科创四川《蜀道集团旗下四川成渝120亿\"卖路\"背后》要求直接整理入库（本库已有蜀道集团相关页面，故按主体线索核对归属）。"
-  },
-  {
-   "path": "企业AI与智能体商业化/蜀道金租生产级AI建设方案：从个人辅助到企业生产级的演进路径.md",
-   "title": "蜀道金租生产级AI建设方案：从个人辅助到企业生产级的演进路径",
-   "updated": "2026-09-07",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 12151,
-   "desc": "2026年8月31日，工信部发布《关于开展人工智能应用服务商培育专项行动的通知》（工信厅科函〔2026〕414号），核心要点："
-  },
-  {
-   "path": "低空经济/蜀道集团低空经济：无人机巡检·招投标采购与产业协作体系.md",
-   "title": "蜀道集团低空经济：无人机巡检·招投标采购与产业协作体系",
-   "updated": "2026-09-07",
-   "topic": "lowalt",
-   "topicName": "低空经济",
-   "wordCount": 5051,
-   "desc": "归档/合并日期： 2026-08-20（由「蜀道集团大疆无人机巡检方案与算法架构」+「蜀道集团低空经济产业协作单位资源库」合并）"
-  },
-  {
-   "path": "低空经济/蜀道集团大疆无人机巡检：采购投资与融资租赁测算.md",
-   "title": "蜀道集团大疆无人机巡检：采购投资与融资租赁测算",
-   "updated": "2026-09-07",
-   "topic": "lowalt",
-   "topicName": "低空经济",
-   "wordCount": 1787,
-   "desc": "本文把「蜀道集团×大疆无人机巡检」案例（技术方案与算法分层，已另文归档）与「大疆机场3 采购投资的财务测算」合并，回答同一个问题：这套系统不仅技术上成立，账面上买不买得起、怎么付最"
-  },
-  {
-   "path": "DeepSeek Harness项目/DeepSeek Harness 专属插件搭建指南（Alpha4 版）.md",
-   "title": "DeepSeek Harness 专属插件搭建指南（Alpha4 版）",
-   "updated": "2026-09-05",
-   "topic": "harness",
-   "topicName": "DeepSeek Harness 项目",
-   "wordCount": 2868,
-   "desc": "其他版本（rc.7=47880 / rc.2=47900）同理，只需把 DSHHOME 和 launchd 标签换成对应实例。"
-  },
-  {
-   "path": "DeepSeek Harness项目/DeepSeek Harness项目索引.md",
-   "title": "DeepSeek Harness 项目索引",
-   "updated": "2026-09-05",
-   "topic": "harness",
-   "topicName": "DeepSeek Harness 项目",
-   "wordCount": 11913,
-   "desc": "- DeepSeek Harness项目/DeepSeek Harness项目记录 — 项目长期入口，从零搭建到控制中心闭环完整建设总览"
-  },
-  {
-   "path": "DeepSeek Harness项目/DSH 插件在 alpha 版本的独立安装方案与兼容性调研.md",
-   "title": "DSH 插件在 alpha 版本的独立安装方案与兼容性调研",
-   "updated": "2026-09-05",
-   "topic": "harness",
-   "topicName": "DeepSeek Harness 项目",
-   "wordCount": 3973,
-   "desc": "1. 机制可行：alpha 与 rc.2 一样，插件唯一官方入口是 dsh plugin --profile web add <pkg>（pnpm 转发器，装完自动 reconci"
-  },
-  {
-   "path": "AI产业链与数字基础设施/Token工厂完整产业链洞察：六个加工动作、网络护城河与三层包装.md",
-   "title": "Token工厂完整产业链洞察：六个加工动作、网络护城河与三层包装",
-   "updated": "2026-09-03",
-   "topic": "infrastructure",
-   "topicName": "AI产业链与数字基础设施",
-   "wordCount": 25305,
-   "desc": "上级：AI产业链与数字基础设施/AI产业链与数字基础设施专题"
-  },
-  {
-   "path": "多智能体协作任务/2026-09-02｜全域主控与项目Agent协作流程搭建复盘.md",
-   "title": "2026-09-02｜全域主控与项目Agent协作流程搭建复盘",
-   "updated": "2026-09-02",
-   "topic": "multiagent",
-   "topicName": "多智能体协作",
-   "wordCount": 3785,
-   "desc": "今天的核心目标不是把 AI Office 页面做得更复杂，而是确认一套可跨项目复用的协作架构：由 A000 作为全域总控，接收用户需求并选择项目；每个项目有自己的项目主控；项目主控"
-  },
-  {
-   "path": "AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
-   "title": "AI产业链与数字基础设施专题",
-   "updated": "2026-09-02",
-   "topic": "infrastructure",
-   "topicName": "AI产业链与数字基础设施",
-   "wordCount": 5427,
-   "desc": "上级：徐总的知识库、知识库索引"
-  },
-  {
-   "path": "多智能体协作任务/KNOWLEDGEPIP-144-AI-Office多办公位智能体办公室搭建.md",
-   "title": "KNOWLEDGEPIP-144 AI Office 多办公位智能体办公室搭建",
-   "updated": "2026-09-02",
-   "topic": "multiagent",
-   "topicName": "多智能体协作",
-   "wordCount": 8212,
-   "desc": "上级：多智能体协作任务/多智能体协作任务专题"
-  },
-  {
-   "path": "多智能体协作任务/多智能体协作体系总览.md",
-   "title": "多智能体协作体系总览",
-   "updated": "2026-09-02",
-   "topic": "multiagent",
-   "topicName": "多智能体协作",
-   "wordCount": 16201,
-   "desc": "上级：徐总的知识库 | 多智能体协作任务/多智能体协作任务专题"
-  },
-  {
-   "path": "AI Agent工程知识/多智能体协作闭环方法：主控-规划-执行-验收.md",
-   "title": "多智能体协作闭环方法：主控-规划-执行-验收",
-   "updated": "2026-09-02",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 6931,
-   "desc": "本文记录多智能体协作中“如何分工、如何传递、如何留痕、如何验收”的通用方法。AI Office 仅作为本次实践案例，用来暴露流程问题；本文不以 AI Office 的页面、版本或具"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-09-01.md",
-   "title": "2026-09-01 当日记录",
-   "updated": "2026-09-01",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 147,
-   "desc": "本日记录由豆包助手整理，2026-09-01"
-  },
-  {
-   "path": "知识流水线/Agent Notifier统一通知机制.md",
-   "title": "Agent Notifier 统一通知机制",
-   "updated": "2026-09-01",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 2556,
-   "desc": "统一接收多个 Agent（Friday / Codex / Jarvis 等）的任务完成通知，通过 macOS 通知中心弹出提醒，并记录日志。"
-  },
-  {
-   "path": "多智能体协作任务/AI-Office独立网页版产品化规划-Codex建议.md",
-   "title": "AI Office 独立网页版产品化规划（Codex 建议）",
-   "updated": "2026-09-01",
-   "topic": "multiagent",
-   "topicName": "多智能体协作",
-   "wordCount": 2787,
-   "desc": "上级：多智能体协作任务/KNOWLEDGEPIP-144-AI-Office多办公位智能体办公室搭建"
-  },
-  {
-   "path": "DeepSeek Harness项目/DSH v0.1.1-rc.2 升级副本验证记录.md",
-   "title": "DSH v0.1.1-rc.2 升级副本验证记录",
-   "updated": "2026-09-01",
-   "topic": "harness",
-   "topicName": "DeepSeek Harness 项目",
-   "wordCount": 11723,
-   "desc": "rc.8 起 Claude Code / Codex 变成可安装的 Profile Bundle 子代理插件包——与我们的\"主控编排\"思路契合（Friday 主控可派发编码任务给 "
-  },
-  {
-   "path": "多智能体协作任务/KNOWLEDGEPIP-145-Harness任务完成通知机制.md",
-   "title": "KNOWLEDGEPIP-145 Harness 任务完成通知机制（Webhook 事件队列）",
-   "updated": "2026-09-01",
-   "topic": "multiagent",
-   "topicName": "多智能体协作",
-   "wordCount": 4202,
-   "desc": "构建 Harness 任务完成通知机制，使 Harness 子 Agent 完成任务后通过 webhook 主动上报到主控端事件队列，任意主控端（豆包助手 / 伊森（WorkBud"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-08-31.md",
-   "title": "2026-08-31 当日记录",
-   "updated": "2026-08-31",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 2451,
-   "desc": "---"
-  },
-  {
-   "path": "知识流水线/AI原生组织与多Agent工作空间增量整理（2026-08-28）.md",
-   "title": "AI原生组织与多Agent工作空间增量整理（2026-08-28）",
-   "updated": "2026-08-31",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 544,
-   "desc": "Macro、YC QM、Omnigent 和超级个体案例共同指向：多 Agent 真正需要的不是更多聊天窗口，而是共享上下文、任务、文档、消息、CRM、角色权限、会话状态和结果反馈"
-  },
-  {
-   "path": "任务面板与知识库/任务卡/Alpha-Friday搭建与会话修复-20260830.md",
-   "title": "Alpha Friday 搭建、插件市场合并与会话修复",
-   "updated": "2026-08-31",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 6706,
-   "desc": "1. 搭建 DSH Alpha 版本（47911），具备插件市场能力"
-  },
-  {
-   "path": "AI Agent工程知识/DeepSeek Harness Control Gateway 设计与调研.md",
-   "title": "DeepSeek Harness Control Gateway 设计与调研",
-   "updated": "2026-08-31",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 13500,
-   "desc": "Alpha 单实例 Gateway 已完成第一条真实闭环：127.0.0.1:48111 通过 Alpha Web JSON-RPC 47911 向固化的 Alpha Friday"
-  },
-  {
-   "path": "DeepSeek Harness项目/DeepSeek Harness项目记录.md",
-   "title": "DeepSeek Harness 项目记录",
-   "updated": "2026-08-31",
-   "topic": "harness",
-   "topicName": "DeepSeek Harness 项目",
-   "wordCount": 66104,
-   "desc": "这是 DeepSeek Harness 独立实验项目的长期入口。项目目标是基于 DeepSeek 官方 Developer Preview，验证 Harness 的插件、Profi"
-  },
-  {
-   "path": "AI Agent工程知识/DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）.md",
-   "title": "DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）",
-   "updated": "2026-08-31",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 1419,
-   "desc": "DeepSeek Harness 的核心价值不是“又一个聊天 Agent”，而是把模型、插件、Skill、Workflow、Session、权限和运行状态装配成可持续执行的 Age"
-  },
-  {
-   "path": "多智能体协作任务/KNOWLEDGEPIP-142-Memory Guard上下文连续性管理.md",
-   "title": "KNOWLEDGEPIP-142 Memory Guard 上下文连续性管理（融合完成）",
-   "updated": "2026-08-31",
-   "topic": "multiagent",
-   "topicName": "多智能体协作",
-   "wordCount": 5680,
-   "desc": "上级：多智能体协作任务/多智能体协作任务专题"
-  },
-  {
-   "path": "多智能体协作任务/KNOWLEDGEPIP-143-多智能体协作工作台搭建.md",
-   "title": "KNOWLEDGEPIP-143 多智能体协作工作台搭建",
-   "updated": "2026-08-31",
-   "topic": "multiagent",
-   "topicName": "多智能体协作",
-   "wordCount": 5587,
-   "desc": "上级：多智能体协作任务/多智能体协作任务专题"
-  },
-  {
-   "path": "Codex工作区/Memory Guard - 命令参考手册.md",
-   "title": "Memory Guard - 命令参考手册",
-   "updated": "2026-08-31",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 3894,
-   "desc": "上级：Codex工作区/Codex工作区 | 知识库索引 | Codex工作区/Memory Guard - 多Agent上下文连续性管理"
-  },
-  {
-   "path": "Codex工作区/Memory Guard - 多Agent上下文连续性管理.md",
-   "title": "Memory Guard - 多Agent上下文连续性管理",
-   "updated": "2026-08-31",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 1192,
-   "desc": "上级：Codex工作区/Codex工作区 | 知识库索引"
-  },
-  {
-   "path": "Codex工作区/Memory Guard - 多Agent接入指南.md",
-   "title": "Memory Guard - 多Agent接入指南",
-   "updated": "2026-08-31",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 9723,
-   "desc": "上级：Codex工作区/Codex工作区 | 知识库索引 | Codex工作区/Memory Guard - 多Agent上下文连续性管理"
-  },
-  {
-   "path": "Codex工作区/Memory Guard - 标准项目初始化流程.md",
-   "title": "Memory Guard - 标准项目初始化流程",
-   "updated": "2026-08-31",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 2897,
-   "desc": "上级：Codex工作区/Codex工作区 | 知识库索引 | Codex工作区/Memory Guard - 多Agent上下文连续性管理"
-  },
-  {
-   "path": "企业AI与智能体商业化/企业AI与FDE增量整理（2026-08-27至08-28）.md",
-   "title": "企业AI与FDE增量整理（2026-08-27至08-28）",
-   "updated": "2026-08-31",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 906,
-   "desc": "企业 AI 的难点不是把模型接上或做出 Demo，而是让真实员工持续使用，并让结果可评估、可追踪、可纠正。RAG/Agent 上线后需要通过埋点和日志发现 BadCase，人工归因"
-  },
-  {
-   "path": "多智能体协作任务/多智能体协作任务专题.md",
-   "title": "多智能体协作任务专题",
-   "updated": "2026-08-31",
-   "topic": "multiagent",
-   "topicName": "多智能体协作",
-   "wordCount": 1030,
-   "desc": "上级：徐总的知识库"
-  },
-  {
-   "path": "任务面板与知识库/多智能体协作工作台：WorkBuddy豆包Codex与Harness Alpha设计.md",
-   "title": "多智能体协作工作台：WorkBuddy、豆包助手、Codex 与 Harness Alpha 设计",
-   "updated": "2026-08-31",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 1895,
-   "desc": "- Taskboard：KNOWLEDGEPIP-143"
-  },
-  {
-   "path": "AI Agent工程知识/生产级AI Agent知识体系总览：层级·特性·术语.md",
-   "title": "生产级 AI Agent 知识体系总览：层级·特性·术语（含 Palantir Ontology 对标）",
-   "updated": "2026-08-31",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 44486,
-   "desc": "定位：本页属于 企业AI与生产级Agent总框架 中的工程定义线。它负责定义生产级 Agent 的概念、标准、能力链路和验收口径；甘食记、美团、咨询公司、制造业等案例属于业务落地线"
-  },
-  {
-   "path": "AI产业链与数字基础设施/算力基础设施与金融化增量整理（2026-08-21至08-28）.md",
-   "title": "算力基础设施与金融化增量整理（2026-08-21至08-28）",
-   "updated": "2026-08-31",
-   "topic": "infrastructure",
-   "topicName": "AI产业链与数字基础设施",
-   "wordCount": 558,
-   "desc": "灵骏真武 M890、超节点和远景星河基地等材料共同说明，大模型规模扩大后，竞争重点从单颗芯片性能转向芯片互联、服务器、网络、供电、散热、调度和运营的整体协同。超节点要求尽量缩短物理"
-  },
-  {
-   "path": "任务面板与知识库/任务卡/Alpha-Friday子代理编排能力基线测试-20260829.md",
-   "title": "Alpha Friday 子代理编排能力基线测试",
-   "updated": "2026-08-30",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 3039,
-   "desc": "验证 Alpha Friday（47911）能否作为主控 Agent 调用子代理（subagent）完成多子任务编排，并产出可汇总报告。跑通完整流程后同步更新 Skills。"
-  },
-  {
-   "path": "AI Agent工程知识/DeepSeek Harness 飞书 IM 接入搭建与运行记录.md",
-   "title": "DeepSeek Harness 飞书 IM 接入搭建与运行记录",
-   "updated": "2026-08-30",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 10889,
-   "desc": "DeepSeek Harness（Friday 主控 Agent）通过Harness 原生 IM 插件直接接入飞书机器人，无需经过 Codex/Jarvis 转发。这是 Harne"
-  },
-  {
-   "path": "DeepSeek Harness项目/DSH_贾维斯模式新建.md",
-   "title": "DSH 贾维斯模式新建",
-   "updated": "2026-08-30",
-   "topic": "harness",
-   "topicName": "DeepSeek Harness 项目",
-   "wordCount": 1830,
-   "desc": "1. 主控不抢执行活：不要自己挨个点工具，扔给子代理"
-  },
-  {
-   "path": "豆包工作区/dsh-send-README.md",
-   "title": "dsh-send: 通过 47900 与 Harness (Friday) 直接通信",
-   "updated": "2026-08-30",
-   "topic": "doubao",
-   "topicName": "豆包工作区",
-   "wordCount": 1708,
-   "desc": "通过 47900 端口的 DSH JSON-RPC API，直接给 Harness Web 端的指定会话发消息，无需打开浏览器。"
-  },
-  {
-   "path": "AI Agent工程知识/多Agent协作架构-豆包助手WorkBuddyFridayCodex全链路.md",
-   "title": "多 Agent 协作架构",
-   "updated": "2026-08-30",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 5312,
-   "desc": "豆包助手和 WorkBuddy 首先是可以独立完成目标的 Agent 入口，不是必须把所有任务下放给 DeepSeek Harness 的路由前端。DeepSeek Harness"
-  },
-  {
-   "path": "豆包工作区/多Agent协作架构.md",
-   "title": "多 Agent 协作架构",
-   "updated": "2026-08-30",
-   "topic": "doubao",
-   "topicName": "豆包工作区",
-   "wordCount": 6504,
-   "desc": ""
-  },
-  {
-   "path": "任务面板与知识库/飞书群通知机制建立.md",
-   "title": "KNOWLEDGEPIP-139 飞书群通知机制建立（2026-08-29）",
-   "updated": "2026-08-29",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 1832,
-   "desc": "建立飞书群通知机制，让任务面板（dashi-taskboard）关键节点能推送到飞书群「智能体任务通知」。"
-  },
-  {
-   "path": "Codex工作区/Codex多智能体副手矩阵与任务编排-完整建设总结.md",
-   "title": "Codex 多智能体副手矩阵与任务编排：完整建设总结",
-   "updated": "2026-08-28",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 8843,
-   "desc": "本项目解决的是 Codex 内部如何调用和管理子 Agent，不是知识库 Ontology 项目，也不是桌面 DeepSeek Codex 启动项目。"
-  },
-  {
-   "path": "DeepSeek Harness项目/DSH第三方插件适配新版本官方标准.md",
-   "title": "DSH第三方插件适配新版本（≥ rc.8）官方标准",
-   "updated": "2026-08-28",
-   "topic": "harness",
-   "topicName": "DeepSeek Harness 项目",
-   "wordCount": 2821,
-   "desc": "❌ 旧写法（不能用，启动失败）："
-  },
-  {
-   "path": "企业AI与智能体商业化/FDE 访谈到业务关系模型的编译方法.md",
-   "title": "FDE 访谈到业务关系模型的编译方法",
-   "updated": "2026-08-28",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 3833,
-   "desc": "日期：2026-06-14"
-  },
-  {
-   "path": "企业AI与智能体商业化/FDE业务需求访谈SOP.md",
-   "title": "FDE业务需求访谈SOP",
-   "updated": "2026-08-28",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 8315,
-   "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
-  },
-  {
-   "path": "企业AI与智能体商业化/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
-   "title": "FDE生产级AI Agent五阶段方法论与AI基建协同",
-   "updated": "2026-08-28",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 7821,
-   "desc": "上级：企业AI与智能体商业化专题"
-  },
-  {
-   "path": "知识流水线/YC开源QM多人在线Agent Harness对我们的启示.md",
-   "title": "YC开源QM：多人在线Agent Harness对我们与企业AI的启示",
-   "updated": "2026-08-28",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3205,
-   "desc": "过去一年几乎所有Agent都是\"个人助理模式\"：一个Agent服务一个人。QM 直接点出这套模式天花板——硬把一个助理Agent魔改成服务全公司，很快会变得极其复杂。"
-  },
-  {
-   "path": "知识流水线/个人级多Agent与多引擎搭配调研.md",
-   "title": "个人级多Agent与多引擎搭配调研（QM组织级之外的姊妹篇）",
-   "updated": "2026-08-28",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 5496,
-   "desc": "个人级多Agent 的目标：让多个不同引擎（Claude / Codex / GPT / 本地模型）在同一个工作流里分工协作、结果互通、互相审阅，而不是各自孤岛、手动搬运。"
-  },
-  {
-   "path": "任务面板与知识库/历史遗留/任务—Obsidian旧卡迁移清单.md",
-   "title": "任务—Obsidian 旧卡迁移清单",
-   "updated": "2026-08-28",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2068,
-   "desc": "任务面板保存问题入口、负责人、状态和简短过程评论；Obsidian 保存详细实施过程、判断依据、阶段结论和最终总结。"
-  },
-  {
-   "path": "任务面板与知识库/历史遗留/任务面板—Obsidian同步试点.md",
-   "title": "任务面板—Obsidian同步试点",
-   "updated": "2026-08-28",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 1310,
-   "desc": "- Task: KNOWLEDGEPIP-76"
-  },
-  {
-   "path": "任务面板与知识库/任务面板与Obsidian同步.md",
-   "title": "任务面板与 Obsidian 同步",
-   "updated": "2026-08-28",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 4759,
-   "desc": "- Obsidian 是内容层 / 最终知识源：详细过程、方案、结论、正式知识。"
-  },
-  {
-   "path": "政府资源配置与政策落地机制/政府重大项目决策机制与省市区三级分工：以成都为案例.md",
-   "title": "政府重大项目决策机制与省市区三级分工",
-   "updated": "2026-08-28",
-   "topic": "gov",
-   "topicName": "政府资源配置与政策落地",
-   "wordCount": 6210,
-   "desc": "上级：政府资源配置与政策落地机制/政府资源配置与政策落地机制专题"
-  },
-  {
-   "path": "AI Agent工程知识/智能体使用逻辑问题复盘-垂直任务实践（旅行案例）.md",
-   "title": "智能体使用逻辑问题复盘：垂直任务实践（旅行案例）",
-   "updated": "2026-08-28",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 1781,
-   "desc": "上级：AI Agent工程知识/AI Agent工程知识专题"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/README.md",
-   "title": "每日跨项目复盘日志",
-   "updated": "2026-08-28",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 440,
-   "desc": "- 记录\"今天推进了什么工作\"：项目进展、任务面板变化、重要决策"
-  },
-  {
-   "path": "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构.md",
-   "title": "游戏公司 AI 组织落地：从流程提效到生产方式重构",
-   "updated": "2026-08-28",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 6074,
-   "desc": "上级：企业AI与智能体商业化/企业AI与智能体商业化专题"
-  },
-  {
-   "path": "企业AI与智能体商业化/甘食记从经营日报 Agent 到轻量经营 Ontology 主线.md",
-   "title": "甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
-   "updated": "2026-08-28",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 9302,
-   "desc": "日期：2026-06-18"
-  },
-  {
-   "path": "任务面板与知识库/历史遗留/四个外部Agent任务卡与Obsidian Skill统一接入.md",
-   "title": "统一四个外部 Agent 的任务卡与 Obsidian Skill 接入",
-   "updated": "2026-08-28",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 1492,
-   "desc": "- Task: KNOWLEDGEPIP-77"
-  },
-  {
-   "path": "豆包工作区/豆包工作区.md",
-   "title": "豆包工作区",
-   "updated": "2026-08-28",
-   "topic": "doubao",
-   "topicName": "豆包工作区",
-   "wordCount": 1507,
-   "desc": "上级：知识库索引"
-  },
-  {
-   "path": "Codex工作区/全域AI工具模型配置.md",
-   "title": "[model_providers.openai]  ← 由 Codex 内置提供，无需手写",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 9028,
-   "desc": "当前（2026-08-04 起，DeepSeek 走隔离方案）："
-  },
-  {
-   "path": "生物医疗与生物医药/IMA原始资料/01_刘教授落地成都核心诉求全解析.md",
-   "title": "01_刘教授落地成都核心诉求全解析",
-   "updated": "2026-08-26",
-   "topic": "bio",
-   "topicName": "生物医疗与生物医药",
-   "wordCount": 28246,
-   "desc": "刘教授落地成都核心诉求全解析（海外优青+杰青梯队路径）核心逻辑：学术主线为纲，商业化长期布局说明：本文结合刘教授深耕学术职称评定、高校KPI考核、依托海外优青身份构建独立科研体系的"
-  },
-  {
-   "path": "生物医疗与生物医药/IMA原始资料/02_生物医药产业-刘朝山教授.md",
-   "title": "02_生物医药产业-刘朝山教授",
-   "updated": "2026-08-26",
-   "topic": "bio",
-   "topicName": "生物医疗与生物医药",
-   "wordCount": 58911,
-   "desc": "生物医药产业--刘朝山教授生物学研究的本质，就是在无数个低概率事件中，通过科学的设计、资源的投入、路径的选择，提升自己的 “个体成功概率”。生物学不是“确定性的科学”，而是“高维概"
-  },
-  {
-   "path": "生物医疗与生物医药/IMA原始资料/03_南湖实验室GPAS项目.md",
-   "title": "03_南湖实验室GPAS项目",
-   "updated": "2026-08-26",
-   "topic": "bio",
-   "topicName": "生物医疗与生物医药",
-   "wordCount": 22261,
-   "desc": "（GPAS）南湖实验室的“病原体智能鉴定系统（GPAS）项目第一部分：项目领导、团队与背景项目主导者：周涛主任与其“铁三角”团队所有指向GPAS系统的报道，均来自周涛主任的介绍和展"
-  },
-  {
-   "path": "生物医疗与生物医药/IMA原始资料/04_赜灵生物发展前景.md",
-   "title": "04_赜灵生物发展前景",
-   "updated": "2026-08-26",
-   "topic": "bio",
-   "topicName": "生物医疗与生物医药",
-   "wordCount": 16114,
-   "desc": "赜灵生物为代表的创新型生物技术公司的发展前景核心问题：创新药研发的新范式核心答案： 是的。以赜灵生物为代表的AI制药公司，其创新本质正是利用人工智能等前沿技术，系统性发现全新药物靶"
-  },
-  {
-   "path": "生物医疗与生物医药/IMA原始资料/05_从青千到杰青全景图谱.md",
-   "title": "05_从青千到杰青全景图谱",
-   "updated": "2026-08-26",
-   "topic": "bio",
-   "topicName": "生物医疗与生物医药",
-   "wordCount": 20070,
-   "desc": "从“青千”到“杰青”：中国国家级青年人才引进、成长与进阶的全景图谱（增强版）引言：国家战略下的个体命运在建设科技强国与教育强国的时代洪流中，高层次青年科技人才已成为驱动原始创新、实"
-  },
-  {
-   "path": "生物医疗与生物医药/IMA原始资料/06_生物医药产业链上下游相关分析.md",
-   "title": "06_生物医药产业链上下游相关分析",
-   "updated": "2026-08-26",
-   "topic": "bio",
-   "topicName": "生物医疗与生物医药",
-   "wordCount": 2773,
-   "desc": "生物学研究的本质，就是在无数个低概率事件中，通过科学的设计、资源的投入、路径的选择，提升自己的 “个体成功概率”。生物学不是“确定性的科学”，而是“高维概率空间中的导航艺术”。刘教"
-  },
-  {
-   "path": "生物医疗与生物医药/IMA原始资料/07_生物医药专业术语概念解析.md",
-   "title": "07_生物医药专业术语概念解析",
-   "updated": "2026-08-26",
-   "topic": "bio",
-   "topicName": "生物医疗与生物医药",
-   "wordCount": 8093,
-   "desc": "根据搜索结果和行业背景，以下是相关术语的详细解释：药企GCP/GSP临床物流与医院协同专员GCP（药物临床试验质量管理规范）：是规范药物临床试验全过程的标准，确保试验数据真实可靠、"
-  },
-  {
-   "path": "生物医疗与生物医药/IMA原始资料/08_生物科技转化服务链条.md",
-   "title": "08_生物科技转化服务链条",
-   "updated": "2026-08-26",
-   "topic": "bio",
-   "topicName": "生物医疗与生物医药",
-   "wordCount": 6464,
-   "desc": "生物科技转化服务链条根据您提供的文档和搜索结果，电子科技大学科研院（通常指科学技术研究院或类似的校级科研管理机构）没有直接出现在本次活动的联合主办方名单中，这并非意味着其“缺席”，"
-  },
-  {
-   "path": "生物医疗与生物医药/IMA原始资料/09_创新药和科研医药消费品.md",
-   "title": "09_创新药和科研医药消费品",
-   "updated": "2026-08-26",
-   "topic": "bio",
-   "topicName": "生物医疗与生物医药",
-   "wordCount": 7535,
-   "desc": "“科研消费品”（如海创生物）与“科研创新药”（如海创药业、百济神州）虽然都以科研为起点，但本质上是两条完全不同的商业赛道，差异远不止“有没有现金流”，而是从底层逻辑、风险结构、资本"
-  },
-  {
-   "path": "生物医疗与生物医药/IMA原始资料/10_生物医疗产业布局.md",
-   "title": "10_生物医疗产业布局",
-   "updated": "2026-08-26",
-   "topic": "bio",
-   "topicName": "生物医疗与生物医药",
-   "wordCount": 18681,
-   "desc": "成都高新区生物医药产业管理体系与运作模式解析成都高新区生物医药产业的管理体系涉及行政机构、产业园区、市场化运营主体的多方协同，形成“政府主导+专业运营+产业生态共建”的运作模式。以"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-01.md",
-   "title": "2026-06-01",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 3356,
-   "desc": "上级：徐总每日随记/徐总每日随记"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-02.md",
-   "title": "2026-06-02 每日随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 614,
-   "desc": "- WorkBuddy 搭建干食记智能体，整体流程和落地效果不错"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-03.md",
-   "title": "2026-06-03 随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 276,
-   "desc": "今日工作计划与想法："
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-04.md",
-   "title": "2026-06-04 随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 440,
-   "desc": "- 和合伙人、电力工程哥老关一起喝咖啡"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-06.md",
-   "title": "2026-06-06 每日随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 753,
-   "desc": "哎呀，昨天正式启动了美签的这样一个过程。主要是填表和照片，然后再去官网上预约拿新的这个申请表。但昨天在平板 Codex 有个非常好的功能，就是基本上你把护照的照片放在文件夹里面，加"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-07.md",
-   "title": "2026-06-07",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 302,
-   "desc": "6 月 7 号 还是要解决这个美签签证的这个事情 不断在关心一个整个签证的动态 才知道整个系统其实目前波动比较大，名额比较少。不是像我以前说的，你填好资料随时预约，而是要等名额出来"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-10.md",
-   "title": "2026-06-10",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 387,
-   "desc": "这两天主要的还是美签的这个申请过程，反正孩子和徐驰现在已经申请到了。8 月 14 号在沈阳的面签 到时候可能会提前去做一些资料的准备，希望一切能顺利"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-13.md",
-   "title": "2026-06-13",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 484,
-   "desc": "反正这几天没有更新日志，是因为这几天确实没有什么额外的事发生。"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-14.md",
-   "title": "2026-06-14 每日随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 904,
-   "desc": "今天 OpenClaw 的微信直聊入口突然出现反复 Auto-compaction / context overflow，表现为微信消息无法正常进入当前主会话。"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-17.md",
-   "title": "2026-06-17 甘食记经营系统",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 343,
-   "desc": "- 甘食记经营系统1.0框架总结（四层架构/字段结构/7页映射/5步流程）→ Obsidian"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-18.md",
-   "title": "2026-06-18 蜀道集团参观 + 战略转弯",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 660,
-   "desc": "- 去蜀道集团办公地点参观，吃了午饭"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-22.md",
-   "title": "2026-06-22 随记",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 605,
-   "desc": "最近这几天，确实效率非常低。从大半个月前开始，我一直在做甘食记\"经营系统\"的所谓落地。"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-28.md",
-   "title": "2026-06-28",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 1393,
-   "desc": "重大突破：Mac 端 Codex 终于用上 OpenAI Plus 官方模型"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-06-29.md",
-   "title": "2026-06-29",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 1820,
-   "desc": "客户高频提问的回答沉淀：「有了 Aily / WorkBuddy，为什么还要做定制 Agent」"
-  },
-  {
-   "path": "政府资源配置与政策落地机制/原始资料/2026-07-03省委专题会议支持天府新区公开报道与对话摘录.md",
-   "title": "2026-07-03省委专题会议支持天府新区公开报道与对话摘录",
-   "updated": "2026-08-26",
-   "topic": "gov",
-   "topicName": "政府资源配置与政策落地",
-   "wordCount": 1381,
-   "desc": "上级：政府资源配置与政策落地机制专题"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-07-04.md",
-   "title": "2026-07-04",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 1619,
-   "desc": "继续更新 Obsidian 中“生产级 AI Agent”知识体系，并测试成功手机 / 平板 ChatGPT 连接 Mac Codex。"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-07-05.md",
-   "title": "2026-07-05",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 959,
-   "desc": "今天围绕美团商家 AI 工具矩阵，补充更新了生产级 AI Agent 和甘食记经营系统的理解。"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-07-08.md",
-   "title": "2026-07-08",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 3016,
-   "desc": "- 类型：个人想法 / 学习记录 / AI Agent 工程认知"
-  },
-  {
-   "path": "徐总每日随记/当日记录/2026-07-09.md",
-   "title": "2026-07-09",
-   "updated": "2026-08-26",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 1499,
-   "desc": "- 类型：个人想法 / 学习记录 / AI Agent 工程认知"
   }
  ]
 };
