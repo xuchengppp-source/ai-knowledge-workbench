@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-09",
- "generatedTime": "2026-09-09 19:24",
+ "generatedTime": "2026-09-09 19:26",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 112,
  "weeklyChanges": 515,
@@ -12637,6 +12637,7 @@ window.OBSIDIAN_DATA = {
    "title": "AI智能体的工程化与前端交付的困难度",
    "date": "2026-08-05",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "category": "跨专题综合",
    "status": "已蒸馏 → 待徐总确认",
    "questionType": "",
@@ -12742,6 +12743,7 @@ window.OBSIDIAN_DATA = {
    "title": "生产级 Agent 形态选择与案例演进",
    "date": "2026-09-08",
    "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 19:23",
    "category": "企业AI与商业化",
    "status": "已回答 → 已整理",
    "questionType": "",
@@ -12900,6 +12902,7 @@ window.OBSIDIAN_DATA = {
    "title": "工信部414号文与AI应用服务商中间层机会",
    "date": "2026-09-07",
    "updated": "2026-09-07",
+   "updatedTime": "2026-09-07 17:57",
    "category": "企业AI与商业化",
    "status": "已回答 → 已整理",
    "questionType": "",
@@ -12946,6 +12949,7 @@ window.OBSIDIAN_DATA = {
    "title": "腾讯FDE报告与生产级Agent横纵轴判断",
    "date": "2026-08-31",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 11:13",
    "category": "企业AI与商业化",
    "status": "已回答 → 已整理",
    "questionType": "",
@@ -13024,6 +13028,7 @@ window.OBSIDIAN_DATA = {
    "title": "企业AI知识库：手册库-数据库-萃取库三分类",
    "date": "2026-08-19",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "category": "企业AI与商业化",
    "status": "indexed",
    "questionType": "",
@@ -13070,6 +13075,7 @@ window.OBSIDIAN_DATA = {
    "title": "企业需要什么样的AI：节点放大效率还是组织架构",
    "date": "2026-08-18",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:18",
    "category": "企业AI与商业化",
    "status": "已回答 → 已入库",
    "questionType": "",
@@ -13150,6 +13156,7 @@ window.OBSIDIAN_DATA = {
    "title": "企业AI落地问题总和：战略-机制-卡点三层融合",
    "date": "2026-08-18",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "category": "企业AI与商业化",
    "status": "已融合 → 已入库",
    "questionType": "",
@@ -13211,6 +13218,7 @@ window.OBSIDIAN_DATA = {
    "title": "游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
    "date": "2026-08-11",
    "updated": "2026-08-28",
+   "updatedTime": "2026-08-28 15:17",
    "category": "企业AI与商业化",
    "status": "已回答 → 已入库",
    "questionType": "",
@@ -13361,6 +13369,7 @@ window.OBSIDIAN_DATA = {
    "title": "企业AI落地为什么会卡在员工执行习惯与组织记忆",
    "date": "2026-08-11",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "category": "企业AI与商业化",
    "status": "已并入主问题",
    "questionType": "",
@@ -13398,6 +13407,7 @@ window.OBSIDIAN_DATA = {
    "title": "算力紧张与AI泡沫：同一个硬币的两面——供给约束与需求真实性的交叉判断",
    "date": "2026-09-08",
    "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 14:35",
    "category": "AI产业链与基础设施",
    "status": "已回答 → 已入库",
    "questionType": "",
@@ -13524,6 +13534,7 @@ window.OBSIDIAN_DATA = {
    "title": "远景乌兰察布算力基地分析（国产芯片 + 推理定位 + 结构性错配）",
    "date": "2026-08-06",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "category": "AI产业链与基础设施",
    "status": "已回答 → 已入库",
    "questionType": "🧠 概念理解 + 🔗 跨专题串联 + ⚖️ 行业角色定位",
@@ -13589,6 +13600,7 @@ window.OBSIDIAN_DATA = {
    "title": "智算中心结构性分化：建设者定位、运营缺口与泡沫判断",
    "date": "2026-08-06",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:12",
    "category": "AI产业链与基础设施",
    "status": "已回答 → 已入库",
    "questionType": "🧠 概念理解 + 🔗 跨专题串联 + ⚖️ 行业判断",
@@ -13694,6 +13706,7 @@ window.OBSIDIAN_DATA = {
    "title": "算力工厂与算力出海（多轮深化）",
    "date": "2026-08-03",
    "updated": "2026-08-26",
+   "updatedTime": "2026-08-26 20:15",
    "category": "AI产业链与基础设施",
    "status": "已回答 → 已入库 → 实操展开追加（2026-08-04）",
    "questionType": "🧠 概念理解 + 🔗 跨专题串联 + ⚖️ 行业角色定位",
@@ -13917,7 +13930,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 119,
-  "fetchedAt": "2026年9月9日 19:24"
+  "fetchedAt": "2026年9月9日 19:26"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -13961,6 +13974,16 @@ window.OBSIDIAN_DATA = {
   ]
  },
  "recentUpdates": [
+  {
+   "path": "徐总问题专题库/02_企业AI与商业化/2026-09-08_生产级Agent形态选择与案例演进.md",
+   "title": "生产级 Agent 形态选择与案例演进",
+   "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 19:23",
+   "topic": "question",
+   "topicName": "问题专题库",
+   "wordCount": 9891,
+   "desc": ""
+  },
   {
    "path": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
    "title": "生产级 RAG 与数据库知识库架构：事实库、文档知识库与状态机",
@@ -15012,6 +15035,16 @@ window.OBSIDIAN_DATA = {
    "desc": "- 客户（己未文化）后续补充提到：当前正通过一个本地平台做引流，形态类似「活动报名」，但带推广分成机制——把自己所有活动放上去。"
   },
   {
+   "path": "徐总问题专题库/01_AI产业链与基础设施/2026-09-08_算力紧张与AI泡沫：同一个硬币的两面——供给约束与需求真实性的交叉判断.md",
+   "title": "算力紧张与AI泡沫：同一个硬币的两面——供给约束与需求真实性的交叉判断",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 14:35",
+   "topic": "question",
+   "topicName": "问题专题库",
+   "wordCount": 10850,
+   "desc": ""
+  },
+  {
    "path": "徐总每日随记/当日记录/2026-09-08.md",
    "title": "2026-09-08",
    "updated": "2026-09-08",
@@ -15040,6 +15073,16 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 11882,
    "desc": "上级：企业AI与智能体商业化专题"
+  },
+  {
+   "path": "徐总问题专题库/02_企业AI与商业化/2026-08-31_腾讯FDE报告与生产级Agent横纵轴判断.md",
+   "title": "腾讯FDE报告与生产级Agent横纵轴判断",
+   "updated": "2026-09-08",
+   "updatedTime": "2026-09-08 11:13",
+   "topic": "question",
+   "topicName": "问题专题库",
+   "wordCount": 1621,
+   "desc": ""
   },
   {
    "path": "企业AI与智能体商业化/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册.md",
