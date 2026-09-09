@@ -721,7 +721,7 @@ async function build() {
     weeklyPages: recentNodes.length,
     weeklyChanges: recentLinks.size,
     sourceIndex: '知识库索引.md',
-    digest: today.date ? ('知识流水线/每日学习整理/' + today.date + '｜AI知识增量整理.md') : '知识流水线/每日学习整理',
+    digest: today.date ? ('70_知识流水线/每日学习整理/' + today.date + '｜AI知识增量整理.md') : '70_知识流水线/每日学习整理',
     topics: graph.topics,
     nodes: graph.nodes,
     today: {
