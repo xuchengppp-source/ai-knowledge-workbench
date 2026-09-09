@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-08",
- "generatedTime": "2026-09-08 23:57",
+ "generatedAt": "2026-09-09",
+ "generatedTime": "2026-09-09 11:37",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 41,
- "weeklyChanges": 625,
+ "weeklyPages": 37,
+ "weeklyChanges": 575,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-08｜AI知识增量整理.md",
  "topics": [
@@ -53,7 +53,7 @@ window.OBSIDIAN_DATA = {
    "name": "任务面板与知识库",
    "key": "taskboard",
    "icon": "🧭",
-   "count": 19
+   "count": 20
   },
   {
    "name": "政府资源配置与政策落地",
@@ -1426,7 +1426,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/FDE企业真实落地案例库：按行业分类的企业AI落地实战.md",
    "title": "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
-   "updated": "2026-09-08",
+   "updated": "2026-09-09",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化",
@@ -1440,7 +1440,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "上级：企业AI与智能体商业化、知识库索引",
-   "wordCount": 3996
+   "wordCount": 4100
   },
   {
    "path": "企业AI与智能体商业化/FDE商业级智能体交付框架.md",
@@ -2342,7 +2342,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "企业AI与智能体商业化/制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通.md",
    "title": "制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通",
-   "updated": "2026-09-08",
+   "updated": "2026-09-09",
    "topic": "enterprise",
    "links": [
     "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
@@ -2354,7 +2354,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "上级：FDE企业真实落地案例库：按行业分类的企业AI落地实战",
-   "wordCount": 5529
+   "wordCount": 13792
   },
   {
    "path": "企业AI与智能体商业化/原始资料.md",
@@ -8172,7 +8172,8 @@ window.OBSIDIAN_DATA = {
     "Codex工作区/智能体协作-任务面板操作手册.md",
     "任务面板与知识库/00_总入口.md",
     "任务面板与知识库/方向推进与接力.md",
-    "任务面板与知识库/智能体协作-任务面板操作手册.md"
+    "任务面板与知识库/智能体协作-任务面板操作手册.md",
+    "任务面板与知识库/每日工作记录/2026-09-08.md"
    ],
    "desc": "- Obsidian 是内容层 / 最终知识源：详细过程、方案、结论、正式知识。",
    "wordCount": 4759
@@ -8268,7 +8269,7 @@ window.OBSIDIAN_DATA = {
   {
    "path": "任务面板与知识库/方向推进与接力.md",
    "title": "方向推进与接力",
-   "updated": "2026-09-05",
+   "updated": "2026-09-09",
    "topic": "taskboard",
    "links": [
     "任务面板与知识库/00_总入口",
@@ -8287,7 +8288,7 @@ window.OBSIDIAN_DATA = {
     "DeepSeek Harness项目/DeepSeek Harness项目记录.md"
    ],
    "desc": "上级：任务面板与知识库/00总入口、全局记忆/智能体启动与身份连续性统一合同",
-   "wordCount": 2643
+   "wordCount": 2795
   },
   {
    "path": "任务面板与知识库/智能体协作-任务面板操作手册.md",
@@ -8308,7 +8309,9 @@ window.OBSIDIAN_DATA = {
     "多智能体协作任务/多智能体协作任务专题.md",
     "多智能体协作任务/多智能体协作体系总览.md",
     "任务面板与知识库/00_总入口.md",
-    "任务面板与知识库/智能体协作共享问答.md"
+    "任务面板与知识库/智能体协作共享问答.md",
+    "任务面板与知识库/每日工作记录/2026-09-08.md",
+    "任务面板与知识库/每日工作记录/2026-09-09.md"
    ],
    "desc": "先记住这条，所有动作都不跑偏：",
    "wordCount": 16950
@@ -8338,13 +8341,27 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-09-08",
    "topic": "taskboard",
    "links": [
-    "Codex工作区/每日跨项目复盘/2026-09-08",
     "任务面板与知识库/每日工作记录/每日工作记录说明",
+    "任务面板与知识库/智能体协作-任务面板操作手册",
+    "任务面板与知识库/任务面板与Obsidian同步",
     "徐总每日随记/当日记录/2026-09-08"
    ],
    "backlinks": [],
-   "desc": "今天确认建立独立的公共“工作记录”线，用于记录 Codex、豆包、WorkBuddy、Harness/Friday 的项目推进和学习过程；它与 徐总每日随记 分开。",
-   "wordCount": 979
+   "desc": "今天完成了知识卡系统的三层联动：候选知识卡作为 Agent 可调用内容，Skill 作为调用规则，AI 工作台作为只读展示入口。同时建立了每日工作记录的统一规则，正式入口统一为 任",
+   "wordCount": 1743
+  },
+  {
+   "path": "任务面板与知识库/每日工作记录/2026-09-09.md",
+   "title": "2026-09-09｜多智能体工作记录",
+   "updated": "2026-09-09",
+   "topic": "taskboard",
+   "links": [
+    "任务面板与知识库/每日工作记录/每日工作记录说明",
+    "任务面板与知识库/智能体协作-任务面板操作手册"
+   ],
+   "backlinks": [],
+   "desc": "今天主要推进己未文化 AI Agent 项目的入口层设计——意图识别与路由。完成了四大类26个意图的完整分类体系、Skill五层内部架构设计、从设计文档到可执行Skill的七步落地",
+   "wordCount": 1893
   },
   {
    "path": "任务面板与知识库/每日工作记录/每日工作记录说明.md",
@@ -8353,7 +8370,8 @@ window.OBSIDIAN_DATA = {
    "topic": "taskboard",
    "links": [],
    "backlinks": [
-    "任务面板与知识库/每日工作记录/2026-09-08.md"
+    "任务面板与知识库/每日工作记录/2026-09-08.md",
+    "任务面板与知识库/每日工作记录/2026-09-09.md"
    ],
    "desc": "这是 Codex、豆包、WorkBuddy、Harness/Friday 和其他执行线共同使用的日常工作记录，不属于任何单一 Agent，也不属于个人生活随记。",
    "wordCount": 693
@@ -11714,8 +11732,8 @@ window.OBSIDIAN_DATA = {
  ],
  "tasks": {
   "summary": {
-   "in_progress": 16,
-   "todo": 19,
+   "in_progress": 17,
+   "todo": 18,
    "in_review": 14,
    "blocked": 1
   },
@@ -11733,6 +11751,13 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "urgent",
     "assignee": "伊森"
+   },
+   {
+    "id": "KP-80",
+    "title": "己未文化AI落地沟通推进",
+    "status": "in_progress",
+    "priority": "high",
+    "assignee": "Oliver"
    },
    {
     "id": "KP-151",
@@ -11754,17 +11779,10 @@ window.OBSIDIAN_DATA = {
     "status": "in_review",
     "priority": "high",
     "assignee": "Codex"
-   },
-   {
-    "id": "KP-146",
-    "title": "AI Office 一人公司 V3 持久化迁移 0001 提案复核（Codex 字段级 diff 与决策）",
-    "status": "todo",
-    "priority": "high",
-    "assignee": "Codex（GPT-5.6主控）"
    }
   ],
   "total": 118,
-  "fetchedAt": "2026年9月8日 23:57"
+  "fetchedAt": "2026年9月9日 11:37"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -11805,6 +11823,42 @@ window.OBSIDIAN_DATA = {
  },
  "recentUpdates": [
   {
+   "path": "任务面板与知识库/每日工作记录/2026-09-09.md",
+   "title": "2026-09-09｜多智能体工作记录",
+   "updated": "2026-09-09",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 1893,
+   "desc": "今天主要推进己未文化 AI Agent 项目的入口层设计——意图识别与路由。完成了四大类26个意图的完整分类体系、Skill五层内部架构设计、从设计文档到可执行Skill的七步落地"
+  },
+  {
+   "path": "企业AI与智能体商业化/FDE企业真实落地案例库：按行业分类的企业AI落地实战.md",
+   "title": "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
+   "updated": "2026-09-09",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 4100,
+   "desc": "上级：企业AI与智能体商业化、知识库索引"
+  },
+  {
+   "path": "企业AI与智能体商业化/制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通.md",
+   "title": "制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通",
+   "updated": "2026-09-09",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 13792,
+   "desc": "上级：FDE企业真实落地案例库：按行业分类的企业AI落地实战"
+  },
+  {
+   "path": "任务面板与知识库/方向推进与接力.md",
+   "title": "方向推进与接力",
+   "updated": "2026-09-09",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 2795,
+   "desc": "上级：任务面板与知识库/00总入口、全局记忆/智能体启动与身份连续性统一合同"
+  },
+  {
    "path": "徐总每日随记/当日记录/2026-09-08.md",
    "title": "2026-09-08",
    "updated": "2026-09-08",
@@ -11819,8 +11873,8 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-09-08",
    "topic": "taskboard",
    "topicName": "任务面板与知识库",
-   "wordCount": 979,
-   "desc": "今天确认建立独立的公共“工作记录”线，用于记录 Codex、豆包、WorkBuddy、Harness/Friday 的项目推进和学习过程；它与 徐总每日随记 分开。"
+   "wordCount": 1743,
+   "desc": "今天完成了知识卡系统的三层联动：候选知识卡作为 Agent 可调用内容，Skill 作为调用规则，AI 工作台作为只读展示入口。同时建立了每日工作记录的统一规则，正式入口统一为 任"
   },
   {
    "path": "知识流水线/A_原始资料.md",
@@ -11830,15 +11884,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 13751,
    "desc": "上级：知识流水线/知识流水线"
-  },
-  {
-   "path": "企业AI与智能体商业化/FDE企业真实落地案例库：按行业分类的企业AI落地实战.md",
-   "title": "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
-   "updated": "2026-09-08",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 3996,
-   "desc": "上级：企业AI与智能体商业化、知识库索引"
   },
   {
    "path": "知识流水线/Obsidian知识底座治理与知识自主生长方案.md",
@@ -11884,15 +11929,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 14939,
    "desc": "- Skill 文件：knowledge-card-caller-v0.1/SKILL.md（隔离工作区）"
-  },
-  {
-   "path": "企业AI与智能体商业化/制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通.md",
-   "title": "制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通",
-   "updated": "2026-09-08",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 5529,
-   "desc": "上级：FDE企业真实落地案例库：按行业分类的企业AI落地实战"
   },
   {
    "path": "企业AI与智能体商业化/己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径.md",
@@ -12109,15 +12145,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "DeepSeek Harness 项目",
    "wordCount": 3973,
    "desc": "1. 机制可行：alpha 与 rc.2 一样，插件唯一官方入口是 dsh plugin --profile web add <pkg>（pnpm 转发器，装完自动 reconci"
-  },
-  {
-   "path": "任务面板与知识库/方向推进与接力.md",
-   "title": "方向推进与接力",
-   "updated": "2026-09-05",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2643,
-   "desc": "上级：任务面板与知识库/00总入口、全局记忆/智能体启动与身份连续性统一合同"
   },
   {
    "path": "AI产业链与数字基础设施/Token工厂完整产业链洞察：六个加工动作、网络护城河与三层包装.md",
@@ -12874,15 +12901,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "徐总每日随记",
    "wordCount": 1988,
    "desc": "- 类型：工作流更新 / 平台认知 / 多端协作记录"
-  },
-  {
-   "path": "Codex工作区/每日跨项目复盘/2026-07-10.md",
-   "title": "2026-07-10 跨项目自动复盘",
-   "updated": "2026-08-26",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 17868,
-   "desc": "上级：Codex工作区/项目索引"
   }
  ]
 };
