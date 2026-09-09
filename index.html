@@ -1187,8 +1187,8 @@
   <div id="live-body" class="app-body"></div>
 </div>
 
-<script src="data.js?v=202609091434"></script>
-<script src="docs.js?v=202609091434" defer></script>
+<script src="data.js?v=202609091137"></script>
+<script src="docs.js?v=202609091137" defer></script>
 <script>
 /* 悬浮式底部控制条浏览器（华为/UC/夸克/小米/百度等）会覆盖页面底部，给 html 打标记以便上抬底部栏 */
 (function () {
@@ -1690,10 +1690,10 @@ function renderDesktopToday() {
     + '</nav><main class="desktop-main">';
 
   /* Hero：搜索 + 规模说明 */
-  h += '<div class="desktop-hero"><div class="eyebrow">徐总的知识库 · 内容优先</div><h2>先看最近写了什么，点开就是全文</h2>'
+  h += '<div class="desktop-hero"><div class="eyebrow">徐总的知识库 · 内容优先 · 最后更新 '+escapeHtml(gtFull || OBSIDIAN_GRAPH.generatedTime || '')+'</div><h2>先看最近写了什么，点开就是全文</h2>'
     + '<p>首页直接列出知识库最近更新的笔记，每条都带字数和阅读时长，点任意一条进入正文。下面按专题、按问题继续找。</p>'
     + '<div class="desktop-search"><input id="desktop-query" placeholder="搜索标题或内容，例如：FDE 面试" onkeydown="handleKnowledgeSearch(event)"><button class="primary" onclick="runKnowledgeSearch()">搜索</button><button onclick="askKnowledge()">问知识库</button></div>'
-    + '<div class="desktop-source">最新编译：' + OBSIDIAN_GRAPH.generatedTime + ' · 共 ' + nodes.length + ' 篇正文可读 · 来源 Obsidian</div></div>';
+    + '<div class="desktop-source">最新编译：' + (gtFull || OBSIDIAN_GRAPH.generatedTime) + ' · 共 ' + nodes.length + ' 篇正文可读 · 来源 Obsidian</div></div>';
 
   /* ① 最近更新：主区，点开即读 */
   h += '<section class="desktop-section"><div class="desktop-section-title"><h3>最近更新 · 点开即读</h3><span style="cursor:pointer;color:var(--blue)" onclick="showRecentUpdates()">查看全部 ' + nodes.length + ' 篇 ›</span></div>';
@@ -2031,7 +2031,7 @@ function openTopic(idx){
     h += '<div class="sg'+(i===idx?' on':'')+'" style="white-space:nowrap" onclick="openTopic('+i+')">'+escapeHtml(shortTopicName(tt.name))+'</div>';
   });
   h += '</div>';
-  h += '<div class="source-line">节点与链接来自真实 Obsidian 编译数据 · '+OBSIDIAN_GRAPH.generatedAt+' '+OBSIDIAN_GRAPH.generatedTime+'</div>';
+  h += '<div class="source-line">节点与链接来自真实 Obsidian 编译数据 · 最后更新 '+OBSIDIAN_GRAPH.generatedTime+'</div>';
   files.forEach(function(n){
     var dcls = (key === 'agent' || key === 'codex' || key === 'harness') ? 'agent' : 'enterprise';
     var demo = t.icon || '📘';

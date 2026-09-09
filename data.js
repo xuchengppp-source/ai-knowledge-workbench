@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-09",
- "generatedTime": "2026-09-09 14:34",
+ "generatedTime": "2026-09-09 15:00",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 40,
  "weeklyChanges": 576,
@@ -8377,7 +8377,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "今天主要推进己未文化 AI Agent 项目的入口层设计——意图识别与路由。完成了四大类26个意图的完整分类体系、Skill五层内部架构设计、从设计文档到可执行Skill的七步落地",
-   "wordCount": 4301
+   "wordCount": 5835
   },
   {
    "path": "任务面板与知识库/每日工作记录/每日工作记录说明.md",
@@ -11772,7 +11772,7 @@ window.OBSIDIAN_DATA = {
   "summary": {
    "in_progress": 17,
    "todo": 19,
-   "in_review": 14,
+   "in_review": 12,
    "blocked": 1
   },
   "recent": [
@@ -11820,7 +11820,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 119,
-  "fetchedAt": "2026年9月9日 14:34"
+  "fetchedAt": "2026年9月9日 15:00"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -11866,7 +11866,7 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-09-09",
    "topic": "taskboard",
    "topicName": "任务面板与知识库",
-   "wordCount": 4301,
+   "wordCount": 5835,
    "desc": "今天主要推进己未文化 AI Agent 项目的入口层设计——意图识别与路由。完成了四大类26个意图的完整分类体系、Skill五层内部架构设计、从设计文档到可执行Skill的七步落地"
   },
   {
