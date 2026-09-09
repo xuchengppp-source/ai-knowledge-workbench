@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-09",
- "generatedTime": "2026-09-09 19:07",
+ "generatedTime": "2026-09-09 19:14",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 128,
- "weeklyChanges": 735,
+ "weeklyPages": 129,
+ "weeklyChanges": 752,
  "sourceIndex": "知识库索引.md",
  "digest": "知识流水线/每日学习整理/2026-09-08｜AI知识增量整理.md",
  "topics": [
@@ -1110,8 +1110,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
    "title": "生产级 RAG 与数据库知识库架构：事实库、文档知识库与状态机",
-   "updated": "2026-08-26",
-   "updatedTime": "2026-08-26 20:12",
+   "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 19:13",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -1127,7 +1127,10 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/企业AI知识资产与RAG工程关系图",
     "企业AI与生产级Agent总框架关系图",
     "三层知识库与RAG基础设施分型",
-    "企业AI与智能体商业化/原始资料/GPT对话原稿：企业知识库与隐性经验资产化"
+    "企业AI与智能体商业化/原始资料/GPT对话原稿：企业知识库与隐性经验资产化",
+    "企业AI与智能体商业化/游戏公司AI组织落地：从流程提效到生产方式重构",
+    "企业AI与智能体商业化/己未文化CRM系统生产级Agent标准对标分析：六大模块差距与落地路径",
+    "企业AI与智能体商业化/企业AI与生产级Agent总框架"
    ],
    "backlinks": [
     "AI Agent工程知识/AI Agent发展路径：从会说到会做再到能操作业务.md",
@@ -1148,7 +1151,7 @@ window.OBSIDIAN_DATA = {
     "徐总每日随记/当日记录/2026-07-09.md"
    ],
    "desc": "上级：AI Agent工程知识专题",
-   "wordCount": 11644
+   "wordCount": 12943
   },
   {
    "path": "AI Agent工程知识/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈.md",
@@ -2122,6 +2125,7 @@ window.OBSIDIAN_DATA = {
     "企业AI与智能体商业化/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目"
    ],
    "backlinks": [
+    "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
     "企业AI与智能体商业化/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线.md",
     "企业AI与智能体商业化/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
     "企业AI与智能体商业化/科技咨询公司业务AI系统落地方案.md",
@@ -2753,6 +2757,7 @@ window.OBSIDIAN_DATA = {
     "AI Agent全面理解"
    ],
    "backlinks": [
+    "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
     "企业AI与智能体商业化/己未文化资料速查入口.md"
    ],
    "desc": "己未文化第一阶段CRM系统的核心架构：",
@@ -3023,6 +3028,7 @@ window.OBSIDIAN_DATA = {
     "原始资料/ChatGPT对话｜游戏公司AI组织落地｜2026-08-11"
    ],
    "backlinks": [
+    "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
     "企业AI与智能体商业化/游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
     "企业AI与智能体商业化/知识库索引.md",
     "知识流水线/A_原始资料.md",
@@ -13901,7 +13907,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 119,
-  "fetchedAt": "2026年9月9日 19:07"
+  "fetchedAt": "2026年9月9日 19:14"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -14014,6 +14020,16 @@ window.OBSIDIAN_DATA = {
    "topicName": "任务面板与知识库",
    "wordCount": 1703,
    "desc": "这是 Codex、豆包、WorkBuddy、Harness/Friday 和其他执行线共同使用的日常工作记录，不属于任何单一 Agent，也不属于个人生活随记。"
+  },
+  {
+   "path": "AI Agent工程知识/生产级RAG与数据库知识库架构：事实库、文档知识库与状态机.md",
+   "title": "生产级 RAG 与数据库知识库架构：事实库、文档知识库与状态机",
+   "updated": "2026-09-09",
+   "updatedTime": "2026-09-09 19:13",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 12943,
+   "desc": "上级：AI Agent工程知识专题"
   },
   {
    "path": "原始资料/已整理｜2026-08-19｜口播文案｜AI电商数据治理先行(子墨说AI-Corvera案例).md",
@@ -15134,16 +15150,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "个人能力提升",
    "wordCount": 381,
    "desc": "承载力是从“会做事”走向“能扛住复杂局面”的能力，核心不是压抑情绪，而是在压力、人性不确定和信息不完整的情况下，仍能稳住自己、稳住节奏、对结果负责。"
-  },
-  {
-   "path": "政府资源配置与政策落地机制/政府资源配置与政策落地机制专题.md",
-   "title": "政府资源配置与政策落地机制专题",
-   "updated": "2026-09-07",
-   "updatedTime": "2026-09-08 00:21",
-   "topic": "gov",
-   "topicName": "政府资源配置与政策落地",
-   "wordCount": 2115,
-   "desc": "上级：徐总的知识库"
   }
  ]
 };
