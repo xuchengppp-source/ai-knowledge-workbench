@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-10",
- "generatedTime": "2026-09-10 11:01",
+ "generatedTime": "2026-09-10 11:10",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 457,
  "weeklyChanges": 3368,
@@ -15679,7 +15679,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 119,
-  "fetchedAt": "2026年9月10日 11:01"
+  "fetchedAt": "2026年9月10日 11:10"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -15706,6 +15706,7 @@ window.OBSIDIAN_DATA = {
     "path": "70_知识流水线/候选知识与调用/候选知识卡真实调用评估记录｜2026-09-08｜AI Agent工程知识.md",
     "title": "候选知识卡真实调用评估记录（2026-09-08）",
     "updated": "2026-09-09",
+    "updatedTime": "2026-09-10 01:58",
     "wordCount": 8213,
     "desc": "- 候选卡文件：70知识流水线/候选知识与调用/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md（12 张：KC-01~KC-12）。"
    },
@@ -15713,11 +15714,38 @@ window.OBSIDIAN_DATA = {
     "path": "70_知识流水线/候选知识与调用/候选知识卡调用测试记录｜2026-09-08｜豆包Skill v0.1.md",
     "title": "候选知识卡调用测试记录（2026-09-08｜豆包Skill v0.1）",
     "updated": "2026-09-09",
+    "updatedTime": "2026-09-10 01:58",
     "wordCount": 15175,
     "desc": "- Skill 文件：knowledge-card-caller-v0.1/SKILL.md（隔离工作区）"
    }
   ]
  },
+ "dailyWorkRecords": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-10.md",
+   "title": "2026-09-10｜多智能体工作记录",
+   "updated": "2026-09-09",
+   "updatedTime": "2026-09-10 01:58",
+   "wordCount": 5351,
+   "desc": "今天最重要的成果是 Codex 完成了 Obsidian 知识库 V3 重建（任务卡 KNOWLEDGEPIP-73）：从昨天晚上 10 点多开始，持续到今天，把知识库从平铺结构迁"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-08.md",
+   "title": "2026-09-08｜多智能体工作记录",
+   "updated": "2026-09-09",
+   "updatedTime": "2026-09-10 00:17",
+   "wordCount": 1835,
+   "desc": "今天完成了知识卡系统的三层联动：候选知识卡作为 Agent 可调用内容，Skill 作为调用规则，AI 工作台作为只读展示入口。同时建立了每日工作记录的统一规则，正式入口统一为 9"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-09.md",
+   "title": "2026-09-09｜多智能体工作记录",
+   "updated": "2026-09-09",
+   "updatedTime": "2026-09-10 00:00",
+   "wordCount": 9649,
+   "desc": "今天最重要的成果是建立了每日工作总结自动化系统（project-daily-summary Skill）：通过扫描三个平台（豆包工作、Codex、WorkBuddy）的 Sessi"
+  }
+ ],
  "recentUpdates": [
   {
    "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-07-08.md",

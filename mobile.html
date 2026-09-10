@@ -1468,6 +1468,19 @@ function renderToday() {
     h += '<div class="kp-judge" onclick="showDailyDetail()"><div class="ji">⚡</div><div><b>今日判断</b><p>'+escapeHtml(d.judgments[0])+'</p></div></div>';
   }
 
+  /* —— 每日工作记录：一级入口，按日期快速浏览 —— */
+  var dwr = OBSIDIAN_DATA.dailyWorkRecords || [];
+  if (dwr.length) {
+    h += '<div class="kp-zone-title" style="cursor:pointer;margin-top:14px" onclick="showDailyRecords()"><span class="dot" style="background:#0EA5E9"></span><b>每日工作记录</b><span>'+dwr.length+' 天 · 按日期浏览 ›</span></div>';
+    h += '<div class="set-list" style="margin-bottom:4px">';
+    dwr.slice(0, 3).forEach(function(r){
+      var timeStr = r.updatedTime || r.updated || '';
+      h += '<div class="set-item" onclick="openDocByPath(\''+r.path.replace(/'/g,"\\'")+'\')"><span class="s-ic">📋</span><b>'+escapeHtml(r.title)+'</b><span class="s-val" style="font-size:11px;color:var(--ink-faint)">'+timeStr+'</span><span class="s-arrow">›</span></div>';
+    });
+    h += '</div>';
+    if (dwr.length > 3) h += '<div class="pc-link" style="text-align:center;margin:2px 0 10px;cursor:pointer;font-size:12px;color:var(--blue)" onclick="showDailyRecords()">查看全部 ' + dwr.length + ' 天工作记录 ›</div>';
+  }
+
 
 
   /* —— 知识库最近更新：按笔记更新时间，一点即进 —— */
@@ -2206,6 +2219,28 @@ function showDailyDetail(){
   window._lastTab = currentTab;
   document.getElementById('live-body').innerHTML = h;
   setReadingMode(true);
+  document.getElementById('live-body').scrollTop = 0;
+}
+
+function showDailyRecords(){
+  pushNav();
+  var records = OBSIDIAN_DATA.dailyWorkRecords || [];
+  var genDay = OBSIDIAN_DATA.generatedAt || '';
+  var h = '<div class="page"><div class="head-row"><div class="title"><span class="back" onclick="historyBack()">‹</span>每日工作记录<span class="sub-line">按日期倒序 · 共 ' + records.length + ' 天 · 点击进入正文</span></div><div class="avatar" style="background:linear-gradient(135deg,#0EA5E9,#2563EB);">记</div></div>';
+  h += '<div class="review-box" style="margin-bottom:14px"><h4>这一层负责什么</h4><p>每天的工作记录汇总，按日期倒序排列。记录各智能体（豆包助手、Codex、WorkBuddy、Harness/Friday）当天做的项目和工作，以及形成的规则和明日接力。</p></div>';
+  if (records.length) {
+    h += '<div class="set-list">';
+    records.forEach(function(r){
+      var timeStr = r.updatedTime || r.updated || '';
+      h += '<div class="set-item" onclick="openDocByPath(\''+r.path.replace(/'/g,"\\'")+'\')"><span class="s-ic">📋</span><b>'+escapeHtml(r.title)+'</b><span class="s-val" style="font-size:11px;color:var(--ink-faint)">'+timeStr+' · '+(r.wordCount>0?Math.round(r.wordCount/100)/10+'k 字':'')+'</span><span class="s-arrow">›</span></div>';
+    });
+    h += '</div>';
+  } else {
+    h += '<div class="fav-note">暂无每日工作记录。</div>';
+  }
+  h += '</div>';
+  window._lastTab = currentTab;
+  document.getElementById('live-body').innerHTML = h;
   document.getElementById('live-body').scrollTop = 0;
 }
 

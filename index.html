@@ -1689,6 +1689,7 @@ function renderDesktopToday() {
     + '<div class="desktop-nav-item" onclick="switchTab(\'topic\')">▤ 知识地图<span>专题体系与上下游</span></div>'
     + '<div class="desktop-nav-item" onclick="showQuestionHub()">？ 问题专题<span>' + questions.length + ' 个真实提问</span></div>'
     + '<div class="desktop-nav-item" onclick="showDailyDetail()">◷ 每日增量<span>今天的整理流水</span></div>'
+    + '<div class="desktop-nav-item" onclick="showDailyRecords()">📋 每日记录<span>工作记录按日期浏览</span></div>'
     + '<div class="desktop-nav-item" onclick="switchTab(\'fav\')">☆ 架构复盘<span>缺口与结构体检</span></div>'
     + '</nav><main class="desktop-main">';
 
@@ -2263,6 +2264,29 @@ function showDailyDetail(){
     h += '<div class="fav-note">今日暂无新增整理。</div>';
   }
   h += '</div><div class="reader-bottom"><div class="rb-btn done" onclick="historyBack()">返回今日</div></div></div>';
+  window._lastTab = currentTab;
+  document.getElementById('live-body').innerHTML = h;
+  document.getElementById('live-body').scrollTop = 0;
+}
+
+function showDailyRecords(){
+  pushNav();
+  var records = OBSIDIAN_DATA.dailyWorkRecords || [];
+  var genDay = OBSIDIAN_DATA.generatedAt || '';
+  var h = '<div class="page"><div class="head-row"><div class="title"><span class="back" onclick="historyBack()">‹</span>每日工作记录<span class="sub-line">按日期倒序 · 共 ' + records.length + ' 天 · 点击进入正文</span></div><div class="avatar" style="background:linear-gradient(135deg,#0EA5E9,#2563EB);">记</div></div>';
+  h += '<div class="review-box" style="margin-bottom:14px"><h4>这一层负责什么</h4><p>每天的工作记录汇总，按日期倒序排列。记录各智能体（豆包助手、Codex、WorkBuddy、Harness/Friday）当天做的项目和工作，以及形成的规则和明日接力。</p></div>';
+  if (records.length) {
+    h += '<div class="set-list">';
+    records.forEach(function(r){
+      var dayLabel = cfDayLabel(r.updated, genDay);
+      var timeStr = r.updatedTime || r.updated || '';
+      h += '<div class="set-item" onclick="openDocByPath(\''+r.path.replace(/'/g,"\\'")+'\')"><span class="s-ic">📋</span><b>'+escapeHtml(r.title)+'</b><span class="s-val" style="font-size:11px;color:var(--ink-faint)">'+timeStr+' · '+(r.wordCount>0?Math.round(r.wordCount/100)/10+'k 字':'')+'</span><span class="s-arrow">›</span></div>';
+    });
+    h += '</div>';
+  } else {
+    h += '<div class="fav-note">暂无每日工作记录。</div>';
+  }
+  h += '</div>';
   window._lastTab = currentTab;
   document.getElementById('live-body').innerHTML = h;
   document.getElementById('live-body').scrollTop = 0;
