@@ -1187,8 +1187,8 @@
   <div id="live-body" class="app-body"></div>
 </div>
 
-<script src="data.js?v=202609101119"></script>
-<script src="docs.js?v=202609101119" defer></script>
+<script src="data.js?v=202609101220"></script>
+<script src="docs.js?v=202609101220" defer></script>
 <script>
 /* 悬浮式底部控制条浏览器（华为/UC/夸克/小米/百度等）会覆盖页面底部，给 html 打标记以便上抬底部栏 */
 (function () {
@@ -1819,7 +1819,7 @@ function renderTopic() {
       h += '<div class="kp-zone-title" style="margin-top:4px"><span class="dot" style="background:#8B5CF6"></span><b>候选知识卡</b><span>验证中 · 可被 Agent 调用</span></div>';
       h += '<div class="set-list">';
       kcCards.slice(0,3).forEach(function(c){
-        h += '<div class="set-item" onclick="openDocByPath(\''+c.path.replace(/'/g,"\\'")+'\')"><span class="s-ic">🃏</span>'+escapeHtml(c.title)+'<span class="s-val">'+(c.wordCount?Math.round(c.wordCount/100)/10+'k':'')+'</span><span class="s-arrow">›</span></div>';
+        h += '<div class="set-item" onclick="openGraphNodeByPath(\''+c.path.replace(/'/g,"\\'")+'\')"><span class="s-ic">🃏</span>'+escapeHtml(c.title)+'<span class="s-val">'+(c.wordCount?Math.round(c.wordCount/100)/10+'k':'')+'</span><span class="s-arrow">›</span></div>';
       });
       h += '</div>';
     }
@@ -1828,7 +1828,7 @@ function renderTopic() {
       h += '<div class="kp-zone-title" style="margin-top:14px"><span class="dot" style="background:#10B981"></span><b>调用日志</b><span>Agent 使用后的反馈记录</span></div>';
       h += '<div class="set-list">';
       kcLogs.slice(0,2).forEach(function(l){
-        h += '<div class="set-item" onclick="openDocByPath(\''+l.path.replace(/'/g,"\\'")+'\')"><span class="s-ic">📋</span>'+escapeHtml(l.title)+'<span class="s-val">'+(l.updatedTime || l.updated || '')+'</span><span class="s-arrow">›</span></div>';
+        h += '<div class="set-item" onclick="openGraphNodeByPath(\''+l.path.replace(/'/g,"\\'")+'\')"><span class="s-ic">📋</span>'+escapeHtml(l.title)+'<span class="s-val">'+(l.updatedTime || l.updated || '')+'</span><span class="s-arrow">›</span></div>';
       });
       h += '</div>';
     }
@@ -1877,7 +1877,7 @@ function showKnowledgeCardCenter(){
     h += '<div class="sec-title">候选知识卡 <span class="more">'+kcCards.length+' 张</span></div>';
     h += '<div class="doc-list">';
     kcCards.forEach(function(c){
-      h += '<div class="doc-item" onclick="openDocByPath(\''+c.path.replace(/'/g,"\\'")+'\')"><div class="d-ic pipeline">🃏</div><div class="d-body"><h4>'+escapeHtml(c.title)+'</h4><div class="d-meta">候选知识卡 · '+(c.wordCount?Math.round(c.wordCount/100)/10+'k 字':'')+(c.updated?' · 更新于 '+(c.updatedTime || c.updated):'')+'</div></div><div class="d-check">›</div></div>';
+      h += '<div class="doc-item" onclick="openGraphNodeByPath(\''+c.path.replace(/'/g,"\\'")+'\')"><div class="d-ic pipeline">🃏</div><div class="d-body"><h4>'+escapeHtml(c.title)+'</h4><div class="d-meta">候选知识卡 · '+(c.wordCount?Math.round(c.wordCount/100)/10+'k 字':'')+(c.updated?' · 更新于 '+(c.updatedTime || c.updated):'')+'</div></div><div class="d-check">›</div></div>';
     });
     h += '</div>';
   }
@@ -1887,7 +1887,7 @@ function showKnowledgeCardCenter(){
     h += '<div class="sec-title">调用日志 <span class="more">'+kcLogs.length+' 条</span></div>';
     h += '<div class="doc-list">';
     kcLogs.forEach(function(l){
-      h += '<div class="doc-item" onclick="openDocByPath(\''+l.path.replace(/'/g,"\\'")+'\')"><div class="d-ic pipeline">📋</div><div class="d-body"><h4>'+escapeHtml(l.title)+'</h4><div class="d-meta">调用日志 · '+(l.wordCount?Math.round(l.wordCount/100)/10+'k 字':'')+(l.updated?' · 更新于 '+(l.updatedTime || l.updated):'')+'</div></div><div class="d-check">›</div></div>';
+      h += '<div class="doc-item" onclick="openGraphNodeByPath(\''+l.path.replace(/'/g,"\\'")+'\')"><div class="d-ic pipeline">📋</div><div class="d-body"><h4>'+escapeHtml(l.title)+'</h4><div class="d-meta">调用日志 · '+(l.wordCount?Math.round(l.wordCount/100)/10+'k 字':'')+(l.updated?' · 更新于 '+(l.updatedTime || l.updated):'')+'</div></div><div class="d-check">›</div></div>';
     });
     h += '</div>';
   }
@@ -1897,7 +1897,7 @@ function showKnowledgeCardCenter(){
     h += '<div class="sec-title">调用标准 <span class="more">'+kcStandards.length+' 份</span></div>';
     h += '<div class="doc-list">';
     kcStandards.forEach(function(s){
-      h += '<div class="doc-item" onclick="openDocByPath(\''+s.path.replace(/'/g,"\\'")+'\')"><div class="d-ic pipeline">📏</div><div class="d-body"><h4>'+escapeHtml(s.title)+'</h4><div class="d-meta">调用标准 · '+(s.wordCount?Math.round(s.wordCount/100)/10+'k 字':'')+(s.updated?' · 更新于 '+(s.updatedTime || s.updated):'')+'</div></div><div class="d-check">›</div></div>';
+      h += '<div class="doc-item" onclick="openGraphNodeByPath(\''+s.path.replace(/'/g,"\\'")+'\')"><div class="d-ic pipeline">📏</div><div class="d-body"><h4>'+escapeHtml(s.title)+'</h4><div class="d-meta">调用标准 · '+(s.wordCount?Math.round(s.wordCount/100)/10+'k 字':'')+(s.updated?' · 更新于 '+(s.updatedTime || s.updated):'')+'</div></div><div class="d-check">›</div></div>';
     });
     h += '</div>';
   }
@@ -1907,7 +1907,7 @@ function showKnowledgeCardCenter(){
     h += '<div class="sec-title">评估记录 <span class="more">'+kcEvals.length+' 份</span></div>';
     h += '<div class="doc-list">';
     kcEvals.forEach(function(e){
-      h += '<div class="doc-item" onclick="openDocByPath(\''+e.path.replace(/'/g,"\\'")+'\')"><div class="d-ic pipeline">📊</div><div class="d-body"><h4>'+escapeHtml(e.title)+'</h4><div class="d-meta">评估记录 · '+(e.wordCount?Math.round(e.wordCount/100)/10+'k 字':'')+(e.updated?' · 更新于 '+(e.updatedTime || e.updated):'')+'</div></div><div class="d-check">›</div></div>';
+      h += '<div class="doc-item" onclick="openGraphNodeByPath(\''+e.path.replace(/'/g,"\\'")+'\')"><div class="d-ic pipeline">📊</div><div class="d-body"><h4>'+escapeHtml(e.title)+'</h4><div class="d-meta">评估记录 · '+(e.wordCount?Math.round(e.wordCount/100)/10+'k 字':'')+(e.updated?' · 更新于 '+(e.updatedTime || e.updated):'')+'</div></div><div class="d-check">›</div></div>';
     });
     h += '</div>';
   }
@@ -2273,18 +2273,18 @@ function showDailyRecords(){
   pushNav();
   var records = OBSIDIAN_DATA.dailyWorkRecords || [];
   var genDay = OBSIDIAN_DATA.generatedAt || '';
-  var h = '<div class="page"><div class="head-row"><div class="title"><span class="back" onclick="historyBack()">‹</span>每日工作记录<span class="sub-line">按日期倒序 · 共 ' + records.length + ' 天 · 点击进入正文</span></div><div class="avatar" style="background:linear-gradient(135deg,#0EA5E9,#2563EB);">记</div></div>';
+  var h = '<div class="page"><div class="head-row"><div class="title"><span class="back" onclick="historyBack()">‹</span>每日记录<span class="sub-line">按日期倒序 · 共 ' + records.length + ' 天 · 点击进入正文</span></div><div class="avatar" style="background:linear-gradient(135deg,#0EA5E9,#2563EB);">记</div></div>';
   h += '<div class="review-box" style="margin-bottom:14px"><h4>这一层负责什么</h4><p>每天的工作记录汇总，按日期倒序排列。记录各智能体（豆包助手、Codex、WorkBuddy、Harness/Friday）当天做的项目和工作，以及形成的规则和明日接力。</p></div>';
   if (records.length) {
     h += '<div class="set-list">';
     records.forEach(function(r){
       var dayLabel = cfDayLabel(r.updated, genDay);
       var timeStr = r.updatedTime || r.updated || '';
-      h += '<div class="set-item" onclick="openDocByPath(\''+r.path.replace(/'/g,"\\'")+'\')"><span class="s-ic">📋</span><b>'+escapeHtml(r.title)+'</b><span class="s-val" style="font-size:11px;color:var(--ink-faint)">'+timeStr+' · '+(r.wordCount>0?Math.round(r.wordCount/100)/10+'k 字':'')+'</span><span class="s-arrow">›</span></div>';
+      h += '<div class="set-item" onclick="openGraphNodeByPath(\''+r.path.replace(/'/g,"\\'")+'\')"><span class="s-ic">📋</span><b>'+escapeHtml(r.title)+'</b><span class="s-val" style="font-size:11px;color:var(--ink-faint)">'+timeStr+' · '+(r.wordCount>0?Math.round(r.wordCount/100)/10+'k 字':'')+'</span><span class="s-arrow">›</span></div>';
     });
     h += '</div>';
   } else {
-    h += '<div class="fav-note">暂无每日工作记录。</div>';
+    h += '<div class="fav-note">暂无每日记录。</div>';
   }
   h += '</div>';
   window._lastTab = currentTab;

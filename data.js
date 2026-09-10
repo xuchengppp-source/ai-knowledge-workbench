@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-10",
- "generatedTime": "2026-09-10 11:15",
+ "generatedTime": "2026-09-10 12:20",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 199,
- "weeklyChanges": 1701,
+ "weeklyChanges": 1702,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-09｜AI知识增量整理.md",
  "topics": [
@@ -10870,10 +10870,12 @@ window.OBSIDIAN_DATA = {
    "updated": "2026-09-10",
    "updatedTime": "2026-09-10 00:00",
    "topic": "taskboard",
-   "links": [],
+   "links": [
+    "..."
+   ],
    "backlinks": [],
    "desc": "今天最重要的成果是 Codex 完成了 Obsidian 知识库 V3 重建（任务卡 KNOWLEDGEPIP-73）：从昨天晚上 10 点多开始，持续到今天，把知识库从平铺结构迁",
-   "wordCount": 5351
+   "wordCount": 9135
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
@@ -15679,7 +15681,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 119,
-  "fetchedAt": "2026年9月10日 11:15"
+  "fetchedAt": "2026年9月10日 12:20"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -15726,7 +15728,7 @@ window.OBSIDIAN_DATA = {
    "title": "2026-09-10｜多智能体工作记录",
    "updated": "2026-09-10",
    "updatedTime": "2026-09-10 00:00",
-   "wordCount": 5351,
+   "wordCount": 9135,
    "desc": "今天最重要的成果是 Codex 完成了 Obsidian 知识库 V3 重建（任务卡 KNOWLEDGEPIP-73）：从昨天晚上 10 点多开始，持续到今天，把知识库从平铺结构迁"
   },
   {
