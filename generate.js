@@ -14,28 +14,29 @@ const path = require('path');
 // ========== 配置 ==========
 const VAULT = '/Users/xucheng/Documents/c 徐的知识库';
 const TOPICS = [
-  { key: 'agent',     name: 'AI Agent工程知识',        dir: 'AI Agent工程知识',              icon: '🤖', color: 'agent', group: 'core' },
-  { key: 'enterprise', name: '企业AI与智能体商业化',    dir: '企业AI与智能体商业化',          icon: '🏢', color: 'enterprise', group: 'core' },
-  { key: 'infrastructure', name: 'AI产业链与数字基础设施', dir: 'AI产业链与数字基础设施', icon: '⚡', color: 'enterprise', group: 'core' },
-  { key: 'pipeline', name: '知识流水线',              dir: '知识流水线',                    icon: '📚', color: 'pipeline', group: 'core' },
+  { key: 'agent',     name: 'AI Agent工程知识',        dir: '40_专题知识库/AI Agent工程知识',              icon: '🤖', color: 'agent', v3group: 'core', recursive: true },
+  { key: 'enterprise', name: '企业AI与智能体商业化',    dir: '40_专题知识库/企业AI与智能体商业化',          icon: '🏢', color: 'enterprise', v3group: 'core', recursive: true },
+  { key: 'infrastructure', name: 'AI产业链与数字基础设施', dir: '40_专题知识库/AI产业链与数字基础设施', icon: '⚡', color: 'enterprise', v3group: 'core', recursive: true },
+  { key: 'pipeline', name: '知识流水线',              dir: '70_知识流水线',                    icon: '📚', color: 'pipeline', v3group: 'pipeline', recursive: true },
   // 2026-09-08 白名单扩容：学习向 / 方法论向内容全部纳入，隐私类（个人健康·出行·车辆·档案·会议记录·全局记忆）保持排除
-  { key: 'codex',      name: 'Codex 工作区',            dir: 'Codex工作区',                  icon: '🛠', color: 'agent', group: 'ext', recursive: true },
-  { key: 'harness',    name: 'DeepSeek Harness 项目',   dir: 'DeepSeek Harness项目',          icon: '🧪', color: 'agent', group: 'ext', recursive: true },
-  { key: 'multiagent', name: '多智能体协作',            dir: '多智能体协作任务',              icon: '🕸', color: 'agent', group: 'ext', recursive: true },
-  { key: 'taskboard',  name: '任务面板与知识库',        dir: '任务面板与知识库',              icon: '🧭', color: 'pipeline', group: 'ext', recursive: true },
-  { key: 'gov',        name: '政府资源配置与政策落地',  dir: '政府资源配置与政策落地机制',    icon: '🏛', color: 'enterprise', group: 'ext', recursive: true },
-  { key: 'bio',        name: '生物医疗与生物医药',      dir: '生物医疗与生物医药',            icon: '🧬', color: 'enterprise', group: 'ext', recursive: true },
-  { key: 'lowalt',     name: '低空经济',                dir: '低空经济',                      icon: '🛫', color: 'enterprise', group: 'ext', recursive: true },
-  { key: 'law',        name: '法律',                    dir: '法律',                          icon: '⚖️', color: 'enterprise', group: 'ext', recursive: true },
-  { key: 'growth',     name: '个人能力提升',            dir: '个人能力提升',                  icon: '🌱', color: 'pipeline', group: 'ext', recursive: true },
-  { key: 'notes',      name: '徐总每日随记',            dir: '徐总每日随记',                  icon: '📝', color: 'pipeline', group: 'ext', recursive: true },
-  { key: 'doubao',     name: '豆包工作区',              dir: '豆包工作区',                    icon: '🫘', color: 'agent', group: 'ext', recursive: true },
-  { key: 'codexmisc',  name: 'Codex',                   dir: 'Codex',                         icon: '📦', color: 'agent', group: 'ext', recursive: true },
-  { key: 'aitools',    name: 'AI 工具操作手册',         dir: 'AI 工具线下使用操作手册',        icon: '📖', color: 'agent', group: 'ext', recursive: true },
+  { key: 'codex',      name: 'Codex 工作区',            dir: '90_系统与协作/Codex工作区',                  icon: '🛠', color: 'agent', v3group: 'system', recursive: true },
+  { key: 'harness',    name: 'DeepSeek Harness 项目',   dir: '20_工作与项目/DeepSeek Harness项目',          icon: '🧪', color: 'agent', v3group: 'project', recursive: true },
+  { key: 'multiagent', name: '多智能体协作',            dir: '20_工作与项目/多智能体协作任务',              icon: '🕸', color: 'agent', v3group: 'project', recursive: true },
+  { key: 'taskboard',  name: '任务面板与知识库',        dir: '90_系统与协作/任务面板与知识库',              icon: '🧭', color: 'pipeline', v3group: 'system', recursive: true },
+  { key: 'gov',        name: '政府资源配置与政策落地',  dir: '40_专题知识库/政府资源配置与政策落地机制',    icon: '🏛', color: 'enterprise', v3group: 'core', recursive: true },
+  { key: 'bio',        name: '生物医疗与生物医药',      dir: '40_专题知识库/生物医疗与生物医药',            icon: '🧬', color: 'enterprise', v3group: 'core', recursive: true },
+  { key: 'lowalt',     name: '低空经济',                dir: '40_专题知识库/低空经济',                      icon: '🛫', color: 'enterprise', v3group: 'core', recursive: true },
+  { key: 'law',        name: '法律',                    dir: '40_专题知识库/法律',                          icon: '⚖️', color: 'enterprise', v3group: 'core', recursive: true },
+  // { key: 'growth',     name: '个人能力提升',            dir: '10_个人生活与个人管理/个人能力提升',                  icon: '🌱', color: 'pipeline', group: 'ext', recursive: true },
+  { key: 'notes',      name: '徐总每日随记',            dir: '10_个人生活与个人管理/徐总每日随记',                  icon: '📝', color: 'pipeline', v3group: 'personal', recursive: true },
+  { key: 'doubao',     name: '豆包工作区',              dir: '90_系统与协作/豆包工作区',                    icon: '🫘', color: 'agent', v3group: 'system', recursive: true },
+  { key: 'codexmisc',  name: 'Codex',                   dir: '40_专题知识库/Codex',                         icon: '📦', color: 'agent', v3group: 'core', recursive: true },
+  { key: 'aitools',    name: 'AI 工具操作手册',         dir: '50_资产库/AI工具与自动化资产',        icon: '📖', color: 'agent', v3group: 'asset', recursive: true },
+  { key: 'myinsights', name: '我的洞察',                  dir: '60_问题与洞察/我的洞察',                        icon: '💡', color: 'pipeline', v3group: 'question', recursive: true },
 ];
-const DAILY_DIR = path.join(VAULT, '知识流水线', '每日学习整理');
-const WEEKLY_DIR = path.join(VAULT, '知识流水线', '每周知识复盘');
-const QUESTION_DIR = path.join(VAULT, '徐总问题专题库');
+const DAILY_DIR = path.join(VAULT, '70_知识流水线', '每日学习整理');
+const WEEKLY_DIR = path.join(VAULT, '70_知识流水线', '每周知识复盘');
+const QUESTION_DIR = path.join(VAULT, '60_问题与洞察', '徐总问题专题库');
 const OUT_DIR = process.argv.includes('--out')
   ? process.argv[process.argv.indexOf('--out') + 1]
   : '/Users/xucheng/Documents/知识库工作台-publish';
@@ -157,24 +158,54 @@ function parseMD(filePath) {
   // frontmatter
   let title = '', updated = '';
   const fmMatch = raw.match(/^---\n([\s\S]*?)\n---/);
+  let fmUpdated = null;
+  let fmUpdatedTime = null;
   if (fmMatch) {
     const fm = fmMatch[1];
     const t = fm.match(/^title:\s*(.+)$/m);
-    const u = fm.match(/^updated:\s*([\d-]+)/m);
-    const c = fm.match(/^created:\s*([\d-]+)/m);
+    const u = fm.match(/^updated:\s*(.+)$/m);
+    const c = fm.match(/^created:\s*(.+)$/m);
     if (t) title = t[1].trim().replace(/["']/g, '');
-    if (u) updated = u[1].trim();
-    else if (c) updated = c[1].trim();
+    if (u) {
+      const val = u[1].trim();
+      const dt = val.match(/(\d{4})-(\d{2})-(\d{2})(?:[ T]+(\d{2}):(\d{2}))?/);
+      if (dt) {
+        fmUpdated = dt[1] + '-' + dt[2] + '-' + dt[3];
+        if (dt[4] && dt[5]) fmUpdatedTime = fmUpdated + ' ' + dt[4] + ':' + dt[5];
+      }
+    }
+    if (!fmUpdated && c) {
+      const val = c[1].trim();
+      const dt = val.match(/(\d{4})-(\d{2})-(\d{2})/);
+      if (dt) fmUpdated = dt[1] + '-' + dt[2] + '-' + dt[3];
+    }
   }
   if (!title) {
     const h1 = raw.match(/^#\s+(.+)$/m);
     if (h1) title = h1[1].trim();
   }
   if (!title) title = path.basename(filePath, '.md');
-  // updated：取 frontmatter 标注与文件实际修改时间中较晚者，确保「内容更新即反映最新时间」
+
+  // 从文件名提取日期（如 2026-06-01.md、2026-09-10｜多智能体工作记录.md）
+  const basename = path.basename(filePath, '.md');
+  const fnMatch = basename.match(/(\d{4})[-_]?(\d{2})[-_]?(\d{2})/);
+  const filenameDate = fnMatch ? fnMatch[1] + '-' + fnMatch[2] + '-' + fnMatch[3] : null;
+
+  // 文件实际修改时间（mtime，文件移动会改变，仅作为最后兜底）
   const stat = fs.statSync(filePath);
-  const mtimeDate = stat.mtime.toISOString().slice(0, 10);
-  if (!updated || mtimeDate > updated) updated = mtimeDate;
+  const mt = stat.mtime;
+  const mtimeDate = mt.getFullYear() + '-' +
+    String(mt.getMonth() + 1).padStart(2, '0') + '-' +
+    String(mt.getDate()).padStart(2, '0');
+  const mtimeFull = mtimeDate + ' ' +
+    String(mt.getHours()).padStart(2, '0') + ':' +
+    String(mt.getMinutes()).padStart(2, '0');
+
+  // 优先级：frontmatter updated（带时分）→ 文件 mtime（真正的最后修改时间）
+  // updatedTime 反映真正的内容修改时间，用户修改内容后会立即更新并排在最近更新最前面
+  // 不再用文件名日期（那是内容的日期，不是修改时间，且时分固定为 00:00 不准确）
+  const updatedTime = fmUpdatedTime || mtimeFull;
+  updated = updatedTime.slice(0, 10);
 
   // 正文（去掉 frontmatter）
   const body = fmMatch ? raw.slice(fmMatch[0].length) : raw;
@@ -201,7 +232,7 @@ function parseMD(filePath) {
   // 字数
   const wordCount = cleanBody.replace(/\s/g, '').length;
 
-  return { path: rel, title, updated, links, desc, wordCount, contentHtml };
+  return { path: rel, title, updated, updatedTime, links, desc, wordCount, contentHtml };
 }
 
 /**
@@ -628,10 +659,23 @@ async function build() {
       name: t.name,
       key: t.key,
       icon: t.icon,
+      v3group: t.v3group,
       count: topicNodes.length,
       files: topicNodes.map(n => ({ path: n.path, title: n.title, updated: n.updated, desc: n.desc, wordCount: n.wordCount })),
     });
   });
+
+  // 根目录「原始资料 / 养料」：扫描知识库根目录下的原始资料目录（未整理素材、用户提供、抖音分享等）
+  const rootRawDir = path.join(VAULT, '30_资料库', '原始资料');
+  if (fs.existsSync(rootRawDir)) {
+    const rootRawFiles = readMDFilesRecursive(rootRawDir);
+    rootRawFiles.forEach(f => {
+      if (EXCLUDE_PATTERNS.some(p => p.test(f))) return;
+      const node = parseMD(f);
+      node.topic = 'raw';
+      allNodes.push(node);
+    });
+  }
 
   // 计算反向链接（只统计两个专题内部）
   const nodeSet = {};
@@ -645,12 +689,12 @@ async function build() {
     });
   });
   graph.nodes = allNodes.map(n => ({
-    path: n.path, title: n.title, updated: n.updated,
+    path: n.path, title: n.title, updated: n.updated, updatedTime: n.updatedTime,
     topic: n.topic, links: n.links, backlinks: n.backlinks, desc: n.desc, wordCount: n.wordCount,
     contentHtml: n.contentHtml,
   }));
 
-  const recentCutoff = Date.parse(graph.generatedAt + 'T00:00:00+08:00') - 6 * 24 * 60 * 60 * 1000;
+  const recentCutoff = Date.parse(graph.generatedAt + 'T00:00:00+08:00') - 1 * 24 * 60 * 60 * 1000;
   const recentNodes = graph.nodes.filter(n => Date.parse(n.updated + 'T00:00:00+08:00') >= recentCutoff);
   const recentLinks = new Set();
   recentNodes.forEach(n => n.links.forEach(link => recentLinks.add(n.path + '→' + link)));
@@ -697,7 +741,7 @@ async function build() {
   // 虚拟专题「原始资料 / 养料」：不移动节点归属，仅按路径聚合入口（抖音分享、未提炼素材）
   const rawFiles = graph.nodes.filter(n => /原始资料/.test(n.path));
   if (rawFiles.length && !graph.topics.some(t => t.key === 'raw')) {
-    graph.topics.push({ key: 'raw', name: '原始资料 / 养料', icon: '🗂', color: 'raw', count: rawFiles.length, files: rawFiles });
+    graph.topics.push({ key: 'raw', name: '原始资料 / 养料', icon: '🗂', color: 'raw', v3group: 'raw', count: rawFiles.length, files: rawFiles });
   }
 
   // 知识卡中心：专门提取候选知识卡、调用日志、调用标准，供首页展示
@@ -712,7 +756,13 @@ async function build() {
     .map(n => ({ path: n.path, title: n.title, updated: n.updated, wordCount: n.wordCount || 0, desc: n.desc || '' }));
   const callEvaluations = (graph.nodes || [])
     .filter(n => /候选知识卡.*调用.*评估|候选知识卡.*测试记录/.test(n.path || ''))
-    .map(n => ({ path: n.path, title: n.title, updated: n.updated, wordCount: n.wordCount || 0, desc: n.desc || '' }));
+    .map(n => ({ path: n.path, title: n.title, updated: n.updated, updatedTime: n.updatedTime, wordCount: n.wordCount || 0, desc: n.desc || '' }));
+
+  // 每日工作记录：专门提取，供首页显眼位置展示和「每日记录」页面浏览
+  const dailyWorkRecords = (graph.nodes || [])
+    .filter(n => /每日工作记录\/\d{4}-\d{2}-\d{2}/.test(n.path || ''))
+    .map(n => ({ path: n.path, title: n.title, updated: n.updated, updatedTime: n.updatedTime, wordCount: n.wordCount || 0, desc: n.desc || '' }))
+    .sort((a, b) => (b.updatedTime || b.updated || '').localeCompare(a.updatedTime || a.updated || ''));
 
   const data = {
     generatedAt: graph.generatedAt,
@@ -740,6 +790,7 @@ async function build() {
       standards: callStandards,
       evaluations: callEvaluations,
     },
+    dailyWorkRecords,
   };
 
   // 拆分：data.js 只放元数据（不含正文，首屏秒开），docs.js 放正文（延迟加载）
@@ -758,22 +809,28 @@ async function build() {
   });
 
   // 最近更新：按笔记更新时间倒序，供首页「最近内容 · 点开即读」直接使用
+  // 合并正式笔记（nodes）+ 问题专题库（questionTopics），问题专题库更新也能出现在最近更新里
   const topicNameMap = {};
   (graph.topics || []).forEach(t => { topicNameMap[t.key] = t.name; });
-  dataLight.recentUpdates = (data.nodes || [])
-    .filter(n => n.updated)
+  topicNameMap['question'] = '问题专题库';
+  const allUpdateItems = (data.nodes || []).map(n => ({
+    path: n.path, title: n.title, updated: n.updated, updatedTime: n.updatedTime,
+    topic: n.topic, topicName: topicNameMap[n.topic] || '',
+    wordCount: n.wordCount || 0, desc: n.desc || '',
+  })).concat((data.questionTopics || []).map(q => ({
+    path: q.path, title: q.title, updated: q.updated, updatedTime: q.updatedTime,
+    topic: 'question', topicName: '问题专题库',
+    wordCount: q.wordCount || 0, desc: q.desc || '',
+  })));
+  dataLight.recentUpdates = allUpdateItems
+    .filter(n => n.updated && Date.parse(n.updated + 'T00:00:00+08:00') >= recentCutoff)
     .slice()
-    .sort((a, b) => String(b.updated).localeCompare(String(a.updated)) || String(a.title).localeCompare(String(b.title)))
-    .slice(0, 120)
-    .map(n => ({
-      path: n.path,
-      title: n.title,
-      updated: n.updated,
-      topic: n.topic,
-      topicName: topicNameMap[n.topic] || '',
-      wordCount: n.wordCount || 0,
-      desc: n.desc || '',
-    }));
+    .sort((a, b) => {
+      const ta = a.updatedTime || a.updated || '';
+      const tb = b.updatedTime || b.updated || '';
+      return String(tb).localeCompare(String(ta)) || String(a.title).localeCompare(String(b.title));
+    })
+    .slice(0, 120);
 
   // 正文映射：path -> contentHtml
   const docsMap = {};
