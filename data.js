@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-10",
- "generatedTime": "2026-09-10 23:03",
+ "generatedAt": "2026-09-11",
+ "generatedTime": "2026-09-11 00:30",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 473,
- "weeklyChanges": 3402,
+ "weeklyPages": 394,
+ "weeklyChanges": 3094,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-10｜AI知识增量整理.md",
  "topics": [
@@ -19,7 +19,7 @@ window.OBSIDIAN_DATA = {
    "key": "enterprise",
    "icon": "🏢",
    "v3group": "core",
-   "count": 125
+   "count": 126
   },
   {
    "name": "AI产业链与数字基础设施",
@@ -33,7 +33,7 @@ window.OBSIDIAN_DATA = {
    "key": "pipeline",
    "icon": "📚",
    "v3group": "pipeline",
-   "count": 137
+   "count": 138
   },
   {
    "name": "Codex 工作区",
@@ -132,7 +132,7 @@ window.OBSIDIAN_DATA = {
    "icon": "🗂",
    "color": "raw",
    "v3group": "raw",
-   "count": 125
+   "count": 126
   }
  ],
  "nodes": [
@@ -1849,6 +1849,33 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "创建日期：2026-07-01",
    "wordCount": 8261
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/企业AI落地5环节诊断框架：从老板牵头到技术选型的FDE沟通方法论.md",
+   "title": "企业AI落地5环节诊断框架：从老板牵头到技术选型的FDE沟通方法论",
+   "updated": "2026-09-11",
+   "updatedTime": "2026-09-11 00:23",
+   "topic": "enterprise",
+   "links": [
+    "30_资料库/原始资料/未整理｜2026-09-10｜抖音分享｜企业AI落地的5个关键环节：从老板牵头到技术选型的完整路径",
+    "FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "ANC方法论：FDE如何用AI原生组织承接企业落地",
+    "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
+    "AI交付行业观察：走访7个团队后的困境机会与危机",
+    "FDE交付方法论与甘食记案例",
+    "科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent",
+    "FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
+    "FDE业务需求访谈SOP",
+    "企业级知识基础设施架构：数据库、知识库、规则库（Ontology）与状态机",
+    "生产级AI Agent工程体系的完整链路",
+    "Agent系统架构模式选型：从单Agent到Graph Workflow",
+    "企业AI从试点到可交付项目：商业化与组织落地实战",
+    "AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧",
+    "70_知识流水线/增量整理/2026-09-10｜企业AI落地5环节诊断框架｜增量整理"
+   ],
+   "backlinks": [],
+   "desc": "-----|------|---------|-------------------|",
+   "wordCount": 7287
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
@@ -5368,11 +5395,12 @@ window.OBSIDIAN_DATA = {
   {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 13:05",
+   "updated": "2026-09-11",
+   "updatedTime": "2026-09-11 00:24",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线",
+    "30_资料库/原始资料/已整理｜2026-09-10｜抖音分享｜企业AI落地的5个关键环节：从老板牵头到技术选型的完整路径",
     "30_资料库/原始资料/已整理｜2026-09-10｜IMA公众号提取的笔记｜828房地产新政专题笔记（三篇原文整合版）",
     "30_资料库/原始资料/已整理｜2026-09-07｜抖音分享｜智能的物理重量：为什么未来我们可能买不起算力",
     "30_资料库/原始资料/已整理｜2026-09-07｜用户提供｜生产级Agent六大治理模块：语义路由执行编排可观测性权限审计评估体系与Tool Schema",
@@ -5576,7 +5604,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-09-10｜IMA公众号提取的笔记｜828房地产新政专题笔记（三篇原文整合版）.md"
    ],
    "desc": "上级：70知识流水线/知识流水线",
-   "wordCount": 15396
+   "wordCount": 15624
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -6900,6 +6928,21 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "- 事件：2026年8月28日，中央多个部委发布多份文件，即日实施（口径有差异：三部门/四部委七文件/五部委八文件，待核）",
    "wordCount": 4738
+  },
+  {
+   "path": "70_知识流水线/增量整理/2026-09-10｜企业AI落地5环节诊断框架｜增量整理.md",
+   "title": "2026-09-10｜企业AI落地5环节诊断框架｜增量整理",
+   "updated": "2026-09-11",
+   "updatedTime": "2026-09-11 00:21",
+   "topic": "pipeline",
+   "links": [
+    "30_资料库/原始资料/未整理｜2026-09-10｜抖音分享｜企业AI落地的5个关键环节：从老板牵头到技术选型的完整路径"
+   ],
+   "backlinks": [
+    "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/企业AI落地5环节诊断框架：从老板牵头到技术选型的FDE沟通方法论.md"
+   ],
+   "desc": "---|---------|---------|",
+   "wordCount": 3375
   },
   {
    "path": "70_知识流水线/平板Obsidian每日轻量巡检员启动提示词.md",
@@ -14037,6 +14080,19 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "上级：70知识流水线/A原始资料、30资料库/资料库V3导航",
    "wordCount": 9250
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-09-10｜抖音分享｜企业AI落地的5个关键环节：从老板牵头到技术选型的完整路径.md",
+   "title": "企业AI落地的5个关键环节：从老板牵头到技术选型的完整路径",
+   "updated": "2026-09-11",
+   "updatedTime": "2026-09-11 00:23",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "所以你会发现，真正的企业AI落地，它一直都不是说买一个AI工具，然后让员工开始用。",
+   "wordCount": 1611
   }
  ],
  "today": {
@@ -14443,7 +14499,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 120,
+   "matched": 123,
    "status": "已形成"
   },
   {
@@ -15810,7 +15866,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 119,
-  "fetchedAt": "2026年9月10日 23:03"
+  "fetchedAt": "2026年9月11日 00:30"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -15878,6 +15934,46 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "recentUpdates": [
+  {
+   "path": "70_知识流水线/A_原始资料.md",
+   "title": "A_原始资料",
+   "updated": "2026-09-11",
+   "updatedTime": "2026-09-11 00:24",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 15624,
+   "desc": "上级：70知识流水线/知识流水线"
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/企业AI落地5环节诊断框架：从老板牵头到技术选型的FDE沟通方法论.md",
+   "title": "企业AI落地5环节诊断框架：从老板牵头到技术选型的FDE沟通方法论",
+   "updated": "2026-09-11",
+   "updatedTime": "2026-09-11 00:23",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 7287,
+   "desc": "-----|------|---------|-------------------|"
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-09-10｜抖音分享｜企业AI落地的5个关键环节：从老板牵头到技术选型的完整路径.md",
+   "title": "企业AI落地的5个关键环节：从老板牵头到技术选型的完整路径",
+   "updated": "2026-09-11",
+   "updatedTime": "2026-09-11 00:23",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1611,
+   "desc": "所以你会发现，真正的企业AI落地，它一直都不是说买一个AI工具，然后让员工开始用。"
+  },
+  {
+   "path": "70_知识流水线/增量整理/2026-09-10｜企业AI落地5环节诊断框架｜增量整理.md",
+   "title": "2026-09-10｜企业AI落地5环节诊断框架｜增量整理",
+   "updated": "2026-09-11",
+   "updatedTime": "2026-09-11 00:21",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 3375,
+   "desc": "---|---------|---------|"
+  },
   {
    "path": "70_知识流水线/每日学习整理/2026-09-10｜AI知识增量整理.md",
    "title": "2026-09-10｜AI 知识增量整理",
@@ -16789,16 +16885,6 @@ window.OBSIDIAN_DATA = {
    "desc": "- 事件：2026年8月28日，中央多个部委发布多份文件，即日实施（口径有差异：三部门/四部委七文件/五部委八文件，待核）"
   },
   {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 13:05",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 15396,
-   "desc": "上级：70知识流水线/知识流水线"
-  },
-  {
    "path": "30_资料库/原始资料/已整理｜2026-09-10｜IMA公众号提取的笔记｜828房地产新政专题笔记（三篇原文整合版）.md",
    "title": "原始资料｜828 房地产新政专题笔记（三篇原文整合版）",
    "updated": "2026-09-10",
@@ -17047,36 +17133,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 9576,
    "desc": "上级：40专题知识库/AI Agent工程知识/AI Agent工程知识专题"
-  },
-  {
-   "path": "70_知识流水线/候选知识与调用/候选知识卡调用测试记录｜2026-09-08｜豆包Skill v0.1.md",
-   "title": "候选知识卡调用测试记录（2026-09-08｜豆包Skill v0.1）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 01:58",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 15175,
-   "desc": "- Skill 文件：knowledge-card-caller-v0.1/SKILL.md（隔离工作区）"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/04_知识库与记忆/显性知识与隐性知识的工程化入库机制.md",
-   "title": "显性知识与隐性知识的工程化入库机制",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 01:58",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 3861,
-   "desc": "上级：AI Agent工程知识专题"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/生产级AI Agent工程体系的完整链路.md",
-   "title": "生产级 AI Agent 工程体系的完整链路",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 01:58",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 10875,
-   "desc": "总关系图：00入口与导航/企业AI与生产级Agent总框架关系图"
   }
  ]
 };
