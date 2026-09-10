@@ -1850,6 +1850,31 @@ function renderFav() {
   h += '</div>';
   var w = OBSIDIAN_DATA.weeklyReview;
   if (w) h += '<div class="kp-review" style="margin-top:12px" onclick="showWeeklyReview()"><span class="reyebrow">本周架构变化 · '+escapeHtml(w.date)+'</span><h4>'+escapeHtml(w.title)+'</h4><span class="rarrow">›</span></div>';
+
+  // 全部专题 · 按 V3 层级分组展示
+  var allTopics = OBSIDIAN_DATA.topics || [];
+  var v3groups = [
+    {key:'core', name:'核心专题', icon:'🎯', desc:'40_专题知识库 · 已理解提炼的领域知识'},
+    {key:'question', name:'问题与洞察', icon:'❓', desc:'60_问题与洞察 · 提问驱动的跨专题研究'},
+    {key:'asset', name:'可复用资产', icon:'📦', desc:'50_资产库 · SOP、模板、Skill、决策卡'},
+    {key:'system', name:'系统与协作', icon:'🔧', desc:'90_系统与协作 · Agent 协作规则、工作台'},
+    {key:'project', name:'项目记录', icon:'📋', desc:'20_工作与项目 · 真实项目的目标、决策、复盘'},
+    {key:'pipeline', name:'知识流水线', icon:'⚙️', desc:'70_知识流水线 · 每日整理、周复盘、过程内容'},
+    {key:'personal', name:'个人随记', icon:'📝', desc:'10_个人生活与个人管理 · 每日随记'},
+    {key:'raw', name:'原始资料', icon:'🗂', desc:'30_资料库 · 完整原文和证据'}
+  ];
+  h += '<div class="kp-zone-title" style="margin-top:20px"><span class="dot"></span><b>全部专题 · 按 V3 层级分组</b><span>'+allTopics.length+' 个专题 · 点击进入</span></div>';
+  v3groups.forEach(function(g){
+    var groupTopics = allTopics.filter(function(t){ return t.v3group === g.key; });
+    if (!groupTopics.length) return;
+    h += '<div class="kp-zone-title" style="margin-top:14px"><span class="dot" style="background:#6366F1"></span><b>'+g.icon+' '+g.name+'</b><span style="font-size:11px">'+g.desc+'</span></div>';
+    h += '<div class="set-list">';
+    groupTopics.forEach(function(t){
+      h += '<div class="set-item" onclick="openTopicByKey(\''+t.key+'\')"><span class="s-ic">'+(t.icon||'📄')+'</span>'+escapeHtml(t.name)+'<span class="s-val">'+(t.count||0)+' 篇</span><span class="s-arrow">›</span></div>';
+    });
+    h += '</div>';
+  });
+
   h += '</div>';
   return h;
 }

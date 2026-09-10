@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-10",
- "generatedTime": "2026-09-10 10:49",
+ "generatedTime": "2026-09-10 11:01",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 457,
  "weeklyChanges": 3368,
@@ -11,102 +11,119 @@ window.OBSIDIAN_DATA = {
    "name": "AI Agent工程知识",
    "key": "agent",
    "icon": "🤖",
+   "v3group": "core",
    "count": 43
   },
   {
    "name": "企业AI与智能体商业化",
    "key": "enterprise",
    "icon": "🏢",
+   "v3group": "core",
    "count": 125
   },
   {
    "name": "AI产业链与数字基础设施",
    "key": "infrastructure",
    "icon": "⚡",
+   "v3group": "core",
    "count": 12
   },
   {
    "name": "知识流水线",
    "key": "pipeline",
    "icon": "📚",
+   "v3group": "pipeline",
    "count": 134
   },
   {
    "name": "Codex 工作区",
    "key": "codex",
    "icon": "🛠",
+   "v3group": "system",
    "count": 76
   },
   {
    "name": "DeepSeek Harness 项目",
    "key": "harness",
    "icon": "🧪",
+   "v3group": "project",
    "count": 29
   },
   {
    "name": "多智能体协作",
    "key": "multiagent",
    "icon": "🕸",
+   "v3group": "project",
    "count": 8
   },
   {
    "name": "任务面板与知识库",
    "key": "taskboard",
    "icon": "🧭",
+   "v3group": "system",
    "count": 22
   },
   {
    "name": "政府资源配置与政策落地",
    "key": "gov",
    "icon": "🏛",
+   "v3group": "core",
    "count": 10
   },
   {
    "name": "生物医疗与生物医药",
    "key": "bio",
    "icon": "🧬",
+   "v3group": "core",
    "count": 16
   },
   {
    "name": "低空经济",
    "key": "lowalt",
    "icon": "🛫",
+   "v3group": "core",
    "count": 6
   },
   {
    "name": "法律",
    "key": "law",
    "icon": "⚖️",
+   "v3group": "core",
    "count": 4
   },
   {
    "name": "徐总每日随记",
    "key": "notes",
    "icon": "📝",
+   "v3group": "personal",
    "count": 42
   },
   {
    "name": "豆包工作区",
    "key": "doubao",
    "icon": "🫘",
+   "v3group": "system",
    "count": 4
   },
   {
    "name": "Codex",
    "key": "codexmisc",
    "icon": "📦",
+   "v3group": "core",
    "count": 4
   },
   {
    "name": "AI 工具操作手册",
    "key": "aitools",
    "icon": "📖",
+   "v3group": "asset",
    "count": 2
   },
   {
    "name": "我的洞察",
    "key": "myinsights",
    "icon": "💡",
+   "v3group": "question",
    "count": 4
   },
   {
@@ -114,6 +131,7 @@ window.OBSIDIAN_DATA = {
    "name": "原始资料 / 养料",
    "icon": "🗂",
    "color": "raw",
+   "v3group": "raw",
    "count": 124
   }
  ],
@@ -15661,7 +15679,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 119,
-  "fetchedAt": "2026年9月10日 10:49"
+  "fetchedAt": "2026年9月10日 11:01"
  },
  "knowledgeCardCenter": {
   "cards": [
