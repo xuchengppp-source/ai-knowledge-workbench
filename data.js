@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-11",
- "generatedTime": "2026-09-11 23:05",
+ "generatedAt": "2026-09-12",
+ "generatedTime": "2026-09-12 08:37",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 410,
- "weeklyChanges": 3132,
+ "weeklyPages": 28,
+ "weeklyChanges": 207,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-11｜AI知识增量整理.md",
  "topics": [
@@ -12,14 +12,14 @@ window.OBSIDIAN_DATA = {
    "key": "agent",
    "icon": "🤖",
    "v3group": "core",
-   "count": 44
+   "count": 45
   },
   {
    "name": "企业AI与智能体商业化",
    "key": "enterprise",
    "icon": "🏢",
    "v3group": "core",
-   "count": 127
+   "count": 128
   },
   {
    "name": "AI产业链与数字基础设施",
@@ -33,7 +33,7 @@ window.OBSIDIAN_DATA = {
    "key": "pipeline",
    "icon": "📚",
    "v3group": "pipeline",
-   "count": 144
+   "count": 145
   },
   {
    "name": "Codex 工作区",
@@ -124,7 +124,7 @@ window.OBSIDIAN_DATA = {
    "key": "myinsights",
    "icon": "💡",
    "v3group": "question",
-   "count": 4
+   "count": 5
   },
   {
    "key": "raw",
@@ -132,7 +132,7 @@ window.OBSIDIAN_DATA = {
    "icon": "🗂",
    "color": "raw",
    "v3group": "raw",
-   "count": 131
+   "count": 132
   }
  ],
  "nodes": [
@@ -513,6 +513,19 @@ window.OBSIDIAN_DATA = {
    "wordCount": 6831
   },
   {
+   "path": "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/从daily-work-summary实践看生产级AI工程化的通用标准.md",
+   "title": "从 daily-work-summary 实践看生产级 AI 工程化的通用标准",
+   "updated": "2026-09-12",
+   "updatedTime": "2026-09-12 02:09",
+   "topic": "agent",
+   "links": [
+    "FDE上线安全清单：从能跑到敢用的六道门自动化四级与可靠性服务目标"
+   ],
+   "backlinks": [],
+   "desc": "在做 daily-work-summary（每日工作总结自动化）这个 Skill 的过程中，我们经历了一个典型的\"从能跑到生产级\"的过程：",
+   "wordCount": 13024
+  },
+  {
    "path": "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/生产级AI Agent工程体系的完整链路.md",
    "title": "生产级 AI Agent 工程体系的完整链路",
    "updated": "2026-09-10",
@@ -562,18 +575,21 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/生产级Agent六大治理模块与工程骨架.md",
    "title": "生产级Agent六大治理模块与工程骨架",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 00:13",
+   "updated": "2026-09-12",
+   "updatedTime": "2026-09-12 02:06",
    "topic": "agent",
    "links": [
+    "FDE上线安全清单：从能跑到敢用的六道门自动化四级与可靠性服务目标",
     "30_资料库/原始资料/已整理｜2026-09-07｜用户提供｜生产级Agent六大治理模块：语义路由执行编排可观测性权限审计评估体系与Tool Schema",
-    "40_专题知识库/AI Agent工程知识/01_基础概念与术语/生产级AI Agent知识体系总览：层级·特性·术语"
+    "40_专题知识库/AI Agent工程知识/01_基础概念与术语/生产级AI Agent知识体系总览：层级·特性·术语",
+    "30_资料库/原始资料/已整理｜2026-09-11｜抖音分享｜FDE从入门到精通第6课：从能跑到敢用——可靠性权限与人机协同",
+    "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE上线安全清单：从能跑到敢用的六道门自动化四级与可靠性服务目标"
    ],
    "backlinks": [
     "40_专题知识库/AI Agent工程知识/AI Agent工程知识V3导航.md"
    ],
    "desc": "生产级 Agent 的六个治理模块分别回答：调哪个、怎么调、调得怎样、谁能调、如何持续调好，以及工具调用格式如何稳定表达。",
-   "wordCount": 743
+   "wordCount": 3574
   },
   {
    "path": "40_专题知识库/AI Agent工程知识/04_知识库与记忆/三层知识库与RAG基础设施分型.md",
@@ -1509,6 +1525,28 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "日期：2026-06-14",
    "wordCount": 3858
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE上线安全清单：从能跑到敢用的六道门自动化四级与可靠性服务目标.md",
+   "title": "FDE上线安全清单：从\"能跑\"到\"敢用\"的六道门、自动化四级与可靠性服务目标",
+   "updated": "2026-09-12",
+   "updatedTime": "2026-09-12 01:57",
+   "topic": "enterprise",
+   "links": [
+    "FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
+    "制造业AI落地的隐性鸿沟：非结构化信息、员工使用习惯与AI中间层解决方案",
+    "生产级AI Agent工程体系的完整链路",
+    "显性知识与隐性知识的工程化入库机制",
+    "蜀道金租生产级AI建设方案",
+    "30_资料库/原始资料/已整理｜2026-09-11｜抖音分享｜FDE从入门到精通第6课：从能跑到敢用——可靠性权限与人机协同",
+    "70_知识流水线/增量整理/2026-09-11｜FDE第6课从能跑到敢用上线安全清单｜增量整理"
+   ],
+   "backlinks": [
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/生产级Agent六大治理模块与工程骨架.md"
+   ],
+   "desc": "---|------|",
+   "wordCount": 5738
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE与AI架构师核心资产能力.md",
@@ -5442,11 +5480,12 @@ window.OBSIDIAN_DATA = {
   {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
-   "updated": "2026-09-11",
-   "updatedTime": "2026-09-11 15:31",
+   "updated": "2026-09-12",
+   "updatedTime": "2026-09-12 01:57",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线",
+    "30_资料库/原始资料/已整理｜2026-09-11｜抖音分享｜FDE从入门到精通第6课：从能跑到敢用——可靠性权限与人机协同",
     "30_资料库/原始资料/已整理｜2026-09-11｜抖音视频文案｜8.28楼市新政后房地产信贷逻辑变化与银行对公审批重构",
     "30_资料库/原始资料/已整理｜2026-09-11｜抖音视频文案｜100家企业AI落地实录：制造业痛点与AI中间层解决方案",
     "30_资料库/原始资料/已整理｜2026-09-11｜抖音视频文案｜摩根士丹利现房销售模式五大高频问题报告解读",
@@ -5657,7 +5696,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-09-10｜IMA公众号提取的笔记｜828房地产新政专题笔记（三篇原文整合版）.md"
    ],
    "desc": "上级：70知识流水线/知识流水线",
-   "wordCount": 17085
+   "wordCount": 17371
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -7010,6 +7049,21 @@ window.OBSIDIAN_DATA = {
    "backlinks": [],
    "desc": "---|------|",
    "wordCount": 3352
+  },
+  {
+   "path": "70_知识流水线/增量整理/2026-09-11｜FDE第6课从能跑到敢用上线安全清单｜增量整理.md",
+   "title": "2026-09-11｜FDE第6课从能跑到敢用上线安全清单｜增量整理",
+   "updated": "2026-09-12",
+   "updatedTime": "2026-09-12 01:56",
+   "topic": "pipeline",
+   "links": [
+    "30_资料库/原始资料/未整理｜2026-09-11｜抖音分享｜FDE从入门到精通第6课：从能跑到敢用——可靠性权限与人机协同"
+   ],
+   "backlinks": [
+    "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE上线安全清单：从能跑到敢用的六道门自动化四级与可靠性服务目标.md"
+   ],
+   "desc": "---|------|",
+   "wordCount": 4497
   },
   {
    "path": "70_知识流水线/增量整理/2026-09-11｜制造业AI落地隐性鸿沟与AI中间层｜增量整理.md",
@@ -12659,6 +12713,19 @@ window.OBSIDIAN_DATA = {
    "wordCount": 19
   },
   {
+   "path": "60_问题与洞察/我的洞察/会话洞察/2026-09-11-生产级AI工程化是通用标准还是土办法.md",
+   "title": "生产级AI工程化是通用标准还是土办法？",
+   "updated": "2026-09-12",
+   "updatedTime": "2026-09-12 01:28",
+   "topic": "myinsights",
+   "links": [
+    "从daily-work-summary实践看生产级AI工程化的通用标准"
+   ],
+   "backlinks": [],
+   "desc": "做 daily-work-summary 工程化改造时，加了统一入口、Schema 校验、自动化测试、失败告警、游标后移这些东西。突然意识到：这些到底是所有生产级 AI 都该做的通",
+   "wordCount": 1235
+  },
+  {
    "path": "60_问题与洞察/我的洞察/徐总口述/AI Agent 商业化路径与方向.md",
    "title": "AI Agent 商业化路径与方向",
    "updated": "2026-09-08",
@@ -14276,6 +14343,21 @@ window.OBSIDIAN_DATA = {
    "wordCount": 5033
   },
   {
+   "path": "30_资料库/原始资料/已整理｜2026-09-11｜抖音分享｜FDE从入门到精通第6课：从能跑到敢用——可靠性权限与人机协同.md",
+   "title": "FDE从入门到精通 第6课：从能跑到敢用——可靠性、权限与人机协同",
+   "updated": "2026-09-12",
+   "updatedTime": "2026-09-12 01:57",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/生产级Agent六大治理模块与工程骨架.md",
+    "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE上线安全清单：从能跑到敢用的六道门自动化四级与可靠性服务目标.md",
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "- Demo关注能否得到正确结果，生产系统还要回答四件事：什么时候结果不可信、谁有权执行、发生了什么能否追溯、失败后能否恢复",
+   "wordCount": 1130
+  },
+  {
    "path": "30_资料库/原始资料/已整理｜2026-09-11｜抖音分享｜别再拿建知识库来感动自己了：从收藏癖到认知内化的警醒.md",
    "title": "别再拿建知识库来感动自己了：从收藏癖到认知内化的警醒",
    "updated": "2026-09-11",
@@ -14786,7 +14868,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "安全、权限与治理",
-   "matched": 24,
+   "matched": 27,
    "status": "已形成"
   },
   {
@@ -14796,7 +14878,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 124,
+   "matched": 127,
    "status": "已形成"
   },
   {
@@ -16163,7 +16245,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 119,
-  "fetchedAt": "2026年9月11日 23:05"
+  "fetchedAt": "2026年9月12日 08:37"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -16240,6 +16322,76 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/从daily-work-summary实践看生产级AI工程化的通用标准.md",
+   "title": "从 daily-work-summary 实践看生产级 AI 工程化的通用标准",
+   "updated": "2026-09-12",
+   "updatedTime": "2026-09-12 02:09",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 13024,
+   "desc": "在做 daily-work-summary（每日工作总结自动化）这个 Skill 的过程中，我们经历了一个典型的\"从能跑到生产级\"的过程："
+  },
+  {
+   "path": "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/生产级Agent六大治理模块与工程骨架.md",
+   "title": "生产级Agent六大治理模块与工程骨架",
+   "updated": "2026-09-12",
+   "updatedTime": "2026-09-12 02:06",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 3574,
+   "desc": "生产级 Agent 的六个治理模块分别回答：调哪个、怎么调、调得怎样、谁能调、如何持续调好，以及工具调用格式如何稳定表达。"
+  },
+  {
+   "path": "70_知识流水线/A_原始资料.md",
+   "title": "A_原始资料",
+   "updated": "2026-09-12",
+   "updatedTime": "2026-09-12 01:57",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 17371,
+   "desc": "上级：70知识流水线/知识流水线"
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE上线安全清单：从能跑到敢用的六道门自动化四级与可靠性服务目标.md",
+   "title": "FDE上线安全清单：从\"能跑\"到\"敢用\"的六道门、自动化四级与可靠性服务目标",
+   "updated": "2026-09-12",
+   "updatedTime": "2026-09-12 01:57",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 5738,
+   "desc": "---|------|"
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-09-11｜抖音分享｜FDE从入门到精通第6课：从能跑到敢用——可靠性权限与人机协同.md",
+   "title": "FDE从入门到精通 第6课：从能跑到敢用——可靠性、权限与人机协同",
+   "updated": "2026-09-12",
+   "updatedTime": "2026-09-12 01:57",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1130,
+   "desc": "- Demo关注能否得到正确结果，生产系统还要回答四件事：什么时候结果不可信、谁有权执行、发生了什么能否追溯、失败后能否恢复"
+  },
+  {
+   "path": "70_知识流水线/增量整理/2026-09-11｜FDE第6课从能跑到敢用上线安全清单｜增量整理.md",
+   "title": "2026-09-11｜FDE第6课从能跑到敢用上线安全清单｜增量整理",
+   "updated": "2026-09-12",
+   "updatedTime": "2026-09-12 01:56",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 4497,
+   "desc": "---|------|"
+  },
+  {
+   "path": "60_问题与洞察/我的洞察/会话洞察/2026-09-11-生产级AI工程化是通用标准还是土办法.md",
+   "title": "生产级AI工程化是通用标准还是土办法？",
+   "updated": "2026-09-12",
+   "updatedTime": "2026-09-12 01:28",
+   "topic": "myinsights",
+   "topicName": "我的洞察",
+   "wordCount": 1235,
+   "desc": "做 daily-work-summary 工程化改造时，加了统一入口、Schema 校验、自动化测试、失败告警、游标后移这些东西。突然意识到：这些到底是所有生产级 AI 都该做的通"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-09-11｜AI知识增量整理.md",
    "title": "2026-09-11｜AI 知识增量整理",
    "updated": "2026-09-11",
@@ -16258,16 +16410,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "原始资料 / 养料",
    "wordCount": 869,
    "desc": "1. 开发贷款期限大幅拉长：预售3-5年，现房5-7年，商业地产7年；首次还本在竣工备案之后"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-09-11",
-   "updatedTime": "2026-09-11 15:31",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 17085,
-   "desc": "上级：70知识流水线/知识流水线"
   },
   {
    "path": "70_知识流水线/增量整理/2026-09-11｜8.28楼市新政房地产信贷逻辑变化｜增量整理.md",
@@ -16458,986 +16600,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 3375,
    "desc": "---|---------|---------|"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-10｜AI知识增量整理.md",
-   "title": "2026-09-10｜AI 知识增量整理",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 23:03",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3582,
-   "desc": "- 日期：2026-09-10（生成于当日 23:00 自动化入口）"
-  },
-  {
-   "path": "20_工作与项目/DeepSeek Harness项目/DeepSeek Harness搭建记录.md",
-   "title": "DeepSeek Harness 搭建记录",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 17:25",
-   "topic": "harness",
-   "topicName": "DeepSeek Harness 项目",
-   "wordCount": 339491,
-   "desc": "Jarvis Office 不是工具菜单，而是一个“资料采集与知识整理 Agent”。四个主模块组成一条业务流水线：知识中心负责接收和分流，信息处理负责提取和加工，文档中心负责整理"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-09-04｜微信公众号｜万字长文Palantir式本体对AI的真实价值.md",
-   "title": "万字长文说清Palantir式本体对AI的真实价值",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:06",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 5926,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-07-21｜用户直接指令｜Obsidian六步收口规则原文.md",
-   "title": "原始资料｜Obsidian新增更新内容强制收口协作规则（用户原文）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:06",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1431,
-   "desc": "上级：全局记忆/13Obsidian新增更新内容强制收口协作规则"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-09-04｜抖音｜多Agent架构选型：Manager Handoff Agent-as-Tool底层区别.md",
-   "title": "多Agent架构选型：Manager / Handoff / Agent-as-Tool 的底层区别",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:06",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 5707,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-09-02｜抖音｜承载力：职场高阶的政治成熟与四层认知觉醒.md",
-   "title": "承载力：政治成熟高阶的四层认知觉醒与三个心法",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:06",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1706,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-09-08｜李开复｜AI现状与未来深度对话原始稿索引.md",
-   "title": "李开复 AI 现状与未来深度对话原始稿索引",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:06",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1689,
-   "desc": "这是徐总于 2026-08-11 提供的李开复深度访谈转写稿，约 3.38 万字。它与腾讯 FDE PDF 不同：腾讯 FDE 偏“企业 AI 如何交付和规模化”，本资料偏“企业为"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-09-08｜腾讯研究院｜FDE模式行业观察与实践原始稿索引.md",
-   "title": "腾讯研究院 FDE 模式行业观察与实践原始稿索引",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:06",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 638,
-   "desc": "这是腾讯研究院《FDE 模式行业观察与实践》原始 PDF，不是《超级个体时代》报告。"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-28｜GitHub优选｜DSH实测必装12个插件.md",
-   "title": "【实测】11 万+ Star 的 DeepSeek Harness 必装的 12 个插件！",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:05",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 4716,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-26｜棱镜｜AI尽头，也是放贷.md",
-   "title": "AI尽头，也是放贷",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:05",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3849,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-28｜腾讯科技｜DeepSeek的Harness为何是一头黑色鲸鱼.md",
-   "title": "DeepSeek的Harness，为何是一头黑色鲸鱼？",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:05",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 4319,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-28｜微信公众号｜DSH到底把什么做成了插件.md",
-   "title": "DSH 到底把什么做成了插件",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:05",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 4451,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-28｜吴晓波频道｜养龙虾退热企业AI落地.md",
-   "title": "养龙虾退热，企业AI落地为何大多做不起来？ | AI未来谈",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:05",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2270,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-28｜蓝耘星河｜别把DSH当CodeX平替.md",
-   "title": "别再把DeepSeek Harness当成CodeX平替了，一切皆插件，它有成为企业AI工作台的潜力",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:05",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2057,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-28｜韩叙HanXu｜300个AI搭团队跑通一人公司.md",
-   "title": "如何用300个AI搭团队？跑通一人公司的极简模型",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:05",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2999,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-28｜钛媒体｜产品经理排队转型FDE.md",
-   "title": "害怕被AI抢饭碗的产品经理，正排队转型FDE",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:05",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3306,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-28｜微信公众号｜我为什么不建议普通人现在去做企业知识库.md",
-   "title": "我为什么不建议普通人现在去做企业知识库",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:05",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3655,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-26｜dsh拆解系列｜拆解DeepSeekHarness：Profile与Bundle如何装配运行时.md",
-   "title": "拆解 DeepSeek Harness：Profile 与 Bundle 如何装配运行时",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:05",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 5849,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-28｜投资界｜生产200万AI打工人冲刺IPO.md",
-   "title": "生产200万“AI打工人”，珠海又一家企业冲刺IPO",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:05",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 5281,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-26｜极客公园｜离开剪映后创业，她想把一支设计团队装进AI工作台.md",
-   "title": "离开剪映后创业，她想把一支设计团队装进 AI 工作台",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:05",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 4993,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-28｜机器之心｜翁荔AI自进化在Harness.md",
-   "title": "翁荔最新万字长文：AI 的自进化，可能不在模型，在 Harness",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:05",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 18746,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-26｜dsh拆解系列｜解读Cordis：dsh一切皆插件背后的运行时设计.md",
-   "title": "解读 Cordis：dsh 一切皆插件背后的运行时设计",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:05",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 5918,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-28｜腾讯科技｜黑鲸之后OpenAI开放Harness.md",
-   "title": "黑鲸之后，OpenAI开放Harness，争夺Agent运行时",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:05",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 5054,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-12｜抖音｜Solo们chat-FDE如何用ANC搭建AI原生组织.md",
-   "title": "「Solo们 chat」FDE如何用ANC搭建AI原生组织",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3730,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-19｜口播文案｜AI电商数据治理先行(子墨说AI-Corvera案例).md",
-   "title": "AI电商数据治理先行（子墨说AI｜Corvera 4人团队案例）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 988,
-   "desc": "四人团队靠AI一个月逆袭，营收21万，融资420万美金，同时拿下了12个电商快销品牌的合作。最夸张的是，从签下第一单客户到服务满12个品牌，他们只用了短短5个星期。就在今年5月，这"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-13｜ChatGPT｜AI行业落地认知的混乱.md",
-   "title": "ChatGPT 对话｜AI 行业落地认知的混乱",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1810,
-   "desc": "- 对话标题：AI 行业落地认知的混乱"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-30｜ChatGPT｜DeepSeekHarness专属智能体与多Agent控制层讨论.md",
-   "title": "DeepSeek Harness 专属智能体与多 Agent 控制层讨论",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1026,
-   "desc": "讨论 Codex、WorkBuddy、豆包助手和 DeepSeek Harness 之间的关系：是否必须由 Codex 统一主控；Harness 外是否需要增加一层稳定 Agent"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-09-08｜抖音分享｜FDE企业真实落地案例：汽车零部件制造企业AI数据分析系统.md",
-   "title": "FDE企业真实落地案例：汽车零部件制造企业AI数据分析系统",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3261,
-   "desc": "企业AI真的太难做了。做到最后你会发现，自己根本不是在搞AI，更像是在帮企业把以前管理留下的坑一个个给填上。"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-07｜抖音豆包｜超哥奇点世界GPU空转泡沫AI资本囤积游戏.md",
-   "title": "GPU空转泡沫：AI行业最大的资本囤积游戏（超哥的奇点世界）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2364,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-19｜Harness｜全文接入链路测试.md",
-   "title": "Harness 全文接入链路测试",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 170,
-   "desc": "Jarvis Office 的第一条业务链路是：接收完整全文，保留原文，标记为未整理，并把后续整理交给下一阶段。"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-19｜工作流规则｜Jarvis知识增长工作流总规则.md",
-   "title": "Jarvis Office 知识增长工作流总规则",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2217,
-   "desc": "Jarvis Office 不是单纯的资料整理聊天框，而是一个由 DeepSeek Harness 驱动的知识增长执行体：把资料保存、内容提炼、专题整合、知识库巡检和后续研究建议串"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-28｜抖音｜Macro开源企业级一体化工作空间.md",
-   "title": "Macro开源企业级一体化工作空间（邮件/消息/任务/文档/CRM+AI Agent）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2890,
-   "desc": "ok，各位，这可能是我今年最推荐的一款工具，叫 micro，今天它来了。我把它翻译成中文，中文给大家看一下，可能会有点不准确，但是我觉得特别，大家一定要去选择这款叫 micro，它"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-04｜抖音豆包｜NeoPicks聊了7个AI交付团队总结困难机会危机.md",
-   "title": "NeoPicks聊了7个AI交付团队总结困难机会危机",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2764,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-28｜Omnigent开源元编排层Meta-Harness（统一多Agent共享会话）.md",
-   "title": "Omnigent开源元编排层Meta-Harness（统一多Agent共享会话与协作）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2527,
-   "desc": "\"Omnigent is an open-source meta-harness that gives you a common orchestration layer over "
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-21｜Qwen-UI-Agent与Harness自重启能力方向.md",
-   "title": "Qwen-UI-Agent 与 Harness 自重启能力方向",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1030,
-   "desc": "Qwen-UI-Agent 可能不只是浏览器控制能力，还覆盖手机 App、桌面电脑、浏览器、跨设备流程以及 GUI 与 CLI 混合执行。未来可研究是否把它接入 DeepSeek "
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-27｜视频·大模型秋招模拟面试｜RAG-Agent上线后的BadCase闭环五步流程.md",
-   "title": "RAG/Agent上线后的BadCase闭环五步流程（视频核心内容总结）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 621,
-   "desc": "RAG/Agent 上线后，必须搭建完整的 BadCase 闭环，这是系统持续迭代的关键。缺少闭环会导致系统效果越来越差（错误累积、无法定位根因）。"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-02｜抖音豆包｜Token工厂三大玩家.md",
-   "title": "Token 工厂三大玩家",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2124,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-04｜抖音豆包｜Token工厂单机vs集群卖Token商业化.md",
-   "title": "Token 工厂单机 vs 集群（卖 Token 商业化门槛）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 4658,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-03｜抖音豆包｜Token才是中国真正意义上的电力出口.md",
-   "title": "Token 才是中国真正意义上的电力出口",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2507,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-03｜抖音豆包｜Token是中国新型电力出口.md",
-   "title": "Token是中国新型电力出口",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2470,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-28｜抖音｜YC开源内部Agent办公系统QM.md",
-   "title": "YC开源内部Agent办公系统QM（硅谷AI原生团队工作流）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 496,
-   "desc": "YC刚刚把自己的内部 Agent 开源了，代号 QM。这不是玩具，是 YC 在产品、市场、工程等部门真刀真枪跑了几个月的多 Agent 协助系统。想要进化成 AI 原生团队的可以闭"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-08｜抖音豆包｜三十亿智算中心利用率.md",
-   "title": "三十亿智算中心机柜全亮没人用：全国平均利用率百分之...",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1802,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-06｜抖音+ChatGPT｜专家搭建的Obsidian AI Knowledge OS.md",
-   "title": "专家搭建的 Obsidian AI Knowledge OS",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2665,
-   "desc": "这个页面是整个 Knowledge OS 的知识中心（Knowledge Center）页面。它不是简单展示笔记，而是在展示\"知识资产管理层\"。"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-02｜抖音豆包｜中国不缺算力真相.md",
-   "title": "中国不缺算力真相（呼呼智算重庆）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1497,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-12｜对话整理｜任务闭环与业务闭环分离-GrokBot数字岗位vs经营Agent.md",
-   "title": "任务闭环与业务闭环分离：Grok Bot 的任务/岗位 Agent 路线 vs 经营 Agent 路线",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3536,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-07-30｜抖音｜企业AI落地真实内幕4个反常识真相.md",
-   "title": "企业AI落地真实内幕（4 个反常识真相）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3697,
-   "desc": "上级：徐总的知识库"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-27｜探讨·企业级AI工程化闭环选型：必要性边界、RPA替代与维护可持续性.md",
-   "title": "企业级AI工程化闭环选型探讨（Ethan 与徐总对话推演）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 821,
-   "desc": "企业级 AI Agent / RAG 上线后，是否必须搭建完整的 BadCase 闭环（埋点→筛选→评审→修复→回归）？工程化每个细节都\"麻烦\"，企业级是否一定要做满？"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-07｜抖音豆包｜AI大模型果果姐AIAgent框架选错白忙三个月.md",
-   "title": "做AI Agent，框架选错，真的可能白忙三个月",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2147,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-25｜微信公众号·远川研究所｜办公Agent大战重点不是Agent（上下文才是护城河）.md",
-   "title": "办公Agent大战，重点不是Agent",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 5741,
-   "desc": "- 2026-08-28：结合 ChatGPT 会话《生产级AI agent 框架》完成二次整理。"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-04｜抖音豆包｜南吴NANWU总结Codex的5级用法.md",
-   "title": "南吴NANWU总结Codex的5级用法",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1886,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-03｜抖音豆包衍生｜各省算力账本摊开看.md",
-   "title": "各省算力账本摊开看：谁在疯狂建、谁在悄悄停",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2541,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-03｜抖音豆包｜味精公司砸6亿搞算力一台没摸到.md",
-   "title": "味精公司砸6亿搞算力一台没摸到（莲花控股算力投资踩坑）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2386,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-07｜抖音豆包｜央视新闻记者医学减重一年掉40斤.md",
-   "title": "央视新闻记者尝试医学减重一年掉40斤",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1764,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-09-03｜工信部官网+用户提供｜工信部414号文原文及解读：AI赚钱的逻辑变了.md",
-   "title": "工信部414号文原文及解读：AI赚钱的逻辑变了",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2260,
-   "desc": "昨天下午工信部发了一个重磅的行业文件，就关于人工智能应用服务商的政策414号文件。其实所有AI应用的伙伴们都感受到了利好，但是到底利好谁？什么时候兑现？谁会出局？对谁是有重大的战略"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-17｜口播文案｜企业AI落地与数字化转型干货分享.md",
-   "title": "已整理｜2026-08-17｜口播文案｜企业AI落地与数字化转型干货分享",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 6806,
-   "desc": "在森马看到的数字员工，它一直都是自己在抓数据是吧？"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-17｜口播文案｜女装直播用AI省500万(唐承佳案例).md",
-   "title": "已整理｜2026-08-17｜口播文案｜女装直播用AI省500万（唐承佳案例）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 4853,
-   "desc": "用AI省了多少钱？"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-18｜口播文案｜企业AI知识库搭建.md",
-   "title": "已整理｜2026-08-18｜口播文案｜企业AI知识库搭建",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3558,
-   "desc": "企业AI知识库搭建"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-28｜豆包对话｜政府重大项目决策机制详解（含多项目推动层级）.md",
-   "title": "已整理｜2026-08-28｜豆包对话｜政府重大项目决策机制详解（含多项目推动层级）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 6348,
-   "desc": "京东方在成都的落地是多阶段、重投资、强协同的产业落地事件，核心项目有两条产线，最新的第8.6代AMOLED产线是四川最大单体工业项目，以下按关键节点、核心信息、审批逻辑与落地保障展"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-06｜抖音豆包｜张宇技术栈Agent系统7种架构.md",
-   "title": "张宇技术栈：从零搭建 Agent 系统主流 7 种架构选型（口播文案）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3086,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-21｜抖音DeepSeek Harness系列文案.md",
-   "title": "抖音 DeepSeek Harness 系列文案",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1027,
-   "desc": "原始完整文案已保存在：未整理｜2026-08-21｜抖音DeepSeek Harness系列文案.txt。"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-08｜抖音豆包｜政治成熟优先级匹配精力.md",
-   "title": "政治成熟，读懂优先级匹配精力做事",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1659,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-15｜斯坦福｜Enterprise AI Playbook 企业AI实战手册51个成功落地项目.md",
-   "title": "斯坦福《Enterprise AI Playbook》企业AI实战手册（51个成功落地项目）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2515,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-09-07｜抖音分享｜智能的物理重量：为什么未来我们可能买不起算力.md",
-   "title": "智能的物理重量：为什么未来我们可能买不起算力？",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 4148,
-   "desc": "如果AI需求才刚刚开始，为什么全世界已经在抢芯片、抢电力，连电工和水管工都成了稀缺资源？"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-11｜访谈｜李开复AI现状与未来深度对话.md",
-   "title": "李开复AI现状与未来深度对话",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 32426,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-08｜抖音豆包｜沟通能力强的人说话是什么样的.md",
-   "title": "沟通能力强的人说话是什么样的",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1543,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-21｜人工测试｜测试 Jarvis 四阶段工作流验证.md",
-   "title": "测试 Jarvis 四阶段工作流验证",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 519,
-   "desc": "DeepSeek Harness 是一个插件化的智能体运行框架。它通过 Host Service、Agent Consumer、Agent Preset 和 Client UI 共"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地.md",
-   "title": "游戏公司 AI 组织落地走访原始记录",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 6338,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-06｜抖音｜王自如聊如何正确减肥.md",
-   "title": "王自如聊如何正确减肥（口播稿）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2061,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-03｜抖音豆包衍生｜理清Token从业者发展路线.md",
-   "title": "理清 Token 从业者发展路线：词元经济下的三条路径",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2683,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-09-07｜用户提供｜生产级Agent六大治理模块：语义路由执行编排可观测性权限审计评估体系与Tool Schema.md",
-   "title": "生产级Agent六大治理模块：语义路由、执行编排、可观测性、权限审计、评估体系与Tool Schema",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 5958,
-   "desc": "这不是让大模型\"自由发挥\"，而是在代码层面构建一道\"安检门\"。"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-08｜抖音豆包｜用本体重塑企业AI语义基座.md",
-   "title": "用本体重塑企业AI的语义基座",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2266,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-03｜抖音豆包｜电怎么卡住了AI的脖子.md",
-   "title": "电，怎么卡住了 AI 的脖子？",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2176,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-03｜抖音豆包｜电网数字化是腐败重灾区.md",
-   "title": "电网数字化是腐败重灾区",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2527,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-02｜抖音豆包｜看懂三类商业模式理清Token发展路线.md",
-   "title": "看懂三类商业模式，理清 Token 从业者发展路线",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2296,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-03｜抖音豆包｜福建token工厂落地厦门.md",
-   "title": "福建 token 工厂落地厦门",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1829,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-02｜抖音豆包衍生｜福建token工厂落地厦门.md",
-   "title": "福建 Token 工厂落地厦门（豆包衍生解读）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3927,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-21｜红杉Eval判断落地｜把行业经验变成打分规则与闭环迭代.md",
-   "title": "红杉Eval判断落地：从定义好结果到可执行打分规则与闭环迭代",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3116,
-   "desc": "红杉的核心逻辑是：AI 产业的竞争已经从\"谁能做出更强的模型\"，转向\"谁能定义什么是好的结果\"。"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-21｜红杉AI闭门会解读｜AI产业下半场：应用反攻模型层与Eval护城河.md",
-   "title": "红杉资本2026年AI闭门会解读：AI产业下半场竞争逻辑",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2231,
-   "desc": "- 过去 AI 产业格局：模型公司垄断智能能力，应用公司通过接 API 赚取差价。"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-05｜ChatGPT｜组织信任建立与闭环能力.md",
-   "title": "组织信任建立与闭环能力",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1807,
-   "desc": "你这段话背后的核心，其实不是简单的\"多做一点事情\"，而是一种更高阶的组织信任建立能力。"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-05｜ChatGPT｜美团小团Agent架构与Ontology分析.md",
-   "title": "美团小团Agent架构分析：从Demo到生产级的鸿沟（ChatGPT深聊）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 761,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-08｜抖音豆包｜美国AI基建东数西算.md",
-   "title": "美国AI基建撞上新瓶颈，中国东数西算为何是另一套解法",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2055,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-09-08｜科创四川｜蜀道集团四川成渝120亿卖路与存量资产变现.md",
-   "title": "蜀道集团旗下四川成渝120亿\"卖路\"背后，四川存量资产变现撬动\"洪荒之力\"？",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3024,
-   "desc": "科创四川。"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-28｜53AI转载｜超级个体时代腾讯研究院报告.md",
-   "title": "超级个体时代｜腾讯研究院3万字报告",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 33768,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-02｜抖音豆包｜运营商下场词元聚合分发.md",
-   "title": "运营商下场词元聚合分发，中小玩家还能做吗（牧野词元掘金社）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2002,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-25｜视频·高盛算力研报解读｜远景星河基地与算电协同：中国AI换道超车.md",
-   "title": "远景星河基地与算电协同：中国AI换道超车",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2867,
-   "desc": "中美的AI竞赛，你觉得最后拼的到底是什么？是芯片、算法还是大模型？最近高盛发布了一份中国算力研报，抛出了一个重磅的信号。今年上半年乌兰察布签约的算力负荷规模干到了12.5GW，什么"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-21｜豆包对话｜阿里云灵骏真武M890超节点与算力体系辨析.md",
-   "title": "阿里云灵骏真武 M890 超节点与算力体系辨析",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3423,
-   "desc": "你可以把它理解成阿里云搭建的、专门用来跑\"超大规模大模型\"的超级算力集群，不是单台服务器，而是把 64 颗自研 AI 芯片通过高速互联技术拼成的\"一台超级计算机\"，专门解决\"2 万"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-12｜飞书妙记原始逐字稿｜己未文化AI落地首谈.md",
-   "title": "飞书妙记原始逐字稿｜己未文化AI落地首谈",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 16:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 15429,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "70_知识流水线/知识库Skills统一入口与分层.md",
-   "title": "知识库 Skills 统一入口与分层",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 14:24",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 1503,
-   "desc": "知识库相关能力统一由 WorkBuddy 主 Skill obsidian-knowledge-workflow 负责路由，不再让四个 Skill 各自维护独立流程。四个旧名称保留"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-09-10.md",
-   "title": "2026-09-10｜Obsidian知识库重建与828房地产新政入库记录",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 14:04",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 916,
-   "desc": "- 完成 V3 编号一级结构和主要物理迁移。"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-10｜828房地产新政专题｜增量整理.md",
-   "title": "2026-09-10｜828房地产新政专题｜增量整理",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 13:53",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4738,
-   "desc": "- 事件：2026年8月28日，中央多个部委发布多份文件，即日实施（口径有差异：三部门/四部委七文件/五部委八文件，待核）"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-09-10｜IMA公众号提取的笔记｜828房地产新政专题笔记（三篇原文整合版）.md",
-   "title": "原始资料｜828 房地产新政专题笔记（三篇原文整合版）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 13:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 9250,
-   "desc": "上级：70知识流水线/A原始资料、30资料库/资料库V3导航"
-  },
-  {
-   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-07-08.md",
-   "title": "2026-07-08",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 01:58",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 3152,
-   "desc": "- 类型：个人想法 / 学习记录 / AI Agent 工程认知"
-  },
-  {
-   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-07-09.md",
-   "title": "2026-07-09",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 01:58",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 1588,
-   "desc": "- 类型：个人想法 / 学习记录 / AI Agent 工程认知"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-09.md",
-   "title": "2026-07-09 跨项目自动复盘",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 01:58",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 17807,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-13.md",
-   "title": "2026-07-13 跨项目自动复盘",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 01:58",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 17619,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-07-31｜AI知识增量整理.md",
-   "title": "2026-07-31｜AI知识增量整理",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 01:58",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4293,
-   "desc": "- 扫描日期：2026-07-31"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-09｜AI知识增量整理.md",
-   "title": "2026-09-09｜AI 知识增量整理",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 01:58",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 5393,
-   "desc": "- 扫描日期：2026-09-09（窗口 2026-09-08 23:00 → 2026-09-09 23:00）"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/01_基础概念与术语/AI Agent专业术语词典.md",
-   "title": "AI Agent 专业术语词典",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 01:58",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 41353,
-   "desc": "上级：AI Agent工程知识专题"
   }
  ]
 };
