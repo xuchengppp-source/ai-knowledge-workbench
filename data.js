@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-12",
- "generatedTime": "2026-09-12 08:37",
+ "generatedTime": "2026-09-12 16:48",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 28,
+ "weeklyPages": 29,
  "weeklyChanges": 207,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-11｜AI知识增量整理.md",
@@ -132,7 +132,7 @@ window.OBSIDIAN_DATA = {
    "icon": "🗂",
    "color": "raw",
    "v3group": "raw",
-   "count": 132
+   "count": 133
   }
  ],
  "nodes": [
@@ -14409,6 +14409,17 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "第一，现房销售的核心是一种供给侧改革，它会从根本上改变房地产行业的商业模式，它不再鼓励高杠杆高周转的玩法，而是强制开发商必须卖完再建，这会极大地考验开发商的资金实力和管理能力。",
    "wordCount": 498
+  },
+  {
+   "path": "30_资料库/原始资料/未整理｜2026-09-12｜微信语音转写｜许老师-持蓉 文化咨询拜访口述.md",
+   "title": "许老师访谈实录：易学文化咨询业务的客户维护、活动运营与师生分工",
+   "updated": "2026-09-12",
+   "updatedTime": "2026-09-12 13:07",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [],
+   "desc": "目前最重要、最常做的是做线下的易学沙龙分享。易学沙龙主要做一个我们易学咨询和易学课程的引流活动。通过这样的易学沙龙，我们可以分流到我们想要的精准客户，做后续的跟进。分布式和分堂能够",
+   "wordCount": 3035
   }
  ],
  "today": {
@@ -16245,7 +16256,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 119,
-  "fetchedAt": "2026年9月12日 08:37"
+  "fetchedAt": "2026年9月12日 16:48"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -16321,6 +16332,16 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "recentUpdates": [
+  {
+   "path": "30_资料库/原始资料/未整理｜2026-09-12｜微信语音转写｜许老师-持蓉 文化咨询拜访口述.md",
+   "title": "许老师访谈实录：易学文化咨询业务的客户维护、活动运营与师生分工",
+   "updated": "2026-09-12",
+   "updatedTime": "2026-09-12 13:07",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 3035,
+   "desc": "目前最重要、最常做的是做线下的易学沙龙分享。易学沙龙主要做一个我们易学咨询和易学课程的引流活动。通过这样的易学沙龙，我们可以分流到我们想要的精准客户，做后续的跟进。分布式和分堂能够"
+  },
   {
    "path": "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/从daily-work-summary实践看生产级AI工程化的通用标准.md",
    "title": "从 daily-work-summary 实践看生产级 AI 工程化的通用标准",
