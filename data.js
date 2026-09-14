@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-13",
- "generatedTime": "2026-09-13 23:02",
+ "generatedAt": "2026-09-14",
+ "generatedTime": "2026-09-14 10:27",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 12,
- "weeklyChanges": 164,
+ "weeklyPages": 3,
+ "weeklyChanges": 0,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-13｜AI知识增量整理.md",
  "topics": [
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 23
+   "count": 25
   },
   {
    "name": "政府资源配置与政策落地",
@@ -11234,6 +11234,28 @@ window.OBSIDIAN_DATA = {
    "wordCount": 4461
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-12.md",
+   "title": "2026-09-12｜多智能体工作记录",
+   "updated": "2026-09-14",
+   "updatedTime": "2026-09-14 01:14",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "今天核心工作是生产级 AI 工程化标准深度调研与知识库专题录入：围绕 daily-work-summary 工程化改造后提出的\"我们做的是通用标准还是土办法\"这一问题，系统梳理了企",
+   "wordCount": 2284
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-13.md",
+   "title": "2026-09-13｜多智能体工作记录",
+   "updated": "2026-09-14",
+   "updatedTime": "2026-09-14 01:15",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "今天核心工作是 Codex 侧推进己未文化（AI agent 文化咨询公司落地）项目的访谈梳理与实施路径规划：Codex 对照许老师访谈回访资料、豆包和 WorkBuddy（伊森/",
+   "wordCount": 2989
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
    "title": "每日工作记录说明",
    "updated": "2026-09-10",
@@ -14857,7 +14879,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "数据与知识资产",
-   "matched": 137,
+   "matched": 138,
    "status": "已形成"
   },
   {
@@ -16225,18 +16247,18 @@ window.OBSIDIAN_DATA = {
     "assignee": "伊森"
    },
    {
-    "id": "KP-73",
-    "title": "Obsidian知识库重建：结构映射与渐进式迁移",
-    "status": "in_review",
-    "priority": "high",
-    "assignee": "Codex（主控）"
-   },
-   {
     "id": "KP-80",
     "title": "己未文化AI落地沟通推进",
     "status": "in_progress",
     "priority": "high",
     "assignee": "Oliver"
+   },
+   {
+    "id": "KP-73",
+    "title": "Obsidian知识库重建：结构映射与渐进式迁移",
+    "status": "in_review",
+    "priority": "high",
+    "assignee": "Codex（主控）"
    },
    {
     "id": "KP-151",
@@ -16254,7 +16276,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 119,
-  "fetchedAt": "2026年9月13日 23:02"
+  "fetchedAt": "2026年9月14日 10:27"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -16297,6 +16319,22 @@ window.OBSIDIAN_DATA = {
  },
  "dailyWorkRecords": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-13.md",
+   "title": "2026-09-13｜多智能体工作记录",
+   "updated": "2026-09-14",
+   "updatedTime": "2026-09-14 01:15",
+   "wordCount": 2989,
+   "desc": "今天核心工作是 Codex 侧推进己未文化（AI agent 文化咨询公司落地）项目的访谈梳理与实施路径规划：Codex 对照许老师访谈回访资料、豆包和 WorkBuddy（伊森/"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-12.md",
+   "title": "2026-09-12｜多智能体工作记录",
+   "updated": "2026-09-14",
+   "updatedTime": "2026-09-14 01:14",
+   "wordCount": 2284,
+   "desc": "今天核心工作是生产级 AI 工程化标准深度调研与知识库专题录入：围绕 daily-work-summary 工程化改造后提出的\"我们做的是通用标准还是土办法\"这一问题，系统梳理了企"
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-11.md",
    "title": "2026-09-11｜多智能体工作记录",
    "updated": "2026-09-11",
@@ -16331,6 +16369,26 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-13.md",
+   "title": "2026-09-13｜多智能体工作记录",
+   "updated": "2026-09-14",
+   "updatedTime": "2026-09-14 01:15",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 2989,
+   "desc": "今天核心工作是 Codex 侧推进己未文化（AI agent 文化咨询公司落地）项目的访谈梳理与实施路径规划：Codex 对照许老师访谈回访资料、豆包和 WorkBuddy（伊森/"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-12.md",
+   "title": "2026-09-12｜多智能体工作记录",
+   "updated": "2026-09-14",
+   "updatedTime": "2026-09-14 01:14",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 2284,
+   "desc": "今天核心工作是生产级 AI 工程化标准深度调研与知识库专题录入：围绕 daily-work-summary 工程化改造后提出的\"我们做的是通用标准还是土办法\"这一问题，系统梳理了企"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-09-13｜AI知识增量整理.md",
    "title": "2026-09-13｜AI 知识增量整理",
    "updated": "2026-09-13",
@@ -16339,116 +16397,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 1725,
    "desc": "- 日期：2026-09-13"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-12｜AI知识增量整理.md",
-   "title": "2026-09-12｜AI 知识增量整理",
-   "updated": "2026-09-12",
-   "updatedTime": "2026-09-12 23:03",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3485,
-   "desc": "- 扫描窗口：2026-09-11 23:00 → 2026-09-12 23:00"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/方向推进与接力.md",
-   "title": "方向推进与接力",
-   "updated": "2026-09-12",
-   "updatedTime": "2026-09-12 20:49",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2854,
-   "desc": "上级：90系统与协作/任务面板与知识库/00总入口、全局记忆/智能体启动与身份连续性统一合同"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-09-12",
-   "updatedTime": "2026-09-12 20:21",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 17793,
-   "desc": "上级：70知识流水线/知识流水线"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-09-12｜壹渥观察｜摩根士丹利与花旗联合研报拆解现房销售真实账单.md",
-   "title": "运行28年的预售时代正式落幕：摩根士丹利与花旗联合研报拆解现房销售的真实账单",
-   "updated": "2026-09-12",
-   "updatedTime": "2026-09-12 20:19",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1091,
-   "desc": "- 花旗定义：这是继1998年房改、2002年土地招拍挂之后的第三次制度革命"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-12｜摩根士丹利与花旗联合研报现房销售真实账单｜增量整理.md",
-   "title": "2026-09-12｜摩根士丹利与花旗联合研报现房销售真实账单｜增量整理",
-   "updated": "2026-09-12",
-   "updatedTime": "2026-09-12 20:18",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 5063,
-   "desc": "---|------|"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/从daily-work-summary实践看生产级AI工程化的通用标准.md",
-   "title": "从 daily-work-summary 实践看生产级 AI 工程化的通用标准",
-   "updated": "2026-09-12",
-   "updatedTime": "2026-09-12 02:09",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 13024,
-   "desc": "在做 daily-work-summary（每日工作总结自动化）这个 Skill 的过程中，我们经历了一个典型的\"从能跑到生产级\"的过程："
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/生产级Agent六大治理模块与工程骨架.md",
-   "title": "生产级Agent六大治理模块与工程骨架",
-   "updated": "2026-09-12",
-   "updatedTime": "2026-09-12 02:06",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 3574,
-   "desc": "生产级 Agent 的六个治理模块分别回答：调哪个、怎么调、调得怎样、谁能调、如何持续调好，以及工具调用格式如何稳定表达。"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE上线安全清单：从能跑到敢用的六道门自动化四级与可靠性服务目标.md",
-   "title": "FDE上线安全清单：从\"能跑\"到\"敢用\"的六道门、自动化四级与可靠性服务目标",
-   "updated": "2026-09-12",
-   "updatedTime": "2026-09-12 01:57",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 5738,
-   "desc": "---|------|"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-09-11｜抖音分享｜FDE从入门到精通第6课：从能跑到敢用——可靠性权限与人机协同.md",
-   "title": "FDE从入门到精通 第6课：从能跑到敢用——可靠性、权限与人机协同",
-   "updated": "2026-09-12",
-   "updatedTime": "2026-09-12 01:57",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1130,
-   "desc": "- Demo关注能否得到正确结果，生产系统还要回答四件事：什么时候结果不可信、谁有权执行、发生了什么能否追溯、失败后能否恢复"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-11｜FDE第6课从能跑到敢用上线安全清单｜增量整理.md",
-   "title": "2026-09-11｜FDE第6课从能跑到敢用上线安全清单｜增量整理",
-   "updated": "2026-09-12",
-   "updatedTime": "2026-09-12 01:56",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4497,
-   "desc": "---|------|"
-  },
-  {
-   "path": "60_问题与洞察/我的洞察/会话洞察/2026-09-11-生产级AI工程化是通用标准还是土办法.md",
-   "title": "生产级AI工程化是通用标准还是土办法？",
-   "updated": "2026-09-12",
-   "updatedTime": "2026-09-12 01:28",
-   "topic": "myinsights",
-   "topicName": "我的洞察",
-   "wordCount": 1235,
-   "desc": "做 daily-work-summary 工程化改造时，加了统一入口、Schema 校验、自动化测试、失败告警、游标后移这些东西。突然意识到：这些到底是所有生产级 AI 都该做的通"
   }
  ]
 };
