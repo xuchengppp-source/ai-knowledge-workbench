@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-14",
- "generatedTime": "2026-09-14 10:27",
+ "generatedTime": "2026-09-14 18:48",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 3,
+ "weeklyPages": 4,
  "weeklyChanges": 0,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-13｜AI知识增量整理.md",
@@ -96,7 +96,7 @@ window.OBSIDIAN_DATA = {
    "key": "notes",
    "icon": "📝",
    "v3group": "personal",
-   "count": 42
+   "count": 43
   },
   {
    "name": "豆包工作区",
@@ -12486,6 +12486,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 1698
   },
   {
+   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-09-14.md",
+   "title": "2026-09-14",
+   "updated": "2026-09-14",
+   "updatedTime": "2026-09-14 15:04",
+   "topic": "notes",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 可售座位：1.8 万座馆，四面台 + 控台 + 遮挡后，按经验取 1.2–1.5 万（媒体口径\"万人赴约\"）。",
+   "wordCount": 7364
+  },
+  {
    "path": "10_个人生活与个人管理/徐总每日随记/当日记录/当日记录说明.md",
    "title": "当日记录说明",
    "updated": "2026-09-09",
@@ -16276,7 +16287,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 119,
-  "fetchedAt": "2026年9月14日 10:27"
+  "fetchedAt": "2026年9月14日 18:48"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -16368,6 +16379,16 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "recentUpdates": [
+  {
+   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-09-14.md",
+   "title": "2026-09-14",
+   "updated": "2026-09-14",
+   "updatedTime": "2026-09-14 15:04",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 7364,
+   "desc": "- 可售座位：1.8 万座馆，四面台 + 控台 + 遮挡后，按经验取 1.2–1.5 万（媒体口径\"万人赴约\"）。"
+  },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-13.md",
    "title": "2026-09-13｜多智能体工作记录",
