@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-14",
- "generatedTime": "2026-09-14 23:03",
+ "generatedAt": "2026-09-15",
+ "generatedTime": "2026-09-15 15:26",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 5,
- "weeklyChanges": 0,
+ "weeklyPages": 7,
+ "weeklyChanges": 142,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-14｜AI知识增量整理.md",
  "topics": [
@@ -33,7 +33,7 @@ window.OBSIDIAN_DATA = {
    "key": "pipeline",
    "icon": "📚",
    "v3group": "pipeline",
-   "count": 149
+   "count": 150
   },
   {
    "name": "Codex 工作区",
@@ -132,7 +132,7 @@ window.OBSIDIAN_DATA = {
    "icon": "🗂",
    "color": "raw",
    "v3group": "raw",
-   "count": 133
+   "count": 134
   }
  ],
  "nodes": [
@@ -5480,11 +5480,12 @@ window.OBSIDIAN_DATA = {
   {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
-   "updated": "2026-09-12",
-   "updatedTime": "2026-09-12 20:21",
+   "updated": "2026-09-15",
+   "updatedTime": "2026-09-15 07:15",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线",
+    "30_资料库/原始资料/已整理｜2026-09-14｜抖音视频文案｜中国金融体系75年演变：从大一统到一局一行一会",
     "30_资料库/原始资料/已整理｜2026-09-12｜壹渥观察｜摩根士丹利与花旗联合研报拆解现房销售真实账单",
     "30_资料库/原始资料/已整理｜2026-09-11｜抖音分享｜FDE从入门到精通第6课：从能跑到敢用——可靠性权限与人机协同",
     "30_资料库/原始资料/已整理｜2026-09-11｜抖音视频文案｜8.28楼市新政后房地产信贷逻辑变化与银行对公审批重构",
@@ -5697,7 +5698,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-09-10｜IMA公众号提取的笔记｜828房地产新政专题笔记（三篇原文整合版）.md"
    ],
    "desc": "上级：70知识流水线/知识流水线",
-   "wordCount": 17793
+   "wordCount": 18109
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -7135,6 +7136,19 @@ window.OBSIDIAN_DATA = {
    "backlinks": [],
    "desc": "---|------|",
    "wordCount": 5063
+  },
+  {
+   "path": "70_知识流水线/增量整理/2026-09-14｜中国金融体系75年演变｜增量整理.md",
+   "title": "2026-09-14｜中国金融体系75年演变｜增量整理",
+   "updated": "2026-09-15",
+   "updatedTime": "2026-09-15 07:12",
+   "topic": "pipeline",
+   "links": [
+    "30_资料库/原始资料/未整理｜2026-09-14｜抖音视频文案｜中国金融体系75年演变：从大一统到一局一行一会"
+   ],
+   "backlinks": [],
+   "desc": "---|------|",
+   "wordCount": 4821
   },
   {
    "path": "70_知识流水线/平板Obsidian每日轻量巡检员启动提示词.md",
@@ -14505,6 +14519,19 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "- 花旗定义：这是继1998年房改、2002年土地招拍挂之后的第三次制度革命",
    "wordCount": 1091
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-09-14｜抖音视频文案｜中国金融体系75年演变：从大一统到一局一行一会.md",
+   "title": "中国金融体系75年演变：从大一统到一局一行一会",
+   "updated": "2026-09-15",
+   "updatedTime": "2026-09-15 07:14",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "1. 大一统时期（1948-1979）：人行唯一银行，统存统贷，计划经济",
+   "wordCount": 1723
   }
  ],
  "today": {
@@ -16217,7 +16244,7 @@ window.OBSIDIAN_DATA = {
   "summary": {
    "in_progress": 17,
    "todo": 18,
-   "in_review": 13,
+   "in_review": 14,
    "blocked": 1
   },
   "recent": [
@@ -16234,6 +16261,13 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "urgent",
     "assignee": "伊森"
+   },
+   {
+    "id": "KP-153",
+    "title": "腾讯WeKnora知识库部署与Obsidian同步集成",
+    "status": "in_review",
+    "priority": "high",
+    "assignee": "豆包助手"
    },
    {
     "id": "KP-80",
@@ -16255,17 +16289,10 @@ window.OBSIDIAN_DATA = {
     "status": "todo",
     "priority": "high",
     "assignee": "Codex"
-   },
-   {
-    "id": "KP-150",
-    "title": "AI Office 一人公司 V3 Secondary Content Area 实施",
-    "status": "in_progress",
-    "priority": "high",
-    "assignee": "Codex"
    }
   ],
-  "total": 119,
-  "fetchedAt": "2026年9月14日 23:03"
+  "total": 120,
+  "fetchedAt": "2026年9月15日 15:26"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -16358,6 +16385,36 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "70_知识流水线/A_原始资料.md",
+   "title": "A_原始资料",
+   "updated": "2026-09-15",
+   "updatedTime": "2026-09-15 07:15",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 18109,
+   "desc": "上级：70知识流水线/知识流水线"
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-09-14｜抖音视频文案｜中国金融体系75年演变：从大一统到一局一行一会.md",
+   "title": "中国金融体系75年演变：从大一统到一局一行一会",
+   "updated": "2026-09-15",
+   "updatedTime": "2026-09-15 07:14",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1723,
+   "desc": "1. 大一统时期（1948-1979）：人行唯一银行，统存统贷，计划经济"
+  },
+  {
+   "path": "70_知识流水线/增量整理/2026-09-14｜中国金融体系75年演变｜增量整理.md",
+   "title": "2026-09-14｜中国金融体系75年演变｜增量整理",
+   "updated": "2026-09-15",
+   "updatedTime": "2026-09-15 07:12",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 4821,
+   "desc": "---|------|"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-09-14｜AI知识增量整理.md",
    "title": "2026-09-14｜AI 知识增量整理",
    "updated": "2026-09-14",
@@ -16396,16 +16453,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "任务面板与知识库",
    "wordCount": 2284,
    "desc": "今天核心工作是生产级 AI 工程化标准深度调研与知识库专题录入：围绕 daily-work-summary 工程化改造后提出的\"我们做的是通用标准还是土办法\"这一问题，系统梳理了企"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-13｜AI知识增量整理.md",
-   "title": "2026-09-13｜AI 知识增量整理",
-   "updated": "2026-09-13",
-   "updatedTime": "2026-09-13 23:02",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 1725,
-   "desc": "- 日期：2026-09-13"
   }
  ]
 };
