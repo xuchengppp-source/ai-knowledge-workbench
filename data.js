@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-15",
- "generatedTime": "2026-09-15 23:04",
+ "generatedAt": "2026-09-16",
+ "generatedTime": "2026-09-16 15:48",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 8,
+ "weeklyPages": 4,
  "weeklyChanges": 142,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-15｜AI知识增量整理.md",
@@ -16260,7 +16260,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 120,
-  "fetchedAt": "2026年9月15日 23:04"
+  "fetchedAt": "2026年9月16日 15:48"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -16391,46 +16391,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 4821,
    "desc": "---|------|"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-14｜AI知识增量整理.md",
-   "title": "2026-09-14｜AI 知识增量整理",
-   "updated": "2026-09-14",
-   "updatedTime": "2026-09-14 23:02",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 2440,
-   "desc": "- 日期：2026-09-14"
-  },
-  {
-   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-09-14.md",
-   "title": "2026-09-14",
-   "updated": "2026-09-14",
-   "updatedTime": "2026-09-14 15:04",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 7364,
-   "desc": "- 可售座位：1.8 万座馆，四面台 + 控台 + 遮挡后，按经验取 1.2–1.5 万（媒体口径\"万人赴约\"）。"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-13.md",
-   "title": "2026-09-13｜多智能体工作记录",
-   "updated": "2026-09-14",
-   "updatedTime": "2026-09-14 01:15",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2989,
-   "desc": "今天核心工作是 Codex 侧推进己未文化（AI agent 文化咨询公司落地）项目的访谈梳理与实施路径规划：Codex 对照许老师访谈回访资料、豆包和 WorkBuddy（伊森/"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-12.md",
-   "title": "2026-09-12｜多智能体工作记录",
-   "updated": "2026-09-14",
-   "updatedTime": "2026-09-14 01:14",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2284,
-   "desc": "今天核心工作是生产级 AI 工程化标准深度调研与知识库专题录入：围绕 daily-work-summary 工程化改造后提出的\"我们做的是通用标准还是土办法\"这一问题，系统梳理了企"
   }
  ]
 };
