@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-16",
- "generatedTime": "2026-09-16 23:02",
+ "generatedAt": "2026-09-17",
+ "generatedTime": "2026-09-17 16:16",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 5,
- "weeklyChanges": 142,
+ "weeklyChanges": 0,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-16｜AI知识增量整理.md",
  "topics": [
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 25
+   "count": 29
   },
   {
    "name": "政府资源配置与政策落地",
@@ -11303,6 +11303,50 @@ window.OBSIDIAN_DATA = {
    "wordCount": 2989
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-14.md",
+   "title": "2026-09-14 每日工作记录",
+   "updated": "2026-09-17",
+   "updatedTime": "2026-09-17 15:20",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "核心成果：",
+   "wordCount": 3477
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-15.md",
+   "title": "2026-09-15 每日工作记录",
+   "updated": "2026-09-17",
+   "updatedTime": "2026-09-17 15:20",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "核心成果：",
+   "wordCount": 5767
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-16.md",
+   "title": "2026-09-16 每日工作记录",
+   "updated": "2026-09-17",
+   "updatedTime": "2026-09-17 15:20",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "核心成果：",
+   "wordCount": 838
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-17.md",
+   "title": "2026-09-17｜多智能体工作记录",
+   "updated": "2026-09-17",
+   "updatedTime": "2026-09-17 15:16",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "今天核心工作集中在 己未文化（AI agent 文化咨询公司落地）CRM 客户经营收口：豆包工作侧按用户要求把客户总览收口为 8 列并获确认，把 WPS 三表定位为三类来源（学员/",
+   "wordCount": 3279
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
    "title": "每日工作记录说明",
    "updated": "2026-09-10",
@@ -14850,7 +14894,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "商业化与组织能力",
-   "matched": 96,
+   "matched": 97,
    "status": "已形成"
   }
  ],
@@ -16212,7 +16256,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 120,
-  "fetchedAt": "2026年9月16日 23:02"
+  "fetchedAt": "2026年9月17日 16:16"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -16254,6 +16298,38 @@ window.OBSIDIAN_DATA = {
   ]
  },
  "dailyWorkRecords": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-14.md",
+   "title": "2026-09-14 每日工作记录",
+   "updated": "2026-09-17",
+   "updatedTime": "2026-09-17 15:20",
+   "wordCount": 3477,
+   "desc": "核心成果："
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-15.md",
+   "title": "2026-09-15 每日工作记录",
+   "updated": "2026-09-17",
+   "updatedTime": "2026-09-17 15:20",
+   "wordCount": 5767,
+   "desc": "核心成果："
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-16.md",
+   "title": "2026-09-16 每日工作记录",
+   "updated": "2026-09-17",
+   "updatedTime": "2026-09-17 15:20",
+   "wordCount": 838,
+   "desc": "核心成果："
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-17.md",
+   "title": "2026-09-17｜多智能体工作记录",
+   "updated": "2026-09-17",
+   "updatedTime": "2026-09-17 15:16",
+   "wordCount": 3279,
+   "desc": "今天核心工作集中在 己未文化（AI agent 文化咨询公司落地）CRM 客户经营收口：豆包工作侧按用户要求把客户总览收口为 8 列并获确认，把 WPS 三表定位为三类来源（学员/"
+  },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-13.md",
    "title": "2026-09-13｜多智能体工作记录",
@@ -16305,6 +16381,46 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-14.md",
+   "title": "2026-09-14 每日工作记录",
+   "updated": "2026-09-17",
+   "updatedTime": "2026-09-17 15:20",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 3477,
+   "desc": "核心成果："
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-15.md",
+   "title": "2026-09-15 每日工作记录",
+   "updated": "2026-09-17",
+   "updatedTime": "2026-09-17 15:20",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 5767,
+   "desc": "核心成果："
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-16.md",
+   "title": "2026-09-16 每日工作记录",
+   "updated": "2026-09-17",
+   "updatedTime": "2026-09-17 15:20",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 838,
+   "desc": "核心成果："
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-17.md",
+   "title": "2026-09-17｜多智能体工作记录",
+   "updated": "2026-09-17",
+   "updatedTime": "2026-09-17 15:16",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 3279,
+   "desc": "今天核心工作集中在 己未文化（AI agent 文化咨询公司落地）CRM 客户经营收口：豆包工作侧按用户要求把客户总览收口为 8 列并获确认，把 WPS 三表定位为三类来源（学员/"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-09-16｜AI知识增量整理.md",
    "title": "2026-09-16｜AI 知识增量整理",
    "updated": "2026-09-16",
@@ -16313,46 +16429,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 3015,
    "desc": "- 日期：2026-09-16"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-15｜AI知识增量整理.md",
-   "title": "2026-09-15｜AI 知识增量整理",
-   "updated": "2026-09-15",
-   "updatedTime": "2026-09-15 23:03",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4371,
-   "desc": "- 日期：2026-09-15"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-09-15",
-   "updatedTime": "2026-09-15 07:15",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 18109,
-   "desc": "上级：70知识流水线/知识流水线"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-09-14｜抖音视频文案｜中国金融体系75年演变：从大一统到一局一行一会.md",
-   "title": "中国金融体系75年演变：从大一统到一局一行一会",
-   "updated": "2026-09-15",
-   "updatedTime": "2026-09-15 07:14",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1723,
-   "desc": "1. 大一统时期（1948-1979）：人行唯一银行，统存统贷，计划经济"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-14｜中国金融体系75年演变｜增量整理.md",
-   "title": "2026-09-14｜中国金融体系75年演变｜增量整理",
-   "updated": "2026-09-15",
-   "updatedTime": "2026-09-15 07:12",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4821,
-   "desc": "---|------|"
   }
  ]
 };
