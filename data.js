@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-17",
- "generatedTime": "2026-09-17 23:04",
+ "generatedAt": "2026-09-18",
+ "generatedTime": "2026-09-18 08:28",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 6,
  "weeklyChanges": 0,
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 29
+   "count": 30
   },
   {
    "name": "政府资源配置与政策落地",
@@ -11358,6 +11358,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 3279
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-18.md",
+   "title": "2026-09-18 每日工作记录",
+   "updated": "2026-09-18",
+   "updatedTime": "2026-09-18 00:53",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "核心成果：",
+   "wordCount": 813
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
    "title": "每日工作记录说明",
    "updated": "2026-09-10",
@@ -16219,7 +16230,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 120,
-  "fetchedAt": "2026年9月17日 23:04"
+  "fetchedAt": "2026年9月18日 08:28"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -16261,6 +16272,14 @@ window.OBSIDIAN_DATA = {
   ]
  },
  "dailyWorkRecords": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-18.md",
+   "title": "2026-09-18 每日工作记录",
+   "updated": "2026-09-18",
+   "updatedTime": "2026-09-18 00:53",
+   "wordCount": 813,
+   "desc": "核心成果："
+  },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-14.md",
    "title": "2026-09-14 每日工作记录",
@@ -16344,6 +16363,16 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-18.md",
+   "title": "2026-09-18 每日工作记录",
+   "updated": "2026-09-18",
+   "updatedTime": "2026-09-18 00:53",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 813,
+   "desc": "核心成果："
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-09-17｜AI知识增量整理.md",
    "title": "2026-09-17｜AI 知识增量整理",
    "updated": "2026-09-17",
@@ -16392,16 +16421,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "任务面板与知识库",
    "wordCount": 3279,
    "desc": "今天核心工作集中在 己未文化（AI agent 文化咨询公司落地）CRM 客户经营收口：豆包工作侧按用户要求把客户总览收口为 8 列并获确认，把 WPS 三表定位为三类来源（学员/"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-16｜AI知识增量整理.md",
-   "title": "2026-09-16｜AI 知识增量整理",
-   "updated": "2026-09-16",
-   "updatedTime": "2026-09-16 23:02",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3015,
-   "desc": "- 日期：2026-09-16"
   }
  ]
 };
