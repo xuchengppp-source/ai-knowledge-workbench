@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-18",
- "generatedTime": "2026-09-18 08:28",
+ "generatedTime": "2026-09-18 12:31",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 6,
  "weeklyChanges": 0,
@@ -11361,12 +11361,12 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-18.md",
    "title": "2026-09-18 每日工作记录",
    "updated": "2026-09-18",
-   "updatedTime": "2026-09-18 00:53",
+   "updatedTime": "2026-09-18 11:40",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
    "desc": "核心成果：",
-   "wordCount": 813
+   "wordCount": 2444
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
@@ -16230,7 +16230,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 120,
-  "fetchedAt": "2026年9月18日 08:28"
+  "fetchedAt": "2026年9月18日 12:31"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -16276,8 +16276,8 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-18.md",
    "title": "2026-09-18 每日工作记录",
    "updated": "2026-09-18",
-   "updatedTime": "2026-09-18 00:53",
-   "wordCount": 813,
+   "updatedTime": "2026-09-18 11:40",
+   "wordCount": 2444,
    "desc": "核心成果："
   },
   {
@@ -16366,10 +16366,10 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-18.md",
    "title": "2026-09-18 每日工作记录",
    "updated": "2026-09-18",
-   "updatedTime": "2026-09-18 00:53",
+   "updatedTime": "2026-09-18 11:40",
    "topic": "taskboard",
    "topicName": "任务面板与知识库",
-   "wordCount": 813,
+   "wordCount": 2444,
    "desc": "核心成果："
   },
   {
