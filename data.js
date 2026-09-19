@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-19",
- "generatedTime": "2026-09-19 08:43",
+ "generatedTime": "2026-09-19 17:26",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 2,
+ "weeklyPages": 3,
  "weeklyChanges": 0,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-18｜AI知识增量整理.md",
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 30
+   "count": 31
   },
   {
    "name": "政府资源配置与政策落地",
@@ -11380,6 +11380,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 2444
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-19.md",
+   "title": "2026-09-19 每日工作记录",
+   "updated": "2026-09-19",
+   "updatedTime": "2026-09-19 11:34",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "1. 豆包移动端连接 Mac 排障：定位手机豆包连接本地 Mac 显示灰色的原因（Mac WiFi 未连接、普通豆包与豆包工作版不互通）",
+   "wordCount": 2500
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
    "title": "每日工作记录说明",
    "updated": "2026-09-10",
@@ -16169,7 +16180,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 120,
-  "fetchedAt": "2026年9月19日 08:43"
+  "fetchedAt": "2026年9月19日 17:26"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -16211,6 +16222,14 @@ window.OBSIDIAN_DATA = {
   ]
  },
  "dailyWorkRecords": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-19.md",
+   "title": "2026-09-19 每日工作记录",
+   "updated": "2026-09-19",
+   "updatedTime": "2026-09-19 11:34",
+   "wordCount": 2500,
+   "desc": "1. 豆包移动端连接 Mac 排障：定位手机豆包连接本地 Mac 显示灰色的原因（Mac WiFi 未连接、普通豆包与豆包工作版不互通）"
+  },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-18.md",
    "title": "2026-09-18 每日工作记录",
@@ -16301,6 +16320,16 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "recentUpdates": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-19.md",
+   "title": "2026-09-19 每日工作记录",
+   "updated": "2026-09-19",
+   "updatedTime": "2026-09-19 11:34",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 2500,
+   "desc": "1. 豆包移动端连接 Mac 排障：定位手机豆包连接本地 Mac 显示灰色的原因（Mac WiFi 未连接、普通豆包与豆包工作版不互通）"
+  },
   {
    "path": "70_知识流水线/每日学习整理/2026-09-18｜AI知识增量整理.md",
    "title": "2026-09-18｜AI 知识增量整理",
