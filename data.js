@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-18",
- "generatedTime": "2026-09-18 23:02",
+ "generatedAt": "2026-09-19",
+ "generatedTime": "2026-09-19 08:43",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 7,
+ "weeklyPages": 2,
  "weeklyChanges": 0,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-18｜AI知识增量整理.md",
@@ -16169,7 +16169,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 120,
-  "fetchedAt": "2026年9月18日 23:02"
+  "fetchedAt": "2026年9月19日 08:43"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -16320,56 +16320,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "任务面板与知识库",
    "wordCount": 2444,
    "desc": "核心成果："
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-17｜AI知识增量整理.md",
-   "title": "2026-09-17｜AI 知识增量整理",
-   "updated": "2026-09-17",
-   "updatedTime": "2026-09-17 23:03",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3570,
-   "desc": "- 日期：2026-09-17"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-14.md",
-   "title": "2026-09-14 每日工作记录",
-   "updated": "2026-09-17",
-   "updatedTime": "2026-09-17 15:20",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 3477,
-   "desc": "核心成果："
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-15.md",
-   "title": "2026-09-15 每日工作记录",
-   "updated": "2026-09-17",
-   "updatedTime": "2026-09-17 15:20",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 5767,
-   "desc": "核心成果："
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-16.md",
-   "title": "2026-09-16 每日工作记录",
-   "updated": "2026-09-17",
-   "updatedTime": "2026-09-17 15:20",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 838,
-   "desc": "核心成果："
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-17.md",
-   "title": "2026-09-17｜多智能体工作记录",
-   "updated": "2026-09-17",
-   "updatedTime": "2026-09-17 15:16",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 3279,
-   "desc": "今天核心工作集中在 己未文化（AI agent 文化咨询公司落地）CRM 客户经营收口：豆包工作侧按用户要求把客户总览收口为 8 列并获确认，把 WPS 三表定位为三类来源（学员/"
   }
  ]
 };
