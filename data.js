@@ -1,11 +1,11 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-20",
- "generatedTime": "2026-09-20 13:49",
+ "generatedTime": "2026-09-20 23:04",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 6,
- "weeklyChanges": 145,
+ "weeklyPages": 7,
+ "weeklyChanges": 148,
  "sourceIndex": "知识库索引.md",
- "digest": "70_知识流水线/每日学习整理/2026-09-19｜AI知识增量整理.md",
+ "digest": "70_知识流水线/每日学习整理/2026-09-20｜AI知识增量整理.md",
  "topics": [
   {
    "name": "AI Agent工程知识",
@@ -33,7 +33,7 @@ window.OBSIDIAN_DATA = {
    "key": "pipeline",
    "icon": "📚",
    "v3group": "pipeline",
-   "count": 155
+   "count": 156
   },
   {
    "name": "Codex 工作区",
@@ -7994,6 +7994,21 @@ window.OBSIDIAN_DATA = {
    "wordCount": 2251
   },
   {
+   "path": "70_知识流水线/每日学习整理/2026-09-20｜AI知识增量整理.md",
+   "title": "2026-09-20｜AI知识增量整理",
+   "updated": "2026-09-20",
+   "updatedTime": "2026-09-20 23:04",
+   "topic": "pipeline",
+   "links": [
+    "未整理｜2026-09-20｜用户提供｜杭州市低空经济扶持政策拟废止情况汇总",
+    "决策传导框架：法律政策的层级体系与影响预判",
+    "政府资源配置与政策落地机制专题"
+   ],
+   "backlinks": [],
+   "desc": "- 日期：2026-09-20",
+   "wordCount": 2889
+  },
+  {
    "path": "70_知识流水线/玄学与东方智慧出海-内容策略与独立站电商体系-调研-20260811.md",
    "title": "玄学与东方智慧出海：内容策略与独立站电商体系调研",
    "updated": "2026-09-09",
@@ -14696,13 +14711,20 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "today": {
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "items": [],
   "judgments": [
    "今日无新增可蒸馏内容，无判断。"
   ]
  },
  "dailies": [
+  {
+   "date": "2026-09-20",
+   "items": [],
+   "judgments": [
+    "今日无新增可蒸馏内容，无判断。"
+   ]
+  },
   {
    "date": "2026-09-19",
    "items": [],
@@ -14740,13 +14762,6 @@ window.OBSIDIAN_DATA = {
   },
   {
    "date": "2026-09-14",
-   "items": [],
-   "judgments": [
-    "今日没有发现可蒸馏的新内容，无新增判断可记录；三项判断位留空。"
-   ]
-  },
-  {
-   "date": "2026-09-13",
    "items": [],
    "judgments": [
     "今日没有发现可蒸馏的新内容，无新增判断可记录；三项判断位留空。"
@@ -16170,7 +16185,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 120,
-  "fetchedAt": "2026年9月20日 13:49"
+  "fetchedAt": "2026年9月20日 23:04"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -16318,6 +16333,16 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "recentUpdates": [
+  {
+   "path": "70_知识流水线/每日学习整理/2026-09-20｜AI知识增量整理.md",
+   "title": "2026-09-20｜AI知识增量整理",
+   "updated": "2026-09-20",
+   "updatedTime": "2026-09-20 23:04",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 2889,
+   "desc": "- 日期：2026-09-20"
+  },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-20.md",
    "title": "2026-09-20 每日工作记录",
