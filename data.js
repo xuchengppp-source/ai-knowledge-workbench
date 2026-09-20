@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-19",
- "generatedTime": "2026-09-19 23:04",
+ "generatedAt": "2026-09-20",
+ "generatedTime": "2026-09-20 09:43",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 4,
  "weeklyChanges": 3,
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 31
+   "count": 32
   },
   {
    "name": "政府资源配置与政策落地",
@@ -96,7 +96,7 @@ window.OBSIDIAN_DATA = {
    "key": "notes",
    "icon": "📝",
    "v3group": "personal",
-   "count": 43
+   "count": 44
   },
   {
    "name": "豆包工作区",
@@ -11406,6 +11406,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 2500
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-20.md",
+   "title": "2026-09-20 每日工作记录",
+   "updated": "2026-09-20",
+   "updatedTime": "2026-09-20 00:33",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "1. 己未文化学员客户信息录入：基于两段录音 + WPS 核对版口录，在飞书多维表格中录入学员档案，调试 Base 数据同步和前端渲染问题",
+   "wordCount": 560
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
    "title": "每日工作记录说明",
    "updated": "2026-09-10",
@@ -12645,6 +12656,17 @@ window.OBSIDIAN_DATA = {
    "backlinks": [],
    "desc": "- 可售座位：1.8 万座馆，四面台 + 控台 + 遮挡后，按经验取 1.2–1.5 万（媒体口径\"万人赴约\"）。",
    "wordCount": 7364
+  },
+  {
+   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-09-19.md",
+   "title": "2026-09-19",
+   "updated": "2026-09-20",
+   "updatedTime": "2026-09-20 02:25",
+   "topic": "notes",
+   "links": [],
+   "backlinks": [],
+   "desc": "背景：正在对接己未文化咨询的 AI 项目。前期暴露出来的最大问题，不是方案、不是模型能力，而是数据的整个统一和录入。",
+   "wordCount": 2165
   },
   {
    "path": "10_个人生活与个人管理/徐总每日随记/当日记录/当日记录说明.md",
@@ -14732,12 +14754,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "模型与推理",
-   "matched": 49,
+   "matched": 50,
    "status": "已形成"
   },
   {
    "name": "数据与知识资产",
-   "matched": 138,
+   "matched": 140,
    "status": "已形成"
   },
   {
@@ -16134,7 +16156,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 120,
-  "fetchedAt": "2026年9月19日 23:04"
+  "fetchedAt": "2026年9月20日 09:43"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -16176,6 +16198,14 @@ window.OBSIDIAN_DATA = {
   ]
  },
  "dailyWorkRecords": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-20.md",
+   "title": "2026-09-20 每日工作记录",
+   "updated": "2026-09-20",
+   "updatedTime": "2026-09-20 00:33",
+   "wordCount": 560,
+   "desc": "1. 己未文化学员客户信息录入：基于两段录音 + WPS 核对版口录，在飞书多维表格中录入学员档案，调试 Base 数据同步和前端渲染问题"
+  },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-19.md",
    "title": "2026-09-19 每日工作记录",
@@ -16275,6 +16305,26 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-09-19.md",
+   "title": "2026-09-19",
+   "updated": "2026-09-20",
+   "updatedTime": "2026-09-20 02:25",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 2165,
+   "desc": "背景：正在对接己未文化咨询的 AI 项目。前期暴露出来的最大问题，不是方案、不是模型能力，而是数据的整个统一和录入。"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-20.md",
+   "title": "2026-09-20 每日工作记录",
+   "updated": "2026-09-20",
+   "updatedTime": "2026-09-20 00:33",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 560,
+   "desc": "1. 己未文化学员客户信息录入：基于两段录音 + WPS 核对版口录，在飞书多维表格中录入学员档案，调试 Base 数据同步和前端渲染问题"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-09-19｜AI知识增量整理.md",
    "title": "2026-09-19｜AI知识增量整理",
    "updated": "2026-09-19",
@@ -16293,26 +16343,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "任务面板与知识库",
    "wordCount": 2500,
    "desc": "1. 豆包移动端连接 Mac 排障：定位手机豆包连接本地 Mac 显示灰色的原因（Mac WiFi 未连接、普通豆包与豆包工作版不互通）"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-18｜AI知识增量整理.md",
-   "title": "2026-09-18｜AI 知识增量整理",
-   "updated": "2026-09-18",
-   "updatedTime": "2026-09-18 23:02",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4150,
-   "desc": "- 日期：2026-09-18"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-18.md",
-   "title": "2026-09-18 每日工作记录",
-   "updated": "2026-09-18",
-   "updatedTime": "2026-09-18 11:40",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2444,
-   "desc": "核心成果："
   }
  ]
 };
