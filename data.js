@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-21",
- "generatedTime": "2026-09-21 10:05",
+ "generatedTime": "2026-09-21 14:12",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 6,
  "weeklyChanges": 145,
@@ -11436,12 +11436,12 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-21.md",
    "title": "2026-09-21 每日工作记录",
    "updated": "2026-09-21",
-   "updatedTime": "2026-09-21 00:34",
+   "updatedTime": "2026-09-21 11:33",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
    "desc": "1. 己未文化 CRM 前端持续调试：客户经营页面布局调整、关系网络球形可视化设计、缓存问题反复排查",
-   "wordCount": 397
+   "wordCount": 1848
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
@@ -16196,7 +16196,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 120,
-  "fetchedAt": "2026年9月21日 10:05"
+  "fetchedAt": "2026年9月21日 14:12"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -16242,8 +16242,8 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-21.md",
    "title": "2026-09-21 每日工作记录",
    "updated": "2026-09-21",
-   "updatedTime": "2026-09-21 00:34",
-   "wordCount": 397,
+   "updatedTime": "2026-09-21 11:33",
+   "wordCount": 1848,
    "desc": "1. 己未文化 CRM 前端持续调试：客户经营页面布局调整、关系网络球形可视化设计、缓存问题反复排查"
   },
   {
@@ -16356,10 +16356,10 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-21.md",
    "title": "2026-09-21 每日工作记录",
    "updated": "2026-09-21",
-   "updatedTime": "2026-09-21 00:34",
+   "updatedTime": "2026-09-21 11:33",
    "topic": "taskboard",
    "topicName": "任务面板与知识库",
-   "wordCount": 397,
+   "wordCount": 1848,
    "desc": "1. 己未文化 CRM 前端持续调试：客户经营页面布局调整、关系网络球形可视化设计、缓存问题反复排查"
   },
   {
