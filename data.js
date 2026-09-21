@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-21",
- "generatedTime": "2026-09-21 14:12",
+ "generatedTime": "2026-09-21 22:21",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 6,
+ "weeklyPages": 7,
  "weeklyChanges": 145,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-20｜AI知识增量整理.md",
@@ -96,7 +96,7 @@ window.OBSIDIAN_DATA = {
    "key": "notes",
    "icon": "📝",
    "v3group": "personal",
-   "count": 44
+   "count": 45
   },
   {
    "name": "豆包工作区",
@@ -12696,6 +12696,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 2165
   },
   {
+   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-09-21.md",
+   "title": "2026-09-21",
+   "updated": "2026-09-21",
+   "updatedTime": "2026-09-21 17:24",
+   "topic": "notes",
+   "links": [],
+   "backlinks": [],
+   "desc": "原始设计（正确）：",
+   "wordCount": 774
+  },
+  {
    "path": "10_个人生活与个人管理/徐总每日随记/当日记录/当日记录说明.md",
    "title": "当日记录说明",
    "updated": "2026-09-09",
@@ -16196,7 +16207,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 120,
-  "fetchedAt": "2026年9月21日 14:12"
+  "fetchedAt": "2026年9月21日 22:21"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -16352,6 +16363,16 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "recentUpdates": [
+  {
+   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-09-21.md",
+   "title": "2026-09-21",
+   "updated": "2026-09-21",
+   "updatedTime": "2026-09-21 17:24",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 774,
+   "desc": "原始设计（正确）："
+  },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-21.md",
    "title": "2026-09-21 每日工作记录",
