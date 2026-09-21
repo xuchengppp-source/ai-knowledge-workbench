@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-20",
- "generatedTime": "2026-09-20 23:04",
+ "generatedAt": "2026-09-21",
+ "generatedTime": "2026-09-21 10:05",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 7,
- "weeklyChanges": 148,
+ "weeklyPages": 6,
+ "weeklyChanges": 145,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-20｜AI知识增量整理.md",
  "topics": [
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 32
+   "count": 33
   },
   {
    "name": "政府资源配置与政策落地",
@@ -11433,6 +11433,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 2705
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-21.md",
+   "title": "2026-09-21 每日工作记录",
+   "updated": "2026-09-21",
+   "updatedTime": "2026-09-21 00:34",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "1. 己未文化 CRM 前端持续调试：客户经营页面布局调整、关系网络球形可视化设计、缓存问题反复排查",
+   "wordCount": 397
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
    "title": "每日工作记录说明",
    "updated": "2026-09-10",
@@ -14823,7 +14834,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "商业化与组织能力",
-   "matched": 97,
+   "matched": 98,
    "status": "已形成"
   }
  ],
@@ -16185,7 +16196,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 120,
-  "fetchedAt": "2026年9月20日 23:04"
+  "fetchedAt": "2026年9月21日 10:05"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -16227,6 +16238,14 @@ window.OBSIDIAN_DATA = {
   ]
  },
  "dailyWorkRecords": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-21.md",
+   "title": "2026-09-21 每日工作记录",
+   "updated": "2026-09-21",
+   "updatedTime": "2026-09-21 00:34",
+   "wordCount": 397,
+   "desc": "1. 己未文化 CRM 前端持续调试：客户经营页面布局调整、关系网络球形可视化设计、缓存问题反复排查"
+  },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-20.md",
    "title": "2026-09-20 每日工作记录",
@@ -16334,6 +16353,16 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-21.md",
+   "title": "2026-09-21 每日工作记录",
+   "updated": "2026-09-21",
+   "updatedTime": "2026-09-21 00:34",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 397,
+   "desc": "1. 己未文化 CRM 前端持续调试：客户经营页面布局调整、关系网络球形可视化设计、缓存问题反复排查"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-09-20｜AI知识增量整理.md",
    "title": "2026-09-20｜AI知识增量整理",
    "updated": "2026-09-20",
@@ -16382,26 +16411,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "徐总每日随记",
    "wordCount": 2165,
    "desc": "背景：正在对接己未文化咨询的 AI 项目。前期暴露出来的最大问题，不是方案、不是模型能力，而是数据的整个统一和录入。"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-19｜AI知识增量整理.md",
-   "title": "2026-09-19｜AI知识增量整理",
-   "updated": "2026-09-19",
-   "updatedTime": "2026-09-19 23:04",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 2251,
-   "desc": "- 日期：2026-09-19"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-19.md",
-   "title": "2026-09-19 每日工作记录",
-   "updated": "2026-09-19",
-   "updatedTime": "2026-09-19 11:34",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2500,
-   "desc": "1. 豆包移动端连接 Mac 排障：定位手机豆包连接本地 Mac 显示灰色的原因（Mac WiFi 未连接、普通豆包与豆包工作版不互通）"
   }
  ]
 };
