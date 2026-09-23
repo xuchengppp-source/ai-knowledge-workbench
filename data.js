@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-22",
- "generatedTime": "2026-09-22 23:04",
+ "generatedAt": "2026-09-23",
+ "generatedTime": "2026-09-23 19:13",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 77,
- "weeklyChanges": 683,
+ "weeklyPages": 81,
+ "weeklyChanges": 727,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-22｜AI知识增量整理.md",
  "topics": [
@@ -12,7 +12,7 @@ window.OBSIDIAN_DATA = {
    "key": "agent",
    "icon": "🤖",
    "v3group": "core",
-   "count": 46
+   "count": 47
   },
   {
    "name": "企业AI与智能体商业化",
@@ -33,7 +33,7 @@ window.OBSIDIAN_DATA = {
    "key": "pipeline",
    "icon": "📚",
    "v3group": "pipeline",
-   "count": 168
+   "count": 171
   },
   {
    "name": "Codex 工作区",
@@ -132,7 +132,7 @@ window.OBSIDIAN_DATA = {
    "icon": "🗂",
    "color": "raw",
    "v3group": "raw",
-   "count": 166
+   "count": 167
   }
  ],
  "nodes": [
@@ -1096,6 +1096,33 @@ window.OBSIDIAN_DATA = {
    "wordCount": 1818
   },
   {
+   "path": "40_专题知识库/AI Agent工程知识/07_案例复盘与面试/高质量Agent项目六标准：从简历加分到生产级自评清单.md",
+   "title": "高质量Agent项目六标准：从简历加分到生产级自评清单",
+   "updated": "2026-09-23",
+   "updatedTime": "2026-09-23 14:34",
+   "topic": "agent",
+   "links": [
+    "FDE商业级智能体交付框架",
+    "企业AI落地5环节诊断框架",
+    "AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
+    "Agent系统架构模式选型：从单Agent到Graph Workflow",
+    "多Agent架构选型决策卡：Manager-Handoff-Agent-as-Tool",
+    "多智能体协作闭环方法：主控-规划-执行-验收",
+    "生产级AI Agent记忆系统与Context调度",
+    "三层知识库与RAG基础设施分型",
+    "生产级AI Agent工程纪律稳定层方法论：埋点·日志·BadCase管理·回归测试",
+    "生产级Agent六大治理模块与工程骨架",
+    "FDE从入门到精通第6课：从能跑到敢用——可靠性、权限与人机协同",
+    "未整理｜2026-09-23｜抖音视频文案｜高质量Agent项目的6个标准",
+    "2026-09-23｜高质量Agent项目六标准｜增量整理"
+   ],
+   "backlinks": [
+    "40_专题知识库/AI Agent工程知识/AI Agent工程知识V3导航.md"
+   ],
+   "desc": "---",
+   "wordCount": 3887
+  },
+  {
    "path": "40_专题知识库/AI Agent工程知识/08_项目运行记录/DeepSeek Harness Control Gateway 设计与调研.md",
    "title": "DeepSeek Harness Control Gateway 设计与调研",
    "updated": "2026-09-10",
@@ -1212,8 +1239,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/AI Agent工程知识/08_项目运行记录/Deepseek Harness：框架概念与专属智能体搭建.md",
    "title": "Deepseek Harness：框架概念与专属智能体搭建",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 00:13",
+   "updated": "2026-09-23",
+   "updatedTime": "2026-09-23 14:45",
    "topic": "agent",
    "links": [
     "AI Agent工程知识专题",
@@ -1221,6 +1248,7 @@ window.OBSIDIAN_DATA = {
     "生产级AI Agent知识体系总览：层级·特性·术语",
     "为什么做多智能体：Codex内部多线程vs跨平台多智能体",
     "DeepSeek Harness 插件与模式设计规范 V1.1",
+    "已整理｜2026-08-21｜抖音DeepSeek Harness系列文案",
     "多智能体共享记忆：TencentDB Agent Memory 评估",
     "AI模型选型与订阅历史",
     "DeepSeek Harness 插件与模式设计规范 V1.2",
@@ -1235,7 +1263,7 @@ window.OBSIDIAN_DATA = {
     "20_工作与项目/DeepSeek Harness项目/DeepSeek Harness项目索引.md"
    ],
    "desc": "两条硬规则：",
-   "wordCount": 15291
+   "wordCount": 16701
   },
   {
    "path": "40_专题知识库/AI Agent工程知识/08_项目运行记录/飞书多智能体连接故障恢复手册.md",
@@ -1254,8 +1282,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/AI Agent工程知识/AI Agent工程知识V3导航.md",
    "title": "AI Agent工程知识V3导航",
-   "updated": "2026-09-22",
-   "updatedTime": "2026-09-22 19:26",
+   "updated": "2026-09-23",
+   "updatedTime": "2026-09-23 14:35",
    "topic": "agent",
    "links": [
     "00_入口与导航/知识库V3逻辑导航",
@@ -1293,6 +1321,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/AI Agent工程知识/05_多Agent与运行治理/全域智能体系统本体与健康治理",
     "40_专题知识库/AI Agent工程知识/07_案例复盘与面试/AI Agent面试14题学习版：从概念到甘食记项目落地",
     "40_专题知识库/AI Agent工程知识/07_案例复盘与面试/AI Agent面试知识地图",
+    "40_专题知识库/AI Agent工程知识/07_案例复盘与面试/高质量Agent项目六标准：从简历加分到生产级自评清单",
     "40_专题知识库/AI Agent工程知识/05_多Agent与运行治理/WorkBuddy智能体运营机制（Agent Ontology）",
     "40_专题知识库/AI Agent工程知识/05_多Agent与运行治理/WorkBuddy助理配置与记忆管理手册",
     "40_专题知识库/AI Agent工程知识/07_案例复盘与面试/智能体使用逻辑问题复盘-垂直任务实践（旅行案例）",
@@ -1309,7 +1338,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/AI Agent工程知识/AI Agent工程知识专题.md"
    ],
    "desc": "上级：00入口与导航/知识库V3逻辑导航、40专题知识库/AI Agent工程知识/AI Agent工程知识专题",
-   "wordCount": 4598
+   "wordCount": 4662
   },
   {
    "path": "40_专题知识库/AI Agent工程知识/AI Agent工程知识专题.md",
@@ -5692,12 +5721,11 @@ window.OBSIDIAN_DATA = {
   {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
-   "updated": "2026-09-22",
-   "updatedTime": "2026-09-22 19:24",
+   "updated": "2026-09-23",
+   "updatedTime": "2026-09-23 14:46",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线",
-    "30_资料库/原始资料/未整理｜2026-09-20｜用户提供｜杭州市低空经济扶持政策拟废止情况汇总",
     "40_专题知识库/AI产业链与数字基础设施/AI产业链与数字基础设施专题",
     "30_资料库/原始资料/已整理｜2026-09-22｜IMA电力基建和算力｜从四川电网负荷7810万千瓦看电力基建结构性变化v10完整版",
     "30_资料库/原始资料/已整理｜2026-09-22｜IMA电力基建和算力｜四川电网负荷7810万千瓦说明了什么（精简版）",
@@ -5730,6 +5758,9 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-09-22｜IMA电力基建和算力｜一家倒卖Token的公司要被700亿卖了",
     "30_资料库/原始资料/已整理｜2026-09-22｜IMA电力基建和算力｜电力基建和算力（对话整理稿）",
     "30_资料库/原始资料/已整理｜2026-09-22｜IMA电力基建和算力｜首个全国产10万卡AI超集群正式投用",
+    "30_资料库/原始资料/已整理｜2026-09-20｜用户提供｜杭州市低空经济扶持政策拟废止情况汇总",
+    "30_资料库/原始资料/已整理｜2026-08-21｜抖音DeepSeek Harness系列文案",
+    "30_资料库/原始资料/已整理｜2026-09-23｜抖音视频文案｜高质量Agent项目的6个标准",
     "30_资料库/原始资料/已整理｜2026-09-14｜抖音视频文案｜中国金融体系75年演变：从大一统到一局一行一会",
     "30_资料库/原始资料/已整理｜2026-09-12｜壹渥观察｜摩根士丹利与花旗联合研报拆解现房销售真实账单",
     "30_资料库/原始资料/已整理｜2026-09-11｜抖音分享｜FDE从入门到精通第6课：从能跑到敢用——可靠性权限与人机协同",
@@ -5750,7 +5781,6 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-09-04｜微信公众号｜万字长文Palantir式本体对AI的真实价值",
     "30_资料库/原始资料/已整理｜2026-09-04｜抖音｜多Agent架构选型：Manager Handoff Agent-as-Tool底层区别",
     "30_资料库/原始资料/已整理｜2026-08-21｜Qwen-UI-Agent与Harness自重启能力方向",
-    "30_资料库/原始资料/已整理｜2026-08-21｜抖音DeepSeek Harness系列文案",
     "30_资料库/原始资料/已整理｜2026-08-21｜红杉AI闭门会解读｜AI产业下半场：应用反攻模型层与Eval护城河",
     "30_资料库/原始资料/已整理｜2026-08-21｜红杉Eval判断落地｜把行业经验变成打分规则与闭环迭代",
     "30_资料库/原始资料/已整理｜2026-08-21｜豆包对话｜阿里云灵骏真武M890超节点与算力体系辨析",
@@ -5974,7 +6004,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-09-22｜IMA电力基建和算力｜首个全国产10万卡AI超集群正式投用.md"
    ],
    "desc": "上级：70知识流水线/知识流水线",
-   "wordCount": 22477
+   "wordCount": 22778
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -7633,6 +7663,48 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "1. 这 4 份资料从四个互不相同的切口补充同一条资本支出链：国家基建口径的投向结构（六张网）、需求侧的资本市场信号（内存股反弹）、算力如何被组织（护城河 vs 公共网络）、钱与信",
    "wordCount": 10500
+  },
+  {
+   "path": "70_知识流水线/增量整理/2026-09-23｜DSH底层机制四集｜增量整理.md",
+   "title": "DSH底层机制四集（Cordis/事件溯源/PTC/创造模式）｜增量整理",
+   "updated": "2026-09-23",
+   "updatedTime": "2026-09-23 14:44",
+   "topic": "pipeline",
+   "links": [],
+   "backlinks": [],
+   "desc": "这份.txt包含抖音博主\"青衫烟雨\"的DSH拆解系列4集文案，讲的是DSH的四个底层机制：",
+   "wordCount": 624
+  },
+  {
+   "path": "70_知识流水线/增量整理/2026-09-23｜杭州低空经济扶持政策拟废止｜增量整理.md",
+   "title": "杭州低空经济扶持政策拟废止｜增量整理",
+   "updated": "2026-09-23",
+   "updatedTime": "2026-09-23 14:44",
+   "topic": "pipeline",
+   "links": [],
+   "backlinks": [],
+   "desc": "杭州市财政局2026-09-08公告，就废止《杭州市支持低空经济高质量发展的若干措施》公开征求意见（截止10-07）。原政策2024-10-08施行，有效期至2027-12-31，",
+   "wordCount": 471
+  },
+  {
+   "path": "70_知识流水线/增量整理/2026-09-23｜高质量Agent项目六标准｜增量整理.md",
+   "title": "高质量Agent项目六标准｜增量整理",
+   "updated": "2026-09-23",
+   "updatedTime": "2026-09-23 14:32",
+   "topic": "pipeline",
+   "links": [
+    "FDE商业级智能体交付框架",
+    "企业AI落地5环节诊断框架",
+    "AI Agent后端工程化能力框架",
+    "Agent系统架构模式选型",
+    "多Agent架构选型决策卡",
+    "生产级AI Agent记忆系统与Context调度",
+    "生产级AI Agent工程纪律稳定层方法论",
+    "生产级Agent六大治理模块"
+   ],
+   "backlinks": [],
+   "desc": "这篇视频的6条标准，本质上是生产级Agent工程标准的\"面试/简历视角\"。它不提供新技术，但提供了一个非常实用的项目自评清单——可以用来判断一个Agent项目到底是demo还是有含",
+   "wordCount": 906
   },
   {
    "path": "70_知识流水线/平板Obsidian每日轻量巡检员启动提示词.md",
@@ -12466,8 +12538,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/低空经济/低空经济专题.md",
    "title": "低空经济专题",
-   "updated": "2026-09-09",
-   "updatedTime": "2026-09-09 23:54",
+   "updated": "2026-09-23",
+   "updatedTime": "2026-09-23 14:45",
    "topic": "lowalt",
    "links": [
     "徐总的知识库",
@@ -12476,7 +12548,8 @@ window.OBSIDIAN_DATA = {
     "空天智航与丰翼合作模式分析",
     "蜀道集团低空经济：无人机巡检·招投标采购与产业协作体系",
     "蜀道集团大疆无人机巡检：采购投资与融资租赁测算",
-    "低空经济法律体系：按层级梳理对社会经济政治的影响"
+    "低空经济法律体系：按层级梳理对社会经济政治的影响",
+    "已整理｜2026-09-20｜用户提供｜杭州市低空经济扶持政策拟废止情况汇总"
    ],
    "backlinks": [
     "70_知识流水线/每日学习整理/2026-08-16｜AI知识增量整理.md",
@@ -12487,7 +12560,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/政府资源配置与政策落地机制/省委专题会议支持天府新区：省级资源配置平台化案例.md"
    ],
    "desc": "上级：徐总的知识库",
-   "wordCount": 1239
+   "wordCount": 1798
   },
   {
    "path": "40_专题知识库/低空经济/成都双流低空物流航线空域审批深度分析.md",
@@ -15253,6 +15326,19 @@ window.OBSIDIAN_DATA = {
    "wordCount": 1723
   },
   {
+   "path": "30_资料库/原始资料/已整理｜2026-09-20｜用户提供｜杭州市低空经济扶持政策拟废止情况汇总.md",
+   "title": "未整理｜2026-09-20｜用户提供｜杭州市低空经济扶持政策拟废止情况汇总",
+   "updated": "2026-09-20",
+   "updatedTime": "2026-09-20 11:14",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "- 需核实事实：杭州市财政局 2026-09-08 公告原文、起草说明原文、征求意见截止日期（2026-10-07）、原措施文号与有效期、335 万元补贴数据、30 亿元基金与 2",
+   "wordCount": 391
+  },
+  {
    "path": "30_资料库/原始资料/已整理｜2026-09-22｜IMA电力基建和算力｜5.1亿智算中心落地四川（原文不可得·检索记录）.md",
    "title": "原始资料｜5.1亿！智算中心落地四川（原文不可得·检索记录）",
    "updated": "2026-09-22",
@@ -15891,17 +15977,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 1738
   },
   {
-   "path": "30_资料库/原始资料/未整理｜2026-09-20｜用户提供｜杭州市低空经济扶持政策拟废止情况汇总.md",
-   "title": "未整理｜2026-09-20｜用户提供｜杭州市低空经济扶持政策拟废止情况汇总",
-   "updated": "2026-09-20",
-   "updatedTime": "2026-09-20 11:14",
+   "path": "30_资料库/原始资料/已整理｜2026-09-23｜抖音视频文案｜高质量Agent项目的6个标准.md",
+   "title": "高质量Agent项目的6个标准",
+   "updated": "2026-09-23",
+   "updatedTime": "2026-09-23 14:32",
    "topic": "raw",
    "links": [],
    "backlinks": [
     "70_知识流水线/A_原始资料.md"
    ],
-   "desc": "- 需核实事实：杭州市财政局 2026-09-08 公告原文、起草说明原文、征求意见截止日期（2026-10-07）、原措施文号与有效期、335 万元补贴数据、30 亿元基金与 2",
-   "wordCount": 391
+   "desc": "来源：抖音「AI豪有理」视频文案",
+   "wordCount": 1214
   }
  ],
  "today": {
@@ -16095,7 +16181,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "Agent Runtime",
-   "matched": 33,
+   "matched": 34,
    "status": "已形成"
   },
   {
@@ -17487,7 +17573,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 125,
-  "fetchedAt": "2026年9月22日 23:04"
+  "fetchedAt": "2026年9月23日 19:13"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -17652,6 +17738,96 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "70_知识流水线/A_原始资料.md",
+   "title": "A_原始资料",
+   "updated": "2026-09-23",
+   "updatedTime": "2026-09-23 14:46",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 22778,
+   "desc": "上级：70知识流水线/知识流水线"
+  },
+  {
+   "path": "40_专题知识库/AI Agent工程知识/08_项目运行记录/Deepseek Harness：框架概念与专属智能体搭建.md",
+   "title": "Deepseek Harness：框架概念与专属智能体搭建",
+   "updated": "2026-09-23",
+   "updatedTime": "2026-09-23 14:45",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 16701,
+   "desc": "两条硬规则："
+  },
+  {
+   "path": "40_专题知识库/低空经济/低空经济专题.md",
+   "title": "低空经济专题",
+   "updated": "2026-09-23",
+   "updatedTime": "2026-09-23 14:45",
+   "topic": "lowalt",
+   "topicName": "低空经济",
+   "wordCount": 1798,
+   "desc": "上级：徐总的知识库"
+  },
+  {
+   "path": "70_知识流水线/增量整理/2026-09-23｜DSH底层机制四集｜增量整理.md",
+   "title": "DSH底层机制四集（Cordis/事件溯源/PTC/创造模式）｜增量整理",
+   "updated": "2026-09-23",
+   "updatedTime": "2026-09-23 14:44",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 624,
+   "desc": "这份.txt包含抖音博主\"青衫烟雨\"的DSH拆解系列4集文案，讲的是DSH的四个底层机制："
+  },
+  {
+   "path": "70_知识流水线/增量整理/2026-09-23｜杭州低空经济扶持政策拟废止｜增量整理.md",
+   "title": "杭州低空经济扶持政策拟废止｜增量整理",
+   "updated": "2026-09-23",
+   "updatedTime": "2026-09-23 14:44",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 471,
+   "desc": "杭州市财政局2026-09-08公告，就废止《杭州市支持低空经济高质量发展的若干措施》公开征求意见（截止10-07）。原政策2024-10-08施行，有效期至2027-12-31，"
+  },
+  {
+   "path": "40_专题知识库/AI Agent工程知识/AI Agent工程知识V3导航.md",
+   "title": "AI Agent工程知识V3导航",
+   "updated": "2026-09-23",
+   "updatedTime": "2026-09-23 14:35",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 4662,
+   "desc": "上级：00入口与导航/知识库V3逻辑导航、40专题知识库/AI Agent工程知识/AI Agent工程知识专题"
+  },
+  {
+   "path": "40_专题知识库/AI Agent工程知识/07_案例复盘与面试/高质量Agent项目六标准：从简历加分到生产级自评清单.md",
+   "title": "高质量Agent项目六标准：从简历加分到生产级自评清单",
+   "updated": "2026-09-23",
+   "updatedTime": "2026-09-23 14:34",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 3887,
+   "desc": "---"
+  },
+  {
+   "path": "70_知识流水线/增量整理/2026-09-23｜高质量Agent项目六标准｜增量整理.md",
+   "title": "高质量Agent项目六标准｜增量整理",
+   "updated": "2026-09-23",
+   "updatedTime": "2026-09-23 14:32",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 906,
+   "desc": "这篇视频的6条标准，本质上是生产级Agent工程标准的\"面试/简历视角\"。它不提供新技术，但提供了一个非常实用的项目自评清单——可以用来判断一个Agent项目到底是demo还是有含"
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-09-23｜抖音视频文案｜高质量Agent项目的6个标准.md",
+   "title": "高质量Agent项目的6个标准",
+   "updated": "2026-09-23",
+   "updatedTime": "2026-09-23 14:32",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1214,
+   "desc": "来源：抖音「AI豪有理」视频文案"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-09-22｜AI知识增量整理.md",
    "title": "2026-09-22｜AI 知识增量整理",
    "updated": "2026-09-22",
@@ -17690,16 +17866,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 18566,
    "desc": "创建日期：2026-07-02"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/AI Agent工程知识V3导航.md",
-   "title": "AI Agent工程知识V3导航",
-   "updated": "2026-09-22",
-   "updatedTime": "2026-09-22 19:26",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 4598,
-   "desc": "上级：00入口与导航/知识库V3逻辑导航、40专题知识库/AI Agent工程知识/AI Agent工程知识专题"
   },
   {
    "path": "70_知识流水线/增量整理/2026-09-10｜企业AI落地5环节诊断框架｜增量整理.md",
@@ -17850,16 +18016,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "AI Agent工程知识",
    "wordCount": 5903,
    "desc": "------|---------|"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-09-22",
-   "updatedTime": "2026-09-22 19:24",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 22477,
-   "desc": "上级：70知识流水线/知识流水线"
   },
   {
    "path": "70_知识流水线/增量整理/2026-09-22｜AI经济范式迁移从流量逻辑到任务逻辑｜增量整理.md",
@@ -18390,36 +18546,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "任务面板与知识库",
    "wordCount": 588,
    "desc": "1. jiwei-wenhua CRM 录入 Skill 评估：讨论作为主录入工具的适用性，确认豆包和 WorkBuddy 都使用此 Skill"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-21｜AI知识增量整理.md",
-   "title": "2026-09-21｜AI 知识增量整理",
-   "updated": "2026-09-21",
-   "updatedTime": "2026-09-21 23:02",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 1317,
-   "desc": "- 日期：2026-09-21（周一）"
-  },
-  {
-   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-09-21.md",
-   "title": "2026-09-21",
-   "updated": "2026-09-21",
-   "updatedTime": "2026-09-21 17:24",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 774,
-   "desc": "原始设计（正确）："
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-21.md",
-   "title": "2026-09-21 每日工作记录",
-   "updated": "2026-09-21",
-   "updatedTime": "2026-09-21 11:33",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 1848,
-   "desc": "1. 己未文化 CRM 前端持续调试：客户经营页面布局调整、关系网络球形可视化设计、缓存问题反复排查"
   }
  ]
 };
