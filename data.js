@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-24",
- "generatedTime": "2026-09-24 23:02",
+ "generatedAt": "2026-09-25",
+ "generatedTime": "2026-09-25 11:42",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 12,
- "weeklyChanges": 264,
+ "weeklyPages": 1,
+ "weeklyChanges": 0,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-24｜AI知识增量整理.md",
  "topics": [
@@ -17589,7 +17589,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 125,
-  "fetchedAt": "2026年9月24日 23:02"
+  "fetchedAt": "2026年9月25日 11:42"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -17770,116 +17770,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 2323,
    "desc": "- 日期：2026-09-24"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-23.md",
-   "title": "2026-09-23｜多智能体工作记录",
-   "updated": "2026-09-23",
-   "updatedTime": "2026-09-23 23:36",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 1330,
-   "desc": "（待补充）"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-23｜AI知识增量整理.md",
-   "title": "2026-09-23｜AI知识增量整理",
-   "updated": "2026-09-23",
-   "updatedTime": "2026-09-23 23:03",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4078,
-   "desc": "- 日期：2026-09-23"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-09-23",
-   "updatedTime": "2026-09-23 14:46",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 22778,
-   "desc": "上级：70知识流水线/知识流水线"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/08_项目运行记录/Deepseek Harness：框架概念与专属智能体搭建.md",
-   "title": "Deepseek Harness：框架概念与专属智能体搭建",
-   "updated": "2026-09-23",
-   "updatedTime": "2026-09-23 14:45",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 16701,
-   "desc": "两条硬规则："
-  },
-  {
-   "path": "40_专题知识库/低空经济/低空经济专题.md",
-   "title": "低空经济专题",
-   "updated": "2026-09-23",
-   "updatedTime": "2026-09-23 14:45",
-   "topic": "lowalt",
-   "topicName": "低空经济",
-   "wordCount": 1798,
-   "desc": "上级：徐总的知识库"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-23｜DSH底层机制四集｜增量整理.md",
-   "title": "DSH底层机制四集（Cordis/事件溯源/PTC/创造模式）｜增量整理",
-   "updated": "2026-09-23",
-   "updatedTime": "2026-09-23 14:44",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 624,
-   "desc": "这份.txt包含抖音博主\"青衫烟雨\"的DSH拆解系列4集文案，讲的是DSH的四个底层机制："
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-23｜杭州低空经济扶持政策拟废止｜增量整理.md",
-   "title": "杭州低空经济扶持政策拟废止｜增量整理",
-   "updated": "2026-09-23",
-   "updatedTime": "2026-09-23 14:44",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 471,
-   "desc": "杭州市财政局2026-09-08公告，就废止《杭州市支持低空经济高质量发展的若干措施》公开征求意见（截止10-07）。原政策2024-10-08施行，有效期至2027-12-31，"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/AI Agent工程知识V3导航.md",
-   "title": "AI Agent工程知识V3导航",
-   "updated": "2026-09-23",
-   "updatedTime": "2026-09-23 14:35",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 4662,
-   "desc": "上级：00入口与导航/知识库V3逻辑导航、40专题知识库/AI Agent工程知识/AI Agent工程知识专题"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/07_案例复盘与面试/高质量Agent项目六标准：从简历加分到生产级自评清单.md",
-   "title": "高质量Agent项目六标准：从简历加分到生产级自评清单",
-   "updated": "2026-09-23",
-   "updatedTime": "2026-09-23 14:34",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 3887,
-   "desc": "---"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-23｜高质量Agent项目六标准｜增量整理.md",
-   "title": "高质量Agent项目六标准｜增量整理",
-   "updated": "2026-09-23",
-   "updatedTime": "2026-09-23 14:32",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 906,
-   "desc": "这篇视频的6条标准，本质上是生产级Agent工程标准的\"面试/简历视角\"。它不提供新技术，但提供了一个非常实用的项目自评清单——可以用来判断一个Agent项目到底是demo还是有含"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-09-23｜抖音视频文案｜高质量Agent项目的6个标准.md",
-   "title": "高质量Agent项目的6个标准",
-   "updated": "2026-09-23",
-   "updatedTime": "2026-09-23 14:32",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1214,
-   "desc": "来源：抖音「AI豪有理」视频文案"
   }
  ]
 };
