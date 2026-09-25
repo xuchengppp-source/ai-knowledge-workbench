@@ -1,11 +1,11 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-25",
- "generatedTime": "2026-09-25 15:51",
+ "generatedTime": "2026-09-25 23:03",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 1,
+ "weeklyPages": 2,
  "weeklyChanges": 0,
  "sourceIndex": "知识库索引.md",
- "digest": "70_知识流水线/每日学习整理/2026-09-24｜AI知识增量整理.md",
+ "digest": "70_知识流水线/每日学习整理/2026-09-25｜AI知识增量整理.md",
  "topics": [
   {
    "name": "AI Agent工程知识",
@@ -33,7 +33,7 @@ window.OBSIDIAN_DATA = {
    "key": "pipeline",
    "icon": "📚",
    "v3group": "pipeline",
-   "count": 173
+   "count": 174
   },
   {
    "name": "Codex 工作区",
@@ -8608,6 +8608,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 2323
   },
   {
+   "path": "70_知识流水线/每日学习整理/2026-09-25｜AI知识增量整理.md",
+   "title": "2026-09-25｜AI 知识增量整理",
+   "updated": "2026-09-25",
+   "updatedTime": "2026-09-25 23:03",
+   "topic": "pipeline",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 日期：2026-09-25（周五）",
+   "wordCount": 1782
+  },
+  {
    "path": "70_知识流水线/玄学与东方智慧出海-内容策略与独立站电商体系-调研-20260811.md",
    "title": "玄学与东方智慧出海：内容策略与独立站电商体系调研",
    "updated": "2026-09-09",
@@ -16024,13 +16035,20 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "today": {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "items": [],
   "judgments": [
-   "无（今日无新增可蒸馏内容，未形成独立知识判断）。"
+   "无（今日无新增可蒸馏内容，连续无 AI 知识主线条增量日累计延长）。"
   ]
  },
  "dailies": [
+  {
+   "date": "2026-09-25",
+   "items": [],
+   "judgments": [
+    "无（今日无新增可蒸馏内容，连续无 AI 知识主线条增量日累计延长）。"
+   ]
+  },
   {
    "date": "2026-09-24",
    "items": [],
@@ -16162,13 +16180,6 @@ window.OBSIDIAN_DATA = {
    "items": [],
    "judgments": [
     "今日无新增可蒸馏内容，无判断。"
-   ]
-  },
-  {
-   "date": "2026-09-18",
-   "items": [],
-   "judgments": [
-    "今日没有发现可蒸馏的新内容，无新增判断可记录；三项判断位留空。"
    ]
   }
  ],
@@ -17589,7 +17600,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 125,
-  "fetchedAt": "2026年9月25日 15:51"
+  "fetchedAt": "2026年9月25日 23:03"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -17761,6 +17772,16 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "recentUpdates": [
+  {
+   "path": "70_知识流水线/每日学习整理/2026-09-25｜AI知识增量整理.md",
+   "title": "2026-09-25｜AI 知识增量整理",
+   "updated": "2026-09-25",
+   "updatedTime": "2026-09-25 23:03",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 1782,
+   "desc": "- 日期：2026-09-25（周五）"
+  },
   {
    "path": "70_知识流水线/每日学习整理/2026-09-24｜AI知识增量整理.md",
    "title": "2026-09-24｜AI知识增量整理",
