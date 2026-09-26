@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-26",
- "generatedTime": "2026-09-26 00:00",
+ "generatedTime": "2026-09-26 08:10",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 5,
- "weeklyChanges": 176,
+ "weeklyPages": 6,
+ "weeklyChanges": 177,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-25｜AI知识增量整理.md",
  "topics": [
@@ -33,7 +33,7 @@ window.OBSIDIAN_DATA = {
    "key": "pipeline",
    "icon": "📚",
    "v3group": "pipeline",
-   "count": 175
+   "count": 176
   },
   {
    "name": "Codex 工作区",
@@ -5721,8 +5721,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
-   "updated": "2026-09-25",
-   "updatedTime": "2026-09-25 23:43",
+   "updated": "2026-09-26",
+   "updatedTime": "2026-09-26 00:38",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线",
@@ -5758,6 +5758,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-09-22｜IMA电力基建和算力｜一家倒卖Token的公司要被700亿卖了",
     "30_资料库/原始资料/已整理｜2026-09-22｜IMA电力基建和算力｜电力基建和算力（对话整理稿）",
     "30_资料库/原始资料/已整理｜2026-09-22｜IMA电力基建和算力｜首个全国产10万卡AI超集群正式投用",
+    "30_资料库/原始资料/已整理｜2026-09-25｜抖音视频文案｜系统说话方法论：从本质到五步实操",
     "30_资料库/原始资料/已整理｜2026-09-25｜抖音视频文案｜红圈所律师的语言艺术：几个字改变性质",
     "30_资料库/原始资料/已整理｜2026-09-20｜用户提供｜杭州市低空经济扶持政策拟废止情况汇总",
     "30_资料库/原始资料/已整理｜2026-08-21｜抖音DeepSeek Harness系列文案",
@@ -6005,7 +6006,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-09-22｜IMA电力基建和算力｜首个全国产10万卡AI超集群正式投用.md"
    ],
    "desc": "上级：70知识流水线/知识流水线",
-   "wordCount": 22978
+   "wordCount": 23183
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -7706,6 +7707,17 @@ window.OBSIDIAN_DATA = {
    "backlinks": [],
    "desc": "这篇视频的6条标准，本质上是生产级Agent工程标准的\"面试/简历视角\"。它不提供新技术，但提供了一个非常实用的项目自评清单——可以用来判断一个Agent项目到底是demo还是有含",
    "wordCount": 906
+  },
+  {
+   "path": "70_知识流水线/增量整理/2026-09-25｜系统说话方法论｜增量整理.md",
+   "title": "系统说话方法论｜增量整理",
+   "updated": "2026-09-26",
+   "updatedTime": "2026-09-26 00:00",
+   "topic": "pipeline",
+   "links": [],
+   "backlinks": [],
+   "desc": "这是一篇系统的\"说话方法论\"，覆盖从本质到实操的完整逻辑体系。与已有的「职场表达升维」形成互补：",
+   "wordCount": 699
   },
   {
    "path": "70_知识流水线/增量整理/2026-09-25｜红圈所语言艺术｜增量整理.md",
@@ -16052,7 +16064,9 @@ window.OBSIDIAN_DATA = {
    "updatedTime": "2026-09-26 00:00",
    "topic": "raw",
    "links": [],
-   "backlinks": [],
+   "backlinks": [
+    "70_知识流水线/A_原始资料.md"
+   ],
    "desc": "---|------|",
    "wordCount": 1496
   },
@@ -17636,7 +17650,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 125,
-  "fetchedAt": "2026年9月26日 00:00"
+  "fetchedAt": "2026年9月26日 08:10"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -17809,6 +17823,16 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "70_知识流水线/A_原始资料.md",
+   "title": "A_原始资料",
+   "updated": "2026-09-26",
+   "updatedTime": "2026-09-26 00:38",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 23183,
+   "desc": "上级：70知识流水线/知识流水线"
+  },
+  {
    "path": "30_资料库/原始资料/已整理｜2026-09-25｜抖音视频文案｜系统说话方法论：从本质到五步实操.md",
    "title": "已整理｜2026-09-25｜抖音视频文案｜系统说话方法论：从本质到五步实操",
    "updated": "2026-09-26",
@@ -17819,14 +17843,14 @@ window.OBSIDIAN_DATA = {
    "desc": "---|------|"
   },
   {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-09-25",
-   "updatedTime": "2026-09-25 23:43",
+   "path": "70_知识流水线/增量整理/2026-09-25｜系统说话方法论｜增量整理.md",
+   "title": "系统说话方法论｜增量整理",
+   "updated": "2026-09-26",
+   "updatedTime": "2026-09-26 00:00",
    "topic": "pipeline",
    "topicName": "知识流水线",
-   "wordCount": 22978,
-   "desc": "上级：70知识流水线/知识流水线"
+   "wordCount": 699,
+   "desc": "这是一篇系统的\"说话方法论\"，覆盖从本质到实操的完整逻辑体系。与已有的「职场表达升维」形成互补："
   },
   {
    "path": "30_资料库/原始资料/已整理｜2026-09-25｜抖音视频文案｜红圈所律师的语言艺术：几个字改变性质.md",
