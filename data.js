@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-26",
- "generatedTime": "2026-09-26 23:04",
+ "generatedAt": "2026-09-27",
+ "generatedTime": "2026-09-27 08:25",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 10,
+ "weeklyPages": 7,
  "weeklyChanges": 204,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-26｜AI知识增量整理.md",
@@ -17753,7 +17753,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 127,
-  "fetchedAt": "2026年9月26日 23:04"
+  "fetchedAt": "2026年9月27日 08:25"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -17994,36 +17994,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 699,
    "desc": "这是一篇系统的\"说话方法论\"，覆盖从本质到实操的完整逻辑体系。与已有的「职场表达升维」形成互补："
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-09-25｜抖音视频文案｜红圈所律师的语言艺术：几个字改变性质.md",
-   "title": "已整理｜2026-09-25｜抖音视频文案｜红圈所律师的语言艺术：几个字改变性质",
-   "updated": "2026-09-25",
-   "updatedTime": "2026-09-25 23:41",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 331,
-   "desc": "- 这是一个\"职场语言升维\"的典型案例，可用于："
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-25｜红圈所语言艺术｜增量整理.md",
-   "title": "红圈所语言艺术｜增量整理",
-   "updated": "2026-09-25",
-   "updatedTime": "2026-09-25 23:41",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 614,
-   "desc": "这是一个\"职场语言升维\"的典型微案例。价值不在内容本身（律师团队做知识管理），而在于同一个内部行为，如何翻译成客户能感知的专业价值。"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-25｜AI知识增量整理.md",
-   "title": "2026-09-25｜AI 知识增量整理",
-   "updated": "2026-09-25",
-   "updatedTime": "2026-09-25 23:03",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 1782,
-   "desc": "- 日期：2026-09-25（周五）"
   }
  ]
 };
