@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-27",
- "generatedTime": "2026-09-27 23:08",
+ "generatedAt": "2026-09-28",
+ "generatedTime": "2026-09-28 08:36",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 8,
- "weeklyChanges": 204,
+ "weeklyPages": 1,
+ "weeklyChanges": 0,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-27｜AI知识增量整理.md",
  "topics": [
@@ -17729,7 +17729,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 127,
-  "fetchedAt": "2026年9月27日 23:08"
+  "fetchedAt": "2026年9月28日 08:36"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -17910,76 +17910,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 1906,
    "desc": "- 日期：2026-09-27"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-26｜AI知识增量整理.md",
-   "title": "2026-09-26｜AI 知识增量整理",
-   "updated": "2026-09-26",
-   "updatedTime": "2026-09-26 23:04",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3376,
-   "desc": "- 日期：2026-09-26"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/企业AI落地5环节诊断框架：从老板牵头到技术选型的FDE沟通方法论.md",
-   "title": "企业AI落地5环节诊断框架：从老板牵头到技术选型的FDE沟通方法论",
-   "updated": "2026-09-26",
-   "updatedTime": "2026-09-26 10:27",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 8016,
-   "desc": "-----|------|---------|-------------------|"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-09-26",
-   "updatedTime": "2026-09-26 10:20",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 23385,
-   "desc": "上级：70知识流水线/知识流水线"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧.md",
-   "title": "AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧",
-   "updated": "2026-09-26",
-   "updatedTime": "2026-09-26 10:20",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 3811,
-   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-09-26｜抖音｜AI创业扫楼与企业AI落地销售沟通案例.md",
-   "title": "抖音口播｜AI创业扫楼与企业AI落地销售沟通案例",
-   "updated": "2026-09-26",
-   "updatedTime": "2026-09-26 10:20",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1234,
-   "desc": "- 来源：抖音口播视频，经 ChatGPT 对话提取"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-09-25｜抖音视频文案｜系统说话方法论：从本质到五步实操.md",
-   "title": "已整理｜2026-09-25｜抖音视频文案｜系统说话方法论：从本质到五步实操",
-   "updated": "2026-09-26",
-   "updatedTime": "2026-09-26 00:00",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1496,
-   "desc": "---|------|"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-25｜系统说话方法论｜增量整理.md",
-   "title": "系统说话方法论｜增量整理",
-   "updated": "2026-09-26",
-   "updatedTime": "2026-09-26 00:00",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 699,
-   "desc": "这是一篇系统的\"说话方法论\"，覆盖从本质到实操的完整逻辑体系。与已有的「职场表达升维」形成互补："
   }
  ]
 };
