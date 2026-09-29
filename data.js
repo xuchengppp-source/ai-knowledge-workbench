@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-09-29",
- "generatedTime": "2026-09-29 08:46",
+ "generatedTime": "2026-09-29 12:50",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 1,
- "weeklyChanges": 2,
+ "weeklyPages": 2,
+ "weeklyChanges": 3,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-28｜AI知识增量整理.md",
  "topics": [
@@ -96,7 +96,7 @@ window.OBSIDIAN_DATA = {
    "key": "notes",
    "icon": "📝",
    "v3group": "personal",
-   "count": 45
+   "count": 46
   },
   {
    "name": "豆包工作区",
@@ -13406,6 +13406,19 @@ window.OBSIDIAN_DATA = {
    "wordCount": 774
   },
   {
+   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-09-29.md",
+   "title": "2026-09-29",
+   "updated": "2026-09-29",
+   "updatedTime": "2026-09-29 11:45",
+   "topic": "notes",
+   "links": [
+    "10_个人生活与个人管理/徐总每日随记/徐总每日随记"
+   ],
+   "backlinks": [],
+   "desc": "- 情绪判断（原话）：\"最近不知道哪根筋不对，又开始花钱了，请别人吃饭。\"",
+   "wordCount": 4545
+  },
+  {
    "path": "10_个人生活与个人管理/徐总每日随记/当日记录/当日记录说明.md",
    "title": "当日记录说明",
    "updated": "2026-09-09",
@@ -13440,6 +13453,7 @@ window.OBSIDIAN_DATA = {
     "10_个人生活与个人管理/徐总每日随记/主题归档/主题归档说明.md",
     "10_个人生活与个人管理/徐总每日随记/当日记录/2026-06-01.md",
     "10_个人生活与个人管理/徐总每日随记/当日记录/2026-09-08.md",
+    "10_个人生活与个人管理/徐总每日随记/当日记录/2026-09-29.md",
     "10_个人生活与个人管理/徐总每日随记/当日记录/当日记录说明.md",
     "10_个人生活与个人管理/徐总每日随记/月度复盘/月度复盘说明.md",
     "10_个人生活与个人管理/徐总每日随记/随记收件箱/随记收件箱说明.md",
@@ -17744,7 +17758,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 127,
-  "fetchedAt": "2026年9月29日 08:46"
+  "fetchedAt": "2026年9月29日 12:50"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -17916,6 +17930,16 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "recentUpdates": [
+  {
+   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-09-29.md",
+   "title": "2026-09-29",
+   "updated": "2026-09-29",
+   "updatedTime": "2026-09-29 11:45",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 4545,
+   "desc": "- 情绪判断（原话）：\"最近不知道哪根筋不对，又开始花钱了，请别人吃饭。\""
+  },
   {
    "path": "70_知识流水线/每日学习整理/2026-09-28｜AI知识增量整理.md",
    "title": "2026-09-28｜AI 知识增量整理",
