@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-28",
- "generatedTime": "2026-09-28 23:03",
+ "generatedAt": "2026-09-29",
+ "generatedTime": "2026-09-29 08:46",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 2,
+ "weeklyPages": 1,
  "weeklyChanges": 2,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-28｜AI知识增量整理.md",
@@ -17744,7 +17744,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 127,
-  "fetchedAt": "2026年9月28日 23:03"
+  "fetchedAt": "2026年9月29日 08:46"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -17925,16 +17925,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 1454,
    "desc": "- 日期：2026-09-28"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-27｜AI知识增量整理.md",
-   "title": "2026-09-27｜AI 知识增量整理",
-   "updated": "2026-09-27",
-   "updatedTime": "2026-09-27 23:07",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 1906,
-   "desc": "- 日期：2026-09-27"
   }
  ]
 };
