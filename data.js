@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-29",
- "generatedTime": "2026-09-29 23:03",
+ "generatedAt": "2026-09-30",
+ "generatedTime": "2026-09-30 13:08",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 3,
- "weeklyChanges": 5,
+ "weeklyPages": 21,
+ "weeklyChanges": 287,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-29｜AI知识增量整理.md",
  "topics": [
@@ -19,7 +19,7 @@ window.OBSIDIAN_DATA = {
    "key": "enterprise",
    "icon": "🏢",
    "v3group": "core",
-   "count": 128
+   "count": 130
   },
   {
    "name": "AI产业链与数字基础设施",
@@ -33,7 +33,7 @@ window.OBSIDIAN_DATA = {
    "key": "pipeline",
    "icon": "📚",
    "v3group": "pipeline",
-   "count": 180
+   "count": 181
   },
   {
    "name": "Codex 工作区",
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 35
+   "count": 42
   },
   {
    "name": "政府资源配置与政策落地",
@@ -132,7 +132,7 @@ window.OBSIDIAN_DATA = {
    "icon": "🗂",
    "color": "raw",
    "v3group": "raw",
-   "count": 170
+   "count": 172
   }
  ],
  "nodes": [
@@ -1098,12 +1098,12 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/AI Agent工程知识/07_案例复盘与面试/高质量Agent项目六标准：从简历加分到生产级自评清单.md",
    "title": "高质量Agent项目六标准：从简历加分到生产级自评清单",
-   "updated": "2026-09-23",
-   "updatedTime": "2026-09-23 14:34",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:42",
    "topic": "agent",
    "links": [
     "FDE商业级智能体交付框架",
-    "企业AI落地5环节诊断框架",
+    "企业AI落地5环节诊断框架：从老板牵头到技术选型的FDE沟通方法论",
     "AI Agent后端工程化能力框架：分布式、异步、状态与可运维",
     "Agent系统架构模式选型：从单Agent到Graph Workflow",
     "多Agent架构选型决策卡：Manager-Handoff-Agent-as-Tool",
@@ -1120,7 +1120,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/AI Agent工程知识/AI Agent工程知识V3导航.md"
    ],
    "desc": "---",
-   "wordCount": 3887
+   "wordCount": 3907
   },
   {
    "path": "40_专题知识库/AI Agent工程知识/08_项目运行记录/DeepSeek Harness Control Gateway 设计与调研.md",
@@ -1438,8 +1438,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/AI Agent工程知识/知识管理与认知内化：从收藏癖到主动提取的知识库建设哲学.md",
    "title": "知识管理与认知内化：从收藏癖到主动提取的知识库建设哲学",
-   "updated": "2026-09-22",
-   "updatedTime": "2026-09-22 19:25",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:42",
    "topic": "agent",
    "links": [
     "30_资料库/原始资料/已整理｜2026-09-11｜抖音分享｜别再拿建知识库来感动自己了：从收藏癖到认知内化的警醒",
@@ -1450,7 +1450,7 @@ window.OBSIDIAN_DATA = {
     "AI知识系统不是高级收藏夹",
     "知识卡片与Agent调用标准",
     "候选知识卡调用器",
-    "知识库架构判断原则",
+    "知识库架构判断原则：从资料到概念、方法论、案例与专题归属",
     "WikiLLM知识库编译方法论",
     "70_知识流水线/增量整理/2026-09-11｜知识管理与认知内化｜增量整理",
     "30_资料库/原始资料/已整理｜2026-09-08｜抖音分享｜AI知识系统不是高级收藏夹",
@@ -1460,7 +1460,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "------|---------|",
-   "wordCount": 5903
+   "wordCount": 5922
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/AI交付行业观察：走访7个团队后的困境机会与危机.md",
@@ -1574,8 +1574,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE上线安全清单：从能跑到敢用的六道门自动化四级与可靠性服务目标.md",
    "title": "FDE上线安全清单：从\"能跑\"到\"敢用\"的六道门、自动化四级与可靠性服务目标",
-   "updated": "2026-09-12",
-   "updatedTime": "2026-09-12 01:57",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:42",
    "topic": "enterprise",
    "links": [
     "FDE生产级AI Agent五阶段方法论与AI基建协同",
@@ -1583,7 +1583,7 @@ window.OBSIDIAN_DATA = {
     "制造业AI落地的隐性鸿沟：非结构化信息、员工使用习惯与AI中间层解决方案",
     "生产级AI Agent工程体系的完整链路",
     "显性知识与隐性知识的工程化入库机制",
-    "蜀道金租生产级AI建设方案",
+    "蜀道金租生产级AI建设方案：从个人辅助到企业生产级的演进路径",
     "30_资料库/原始资料/已整理｜2026-09-11｜抖音分享｜FDE从入门到精通第6课：从能跑到敢用——可靠性权限与人机协同",
     "70_知识流水线/增量整理/2026-09-11｜FDE第6课从能跑到敢用上线安全清单｜增量整理"
    ],
@@ -1591,7 +1591,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/生产级Agent六大治理模块与工程骨架.md"
    ],
    "desc": "---|------|",
-   "wordCount": 5738
+   "wordCount": 5755
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE与AI架构师核心资产能力.md",
@@ -1747,8 +1747,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE企业真实落地案例库：按行业分类的企业AI落地实战.md",
    "title": "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
-   "updated": "2026-09-22",
-   "updatedTime": "2026-09-22 19:25",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 12:45",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化",
@@ -1758,11 +1758,12 @@ window.OBSIDIAN_DATA = {
     "己未文化咨询公司 FDE 落地与生产级 Agent 实战手册",
     "甘食记从经营日报 Agent 到轻量经营 Ontology 主线",
     "甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
+    "外贸公司扫楼陌拜案例：卖家讲概念vs买家有认知——FDE销售沟通的反面教材",
     "30_资料库/原始资料/已整理｜2026-09-08｜抖音分享｜FDE企业真实落地案例：汽车零部件制造企业AI数据分析系统"
    ],
    "backlinks": [],
    "desc": "上级：企业AI与智能体商业化、知识库索引",
-   "wordCount": 4116
+   "wordCount": 4690
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE商业级智能体交付框架.md",
@@ -1992,8 +1993,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/制造业AI落地的隐性鸿沟：非结构化信息、员工使用习惯与AI中间层解决方案.md",
    "title": "制造业AI落地的隐性鸿沟：非结构化信息、员工使用习惯与AI中间层解决方案",
-   "updated": "2026-09-11",
-   "updatedTime": "2026-09-11 10:46",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:42",
    "topic": "enterprise",
    "links": [
     "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
@@ -2001,13 +2002,27 @@ window.OBSIDIAN_DATA = {
     "生产级AI Agent工程体系的完整链路",
     "显性知识与隐性知识的工程化入库机制",
     "AI交付行业观察：走访7个团队后的困境机会与危机",
-    "蜀道金租生产级AI建设方案",
+    "蜀道金租生产级AI建设方案：从个人辅助到企业生产级的演进路径",
     "30_资料库/原始资料/已整理｜2026-09-11｜抖音视频文案｜100家企业AI落地实录：制造业痛点与AI中间层解决方案",
     "70_知识流水线/增量整理/2026-09-11｜制造业AI落地隐性鸿沟与AI中间层｜增量整理"
    ],
    "backlinks": [],
    "desc": "---|-------------------|----------------|",
-   "wordCount": 4887
+   "wordCount": 4904
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/外贸公司扫楼陌拜案例：卖家讲概念vs买家有认知——FDE销售沟通的反面教材.md",
+   "title": "外贸公司扫楼陌拜案例：卖家讲概念vs买家有认知——FDE销售沟通的反面教材",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 12:46",
+   "topic": "enterprise",
+   "links": [
+    "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
+    "已整理｜2026-09-30｜抖音视频文案｜AI创业扫楼陌拜：外贸公司老板的真实反馈"
+   ],
+   "backlinks": [],
+   "desc": "上级：FDE企业真实落地案例库：按行业分类的企业AI落地实战",
+   "wordCount": 3687
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/科技咨询公司FDE访谈样本：从业务线选择到项目交付Agent.md",
@@ -4209,13 +4224,33 @@ window.OBSIDIAN_DATA = {
    "wordCount": 12920
   },
   {
-   "path": "40_专题知识库/企业AI与智能体商业化/AI 原生企业管理系统（轻量版）/README.md",
-   "title": "AI 原生企业管理系统（轻量版）专题",
-   "updated": "2026-08-26",
-   "updatedTime": "2026-08-26 20:12",
+   "path": "40_专题知识库/企业AI与智能体商业化/AI 原生企业管理系统（轻量版）/AI原生组织：从岗位到任务的底层变革（曾鸣）.md",
+   "title": "AI原生组织：从岗位到任务的底层变革（曾鸣）",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:42",
    "topic": "enterprise",
    "links": [
     "企业AI与智能体商业化专题",
+    "AI 原生企业管理系统（轻量版）：初创公司的基础逻辑",
+    "已整理｜2026-09-30｜视频核心内容提取｜曾鸣：AI原生组织的底层逻辑与搭建方向",
+    "AI原生企业管理系统：隐性知识飞轮",
+    "FDE生产级AI Agent五阶段方法论",
+    "多智能体协作闭环方法：主控-规划-执行-验收",
+    "企业AI知识资产：从知识库到组织能力与AI复利"
+   ],
+   "backlinks": [],
+   "desc": "上级：企业AI与智能体商业化专题",
+   "wordCount": 2914
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/AI 原生企业管理系统（轻量版）/README.md",
+   "title": "AI 原生企业管理系统（轻量版）专题",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:16",
+   "topic": "enterprise",
+   "links": [
+    "企业AI与智能体商业化专题",
+    "AI原生组织：从岗位到任务的底层变革（曾鸣）",
     "AI 原生企业管理系统（轻量版）：初创公司的基础逻辑（含知识飞轮方法论）",
     "AI 原生企业管理系统：隐性知识飞轮（AI 从工具到老师傅的进化）",
     "AI 原生企业管理系统（轻量版）：初创公司的基础逻辑（含飞书妙记+WorkBuddy 实战方案）",
@@ -4226,7 +4261,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "上级：企业AI与智能体商业化专题",
-   "wordCount": 966
+   "wordCount": 1097
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航.md",
@@ -5727,8 +5762,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
-   "updated": "2026-09-26",
-   "updatedTime": "2026-09-26 10:20",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 12:46",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线",
@@ -5764,6 +5799,8 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-09-22｜IMA电力基建和算力｜一家倒卖Token的公司要被700亿卖了",
     "30_资料库/原始资料/已整理｜2026-09-22｜IMA电力基建和算力｜电力基建和算力（对话整理稿）",
     "30_资料库/原始资料/已整理｜2026-09-22｜IMA电力基建和算力｜首个全国产10万卡AI超集群正式投用",
+    "30_资料库/原始资料/已整理｜2026-09-30｜抖音视频文案｜AI创业扫楼陌拜：外贸公司老板的真实反馈",
+    "30_资料库/原始资料/已整理｜2026-09-30｜视频核心内容提取｜曾鸣：AI原生组织的底层逻辑与搭建方向",
     "30_资料库/原始资料/已整理｜2026-09-25｜抖音视频文案｜系统说话方法论：从本质到五步实操",
     "30_资料库/原始资料/已整理｜2026-09-25｜抖音视频文案｜红圈所律师的语言艺术：几个字改变性质",
     "30_资料库/原始资料/已整理｜2026-09-20｜用户提供｜杭州市低空经济扶持政策拟废止情况汇总",
@@ -6013,7 +6050,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-09-22｜IMA电力基建和算力｜首个全国产10万卡AI超集群正式投用.md"
    ],
    "desc": "上级：70知识流水线/知识流水线",
-   "wordCount": 23385
+   "wordCount": 23834
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -6359,20 +6396,20 @@ window.OBSIDIAN_DATA = {
   {
    "path": "70_知识流水线/Jarvis知识增长工作流总规则-整理草稿.md",
    "title": "Jarvis Office 知识增长工作流总规则（整理草稿）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 00:13",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:42",
    "topic": "pipeline",
    "links": [
     "知识流水线",
     "AI知识自动化整理入口",
     "知识库健康巡检",
-    "知识库架构判断原则"
+    "知识库架构判断原则：从资料到概念、方法论、案例与专题归属"
    ],
    "backlinks": [
     "70_知识流水线/A_原始资料.md"
    ],
    "desc": "Jarvis Office 是由 DeepSeek Harness 驱动的知识增长执行体，其总规则把「资料进入 → 内容提炼 → 专题整合/知识巡检 → 知识增长」串成可回读、可暂",
-   "wordCount": 3589
+   "wordCount": 3608
   },
   {
    "path": "70_知识流水线/Mac Codex Obsidian知识库健康巡检专员启动提示词.md",
@@ -6477,12 +6514,12 @@ window.OBSIDIAN_DATA = {
   {
    "path": "70_知识流水线/YC开源QM多人在线Agent Harness对我们的启示.md",
    "title": "YC开源QM：多人在线Agent Harness对我们与企业AI的启示",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 00:13",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:42",
    "topic": "pipeline",
    "links": [
     "企业AI与智能体商业化",
-    "DeepSeek Harness体系总览",
+    "DeepSeek Harness体系总览：运作原理与插件能力包设计指南",
     "企业AI与智能体商业化专题",
     "支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作",
     "OpenClaw统一调用入口与委派规则"
@@ -6492,7 +6529,7 @@ window.OBSIDIAN_DATA = {
     "70_知识流水线/每日学习整理/2026-08-28｜AI知识增量整理.md"
    ],
    "desc": "过去一年几乎所有Agent都是\"个人助理模式\"：一个Agent服务一个人。QM 直接点出这套模式天花板——硬把一个助理Agent魔改成服务全公司，很快会变得极其复杂。",
-   "wordCount": 3228
+   "wordCount": 3243
   },
   {
    "path": "70_知识流水线/个人工作台设计与部署方法论.md",
@@ -6524,12 +6561,12 @@ window.OBSIDIAN_DATA = {
   {
    "path": "70_知识流水线/个人级多Agent与多引擎搭配调研.md",
    "title": "个人级多Agent与多引擎搭配调研（QM组织级之外的姊妹篇）",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 00:17",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:42",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/YC开源QM多人在线Agent Harness对我们的启示",
-    "DeepSeek Harness体系总览",
+    "DeepSeek Harness体系总览：运作原理与插件能力包设计指南",
     "OpenClaw统一调用入口与委派规则",
     "YC开源QM多人在线Agent Harness对我们的启示",
     "企业AI与智能体商业化专题",
@@ -6538,7 +6575,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "个人级多Agent 的目标：让多个不同引擎（Claude / Codex / GPT / 本地模型）在同一个工作流里分工协作、结果互通、互相审阅，而不是各自孤岛、手动搬运。",
-   "wordCount": 5540
+   "wordCount": 5555
   },
   {
    "path": "70_知识流水线/任务—Obsidian旧卡迁移清单.md",
@@ -7738,6 +7775,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 614
   },
   {
+   "path": "70_知识流水线/增量整理/2026-09-30｜曾鸣AI原生组织｜增量整理.md",
+   "title": "曾鸣AI原生组织｜增量整理",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:14",
+   "topic": "pipeline",
+   "links": [],
+   "backlinks": [],
+   "desc": "这是一篇关于AI时代组织底层变革的宏观框架，核心洞察是组织基本单元从\"岗位\"变为\"任务\"。价值不在具体操作方法，而在认知框架的重构——它解释了为什么\"AI嵌入现有工作流\"只是过渡，",
+   "wordCount": 749
+  },
+  {
    "path": "70_知识流水线/平板Obsidian每日轻量巡检员启动提示词.md",
    "title": "平板Obsidian每日轻量巡检员启动提示词",
    "updated": "2026-09-10",
@@ -8081,8 +8129,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "70_知识流水线/每日学习整理/2026-08-11｜AI知识增量整理.md",
    "title": "2026-08-11｜AI知识增量整理",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 00:17",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:42",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/AI知识自动化整理入口",
@@ -8097,12 +8145,11 @@ window.OBSIDIAN_DATA = {
     "支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作",
     "生产级AI Agent记忆系统与Context调度",
     "AI Agent工程知识专题",
-    "可交付型智能体搭建方法论",
     "Ontology基础概念：从本体论到企业业务对象"
    ],
    "backlinks": [],
    "desc": "上级：70知识流水线/AI知识自动化整理入口",
-   "wordCount": 4346
+   "wordCount": 4363
   },
   {
    "path": "70_知识流水线/每日学习整理/2026-08-13｜AI知识增量整理.md",
@@ -8747,8 +8794,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "70_知识流水线/知识库Skills统一入口与分层.md",
    "title": "知识库 Skills 统一入口与分层",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 14:24",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:52",
    "topic": "pipeline",
    "links": [
     "30_资料库/原始资料/已整理｜2026-09-10｜IMA公众号提取的笔记｜828房地产新政专题笔记（三篇原文整合版）",
@@ -8760,7 +8807,7 @@ window.OBSIDIAN_DATA = {
     "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-10.md"
    ],
    "desc": "知识库相关能力统一由 WorkBuddy 主 Skill obsidian-knowledge-workflow 负责路由，不再让四个 Skill 各自维护独立流程。四个旧名称保留",
-   "wordCount": 1503
+   "wordCount": 1759
   },
   {
    "path": "70_知识流水线/知识库健康巡检.md",
@@ -12155,6 +12202,83 @@ window.OBSIDIAN_DATA = {
    "backlinks": [],
    "desc": "（待补充）",
    "wordCount": 1330
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-24.md",
+   "title": "2026-09-24 每日工作记录",
+   "updated": "2026-09-24",
+   "updatedTime": "2026-09-24 23:39",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 己未文化客户录入全量核实：按最新 jiwei-wenhua Skill 流程，把三段录音内容对照飞书 Base 主表/关系表/互动表/任务表逐条核对并修正（涉及 13 位客户）",
+   "wordCount": 5435
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-25.md",
+   "title": "2026-09-25 每日工作记录",
+   "updated": "2026-09-25",
+   "updatedTime": "2026-09-25 23:34",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- C018 邓莎莎录入验证：先删除→通用 Skill 重录→横向验收（主表 1 / 课程互动 2 / 预产期互动 1 / 跟进任务 1→3 / 客户关系 0→4）",
+   "wordCount": 3567
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-26.md",
+   "title": "2026-09-26 每日工作记录",
+   "updated": "2026-09-26",
+   "updatedTime": "2026-09-26 23:35",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- jiwei-wenhua 通用型 Skill v5.0.3 落地（昨天\"改通用型\"决策已实现：通用事实拆分、三层投影、sourcecoverage 事实覆盖门、L1-L5 质检",
+   "wordCount": 4236
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-27.md",
+   "title": "2026-09-27 每日工作记录",
+   "updated": "2026-09-27",
+   "updatedTime": "2026-09-27 23:35",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 移动版独立入口落地：保留网页版不动，新增 /mobile/ 独立移动端（给客户用），已发布并验证可访问（HTTP 200）",
+   "wordCount": 2906
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-28.md",
+   "title": "2026-09-28 每日工作记录",
+   "updated": "2026-09-28",
+   "updatedTime": "2026-09-28 23:36",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- jiwei-wenhua 升级 v5.1.2（三端实测一致）：新增统一 levelevidence 等级证据包，等级判断必须引用客户摘要/客户关注/课程/咨询次数/累计消费等依",
+   "wordCount": 6107
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-29.md",
+   "title": "2026-09-29 每日工作记录",
+   "updated": "2026-09-29",
+   "updatedTime": "2026-09-29 23:36",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- jiwei-wenhua 重构 v6.0.0（三端 md5 完全一致）：核心变为\"润色式录入\"——客户原话→润色成稳定客户摘要→拆分字段/互动/任务/关系→形成客户关注→Run",
+   "wordCount": 6805
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-30.md",
+   "title": "2026-09-30｜多智能体工作记录",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 12:39",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "已修正 Skill 路径漂移，并通过 Obsidian CLI 写入规范路径。",
+   "wordCount": 2307
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
@@ -16170,6 +16294,32 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "- 来源：抖音口播视频，经 ChatGPT 对话提取",
    "wordCount": 1234
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-09-30｜抖音视频文案｜AI创业扫楼陌拜：外贸公司老板的真实反馈.md",
+   "title": "已整理｜2026-09-30｜抖音视频文案｜AI创业扫楼陌拜：外贸公司老板的真实反馈",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 12:44",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "核心观察：",
+   "wordCount": 957
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-09-30｜视频核心内容提取｜曾鸣：AI原生组织的底层逻辑与搭建方向.md",
+   "title": "已整理｜2026-09-30｜视频核心内容提取｜曾鸣：AI原生组织的底层逻辑与搭建方向",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:14",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "- 核心洞察：AI原生组织不是\"AI+传统组织\"，而是从底层单元（岗位→任务）开始的重构",
+   "wordCount": 379
   }
  ],
  "today": {
@@ -16322,7 +16472,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "数据与知识资产",
-   "matched": 151,
+   "matched": 152,
    "status": "已形成"
   },
   {
@@ -16352,12 +16502,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 129,
+   "matched": 131,
    "status": "已形成"
   },
   {
    "name": "商业化与组织能力",
-   "matched": 100,
+   "matched": 103,
    "status": "已形成"
   }
  ],
@@ -17719,7 +17869,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 127,
-  "fetchedAt": "2026年9月29日 23:03"
+  "fetchedAt": "2026年9月30日 13:08"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -17761,6 +17911,62 @@ window.OBSIDIAN_DATA = {
   ]
  },
  "dailyWorkRecords": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-30.md",
+   "title": "2026-09-30｜多智能体工作记录",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 12:39",
+   "wordCount": 2307,
+   "desc": "已修正 Skill 路径漂移，并通过 Obsidian CLI 写入规范路径。"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-29.md",
+   "title": "2026-09-29 每日工作记录",
+   "updated": "2026-09-29",
+   "updatedTime": "2026-09-29 23:36",
+   "wordCount": 6805,
+   "desc": "- jiwei-wenhua 重构 v6.0.0（三端 md5 完全一致）：核心变为\"润色式录入\"——客户原话→润色成稳定客户摘要→拆分字段/互动/任务/关系→形成客户关注→Run"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-28.md",
+   "title": "2026-09-28 每日工作记录",
+   "updated": "2026-09-28",
+   "updatedTime": "2026-09-28 23:36",
+   "wordCount": 6107,
+   "desc": "- jiwei-wenhua 升级 v5.1.2（三端实测一致）：新增统一 levelevidence 等级证据包，等级判断必须引用客户摘要/客户关注/课程/咨询次数/累计消费等依"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-27.md",
+   "title": "2026-09-27 每日工作记录",
+   "updated": "2026-09-27",
+   "updatedTime": "2026-09-27 23:35",
+   "wordCount": 2906,
+   "desc": "- 移动版独立入口落地：保留网页版不动，新增 /mobile/ 独立移动端（给客户用），已发布并验证可访问（HTTP 200）"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-26.md",
+   "title": "2026-09-26 每日工作记录",
+   "updated": "2026-09-26",
+   "updatedTime": "2026-09-26 23:35",
+   "wordCount": 4236,
+   "desc": "- jiwei-wenhua 通用型 Skill v5.0.3 落地（昨天\"改通用型\"决策已实现：通用事实拆分、三层投影、sourcecoverage 事实覆盖门、L1-L5 质检"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-25.md",
+   "title": "2026-09-25 每日工作记录",
+   "updated": "2026-09-25",
+   "updatedTime": "2026-09-25 23:34",
+   "wordCount": 3567,
+   "desc": "- C018 邓莎莎录入验证：先删除→通用 Skill 重录→横向验收（主表 1 / 课程互动 2 / 预产期互动 1 / 跟进任务 1→3 / 客户关系 0→4）"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-24.md",
+   "title": "2026-09-24 每日工作记录",
+   "updated": "2026-09-24",
+   "updatedTime": "2026-09-24 23:39",
+   "wordCount": 5435,
+   "desc": "- 己未文化客户录入全量核实：按最新 jiwei-wenhua Skill 流程，把三段录音内容对照飞书 Base 主表/关系表/互动表/任务表逐条核对并修正（涉及 13 位客户）"
+  },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-23.md",
    "title": "2026-09-23｜多智能体工作记录",
@@ -17892,6 +18098,196 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "70_知识流水线/A_原始资料.md",
+   "title": "A_原始资料",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 12:46",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 23834,
+   "desc": "上级：70知识流水线/知识流水线"
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/外贸公司扫楼陌拜案例：卖家讲概念vs买家有认知——FDE销售沟通的反面教材.md",
+   "title": "外贸公司扫楼陌拜案例：卖家讲概念vs买家有认知——FDE销售沟通的反面教材",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 12:46",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 3687,
+   "desc": "上级：FDE企业真实落地案例库：按行业分类的企业AI落地实战"
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE企业真实落地案例库：按行业分类的企业AI落地实战.md",
+   "title": "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 12:45",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 4690,
+   "desc": "上级：企业AI与智能体商业化、知识库索引"
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-09-30｜抖音视频文案｜AI创业扫楼陌拜：外贸公司老板的真实反馈.md",
+   "title": "已整理｜2026-09-30｜抖音视频文案｜AI创业扫楼陌拜：外贸公司老板的真实反馈",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 12:44",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 957,
+   "desc": "核心观察："
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-30.md",
+   "title": "2026-09-30｜多智能体工作记录",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 12:39",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 2307,
+   "desc": "已修正 Skill 路径漂移，并通过 Obsidian CLI 写入规范路径。"
+  },
+  {
+   "path": "70_知识流水线/知识库Skills统一入口与分层.md",
+   "title": "知识库 Skills 统一入口与分层",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:52",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 1759,
+   "desc": "知识库相关能力统一由 WorkBuddy 主 Skill obsidian-knowledge-workflow 负责路由，不再让四个 Skill 各自维护独立流程。四个旧名称保留"
+  },
+  {
+   "path": "70_知识流水线/每日学习整理/2026-08-11｜AI知识增量整理.md",
+   "title": "2026-08-11｜AI知识增量整理",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:42",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 4363,
+   "desc": "上级：70知识流水线/AI知识自动化整理入口"
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/AI 原生企业管理系统（轻量版）/AI原生组织：从岗位到任务的底层变革（曾鸣）.md",
+   "title": "AI原生组织：从岗位到任务的底层变革（曾鸣）",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:42",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 2914,
+   "desc": "上级：企业AI与智能体商业化专题"
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE上线安全清单：从能跑到敢用的六道门自动化四级与可靠性服务目标.md",
+   "title": "FDE上线安全清单：从\"能跑\"到\"敢用\"的六道门、自动化四级与可靠性服务目标",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:42",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 5755,
+   "desc": "---|------|"
+  },
+  {
+   "path": "70_知识流水线/Jarvis知识增长工作流总规则-整理草稿.md",
+   "title": "Jarvis Office 知识增长工作流总规则（整理草稿）",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:42",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 3608,
+   "desc": "Jarvis Office 是由 DeepSeek Harness 驱动的知识增长执行体，其总规则把「资料进入 → 内容提炼 → 专题整合/知识巡检 → 知识增长」串成可回读、可暂"
+  },
+  {
+   "path": "70_知识流水线/YC开源QM多人在线Agent Harness对我们的启示.md",
+   "title": "YC开源QM：多人在线Agent Harness对我们与企业AI的启示",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:42",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 3243,
+   "desc": "过去一年几乎所有Agent都是\"个人助理模式\"：一个Agent服务一个人。QM 直接点出这套模式天花板——硬把一个助理Agent魔改成服务全公司，很快会变得极其复杂。"
+  },
+  {
+   "path": "70_知识流水线/个人级多Agent与多引擎搭配调研.md",
+   "title": "个人级多Agent与多引擎搭配调研（QM组织级之外的姊妹篇）",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:42",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 5555,
+   "desc": "个人级多Agent 的目标：让多个不同引擎（Claude / Codex / GPT / 本地模型）在同一个工作流里分工协作、结果互通、互相审阅，而不是各自孤岛、手动搬运。"
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/制造业AI落地的隐性鸿沟：非结构化信息、员工使用习惯与AI中间层解决方案.md",
+   "title": "制造业AI落地的隐性鸿沟：非结构化信息、员工使用习惯与AI中间层解决方案",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:42",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 4904,
+   "desc": "---|-------------------|----------------|"
+  },
+  {
+   "path": "40_专题知识库/AI Agent工程知识/知识管理与认知内化：从收藏癖到主动提取的知识库建设哲学.md",
+   "title": "知识管理与认知内化：从收藏癖到主动提取的知识库建设哲学",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:42",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 5922,
+   "desc": "------|---------|"
+  },
+  {
+   "path": "40_专题知识库/AI Agent工程知识/07_案例复盘与面试/高质量Agent项目六标准：从简历加分到生产级自评清单.md",
+   "title": "高质量Agent项目六标准：从简历加分到生产级自评清单",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:42",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 3907,
+   "desc": "---"
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/AI 原生企业管理系统（轻量版）/README.md",
+   "title": "AI 原生企业管理系统（轻量版）专题",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:16",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 1097,
+   "desc": "上级：企业AI与智能体商业化专题"
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-09-30｜视频核心内容提取｜曾鸣：AI原生组织的底层逻辑与搭建方向.md",
+   "title": "已整理｜2026-09-30｜视频核心内容提取｜曾鸣：AI原生组织的底层逻辑与搭建方向",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:14",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 379,
+   "desc": "- 核心洞察：AI原生组织不是\"AI+传统组织\"，而是从底层单元（岗位→任务）开始的重构"
+  },
+  {
+   "path": "70_知识流水线/增量整理/2026-09-30｜曾鸣AI原生组织｜增量整理.md",
+   "title": "曾鸣AI原生组织｜增量整理",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 06:14",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 749,
+   "desc": "这是一篇关于AI时代组织底层变革的宏观框架，核心洞察是组织基本单元从\"岗位\"变为\"任务\"。价值不在具体操作方法，而在认知框架的重构——它解释了为什么\"AI嵌入现有工作流\"只是过渡，"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-29.md",
+   "title": "2026-09-29 每日工作记录",
+   "updated": "2026-09-29",
+   "updatedTime": "2026-09-29 23:36",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 6805,
+   "desc": "- jiwei-wenhua 重构 v6.0.0（三端 md5 完全一致）：核心变为\"润色式录入\"——客户原话→润色成稳定客户摘要→拆分字段/互动/任务/关系→形成客户关注→Run"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-09-29｜AI知识增量整理.md",
    "title": "2026-09-29｜AI 知识增量整理",
    "updated": "2026-09-29",
@@ -17910,16 +18306,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "徐总每日随记",
    "wordCount": 4545,
    "desc": "- 情绪判断（原话）：\"最近不知道哪根筋不对，又开始花钱了，请别人吃饭。\""
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-28｜AI知识增量整理.md",
-   "title": "2026-09-28｜AI 知识增量整理",
-   "updated": "2026-09-28",
-   "updatedTime": "2026-09-28 23:02",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 1454,
-   "desc": "- 日期：2026-09-28"
   }
  ]
 };
