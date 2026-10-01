@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-10-01",
- "generatedTime": "2026-10-01 09:18",
+ "generatedTime": "2026-10-01 21:24",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 19,
- "weeklyChanges": 284,
+ "weeklyPages": 21,
+ "weeklyChanges": 290,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-30｜AI知识增量整理.md",
  "topics": [
@@ -12,7 +12,7 @@ window.OBSIDIAN_DATA = {
    "key": "agent",
    "icon": "🤖",
    "v3group": "core",
-   "count": 47
+   "count": 48
   },
   {
    "name": "企业AI与智能体商业化",
@@ -132,7 +132,7 @@ window.OBSIDIAN_DATA = {
    "icon": "🗂",
    "color": "raw",
    "v3group": "raw",
-   "count": 172
+   "count": 173
   }
  ],
  "nodes": [
@@ -742,6 +742,23 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "上级：AI Agent工程知识专题",
    "wordCount": 5535
+  },
+  {
+   "path": "40_专题知识库/AI Agent工程知识/04_知识库与记忆/生产级多轮Agent状态管理：从拼接历史对话到结构化状态与执行缓存.md",
+   "title": "生产级多轮Agent状态管理：从拼接历史对话到结构化状态与执行缓存",
+   "updated": "2026-10-01",
+   "updatedTime": "2026-10-01 21:19",
+   "topic": "agent",
+   "links": [
+    "AI Agent工程知识专题",
+    "生产级AI Agent记忆系统与Context调度",
+    "生产级AI Agent工程体系的完整链路",
+    "企业级知识基础设施架构：数据库、知识库、规则库（Ontology）与状态机",
+    "已整理｜2026-10-01｜抖音视频口播文案｜生产级多轮Agent：从拼接历史对话到状态管理与执行缓存"
+   ],
+   "backlinks": [],
+   "desc": "上级：AI Agent工程知识专题",
+   "wordCount": 4111
   },
   {
    "path": "40_专题知识库/AI Agent工程知识/04_知识库与记忆/生产级知识库工程的8大模块：数据·切分·索引·检索·生成·评估·工程·反馈.md",
@@ -5762,8 +5779,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
-   "updated": "2026-09-30",
-   "updatedTime": "2026-09-30 12:46",
+   "updated": "2026-10-01",
+   "updatedTime": "2026-10-01 21:20",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线",
@@ -5799,6 +5816,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-09-22｜IMA电力基建和算力｜一家倒卖Token的公司要被700亿卖了",
     "30_资料库/原始资料/已整理｜2026-09-22｜IMA电力基建和算力｜电力基建和算力（对话整理稿）",
     "30_资料库/原始资料/已整理｜2026-09-22｜IMA电力基建和算力｜首个全国产10万卡AI超集群正式投用",
+    "30_资料库/原始资料/已整理｜2026-10-01｜抖音视频口播文案｜生产级多轮Agent：从拼接历史对话到状态管理与执行缓存",
     "30_资料库/原始资料/已整理｜2026-09-30｜抖音视频文案｜AI创业扫楼陌拜：外贸公司老板的真实反馈",
     "30_资料库/原始资料/已整理｜2026-09-30｜视频核心内容提取｜曾鸣：AI原生组织的底层逻辑与搭建方向",
     "30_资料库/原始资料/已整理｜2026-09-25｜抖音视频文案｜系统说话方法论：从本质到五步实操",
@@ -6050,7 +6068,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-09-22｜IMA电力基建和算力｜首个全国产10万卡AI超集群正式投用.md"
    ],
    "desc": "上级：70知识流水线/知识流水线",
-   "wordCount": 23834
+   "wordCount": 24049
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -16331,6 +16349,19 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "- 核心洞察：AI原生组织不是\"AI+传统组织\"，而是从底层单元（岗位→任务）开始的重构",
    "wordCount": 379
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-10-01｜抖音视频口播文案｜生产级多轮Agent：从拼接历史对话到状态管理与执行缓存.md",
+   "title": "已整理｜2026-10-01｜抖音视频口播文案｜生产级多轮Agent：从拼接历史对话到状态管理与执行缓存",
+   "updated": "2026-10-01",
+   "updatedTime": "2026-10-01 21:18",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "这篇内容解决的是生产级Agent中一个非常具体但极其重要的问题：多轮对话中，大模型理解了上下文，但工具调用执行端没有理解，导致参数提取错误、调用失败。",
+   "wordCount": 673
   }
  ],
  "today": {
@@ -16491,7 +16522,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "模型与推理",
-   "matched": 63,
+   "matched": 64,
    "status": "已形成"
   },
   {
@@ -16501,17 +16532,17 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "Agent Runtime",
-   "matched": 34,
+   "matched": 35,
    "status": "已形成"
   },
   {
    "name": "工具与协议",
-   "matched": 13,
+   "matched": 14,
    "status": "已形成"
   },
   {
    "name": "记忆与上下文",
-   "matched": 24,
+   "matched": 25,
    "status": "已形成"
   },
   {
@@ -17893,7 +17924,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 127,
-  "fetchedAt": "2026年10月1日 09:18"
+  "fetchedAt": "2026年10月1日 21:24"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -18122,6 +18153,36 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "70_知识流水线/A_原始资料.md",
+   "title": "A_原始资料",
+   "updated": "2026-10-01",
+   "updatedTime": "2026-10-01 21:20",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 24049,
+   "desc": "上级：70知识流水线/知识流水线"
+  },
+  {
+   "path": "40_专题知识库/AI Agent工程知识/04_知识库与记忆/生产级多轮Agent状态管理：从拼接历史对话到结构化状态与执行缓存.md",
+   "title": "生产级多轮Agent状态管理：从拼接历史对话到结构化状态与执行缓存",
+   "updated": "2026-10-01",
+   "updatedTime": "2026-10-01 21:19",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 4111,
+   "desc": "上级：AI Agent工程知识专题"
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-10-01｜抖音视频口播文案｜生产级多轮Agent：从拼接历史对话到状态管理与执行缓存.md",
+   "title": "已整理｜2026-10-01｜抖音视频口播文案｜生产级多轮Agent：从拼接历史对话到状态管理与执行缓存",
+   "updated": "2026-10-01",
+   "updatedTime": "2026-10-01 21:18",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 673,
+   "desc": "这篇内容解决的是生产级Agent中一个非常具体但极其重要的问题：多轮对话中，大模型理解了上下文，但工具调用执行端没有理解，导致参数提取错误、调用失败。"
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-30.md",
    "title": "2026-09-30｜多智能体工作记录",
    "updated": "2026-09-30",
@@ -18140,16 +18201,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 3265,
    "desc": "- 日期：2026-09-30"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-09-30",
-   "updatedTime": "2026-09-30 12:46",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 23834,
-   "desc": "上级：70知识流水线/知识流水线"
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/外贸公司扫楼陌拜案例：卖家讲概念vs买家有认知——FDE销售沟通的反面教材.md",
