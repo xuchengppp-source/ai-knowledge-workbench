@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-09-30",
- "generatedTime": "2026-09-30 23:04",
+ "generatedAt": "2026-10-01",
+ "generatedTime": "2026-10-01 09:18",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 22,
- "weeklyChanges": 287,
+ "weeklyPages": 19,
+ "weeklyChanges": 284,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-09-30｜AI知识增量整理.md",
  "topics": [
@@ -12284,12 +12284,12 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-30.md",
    "title": "2026-09-30｜多智能体工作记录",
    "updated": "2026-09-30",
-   "updatedTime": "2026-09-30 12:39",
+   "updatedTime": "2026-09-30 23:33",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
    "desc": "已修正 Skill 路径漂移，并通过 Obsidian CLI 写入规范路径。",
-   "wordCount": 2307
+   "wordCount": 4775
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
@@ -17893,7 +17893,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 127,
-  "fetchedAt": "2026年9月30日 23:04"
+  "fetchedAt": "2026年10月1日 09:18"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -17939,8 +17939,8 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-30.md",
    "title": "2026-09-30｜多智能体工作记录",
    "updated": "2026-09-30",
-   "updatedTime": "2026-09-30 12:39",
-   "wordCount": 2307,
+   "updatedTime": "2026-09-30 23:33",
+   "wordCount": 4775,
    "desc": "已修正 Skill 路径漂移，并通过 Obsidian CLI 写入规范路径。"
   },
   {
@@ -18122,6 +18122,16 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-30.md",
+   "title": "2026-09-30｜多智能体工作记录",
+   "updated": "2026-09-30",
+   "updatedTime": "2026-09-30 23:33",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 4775,
+   "desc": "已修正 Skill 路径漂移，并通过 Obsidian CLI 写入规范路径。"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-09-30｜AI知识增量整理.md",
    "title": "2026-09-30｜AI知识增量整理",
    "updated": "2026-09-30",
@@ -18170,16 +18180,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "原始资料 / 养料",
    "wordCount": 957,
    "desc": "核心观察："
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-30.md",
-   "title": "2026-09-30｜多智能体工作记录",
-   "updated": "2026-09-30",
-   "updatedTime": "2026-09-30 12:39",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2307,
-   "desc": "已修正 Skill 路径漂移，并通过 Obsidian CLI 写入规范路径。"
   },
   {
    "path": "70_知识流水线/知识库Skills统一入口与分层.md",
@@ -18310,36 +18310,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 749,
    "desc": "这是一篇关于AI时代组织底层变革的宏观框架，核心洞察是组织基本单元从\"岗位\"变为\"任务\"。价值不在具体操作方法，而在认知框架的重构——它解释了为什么\"AI嵌入现有工作流\"只是过渡，"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-09-29.md",
-   "title": "2026-09-29 每日工作记录",
-   "updated": "2026-09-29",
-   "updatedTime": "2026-09-29 23:36",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 6805,
-   "desc": "- jiwei-wenhua 重构 v6.0.0（三端 md5 完全一致）：核心变为\"润色式录入\"——客户原话→润色成稳定客户摘要→拆分字段/互动/任务/关系→形成客户关注→Run"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-29｜AI知识增量整理.md",
-   "title": "2026-09-29｜AI 知识增量整理",
-   "updated": "2026-09-29",
-   "updatedTime": "2026-09-29 23:03",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 1741,
-   "desc": "- 日期：2026-09-29"
-  },
-  {
-   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-09-29.md",
-   "title": "2026-09-29",
-   "updated": "2026-09-29",
-   "updatedTime": "2026-09-29 11:45",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 4545,
-   "desc": "- 情绪判断（原话）：\"最近不知道哪根筋不对，又开始花钱了，请别人吃饭。\""
   }
  ]
 };
