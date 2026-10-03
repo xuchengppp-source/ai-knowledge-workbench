@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-10-02",
- "generatedTime": "2026-10-02 09:37",
+ "generatedAt": "2026-10-03",
+ "generatedTime": "2026-10-03 09:57",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 5,
- "weeklyChanges": 190,
+ "weeklyPages": 1,
+ "weeklyChanges": 0,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-01｜AI知识增量整理.md",
  "topics": [
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 43
+   "count": 44
   },
   {
    "name": "政府资源配置与政策落地",
@@ -12337,6 +12337,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 3737
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-02.md",
+   "title": "2026-10-02 每日工作记录",
+   "updated": "2026-10-02",
+   "updatedTime": "2026-10-02 23:34",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- jiwei-wenhua v6.0.4 多端同步核验完成：WorkBuddy、豆包助手、豆包工作、项目副本、部署包、两个交付文件夹共 8 份主 Skill 与录入契约核验一致（",
+   "wordCount": 2167
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
    "title": "每日工作记录说明",
    "updated": "2026-09-10",
@@ -16591,7 +16602,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 131,
+   "matched": 132,
    "status": "已形成"
   },
   {
@@ -17958,7 +17969,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 127,
-  "fetchedAt": "2026年10月2日 09:37"
+  "fetchedAt": "2026年10月3日 09:57"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -18000,6 +18011,14 @@ window.OBSIDIAN_DATA = {
   ]
  },
  "dailyWorkRecords": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-02.md",
+   "title": "2026-10-02 每日工作记录",
+   "updated": "2026-10-02",
+   "updatedTime": "2026-10-02 23:34",
+   "wordCount": 2167,
+   "desc": "- jiwei-wenhua v6.0.4 多端同步核验完成：WorkBuddy、豆包助手、豆包工作、项目副本、部署包、两个交付文件夹共 8 份主 Skill 与录入契约核验一致（"
+  },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-01.md",
    "title": "2026-10-01 每日工作记录",
@@ -18195,54 +18214,14 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-01.md",
-   "title": "2026-10-01 每日工作记录",
-   "updated": "2026-10-01",
-   "updatedTime": "2026-10-01 23:35",
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-02.md",
+   "title": "2026-10-02 每日工作记录",
+   "updated": "2026-10-02",
+   "updatedTime": "2026-10-02 23:34",
    "topic": "taskboard",
    "topicName": "任务面板与知识库",
-   "wordCount": 3737,
-   "desc": "- 己未录入多轮状态管理：按生产级多轮 Agent 四层架构重新设计（状态管理/工具调用/上下文组装/缓存），替代\"零散加规则\"（用户明确反对规则无限膨胀）"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-01｜AI知识增量整理.md",
-   "title": "2026-10-01｜AI知识增量整理",
-   "updated": "2026-10-01",
-   "updatedTime": "2026-10-01 23:03",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 2834,
-   "desc": "- 日期：2026-10-01"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-10-01",
-   "updatedTime": "2026-10-01 21:20",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 24049,
-   "desc": "上级：70知识流水线/知识流水线"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/04_知识库与记忆/生产级多轮Agent状态管理：从拼接历史对话到结构化状态与执行缓存.md",
-   "title": "生产级多轮Agent状态管理：从拼接历史对话到结构化状态与执行缓存",
-   "updated": "2026-10-01",
-   "updatedTime": "2026-10-01 21:19",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 4111,
-   "desc": "上级：AI Agent工程知识专题"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-10-01｜抖音视频口播文案｜生产级多轮Agent：从拼接历史对话到状态管理与执行缓存.md",
-   "title": "已整理｜2026-10-01｜抖音视频口播文案｜生产级多轮Agent：从拼接历史对话到状态管理与执行缓存",
-   "updated": "2026-10-01",
-   "updatedTime": "2026-10-01 21:18",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 673,
-   "desc": "这篇内容解决的是生产级Agent中一个非常具体但极其重要的问题：多轮对话中，大模型理解了上下文，但工具调用执行端没有理解，导致参数提取错误、调用失败。"
+   "wordCount": 2167,
+   "desc": "- jiwei-wenhua v6.0.4 多端同步核验完成：WorkBuddy、豆包助手、豆包工作、项目副本、部署包、两个交付文件夹共 8 份主 Skill 与录入契约核验一致（"
   }
  ]
 };
