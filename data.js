@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-10-04",
- "generatedTime": "2026-10-04 14:26",
+ "generatedTime": "2026-10-04 18:29",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 26,
- "weeklyChanges": 334,
+ "weeklyPages": 30,
+ "weeklyChanges": 393,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-03｜AI知识增量整理.md",
  "topics": [
@@ -132,7 +132,7 @@ window.OBSIDIAN_DATA = {
    "icon": "🗂",
    "color": "raw",
    "v3group": "raw",
-   "count": 179
+   "count": 182
   }
  ],
  "nodes": [
@@ -478,21 +478,20 @@ window.OBSIDIAN_DATA = {
   },
   {
    "path": "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
-   "title": "Agent系统架构模式选型：从单Agent到Graph Workflow",
+   "title": "企业业务型 AI Agent 怎么选架构：从业务确定性到生产复杂度",
    "updated": "2026-10-04",
-   "updatedTime": "2026-10-04 14:07",
+   "updatedTime": "2026-10-04 15:17",
    "topic": "agent",
    "links": [
-    "AI Agent工程知识专题",
-    "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/政务国企案例：345万央国企报销智能体——LangGraph多智能体+知识图谱规则引擎",
-    "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通",
-    "30_资料库/原始资料/已整理｜2026-08-06｜抖音豆包｜张宇技术栈Agent系统7种架构",
-    "生产级AI Agent知识体系总览：层级·特性·术语",
-    "生产级AI Agent工程体系的完整链路",
-    "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册"
+    "40_专题知识库/AI Agent工程知识/AI Agent工程知识专题",
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/生产级AI Agent工程体系的完整链路",
+    "30_资料库/原始资料/已整理｜2026-10-04｜ChatGPT｜企业AI Agent架构选型：业务确定性到生产复杂度",
+    "30_资料库/原始资料/已整理｜2026-10-04｜用户上传｜Agent系统架构模式选型原稿",
+    "30_资料库/原始资料/已整理｜2026-10-04｜用户补充｜Agent责任分类与业务型架构选型边界"
    ],
    "backlinks": [
     "40_专题知识库/AI Agent工程知识/AI Agent工程知识V3导航.md",
+    "40_专题知识库/AI Agent工程知识/AI Agent工程知识专题.md",
     "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册.md",
     "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/黄仁勋Harness工程论：企业AI落地的范式转移.md",
     "70_知识流水线/A_原始资料.md",
@@ -506,10 +505,13 @@ window.OBSIDIAN_DATA = {
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-08.md",
     "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-04.md",
     "30_资料库/原始资料/已整理｜2026-08-06｜抖音豆包｜张宇技术栈Agent系统7种架构.md",
-    "30_资料库/原始资料/已整理｜2026-08-07｜抖音豆包｜AI大模型果果姐AIAgent框架选错白忙三个月.md"
+    "30_资料库/原始资料/已整理｜2026-08-07｜抖音豆包｜AI大模型果果姐AIAgent框架选错白忙三个月.md",
+    "30_资料库/原始资料/已整理｜2026-10-04｜ChatGPT｜企业AI Agent架构选型：业务确定性到生产复杂度.md",
+    "30_资料库/原始资料/已整理｜2026-10-04｜用户上传｜Agent系统架构模式选型原稿.md",
+    "30_资料库/原始资料/已整理｜2026-10-04｜用户补充｜Agent责任分类与业务型架构选型边界.md"
    ],
-   "desc": "上级：AI Agent工程知识专题",
-   "wordCount": 8274
+   "desc": "上级：40专题知识库/AI Agent工程知识/AI Agent工程知识专题",
+   "wordCount": 12845
   },
   {
    "path": "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/从daily-work-summary实践看生产级AI工程化的通用标准.md",
@@ -565,6 +567,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [
     "40_专题知识库/AI Agent工程知识/01_基础概念与术语/AI Agent发展路径：从会说到会做再到能操作业务.md",
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
     "40_专题知识库/AI Agent工程知识/AI Agent工程知识V3导航.md",
     "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE生产级AI Agent五阶段方法论与AI基建协同.md",
     "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业AI与生产级Agent总框架.md",
@@ -1359,8 +1362,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/AI Agent工程知识/AI Agent工程知识专题.md",
    "title": "AI Agent 工程知识专题",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 01:58",
+   "updated": "2026-10-04",
+   "updatedTime": "2026-10-04 15:18",
    "topic": "agent",
    "links": [
     "徐总的知识库",
@@ -1368,9 +1371,10 @@ window.OBSIDIAN_DATA = {
     "企业AI与生产级Agent总框架",
     "AI Agent面试14题学习版：从概念到甘食记项目落地",
     "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业AI知识资产与RAG工程关系图",
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow",
+    "30_资料库/原始资料/已整理｜2026-10-04｜用户补充｜Agent责任分类与业务型架构选型边界",
     "生产级AI Agent知识体系总览：层级·特性·术语",
     "生产级AI Agent工程体系的完整链路",
-    "Agent系统架构模式选型：从单Agent到Graph Workflow",
     "工业级多智能体协作系统设计：任务编排、依赖治理与结果对齐",
     "企业级知识基础设施架构：数据库、知识库、规则库（Ontology）与状态机",
     "生产级AI Agent记忆系统与Context调度",
@@ -1390,6 +1394,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/甘食记经营日报：从 Prompt 规则到 MCP 流程控制器",
     "AI Agent全面理解",
     "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/生产级AI Agent的三层标准：方法标准、实现标准与对标标准",
+    "Agent系统架构模式选型：从单Agent到Graph Workflow",
     "20_工作与项目/DeepSeek Harness项目/DeepSeek Harness项目索引",
     "20_工作与项目/DeepSeek Harness项目/DeepSeek Harness项目记录",
     "Deepseek Harness：框架概念与专属智能体搭建",
@@ -1408,6 +1413,7 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "40_专题知识库/AI Agent工程知识/01_基础概念与术语/AI Agent发展路径：从会说到会做再到能操作业务.md",
     "40_专题知识库/AI Agent工程知识/02_业务语义与Ontology/Ontology基础概念：从本体论到企业业务对象.md",
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
     "40_专题知识库/AI Agent工程知识/05_多Agent与运行治理/为什么做多智能体：Codex内部多线程vs跨平台多智能体.md",
     "40_专题知识库/AI Agent工程知识/07_案例复盘与面试/AI模型选型与订阅历史.md",
     "40_专题知识库/AI Agent工程知识/07_案例复盘与面试/智能体使用逻辑问题复盘-垂直任务实践（旅行案例）.md",
@@ -1446,10 +1452,13 @@ window.OBSIDIAN_DATA = {
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-28.md",
     "20_工作与项目/DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南.md",
     "20_工作与项目/DeepSeek Harness项目/DeepSeek Harness项目记录.md",
-    "30_资料库/原始资料/已整理｜2026-08-06｜抖音豆包｜张宇技术栈Agent系统7种架构.md"
+    "30_资料库/原始资料/已整理｜2026-08-06｜抖音豆包｜张宇技术栈Agent系统7种架构.md",
+    "30_资料库/原始资料/已整理｜2026-10-04｜ChatGPT｜企业AI Agent架构选型：业务确定性到生产复杂度.md",
+    "30_资料库/原始资料/已整理｜2026-10-04｜用户上传｜Agent系统架构模式选型原稿.md",
+    "30_资料库/原始资料/已整理｜2026-10-04｜用户补充｜Agent责任分类与业务型架构选型边界.md"
    ],
    "desc": "上级：徐总的知识库",
-   "wordCount": 14582
+   "wordCount": 15225
   },
   {
    "path": "40_专题知识库/AI Agent工程知识/知识管理与认知内化：从收藏癖到主动提取的知识库建设哲学.md",
@@ -2056,10 +2065,10 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/附件/20261003-345万央国企报销智能体-架构原图.jpg"
    ],
    "backlinks": [
-    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
     "40_专题知识库/企业AI与智能体商业化/知识库索引.md",
     "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-03.md",
-    "30_资料库/原始资料/已整理｜2026-10-03｜抖音FDE实战课程｜345万央国企报销智能体项目完整拆解.md"
+    "30_资料库/原始资料/已整理｜2026-10-03｜抖音FDE实战课程｜345万央国企报销智能体项目完整拆解.md",
+    "30_资料库/原始资料/已整理｜2026-10-04｜用户上传｜Agent系统架构模式选型原稿.md"
    ],
    "desc": "上级：FDE企业真实落地案例库：按行业分类的企业AI落地实战、企业AI与智能体商业化",
    "wordCount": 8540
@@ -3037,8 +3046,8 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业AI从试点到可交付项目：商业化与组织落地实战"
    ],
    "backlinks": [
-    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
-    "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航.md"
+    "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航.md",
+    "30_资料库/原始资料/已整理｜2026-10-04｜用户上传｜Agent系统架构模式选型原稿.md"
    ],
    "desc": "上级：FDE企业真实落地案例库：按行业分类的企业AI落地实战",
    "wordCount": 13830
@@ -3299,10 +3308,10 @@ window.OBSIDIAN_DATA = {
     "60_问题与洞察/徐总问题专题库/02_企业AI与商业化/2026-09-08_生产级Agent形态选择与案例演进"
    ],
    "backlinks": [
-    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
     "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航.md",
     "70_知识流水线/候选知识与调用/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
-    "70_知识流水线/每日学习整理/2026-09-07｜AI知识增量整理.md"
+    "70_知识流水线/每日学习整理/2026-09-07｜AI知识增量整理.md",
+    "30_资料库/原始资料/已整理｜2026-10-04｜用户上传｜Agent系统架构模式选型原稿.md"
    ],
    "desc": "己未目前是内部实践与局部机制验证，不是已交付企业生产系统。现有框架、技能和虚构场景测试只能说明对应机制，不证明真实业务准确性、权限隔离、服务等级或通用行业能力。",
    "wordCount": 27484
@@ -5807,10 +5816,14 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
    "updated": "2026-10-04",
-   "updatedTime": "2026-10-04 14:23",
+   "updatedTime": "2026-10-04 15:18",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线",
+    "30_资料库/原始资料/已整理｜2026-10-04｜用户补充｜Agent责任分类与业务型架构选型边界",
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow",
+    "30_资料库/原始资料/已整理｜2026-10-04｜ChatGPT｜企业AI Agent架构选型：业务确定性到生产复杂度",
+    "30_资料库/原始资料/已整理｜2026-10-04｜用户上传｜Agent系统架构模式选型原稿",
     "40_专题知识库/AI产业链与数字基础设施/AI产业链与数字基础设施专题",
     "30_资料库/原始资料/已整理｜2026-10-04｜IMA笔记｜低空经济特许经营权",
     "30_资料库/原始资料/已整理｜2026-10-04｜IMA笔记｜空域协调与航线审批综合解决方案和咨询商",
@@ -5955,7 +5968,6 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-08-06｜抖音+ChatGPT｜专家搭建的Obsidian AI Knowledge OS",
     "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/斯坦福企业AI实战手册：51个成功样本与三档人机协作模式",
     "30_资料库/原始资料/已整理｜2026-08-15｜斯坦福｜Enterprise AI Playbook 企业AI实战手册51个成功落地项目",
-    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow",
     "40_专题知识库/AI Agent工程知识/01_基础概念与术语/AI Agent专业术语词典",
     "30_资料库/原始资料/已整理｜2026-08-06｜抖音豆包｜张宇技术栈Agent系统7种架构",
     "10_个人生活与个人管理/个人健康/体重管理",
@@ -6013,6 +6025,7 @@ window.OBSIDIAN_DATA = {
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-11.md",
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-12.md",
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-13.md",
+    "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-04.md",
     "90_系统与协作/豆包工作区/豆包对话归档工作流.md",
     "90_系统与协作/豆包工作区/豆包工作区.md",
     "30_资料库/原始资料/已整理｜2026-08-02｜抖音豆包衍生｜福建token工厂落地厦门.md",
@@ -6106,7 +6119,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-10-04｜公众号｜低空空域资源商业化案例解析（数据待核）.md"
    ],
    "desc": "上级：70知识流水线/知识流水线",
-   "wordCount": 25945
+   "wordCount": 26515
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -12486,14 +12499,16 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-04.md",
    "title": "2026-10-04 每日工作记录",
    "updated": "2026-10-04",
-   "updatedTime": "2026-10-04 14:07",
+   "updatedTime": "2026-10-04 15:18",
    "topic": "taskboard",
    "links": [
-    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow"
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow",
+    "70_知识流水线/A_原始资料",
+    "30_资料库/原始资料/已整理｜2026-10-04｜ChatGPT｜企业AI Agent架构选型：业务确定性到生产复杂度"
    ],
    "backlinks": [],
-   "desc": "- 已确认：用户要求面向外部企业交付，不以内部己未Demo作为架构/生产标准。",
-   "wordCount": 279
+   "desc": "- 后续补充：文章标题收敛为“企业业务型 AI Agent 怎么选架构”，增加责任分类与适用范围；工具型、业务型、经营总览型按主要责任区分，生产流水线和多Agent作为组合维度。原",
+   "wordCount": 798
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
@@ -14705,9 +14720,9 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/AI Agent工程知识/AI Agent工程知识专题"
    ],
    "backlinks": [
-    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
     "70_知识流水线/A_原始资料.md",
-    "70_知识流水线/每日学习整理/2026-08-07｜AI知识增量整理.md"
+    "70_知识流水线/每日学习整理/2026-08-07｜AI知识增量整理.md",
+    "30_资料库/原始资料/已整理｜2026-10-04｜用户上传｜Agent系统架构模式选型原稿.md"
    ],
    "desc": "上级：70知识流水线/A原始资料",
    "wordCount": 3086
@@ -16732,6 +16747,24 @@ window.OBSIDIAN_DATA = {
    "wordCount": 2516
   },
   {
+   "path": "30_资料库/原始资料/已整理｜2026-10-04｜ChatGPT｜企业AI Agent架构选型：业务确定性到生产复杂度.md",
+   "title": "企业 AI Agent 怎么选架构：从业务确定性到生产复杂度（ChatGPT原文）",
+   "updated": "2026-10-04",
+   "updatedTime": "2026-10-04 14:51",
+   "topic": "raw",
+   "links": [
+    "40_专题知识库/AI Agent工程知识/AI Agent工程知识专题",
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow"
+   ],
+   "backlinks": [
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
+    "70_知识流水线/A_原始资料.md",
+    "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-04.md"
+   ],
+   "desc": "归属：40专题知识库/AI Agent工程知识/AI Agent工程知识专题",
+   "wordCount": 6260
+  },
+  {
    "path": "30_资料库/原始资料/已整理｜2026-10-04｜IMA笔记｜低空经济特许经营权.md",
    "title": "低空经济特许经营权",
    "updated": "2026-10-04",
@@ -16819,6 +16852,48 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "上级：70知识流水线/A原始资料",
    "wordCount": 3739
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-10-04｜用户上传｜Agent系统架构模式选型原稿.md",
+   "title": "Agent系统架构模式选型：从单Agent到Graph Workflow（融合前原稿）",
+   "updated": "2026-10-04",
+   "updatedTime": "2026-10-04 14:51",
+   "topic": "raw",
+   "links": [
+    "40_专题知识库/AI Agent工程知识/AI Agent工程知识专题",
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow",
+    "AI Agent工程知识专题",
+    "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/政务国企案例：345万央国企报销智能体——LangGraph多智能体+知识图谱规则引擎",
+    "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/制造企业案例：汽车零部件企业AI数据分析系统——从数据孤岛到全链路打通",
+    "30_资料库/原始资料/已整理｜2026-08-06｜抖音豆包｜张宇技术栈Agent系统7种架构",
+    "生产级AI Agent知识体系总览：层级·特性·术语",
+    "生产级AI Agent工程体系的完整链路",
+    "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册"
+   ],
+   "backlinks": [
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "归属：40专题知识库/AI Agent工程知识/AI Agent工程知识专题",
+   "wordCount": 8526
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-10-04｜用户补充｜Agent责任分类与业务型架构选型边界.md",
+   "title": "Agent责任分类与业务型架构选型边界（用户原文）",
+   "updated": "2026-10-04",
+   "updatedTime": "2026-10-04 15:18",
+   "topic": "raw",
+   "links": [
+    "40_专题知识库/AI Agent工程知识/AI Agent工程知识专题",
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow"
+   ],
+   "backlinks": [
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
+    "40_专题知识库/AI Agent工程知识/AI Agent工程知识专题.md",
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "归属：40专题知识库/AI Agent工程知识/AI Agent工程知识专题",
+   "wordCount": 1627
   }
  ],
  "today": {
@@ -17067,12 +17142,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "数据与知识资产",
-   "matched": 157,
+   "matched": 161,
    "status": "已形成"
   },
   {
    "name": "Agent Runtime",
-   "matched": 35,
+   "matched": 38,
    "status": "已形成"
   },
   {
@@ -17097,12 +17172,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 136,
+   "matched": 135,
    "status": "已形成"
   },
   {
    "name": "商业化与组织能力",
-   "matched": 110,
+   "matched": 111,
    "status": "已形成"
   }
  ],
@@ -17275,7 +17350,7 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 91180,
+     "wordCount": 91255,
      "excerpt": "知识库索引（快速查找版）2026-09-10｜Agent知识库使用说明（新）00_入口与导航/知识库V3使用说明与案例：说明 V3 各层职责、项目/Taskboard/Obsidian 分工、原始资料→流水线→专题→资产",
      "hasBody": true
     },
@@ -18463,8 +18538,8 @@ window.OBSIDIAN_DATA = {
     "assignee": "Codex"
    }
   ],
-  "total": 127,
-  "fetchedAt": "2026年10月4日 14:26"
+  "total": 128,
+  "fetchedAt": "2026年10月4日 18:29"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -18510,9 +18585,9 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-04.md",
    "title": "2026-10-04 每日工作记录",
    "updated": "2026-10-04",
-   "updatedTime": "2026-10-04 14:07",
-   "wordCount": 279,
-   "desc": "- 已确认：用户要求面向外部企业交付，不以内部己未Demo作为架构/生产标准。"
+   "updatedTime": "2026-10-04 15:18",
+   "wordCount": 798,
+   "desc": "- 后续补充：文章标题收敛为“企业业务型 AI Agent 怎么选架构”，增加责任分类与适用范围；工具型、业务型、经营总览型按主要责任区分，生产流水线和多Agent作为组合维度。原"
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-03.md",
@@ -18725,14 +18800,74 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-04.md",
+   "title": "2026-10-04 每日工作记录",
+   "updated": "2026-10-04",
+   "updatedTime": "2026-10-04 15:18",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 798,
+   "desc": "- 后续补充：文章标题收敛为“企业业务型 AI Agent 怎么选架构”，增加责任分类与适用范围；工具型、业务型、经营总览型按主要责任区分，生产流水线和多Agent作为组合维度。原"
+  },
+  {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
    "updated": "2026-10-04",
-   "updatedTime": "2026-10-04 14:23",
+   "updatedTime": "2026-10-04 15:18",
    "topic": "pipeline",
    "topicName": "知识流水线",
-   "wordCount": 25945,
+   "wordCount": 26515,
    "desc": "上级：70知识流水线/知识流水线"
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-10-04｜用户补充｜Agent责任分类与业务型架构选型边界.md",
+   "title": "Agent责任分类与业务型架构选型边界（用户原文）",
+   "updated": "2026-10-04",
+   "updatedTime": "2026-10-04 15:18",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1627,
+   "desc": "归属：40专题知识库/AI Agent工程知识/AI Agent工程知识专题"
+  },
+  {
+   "path": "40_专题知识库/AI Agent工程知识/AI Agent工程知识专题.md",
+   "title": "AI Agent 工程知识专题",
+   "updated": "2026-10-04",
+   "updatedTime": "2026-10-04 15:18",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 15225,
+   "desc": "上级：徐总的知识库"
+  },
+  {
+   "path": "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
+   "title": "企业业务型 AI Agent 怎么选架构：从业务确定性到生产复杂度",
+   "updated": "2026-10-04",
+   "updatedTime": "2026-10-04 15:17",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 12845,
+   "desc": "上级：40专题知识库/AI Agent工程知识/AI Agent工程知识专题"
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-10-04｜用户上传｜Agent系统架构模式选型原稿.md",
+   "title": "Agent系统架构模式选型：从单Agent到Graph Workflow（融合前原稿）",
+   "updated": "2026-10-04",
+   "updatedTime": "2026-10-04 14:51",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 8526,
+   "desc": "归属：40专题知识库/AI Agent工程知识/AI Agent工程知识专题"
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-10-04｜ChatGPT｜企业AI Agent架构选型：业务确定性到生产复杂度.md",
+   "title": "企业 AI Agent 怎么选架构：从业务确定性到生产复杂度（ChatGPT原文）",
+   "updated": "2026-10-04",
+   "updatedTime": "2026-10-04 14:51",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 6260,
+   "desc": "归属：40专题知识库/AI Agent工程知识/AI Agent工程知识专题"
   },
   {
    "path": "40_专题知识库/低空经济/低空经济专题.md",
@@ -18803,26 +18938,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "原始资料 / 养料",
    "wordCount": 36362,
    "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-04.md",
-   "title": "2026-10-04 每日工作记录",
-   "updated": "2026-10-04",
-   "updatedTime": "2026-10-04 14:07",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 279,
-   "desc": "- 已确认：用户要求面向外部企业交付，不以内部己未Demo作为架构/生产标准。"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow.md",
-   "title": "Agent系统架构模式选型：从单Agent到Graph Workflow",
-   "updated": "2026-10-04",
-   "updatedTime": "2026-10-04 14:07",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 8274,
-   "desc": "上级：AI Agent工程知识专题"
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未文化咨询公司 FDE 落地与生产级 Agent 实战手册.md",
