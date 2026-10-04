@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-10-03",
- "generatedTime": "2026-10-03 23:04",
+ "generatedAt": "2026-10-04",
+ "generatedTime": "2026-10-04 10:23",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 13,
+ "weeklyPages": 12,
  "weeklyChanges": 262,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-03｜AI知识增量整理.md",
@@ -18169,7 +18169,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 127,
-  "fetchedAt": "2026年10月3日 23:04"
+  "fetchedAt": "2026年10月4日 10:23"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -18540,16 +18540,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 1878,
    "desc": "这是一份外部高压场景样本，不是方法论。它对本知识库的价值不在于提出新框架，而在于对既有判断做一次压力测试：贵州自驾（案例一~五）是\"单一旅行者 + 常态天气 + 非高峰\"，本文 5"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-02.md",
-   "title": "2026-10-02 每日工作记录",
-   "updated": "2026-10-02",
-   "updatedTime": "2026-10-02 23:34",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2167,
-   "desc": "- jiwei-wenhua v6.0.4 多端同步核验完成：WorkBuddy、豆包助手、豆包工作、项目副本、部署包、两个交付文件夹共 8 份主 Skill 与录入契约核验一致（"
   }
  ]
 };
