@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-10-04",
- "generatedTime": "2026-10-04 23:04",
+ "generatedAt": "2026-10-05",
+ "generatedTime": "2026-10-05 10:41",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 31,
- "weeklyChanges": 393,
+ "weeklyPages": 22,
+ "weeklyChanges": 335,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-04｜AI知识增量整理.md",
  "topics": [
@@ -18533,7 +18533,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 128,
-  "fetchedAt": "2026年10月4日 23:04"
+  "fetchedAt": "2026年10月5日 10:41"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -19012,96 +19012,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "原始资料 / 养料",
    "wordCount": 3739,
    "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-03｜AI知识增量整理.md",
-   "title": "2026-10-03｜AI知识增量整理",
-   "updated": "2026-10-03",
-   "updatedTime": "2026-10-03 23:03",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 5330,
-   "desc": "- 日期：2026-10-03"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-03.md",
-   "title": "2026-10-03 每日工作记录",
-   "updated": "2026-10-03",
-   "updatedTime": "2026-10-03 21:41",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 561,
-   "desc": "- 已确认：根据用户提供的课程架构截图，原样保存图片并核对现有案例；在原始纪要末尾追加截图转录，原正文未改写。"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/知识库索引.md",
-   "title": "知识库索引（快速查找版）",
-   "updated": "2026-10-03",
-   "updatedTime": "2026-10-03 18:56",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 32054,
-   "desc": "- 40专题知识库/企业AI与智能体商业化/01FDE与企业AI交付方法/政务国企案例：345万央国企报销智能体——LangGraph多智能体+知识图谱规则引擎：保存课程架构原图，"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/政务国企案例：345万央国企报销智能体——LangGraph多智能体+知识图谱规则引擎.md",
-   "title": "345万央国企报销智能体项目：LangGraph多智能体+知识图谱规则引擎",
-   "updated": "2026-10-03",
-   "updatedTime": "2026-10-03 18:54",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 8540,
-   "desc": "上级：FDE企业真实落地案例库：按行业分类的企业AI落地实战、企业AI与智能体商业化"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-10-03｜抖音FDE实战课程｜345万央国企报销智能体项目完整拆解.md",
-   "title": "FDE实战项目：345万预算央国企报销智能体项目完整拆解",
-   "updated": "2026-10-03",
-   "updatedTime": "2026-10-03 18:54",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2516,
-   "desc": "- 项目类型：央国企报销智能体"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE企业真实落地案例库：按行业分类的企业AI落地实战.md",
-   "title": "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
-   "updated": "2026-10-03",
-   "updatedTime": "2026-10-03 18:27",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 5368,
-   "desc": "上级：企业AI与智能体商业化、知识库索引"
-  },
-  {
-   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-09-30.md",
-   "title": "2026-09-30",
-   "updated": "2026-10-03",
-   "updatedTime": "2026-10-03 16:37",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 3928,
-   "desc": "- 外貌：徐总判断\"长相还是蛮符合我喜欢的那种感觉……虽然不是特别的圆润，但我觉得长得还可以\"。"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-10-03｜公众号｜国庆出游用AI第一批人已经被坑惨了.md",
-   "title": "国庆出游用AI，第一批人已经被坑惨了",
-   "updated": "2026-10-03",
-   "updatedTime": "2026-10-03 11:55",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 7892,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-10-03｜旅游AI攻略失效场景｜增量整理.md",
-   "title": "旅游AI攻略失效场景｜增量整理",
-   "updated": "2026-10-03",
-   "updatedTime": "2026-10-03 11:25",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 1878,
-   "desc": "这是一份外部高压场景样本，不是方法论。它对本知识库的价值不在于提出新框架，而在于对既有判断做一次压力测试：贵州自驾（案例一~五）是\"单一旅行者 + 常态天气 + 非高峰\"，本文 5"
   }
  ]
 };
