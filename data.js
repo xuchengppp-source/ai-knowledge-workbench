@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-10-05",
- "generatedTime": "2026-10-05 10:41",
+ "generatedTime": "2026-10-05 14:44",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 22,
- "weeklyChanges": 335,
+ "weeklyPages": 26,
+ "weeklyChanges": 444,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-04｜AI知识增量整理.md",
  "topics": [
@@ -19,7 +19,7 @@ window.OBSIDIAN_DATA = {
    "key": "enterprise",
    "icon": "🏢",
    "v3group": "core",
-   "count": 131
+   "count": 132
   },
   {
    "name": "AI产业链与数字基础设施",
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 46
+   "count": 47
   },
   {
    "name": "政府资源配置与政策落地",
@@ -132,7 +132,7 @@ window.OBSIDIAN_DATA = {
    "icon": "🗂",
    "color": "raw",
    "v3group": "raw",
-   "count": 182
+   "count": 183
   }
  ],
  "nodes": [
@@ -1841,6 +1841,29 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "日期：2026-06-01",
    "wordCount": 12402
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE四项核心工程能力：从做出智能体到做出生产级系统.md",
+   "title": "FDE四项核心工程能力：从做出智能体到做出生产级系统",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 14:05",
+   "topic": "enterprise",
+   "links": [
+    "企业AI与智能体商业化专题",
+    "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
+    "FDE与AI架构师核心资产能力",
+    "FDE上线安全清单：从能跑到敢用的六道门自动化四级与可靠性服务目标",
+    "生产级多轮Agent状态管理：从拼接历史对话到结构化状态与执行缓存",
+    "FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "政务国企案例：345万央国企报销智能体——LangGraph多智能体+知识图谱规则引擎",
+    "30_资料库/原始资料/已整理｜2026-10-04｜抖音分享｜FDE前线部署工程师的4项核心能力"
+   ],
+   "backlinks": [
+    "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：企业AI与智能体商业化专题、FDE企业真实落地案例库：按行业分类的企业AI落地实战",
+   "wordCount": 1704
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE在甲方搭建Ontology Objects的完整工作流（含客户沟通+行业语言对齐）.md",
@@ -4379,8 +4402,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题.md",
    "title": "企业 AI 与智能体商业化专题",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 00:30",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 14:06",
    "topic": "enterprise",
    "links": [
     "徐总的知识库",
@@ -4431,6 +4454,7 @@ window.OBSIDIAN_DATA = {
     "斯坦福企业AI实战手册：51个成功样本与三档人机协作模式",
     "FDE交付方法论与甘食记案例",
     "FDE与AI架构师核心资产能力",
+    "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE四项核心工程能力：从做出智能体到做出生产级系统",
     "己未文化咨询公司 FDE 落地与生产级 Agent 实战手册",
     "FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
     "餐饮经营智能体模板与FDE客户对接知识框架",
@@ -4541,7 +4565,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-08-15｜斯坦福｜Enterprise AI Playbook 企业AI实战手册51个成功落地项目.md"
    ],
    "desc": "上级：徐总的知识库",
-   "wordCount": 20531
+   "wordCount": 20702
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/原始资料/ChatGPT对话｜游戏公司AI组织落地｜2026-08-11.md",
@@ -5815,11 +5839,14 @@ window.OBSIDIAN_DATA = {
   {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
-   "updated": "2026-10-04",
-   "updatedTime": "2026-10-04 15:18",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 14:06",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线",
+    "30_资料库/原始资料/已整理｜2026-10-04｜抖音分享｜FDE前线部署工程师的4项核心能力",
+    "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE四项核心工程能力：从做出智能体到做出生产级系统",
+    "FDE与AI架构师核心资产能力",
     "30_资料库/原始资料/已整理｜2026-10-04｜用户补充｜Agent责任分类与业务型架构选型边界",
     "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/Agent系统架构模式选型：从单Agent到Graph Workflow",
     "30_资料库/原始资料/已整理｜2026-10-04｜ChatGPT｜企业AI Agent架构选型：业务确定性到生产复杂度",
@@ -6119,7 +6146,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-10-04｜公众号｜低空空域资源商业化案例解析（数据待核）.md"
    ],
    "desc": "上级：70知识流水线/知识流水线",
-   "wordCount": 26515
+   "wordCount": 26920
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -12522,6 +12549,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 798
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-05.md",
+   "title": "2026-10-05 每日工作记录",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 12:40",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- UU 远程控制安装请求：用户要求本机安装网易 UU 远程控制；已下载官方 pkg（uuyc4.42.0.pkg，88MB，~/Downloads/UU远程-4.42.0.pkg",
+   "wordCount": 1361
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
    "title": "每日工作记录说明",
    "updated": "2026-09-10",
@@ -16865,6 +16903,25 @@ window.OBSIDIAN_DATA = {
    "wordCount": 3739
   },
   {
+   "path": "30_资料库/原始资料/已整理｜2026-10-04｜抖音分享｜FDE前线部署工程师的4项核心能力.md",
+   "title": "FDE前线部署工程师的4项核心能力",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 14:04",
+   "topic": "raw",
+   "links": [
+    "FDE与AI架构师核心资产能力",
+    "FDE上线安全清单：从能跑到敢用的六道门自动化四级与可靠性服务目标",
+    "FDE生产级AI Agent五阶段方法论与AI基建协同",
+    "政务国企案例：345万央国企报销智能体——LangGraph多智能体+知识图谱规则引擎"
+   ],
+   "backlinks": [
+    "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE四项核心工程能力：从做出智能体到做出生产级系统.md",
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "来源：视频分享\"桓昭说企业增长\"，标题《FDE（前线部署工程师）的4项核心能力》。核心围绕 AI 企业落地项目中，合格 FDE 必须具备的 4 项关键能力展开。原始内容为完整提炼，",
+   "wordCount": 1391
+  },
+  {
    "path": "30_资料库/原始资料/已整理｜2026-10-04｜用户上传｜Agent系统架构模式选型原稿.md",
    "title": "Agent系统架构模式选型：从单Agent到Graph Workflow（融合前原稿）",
    "updated": "2026-10-04",
@@ -17166,12 +17223,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 135,
+   "matched": 137,
    "status": "已形成"
   },
   {
    "name": "商业化与组织能力",
-   "matched": 111,
+   "matched": 112,
    "status": "已形成"
   }
  ],
@@ -17965,7 +18022,7 @@ window.OBSIDIAN_DATA = {
      "path": "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题.md",
      "title": "企业AI与智能体商业化专题",
      "kind": "note",
-     "wordCount": 19228,
+     "wordCount": 19394,
      "excerpt": "企业 AI 与智能体商业化专题上级：徐总的知识库全局总框架入口：企业AI与生产级Agent总框架这个专题用于沉淀企业 AI、智能体、FDE、ToB AI 服务、科技咨询公司 AI 转型、企业流程 AI 化和 AI 商业化",
      "hasBody": true
     }
@@ -18533,7 +18590,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 128,
-  "fetchedAt": "2026年10月5日 10:41"
+  "fetchedAt": "2026年10月5日 14:44"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -18575,6 +18632,14 @@ window.OBSIDIAN_DATA = {
   ]
  },
  "dailyWorkRecords": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-05.md",
+   "title": "2026-10-05 每日工作记录",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 12:40",
+   "wordCount": 1361,
+   "desc": "- UU 远程控制安装请求：用户要求本机安装网易 UU 远程控制；已下载官方 pkg（uuyc4.42.0.pkg，88MB，~/Downloads/UU远程-4.42.0.pkg"
+  },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-04.md",
    "title": "2026-10-04 每日工作记录",
@@ -18794,6 +18859,56 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "70_知识流水线/A_原始资料.md",
+   "title": "A_原始资料",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 14:06",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 26920,
+   "desc": "上级：70知识流水线/知识流水线"
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+   "title": "企业 AI 与智能体商业化专题",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 14:06",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 20702,
+   "desc": "上级：徐总的知识库"
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE四项核心工程能力：从做出智能体到做出生产级系统.md",
+   "title": "FDE四项核心工程能力：从做出智能体到做出生产级系统",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 14:05",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 1704,
+   "desc": "上级：企业AI与智能体商业化专题、FDE企业真实落地案例库：按行业分类的企业AI落地实战"
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-10-04｜抖音分享｜FDE前线部署工程师的4项核心能力.md",
+   "title": "FDE前线部署工程师的4项核心能力",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 14:04",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1391,
+   "desc": "来源：视频分享\"桓昭说企业增长\"，标题《FDE（前线部署工程师）的4项核心能力》。核心围绕 AI 企业落地项目中，合格 FDE 必须具备的 4 项关键能力展开。原始内容为完整提炼，"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-05.md",
+   "title": "2026-10-05 每日工作记录",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 12:40",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 1361,
+   "desc": "- UU 远程控制安装请求：用户要求本机安装网易 UU 远程控制；已下载官方 pkg（uuyc4.42.0.pkg，88MB，~/Downloads/UU远程-4.42.0.pkg"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-10-04｜AI知识增量整理.md",
    "title": "2026-10-04｜AI 知识增量整理",
    "updated": "2026-10-04",
@@ -18812,16 +18927,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "任务面板与知识库",
    "wordCount": 798,
    "desc": "- 后续补充：文章标题收敛为“企业业务型 AI Agent 怎么选架构”，增加责任分类与适用范围；工具型、业务型、经营总览型按主要责任区分，生产流水线和多Agent作为组合维度。原"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-10-04",
-   "updatedTime": "2026-10-04 15:18",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 26515,
-   "desc": "上级：70知识流水线/知识流水线"
   },
   {
    "path": "30_资料库/原始资料/已整理｜2026-10-04｜用户补充｜Agent责任分类与业务型架构选型边界.md",
