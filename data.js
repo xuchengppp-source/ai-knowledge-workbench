@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-10-05",
- "generatedTime": "2026-10-05 14:44",
+ "generatedTime": "2026-10-05 18:47",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 26,
- "weeklyChanges": 444,
+ "weeklyPages": 30,
+ "weeklyChanges": 475,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-04｜AI知识增量整理.md",
  "topics": [
@@ -19,7 +19,7 @@ window.OBSIDIAN_DATA = {
    "key": "enterprise",
    "icon": "🏢",
    "v3group": "core",
-   "count": 132
+   "count": 133
   },
   {
    "name": "AI产业链与数字基础设施",
@@ -33,7 +33,7 @@ window.OBSIDIAN_DATA = {
    "key": "pipeline",
    "icon": "📚",
    "v3group": "pipeline",
-   "count": 190
+   "count": 191
   },
   {
    "name": "Codex 工作区",
@@ -132,7 +132,7 @@ window.OBSIDIAN_DATA = {
    "icon": "🗂",
    "color": "raw",
    "v3group": "raw",
-   "count": 183
+   "count": 185
   }
  ],
  "nodes": [
@@ -181,6 +181,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
     "40_专题知识库/企业AI与智能体商业化/原始资料/GPT对话原稿：企业级数据库与知识库架构边界.md",
     "70_知识流水线/A_原始资料.md",
+    "70_知识流水线/增量整理/2026-10-05｜MaaS与SaaS生产架构：控制面、权限隔离与Agent-Skill归纳.md",
     "70_知识流水线/知识库健康巡检.md",
     "70_知识流水线/知识库健康巡检执行规范.md",
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-09.md",
@@ -471,6 +472,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业AI从试点到可交付项目：商业化与组织落地实战.md",
     "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业AI落地的五堵墙+四层面系统工程+五层落地方法论.md",
     "70_知识流水线/候选知识与调用/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
+    "70_知识流水线/增量整理/2026-10-05｜MaaS与SaaS生产架构：控制面、权限隔离与Agent-Skill归纳.md",
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-13.md"
    ],
    "desc": "创建日期：2026-07-02",
@@ -2074,6 +2076,29 @@ window.OBSIDIAN_DATA = {
    "wordCount": 3687
   },
   {
+   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/平台型AI与定制Agent选型判断：数字员工还是AI生产线.md",
+   "title": "平台型AI与定制Agent选型判断：数字员工还是AI生产线",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 17:14",
+   "topic": "enterprise",
+   "links": [
+    "企业AI与智能体商业化专题",
+    "FDE企业真实落地案例库：按行业分类的企业AI落地实战",
+    "FDE四项核心工程能力：从做出智能体到做出生产级系统",
+    "Agent系统架构模式选型：从单Agent到Graph Workflow",
+    "政务国企案例：345万央国企报销智能体——LangGraph多智能体+知识图谱规则引擎",
+    "己未文化咨询公司 FDE 落地与生产级 Agent 实战手册",
+    "FDE交付方法论与甘食记案例",
+    "30_资料库/原始资料/已整理｜2026-10-05｜抖音分享｜有了WorkBuddy企业还需要定制Agent吗"
+   ],
+   "backlinks": [
+    "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "上级：企业AI与智能体商业化专题、FDE企业真实落地案例库：按行业分类的企业AI落地实战",
+   "wordCount": 2491
+  },
+  {
    "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/政务国企案例：345万央国企报销智能体——LangGraph多智能体+知识图谱规则引擎.md",
    "title": "345万央国企报销智能体项目：LangGraph多智能体+知识图谱规则引擎",
    "updated": "2026-10-03",
@@ -2658,9 +2683,12 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
     "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/黄仁勋Harness工程论：企业AI落地的范式转移.md",
     "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航.md",
+    "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题.md",
     "40_专题知识库/AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
     "40_专题知识库/AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
-    "70_知识流水线/原始项目备份/WikiLLM-main/徐总知识库备份说明.md"
+    "70_知识流水线/原始项目备份/WikiLLM-main/徐总知识库备份说明.md",
+    "70_知识流水线/增量整理/2026-10-05｜MaaS与SaaS生产架构：控制面、权限隔离与Agent-Skill归纳.md",
+    "30_资料库/原始资料/未整理｜2026-10-05｜ChatGPT｜MaaS与SaaS权限隔离及Agent平台生产架构讨论.md"
    ],
    "desc": "上级：企业AI与智能体商业化专题",
    "wordCount": 15370
@@ -4403,12 +4431,14 @@ window.OBSIDIAN_DATA = {
    "path": "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题.md",
    "title": "企业 AI 与智能体商业化专题",
    "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 14:06",
+   "updatedTime": "2026-10-05 17:15",
    "topic": "enterprise",
    "links": [
     "徐总的知识库",
     "企业AI与生产级Agent总框架",
     "00_入口与导航/企业AI与生产级Agent总框架关系图",
+    "70_知识流水线/增量整理/2026-10-05｜MaaS与SaaS生产架构：控制面、权限隔离与Agent-Skill归纳",
+    "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业智能体架构层次：框架、服务器、模型平台与业务系统",
     "40_专题知识库/AI Agent工程知识/AI Agent工程知识专题",
     "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业AI知识资产与RAG工程关系图",
     "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/零一万物企业AI落地专题",
@@ -4455,6 +4485,7 @@ window.OBSIDIAN_DATA = {
     "FDE交付方法论与甘食记案例",
     "FDE与AI架构师核心资产能力",
     "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE四项核心工程能力：从做出智能体到做出生产级系统",
+    "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/平台型AI与定制Agent选型判断：数字员工还是AI生产线",
     "己未文化咨询公司 FDE 落地与生产级 Agent 实战手册",
     "FDE与甲方沟通：从经营问题到业务闭环Agent与AI经营中枢",
     "餐饮经营智能体模板与FDE客户对接知识框架",
@@ -4539,6 +4570,7 @@ window.OBSIDIAN_DATA = {
     "70_知识流水线/AI知识自动化整理入口.md",
     "70_知识流水线/A_原始资料.md",
     "70_知识流水线/个人工作台设计与部署方法论.md",
+    "70_知识流水线/增量整理/2026-10-05｜MaaS与SaaS生产架构：控制面、权限隔离与Agent-Skill归纳.md",
     "70_知识流水线/每周知识复盘/2026-W31｜AI知识学习架构.md",
     "70_知识流水线/每日学习整理/2026-07-31｜AI知识增量整理.md",
     "70_知识流水线/每日学习整理/2026-08-01｜AI知识增量整理.md",
@@ -4562,10 +4594,11 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-08-03｜抖音豆包｜电网数字化是腐败重灾区.md",
     "30_资料库/原始资料/已整理｜2026-08-04｜抖音豆包｜NeoPicks聊了7个AI交付团队总结困难机会危机.md",
     "30_资料库/原始资料/已整理｜2026-08-05｜ChatGPT｜美团小团Agent架构与Ontology分析.md",
-    "30_资料库/原始资料/已整理｜2026-08-15｜斯坦福｜Enterprise AI Playbook 企业AI实战手册51个成功落地项目.md"
+    "30_资料库/原始资料/已整理｜2026-08-15｜斯坦福｜Enterprise AI Playbook 企业AI实战手册51个成功落地项目.md",
+    "30_资料库/原始资料/未整理｜2026-10-05｜ChatGPT｜MaaS与SaaS权限隔离及Agent平台生产架构讨论.md"
    ],
    "desc": "上级：徐总的知识库",
-   "wordCount": 20702
+   "wordCount": 21063
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/原始资料/ChatGPT对话｜游戏公司AI组织落地｜2026-08-11.md",
@@ -5840,10 +5873,15 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
    "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 14:06",
+   "updatedTime": "2026-10-05 17:14",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线",
+    "70_知识流水线/增量整理/2026-10-05｜MaaS与SaaS生产架构：控制面、权限隔离与Agent-Skill归纳",
+    "30_资料库/原始资料/未整理｜2026-10-05｜ChatGPT｜MaaS与SaaS权限隔离及Agent平台生产架构讨论",
+    "30_资料库/原始资料/已整理｜2026-10-05｜抖音分享｜有了WorkBuddy企业还需要定制Agent吗",
+    "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/平台型AI与定制Agent选型判断：数字员工还是AI生产线",
+    "Agent系统架构模式选型：从单Agent到Graph Workflow",
     "30_资料库/原始资料/已整理｜2026-10-04｜抖音分享｜FDE前线部署工程师的4项核心能力",
     "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE四项核心工程能力：从做出智能体到做出生产级系统",
     "FDE与AI架构师核心资产能力",
@@ -6146,7 +6184,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-10-04｜公众号｜低空空域资源商业化案例解析（数据待核）.md"
    ],
    "desc": "上级：70知识流水线/知识流水线",
-   "wordCount": 26920
+   "wordCount": 27655
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -7953,6 +7991,28 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "这份原始资料的价值分两层，必须分开对待：",
    "wordCount": 1847
+  },
+  {
+   "path": "70_知识流水线/增量整理/2026-10-05｜MaaS与SaaS生产架构：控制面、权限隔离与Agent-Skill归纳.md",
+   "title": "MaaS与SaaS生产架构：控制面、权限隔离与Agent-Skill归纳",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 16:53",
+   "topic": "pipeline",
+   "links": [
+    "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "30_资料库/原始资料/未整理｜2026-10-05｜ChatGPT｜MaaS与SaaS权限隔离及Agent平台生产架构讨论",
+    "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业智能体架构层次：框架、服务器、模型平台与业务系统",
+    "40_专题知识库/AI Agent工程知识/01_基础概念与术语/AI Agent专业术语词典",
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/AI Agent后端工程化能力框架：分布式、异步、状态与可运维"
+   ],
+   "backlinks": [
+    "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题.md",
+    "70_知识流水线/A_原始资料.md",
+    "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-05.md",
+    "30_资料库/原始资料/未整理｜2026-10-05｜ChatGPT｜MaaS与SaaS权限隔离及Agent平台生产架构讨论.md"
+   ],
+   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题",
+   "wordCount": 3824
   },
   {
    "path": "70_知识流水线/平板Obsidian每日轻量巡检员启动提示词.md",
@@ -12552,12 +12612,15 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-05.md",
    "title": "2026-10-05 每日工作记录",
    "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 12:40",
+   "updatedTime": "2026-10-05 16:54",
    "topic": "taskboard",
-   "links": [],
+   "links": [
+    "30_资料库/原始资料/未整理｜2026-10-05｜ChatGPT｜MaaS与SaaS权限隔离及Agent平台生产架构讨论",
+    "70_知识流水线/增量整理/2026-10-05｜MaaS与SaaS生产架构：控制面、权限隔离与Agent-Skill归纳"
+   ],
    "backlinks": [],
-   "desc": "- UU 远程控制安装请求：用户要求本机安装网易 UU 远程控制；已下载官方 pkg（uuyc4.42.0.pkg，88MB，~/Downloads/UU远程-4.42.0.pkg",
-   "wordCount": 1361
+   "desc": "- 用户要求先总结并定位知识库归属，取回“生产级AI agent 框架”会话后半段5轮10条原文；原文完整存于 30资料库/原始资料/未整理｜2026-10-05｜ChatGPT｜",
+   "wordCount": 1739
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
@@ -16962,6 +17025,45 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "归属：40专题知识库/AI Agent工程知识/AI Agent工程知识专题",
    "wordCount": 1627
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-10-05｜抖音分享｜有了WorkBuddy企业还需要定制Agent吗.md",
+   "title": "有了WorkBuddy，企业还需要定制Agent吗？",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 17:13",
+   "topic": "raw",
+   "links": [
+    "己未文化咨询公司 FDE 落地与生产级 Agent 实战手册",
+    "政务国企案例：345万央国企报销智能体——LangGraph多智能体+知识图谱规则引擎",
+    "FDE四项核心工程能力：从做出智能体到做出生产级系统",
+    "FDE与AI架构师核心资产能力",
+    "Agent系统架构模式选型：从单Agent到Graph Workflow"
+   ],
+   "backlinks": [
+    "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/平台型AI与定制Agent选型判断：数字员工还是AI生产线.md",
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "来源：视频分享，标题《有了WorkBuddy，企业还需要定制Agent吗？》。核心围绕 WorkBuddy 等平台型AI工具已经很强的情况下，企业是否还需要定制Agent展开。原始",
+   "wordCount": 2253
+  },
+  {
+   "path": "30_资料库/原始资料/未整理｜2026-10-05｜ChatGPT｜MaaS与SaaS权限隔离及Agent平台生产架构讨论.md",
+   "title": "MaaS与SaaS权限隔离及Agent平台生产架构讨论（原文）",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 16:53",
+   "topic": "raw",
+   "links": [
+    "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题",
+    "70_知识流水线/增量整理/2026-10-05｜MaaS与SaaS生产架构：控制面、权限隔离与Agent-Skill归纳",
+    "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业智能体架构层次：框架、服务器、模型平台与业务系统"
+   ],
+   "backlinks": [
+    "70_知识流水线/A_原始资料.md",
+    "70_知识流水线/增量整理/2026-10-05｜MaaS与SaaS生产架构：控制面、权限隔离与Agent-Skill归纳.md",
+    "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-05.md"
+   ],
+   "desc": "来源会话：[生产级AI agent 框架](chatgpt-conversation://6a2a3141-6278-83e8-b95b-b6f5bf5bf2f1)。2026-10",
+   "wordCount": 17184
   }
  ],
  "today": {
@@ -17193,7 +17295,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "数据与知识资产",
-   "matched": 161,
+   "matched": 163,
    "status": "已形成"
   },
   {
@@ -17213,7 +17315,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "安全、权限与治理",
-   "matched": 28,
+   "matched": 30,
    "status": "已形成"
   },
   {
@@ -17223,12 +17325,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 137,
+   "matched": 139,
    "status": "已形成"
   },
   {
    "name": "商业化与组织能力",
-   "matched": 112,
+   "matched": 114,
    "status": "已形成"
   }
  ],
@@ -17401,8 +17503,8 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 91255,
-     "excerpt": "知识库索引（快速查找版）2026-09-10｜Agent知识库使用说明（新）00_入口与导航/知识库V3使用说明与案例：说明 V3 各层职责、项目/Taskboard/Obsidian 分工、原始资料→流水线→专题→资产",
+     "wordCount": 91495,
+     "excerpt": "知识库索引（快速查找版）2026-10-05｜MaaS与SaaS生产架构讨论（增量整理候选）70_知识流水线/增量整理/2026-10-05｜MaaS与SaaS生产架构：控制面、权限隔离与Agent-Skill归纳：已保",
      "hasBody": true
     },
     {
@@ -18022,7 +18124,7 @@ window.OBSIDIAN_DATA = {
      "path": "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题.md",
      "title": "企业AI与智能体商业化专题",
      "kind": "note",
-     "wordCount": 19394,
+     "wordCount": 19742,
      "excerpt": "企业 AI 与智能体商业化专题上级：徐总的知识库全局总框架入口：企业AI与生产级Agent总框架这个专题用于沉淀企业 AI、智能体、FDE、ToB AI 服务、科技咨询公司 AI 转型、企业流程 AI 化和 AI 商业化",
      "hasBody": true
     }
@@ -18589,8 +18691,8 @@ window.OBSIDIAN_DATA = {
     "assignee": "Codex"
    }
   ],
-  "total": 128,
-  "fetchedAt": "2026年10月5日 14:44"
+  "total": 129,
+  "fetchedAt": "2026年10月5日 18:47"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -18636,9 +18738,9 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-05.md",
    "title": "2026-10-05 每日工作记录",
    "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 12:40",
-   "wordCount": 1361,
-   "desc": "- UU 远程控制安装请求：用户要求本机安装网易 UU 远程控制；已下载官方 pkg（uuyc4.42.0.pkg，88MB，~/Downloads/UU远程-4.42.0.pkg"
+   "updatedTime": "2026-10-05 16:54",
+   "wordCount": 1739,
+   "desc": "- 用户要求先总结并定位知识库归属，取回“生产级AI agent 框架”会话后半段5轮10条原文；原文完整存于 30资料库/原始资料/未整理｜2026-10-05｜ChatGPT｜"
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-04.md",
@@ -18859,24 +18961,74 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 14:06",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 26920,
-   "desc": "上级：70知识流水线/知识流水线"
-  },
-  {
    "path": "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题.md",
    "title": "企业 AI 与智能体商业化专题",
    "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 14:06",
+   "updatedTime": "2026-10-05 17:15",
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
-   "wordCount": 20702,
+   "wordCount": 21063,
    "desc": "上级：徐总的知识库"
+  },
+  {
+   "path": "70_知识流水线/A_原始资料.md",
+   "title": "A_原始资料",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 17:14",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 27655,
+   "desc": "上级：70知识流水线/知识流水线"
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/平台型AI与定制Agent选型判断：数字员工还是AI生产线.md",
+   "title": "平台型AI与定制Agent选型判断：数字员工还是AI生产线",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 17:14",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 2491,
+   "desc": "上级：企业AI与智能体商业化专题、FDE企业真实落地案例库：按行业分类的企业AI落地实战"
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-10-05｜抖音分享｜有了WorkBuddy企业还需要定制Agent吗.md",
+   "title": "有了WorkBuddy，企业还需要定制Agent吗？",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 17:13",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 2253,
+   "desc": "来源：视频分享，标题《有了WorkBuddy，企业还需要定制Agent吗？》。核心围绕 WorkBuddy 等平台型AI工具已经很强的情况下，企业是否还需要定制Agent展开。原始"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-05.md",
+   "title": "2026-10-05 每日工作记录",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 16:54",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 1739,
+   "desc": "- 用户要求先总结并定位知识库归属，取回“生产级AI agent 框架”会话后半段5轮10条原文；原文完整存于 30资料库/原始资料/未整理｜2026-10-05｜ChatGPT｜"
+  },
+  {
+   "path": "30_资料库/原始资料/未整理｜2026-10-05｜ChatGPT｜MaaS与SaaS权限隔离及Agent平台生产架构讨论.md",
+   "title": "MaaS与SaaS权限隔离及Agent平台生产架构讨论（原文）",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 16:53",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 17184,
+   "desc": "来源会话：[生产级AI agent 框架](chatgpt-conversation://6a2a3141-6278-83e8-b95b-b6f5bf5bf2f1)。2026-10"
+  },
+  {
+   "path": "70_知识流水线/增量整理/2026-10-05｜MaaS与SaaS生产架构：控制面、权限隔离与Agent-Skill归纳.md",
+   "title": "MaaS与SaaS生产架构：控制面、权限隔离与Agent-Skill归纳",
+   "updated": "2026-10-05",
+   "updatedTime": "2026-10-05 16:53",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 3824,
+   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题"
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/FDE四项核心工程能力：从做出智能体到做出生产级系统.md",
@@ -18897,16 +19049,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "原始资料 / 养料",
    "wordCount": 1391,
    "desc": "来源：视频分享\"桓昭说企业增长\"，标题《FDE（前线部署工程师）的4项核心能力》。核心围绕 AI 企业落地项目中，合格 FDE 必须具备的 4 项关键能力展开。原始内容为完整提炼，"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-05.md",
-   "title": "2026-10-05 每日工作记录",
-   "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 12:40",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 1361,
-   "desc": "- UU 远程控制安装请求：用户要求本机安装网易 UU 远程控制；已下载官方 pkg（uuyc4.42.0.pkg，88MB，~/Downloads/UU远程-4.42.0.pkg"
   },
   {
    "path": "70_知识流水线/每日学习整理/2026-10-04｜AI知识增量整理.md",
