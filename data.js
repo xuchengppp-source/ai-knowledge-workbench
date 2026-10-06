@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-10-06",
- "generatedTime": "2026-10-06 11:10",
+ "generatedTime": "2026-10-06 15:12",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 28,
- "weeklyChanges": 547,
+ "weeklyPages": 29,
+ "weeklyChanges": 553,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-05｜AI知识增量整理.md",
  "topics": [
@@ -12398,8 +12398,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "90_系统与协作/任务面板与知识库/方向推进与接力.md",
    "title": "方向推进与接力",
-   "updated": "2026-09-12",
-   "updatedTime": "2026-09-12 20:49",
+   "updated": "2026-10-06",
+   "updatedTime": "2026-10-06 12:46",
    "topic": "taskboard",
    "links": [
     "90_系统与协作/任务面板与知识库/00_总入口",
@@ -12421,7 +12421,7 @@ window.OBSIDIAN_DATA = {
     "20_工作与项目/DeepSeek Harness项目/DeepSeek Harness项目记录.md"
    ],
    "desc": "上级：90系统与协作/任务面板与知识库/00总入口、全局记忆/智能体启动与身份连续性统一合同",
-   "wordCount": 2854
+   "wordCount": 2765
   },
   {
    "path": "90_系统与协作/任务面板与知识库/智能体协作-任务面板操作手册.md",
@@ -12808,14 +12808,15 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-06.md",
    "title": "2026-10-06 每日工作记录",
    "updated": "2026-10-06",
-   "updatedTime": "2026-10-06 00:31",
+   "updatedTime": "2026-10-06 12:46",
    "topic": "taskboard",
    "links": [
-    "30_资料库/原始资料/未整理｜2026-10-06｜ChatGPT｜生产级AI框架既有讨论原文合卷"
+    "30_资料库/原始资料/未整理｜2026-10-06｜ChatGPT｜生产级AI框架既有讨论原文合卷",
+    "AI agent 文化咨询公司落地/build-records/20261006-己未文化知识录入链路审查与修复"
    ],
    "backlinks": [],
    "desc": "- 用户澄清范围为此前已取得内容；已保存 30资料库/原始资料/未整理｜2026-10-06｜ChatGPT｜生产级AI框架既有讨论原文合卷，包含10轮20条ChatGPT问答及用",
-   "wordCount": 247
+   "wordCount": 1631
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
@@ -19104,7 +19105,7 @@ window.OBSIDIAN_DATA = {
  "tasks": {
   "summary": {
    "in_progress": 18,
-   "todo": 18,
+   "todo": 19,
    "in_review": 17,
    "blocked": 1
   },
@@ -19122,6 +19123,13 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "urgent",
     "assignee": "伊森"
+   },
+   {
+    "id": "KP-165",
+    "title": "己未文化知识录入链路统一：原始资料、课程活动与前端",
+    "status": "todo",
+    "priority": "high",
+    "assignee": "Codex"
    },
    {
     "id": "KP-158",
@@ -19143,17 +19151,10 @@ window.OBSIDIAN_DATA = {
     "status": "in_review",
     "priority": "high",
     "assignee": "Codex"
-   },
-   {
-    "id": "KP-155",
-    "title": "本地关系入口原型",
-    "status": "in_progress",
-    "priority": "high",
-    "assignee": "Codex"
    }
   ],
-  "total": 131,
-  "fetchedAt": "2026年10月6日 11:10"
+  "total": 132,
+  "fetchedAt": "2026年10月6日 15:13"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -19199,8 +19200,8 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-06.md",
    "title": "2026-10-06 每日工作记录",
    "updated": "2026-10-06",
-   "updatedTime": "2026-10-06 00:31",
-   "wordCount": 247,
+   "updatedTime": "2026-10-06 12:46",
+   "wordCount": 1631,
    "desc": "- 用户澄清范围为此前已取得内容；已保存 30资料库/原始资料/未整理｜2026-10-06｜ChatGPT｜生产级AI框架既有讨论原文合卷，包含10轮20条ChatGPT问答及用"
   },
   {
@@ -19430,6 +19431,26 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-06.md",
+   "title": "2026-10-06 每日工作记录",
+   "updated": "2026-10-06",
+   "updatedTime": "2026-10-06 12:46",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 1631,
+   "desc": "- 用户澄清范围为此前已取得内容；已保存 30资料库/原始资料/未整理｜2026-10-06｜ChatGPT｜生产级AI框架既有讨论原文合卷，包含10轮20条ChatGPT问答及用"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/方向推进与接力.md",
+   "title": "方向推进与接力",
+   "updated": "2026-10-06",
+   "updatedTime": "2026-10-06 12:46",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 2765,
+   "desc": "上级：90系统与协作/任务面板与知识库/00总入口、全局记忆/智能体启动与身份连续性统一合同"
+  },
+  {
    "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/企业级MaaS架构与落地路径：从六个案例看AI控制面的具象化.md",
    "title": "企业级 MaaS 架构与落地路径",
    "updated": "2026-10-06",
@@ -19508,16 +19529,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 29101,
    "desc": "上级：70知识流水线/知识流水线"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-06.md",
-   "title": "2026-10-06 每日工作记录",
-   "updated": "2026-10-06",
-   "updatedTime": "2026-10-06 00:31",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 247,
-   "desc": "- 用户澄清范围为此前已取得内容；已保存 30资料库/原始资料/未整理｜2026-10-06｜ChatGPT｜生产级AI框架既有讨论原文合卷，包含10轮20条ChatGPT问答及用"
   },
   {
    "path": "30_资料库/原始资料/已整理｜2026-10-05｜ChatGPT｜MaaS与SaaS权限隔离及Agent平台生产架构讨论.md",
