@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-10-06",
- "generatedTime": "2026-10-06 23:05",
+ "generatedAt": "2026-10-07",
+ "generatedTime": "2026-10-07 11:27",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 30,
- "weeklyChanges": 553,
+ "weeklyPages": 15,
+ "weeklyChanges": 373,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-06｜AI知识增量整理.md",
  "topics": [
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 48
+   "count": 49
   },
   {
    "name": "政府资源配置与政策落地",
@@ -12409,8 +12409,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "90_系统与协作/任务面板与知识库/方向推进与接力.md",
    "title": "方向推进与接力",
-   "updated": "2026-10-06",
-   "updatedTime": "2026-10-06 12:46",
+   "updated": "2026-10-07",
+   "updatedTime": "2026-10-07 11:15",
    "topic": "taskboard",
    "links": [
     "90_系统与协作/任务面板与知识库/00_总入口",
@@ -12432,7 +12432,7 @@ window.OBSIDIAN_DATA = {
     "20_工作与项目/DeepSeek Harness项目/DeepSeek Harness项目记录.md"
    ],
    "desc": "上级：90系统与协作/任务面板与知识库/00总入口、全局记忆/智能体启动与身份连续性统一合同",
-   "wordCount": 2765
+   "wordCount": 2770
   },
   {
    "path": "90_系统与协作/任务面板与知识库/智能体协作-任务面板操作手册.md",
@@ -12819,7 +12819,7 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-06.md",
    "title": "2026-10-06 每日工作记录",
    "updated": "2026-10-06",
-   "updatedTime": "2026-10-06 12:46",
+   "updatedTime": "2026-10-06 23:34",
    "topic": "taskboard",
    "links": [
     "30_资料库/原始资料/未整理｜2026-10-06｜ChatGPT｜生产级AI框架既有讨论原文合卷",
@@ -12827,7 +12827,18 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "- 用户澄清范围为此前已取得内容；已保存 30资料库/原始资料/未整理｜2026-10-06｜ChatGPT｜生产级AI框架既有讨论原文合卷，包含10轮20条ChatGPT问答及用",
-   "wordCount": 1631
+   "wordCount": 2788
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-07.md",
+   "title": "2026-10-07 每日工作记录",
+   "updated": "2026-10-07",
+   "updatedTime": "2026-10-07 11:17",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 用户纠正本次任务范围：不是只修第23期海报，而是审查整个己未文化知识库的内容逻辑、重复建设与呈现入口。",
+   "wordCount": 861
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
@@ -17784,7 +17795,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "数据与知识资产",
-   "matched": 164,
+   "matched": 165,
    "status": "已形成"
   },
   {
@@ -19181,7 +19192,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 132,
-  "fetchedAt": "2026年10月6日 23:05"
+  "fetchedAt": "2026年10月7日 11:27"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -19224,11 +19235,19 @@ window.OBSIDIAN_DATA = {
  },
  "dailyWorkRecords": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-07.md",
+   "title": "2026-10-07 每日工作记录",
+   "updated": "2026-10-07",
+   "updatedTime": "2026-10-07 11:17",
+   "wordCount": 861,
+   "desc": "- 用户纠正本次任务范围：不是只修第23期海报，而是审查整个己未文化知识库的内容逻辑、重复建设与呈现入口。"
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-06.md",
    "title": "2026-10-06 每日工作记录",
    "updated": "2026-10-06",
-   "updatedTime": "2026-10-06 12:46",
-   "wordCount": 1631,
+   "updatedTime": "2026-10-06 23:34",
+   "wordCount": 2788,
    "desc": "- 用户澄清范围为此前已取得内容；已保存 30资料库/原始资料/未整理｜2026-10-06｜ChatGPT｜生产级AI框架既有讨论原文合卷，包含10轮20条ChatGPT问答及用"
   },
   {
@@ -19458,6 +19477,36 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-07.md",
+   "title": "2026-10-07 每日工作记录",
+   "updated": "2026-10-07",
+   "updatedTime": "2026-10-07 11:17",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 861,
+   "desc": "- 用户纠正本次任务范围：不是只修第23期海报，而是审查整个己未文化知识库的内容逻辑、重复建设与呈现入口。"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/方向推进与接力.md",
+   "title": "方向推进与接力",
+   "updated": "2026-10-07",
+   "updatedTime": "2026-10-07 11:15",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 2770,
+   "desc": "上级：90系统与协作/任务面板与知识库/00总入口、全局记忆/智能体启动与身份连续性统一合同"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-06.md",
+   "title": "2026-10-06 每日工作记录",
+   "updated": "2026-10-06",
+   "updatedTime": "2026-10-06 23:34",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 2788,
+   "desc": "- 用户澄清范围为此前已取得内容；已保存 30资料库/原始资料/未整理｜2026-10-06｜ChatGPT｜生产级AI框架既有讨论原文合卷，包含10轮20条ChatGPT问答及用"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-10-06｜AI知识增量整理.md",
    "title": "2026-10-06｜AI 知识增量整理",
    "updated": "2026-10-06",
@@ -19466,26 +19515,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 4036,
    "desc": "- 日期：2026-10-06"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-06.md",
-   "title": "2026-10-06 每日工作记录",
-   "updated": "2026-10-06",
-   "updatedTime": "2026-10-06 12:46",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 1631,
-   "desc": "- 用户澄清范围为此前已取得内容；已保存 30资料库/原始资料/未整理｜2026-10-06｜ChatGPT｜生产级AI框架既有讨论原文合卷，包含10轮20条ChatGPT问答及用"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/方向推进与接力.md",
-   "title": "方向推进与接力",
-   "updated": "2026-10-06",
-   "updatedTime": "2026-10-06 12:46",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2765,
-   "desc": "上级：90系统与协作/任务面板与知识库/00总入口、全局记忆/智能体启动与身份连续性统一合同"
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/企业级MaaS架构与落地路径：从六个案例看AI控制面的具象化.md",
@@ -19596,166 +19625,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "原始资料 / 养料",
    "wordCount": 972,
    "desc": "原文合卷入口：30资料库/原始资料/未整理｜2026-10-06｜ChatGPT｜生产级AI框架既有讨论原文合卷（2026-10-06，按用户要求归拢此前内容；本页底稿原文保留）。"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-05.md",
-   "title": "2026-10-05 每日工作记录",
-   "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 23:34",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 5611,
-   "desc": "- 用户确认“统一骨架↔案例↔招标交付↔验收证据”为核心用途，完整原文已存 30资料库/原始资料/已整理｜2026-10-05｜用户确认｜统一骨架与跨行业AI工程判断洞察。"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-05｜AI知识增量整理.md",
-   "title": "2026-10-05｜AI知识增量整理",
-   "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 23:05",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 6300,
-   "desc": "- 日期：2026-10-05"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/企业生产级AI体系框架：从基础设施到智能体与业务应用.md",
-   "title": "企业生产级AI体系框架：从基础设施到智能体与业务应用",
-   "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 22:11",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 13565,
-   "desc": "上级：40专题知识库/AI Agent工程知识/AI Agent工程知识专题。"
-  },
-  {
-   "path": "60_问题与洞察/我的洞察/README.md",
-   "title": "我的洞察",
-   "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 22:11",
-   "topic": "myinsights",
-   "topicName": "我的洞察",
-   "wordCount": 186,
-   "desc": "跨专题洞察和主体研究线入口。"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/生产级AI Agent的三层标准：方法标准、实现标准与对标标准.md",
-   "title": "生产级 AI Agent 的三层标准：方法标准、实现标准与对标标准",
-   "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 22:11",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 4404,
-   "desc": "创建日期：2026-07-01"
-  },
-  {
-   "path": "60_问题与洞察/我的洞察/会话洞察/2026-10-05-统一骨架如何形成跨行业AI架构识别与生产判断力.md",
-   "title": "统一骨架如何形成跨行业AI架构识别与生产判断力",
-   "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 22:09",
-   "topic": "myinsights",
-   "topicName": "我的洞察",
-   "wordCount": 2013,
-   "desc": "上级：60问题与洞察/我的洞察/README。"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/01_基础概念与术语/生产级AI Agent知识体系总览：层级·特性·术语.md",
-   "title": "生产级 AI Agent 知识体系总览：层级·特性·术语（含 Palantir Ontology 对标）",
-   "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 21:57",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 45143,
-   "desc": "定位：本页属于 企业AI与生产级Agent总框架 中的工程定义线。它负责定义生产级 Agent 的概念、标准、能力链路和验收口径；甘食记、美团、咨询公司、制造业等案例属于业务落地线"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/AI Agent工程知识专题.md",
-   "title": "AI Agent 工程知识专题",
-   "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 21:56",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 15395,
-   "desc": "上级：徐总的知识库"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业AI平台架构：业务工作台、统一控制面与运行服务.md",
-   "title": "企业AI平台架构：业务工作台、统一控制面与运行服务",
-   "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 21:56",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 4769,
-   "desc": "体系位置：40专题知识库/AI Agent工程知识/03生产级工程与架构/企业生产级AI体系框架：从基础设施到智能体与业务应用 是从基础设施与服务供给到业务应用的整体骨架；本页细化"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-10-05｜对话整理｜企业级MaaS架构与落地路径：从六个案例看AI控制面的具象化.md",
-   "title": "企业级MaaS架构与落地路径：从六个案例看AI控制面的具象化",
-   "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 21:00",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 12453,
-   "desc": "来源：2026-10-05 徐总与豆包的深度对话整理。核心围绕\"MaaS到底是什么、怎么搭、什么时候需要、市场上有什么工具可以用\"展开，通过六个实际案例（己未文化、科技咨询公司、U"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-10-05｜MaaS与SaaS生产架构：控制面、权限隔离与Agent-Skill归纳.md",
-   "title": "MaaS与SaaS生产架构：控制面、权限隔离与Agent-Skill归纳",
-   "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 20:41",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3917,
-   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业AI蓝图：经营、知识、AI架构与工程.md",
-   "title": "企业AI蓝图：经营、知识、AI架构与工程",
-   "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 20:41",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 4520,
-   "desc": "上级：企业AI与智能体商业化专题"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业智能体架构层次：框架、服务器、模型平台与业务系统.md",
-   "title": "企业智能体架构层次：框架、服务器、模型平台与业务系统",
-   "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 20:40",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 15523,
-   "desc": "上级：企业AI与智能体商业化专题"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/平台型AI与定制Agent选型判断：数字员工还是AI生产线.md",
-   "title": "平台型AI与定制Agent选型判断：数字员工还是AI生产线",
-   "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 17:14",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 2491,
-   "desc": "上级：企业AI与智能体商业化专题、FDE企业真实落地案例库：按行业分类的企业AI落地实战"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-10-05｜抖音分享｜有了WorkBuddy企业还需要定制Agent吗.md",
-   "title": "有了WorkBuddy，企业还需要定制Agent吗？",
-   "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 17:13",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2253,
-   "desc": "来源：视频分享，标题《有了WorkBuddy，企业还需要定制Agent吗？》。核心围绕 WorkBuddy 等平台型AI工具已经很强的情况下，企业是否还需要定制Agent展开。原始"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-10-04｜抖音分享｜FDE前线部署工程师的4项核心能力.md",
-   "title": "FDE前线部署工程师的4项核心能力",
-   "updated": "2026-10-05",
-   "updatedTime": "2026-10-05 14:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1391,
-   "desc": "来源：视频分享\"桓昭说企业增长\"，标题《FDE（前线部署工程师）的4项核心能力》。核心围绕 AI 企业落地项目中，合格 FDE 必须具备的 4 项关键能力展开。原始内容为完整提炼，"
   }
  ]
 };
