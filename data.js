@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-10-07",
- "generatedTime": "2026-10-07 23:07",
+ "generatedTime": "2026-10-07 23:40",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 37,
  "weeklyChanges": 749,
@@ -13032,7 +13032,7 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-07.md",
    "title": "2026-10-07 每日工作记录",
    "updated": "2026-10-07",
-   "updatedTime": "2026-10-07 22:00",
+   "updatedTime": "2026-10-07 23:36",
    "topic": "taskboard",
    "links": [
     "30_资料库/原始资料/已整理｜2026-10-07｜用户粘贴｜企业AI生产体系三坐标、业务形态与工程职责原文",
@@ -13042,7 +13042,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "- 已读方向页，当前活跃方向8条：企业AI与FDE落地方法论、AI Agent工程知识、DeepSeek Harness工程实验、生产级Agent运行治理/Ontology、任务面",
-   "wordCount": 7889
+   "wordCount": 5341
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
@@ -19550,7 +19550,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 133,
-  "fetchedAt": "2026年10月7日 23:07"
+  "fetchedAt": "2026年10月7日 23:40"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -19596,8 +19596,8 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-07.md",
    "title": "2026-10-07 每日工作记录",
    "updated": "2026-10-07",
-   "updatedTime": "2026-10-07 22:00",
-   "wordCount": 7889,
+   "updatedTime": "2026-10-07 23:36",
+   "wordCount": 5341,
    "desc": "- 已读方向页，当前活跃方向8条：企业AI与FDE落地方法论、AI Agent工程知识、DeepSeek Harness工程实验、生产级Agent运行治理/Ontology、任务面"
   },
   {
@@ -19835,6 +19835,16 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-07.md",
+   "title": "2026-10-07 每日工作记录",
+   "updated": "2026-10-07",
+   "updatedTime": "2026-10-07 23:36",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 5341,
+   "desc": "- 已读方向页，当前活跃方向8条：企业AI与FDE落地方法论、AI Agent工程知识、DeepSeek Harness工程实验、生产级Agent运行治理/Ontology、任务面"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-10-07｜AI知识增量整理.md",
    "title": "2026-10-07｜AI 知识增量整理",
    "updated": "2026-10-07",
@@ -19843,16 +19853,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 5496,
    "desc": "- 日期：2026-10-07"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-07.md",
-   "title": "2026-10-07 每日工作记录",
-   "updated": "2026-10-07",
-   "updatedTime": "2026-10-07 22:00",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 7889,
-   "desc": "- 已读方向页，当前活跃方向8条：企业AI与FDE落地方法论、AI Agent工程知识、DeepSeek Harness工程实验、生产级Agent运行治理/Ontology、任务面"
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/零一万物CTO视角：从万策概念到私有化部署与数据库工程.md",
