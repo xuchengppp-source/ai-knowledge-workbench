@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-10-10",
- "generatedTime": "2026-10-10 23:03",
+ "generatedAt": "2026-10-11",
+ "generatedTime": "2026-10-11 08:42",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 11,
- "weeklyChanges": 302,
+ "weeklyPages": 1,
+ "weeklyChanges": 0,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-10｜AI知识增量整理.md",
  "topics": [
@@ -19841,7 +19841,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 133,
-  "fetchedAt": "2026年10月10日 23:03"
+  "fetchedAt": "2026年10月11日 08:42"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -20150,106 +20150,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 1536,
    "desc": "- 日期：2026-10-10"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-09｜AI知识增量整理.md",
-   "title": "2026-10-09｜AI知识增量整理",
-   "updated": "2026-10-09",
-   "updatedTime": "2026-10-09 23:04",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3446,
-   "desc": "- 日期：2026-10-09"
-  },
-  {
-   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-10-09.md",
-   "title": "2026-10-09",
-   "updated": "2026-10-09",
-   "updatedTime": "2026-10-09 21:09",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 2943,
-   "desc": "- 今天是 40 岁生日（原话：\"我都是已经 40 岁的人了，真的感慨万千\"）。"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-10-09",
-   "updatedTime": "2026-10-09 17:06",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 32353,
-   "desc": "上级：70知识流水线/知识流水线"
-  },
-  {
-   "path": "60_问题与洞察/我的洞察/AI商业化生态研究线：从六种形态到三条路径的商业判断.md",
-   "title": "AI商业化生态研究线：从六种形态到三条路径的商业判断",
-   "updated": "2026-10-09",
-   "updatedTime": "2026-10-09 17:05",
-   "topic": "myinsights",
-   "topicName": "我的洞察",
-   "wordCount": 9929,
-   "desc": "------|------|------|"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-10-09｜用户提供｜企业AI落地分类框架：四个层次、三个独立工程难度与生产级重新定义.md",
-   "title": "企业AI落地分类框架：四个层次、三个独立工程难度与生产级重新定义",
-   "updated": "2026-10-09",
-   "updatedTime": "2026-10-09 17:05",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 7063,
-   "desc": "- 来源：徐总与豆包关于企业AI落地分类框架的深入对话整理"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/2026年AI商业化生态认知框架：从六种形态到三条路径的商业判断.md",
-   "title": "2026年AI商业化生态认知框架：从六种形态到三条路径的商业判断",
-   "updated": "2026-10-09",
-   "updatedTime": "2026-10-09 17:04",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 14185,
-   "desc": "上级：企业AI与智能体商业化"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/知识库索引.md",
-   "title": "知识库索引（快速查找版）",
-   "updated": "2026-10-09",
-   "updatedTime": "2026-10-09 16:55",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 33862,
-   "desc": "- 40专题知识库/企业AI与智能体商业化/2026年AI商业化生态认知框架：从六种形态到三条路径的商业判断：建立2026年AI商业化生态的完整认知框架——六种商业形态（AI工具/"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-10-09｜用户提供｜2026年AI商业化生态：到底应该做什么样的AI业务.md",
-   "title": "2026年AI商业化生态：到底应该做什么样的AI业务",
-   "updated": "2026-10-09",
-   "updatedTime": "2026-10-09 16:52",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 9987,
-   "desc": "- 来源：用户提供的完整文章"
-  },
-  {
-   "path": "60_问题与洞察/我的洞察/README.md",
-   "title": "我的洞察",
-   "updated": "2026-10-09",
-   "updatedTime": "2026-10-09 16:51",
-   "topic": "myinsights",
-   "topicName": "我的洞察",
-   "wordCount": 421,
-   "desc": "跨专题洞察和主体研究线入口。"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-09.md",
-   "title": "2026-10-09 每日工作记录",
-   "updated": "2026-10-09",
-   "updatedTime": "2026-10-09 12:35",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 555,
-   "desc": "- 承接 Dashboard「总览大盘」静态渲染定位：AI 只做展示层静态渲染，不深入二级详情页（[查看] 展开的深度档案）做强推演，避免信息缺失下的强行生成（已确认，assist"
   }
  ]
 };
