@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-10-12",
- "generatedTime": "2026-10-12 23:03",
+ "generatedAt": "2026-10-13",
+ "generatedTime": "2026-10-13 13:13",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 2,
- "weeklyChanges": 4,
+ "weeklyChanges": 2,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-12｜AI知识增量整理.md",
  "topics": [
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 51
+   "count": 52
   },
   {
    "name": "政府资源配置与政策落地",
@@ -13289,6 +13289,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 555
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-13.md",
+   "title": "2026-10-13 每日工作记录",
+   "updated": "2026-10-13",
+   "updatedTime": "2026-10-13 12:32",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 知识资产沉淀规则确认：CEO 提到的公司层面信息（非仅客户字段）应沉淀到知识资产/知识库，专门设条目保存；与客户相关的信息即时录入客户字段/客户摘要/客户关注；agents 定",
+   "wordCount": 602
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
    "title": "每日工作记录说明",
    "updated": "2026-09-10",
@@ -18360,7 +18371,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "数据与知识资产",
-   "matched": 172,
+   "matched": 173,
    "status": "已形成"
   },
   {
@@ -19757,7 +19768,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 133,
-  "fetchedAt": "2026年10月12日 23:03"
+  "fetchedAt": "2026年10月13日 13:13"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -19799,6 +19810,14 @@ window.OBSIDIAN_DATA = {
   ]
  },
  "dailyWorkRecords": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-13.md",
+   "title": "2026-10-13 每日工作记录",
+   "updated": "2026-10-13",
+   "updatedTime": "2026-10-13 12:32",
+   "wordCount": 602,
+   "desc": "- 知识资产沉淀规则确认：CEO 提到的公司层面信息（非仅客户字段）应沉淀到知识资产/知识库，专门设条目保存；与客户相关的信息即时录入客户字段/客户摘要/客户关注；agents 定"
+  },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-09.md",
    "title": "2026-10-09 每日工作记录",
@@ -20058,6 +20077,16 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-13.md",
+   "title": "2026-10-13 每日工作记录",
+   "updated": "2026-10-13",
+   "updatedTime": "2026-10-13 12:32",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 602,
+   "desc": "- 知识资产沉淀规则确认：CEO 提到的公司层面信息（非仅客户字段）应沉淀到知识资产/知识库，专门设条目保存；与客户相关的信息即时录入客户字段/客户摘要/客户关注；agents 定"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-10-12｜AI知识增量整理.md",
    "title": "2026-10-12｜AI知识增量整理",
    "updated": "2026-10-12",
@@ -20065,16 +20094,6 @@ window.OBSIDIAN_DATA = {
    "topic": "pipeline",
    "topicName": "知识流水线",
    "wordCount": 1322,
-   "desc": "上级：70知识流水线/AI知识自动化整理入口"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-11｜AI知识增量整理.md",
-   "title": "2026-10-11｜AI知识增量整理",
-   "updated": "2026-10-11",
-   "updatedTime": "2026-10-11 23:02",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 1389,
    "desc": "上级：70知识流水线/AI知识自动化整理入口"
   }
  ]
