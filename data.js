@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-10-14",
- "generatedTime": "2026-10-14 23:06",
+ "generatedAt": "2026-10-15",
+ "generatedTime": "2026-10-15 14:00",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 4,
- "weeklyChanges": 4,
+ "weeklyPages": 3,
+ "weeklyChanges": 2,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-14｜AI知识增量整理.md",
  "topics": [
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 53
+   "count": 54
   },
   {
    "name": "政府资源配置与政策落地",
@@ -13333,12 +13333,23 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-14.md",
    "title": "2026-10-14 每日工作记录",
    "updated": "2026-10-14",
-   "updatedTime": "2026-10-14 12:37",
+   "updatedTime": "2026-10-14 23:37",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
-   "desc": "午间增量：Codex 1 个活跃会话（美签面谈准备），豆包工作 0 会话。",
-   "wordCount": 765
+   "desc": "晚间完整总结：5 个活跃会话——豆包工作 2（美签面谈准备、己未文化 CRM）、Codex 3（美签准备持续会话、美签完整面谈模拟、Harness 复核 Skill 诊断）。",
+   "wordCount": 4076
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-15.md",
+   "title": "2026-10-15 每日工作记录",
+   "updated": "2026-10-15",
+   "updatedTime": "2026-10-15 12:36",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "午间增量：豆包工作 3 个活跃会话（美签面谈准备、美签文件清单、己未文化 CRM），Codex 2 个活跃会话（Harness 复核 Skill/己未移动端、美签完整面谈模拟）。",
+   "wordCount": 1636
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
@@ -19717,7 +19728,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 133,
-  "fetchedAt": "2026年10月14日 23:06"
+  "fetchedAt": "2026年10月15日 14:00"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -19760,12 +19771,20 @@ window.OBSIDIAN_DATA = {
  },
  "dailyWorkRecords": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-15.md",
+   "title": "2026-10-15 每日工作记录",
+   "updated": "2026-10-15",
+   "updatedTime": "2026-10-15 12:36",
+   "wordCount": 1636,
+   "desc": "午间增量：豆包工作 3 个活跃会话（美签面谈准备、美签文件清单、己未文化 CRM），Codex 2 个活跃会话（Harness 复核 Skill/己未移动端、美签完整面谈模拟）。"
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-14.md",
    "title": "2026-10-14 每日工作记录",
    "updated": "2026-10-14",
-   "updatedTime": "2026-10-14 12:37",
-   "wordCount": 765,
-   "desc": "午间增量：Codex 1 个活跃会话（美签面谈准备），豆包工作 0 会话。"
+   "updatedTime": "2026-10-14 23:37",
+   "wordCount": 4076,
+   "desc": "晚间完整总结：5 个活跃会话——豆包工作 2（美签面谈准备、己未文化 CRM）、Codex 3（美签准备持续会话、美签完整面谈模拟、Harness 复核 Skill 诊断）。"
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-13.md",
@@ -20034,6 +20053,26 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-15.md",
+   "title": "2026-10-15 每日工作记录",
+   "updated": "2026-10-15",
+   "updatedTime": "2026-10-15 12:36",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 1636,
+   "desc": "午间增量：豆包工作 3 个活跃会话（美签面谈准备、美签文件清单、己未文化 CRM），Codex 2 个活跃会话（Harness 复核 Skill/己未移动端、美签完整面谈模拟）。"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-14.md",
+   "title": "2026-10-14 每日工作记录",
+   "updated": "2026-10-14",
+   "updatedTime": "2026-10-14 23:37",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 4076,
+   "desc": "晚间完整总结：5 个活跃会话——豆包工作 2（美签面谈准备、己未文化 CRM）、Codex 3（美签准备持续会话、美签完整面谈模拟、Harness 复核 Skill 诊断）。"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-10-14｜AI知识增量整理.md",
    "title": "2026-10-14｜AI知识增量整理",
    "updated": "2026-10-14",
@@ -20041,36 +20080,6 @@ window.OBSIDIAN_DATA = {
    "topic": "pipeline",
    "topicName": "知识流水线",
    "wordCount": 1898,
-   "desc": "上级：70知识流水线/AI知识自动化整理入口"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-14.md",
-   "title": "2026-10-14 每日工作记录",
-   "updated": "2026-10-14",
-   "updatedTime": "2026-10-14 12:37",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 765,
-   "desc": "午间增量：Codex 1 个活跃会话（美签面谈准备），豆包工作 0 会话。"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-13.md",
-   "title": "2026-10-13 每日工作记录",
-   "updated": "2026-10-13",
-   "updatedTime": "2026-10-13 23:37",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 1600,
-   "desc": "- 知识资产沉淀规则确认：CEO 提到的公司层面信息（非仅客户字段）应沉淀到知识资产/知识库，专门设条目保存；与客户相关的信息即时录入客户字段/客户摘要/客户关注；agents 定"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-13｜AI知识增量整理.md",
-   "title": "2026-10-13｜AI知识增量整理",
-   "updated": "2026-10-13",
-   "updatedTime": "2026-10-13 23:02",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 1712,
    "desc": "上级：70知识流水线/AI知识自动化整理入口"
   }
  ]
