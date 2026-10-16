@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-10-15",
- "generatedTime": "2026-10-15 23:04",
+ "generatedAt": "2026-10-16",
+ "generatedTime": "2026-10-16 10:13",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 4,
- "weeklyChanges": 4,
+ "weeklyPages": 2,
+ "weeklyChanges": 2,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-15｜AI知识增量整理.md",
  "topics": [
@@ -13359,12 +13359,12 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-15.md",
    "title": "2026-10-15 每日工作记录",
    "updated": "2026-10-15",
-   "updatedTime": "2026-10-15 12:36",
+   "updatedTime": "2026-10-15 23:34",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
-   "desc": "午间增量：豆包工作 3 个活跃会话（美签面谈准备、美签文件清单、己未文化 CRM），Codex 2 个活跃会话（Harness 复核 Skill/己未移动端、美签完整面谈模拟）。",
-   "wordCount": 1636
+   "desc": "晚间完整总结：豆包工作 3 个活跃会话（美签面谈准备、美签文件清单、己未文化 CRM），Codex 3 个活跃会话（己未移动端/网页清理及前端发布、美签完整面谈模拟，含 1 个派生",
+   "wordCount": 3525
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
@@ -19718,7 +19718,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 133,
-  "fetchedAt": "2026年10月15日 23:04"
+  "fetchedAt": "2026年10月16日 10:13"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -19764,9 +19764,9 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-15.md",
    "title": "2026-10-15 每日工作记录",
    "updated": "2026-10-15",
-   "updatedTime": "2026-10-15 12:36",
-   "wordCount": 1636,
-   "desc": "午间增量：豆包工作 3 个活跃会话（美签面谈准备、美签文件清单、己未文化 CRM），Codex 2 个活跃会话（Harness 复核 Skill/己未移动端、美签完整面谈模拟）。"
+   "updatedTime": "2026-10-15 23:34",
+   "wordCount": 3525,
+   "desc": "晚间完整总结：豆包工作 3 个活跃会话（美签面谈准备、美签文件清单、己未文化 CRM），Codex 3 个活跃会话（己未移动端/网页清理及前端发布、美签完整面谈模拟，含 1 个派生"
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-14.md",
@@ -20043,6 +20043,16 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-15.md",
+   "title": "2026-10-15 每日工作记录",
+   "updated": "2026-10-15",
+   "updatedTime": "2026-10-15 23:34",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 3525,
+   "desc": "晚间完整总结：豆包工作 3 个活跃会话（美签面谈准备、美签文件清单、己未文化 CRM），Codex 3 个活跃会话（己未移动端/网页清理及前端发布、美签完整面谈模拟，含 1 个派生"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-10-15｜AI知识增量整理.md",
    "title": "2026-10-15｜AI知识增量整理",
    "updated": "2026-10-15",
@@ -20050,36 +20060,6 @@ window.OBSIDIAN_DATA = {
    "topic": "pipeline",
    "topicName": "知识流水线",
    "wordCount": 2064,
-   "desc": "上级：70知识流水线/AI知识自动化整理入口"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-15.md",
-   "title": "2026-10-15 每日工作记录",
-   "updated": "2026-10-15",
-   "updatedTime": "2026-10-15 12:36",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 1636,
-   "desc": "午间增量：豆包工作 3 个活跃会话（美签面谈准备、美签文件清单、己未文化 CRM），Codex 2 个活跃会话（Harness 复核 Skill/己未移动端、美签完整面谈模拟）。"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-14.md",
-   "title": "2026-10-14 每日工作记录",
-   "updated": "2026-10-14",
-   "updatedTime": "2026-10-14 23:37",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 4076,
-   "desc": "晚间完整总结：5 个活跃会话——豆包工作 2（美签面谈准备、己未文化 CRM）、Codex 3（美签准备持续会话、美签完整面谈模拟、Harness 复核 Skill 诊断）。"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-14｜AI知识增量整理.md",
-   "title": "2026-10-14｜AI知识增量整理",
-   "updated": "2026-10-14",
-   "updatedTime": "2026-10-14 23:05",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 1898,
    "desc": "上级：70知识流水线/AI知识自动化整理入口"
   }
  ]
