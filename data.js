@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-10-16",
- "generatedTime": "2026-10-16 10:13",
+ "generatedTime": "2026-10-16 14:18",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 2,
- "weeklyChanges": 2,
+ "weeklyPages": 3,
+ "weeklyChanges": 4,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-15｜AI知识增量整理.md",
  "topics": [
@@ -96,7 +96,7 @@ window.OBSIDIAN_DATA = {
    "key": "notes",
    "icon": "📝",
    "v3group": "personal",
-   "count": 48
+   "count": 49
   },
   {
    "name": "豆包工作区",
@@ -14846,6 +14846,20 @@ window.OBSIDIAN_DATA = {
    "wordCount": 2943
   },
   {
+   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-10-16.md",
+   "title": "2026-10-16",
+   "updated": "2026-10-16",
+   "updatedTime": "2026-10-16 13:34",
+   "topic": "notes",
+   "links": [
+    "10_个人生活与个人管理/个人出行/美签/美签管理",
+    "10_个人生活与个人管理/徐总每日随记/徐总每日随记"
+   ],
+   "backlinks": [],
+   "desc": "- 窗口区间：约 36~40 号，一楼。",
+   "wordCount": 5016
+  },
+  {
    "path": "10_个人生活与个人管理/徐总每日随记/当日记录/当日记录说明.md",
    "title": "当日记录说明",
    "updated": "2026-09-09",
@@ -14883,6 +14897,7 @@ window.OBSIDIAN_DATA = {
     "10_个人生活与个人管理/徐总每日随记/当日记录/2026-09-29.md",
     "10_个人生活与个人管理/徐总每日随记/当日记录/2026-09-30.md",
     "10_个人生活与个人管理/徐总每日随记/当日记录/2026-10-09.md",
+    "10_个人生活与个人管理/徐总每日随记/当日记录/2026-10-16.md",
     "10_个人生活与个人管理/徐总每日随记/当日记录/当日记录说明.md",
     "10_个人生活与个人管理/徐总每日随记/月度复盘/月度复盘说明.md",
     "10_个人生活与个人管理/徐总每日随记/随记收件箱/随记收件箱说明.md",
@@ -19718,7 +19733,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 133,
-  "fetchedAt": "2026年10月16日 10:13"
+  "fetchedAt": "2026年10月16日 14:18"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -20042,6 +20057,16 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "recentUpdates": [
+  {
+   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-10-16.md",
+   "title": "2026-10-16",
+   "updated": "2026-10-16",
+   "updatedTime": "2026-10-16 13:34",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 5016,
+   "desc": "- 窗口区间：约 36~40 号，一楼。"
+  },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-15.md",
    "title": "2026-10-15 每日工作记录",
