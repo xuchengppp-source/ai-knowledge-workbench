@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-10-16",
- "generatedTime": "2026-10-16 23:03",
+ "generatedAt": "2026-10-17",
+ "generatedTime": "2026-10-17 10:35",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 5,
- "weeklyChanges": 12,
+ "weeklyPages": 4,
+ "weeklyChanges": 10,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-16｜AI知识增量整理.md",
  "topics": [
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 54
+   "count": 55
   },
   {
    "name": "政府资源配置与政策落地",
@@ -13381,6 +13381,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 3525
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-16.md",
+   "title": "2026-10-16｜多智能体工作记录",
+   "updated": "2026-10-16",
+   "updatedTime": "2026-10-16 23:33",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "晚间完整总结：今天为北京美签面签日（安家楼），面谈现场通过、新护照被收走、实际共问七题。豆包工作 1 个会话（面签复盘口述 + 抖音搜索验证），Codex 1 个会话（美签复盘整理",
+   "wordCount": 3732
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
    "title": "每日工作记录说明",
    "updated": "2026-09-10",
@@ -19721,7 +19732,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 133,
-  "fetchedAt": "2026年10月16日 23:03"
+  "fetchedAt": "2026年10月17日 10:35"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -19763,6 +19774,14 @@ window.OBSIDIAN_DATA = {
   ]
  },
  "dailyWorkRecords": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-16.md",
+   "title": "2026-10-16｜多智能体工作记录",
+   "updated": "2026-10-16",
+   "updatedTime": "2026-10-16 23:33",
+   "wordCount": 3732,
+   "desc": "晚间完整总结：今天为北京美签面签日（安家楼），面谈现场通过、新护照被收走、实际共问七题。豆包工作 1 个会话（面签复盘口述 + 抖音搜索验证），Codex 1 个会话（美签复盘整理"
+  },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-15.md",
    "title": "2026-10-15 每日工作记录",
@@ -20046,6 +20065,16 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-16.md",
+   "title": "2026-10-16｜多智能体工作记录",
+   "updated": "2026-10-16",
+   "updatedTime": "2026-10-16 23:33",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 3732,
+   "desc": "晚间完整总结：今天为北京美签面签日（安家楼），面谈现场通过、新护照被收走、实际共问七题。豆包工作 1 个会话（面签复盘口述 + 抖音搜索验证），Codex 1 个会话（美签复盘整理"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-10-16｜AI知识增量整理.md",
    "title": "2026-10-16 AI知识增量整理",
    "updated": "2026-10-16",
@@ -20074,26 +20103,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "徐总每日随记",
    "wordCount": 2689,
    "desc": "上级：徐总的知识库"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-15.md",
-   "title": "2026-10-15 每日工作记录",
-   "updated": "2026-10-15",
-   "updatedTime": "2026-10-15 23:34",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 3525,
-   "desc": "晚间完整总结：豆包工作 3 个活跃会话（美签面谈准备、美签文件清单、己未文化 CRM），Codex 3 个活跃会话（己未移动端/网页清理及前端发布、美签完整面谈模拟，含 1 个派生"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-15｜AI知识增量整理.md",
-   "title": "2026-10-15｜AI知识增量整理",
-   "updated": "2026-10-15",
-   "updatedTime": "2026-10-15 23:03",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 2064,
-   "desc": "上级：70知识流水线/AI知识自动化整理入口"
   }
  ]
 };
