@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-10-17",
- "generatedTime": "2026-10-17 10:35",
+ "generatedTime": "2026-10-17 14:39",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 4,
+ "weeklyPages": 5,
  "weeklyChanges": 10,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-16｜AI知识增量整理.md",
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 55
+   "count": 56
   },
   {
    "name": "政府资源配置与政策落地",
@@ -13392,6 +13392,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 3732
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-17.md",
+   "title": "2026-10-17｜多智能体工作记录",
+   "updated": "2026-10-17",
+   "updatedTime": "2026-10-17 12:32",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "午间增量（12:30 定时触发）：豆包工作 1 个会话（GitHub 开源 FDE 案例调研与下载）、Codex 1 个会话（己未文化录入 Skill 统一入口方案讨论）；Work",
+   "wordCount": 1292
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
    "title": "每日工作记录说明",
    "updated": "2026-09-10",
@@ -18365,7 +18376,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 158,
+   "matched": 159,
    "status": "已形成"
   },
   {
@@ -19732,7 +19743,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 133,
-  "fetchedAt": "2026年10月17日 10:35"
+  "fetchedAt": "2026年10月17日 14:39"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -19774,6 +19785,14 @@ window.OBSIDIAN_DATA = {
   ]
  },
  "dailyWorkRecords": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-17.md",
+   "title": "2026-10-17｜多智能体工作记录",
+   "updated": "2026-10-17",
+   "updatedTime": "2026-10-17 12:32",
+   "wordCount": 1292,
+   "desc": "午间增量（12:30 定时触发）：豆包工作 1 个会话（GitHub 开源 FDE 案例调研与下载）、Codex 1 个会话（己未文化录入 Skill 统一入口方案讨论）；Work"
+  },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-16.md",
    "title": "2026-10-16｜多智能体工作记录",
@@ -20064,6 +20083,16 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "recentUpdates": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-17.md",
+   "title": "2026-10-17｜多智能体工作记录",
+   "updated": "2026-10-17",
+   "updatedTime": "2026-10-17 12:32",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 1292,
+   "desc": "午间增量（12:30 定时触发）：豆包工作 1 个会话（GitHub 开源 FDE 案例调研与下载）、Codex 1 个会话（己未文化录入 Skill 统一入口方案讨论）；Work"
+  },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-16.md",
    "title": "2026-10-16｜多智能体工作记录",
