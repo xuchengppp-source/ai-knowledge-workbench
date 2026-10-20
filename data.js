@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-10-20",
- "generatedTime": "2026-10-20 23:07",
+ "generatedTime": "2026-10-20 23:54",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 3,
+ "weeklyPages": 4,
  "weeklyChanges": 10,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-20｜AI知识增量整理.md",
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 58
+   "count": 59
   },
   {
    "name": "政府资源配置与政策落地",
@@ -13501,6 +13501,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 5210
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-20.md",
+   "title": "2026-10-20｜多智能体工作记录",
+   "updated": "2026-10-20",
+   "updatedTime": "2026-10-20 23:34",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "午间增量（12:30 定时触发）：四平台扫描全部 0 新增，未创建记录。",
+   "wordCount": 1417
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
    "title": "每日工作记录说明",
    "updated": "2026-09-10",
@@ -19841,7 +19852,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 133,
-  "fetchedAt": "2026年10月20日 23:07"
+  "fetchedAt": "2026年10月20日 23:54"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -19883,6 +19894,14 @@ window.OBSIDIAN_DATA = {
   ]
  },
  "dailyWorkRecords": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-20.md",
+   "title": "2026-10-20｜多智能体工作记录",
+   "updated": "2026-10-20",
+   "updatedTime": "2026-10-20 23:34",
+   "wordCount": 1417,
+   "desc": "午间增量（12:30 定时触发）：四平台扫描全部 0 新增，未创建记录。"
+  },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-19.md",
    "title": "2026-10-19｜多智能体工作记录",
@@ -20197,6 +20216,16 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "recentUpdates": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-20.md",
+   "title": "2026-10-20｜多智能体工作记录",
+   "updated": "2026-10-20",
+   "updatedTime": "2026-10-20 23:34",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 1417,
+   "desc": "午间增量（12:30 定时触发）：四平台扫描全部 0 新增，未创建记录。"
+  },
   {
    "path": "70_知识流水线/每日学习整理/2026-10-20｜AI知识增量整理.md",
    "title": "2026-10-20｜AI知识增量整理",
