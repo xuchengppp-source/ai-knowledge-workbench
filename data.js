@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-10-19",
- "generatedTime": "2026-10-19 23:04",
+ "generatedAt": "2026-10-20",
+ "generatedTime": "2026-10-20 11:44",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 4,
- "weeklyChanges": 12,
+ "weeklyPages": 2,
+ "weeklyChanges": 8,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-19｜AI知识增量整理.md",
  "topics": [
@@ -13478,12 +13478,12 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-19.md",
    "title": "2026-10-19｜多智能体工作记录",
    "updated": "2026-10-19",
-   "updatedTime": "2026-10-19 12:43",
+   "updatedTime": "2026-10-19 23:40",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
    "desc": "午间增量（12:30 定时触发）：豆包工作 1 个会话 + Codex 4 个会话，全部围绕己未文化客户数据体系（Inbox 复核、储备表联动、前端列表改造、经营记录统一）；Wor",
-   "wordCount": 2621
+   "wordCount": 5210
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/每日工作记录说明.md",
@@ -19826,7 +19826,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 133,
-  "fetchedAt": "2026年10月19日 23:04"
+  "fetchedAt": "2026年10月20日 11:44"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -19872,8 +19872,8 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-19.md",
    "title": "2026-10-19｜多智能体工作记录",
    "updated": "2026-10-19",
-   "updatedTime": "2026-10-19 12:43",
-   "wordCount": 2621,
+   "updatedTime": "2026-10-19 23:40",
+   "wordCount": 5210,
    "desc": "午间增量（12:30 定时触发）：豆包工作 1 个会话 + Codex 4 个会话，全部围绕己未文化客户数据体系（Inbox 复核、储备表联动、前端列表改造、经营记录统一）；Wor"
   },
   {
@@ -20183,6 +20183,16 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-19.md",
+   "title": "2026-10-19｜多智能体工作记录",
+   "updated": "2026-10-19",
+   "updatedTime": "2026-10-19 23:40",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 5210,
+   "desc": "午间增量（12:30 定时触发）：豆包工作 1 个会话 + Codex 4 个会话，全部围绕己未文化客户数据体系（Inbox 复核、储备表联动、前端列表改造、经营记录统一）；Wor"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-10-19｜AI知识增量整理.md",
    "title": "2026-10-19｜AI知识增量整理",
    "updated": "2026-10-19",
@@ -20190,36 +20200,6 @@ window.OBSIDIAN_DATA = {
    "topic": "pipeline",
    "topicName": "知识流水线",
    "wordCount": 4231,
-   "desc": "上级：70知识流水线/每日学习整理、70知识流水线/AI知识自动化整理入口"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-19.md",
-   "title": "2026-10-19｜多智能体工作记录",
-   "updated": "2026-10-19",
-   "updatedTime": "2026-10-19 12:43",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2621,
-   "desc": "午间增量（12:30 定时触发）：豆包工作 1 个会话 + Codex 4 个会话，全部围绕己未文化客户数据体系（Inbox 复核、储备表联动、前端列表改造、经营记录统一）；Wor"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-18.md",
-   "title": "2026-10-18｜多智能体工作记录",
-   "updated": "2026-10-18",
-   "updatedTime": "2026-10-18 23:33",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 3564,
-   "desc": "晚间完整总结（23:30 定时触发）：豆包工作 1 个会话、Codex 1 个会话（均围绕己未文化客户数据体系优化）；WorkBuddy 扫描命中 1 空间（不写入其区块）、DSH"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-18｜AI知识增量整理.md",
-   "title": "2026-10-18｜AI知识增量整理",
-   "updated": "2026-10-18",
-   "updatedTime": "2026-10-18 23:05",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 2887,
    "desc": "上级：70知识流水线/每日学习整理、70知识流水线/AI知识自动化整理入口"
   }
  ]
