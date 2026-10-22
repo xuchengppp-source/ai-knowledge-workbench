@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-10-21",
- "generatedTime": "2026-10-21 12:00",
+ "generatedAt": "2026-10-22",
+ "generatedTime": "2026-10-22 10:51",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 4,
- "weeklyChanges": 228,
+ "weeklyPages": 2,
+ "weeklyChanges": 226,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-20｜AI知识增量整理.md",
  "topics": [
@@ -19869,7 +19869,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 133,
-  "fetchedAt": "2026年10月21日 12:01"
+  "fetchedAt": "2026年10月22日 10:51"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -20252,26 +20252,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "原始资料 / 养料",
    "wordCount": 4803,
    "desc": "- 视频来源：曜瀚极刃关于真正通用人工智能（AGI）的深度科普视频"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-10-20.md",
-   "title": "2026-10-20｜多智能体工作记录",
-   "updated": "2026-10-20",
-   "updatedTime": "2026-10-20 23:34",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 1417,
-   "desc": "午间增量（12:30 定时触发）：四平台扫描全部 0 新增，未创建记录。"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-20｜AI知识增量整理.md",
-   "title": "2026-10-20｜AI知识增量整理",
-   "updated": "2026-10-20",
-   "updatedTime": "2026-10-20 23:06",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 1670,
-   "desc": "上级：70知识流水线/AI知识自动化整理入口"
   }
  ]
 };
