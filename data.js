@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-10-25",
- "generatedTime": "2026-10-25 09:23",
+ "generatedTime": "2026-10-25 23:03",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 7,
  "weeklyChanges": 293,
@@ -20055,7 +20055,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 133,
-  "fetchedAt": "2026年10月25日 09:23"
+  "fetchedAt": "2026年10月25日 23:03"
  },
  "knowledgeCardCenter": {
   "cards": [
