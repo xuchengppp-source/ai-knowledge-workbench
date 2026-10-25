@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-10-24",
- "generatedTime": "2026-10-24 23:05",
+ "generatedAt": "2026-10-25",
+ "generatedTime": "2026-10-25 09:23",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 10,
- "weeklyChanges": 298,
+ "weeklyPages": 7,
+ "weeklyChanges": 293,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-24｜AI知识增量整理.md",
  "topics": [
@@ -20055,7 +20055,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 133,
-  "fetchedAt": "2026年10月24日 23:05"
+  "fetchedAt": "2026年10月25日 09:23"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -20488,36 +20488,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "原始资料 / 养料",
    "wordCount": 5611,
    "desc": "徐总口述的企业级AI产品设计方法论（豆包整理），聚焦\"企业引入AI时人与AI、业务系统之间应如何交互\"这一根本问题，并基于Salesforce、Microsoft Dynamics"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-23｜AI知识增量整理.md",
-   "title": "2026-10-23 AI 知识增量整理",
-   "updated": "2026-10-23",
-   "updatedTime": "2026-10-23 23:03",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3131,
-   "desc": "- 日期: 2026-10-23"
-  },
-  {
-   "path": "60_问题与洞察/我的洞察/AGI认知研究线：从定义分歧到技术范式局限.md",
-   "title": "AGI认知研究线：从定义分歧到技术范式局限",
-   "updated": "2026-10-23",
-   "updatedTime": "2026-10-23 13:52",
-   "topic": "myinsights",
-   "topicName": "我的洞察",
-   "wordCount": 2985,
-   "desc": "AGI至今没有统一定义，三大流派（经济定义/认知定义/工程定义）的分歧表面上是学术标准不同，本质上是谁掌握AGI的定义权，谁就掌握了未来AI产业的话语权和估值逻辑。"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-10-21｜用户提供｜AGI认知框架：从行业定义分歧到三位一体硅基生命形态.md",
-   "title": "AGI认知框架：从行业定义分歧到三位一体硅基生命形态",
-   "updated": "2026-10-23",
-   "updatedTime": "2026-10-23 13:51",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 5140,
-   "desc": "- 视频来源：曜瀚极刃关于真正通用人工智能（AGI）的深度科普视频"
   }
  ]
 };
