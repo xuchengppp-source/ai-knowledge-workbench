@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-10-25",
- "generatedTime": "2026-10-25 23:03",
+ "generatedAt": "2026-10-26",
+ "generatedTime": "2026-10-26 23:07",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 7,
- "weeklyChanges": 293,
+ "weeklyPages": 0,
+ "weeklyChanges": 0,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-24｜AI知识增量整理.md",
  "topics": [
@@ -20055,7 +20055,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 133,
-  "fetchedAt": "2026年10月25日 23:03"
+  "fetchedAt": "2026年10月26日 23:07"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -20418,76 +20418,5 @@ window.OBSIDIAN_DATA = {
    "desc": "今天最重要的成果是建立了每日工作总结自动化系统（project-daily-summary Skill）：通过扫描三个平台（豆包工作、Codex、WorkBuddy）的 Sessi"
   }
  ],
- "recentUpdates": [
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-24｜AI知识增量整理.md",
-   "title": "2026-10-24｜AI知识增量整理",
-   "updated": "2026-10-24",
-   "updatedTime": "2026-10-24 23:05",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3949,
-   "desc": "- 日期：2026-10-24"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/企业AI交互与业务执行架构：从五种交互模式到Business Action Layer.md",
-   "title": "企业AI交互与业务执行架构：从五种交互模式到Business Action Layer",
-   "updated": "2026-10-24",
-   "updatedTime": "2026-10-24 09:07",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 12203,
-   "desc": "1. 企业AI产品设计的根本问题不是\"聊天框还是表单\"，而是针对不同工作任务设计不同交互方式，并确保它们接入统一的业务执行体系。Agent 是其中一种交互能力，不是整套产品的界面。"
-  },
-  {
-   "path": "60_问题与洞察/我的洞察/企业AI交互设计研究线：从五种交互模式到业务动作契约.md",
-   "title": "企业AI交互设计研究线：从五种交互模式到业务动作契约",
-   "updated": "2026-10-24",
-   "updatedTime": "2026-10-24 09:07",
-   "topic": "myinsights",
-   "topicName": "我的洞察",
-   "wordCount": 4176,
-   "desc": "长期以来，企业AI讨论容易陷入\"用不用Agent\"\"选哪个模型\"\"要不要Graph\"等技术选型之争。但真正的第一性问题应该是：针对不同工作任务，设计不同的交互方式，并确保它们进入统"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-10-24",
-   "updatedTime": "2026-10-24 09:04",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 33894,
-   "desc": "上级：70知识流水线/知识流水线"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-10-23｜用户提供｜Agent意图识别工程化实现方案：三层分层架构与流量放大效应.md",
-   "title": "Agent意图识别工程化实现方案：三层分层架构与流量放大效应",
-   "updated": "2026-10-24",
-   "updatedTime": "2026-10-24 09:04",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2830,
-   "desc": "用户提供的Agent意图识别工程化实现方案，来源为用户口述整理（豆包整理为工程方案），完整性为全文。属于AI Agent工程知识领域，聚焦意图识别的工程化设计。"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/AI Agent工程知识V3导航.md",
-   "title": "AI Agent工程知识V3导航",
-   "updated": "2026-10-24",
-   "updatedTime": "2026-10-24 09:04",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 4787,
-   "desc": "上级：00入口与导航/知识库V3逻辑导航、40专题知识库/AI Agent工程知识/AI Agent工程知识专题"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-10-24｜用户提供｜企业AI交互与业务执行架构：从五种交互模式到Business Action Layer.md",
-   "title": "企业AI交互与业务执行架构：从五种交互模式到Business Action Layer",
-   "updated": "2026-10-24",
-   "updatedTime": "2026-10-24 08:55",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 5611,
-   "desc": "徐总口述的企业级AI产品设计方法论（豆包整理），聚焦\"企业引入AI时人与AI、业务系统之间应如何交互\"这一根本问题，并基于Salesforce、Microsoft Dynamics"
-  }
- ]
+ "recentUpdates": []
 };
