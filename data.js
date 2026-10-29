@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-10-28",
- "generatedTime": "2026-10-28 23:06",
+ "generatedAt": "2026-10-29",
+ "generatedTime": "2026-10-29 11:07",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 13,
- "weeklyChanges": 374,
+ "weeklyPages": 1,
+ "weeklyChanges": 0,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-28｜AI知识增量整理.md",
  "topics": [
@@ -20148,7 +20148,7 @@ window.OBSIDIAN_DATA = {
   "summary": {
    "in_progress": 18,
    "todo": 19,
-   "in_review": 20,
+   "in_review": 21,
    "blocked": 1
   },
   "recent": [
@@ -20195,8 +20195,8 @@ window.OBSIDIAN_DATA = {
     "assignee": "Codex"
    }
   ],
-  "total": 135,
-  "fetchedAt": "2026年10月28日 23:06"
+  "total": 136,
+  "fetchedAt": "2026年10月29日 11:07"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -20569,126 +20569,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 1608,
    "desc": "- 日期：2026-10-28（周三）"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-27｜AI知识增量整理.md",
-   "title": "2026-10-27｜AI知识增量整理",
-   "updated": "2026-10-27",
-   "updatedTime": "2026-10-27 23:11",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3571,
-   "desc": "- 日期：2026-10-27"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航.md",
-   "title": "企业AI与智能体商业化V3导航",
-   "updated": "2026-10-27",
-   "updatedTime": "2026-10-27 17:13",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 5040,
-   "desc": "上级：00入口与导航/知识库V3逻辑导航、40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-10-27",
-   "updatedTime": "2026-10-27 17:12",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 35080,
-   "desc": "上级：70知识流水线/知识流水线"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/企业AI自然语言交互与业务执行机制：把自然语言转换为有依据的业务行为.md",
-   "title": "企业AI自然语言交互与业务执行机制：把自然语言转换为有依据的业务行为",
-   "updated": "2026-10-27",
-   "updatedTime": "2026-10-27 17:12",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 5912,
-   "desc": "1. 企业Agent的真正共同难题不是\"有没有知识库\"\"能不能调工具\"，而是\"把自然语言转换为有依据的业务行为\"：AI听懂文字≠理解业务；找到资料≠找到正确依据；给出答案≠完成任务"
-  },
-  {
-   "path": "60_问题与洞察/我的洞察/企业AI自然语言交互与业务执行机制研究线：从五种业务意图模式到有依据的业务行为.md",
-   "title": "企业AI自然语言交互与业务执行机制研究线：从五种业务意图模式到有依据的业务行为",
-   "updated": "2026-10-27",
-   "updatedTime": "2026-10-27 17:12",
-   "topic": "myinsights",
-   "topicName": "我的洞察",
-   "wordCount": 3278,
-   "desc": "美团经营AI、己未CRM、科技咨询申报Agent、政务咨询AI表面是不同业务，底层共享同一个难题：AI听懂文字≠理解业务；找到资料≠找到正确依据；给出答案≠完成任务。可复用的不是某"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-10-27｜用户提供｜己未CRM四次迭代演进复盘：从V1模型直写Base到V4异步Worker架构.md",
-   "title": "己未CRM四次迭代演进复盘：从V1模型直写Base到V4异步Worker架构",
-   "updated": "2026-10-27",
-   "updatedTime": "2026-10-27 17:11",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 4450,
-   "desc": "用户提供的完整复盘论述，作为己未项目第一次系统性总结。核心内容：己未CRM经历的V1→V4四个阶段演进、问题归因的三个维度（语义准确性/执行可靠性/交互体验）、对V4成果的辩证评价"
-  },
-  {
-   "path": "60_问题与洞察/我的洞察/己未CRM工程演进研究线：从V1直写Base到V4异步Worker的四阶段复盘与三维度归因.md",
-   "title": "己未CRM工程演进研究线：从V1直写Base到V4异步Worker的四阶段复盘与三维度归因",
-   "updated": "2026-10-27",
-   "updatedTime": "2026-10-27 17:11",
-   "topic": "myinsights",
-   "topicName": "我的洞察",
-   "wordCount": 2775,
-   "desc": "己未CRM四阶段演进（V1直写Base→V2质量门→V3双Inbox→V4异步Worker）是典型的企业AI Agent工程化演进：每次改版解决上一个问题，却暴露新问题。根因是过去"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未文化CRM演进复盘：从V1模型直写Base到V4异步Worker架构的四阶段工程演进.md",
-   "title": "己未文化CRM演进复盘：从V1模型直写Base到V4异步Worker架构的四阶段工程演进",
-   "updated": "2026-10-27",
-   "updatedTime": "2026-10-27 17:11",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 4837,
-   "desc": "1. 每一次改版都解决了上一个问题，却又产生了新问题——这是企业AI Agent工程化的典型演进过程，有些阶段存在重复建设和过度工程化。"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/企业AI交互与业务执行架构：从五种交互模式到Business Action Layer.md",
-   "title": "企业AI交互与业务执行架构：从五种交互模式到Business Action Layer",
-   "updated": "2026-10-27",
-   "updatedTime": "2026-10-27 16:59",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 12203,
-   "desc": "1. 企业AI产品设计的根本问题不是\"聊天框还是表单\"，而是针对不同工作任务设计不同交互方式，并确保它们接入统一的业务执行体系。Agent 是其中一种交互能力，不是整套产品的界面。"
-  },
-  {
-   "path": "60_问题与洞察/我的洞察/企业AI交互设计研究线：从五种交互模式到业务动作契约.md",
-   "title": "企业AI交互设计研究线：从五种交互模式到业务动作契约",
-   "updated": "2026-10-27",
-   "updatedTime": "2026-10-27 16:59",
-   "topic": "myinsights",
-   "topicName": "我的洞察",
-   "wordCount": 4243,
-   "desc": "长期以来，企业AI讨论容易陷入\"用不用Agent\"\"选哪个模型\"\"要不要Graph\"等技术选型之争。但真正的第一性问题应该是：针对不同工作任务，设计不同的交互方式，并确保它们进入统"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/AI Agent工程知识V3导航.md",
-   "title": "AI Agent工程知识V3导航",
-   "updated": "2026-10-27",
-   "updatedTime": "2026-10-27 16:58",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 4936,
-   "desc": "上级：00入口与导航/知识库V3逻辑导航、40专题知识库/AI Agent工程知识/AI Agent工程知识专题"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-10-27｜用户提供｜企业AI自然语言交互与业务执行机制：把自然语言转换为有依据的业务行为.md",
-   "title": "企业AI自然语言交互与业务执行机制：把自然语言转换为有依据的业务行为",
-   "updated": "2026-10-27",
-   "updatedTime": "2026-10-27 16:58",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 5861,
-   "desc": "用户提供的完整论述，聚焦跨行业企业Agent的核心机制——\"把自然语言转换为有依据的业务行为\"，并明确该主题的定位：不是\"己未CRM录入优化\"，而是企业AI自然语言交互与业务执行机"
   }
  ]
 };
