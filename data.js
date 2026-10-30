@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-10-29",
- "generatedTime": "2026-10-29 23:06",
+ "generatedAt": "2026-10-30",
+ "generatedTime": "2026-10-30 11:26",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 14,
- "weeklyChanges": 363,
+ "weeklyChanges": 366,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-29｜AI知识增量整理.md",
  "topics": [
@@ -96,7 +96,7 @@ window.OBSIDIAN_DATA = {
    "key": "notes",
    "icon": "📝",
    "v3group": "personal",
-   "count": 49
+   "count": 50
   },
   {
    "name": "豆包工作区",
@@ -15283,10 +15283,26 @@ window.OBSIDIAN_DATA = {
     "10_个人生活与个人管理/徐总每日随记/徐总每日随记"
    ],
    "backlinks": [
+    "10_个人生活与个人管理/徐总每日随记/当日记录/2026-10-30.md",
     "10_个人生活与个人管理/徐总每日随记/徐总每日随记.md"
    ],
    "desc": "- 窗口区间：约 36~40 号，一楼。",
    "wordCount": 7672
+  },
+  {
+   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-10-30.md",
+   "title": "2026-10-30",
+   "updated": "2026-10-30",
+   "updatedTime": "2026-10-30 10:06",
+   "topic": "notes",
+   "links": [
+    "10_个人生活与个人管理/个人出行/美签/美签管理",
+    "10_个人生活与个人管理/徐总每日随记/当日记录/2026-10-16",
+    "10_个人生活与个人管理/个人出行/美签/美签面签后流程记录"
+   ],
+   "backlinks": [],
+   "desc": "已确认事实",
+   "wordCount": 2061
   },
   {
    "path": "10_个人生活与个人管理/徐总每日随记/当日记录/当日记录说明.md",
@@ -20393,7 +20409,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 136,
-  "fetchedAt": "2026年10月29日 23:06"
+  "fetchedAt": "2026年10月30日 11:26"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -20758,6 +20774,16 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-10-30.md",
+   "title": "2026-10-30",
+   "updated": "2026-10-30",
+   "updatedTime": "2026-10-30 10:06",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 2061,
+   "desc": "已确认事实"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-10-29｜AI知识增量整理.md",
    "title": "2026-10-29｜AI知识增量整理",
    "updated": "2026-10-29",
@@ -20886,16 +20912,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "原始资料 / 养料",
    "wordCount": 4802,
    "desc": "用户提供的完整评估论述。核心内容：用OpenAI等大厂FDE岗位要求和技术面试标准，评价己未CRM一个多月的研发成果处于什么水平、能否作为FDE项目案例参加面试、体现怎样的工程能力"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-28｜AI知识增量整理.md",
-   "title": "2026-10-28｜AI知识增量整理",
-   "updated": "2026-10-28",
-   "updatedTime": "2026-10-28 23:06",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 1608,
-   "desc": "- 日期：2026-10-28（周三）"
   }
  ]
 };
