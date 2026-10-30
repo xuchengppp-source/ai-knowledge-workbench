@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-10-30",
- "generatedTime": "2026-10-30 11:26",
+ "generatedTime": "2026-10-30 19:33",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 14,
  "weeklyChanges": 366,
@@ -15293,7 +15293,7 @@ window.OBSIDIAN_DATA = {
    "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-10-30.md",
    "title": "2026-10-30",
    "updated": "2026-10-30",
-   "updatedTime": "2026-10-30 10:06",
+   "updatedTime": "2026-10-30 15:55",
    "topic": "notes",
    "links": [
     "10_个人生活与个人管理/个人出行/美签/美签管理",
@@ -15302,7 +15302,7 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [],
    "desc": "已确认事实",
-   "wordCount": 2061
+   "wordCount": 2650
   },
   {
    "path": "10_个人生活与个人管理/徐总每日随记/当日记录/当日记录说明.md",
@@ -20409,7 +20409,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 136,
-  "fetchedAt": "2026年10月30日 11:26"
+  "fetchedAt": "2026年10月30日 19:33"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -20777,10 +20777,10 @@ window.OBSIDIAN_DATA = {
    "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-10-30.md",
    "title": "2026-10-30",
    "updated": "2026-10-30",
-   "updatedTime": "2026-10-30 10:06",
+   "updatedTime": "2026-10-30 15:55",
    "topic": "notes",
    "topicName": "徐总每日随记",
-   "wordCount": 2061,
+   "wordCount": 2650,
    "desc": "已确认事实"
   },
   {
