@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-10-31",
- "generatedTime": "2026-10-31 23:07",
+ "generatedAt": "2026-11-01",
+ "generatedTime": "2026-11-01 08:53",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 16,
- "weeklyChanges": 353,
+ "weeklyPages": 8,
+ "weeklyChanges": 27,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-10-31｜AI知识增量整理.md",
  "topics": [
@@ -20587,7 +20587,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 139,
-  "fetchedAt": "2026年10月31日 23:07"
+  "fetchedAt": "2026年11月1日 08:53"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21030,86 +21030,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "我的洞察",
    "wordCount": 5203,
    "desc": "用户使用 ChatGPT 等 AI 处理真实问题（法律/保险/合同等）时反复观察到：AI 优先寻找支持提问者诉求的依据，把问题拆解成\"对提问者有利\"的样子，而不是客观评估事情的进展"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-10-30",
-   "updatedTime": "2026-10-30 23:57",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 38102,
-   "desc": "上级：70知识流水线/知识流水线"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/07_案例复盘与面试/原始素材/2026-10-30-成都荟锦路交通事故与保险理赔争议-原文全文.md",
-   "title": "成都荟锦路交通事故及保险理赔争议总结（原文全文·专题就近副本）",
-   "updated": "2026-10-30",
-   "updatedTime": "2026-10-30 23:56",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 5082,
-   "desc": "- 来源：用户口述整理 + 上传《道路交通事故认定书》+ 平安保险公司/特斯拉服务中心电话答复 + 公开法律条款核查。"
-  },
-  {
-   "path": "60_问题与洞察/我的洞察/README.md",
-   "title": "我的洞察",
-   "updated": "2026-10-30",
-   "updatedTime": "2026-10-30 23:46",
-   "topic": "myinsights",
-   "topicName": "我的洞察",
-   "wordCount": 646,
-   "desc": "跨专题洞察和主体研究线入口。"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-10-30｜用户提供｜AI咨询系统性偏差复盘：把能论证观点误当成已解决问题（机动车保险事故案例）.md",
-   "title": "AI咨询系统性偏差复盘：把能论证观点误当成已解决问题（机动车保险事故案例）",
-   "updated": "2026-10-30",
-   "updatedTime": "2026-10-30 23:21",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3463,
-   "desc": "用户提供（2026-10-30）。内容为用户在使用 ChatGPT 等 AI 进行机动车保险事故法律咨询时，AI 输出的系统性偏差自我检讨原文，用户要求完整记录并总结为可复用的提问"
-  },
-  {
-   "path": "60_问题与洞察/我的洞察/企业AI自然语言交互与业务执行机制研究线：从五种业务意图模式到有依据的业务行为.md",
-   "title": "企业AI自然语言交互与业务执行机制研究线：从五种业务意图模式到有依据的业务行为",
-   "updated": "2026-10-30",
-   "updatedTime": "2026-10-30 23:19",
-   "topic": "myinsights",
-   "topicName": "我的洞察",
-   "wordCount": 7097,
-   "desc": "美团经营AI、己未CRM、科技咨询申报Agent、政务咨询AI表面是不同业务，底层共享同一个难题：AI听懂文字≠理解业务；找到资料≠找到正确依据；给出答案≠完成任务。可复用的不是某"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/AI Agent工程知识V3导航.md",
-   "title": "AI Agent工程知识V3导航",
-   "updated": "2026-10-30",
-   "updatedTime": "2026-10-30 23:12",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 5416,
-   "desc": "上级：00入口与导航/知识库V3逻辑导航、40专题知识库/AI Agent工程知识/AI Agent工程知识专题"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/07_案例复盘与面试/智能体使用逻辑问题复盘-垂直任务实践（旅行案例）.md",
-   "title": "智能体使用逻辑问题复盘：垂直任务实践（旅行案例）",
-   "updated": "2026-10-30",
-   "updatedTime": "2026-10-30 23:11",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 2036,
-   "desc": "上级：40专题知识库/AI Agent工程知识/AI Agent工程知识专题"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-30｜AI知识增量整理.md",
-   "title": "2026-10-30｜AI 知识增量整理",
-   "updated": "2026-10-30",
-   "updatedTime": "2026-10-30 23:03",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 1698,
-   "desc": "- 日期：2026-10-30"
   }
  ]
 };
