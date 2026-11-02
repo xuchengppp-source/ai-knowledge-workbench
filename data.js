@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-11-01",
- "generatedTime": "2026-11-01 23:03",
+ "generatedAt": "2026-11-02",
+ "generatedTime": "2026-11-02 09:16",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 9,
- "weeklyChanges": 27,
+ "weeklyPages": 1,
+ "weeklyChanges": 0,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-01｜AI知识增量整理.md",
  "topics": [
@@ -20598,7 +20598,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 139,
-  "fetchedAt": "2026年11月1日 23:03"
+  "fetchedAt": "2026年11月2日 09:16"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -20971,86 +20971,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 2314,
    "desc": "- 日期：2026-11-01"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-31｜AI知识增量整理.md",
-   "title": "2026-10-31｜AI知识增量整理",
-   "updated": "2026-10-31",
-   "updatedTime": "2026-10-31 23:07",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3053,
-   "desc": "- 日期：2026-10-31（自动化执行于 23:00）"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/07_案例复盘与面试/AI咨询的系统性偏差复盘：从能论证观点到已解决问题——确认偏误、反向验证与提问框架.md",
-   "title": "AI咨询的系统性偏差复盘：从能论证观点到已解决问题——有利性偏差、反向验证与提问框架",
-   "updated": "2026-10-31",
-   "updatedTime": "2026-10-31 10:10",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 8594,
-   "desc": "1. AI 在\"给出具体解决方案\"时存在一个跨场景的系统性偏差：优先寻找支持用户诉求的依据，把问题拆解成\"对提问者有利\"的样子，过早形成有利结论，遗漏决定性限制条件，并在反面证据出"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-10-30｜用户提供｜成都荟锦路交通事故及保险理赔争议总结（机动车保险事故案例）.md",
-   "title": "成都荟锦路交通事故及保险理赔争议总结（机动车保险事故案例）",
-   "updated": "2026-10-31",
-   "updatedTime": "2026-10-31 10:10",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 5120,
-   "desc": "- 来源：用户口述整理 + 上传《道路交通事故认定书》+ 平安保险公司/特斯拉服务中心电话答复 + 公开法律条款核查。"
-  },
-  {
-   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-10-30.md",
-   "title": "2026-10-30",
-   "updated": "2026-10-31",
-   "updatedTime": "2026-10-31 10:09",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 3389,
-   "desc": "已确认事实"
-  },
-  {
-   "path": "50_资产库/AI工具与自动化资产/README.md",
-   "title": "50_资产库/AI工具与自动化资产",
-   "updated": "2026-10-31",
-   "updatedTime": "2026-10-31 00:10",
-   "topic": "aitools",
-   "topicName": "AI 工具操作手册",
-   "wordCount": 445,
-   "desc": "- 2026-08-08-飞书妙记工作流整合 — 飞书妙记录制 + WorkBuddy 经飞书 API 直读会谈记录的工作流（移动端体验、阶段边界、待补环节）"
-  },
-  {
-   "path": "50_资产库/AI工具与自动化资产/2026-10-31-AI判断阅读守则：把回答当证据不当结论.md",
-   "title": "AI判断阅读守则：把回答当证据，不当结论",
-   "updated": "2026-10-31",
-   "updatedTime": "2026-10-31 00:10",
-   "topic": "aitools",
-   "topicName": "AI 工具操作手册",
-   "wordCount": 1330,
-   "desc": "它给的是辩方材料，不是判决书。"
-  },
-  {
-   "path": "50_资产库/AI工具与自动化资产/2026-10-30-重要问题客观答案四段式提示词.md",
-   "title": "重要问题·客观答案四段式提示词（可粘贴到任意 AI）",
-   "updated": "2026-10-31",
-   "updatedTime": "2026-10-31 00:04",
-   "topic": "aitools",
-   "topicName": "AI 工具操作手册",
-   "wordCount": 2436,
-   "desc": "text"
-  },
-  {
-   "path": "60_问题与洞察/我的洞察/AI交互有利性偏差研究线：从偏袒式答案到可验证的客观结论.md",
-   "title": "AI交互有利性偏差研究线：从偏袒式答案到可验证的客观结论",
-   "updated": "2026-10-31",
-   "updatedTime": "2026-10-31 00:02",
-   "topic": "myinsights",
-   "topicName": "我的洞察",
-   "wordCount": 5203,
-   "desc": "用户使用 ChatGPT 等 AI 处理真实问题（法律/保险/合同等）时反复观察到：AI 优先寻找支持提问者诉求的依据，把问题拆解成\"对提问者有利\"的样子，而不是客观评估事情的进展"
   }
  ]
 };
