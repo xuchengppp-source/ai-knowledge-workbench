@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-02",
- "generatedTime": "2026-11-02 09:16",
+ "generatedTime": "2026-11-02 17:23",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 1,
+ "weeklyPages": 2,
  "weeklyChanges": 0,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-01｜AI知识增量整理.md",
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 59
+   "count": 60
   },
   {
    "name": "政府资源配置与政策落地",
@@ -13155,6 +13155,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 1169
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/DS Bot项目台账.md",
+   "title": "DS Bot 项目台账",
+   "updated": "2026-11-02",
+   "updatedTime": "2026-11-02 16:01",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "1. 每项任务收尾，把\"结论 + 证据 + 卡号\"追加到下面表格。",
+   "wordCount": 1634
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/任务卡/Alpha-Friday子代理编排能力基线测试-20260829.md",
    "title": "Alpha Friday 子代理编排能力基线测试",
    "updated": "2026-08-30",
@@ -20598,7 +20609,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 139,
-  "fetchedAt": "2026年11月2日 09:16"
+  "fetchedAt": "2026年11月2日 17:23"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -20962,6 +20973,16 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "recentUpdates": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/DS Bot项目台账.md",
+   "title": "DS Bot 项目台账",
+   "updated": "2026-11-02",
+   "updatedTime": "2026-11-02 16:01",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 1634,
+   "desc": "1. 每项任务收尾，把\"结论 + 证据 + 卡号\"追加到下面表格。"
+  },
   {
    "path": "70_知识流水线/每日学习整理/2026-11-01｜AI知识增量整理.md",
    "title": "2026-11-01｜AI知识增量整理",
