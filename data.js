@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-11-02",
- "generatedTime": "2026-11-02 23:04",
+ "generatedAt": "2026-11-03",
+ "generatedTime": "2026-11-03 09:52",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 3,
- "weeklyChanges": 0,
+ "weeklyPages": 7,
+ "weeklyChanges": 4,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-02｜AI知识增量整理.md",
  "topics": [
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 60
+   "count": 63
   },
   {
    "name": "政府资源配置与政策落地",
@@ -117,7 +117,7 @@ window.OBSIDIAN_DATA = {
    "key": "aitools",
    "icon": "📖",
    "v3group": "asset",
-   "count": 4
+   "count": 5
   },
   {
    "name": "我的洞察",
@@ -13204,6 +13204,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 6744
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/任务卡/RC16八项整改回归测试-20261103.md",
+   "title": "RC16 八项整改回归测试",
+   "updated": "2026-11-03",
+   "updatedTime": "2026-11-03 08:43",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "Grok 两批（已落地 RC16）",
+   "wordCount": 2956
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/任务卡/Taskboard自测-Codex-M3路径验收.md",
    "title": "Taskboard 自测 · Codex-M3 路径验收",
    "updated": "2026-08-17",
@@ -13352,6 +13363,28 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "- Taskboard：KNOWLEDGEPIP-143",
    "wordCount": 1895
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-RC16八项整改回归测试说明.md",
+   "title": "RC16 八项整改 · 回归测试说明（WorkBuddy 执行）",
+   "updated": "2026-11-03",
+   "updatedTime": "2026-11-03 08:14",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "红线（违反即作废重跑）",
+   "wordCount": 6302
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-RC16运营化整改规格.md",
+   "title": "RC16 运营化整改规格（待徐总拍板项）",
+   "updated": "2026-11-03",
+   "updatedTime": "2026-11-03 08:54",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "日期：2026-11-03",
+   "wordCount": 2002
   },
   {
    "path": "90_系统与协作/任务面板与知识库/方向推进与接力.md",
@@ -15717,19 +15750,31 @@ window.OBSIDIAN_DATA = {
    "wordCount": 1330
   },
   {
+   "path": "50_资产库/AI工具与自动化资产/2026-11-03-腾讯位置服务（LBS）接入与Key配置.md",
+   "title": "腾讯位置服务（LBS）接入：自有 Key 鉴权与本地调用层",
+   "updated": "2026-11-03",
+   "updatedTime": "2026-11-03 08:53",
+   "topic": "aitools",
+   "links": [],
+   "backlinks": [],
+   "desc": "1. 已接入：自带 Key 走腾讯位置服务 WebService API，不依赖 WorkBuddy 官方「腾讯地图」连接器的托管配额。",
+   "wordCount": 1887
+  },
+  {
    "path": "50_资产库/AI工具与自动化资产/README.md",
    "title": "50_资产库/AI工具与自动化资产",
-   "updated": "2026-10-31",
-   "updatedTime": "2026-10-31 00:10",
+   "updated": "2026-11-03",
+   "updatedTime": "2026-11-03 08:39",
    "topic": "aitools",
    "links": [
     "2026-08-08-飞书妙记工作流整合",
     "2026-10-30-重要问题客观答案四段式提示词",
-    "2026-10-31-AI判断阅读守则：把回答当证据不当结论"
+    "2026-10-31-AI判断阅读守则：把回答当证据不当结论",
+    "2026-11-03-腾讯位置服务（LBS）接入与Key配置"
    ],
    "backlinks": [],
    "desc": "- 2026-08-08-飞书妙记工作流整合 — 飞书妙记录制 + WorkBuddy 经飞书 API 直读会谈记录的工作流（移动端体验、阶段边界、待补环节）",
-   "wordCount": 445
+   "wordCount": 573
   },
   {
    "path": "60_问题与洞察/我的洞察/AGI认知研究线：从定义分歧到技术范式局限.md",
@@ -19203,7 +19248,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "工具与协议",
-   "matched": 15,
+   "matched": 16,
    "status": "已形成"
   },
   {
@@ -19401,8 +19446,8 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 102323,
-     "excerpt": "知识库索引（快速查找版）2026-11-01｜美国行延伸：洛杉矶两城对比（阿卡迪亚 vs 尔湾）归位说明：按徐总要求，本主题不作房地产研究专题，已归入 个人出行 / 美国行，仅作\"以后再去洛杉矶、或考虑长住/孩子上学时怎",
+     "wordCount": 102676,
+     "excerpt": "知识库索引（快速查找版）2026-11-03｜腾讯位置服务（LBS）接入：自有 Key + 本机命令行归位说明：属\"怎么用\"的工具接入，放 50_资产库/AI工具与自动化资产；凭证明文不入库，只记位置与用法。50_资产库",
      "hasBody": true
     },
     {
@@ -20541,7 +20586,7 @@ window.OBSIDIAN_DATA = {
  "tasks": {
   "summary": {
    "in_progress": 18,
-   "todo": 19,
+   "todo": 21,
    "in_review": 24,
    "blocked": 1
   },
@@ -20561,6 +20606,20 @@ window.OBSIDIAN_DATA = {
     "assignee": "伊森"
    },
    {
+    "id": "KP-175",
+    "title": "RC16 运营化整改：待复核独立表 / 幂等键 / 指标 / 推送（第一批）",
+    "status": "todo",
+    "priority": "high",
+    "assignee": "克里斯"
+   },
+   {
+    "id": "KP-174",
+    "title": "RC16 八项整改回归测试（按测试说明执行，不改代码）",
+    "status": "todo",
+    "priority": "high",
+    "assignee": "伊森"
+   },
+   {
     "id": "KP-172",
     "title": "交通事故处理知识库：面对交警/面对保险公司/老司机12条原则（三梯次：随记→专题→原则）",
     "status": "in_review",
@@ -20573,24 +20632,10 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "high",
     "assignee": "Oliver"
-   },
-   {
-    "id": "KP-166",
-    "title": "全库索引核对与更新",
-    "status": "in_review",
-    "priority": "high",
-    "assignee": "Codex"
-   },
-   {
-    "id": "KP-165",
-    "title": "己未文化知识录入链路统一：原始资料、课程活动与前端",
-    "status": "todo",
-    "priority": "high",
-    "assignee": "Codex"
    }
   ],
-  "total": 139,
-  "fetchedAt": "2026年11月2日 23:04"
+  "total": 141,
+  "fetchedAt": "2026年11月3日 09:52"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -20955,6 +21000,56 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-RC16运营化整改规格.md",
+   "title": "RC16 运营化整改规格（待徐总拍板项）",
+   "updated": "2026-11-03",
+   "updatedTime": "2026-11-03 08:54",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 2002,
+   "desc": "日期：2026-11-03"
+  },
+  {
+   "path": "50_资产库/AI工具与自动化资产/2026-11-03-腾讯位置服务（LBS）接入与Key配置.md",
+   "title": "腾讯位置服务（LBS）接入：自有 Key 鉴权与本地调用层",
+   "updated": "2026-11-03",
+   "updatedTime": "2026-11-03 08:53",
+   "topic": "aitools",
+   "topicName": "AI 工具操作手册",
+   "wordCount": 1887,
+   "desc": "1. 已接入：自带 Key 走腾讯位置服务 WebService API，不依赖 WorkBuddy 官方「腾讯地图」连接器的托管配额。"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/任务卡/RC16八项整改回归测试-20261103.md",
+   "title": "RC16 八项整改回归测试",
+   "updated": "2026-11-03",
+   "updatedTime": "2026-11-03 08:43",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 2956,
+   "desc": "Grok 两批（已落地 RC16）"
+  },
+  {
+   "path": "50_资产库/AI工具与自动化资产/README.md",
+   "title": "50_资产库/AI工具与自动化资产",
+   "updated": "2026-11-03",
+   "updatedTime": "2026-11-03 08:39",
+   "topic": "aitools",
+   "topicName": "AI 工具操作手册",
+   "wordCount": 573,
+   "desc": "- 2026-08-08-飞书妙记工作流整合 — 飞书妙记录制 + WorkBuddy 经飞书 API 直读会谈记录的工作流（移动端体验、阶段边界、待补环节）"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-RC16八项整改回归测试说明.md",
+   "title": "RC16 八项整改 · 回归测试说明（WorkBuddy 执行）",
+   "updated": "2026-11-03",
+   "updatedTime": "2026-11-03 08:14",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 6302,
+   "desc": "红线（违反即作废重跑）"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-11-02｜AI知识增量整理.md",
    "title": "2026-11-02｜AI知识增量整理",
    "updated": "2026-11-02",
@@ -20973,16 +21068,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "任务面板与知识库",
    "wordCount": 1634,
    "desc": "1. 每项任务收尾，把\"结论 + 证据 + 卡号\"追加到下面表格。"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-11-01｜AI知识增量整理.md",
-   "title": "2026-11-01｜AI知识增量整理",
-   "updated": "2026-11-01",
-   "updatedTime": "2026-11-01 23:03",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 2314,
-   "desc": "- 日期：2026-11-01"
   }
  ]
 };
