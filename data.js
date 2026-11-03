@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-03",
- "generatedTime": "2026-11-03 09:52",
+ "generatedTime": "2026-11-03 13:57",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 7,
  "weeklyChanges": 4,
@@ -13368,12 +13368,12 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-RC16八项整改回归测试说明.md",
    "title": "RC16 八项整改 · 回归测试说明（WorkBuddy 执行）",
    "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 08:14",
+   "updatedTime": "2026-11-03 12:58",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
    "desc": "红线（违反即作废重跑）",
-   "wordCount": 6302
+   "wordCount": 6790
   },
   {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-RC16运营化整改规格.md",
@@ -20635,7 +20635,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 141,
-  "fetchedAt": "2026年11月3日 09:52"
+  "fetchedAt": "2026年11月3日 13:57"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21000,6 +21000,16 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-RC16八项整改回归测试说明.md",
+   "title": "RC16 八项整改 · 回归测试说明（WorkBuddy 执行）",
+   "updated": "2026-11-03",
+   "updatedTime": "2026-11-03 12:58",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 6790,
+   "desc": "红线（违反即作废重跑）"
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-RC16运营化整改规格.md",
    "title": "RC16 运营化整改规格（待徐总拍板项）",
    "updated": "2026-11-03",
@@ -21038,16 +21048,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "AI 工具操作手册",
    "wordCount": 573,
    "desc": "- 2026-08-08-飞书妙记工作流整合 — 飞书妙记录制 + WorkBuddy 经飞书 API 直读会谈记录的工作流（移动端体验、阶段边界、待补环节）"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-RC16八项整改回归测试说明.md",
-   "title": "RC16 八项整改 · 回归测试说明（WorkBuddy 执行）",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 08:14",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 6302,
-   "desc": "红线（违反即作废重跑）"
   },
   {
    "path": "70_知识流水线/每日学习整理/2026-11-02｜AI知识增量整理.md",
