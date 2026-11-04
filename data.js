@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-04",
- "generatedTime": "2026-11-04 23:05",
+ "generatedTime": "2026-11-04 23:51",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 26,
+ "weeklyPages": 27,
  "weeklyChanges": 9,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-04｜AI知识增量整理.md",
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 79
+   "count": 80
   },
   {
    "name": "政府资源配置与政策落地",
@@ -13574,6 +13574,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 2562
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-多维表格自动化流程配置与实测.md",
+   "title": "多维表格自动化流程配置与实测 — 2026-11-04（DS Bot 克里斯）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 23:17",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 自动化流程（workflow）数量 = 0（lark-cli base +workflow-list 实测 total=0）。现在自动跑的是「多维表格智能体」自带的触发器，不是",
+   "wordCount": 3589
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-飞书Base原生AI能力调研.md",
    "title": "飞书多维表格(Base)原生 AI 能力调研（能否替代己未 CRM Worker）",
    "updated": "2026-11-04",
@@ -19483,7 +19494,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "Agent Runtime",
-   "matched": 47,
+   "matched": 48,
    "status": "已形成"
   },
   {
@@ -20875,7 +20886,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 145,
-  "fetchedAt": "2026年11月4日 23:05"
+  "fetchedAt": "2026年11月4日 23:51"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21239,6 +21250,16 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "recentUpdates": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-多维表格自动化流程配置与实测.md",
+   "title": "多维表格自动化流程配置与实测 — 2026-11-04（DS Bot 克里斯）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 23:17",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 3589,
+   "desc": "- 自动化流程（workflow）数量 = 0（lark-cli base +workflow-list 实测 total=0）。现在自动跑的是「多维表格智能体」自带的触发器，不是"
+  },
   {
    "path": "70_知识流水线/每日学习整理/2026-11-04｜AI知识增量整理.md",
    "title": "2026-11-04｜AI 知识增量整理",
