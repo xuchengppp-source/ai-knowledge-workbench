@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-04",
- "generatedTime": "2026-11-04 11:41",
+ "generatedTime": "2026-11-04 15:45",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 21,
+ "weeklyPages": 24,
  "weeklyChanges": 9,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-03｜AI知识增量整理.md",
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 75
+   "count": 78
   },
   {
    "name": "政府资源配置与政策落地",
@@ -13466,24 +13466,24 @@ window.OBSIDIAN_DATA = {
   {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-口述拆分与覆盖留痕口径设计.md",
    "title": "口述拆分 · 覆盖留痕 · 档案准入 口径设计（v1）",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 22:22",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 13:54",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
    "desc": "日期：2026-11-03　作者：口径师　交付对象：克里斯（主幕僚长）／执行员（实现）／徐总（拍板）",
-   "wordCount": 7031
+   "wordCount": 7055
   },
   {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-执行员可实现规则清单.md",
    "title": "执行员可实现规则清单（最新为准）",
    "updated": "2026-11-04",
-   "updatedTime": "2026-11-04 11:30",
+   "updatedTime": "2026-11-04 13:54",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
    "desc": "日期：2026-11-03　作者：口径师　基准：徐总 2026-11-03 拍板（P1–P5）＋《20261103-最新为准判定表与历史留痕口径 v2》",
-   "wordCount": 17692
+   "wordCount": 17633
   },
   {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-最新为准判定表与历史留痕口径.md",
@@ -13500,23 +13500,45 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-硬字段口径.md",
    "title": "硬字段口径（2026-11-03 定稿）",
    "updated": "2026-11-04",
-   "updatedTime": "2026-11-04 11:17",
+   "updatedTime": "2026-11-04 13:54",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
    "desc": "适用：己未文化 CRM「客户口述 → 模型拆分 → 分派到业务表 → 写入飞书 Base」链路。",
-   "wordCount": 2216
+   "wordCount": 2327
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-Base智能体与Worker结合方案.md",
+   "title": "Base 多维表格智能体 × 现有 Worker 结合方案（2026-11-04）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 15:29",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "owner：克里斯（DS Bot 协调员）",
+   "wordCount": 2897
   },
   {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-RC16录入链路生产级验收测试规范.md",
    "title": "己未 RC16 录入链路生产级验收测试规范（给 WorkBuddy）",
    "updated": "2026-11-04",
-   "updatedTime": "2026-11-04 10:57",
+   "updatedTime": "2026-11-04 13:34",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
    "desc": "- 初稿：Grok Bot，2026-11-04；口径修订：CodeX，2026-11-04；按徐总 2026-11-04 定调再修订（Grok Bot，对齐「不做事实级幂等」与复",
-   "wordCount": 6648
+   "wordCount": 6685
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-RC16生产级验收测试报告.md",
+   "title": "己未 RC16 录入链路生产级验收测试报告",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 12:42",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 执行：WorkBuddy（伊森）",
+   "wordCount": 4624
   },
   {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-口述拆分口径线封存交付说明.md",
@@ -13528,6 +13550,17 @@ window.OBSIDIAN_DATA = {
    "backlinks": [],
    "desc": "本线 2026-11-04 封存，班期归组整节未落地，其余口径已落地，测试未开跑。（徐总 2026-11-04 决定：当前主线为 Bot 团队管理，己未这条线本轮不开测、不改代码、",
    "wordCount": 4835
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-飞书Base原生AI能力调研.md",
+   "title": "飞书多维表格(Base)原生 AI 能力调研（能否替代己未 CRM Worker）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 15:22",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "一句话结论：飞书多维表格确实有「AI 字段 + 自动化/工作流 + 多维表格智能体」三层原生 AI，但它擅长的是「单表字段级生成/分类」和「事件驱动触发」，不擅长「跨记录、跨表、强",
+   "wordCount": 6135
   },
   {
    "path": "90_系统与协作/任务面板与知识库/方向推进与接力.md",
@@ -19630,7 +19663,7 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 102676,
+     "wordCount": 102672,
      "excerpt": "知识库索引（快速查找版）2026-11-03｜腾讯位置服务（LBS）接入：自有 Key + 本机命令行归位说明：属\"怎么用\"的工具接入，放 50_资产库/AI工具与自动化资产；凭证明文不入库，只记位置与用法。50_资产库",
      "hasBody": true
     },
@@ -20769,7 +20802,7 @@ window.OBSIDIAN_DATA = {
  ],
  "tasks": {
   "summary": {
-   "in_progress": 18,
+   "in_progress": 19,
    "todo": 20,
    "in_review": 24,
    "blocked": 1
@@ -20792,7 +20825,7 @@ window.OBSIDIAN_DATA = {
    {
     "id": "KP-177",
     "title": "【四方统一主卡】己未 RC16 录入链路生产级验收测试",
-    "status": "todo",
+    "status": "in_progress",
     "priority": "high",
     "assignee": "伊森"
    },
@@ -20818,8 +20851,8 @@ window.OBSIDIAN_DATA = {
     "assignee": "Codex"
    }
   ],
-  "total": 144,
-  "fetchedAt": "2026年11月4日 11:41"
+  "total": 145,
+  "fetchedAt": "2026年11月4日 15:45"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21184,6 +21217,76 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-Base智能体与Worker结合方案.md",
+   "title": "Base 多维表格智能体 × 现有 Worker 结合方案（2026-11-04）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 15:29",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 2897,
+   "desc": "owner：克里斯（DS Bot 协调员）"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-飞书Base原生AI能力调研.md",
+   "title": "飞书多维表格(Base)原生 AI 能力调研（能否替代己未 CRM Worker）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 15:22",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 6135,
+   "desc": "一句话结论：飞书多维表格确实有「AI 字段 + 自动化/工作流 + 多维表格智能体」三层原生 AI，但它擅长的是「单表字段级生成/分类」和「事件驱动触发」，不擅长「跨记录、跨表、强"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-口述拆分与覆盖留痕口径设计.md",
+   "title": "口述拆分 · 覆盖留痕 · 档案准入 口径设计（v1）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 13:54",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 7055,
+   "desc": "日期：2026-11-03　作者：口径师　交付对象：克里斯（主幕僚长）／执行员（实现）／徐总（拍板）"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-执行员可实现规则清单.md",
+   "title": "执行员可实现规则清单（最新为准）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 13:54",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 17633,
+   "desc": "日期：2026-11-03　作者：口径师　基准：徐总 2026-11-03 拍板（P1–P5）＋《20261103-最新为准判定表与历史留痕口径 v2》"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-硬字段口径.md",
+   "title": "硬字段口径（2026-11-03 定稿）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 13:54",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 2327,
+   "desc": "适用：己未文化 CRM「客户口述 → 模型拆分 → 分派到业务表 → 写入飞书 Base」链路。"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-RC16录入链路生产级验收测试规范.md",
+   "title": "己未 RC16 录入链路生产级验收测试规范（给 WorkBuddy）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 13:34",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 6685,
+   "desc": "- 初稿：Grok Bot，2026-11-04；口径修订：CodeX，2026-11-04；按徐总 2026-11-04 定调再修订（Grok Bot，对齐「不做事实级幂等」与复"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-RC16生产级验收测试报告.md",
+   "title": "己未 RC16 录入链路生产级验收测试报告",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 12:42",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 4624,
+   "desc": "- 执行：WorkBuddy（伊森）"
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-最新为准判定表与历史留痕口径.md",
    "title": "「最新为准 + 未提及即保留」可执行判定表 v2",
    "updated": "2026-11-04",
@@ -21214,26 +21317,6 @@ window.OBSIDIAN_DATA = {
    "desc": "日期：2026-11-03　作者：口径师　交付：克里斯"
   },
   {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-执行员可实现规则清单.md",
-   "title": "执行员可实现规则清单（最新为准）",
-   "updated": "2026-11-04",
-   "updatedTime": "2026-11-04 11:30",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 17692,
-   "desc": "日期：2026-11-03　作者：口径师　基准：徐总 2026-11-03 拍板（P1–P5）＋《20261103-最新为准判定表与历史留痕口径 v2》"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-硬字段口径.md",
-   "title": "硬字段口径（2026-11-03 定稿）",
-   "updated": "2026-11-04",
-   "updatedTime": "2026-11-04 11:17",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2216,
-   "desc": "适用：己未文化 CRM「客户口述 → 模型拆分 → 分派到业务表 → 写入飞书 Base」链路。"
-  },
-  {
    "path": "90_系统与协作/任务面板与知识库/任务卡/RC16四方统一协作总览-20261104.md",
    "title": "【四方统一主卡】己未 RC16 录入链路生产级验收测试 —— 四方分工与纪律",
    "updated": "2026-11-04",
@@ -21252,16 +21335,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "任务面板与知识库",
    "wordCount": 7735,
    "desc": "红线（违反即作废重跑）"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-RC16录入链路生产级验收测试规范.md",
-   "title": "己未 RC16 录入链路生产级验收测试规范（给 WorkBuddy）",
-   "updated": "2026-11-04",
-   "updatedTime": "2026-11-04 10:57",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 6648,
-   "desc": "- 初稿：Grok Bot，2026-11-04；口径修订：CodeX，2026-11-04；按徐总 2026-11-04 定调再修订（Grok Bot，对齐「不做事实级幂等」与复"
   },
   {
    "path": "30_资料库/原始资料/已整理｜2026-11-03｜抖音｜美签拒签不是玄学：领馆内幕与214(b)判定逻辑（老蔡口播整理稿）.md",
@@ -21352,16 +21425,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "任务面板与知识库",
    "wordCount": 2272,
    "desc": "适用：贾维斯在群内提出的三个待钉死点。目的是让执行员「照着写代码，不用再问」。"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-口述拆分与覆盖留痕口径设计.md",
-   "title": "口述拆分 · 覆盖留痕 · 档案准入 口径设计（v1）",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 22:22",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 7031,
-   "desc": "日期：2026-11-03　作者：口径师　交付对象：克里斯（主幕僚长）／执行员（实现）／徐总（拍板）"
   },
   {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-RC16运营化整改规格.md",
