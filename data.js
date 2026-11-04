@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-11-03",
- "generatedTime": "2026-11-03 23:33",
+ "generatedAt": "2026-11-04",
+ "generatedTime": "2026-11-04 11:41",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 17,
- "weeklyChanges": 4,
+ "weeklyPages": 21,
+ "weeklyChanges": 9,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-03｜AI知识增量整理.md",
  "topics": [
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 72
+   "count": 75
   },
   {
    "name": "政府资源配置与政策落地",
@@ -132,7 +132,7 @@ window.OBSIDIAN_DATA = {
    "icon": "🗂",
    "color": "raw",
    "v3group": "raw",
-   "count": 208
+   "count": 211
   }
  ],
  "nodes": [
@@ -13217,13 +13217,24 @@ window.OBSIDIAN_DATA = {
   {
    "path": "90_系统与协作/任务面板与知识库/任务卡/RC16八项整改回归测试-20261103.md",
    "title": "RC16 八项整改回归测试",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 08:43",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 10:39",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
    "desc": "Grok 两批（已落地 RC16）",
-   "wordCount": 2956
+   "wordCount": 3504
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/任务卡/RC16四方统一协作总览-20261104.md",
+   "title": "【四方统一主卡】己未 RC16 录入链路生产级验收测试 —— 四方分工与纪律",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 11:14",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 验收口径：90系统与协作/任务面板与知识库/己未文化/20261104-RC16录入链路生产级验收测试规范.md（Codex 2026-11-04 10:22 修订版）。",
+   "wordCount": 2690
   },
   {
    "path": "90_系统与协作/任务面板与知识库/任务卡/Taskboard自测-Codex-M3路径验收.md",
@@ -13378,13 +13389,13 @@ window.OBSIDIAN_DATA = {
   {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-RC16八项整改回归测试说明.md",
    "title": "RC16 八项整改 · 回归测试说明（WorkBuddy 执行）",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 12:58",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 11:05",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
    "desc": "红线（违反即作废重跑）",
-   "wordCount": 6790
+   "wordCount": 7735
   },
   {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-RC16运营化整改规格.md",
@@ -13400,13 +13411,13 @@ window.OBSIDIAN_DATA = {
   {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-与执行员实现要点对齐表.md",
    "title": "与执行员实现要点对齐表",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 23:09",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 11:30",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
    "desc": "日期：2026-11-03　作者：口径师　交付：克里斯",
-   "wordCount": 3565
+   "wordCount": 5364
   },
   {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-判定表v2-实现补充口径.md",
@@ -13466,35 +13477,57 @@ window.OBSIDIAN_DATA = {
   {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-执行员可实现规则清单.md",
    "title": "执行员可实现规则清单（最新为准）",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 23:08",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 11:30",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
    "desc": "日期：2026-11-03　作者：口径师　基准：徐总 2026-11-03 拍板（P1–P5）＋《20261103-最新为准判定表与历史留痕口径 v2》",
-   "wordCount": 9883
+   "wordCount": 17692
   },
   {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-最新为准判定表与历史留痕口径.md",
    "title": "「最新为准 + 未提及即保留」可执行判定表 v2",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 23:08",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 11:30",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
    "desc": "日期：2026-11-03　作者：口径师　交付：克里斯（对账）→ 执行员（实现）→ 徐总（分歧拍板）",
-   "wordCount": 11800
+   "wordCount": 17185
   },
   {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-硬字段口径.md",
    "title": "硬字段口径（2026-11-03 定稿）",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 23:08",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 11:17",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
    "desc": "适用：己未文化 CRM「客户口述 → 模型拆分 → 分派到业务表 → 写入飞书 Base」链路。",
-   "wordCount": 1919
+   "wordCount": 2216
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-RC16录入链路生产级验收测试规范.md",
+   "title": "己未 RC16 录入链路生产级验收测试规范（给 WorkBuddy）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 10:57",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 初稿：Grok Bot，2026-11-04；口径修订：CodeX，2026-11-04；按徐总 2026-11-04 定调再修订（Grok Bot，对齐「不做事实级幂等」与复",
+   "wordCount": 6648
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-口述拆分口径线封存交付说明.md",
+   "title": "20261104 口述拆分与覆盖留痕口径线 · 封存交付说明",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 11:30",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "本线 2026-11-04 封存，班期归组整节未落地，其余口径已落地，测试未开跑。（徐总 2026-11-04 决定：当前主线为 Bot 团队管理，己未这条线本轮不开测、不改代码、",
+   "wordCount": 4835
   },
   {
    "path": "90_系统与协作/任务面板与知识库/方向推进与接力.md",
@@ -19253,6 +19286,47 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "- 来源：用户口述整理 + 上传《道路交通事故认定书》+ 平安保险公司/特斯拉服务中心电话答复 + 公开法律条款核查。",
    "wordCount": 5120
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-11-03｜抖音分享｜美签面签：签证官疯狂打字不问问题时的真实含义与DS160一致性原则（田姐口播逐字稿）.md",
+   "title": "美签面签：签证官疯狂打字不问问题时的真实含义与DS160一致性原则（田姐口播逐字稿）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 10:48",
+   "topic": "raw",
+   "links": [
+    "10_个人生活与个人管理/个人出行/美签/美签管理"
+   ],
+   "backlinks": [],
+   "desc": "- 来源：抖音视频口播逐字稿（用户提供，无链接）",
+   "wordCount": 1947
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-11-03｜抖音｜美签拒签不是玄学：领馆内幕与214(b)判定逻辑（老蔡口播整理稿）.md",
+   "title": "美签拒签不是玄学：领馆内幕与214(b)判定逻辑（老蔡口播整理稿）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 10:53",
+   "topic": "raw",
+   "links": [
+    "10_个人生活与个人管理/个人出行/美签/美签管理",
+    "10_个人生活与个人管理/个人出行/美签/美签面签底层逻辑-抖音三篇整合-20261103"
+   ],
+   "backlinks": [],
+   "desc": "- 来源：抖音视频（用户提供短链 https://v.douyin.com/1ABbkfgFZk8/）",
+   "wordCount": 1967
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-11-03｜抖音｜美签面签时签证官敲键盘都在做什么（老蔡口播整理稿）.md",
+   "title": "美签面签时签证官敲键盘都在做什么（老蔡口播整理稿）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 10:53",
+   "topic": "raw",
+   "links": [
+    "10_个人生活与个人管理/个人出行/美签/美签管理",
+    "10_个人生活与个人管理/个人出行/美签/美签面签底层逻辑-抖音三篇整合-20261103"
+   ],
+   "backlinks": [],
+   "desc": "- 来源：抖音视频（用户提供短链 https://v.douyin.com/HTqSVfVa9u8/）",
+   "wordCount": 1543
   }
  ],
  "today": {
@@ -19348,7 +19422,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "数据与知识资产",
-   "matched": 177,
+   "matched": 178,
    "status": "已形成"
   },
   {
@@ -19378,7 +19452,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 178,
+   "matched": 179,
    "status": "已形成"
   },
   {
@@ -20696,7 +20770,7 @@ window.OBSIDIAN_DATA = {
  "tasks": {
   "summary": {
    "in_progress": 18,
-   "todo": 21,
+   "todo": 20,
    "in_review": 24,
    "blocked": 1
   },
@@ -20716,15 +20790,8 @@ window.OBSIDIAN_DATA = {
     "assignee": "伊森"
    },
    {
-    "id": "KP-175",
-    "title": "RC16 运营化整改：待复核独立表 / 幂等键 / 指标 / 推送（第一批）",
-    "status": "todo",
-    "priority": "high",
-    "assignee": "克里斯"
-   },
-   {
-    "id": "KP-174",
-    "title": "RC16 八项整改回归测试（按测试说明执行，不改代码）",
+    "id": "KP-177",
+    "title": "【四方统一主卡】己未 RC16 录入链路生产级验收测试",
     "status": "todo",
     "priority": "high",
     "assignee": "伊森"
@@ -20742,10 +20809,17 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "high",
     "assignee": "Oliver"
+   },
+   {
+    "id": "KP-166",
+    "title": "全库索引核对与更新",
+    "status": "in_review",
+    "priority": "high",
+    "assignee": "Codex"
    }
   ],
-  "total": 141,
-  "fetchedAt": "2026年11月3日 23:33"
+  "total": 144,
+  "fetchedAt": "2026年11月4日 11:41"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21110,44 +21184,124 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-与执行员实现要点对齐表.md",
-   "title": "与执行员实现要点对齐表",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 23:09",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 3565,
-   "desc": "日期：2026-11-03　作者：口径师　交付：克里斯"
-  },
-  {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-最新为准判定表与历史留痕口径.md",
    "title": "「最新为准 + 未提及即保留」可执行判定表 v2",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 23:08",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 11:30",
    "topic": "taskboard",
    "topicName": "任务面板与知识库",
-   "wordCount": 11800,
+   "wordCount": 17185,
    "desc": "日期：2026-11-03　作者：口径师　交付：克里斯（对账）→ 执行员（实现）→ 徐总（分歧拍板）"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-口述拆分口径线封存交付说明.md",
+   "title": "20261104 口述拆分与覆盖留痕口径线 · 封存交付说明",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 11:30",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 4835,
+   "desc": "本线 2026-11-04 封存，班期归组整节未落地，其余口径已落地，测试未开跑。（徐总 2026-11-04 决定：当前主线为 Bot 团队管理，己未这条线本轮不开测、不改代码、"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-与执行员实现要点对齐表.md",
+   "title": "与执行员实现要点对齐表",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 11:30",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 5364,
+   "desc": "日期：2026-11-03　作者：口径师　交付：克里斯"
   },
   {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-执行员可实现规则清单.md",
    "title": "执行员可实现规则清单（最新为准）",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 23:08",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 11:30",
    "topic": "taskboard",
    "topicName": "任务面板与知识库",
-   "wordCount": 9883,
+   "wordCount": 17692,
    "desc": "日期：2026-11-03　作者：口径师　基准：徐总 2026-11-03 拍板（P1–P5）＋《20261103-最新为准判定表与历史留痕口径 v2》"
   },
   {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-硬字段口径.md",
    "title": "硬字段口径（2026-11-03 定稿）",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 23:08",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 11:17",
    "topic": "taskboard",
    "topicName": "任务面板与知识库",
-   "wordCount": 1919,
+   "wordCount": 2216,
    "desc": "适用：己未文化 CRM「客户口述 → 模型拆分 → 分派到业务表 → 写入飞书 Base」链路。"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/任务卡/RC16四方统一协作总览-20261104.md",
+   "title": "【四方统一主卡】己未 RC16 录入链路生产级验收测试 —— 四方分工与纪律",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 11:14",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 2690,
+   "desc": "- 验收口径：90系统与协作/任务面板与知识库/己未文化/20261104-RC16录入链路生产级验收测试规范.md（Codex 2026-11-04 10:22 修订版）。"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-RC16八项整改回归测试说明.md",
+   "title": "RC16 八项整改 · 回归测试说明（WorkBuddy 执行）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 11:05",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 7735,
+   "desc": "红线（违反即作废重跑）"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-RC16录入链路生产级验收测试规范.md",
+   "title": "己未 RC16 录入链路生产级验收测试规范（给 WorkBuddy）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 10:57",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 6648,
+   "desc": "- 初稿：Grok Bot，2026-11-04；口径修订：CodeX，2026-11-04；按徐总 2026-11-04 定调再修订（Grok Bot，对齐「不做事实级幂等」与复"
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-11-03｜抖音｜美签拒签不是玄学：领馆内幕与214(b)判定逻辑（老蔡口播整理稿）.md",
+   "title": "美签拒签不是玄学：领馆内幕与214(b)判定逻辑（老蔡口播整理稿）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 10:53",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1967,
+   "desc": "- 来源：抖音视频（用户提供短链 https://v.douyin.com/1ABbkfgFZk8/）"
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-11-03｜抖音｜美签面签时签证官敲键盘都在做什么（老蔡口播整理稿）.md",
+   "title": "美签面签时签证官敲键盘都在做什么（老蔡口播整理稿）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 10:53",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1543,
+   "desc": "- 来源：抖音视频（用户提供短链 https://v.douyin.com/HTqSVfVa9u8/）"
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-11-03｜抖音分享｜美签面签：签证官疯狂打字不问问题时的真实含义与DS160一致性原则（田姐口播逐字稿）.md",
+   "title": "美签面签：签证官疯狂打字不问问题时的真实含义与DS160一致性原则（田姐口播逐字稿）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 10:48",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1947,
+   "desc": "- 来源：抖音视频口播逐字稿（用户提供，无链接）"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/任务卡/RC16八项整改回归测试-20261103.md",
+   "title": "RC16 八项整改回归测试",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 10:39",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 3504,
+   "desc": "Grok 两批（已落地 RC16）"
   },
   {
    "path": "70_知识流水线/每日学习整理/2026-11-03｜AI知识增量整理.md",
@@ -21210,16 +21364,6 @@ window.OBSIDIAN_DATA = {
    "desc": "日期：2026-11-03　作者：口径师　交付对象：克里斯（主幕僚长）／执行员（实现）／徐总（拍板）"
   },
   {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-RC16八项整改回归测试说明.md",
-   "title": "RC16 八项整改 · 回归测试说明（WorkBuddy 执行）",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 12:58",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 6790,
-   "desc": "红线（违反即作废重跑）"
-  },
-  {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-RC16运营化整改规格.md",
    "title": "RC16 运营化整改规格（待徐总拍板项）",
    "updated": "2026-11-03",
@@ -21240,16 +21384,6 @@ window.OBSIDIAN_DATA = {
    "desc": "1. 已接入：自带 Key 走腾讯位置服务 WebService API，不依赖 WorkBuddy 官方「腾讯地图」连接器的托管配额。"
   },
   {
-   "path": "90_系统与协作/任务面板与知识库/任务卡/RC16八项整改回归测试-20261103.md",
-   "title": "RC16 八项整改回归测试",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 08:43",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2956,
-   "desc": "Grok 两批（已落地 RC16）"
-  },
-  {
    "path": "50_资产库/AI工具与自动化资产/README.md",
    "title": "50_资产库/AI工具与自动化资产",
    "updated": "2026-11-03",
@@ -21258,26 +21392,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "AI 工具操作手册",
    "wordCount": 573,
    "desc": "- 2026-08-08-飞书妙记工作流整合 — 飞书妙记录制 + WorkBuddy 经飞书 API 直读会谈记录的工作流（移动端体验、阶段边界、待补环节）"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-11-02｜AI知识增量整理.md",
-   "title": "2026-11-02｜AI知识增量整理",
-   "updated": "2026-11-02",
-   "updatedTime": "2026-11-02 23:04",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3054,
-   "desc": "- 日期：2026-11-02（生成于 23:00）"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/DS Bot项目台账.md",
-   "title": "DS Bot 项目台账",
-   "updated": "2026-11-02",
-   "updatedTime": "2026-11-02 16:01",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 1634,
-   "desc": "1. 每项任务收尾，把\"结论 + 证据 + 卡号\"追加到下面表格。"
   }
  ]
 };
