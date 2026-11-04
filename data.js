@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-04",
- "generatedTime": "2026-11-04 15:45",
+ "generatedTime": "2026-11-04 19:48",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 24,
+ "weeklyPages": 25,
  "weeklyChanges": 9,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-03｜AI知识增量整理.md",
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 78
+   "count": 79
   },
   {
    "name": "政府资源配置与政策落地",
@@ -13511,12 +13511,12 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-Base智能体与Worker结合方案.md",
    "title": "Base 多维表格智能体 × 现有 Worker 结合方案（2026-11-04）",
    "updated": "2026-11-04",
-   "updatedTime": "2026-11-04 15:29",
+   "updatedTime": "2026-11-04 15:45",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
    "desc": "owner：克里斯（DS Bot 协调员）",
-   "wordCount": 2897
+   "wordCount": 3942
   },
   {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-RC16录入链路生产级验收测试规范.md",
@@ -13550,6 +13550,17 @@ window.OBSIDIAN_DATA = {
    "backlinks": [],
    "desc": "本线 2026-11-04 封存，班期归组整节未落地，其余口径已落地，测试未开跑。（徐总 2026-11-04 决定：当前主线为 Bot 团队管理，己未这条线本轮不开测、不改代码、",
    "wordCount": 4835
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-口述拆分录入目标架构设计.md",
+   "title": "口述拆分录入 · 目标架构设计（2026-11-04）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 15:45",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "owner：克里斯（DS Bot 协调员）",
+   "wordCount": 2562
   },
   {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-飞书Base原生AI能力调研.md",
@@ -20852,7 +20863,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 145,
-  "fetchedAt": "2026年11月4日 15:45"
+  "fetchedAt": "2026年11月4日 19:48"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21220,10 +21231,20 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-Base智能体与Worker结合方案.md",
    "title": "Base 多维表格智能体 × 现有 Worker 结合方案（2026-11-04）",
    "updated": "2026-11-04",
-   "updatedTime": "2026-11-04 15:29",
+   "updatedTime": "2026-11-04 15:45",
    "topic": "taskboard",
    "topicName": "任务面板与知识库",
-   "wordCount": 2897,
+   "wordCount": 3942,
+   "desc": "owner：克里斯（DS Bot 协调员）"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-口述拆分录入目标架构设计.md",
+   "title": "口述拆分录入 · 目标架构设计（2026-11-04）",
+   "updated": "2026-11-04",
+   "updatedTime": "2026-11-04 15:45",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 2562,
    "desc": "owner：克里斯（DS Bot 协调员）"
   },
   {
