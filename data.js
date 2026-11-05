@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-11-04",
- "generatedTime": "2026-11-04 23:51",
+ "generatedAt": "2026-11-05",
+ "generatedTime": "2026-11-05 20:49",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 27,
- "weeklyChanges": 9,
+ "weeklyPages": 20,
+ "weeklyChanges": 5,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-04｜AI知识增量整理.md",
  "topics": [
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 80
+   "count": 81
   },
   {
    "name": "政府资源配置与政策落地",
@@ -13239,13 +13239,13 @@ window.OBSIDIAN_DATA = {
   {
    "path": "90_系统与协作/任务面板与知识库/任务卡/RC16四方统一协作总览-20261104.md",
    "title": "【四方统一主卡】己未 RC16 录入链路生产级验收测试 —— 四方分工与纪律",
-   "updated": "2026-11-04",
-   "updatedTime": "2026-11-04 11:14",
+   "updated": "2026-11-05",
+   "updatedTime": "2026-11-05 12:56",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
    "desc": "- 验收口径：90系统与协作/任务面板与知识库/己未文化/20261104-RC16录入链路生产级验收测试规范.md（Codex 2026-11-04 10:22 修订版）。",
-   "wordCount": 2690
+   "wordCount": 2933
   },
   {
    "path": "90_系统与协作/任务面板与知识库/任务卡/Taskboard自测-Codex-M3路径验收.md",
@@ -13257,6 +13257,17 @@ window.OBSIDIAN_DATA = {
    "backlinks": [],
    "desc": "- 验证 Codex-M3 子代理能独立完成 Obsidian 任务卡端到端建卡→流转→评论→收口全流程。",
    "wordCount": 1034
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/任务卡/己未Base主表子表关联改造-20261105.md",
+   "title": "己未 Base 主表-子表关联改造落地（关联字段 + 322 处回填 + auto_id）",
+   "updated": "2026-11-05",
+   "updatedTime": "2026-11-05 12:56",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "存量关系表 286 行、回填前备份在 /tmp/jiweirelbackup20261105.csv。",
+   "wordCount": 882
   },
   {
    "path": "90_系统与协作/任务面板与知识库/任务卡-知识库匹配核对（2026-08-17）.md",
@@ -20886,7 +20897,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 145,
-  "fetchedAt": "2026年11月4日 23:51"
+  "fetchedAt": "2026年11月5日 20:49"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21251,6 +21262,26 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/任务卡/RC16四方统一协作总览-20261104.md",
+   "title": "【四方统一主卡】己未 RC16 录入链路生产级验收测试 —— 四方分工与纪律",
+   "updated": "2026-11-05",
+   "updatedTime": "2026-11-05 12:56",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 2933,
+   "desc": "- 验收口径：90系统与协作/任务面板与知识库/己未文化/20261104-RC16录入链路生产级验收测试规范.md（Codex 2026-11-04 10:22 修订版）。"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/任务卡/己未Base主表子表关联改造-20261105.md",
+   "title": "己未 Base 主表-子表关联改造落地（关联字段 + 322 处回填 + auto_id）",
+   "updated": "2026-11-05",
+   "updatedTime": "2026-11-05 12:56",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 882,
+   "desc": "存量关系表 286 行、回填前备份在 /tmp/jiweirelbackup20261105.csv。"
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261104-多维表格自动化流程配置与实测.md",
    "title": "多维表格自动化流程配置与实测 — 2026-11-04（DS Bot 克里斯）",
    "updated": "2026-11-04",
@@ -21381,16 +21412,6 @@ window.OBSIDIAN_DATA = {
    "desc": "日期：2026-11-03　作者：口径师　交付：克里斯"
   },
   {
-   "path": "90_系统与协作/任务面板与知识库/任务卡/RC16四方统一协作总览-20261104.md",
-   "title": "【四方统一主卡】己未 RC16 录入链路生产级验收测试 —— 四方分工与纪律",
-   "updated": "2026-11-04",
-   "updatedTime": "2026-11-04 11:14",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2690,
-   "desc": "- 验收口径：90系统与协作/任务面板与知识库/己未文化/20261104-RC16录入链路生产级验收测试规范.md（Codex 2026-11-04 10:22 修订版）。"
-  },
-  {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-RC16八项整改回归测试说明.md",
    "title": "RC16 八项整改 · 回归测试说明（WorkBuddy 执行）",
    "updated": "2026-11-04",
@@ -21439,86 +21460,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "任务面板与知识库",
    "wordCount": 3504,
    "desc": "Grok 两批（已落地 RC16）"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-11-03｜AI知识增量整理.md",
-   "title": "2026-11-03｜AI知识增量整理",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 23:06",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3402,
-   "desc": "- 日期：2026-11-03（扫描窗口 2026-11-02 23:00 ～ 2026-11-03 23:00）"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-判定表v5-五项取舍裁定.md",
-   "title": "判定表 v5 · 执行员五项取舍裁定（口径师，2026-11-03）",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 22:47",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2423,
-   "desc": "对象：执行员 v4 交付后提出的 5 条待裁定。"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-判定表v4-M1扩面与词表裁定.md",
-   "title": "判定表 v4 · M1 扩面 / 缺失组 / 词表 三项裁定（口径师，2026-11-03）",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 22:39",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2591,
-   "desc": "对象：执行员 v3 实现后提出的三点差异与风险。"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-判定表v3-主题段替换裁定.md",
-   "title": "判定表 v3 · 主题段替换裁定（口径师，2026-11-03）",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 22:35",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2492,
-   "desc": "对象：执行员 2026-11-03 交付的《主题段替换执行员.md》提出的三点差异项。"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-判定表v2-实现补充口径.md",
-   "title": "判定表 v2 · 实现补充口径（口径师，2026-11-03）",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 22:27",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2272,
-   "desc": "适用：贾维斯在群内提出的三个待钉死点。目的是让执行员「照着写代码，不用再问」。"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261103-RC16运营化整改规格.md",
-   "title": "RC16 运营化整改规格（待徐总拍板项）",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 08:54",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2002,
-   "desc": "日期：2026-11-03"
-  },
-  {
-   "path": "50_资产库/AI工具与自动化资产/2026-11-03-腾讯位置服务（LBS）接入与Key配置.md",
-   "title": "腾讯位置服务（LBS）接入：自有 Key 鉴权与本地调用层",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 08:53",
-   "topic": "aitools",
-   "topicName": "AI 工具操作手册",
-   "wordCount": 1887,
-   "desc": "1. 已接入：自带 Key 走腾讯位置服务 WebService API，不依赖 WorkBuddy 官方「腾讯地图」连接器的托管配额。"
-  },
-  {
-   "path": "50_资产库/AI工具与自动化资产/README.md",
-   "title": "50_资产库/AI工具与自动化资产",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 08:39",
-   "topic": "aitools",
-   "topicName": "AI 工具操作手册",
-   "wordCount": 573,
-   "desc": "- 2026-08-08-飞书妙记工作流整合 — 飞书妙记录制 + WorkBuddy 经飞书 API 直读会谈记录的工作流（移动端体验、阶段边界、待补环节）"
   }
  ]
 };
