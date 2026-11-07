@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-07",
- "generatedTime": "2026-11-07 09:21",
+ "generatedTime": "2026-11-07 21:36",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 3,
- "weeklyChanges": 250,
+ "weeklyPages": 5,
+ "weeklyChanges": 302,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-06｜AI知识增量整理.md",
  "topics": [
@@ -19,7 +19,7 @@ window.OBSIDIAN_DATA = {
    "key": "enterprise",
    "icon": "🏢",
    "v3group": "core",
-   "count": 148
+   "count": 149
   },
   {
    "name": "AI产业链与数字基础设施",
@@ -4631,6 +4631,21 @@ window.OBSIDIAN_DATA = {
    "wordCount": 12174
   },
   {
+   "path": "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/跨国公司员工用Claude的一手见闻：英特尔中国每月240美金API额度（2026-11-07）.md",
+   "title": "跨国公司员工用Claude的一手见闻：英特尔中国每月240美金API额度",
+   "updated": "2026-11-07",
+   "updatedTime": "2026-11-07 21:15",
+   "topic": "enterprise",
+   "links": [
+    "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航"
+   ],
+   "backlinks": [
+    "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航.md"
+   ],
+   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航",
+   "wordCount": 11553
+  },
+  {
    "path": "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
    "title": "集成商AI基础设施布局到AI Agent生产企业演进路径",
    "updated": "2026-09-10",
@@ -5094,8 +5109,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航.md",
    "title": "企业AI与智能体商业化V3导航",
-   "updated": "2026-10-27",
-   "updatedTime": "2026-10-27 17:13",
+   "updated": "2026-11-07",
+   "updatedTime": "2026-11-07 19:16",
    "topic": "enterprise",
    "links": [
     "00_入口与导航/知识库V3逻辑导航",
@@ -5147,13 +5162,15 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/AI落地门槛悖论：低门槛入场与工程化难度被掩盖的隐忧",
     "60_问题与洞察/徐总问题专题库/02_企业AI与商业化/企业AI研究问题",
     "70_知识流水线/企业AI专题工作记录/企业AI资料池",
-    "70_知识流水线/企业AI专题工作记录/企业AI蒸馏笔记"
+    "70_知识流水线/企业AI专题工作记录/企业AI蒸馏笔记",
+    "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/跨国公司员工用Claude的一手见闻：英特尔中国每月240美金API额度（2026-11-07）"
    ],
    "backlinks": [
+    "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/跨国公司员工用Claude的一手见闻：英特尔中国每月240美金API额度（2026-11-07）.md",
     "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题.md"
    ],
    "desc": "上级：00入口与导航/知识库V3逻辑导航、40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题",
-   "wordCount": 5040
+   "wordCount": 5143
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题.md",
@@ -19538,7 +19555,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "数据与知识资产",
-   "matched": 178,
+   "matched": 179,
    "status": "已形成"
   },
   {
@@ -19548,7 +19565,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "工具与协议",
-   "matched": 16,
+   "matched": 17,
    "status": "已形成"
   },
   {
@@ -19568,12 +19585,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 179,
+   "matched": 180,
    "status": "已形成"
   },
   {
    "name": "商业化与组织能力",
-   "matched": 131,
+   "matched": 132,
    "status": "已形成"
   }
  ],
@@ -20935,7 +20952,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 145,
-  "fetchedAt": "2026年11月7日 09:21"
+  "fetchedAt": "2026年11月7日 21:36"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21299,6 +21316,26 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "recentUpdates": [
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/跨国公司员工用Claude的一手见闻：英特尔中国每月240美金API额度（2026-11-07）.md",
+   "title": "跨国公司员工用Claude的一手见闻：英特尔中国每月240美金API额度",
+   "updated": "2026-11-07",
+   "updatedTime": "2026-11-07 21:15",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 11553,
+   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航"
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航.md",
+   "title": "企业AI与智能体商业化V3导航",
+   "updated": "2026-11-07",
+   "updatedTime": "2026-11-07 19:16",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 5143,
+   "desc": "上级：00入口与导航/知识库V3逻辑导航、40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题"
+  },
   {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
