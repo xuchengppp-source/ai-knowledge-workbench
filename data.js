@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-08",
- "generatedTime": "2026-11-08 09:58",
+ "generatedTime": "2026-11-08 14:12",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 8,
- "weeklyChanges": 320,
+ "weeklyPages": 9,
+ "weeklyChanges": 323,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-07｜AI知识增量整理.md",
  "topics": [
@@ -132,7 +132,7 @@ window.OBSIDIAN_DATA = {
    "icon": "🗂",
    "color": "raw",
    "v3group": "raw",
-   "count": 214
+   "count": 215
   }
  ],
  "nodes": [
@@ -2812,6 +2812,7 @@ window.OBSIDIAN_DATA = {
     "70_知识流水线/A_原始资料.md",
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-12.md",
     "30_资料库/原始资料/已整理｜2026-08-12｜对话整理｜任务闭环与业务闭环分离-GrokBot数字岗位vs经营Agent.md",
+    "30_资料库/原始资料/已整理｜2026-11-07｜用户提供｜Bot产品创新与Agent底层架构创新：Grok Bot与Dot到底改了什么（对话整理）.md",
     "30_资料库/原始资料/已整理｜2026-11-07｜用户提供｜从OpenClaw到Grok Bot：下一代AI Agent发展路径判断（对话整理全文）.md"
    ],
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -6655,8 +6656,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
-   "updated": "2026-11-07",
-   "updatedTime": "2026-11-07 22:38",
+   "updated": "2026-11-08",
+   "updatedTime": "2026-11-08 10:35",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线",
@@ -6664,6 +6665,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/AI技术哲学与未来展望/从OpenClaw到Grok Bot：AI Agent产品范式从任务执行到持久化数字工作主体\\",
     "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线\\",
     "30_资料库/原始资料/已整理｜2026-11-07｜抖音分享｜DeepSeek Super-Agent深度讲解：Router-Worker双层架构与事件驱动-全双工-存算分离-Watchdog（小白debuq视频整理）\\",
+    "30_资料库/原始资料/已整理｜2026-11-07｜用户提供｜Bot产品创新与Agent底层架构创新：Grok Bot与Dot到底改了什么（对话整理）\\",
     "30_资料库/原始资料/已整理｜2026-11-07｜抖音分享｜美签的底层逻辑：DS-160风险画像系统与面签前三天风险评估（美国生存指南·AI章节摘要）\\",
     "10_个人生活与个人管理/个人出行/美签/美签管理\\",
     "30_资料库/原始资料/已整理｜2026-10-30｜用户提供｜AI咨询系统性偏差复盘：把能论证观点误当成已解决问题（机动车保险事故案例）\\",
@@ -7021,7 +7023,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-10-04｜公众号｜低空空域资源商业化案例解析（数据待核）.md"
    ],
    "desc": "上级：70知识流水线/知识流水线",
-   "wordCount": 39933
+   "wordCount": 40583
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -19498,6 +19500,20 @@ window.OBSIDIAN_DATA = {
    "wordCount": 1594
   },
   {
+   "path": "30_资料库/原始资料/已整理｜2026-11-07｜用户提供｜Bot产品创新与Agent底层架构创新：Grok Bot与Dot到底改了什么（对话整理）.md",
+   "title": "Bot产品创新与Agent底层架构创新：Grok Bot与Dot到底改了什么",
+   "updated": "2026-11-08",
+   "updatedTime": "2026-11-08 10:33",
+   "topic": "raw",
+   "links": [
+    "40_专题知识库/AI技术哲学与未来展望/从OpenClaw到Grok Bot：AI Agent产品范式从任务执行到持久化数字工作主体",
+    "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线"
+   ],
+   "backlinks": [],
+   "desc": "- 来源：用户提供的对话整理稿（原始文件名\"思考了 16s 对，你现在问到了一个真正区分 Bot 产品创新 和 Agent 底层架构创新 的问.md\"）。",
+   "wordCount": 4512
+  },
+  {
    "path": "30_资料库/原始资料/已整理｜2026-11-07｜用户提供｜从OpenClaw到Grok Bot：下一代AI Agent发展路径判断（对话整理全文）.md",
    "title": "从 OpenClaw 到 Grok Bot：对下一代 AI Agent 发展路径的判断（对话整理全文）",
    "updated": "2026-11-07",
@@ -21003,7 +21019,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 145,
-  "fetchedAt": "2026年11月8日 09:58"
+  "fetchedAt": "2026年11月8日 14:12"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21368,6 +21384,26 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "70_知识流水线/A_原始资料.md",
+   "title": "A_原始资料",
+   "updated": "2026-11-08",
+   "updatedTime": "2026-11-08 10:35",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 40583,
+   "desc": "上级：70知识流水线/知识流水线"
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-11-07｜用户提供｜Bot产品创新与Agent底层架构创新：Grok Bot与Dot到底改了什么（对话整理）.md",
+   "title": "Bot产品创新与Agent底层架构创新：Grok Bot与Dot到底改了什么",
+   "updated": "2026-11-08",
+   "updatedTime": "2026-11-08 10:33",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 4512,
+   "desc": "- 来源：用户提供的对话整理稿（原始文件名\"思考了 16s 对，你现在问到了一个真正区分 Bot 产品创新 和 Agent 底层架构创新 的问.md\"）。"
+  },
+  {
    "path": "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/跨国公司员工用Claude的一手见闻：英特尔中国每月240美金API额度（2026-11-07）.md",
    "title": "跨国公司员工用Claude的一手见闻：英特尔中国每月240美金API额度",
    "updated": "2026-11-07",
@@ -21386,16 +21422,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 4767,
    "desc": "- 日期：2026-11-07（生成于 23:00）"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-11-07",
-   "updatedTime": "2026-11-07 22:38",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 39933,
-   "desc": "上级：70知识流水线/知识流水线"
   },
   {
    "path": "30_资料库/原始资料/已整理｜2026-11-07｜抖音分享｜DeepSeek Super-Agent深度讲解：Router-Worker双层架构与事件驱动-全双工-存算分离-Watchdog（小白debuq视频整理）.md",
