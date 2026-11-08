@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-11-07",
- "generatedTime": "2026-11-07 23:03",
+ "generatedAt": "2026-11-08",
+ "generatedTime": "2026-11-08 09:58",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 9,
- "weeklyChanges": 319,
+ "weeklyPages": 8,
+ "weeklyChanges": 320,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-07｜AI知识增量整理.md",
  "topics": [
@@ -4638,16 +4638,17 @@ window.OBSIDIAN_DATA = {
    "path": "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/跨国公司员工用Claude的一手见闻：英特尔中国每月240美金API额度（2026-11-07）.md",
    "title": "跨国公司员工用Claude的一手见闻：英特尔中国每月240美金API额度",
    "updated": "2026-11-07",
-   "updatedTime": "2026-11-07 21:15",
+   "updatedTime": "2026-11-07 23:04",
    "topic": "enterprise",
    "links": [
-    "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航"
+    "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航",
+    "40_专题知识库/AI技术哲学与未来展望/从OpenClaw到Grok Bot：AI Agent产品范式从任务执行到持久化数字工作主体"
    ],
    "backlinks": [
     "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航.md"
    ],
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航",
-   "wordCount": 11553
+   "wordCount": 6442
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/集成商AI基础设施布局到AI Agent生产企业演进路径.md",
@@ -21002,7 +21003,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 145,
-  "fetchedAt": "2026年11月7日 23:03"
+  "fetchedAt": "2026年11月8日 09:58"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21367,6 +21368,16 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/跨国公司员工用Claude的一手见闻：英特尔中国每月240美金API额度（2026-11-07）.md",
+   "title": "跨国公司员工用Claude的一手见闻：英特尔中国每月240美金API额度",
+   "updated": "2026-11-07",
+   "updatedTime": "2026-11-07 23:04",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 6442,
+   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-11-07｜AI知识增量整理.md",
    "title": "2026-11-07｜AI知识增量整理",
    "updated": "2026-11-07",
@@ -21417,16 +21428,6 @@ window.OBSIDIAN_DATA = {
    "desc": "- 来源：用户于 2026-11-07 提供全文，属对话整理产出（文中含\"你前面一直质疑的……\"等对话指向），作者未署名。"
   },
   {
-   "path": "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/跨国公司员工用Claude的一手见闻：英特尔中国每月240美金API额度（2026-11-07）.md",
-   "title": "跨国公司员工用Claude的一手见闻：英特尔中国每月240美金API额度",
-   "updated": "2026-11-07",
-   "updatedTime": "2026-11-07 21:15",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 11553,
-   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航"
-  },
-  {
    "path": "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航.md",
    "title": "企业AI与智能体商业化V3导航",
    "updated": "2026-11-07",
@@ -21445,16 +21446,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "原始资料 / 养料",
    "wordCount": 1594,
    "desc": "- 来源：抖音账号\"美国生存指南\"，系列《美签三部曲》第一集《一、美签的底层逻辑》。"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-11-06｜AI知识增量整理.md",
-   "title": "2026-11-06｜AI 知识增量整理",
-   "updated": "2026-11-06",
-   "updatedTime": "2026-11-06 23:02",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 1445,
-   "desc": "- 日期：2026-11-06"
   }
  ]
 };
