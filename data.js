@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-11-08",
- "generatedTime": "2026-11-08 23:03",
+ "generatedAt": "2026-11-09",
+ "generatedTime": "2026-11-09 10:39",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 11,
- "weeklyChanges": 323,
+ "weeklyPages": 4,
+ "weeklyChanges": 255,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-08｜AI知识增量整理.md",
  "topics": [
@@ -21041,7 +21041,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 145,
-  "fetchedAt": "2026年11月8日 23:03"
+  "fetchedAt": "2026年11月9日 10:39"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21444,76 +21444,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "原始资料 / 养料",
    "wordCount": 4512,
    "desc": "- 来源：用户提供的对话整理稿（原始文件名\"思考了 16s 对，你现在问到了一个真正区分 Bot 产品创新 和 Agent 底层架构创新 的问.md\"）。"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/跨国公司员工用Claude的一手见闻：英特尔中国每月240美金API额度（2026-11-07）.md",
-   "title": "跨国公司员工用Claude的一手见闻：英特尔中国每月240美金API额度",
-   "updated": "2026-11-07",
-   "updatedTime": "2026-11-07 23:04",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 6442,
-   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-11-07｜AI知识增量整理.md",
-   "title": "2026-11-07｜AI知识增量整理",
-   "updated": "2026-11-07",
-   "updatedTime": "2026-11-07 23:03",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4767,
-   "desc": "- 日期：2026-11-07（生成于 23:00）"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-11-07｜抖音分享｜DeepSeek Super-Agent深度讲解：Router-Worker双层架构与事件驱动-全双工-存算分离-Watchdog（小白debuq视频整理）.md",
-   "title": "DeepSeek Super-Agent 深度讲解：Router/Worker 双层架构、事件驱动、订阅直通、全双工、存算分离与 Watchdog",
-   "updated": "2026-11-07",
-   "updatedTime": "2026-11-07 22:37",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3211,
-   "desc": "- 来源：抖音博主\"小白debuq\"对 DeepSeek Super-Agent 的深度讲解视频，用户已完成抖音提取（反爬后改用搜索渠道获取同主题内容），并整理为文字。"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线.md",
-   "title": "任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
-   "updated": "2026-11-07",
-   "updatedTime": "2026-11-07 22:30",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 2133,
-   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-11-07｜用户提供｜从OpenClaw到Grok Bot：下一代AI Agent发展路径判断（对话整理全文）.md",
-   "title": "从 OpenClaw 到 Grok Bot：对下一代 AI Agent 发展路径的判断（对话整理全文）",
-   "updated": "2026-11-07",
-   "updatedTime": "2026-11-07 22:27",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 4987,
-   "desc": "- 来源：用户于 2026-11-07 提供全文，属对话整理产出（文中含\"你前面一直质疑的……\"等对话指向），作者未署名。"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航.md",
-   "title": "企业AI与智能体商业化V3导航",
-   "updated": "2026-11-07",
-   "updatedTime": "2026-11-07 19:16",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 5143,
-   "desc": "上级：00入口与导航/知识库V3逻辑导航、40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-11-07｜抖音分享｜美签的底层逻辑：DS-160风险画像系统与面签前三天风险评估（美国生存指南·AI章节摘要）.md",
-   "title": "美签的底层逻辑：DS-160 风险画像系统与面签前三天风险评估（美国生存指南·美签三部曲第一集·AI 章节摘要）",
-   "updated": "2026-11-07",
-   "updatedTime": "2026-11-07 00:23",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 1594,
-   "desc": "- 来源：抖音账号\"美国生存指南\"，系列《美签三部曲》第一集《一、美签的底层逻辑》。"
   }
  ]
 };
