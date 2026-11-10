@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-11-09",
- "generatedTime": "2026-11-09 23:03",
+ "generatedAt": "2026-11-10",
+ "generatedTime": "2026-11-10 11:17",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 6,
- "weeklyChanges": 258,
+ "weeklyPages": 2,
+ "weeklyChanges": 3,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-09｜AI知识增量整理.md",
  "topics": [
@@ -21052,7 +21052,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 145,
-  "fetchedAt": "2026年11月9日 23:03"
+  "fetchedAt": "2026年11月10日 11:17"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21435,46 +21435,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "Codex 工作区",
    "wordCount": 6656,
    "desc": "上级：Codex工作区"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-11-08｜AI知识增量整理.md",
-   "title": "2026-11-08｜AI 知识增量整理",
-   "updated": "2026-11-08",
-   "updatedTime": "2026-11-08 23:03",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3519,
-   "desc": "- 日期：2026-11-08（周日）"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261108-多维表格智能体触发器现状巡检.md",
-   "title": "20261108 多维表格智能体触发器现状巡检（只读）",
-   "updated": "2026-11-08",
-   "updatedTime": "2026-11-08 22:39",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 9468,
-   "desc": "巡检人：执行员（DS Bot）｜派活：克里斯｜工具：ego-browser（ego-lite）"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-11-08",
-   "updatedTime": "2026-11-08 10:35",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 40583,
-   "desc": "上级：70知识流水线/知识流水线"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-11-07｜用户提供｜Bot产品创新与Agent底层架构创新：Grok Bot与Dot到底改了什么（对话整理）.md",
-   "title": "Bot产品创新与Agent底层架构创新：Grok Bot与Dot到底改了什么",
-   "updated": "2026-11-08",
-   "updatedTime": "2026-11-08 10:33",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 4512,
-   "desc": "- 来源：用户提供的对话整理稿（原始文件名\"思考了 16s 对，你现在问到了一个真正区分 Bot 产品创新 和 Agent 底层架构创新 的问.md\"）。"
   }
  ]
 };
