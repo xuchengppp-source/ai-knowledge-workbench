@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-10",
- "generatedTime": "2026-11-10 11:17",
+ "generatedTime": "2026-11-10 19:24",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 2,
+ "weeklyPages": 4,
  "weeklyChanges": 3,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-09｜AI知识增量整理.md",
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 82
+   "count": 84
   },
   {
    "name": "政府资源配置与政策落地",
@@ -13313,6 +13313,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 6744
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/任务卡/RC16-worker14回填正式套件-20261110.md",
+   "title": "【Codex】己未 RC16 worker.14 回填正式套件（只改本地，不部署）",
+   "updated": "2026-11-10",
+   "updatedTime": "2026-11-10 15:39",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "线上已是 worker.14 串行消费者；把正式套件目录和部署说明回填到同一版本，不部署、不改定时器、不改飞书。",
+   "wordCount": 544
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/任务卡/RC16八项整改回归测试-20261103.md",
    "title": "RC16 八项整改回归测试",
    "updated": "2026-11-04",
@@ -13703,6 +13714,17 @@ window.OBSIDIAN_DATA = {
    "backlinks": [],
    "desc": "巡检人：执行员（DS Bot）｜派活：克里斯｜工具：ego-browser（ego-lite）",
    "wordCount": 9468
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261110-RC16-worker14回填正式套件.md",
+   "title": "2026-11-10 RC16 worker.14 回填正式套件（只改本地套件，不部署）",
+   "updated": "2026-11-10",
+   "updatedTime": "2026-11-10 15:39",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "面板卡：KNOWLEDGEPIP-180。同目录 2026-11-05「主表-子表关联」文档也写过 180，那是已完成的历史文件，不要改。",
+   "wordCount": 2135
   },
   {
    "path": "90_系统与协作/任务面板与知识库/方向推进与接力.md",
@@ -21003,7 +21025,7 @@ window.OBSIDIAN_DATA = {
  "tasks": {
   "summary": {
    "in_progress": 19,
-   "todo": 20,
+   "todo": 21,
    "in_review": 24,
    "blocked": 1
   },
@@ -21051,8 +21073,8 @@ window.OBSIDIAN_DATA = {
     "assignee": "Codex"
    }
   ],
-  "total": 145,
-  "fetchedAt": "2026年11月10日 11:17"
+  "total": 146,
+  "fetchedAt": "2026年11月10日 19:24"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21416,6 +21438,26 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "recentUpdates": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/任务卡/RC16-worker14回填正式套件-20261110.md",
+   "title": "【Codex】己未 RC16 worker.14 回填正式套件（只改本地，不部署）",
+   "updated": "2026-11-10",
+   "updatedTime": "2026-11-10 15:39",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 544,
+   "desc": "线上已是 worker.14 串行消费者；把正式套件目录和部署说明回填到同一版本，不部署、不改定时器、不改飞书。"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261110-RC16-worker14回填正式套件.md",
+   "title": "2026-11-10 RC16 worker.14 回填正式套件（只改本地套件，不部署）",
+   "updated": "2026-11-10",
+   "updatedTime": "2026-11-10 15:39",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 2135,
+   "desc": "面板卡：KNOWLEDGEPIP-180。同目录 2026-11-05「主表-子表关联」文档也写过 180，那是已完成的历史文件，不要改。"
+  },
   {
    "path": "70_知识流水线/每日学习整理/2026-11-09｜AI知识增量整理.md",
    "title": "2026-11-09｜AI 知识增量整理",
