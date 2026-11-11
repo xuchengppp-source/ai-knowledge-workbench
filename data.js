@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-11",
- "generatedTime": "2026-11-11 23:02",
+ "generatedTime": "2026-11-11 23:44",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 4,
  "weeklyChanges": 0,
@@ -19903,7 +19903,7 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 102976,
+     "wordCount": 103271,
      "excerpt": "知识库索引（快速查找版）2026-11-03｜腾讯位置服务（LBS）接入：自有 Key + 本机命令行归位说明：属\"怎么用\"的工具接入，放 50_资产库/AI工具与自动化资产；凭证明文不入库，只记位置与用法。50_资产库",
      "hasBody": true
     },
@@ -21092,7 +21092,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 146,
-  "fetchedAt": "2026年11月11日 23:02"
+  "fetchedAt": "2026年11月11日 23:44"
  },
  "knowledgeCardCenter": {
   "cards": [
