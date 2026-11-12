@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-11-11",
- "generatedTime": "2026-11-11 23:44",
+ "generatedAt": "2026-11-12",
+ "generatedTime": "2026-11-12 11:53",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 4,
  "weeklyChanges": 0,
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 84
+   "count": 87
   },
   {
    "name": "政府资源配置与政策落地",
@@ -13749,6 +13749,39 @@ window.OBSIDIAN_DATA = {
    "wordCount": 2135
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261112-RC16-录入进度收口与Worker复核更新.md",
+   "title": "2026-11-12 己未 RC16：五条口述录入进度收口 + Worker / 复核更新",
+   "updated": "2026-11-12",
+   "updatedTime": "2026-11-12 01:18",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 负责人：Codex 助手",
+   "wordCount": 2533
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261112-外部Agent对接方案.md",
+   "title": "20261112 外部 Agent 对接方案（How 外部 Agent 把话递到克里斯手里）",
+   "updated": "2026-11-12",
+   "updatedTime": "2026-11-12 09:57",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "结论：真正跑通且双方都在用的只有 1（任务面板评论） 和 2（知识库文件）；3 是\"他们自己拉\"的变体，4/6 只能我→外部或外部→我单边跑通。",
+   "wordCount": 7480
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261112-跨平台未闭环清单.md",
+   "title": "20261112 跨平台未闭环清单",
+   "updated": "2026-11-12",
+   "updatedTime": "2026-11-12 09:56",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 事项：177 要求 CodeX 与 Grok Bot 各自留一条版本确认（口径文件是哪一份、当前是代码基线还是已改状态、与规范三处出入是否接受）。",
+   "wordCount": 7508
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/方向推进与接力.md",
    "title": "方向推进与接力",
    "updated": "2026-10-07",
@@ -19695,7 +19728,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "数据与知识资产",
-   "matched": 179,
+   "matched": 180,
    "status": "已形成"
   },
   {
@@ -19903,7 +19936,7 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 103271,
+     "wordCount": 103364,
      "excerpt": "知识库索引（快速查找版）2026-11-03｜腾讯位置服务（LBS）接入：自有 Key + 本机命令行归位说明：属\"怎么用\"的工具接入，放 50_资产库/AI工具与自动化资产；凭证明文不入库，只记位置与用法。50_资产库",
      "hasBody": true
     },
@@ -21043,7 +21076,7 @@ window.OBSIDIAN_DATA = {
  "tasks": {
   "summary": {
    "in_progress": 19,
-   "todo": 21,
+   "todo": 22,
    "in_review": 24,
    "blocked": 1
   },
@@ -21061,6 +21094,13 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "urgent",
     "assignee": "伊森"
+   },
+   {
+    "id": "KP-181",
+    "title": "【Codex】己未 RC16 五条口述录入进度收口与 Worker/复核更新",
+    "status": "todo",
+    "priority": "high",
+    "assignee": "贾维斯（Grok Bot）"
    },
    {
     "id": "KP-177",
@@ -21082,17 +21122,10 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "high",
     "assignee": "Oliver"
-   },
-   {
-    "id": "KP-166",
-    "title": "全库索引核对与更新",
-    "status": "in_review",
-    "priority": "high",
-    "assignee": "Codex"
    }
   ],
-  "total": 146,
-  "fetchedAt": "2026年11月11日 23:44"
+  "total": 134,
+  "fetchedAt": "2026年11月12日 11:53"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21457,6 +21490,36 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261112-外部Agent对接方案.md",
+   "title": "20261112 外部 Agent 对接方案（How 外部 Agent 把话递到克里斯手里）",
+   "updated": "2026-11-12",
+   "updatedTime": "2026-11-12 09:57",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 7480,
+   "desc": "结论：真正跑通且双方都在用的只有 1（任务面板评论） 和 2（知识库文件）；3 是\"他们自己拉\"的变体，4/6 只能我→外部或外部→我单边跑通。"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261112-跨平台未闭环清单.md",
+   "title": "20261112 跨平台未闭环清单",
+   "updated": "2026-11-12",
+   "updatedTime": "2026-11-12 09:56",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 7508,
+   "desc": "- 事项：177 要求 CodeX 与 Grok Bot 各自留一条版本确认（口径文件是哪一份、当前是代码基线还是已改状态、与规范三处出入是否接受）。"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261112-RC16-录入进度收口与Worker复核更新.md",
+   "title": "2026-11-12 己未 RC16：五条口述录入进度收口 + Worker / 复核更新",
+   "updated": "2026-11-12",
+   "updatedTime": "2026-11-12 01:18",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 2533,
+   "desc": "- 负责人：Codex 助手"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-11-11｜AI知识增量整理.md",
    "title": "2026-11-11｜AI 知识增量整理",
    "updated": "2026-11-11",
@@ -21465,36 +21528,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 1640,
    "desc": "- 日期：2026-11-11"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-11-10｜AI知识增量整理.md",
-   "title": "2026-11-10｜AI 知识增量整理",
-   "updated": "2026-11-10",
-   "updatedTime": "2026-11-10 23:03",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 2134,
-   "desc": "- 日期：2026-11-10"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/任务卡/RC16-worker14回填正式套件-20261110.md",
-   "title": "【Codex】己未 RC16 worker.14 回填正式套件（只改本地，不部署）",
-   "updated": "2026-11-10",
-   "updatedTime": "2026-11-10 15:39",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 544,
-   "desc": "线上已是 worker.14 串行消费者；把正式套件目录和部署说明回填到同一版本，不部署、不改定时器、不改飞书。"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261110-RC16-worker14回填正式套件.md",
-   "title": "2026-11-10 RC16 worker.14 回填正式套件（只改本地套件，不部署）",
-   "updated": "2026-11-10",
-   "updatedTime": "2026-11-10 15:39",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2135,
-   "desc": "面板卡：KNOWLEDGEPIP-180。同目录 2026-11-05「主表-子表关联」文档也写过 180，那是已完成的历史文件，不要改。"
   }
  ]
 };
