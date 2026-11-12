@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-12",
- "generatedTime": "2026-11-12 11:53",
+ "generatedTime": "2026-11-12 15:57",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 4,
+ "weeklyPages": 5,
  "weeklyChanges": 0,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-11｜AI知识增量整理.md",
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 87
+   "count": 88
   },
   {
    "name": "政府资源配置与政策落地",
@@ -13771,6 +13771,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 7480
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261112-豆包搜索助手接入调研.md",
+   "title": "1) 定位 ID",
+   "updated": "2026-11-12",
+   "updatedTime": "2026-11-12 15:44",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "这个 ID 不是方舟应用、不是扣子 Bot、不是插件，而是豆包客户端里一个会话（conversationid）；豆包没有可供第三方调用的公开接口，能接，但要么走「豆包侧 Skill",
+   "wordCount": 2999
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261112-跨平台未闭环清单.md",
    "title": "20261112 跨平台未闭环清单",
    "updated": "2026-11-12",
@@ -21124,8 +21135,8 @@ window.OBSIDIAN_DATA = {
     "assignee": "Oliver"
    }
   ],
-  "total": 134,
-  "fetchedAt": "2026年11月12日 11:53"
+  "total": 147,
+  "fetchedAt": "2026年11月12日 15:57"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21489,6 +21500,16 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "recentUpdates": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261112-豆包搜索助手接入调研.md",
+   "title": "1) 定位 ID",
+   "updated": "2026-11-12",
+   "updatedTime": "2026-11-12 15:44",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 2999,
+   "desc": "这个 ID 不是方舟应用、不是扣子 Bot、不是插件，而是豆包客户端里一个会话（conversationid）；豆包没有可供第三方调用的公开接口，能接，但要么走「豆包侧 Skill"
+  },
   {
    "path": "90_系统与协作/任务面板与知识库/己未文化/20261112-外部Agent对接方案.md",
    "title": "20261112 外部 Agent 对接方案（How 外部 Agent 把话递到克里斯手里）",
