@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-11-12",
- "generatedTime": "2026-11-12 23:04",
+ "generatedAt": "2026-11-13",
+ "generatedTime": "2026-11-13 08:16",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 19,
+ "weeklyPages": 18,
  "weeklyChanges": 339,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-12｜AI知识增量整理.md",
@@ -21306,7 +21306,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 147,
-  "fetchedAt": "2026年11月12日 23:04"
+  "fetchedAt": "2026年11月13日 08:16"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21849,16 +21849,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "任务面板与知识库",
    "wordCount": 2533,
    "desc": "- 负责人：Codex 助手"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-11-11｜AI知识增量整理.md",
-   "title": "2026-11-11｜AI 知识增量整理",
-   "updated": "2026-11-11",
-   "updatedTime": "2026-11-11 23:02",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 1640,
-   "desc": "- 日期：2026-11-11"
   }
  ]
 };
