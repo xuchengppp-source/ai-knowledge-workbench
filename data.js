@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-13",
- "generatedTime": "2026-11-13 12:22",
+ "generatedTime": "2026-11-13 16:26",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 21,
  "weeklyChanges": 400,
@@ -3787,7 +3787,7 @@ window.OBSIDIAN_DATA = {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
    "updated": "2026-11-13",
-   "updatedTime": "2026-11-13 12:02",
+   "updatedTime": "2026-11-13 13:54",
    "topic": "enterprise",
    "links": [
     "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -3801,7 +3801,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/知识库索引.md"
    ],
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口",
-   "wordCount": 9820
+   "wordCount": 20462
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团.md",
@@ -21333,7 +21333,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 147,
-  "fetchedAt": "2026年11月13日 12:22"
+  "fetchedAt": "2026年11月13日 16:26"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21701,10 +21701,10 @@ window.OBSIDIAN_DATA = {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
    "updated": "2026-11-13",
-   "updatedTime": "2026-11-13 12:02",
+   "updatedTime": "2026-11-13 13:54",
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
-   "wordCount": 9820,
+   "wordCount": 20462,
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口"
   },
   {
