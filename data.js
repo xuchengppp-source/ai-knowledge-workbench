@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-11-13",
- "generatedTime": "2026-11-13 23:03",
+ "generatedAt": "2026-11-14",
+ "generatedTime": "2026-11-14 08:56",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 22,
- "weeklyChanges": 400,
+ "weeklyPages": 5,
+ "weeklyChanges": 61,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-13｜AI知识增量整理.md",
  "topics": [
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 90
+   "count": 91
   },
   {
    "name": "政府资源配置与政策落地",
@@ -3786,8 +3786,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
-   "updated": "2026-11-13",
-   "updatedTime": "2026-11-13 20:39",
+   "updated": "2026-11-14",
+   "updatedTime": "2026-11-14 01:44",
    "topic": "enterprise",
    "links": [
     "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -3801,7 +3801,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/知识库索引.md"
    ],
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口",
-   "wordCount": 21620
+   "wordCount": 45891
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团.md",
@@ -13909,6 +13909,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 7508
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261114-ADP异步触发能力调研.md",
+   "title": "腾讯云 ADP 异步/后台机制调研（只读）",
+   "updated": "2026-11-14",
+   "updatedTime": "2026-11-14 01:32",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 调研范围：仅腾讯云 ADP（Agent Development Platform）平台自身提供的异步/后台机制；不评价业务设计，不给实现建议。",
+   "wordCount": 11106
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/方向推进与接力.md",
    "title": "方向推进与接力",
    "updated": "2026-10-07",
@@ -20159,7 +20170,7 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 103739,
+     "wordCount": 103687,
      "excerpt": "知识库索引（快速查找版）2026-11-13｜己未 × 腾讯 ADP 试点：真实飞书 Base 接入搭建记录归位说明：属项目执行事实与验收记录，放 40_专题知识库/企业AI与智能体商业化/04_项目与客户落地；凭据明文",
      "hasBody": true
     },
@@ -21348,7 +21359,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 147,
-  "fetchedAt": "2026年11月13日 23:03"
+  "fetchedAt": "2026年11月14日 08:56"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21713,6 +21724,26 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
+   "title": "己未ADP试点搭建记录",
+   "updated": "2026-11-14",
+   "updatedTime": "2026-11-14 01:44",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 45891,
+   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/己未文化/20261114-ADP异步触发能力调研.md",
+   "title": "腾讯云 ADP 异步/后台机制调研（只读）",
+   "updated": "2026-11-14",
+   "updatedTime": "2026-11-14 01:32",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 11106,
+   "desc": "- 调研范围：仅腾讯云 ADP（Agent Development Platform）平台自身提供的异步/后台机制；不评价业务设计，不给实现建议。"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-11-13｜AI知识增量整理.md",
    "title": "2026-11-13｜AI知识增量整理",
    "updated": "2026-11-13",
@@ -21721,16 +21752,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 3496,
    "desc": "- 日期：2026-11-13（扫描窗口 2026-11-12 23:01 ～ 2026-11-13 23:01，GMT+8）"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
-   "title": "己未ADP试点搭建记录",
-   "updated": "2026-11-13",
-   "updatedTime": "2026-11-13 20:39",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 21620,
-   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口"
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未文化资料速查入口.md",
@@ -21751,186 +21772,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 34063,
    "desc": "- 40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未ADP试点搭建记录：己未客户资产管理 Agent 在腾讯云 ADP 的落地实证——从模拟闭环到直连真实飞书 Ba"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-11-12｜AI知识增量整理.md",
-   "title": "2026-11-12｜AI 知识增量整理",
-   "updated": "2026-11-12",
-   "updatedTime": "2026-11-12 23:04",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3402,
-   "desc": "- 日期：2026-11-12（扫描窗口 2026-11-11 23:00 ～ 2026-11-12 23:00）"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线.md",
-   "title": "任务闭环与业务闭环分离：数字岗位Agent与经营Agent的两条路线",
-   "updated": "2026-11-12",
-   "updatedTime": "2026-11-12 17:00",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 2537,
-   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-11-12",
-   "updatedTime": "2026-11-12 16:56",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 42276,
-   "desc": "上级：70知识流水线/知识流水线"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航.md",
-   "title": "企业AI与智能体商业化V3导航",
-   "updated": "2026-11-12",
-   "updatedTime": "2026-11-12 16:56",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 5222,
-   "desc": "上级：00入口与导航/知识库V3逻辑导航、40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-11-12｜公众号｜WorkBuddy连企微：AI可算进了真实工作流.md",
-   "title": "WorkBuddy连企微：AI可算进了真实工作流",
-   "updated": "2026-11-12",
-   "updatedTime": "2026-11-12 16:55",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 6242,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业级办公Agent：从个人提效到对经营结果负责（2026年11月行业观察）.md",
-   "title": "企业级办公 Agent：从个人提效到对经营结果负责（2026 年 11 月行业观察）",
-   "updated": "2026-11-12",
-   "updatedTime": "2026-11-12 16:55",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 5802,
-   "desc": "2026 年下半年的企业级 Agent 叙事，正在从\"AI 能不能写\"转向\"AI 能不能在业务流程里持续跑、对经营指标交差\"。"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-11-12｜公众号｜企微AI开放能力再升级：不限企业规模，十大办公能力全面开放.md",
-   "title": "企微AI开放能力再升级：不限企业规模，十大办公能力全面开放",
-   "updated": "2026-11-12",
-   "updatedTime": "2026-11-12 16:55",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2179,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-11-12｜公众号｜办公提效之后，企业级 Agent 开始对经营结果负责.md",
-   "title": "办公提效之后，企业级 Agent 开始对经营结果负责",
-   "updated": "2026-11-12",
-   "updatedTime": "2026-11-12 16:55",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 5202,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-11-12｜公众号｜千问办公+AI表格，手搓AI时代的CRM.md",
-   "title": "千问办公+AI表格，手搓AI时代的CRM",
-   "updated": "2026-11-12",
-   "updatedTime": "2026-11-12 16:55",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3011,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-11-12｜公众号｜千问办公发布多人工作台，重写企业软件的最后一公里.md",
-   "title": "千问办公发布多人工作台，重写企业软件的最后一公里",
-   "updated": "2026-11-12",
-   "updatedTime": "2026-11-12 16:55",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 4892,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-11-12｜公众号｜千问办公押注 Team Agent，企业 AI 的流水线时刻真的来了.md",
-   "title": "千问办公押注 Team Agent，企业 AI 的流水线时刻真的来了",
-   "updated": "2026-11-12",
-   "updatedTime": "2026-11-12 16:55",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 5228,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-11-12｜公众号｜我用飞书官方 CLI + OpenClaw 搭了一套 AI 办公系统，同事以为我雇了助理.md",
-   "title": "我用飞书官方 CLI + OpenClaw 搭了一套 AI 办公系统，同事以为我雇了助理",
-   "updated": "2026-11-12",
-   "updatedTime": "2026-11-12 16:55",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3833,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261112-豆包搜索助手-RedmiTurbo5Max-背景包.md",
-   "title": "20261112-豆包搜索助手-RedmiTurbo5Max-背景包",
-   "updated": "2026-11-12",
-   "updatedTime": "2026-11-12 16:33",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2481,
-   "desc": "[doubao] 豆包状态: running"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261112-豆包搜索助手D方案取数说明.md",
-   "title": "豆包搜索助手（D 方案）取数说明 + 豆包侧定时能力报告",
-   "updated": "2026-11-12",
-   "updatedTime": "2026-11-12 16:05",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2666,
-   "desc": "日期：2026-11-12　作者：克劳德（副手助理）　只读排查，未改任何配置、未启用任何定时。"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261112-豆包搜索助手接入调研.md",
-   "title": "1) 定位 ID",
-   "updated": "2026-11-12",
-   "updatedTime": "2026-11-12 15:44",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2999,
-   "desc": "这个 ID 不是方舟应用、不是扣子 Bot、不是插件，而是豆包客户端里一个会话（conversationid）；豆包没有可供第三方调用的公开接口，能接，但要么走「豆包侧 Skill"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261112-外部Agent对接方案.md",
-   "title": "20261112 外部 Agent 对接方案（How 外部 Agent 把话递到克里斯手里）",
-   "updated": "2026-11-12",
-   "updatedTime": "2026-11-12 09:57",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 7480,
-   "desc": "结论：真正跑通且双方都在用的只有 1（任务面板评论） 和 2（知识库文件）；3 是\"他们自己拉\"的变体，4/6 只能我→外部或外部→我单边跑通。"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261112-跨平台未闭环清单.md",
-   "title": "20261112 跨平台未闭环清单",
-   "updated": "2026-11-12",
-   "updatedTime": "2026-11-12 09:56",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 7508,
-   "desc": "- 事项：177 要求 CodeX 与 Grok Bot 各自留一条版本确认（口径文件是哪一份、当前是代码基线还是已改状态、与规范三处出入是否接受）。"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/己未文化/20261112-RC16-录入进度收口与Worker复核更新.md",
-   "title": "2026-11-12 己未 RC16：五条口述录入进度收口 + Worker / 复核更新",
-   "updated": "2026-11-12",
-   "updatedTime": "2026-11-12 01:18",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2533,
-   "desc": "- 负责人：Codex 助手"
   }
  ]
 };
