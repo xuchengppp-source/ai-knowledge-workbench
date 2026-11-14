@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-14",
- "generatedTime": "2026-11-14 13:02",
+ "generatedTime": "2026-11-14 17:06",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 8,
  "weeklyChanges": 61,
@@ -3787,7 +3787,7 @@ window.OBSIDIAN_DATA = {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
    "updated": "2026-11-14",
-   "updatedTime": "2026-11-14 12:49",
+   "updatedTime": "2026-11-14 16:33",
    "topic": "enterprise",
    "links": [
     "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -3801,29 +3801,29 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/知识库索引.md"
    ],
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口",
-   "wordCount": 65614
+   "wordCount": 81494
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点运行契约与验收口径.md",
    "title": "己未ADP试点运行契约与验收口径",
    "updated": "2026-11-14",
-   "updatedTime": "2026-11-14 12:28",
+   "updatedTime": "2026-11-14 16:19",
    "topic": "enterprise",
    "links": [],
    "backlinks": [],
    "desc": "版本：v1（2026-11-14）",
-   "wordCount": 4832
+   "wordCount": 9889
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未AI系统×腾讯ADP目标架构基线.md",
    "title": "己未 AI 系统 × 腾讯 ADP：方案基线",
    "updated": "2026-11-14",
-   "updatedTime": "2026-11-14 10:51",
+   "updatedTime": "2026-11-14 14:16",
    "topic": "enterprise",
    "links": [],
    "backlinks": [],
    "desc": "- 类型：方案基线（目标架构与职责分工）",
-   "wordCount": 6813
+   "wordCount": 7542
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未文化 AI Agent 项目实施流程：客户录入MCP与WorkBuddy专家团.md",
@@ -21392,7 +21392,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 147,
-  "fetchedAt": "2026年11月14日 13:02"
+  "fetchedAt": "2026年11月14日 17:06"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21760,30 +21760,30 @@ window.OBSIDIAN_DATA = {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
    "updated": "2026-11-14",
-   "updatedTime": "2026-11-14 12:49",
+   "updatedTime": "2026-11-14 16:33",
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
-   "wordCount": 65614,
+   "wordCount": 81494,
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口"
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点运行契约与验收口径.md",
    "title": "己未ADP试点运行契约与验收口径",
    "updated": "2026-11-14",
-   "updatedTime": "2026-11-14 12:28",
+   "updatedTime": "2026-11-14 16:19",
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
-   "wordCount": 4832,
+   "wordCount": 9889,
    "desc": "版本：v1（2026-11-14）"
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未AI系统×腾讯ADP目标架构基线.md",
    "title": "己未 AI 系统 × 腾讯 ADP：方案基线",
    "updated": "2026-11-14",
-   "updatedTime": "2026-11-14 10:51",
+   "updatedTime": "2026-11-14 14:16",
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
-   "wordCount": 6813,
+   "wordCount": 7542,
    "desc": "- 类型：方案基线（目标架构与职责分工）"
   },
   {
