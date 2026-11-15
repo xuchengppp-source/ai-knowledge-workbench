@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-11-14",
- "generatedTime": "2026-11-14 23:03",
+ "generatedAt": "2026-11-15",
+ "generatedTime": "2026-11-15 09:21",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 9,
- "weeklyChanges": 61,
+ "weeklyPages": 6,
+ "weeklyChanges": 5,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-14｜AI知识增量整理.md",
  "topics": [
@@ -3786,8 +3786,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
-   "updated": "2026-11-14",
-   "updatedTime": "2026-11-14 22:47",
+   "updated": "2026-11-15",
+   "updatedTime": "2026-11-15 00:03",
    "topic": "enterprise",
    "links": [
     "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -3801,7 +3801,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/知识库索引.md"
    ],
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口",
-   "wordCount": 82290
+   "wordCount": 83600
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点运行契约与验收口径.md",
@@ -21403,7 +21403,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 147,
-  "fetchedAt": "2026年11月14日 23:03"
+  "fetchedAt": "2026年11月15日 09:21"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -21768,6 +21768,16 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
+   "title": "己未ADP试点搭建记录",
+   "updated": "2026-11-15",
+   "updatedTime": "2026-11-15 00:03",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 83600,
+   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-11-14｜AI知识增量整理.md",
    "title": "2026-11-14｜AI知识增量整理",
    "updated": "2026-11-14",
@@ -21776,16 +21786,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 3908,
    "desc": "- 日期：2026-11-14（扫描窗口 11-13 23:00:41 ～ 11-14 23:00:41，近 24h）"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
-   "title": "己未ADP试点搭建记录",
-   "updated": "2026-11-14",
-   "updatedTime": "2026-11-14 22:47",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 82290,
-   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口"
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点运行契约与验收口径.md",
@@ -21826,36 +21826,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "任务面板与知识库",
    "wordCount": 11106,
    "desc": "- 调研范围：仅腾讯云 ADP（Agent Development Platform）平台自身提供的异步/后台机制；不评价业务设计，不给实现建议。"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-11-13｜AI知识增量整理.md",
-   "title": "2026-11-13｜AI知识增量整理",
-   "updated": "2026-11-13",
-   "updatedTime": "2026-11-13 23:03",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3496,
-   "desc": "- 日期：2026-11-13（扫描窗口 2026-11-12 23:01 ～ 2026-11-13 23:01，GMT+8）"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未文化资料速查入口.md",
-   "title": "己未文化资料速查入口",
-   "updated": "2026-11-13",
-   "updatedTime": "2026-11-13 11:27",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 1118,
-   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/知识库索引.md",
-   "title": "知识库索引（快速查找版）",
-   "updated": "2026-11-13",
-   "updatedTime": "2026-11-13 11:27",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 34063,
-   "desc": "- 40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未ADP试点搭建记录：己未客户资产管理 Agent 在腾讯云 ADP 的落地实证——从模拟闭环到直连真实飞书 Ba"
   }
  ]
 };
