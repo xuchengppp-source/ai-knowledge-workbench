@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-16",
- "generatedTime": "2026-11-16 18:33",
+ "generatedTime": "2026-11-16 22:36",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 86,
- "weeklyChanges": 1399,
+ "weeklyChanges": 1400,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-15｜AI知识增量整理.md",
  "topics": [
@@ -6880,10 +6880,11 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
    "updated": "2026-11-16",
-   "updatedTime": "2026-11-16 18:32",
+   "updatedTime": "2026-11-16 18:51",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线",
+    "30_资料库/多源录入入口",
     "30_资料库/原始资料/部分回流｜2026-11-15｜用户提供｜企业级Agent与通用Agent分界线：身份授权执行审计恢复控制链与WorkBuddy×ADP权限对照（ChatGPT总结）\\",
     "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业AI平台架构：业务工作台、统一控制面与运行服务\\",
     "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/生产级AI Agent成熟度评估框架：八维五阶评估模型与行业适配\\",
@@ -7309,7 +7310,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-11-16｜财新网｜特稿·马兴瑞家族腐败案探解：旧改项目背后的政商关系网.md"
    ],
    "desc": "上级：70知识流水线/知识流水线",
-   "wordCount": 50718
+   "wordCount": 50754
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -22126,7 +22127,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 147,
-  "fetchedAt": "2026年11月16日 18:33"
+  "fetchedAt": "2026年11月16日 22:36"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -22173,10 +22174,10 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
    "updated": "2026-11-16",
-   "updatedTime": "2026-11-16 18:32",
+   "updatedTime": "2026-11-16 18:51",
    "topic": "pipeline",
    "topicName": "知识流水线",
-   "wordCount": 50718,
+   "wordCount": 50754,
    "desc": "上级：70知识流水线/知识流水线"
   },
   {
