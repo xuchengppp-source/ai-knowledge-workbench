@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-18",
- "generatedTime": "2026-11-18 11:16",
+ "generatedTime": "2026-11-18 15:19",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 459,
- "weeklyChanges": 3870,
+ "weeklyPages": 460,
+ "weeklyChanges": 3878,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-17｜AI知识增量整理.md",
  "topics": [
@@ -12,7 +12,7 @@ window.OBSIDIAN_DATA = {
    "key": "agent",
    "icon": "🤖",
    "v3group": "core",
-   "count": 55
+   "count": 56
   },
   {
    "name": "企业AI与智能体商业化",
@@ -1475,12 +1475,33 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环"
    ],
    "backlinks": [
+    "40_专题知识库/AI Agent工程知识/08_项目运行记录/基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理.md",
     "40_专题知识库/AI Agent工程知识/AI Agent工程知识V3导航.md",
     "70_知识流水线/DeepSeek Harness官方架构与本机控制中心分层说明.md",
     "20_工作与项目/DeepSeek Harness项目/DeepSeek Harness项目索引.md"
    ],
    "desc": "两条硬规则：",
    "wordCount": 16701
+  },
+  {
+   "path": "40_专题知识库/AI Agent工程知识/08_项目运行记录/基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理.md",
+   "title": "基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理",
+   "updated": "2026-11-18",
+   "updatedTime": "2026-11-18 12:41",
+   "topic": "agent",
+   "links": [
+    "40_专题知识库/AI Agent工程知识/AI Agent工程知识专题",
+    "40_专题知识库/AI Agent工程知识/08_项目运行记录/Deepseek Harness：框架概念与专属智能体搭建",
+    "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台",
+    "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？"
+   ],
+   "backlinks": [
+    "70_知识流水线/A_原始资料.md",
+    "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？.md",
+    "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台.md"
+   ],
+   "desc": "上级：40专题知识库/AI Agent工程知识/AI Agent工程知识专题 · 关联 40专题知识库/AI Agent工程知识/08项目运行记录/Deepseek Harness",
+   "wordCount": 9905
   },
   {
    "path": "40_专题知识库/AI Agent工程知识/08_项目运行记录/飞书多智能体连接故障恢复手册.md",
@@ -1568,7 +1589,7 @@ window.OBSIDIAN_DATA = {
    "path": "40_专题知识库/AI Agent工程知识/AI Agent工程知识专题.md",
    "title": "AI Agent 工程知识专题",
    "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
+   "updatedTime": "2026-11-18 11:36",
    "topic": "agent",
    "links": [
     "40_专题知识库/AI/00_AI专题总览",
@@ -1607,6 +1628,7 @@ window.OBSIDIAN_DATA = {
     "20_工作与项目/DeepSeek Harness项目/DeepSeek Harness项目索引",
     "20_工作与项目/DeepSeek Harness项目/DeepSeek Harness项目记录",
     "Deepseek Harness：框架概念与专属智能体搭建",
+    "基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理",
     "AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准",
     "原始讨论｜ChatGPT生产级AI Agent框架（2026-06-11）",
     "全局术语表",
@@ -1629,6 +1651,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/AI Agent工程知识/07_案例复盘与面试/AI模型选型与订阅历史.md",
     "40_专题知识库/AI Agent工程知识/07_案例复盘与面试/智能体使用逻辑问题复盘-垂直任务实践（旅行案例）.md",
     "40_专题知识库/AI Agent工程知识/08_项目运行记录/DeepSeek Harness 插件与模式设计规范 V1.2.md",
+    "40_专题知识库/AI Agent工程知识/08_项目运行记录/基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理.md",
     "40_专题知识库/AI Agent工程知识/AI Agent工程知识V3导航.md",
     "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/AI交付行业观察：走访7个团队后的困境机会与危机.md",
     "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/按业务形态设计AI Agent架构：日经营型、项目制与产品化项目.md",
@@ -1671,7 +1694,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-11-16｜ChatGPT｜企业生产级AI系统知识图谱讨论.md"
    ],
    "desc": "上级：40专题知识库/AI/00AI专题总览",
-   "wordCount": 15969
+   "wordCount": 16157
   },
   {
    "path": "40_专题知识库/AI Agent工程知识/知识管理与认知内化：从收藏癖到主动提取的知识库建设哲学.md",
@@ -6148,7 +6171,7 @@ window.OBSIDIAN_DATA = {
    "path": "40_专题知识库/AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
    "title": "AI时代演进史与数字基础设施总纲",
    "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
+   "updatedTime": "2026-11-18 13:48",
    "topic": "infrastructure",
    "links": [
     "40_专题知识库/AI产业链与数字基础设施/AI产业链与数字基础设施专题",
@@ -6183,7 +6206,7 @@ window.OBSIDIAN_DATA = {
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-28.md"
    ],
    "desc": "上级：40专题知识库/AI产业链与数字基础设施/AI产业链与数字基础设施专题",
-   "wordCount": 10270
+   "wordCount": 12805
   },
   {
    "path": "40_专题知识库/AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
@@ -6810,19 +6833,20 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
    "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 11:10",
+   "updatedTime": "2026-11-18 11:36",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线",
     "30_资料库/多源录入入口",
     "30_资料库/原始资料/未整理｜2026-11-16｜抖音分享｜Grok Bot土豆姐1个月600次训练方法论（AI樟榆树转述）\\",
     "30_资料库/原始资料/未整理｜2026-11-16｜抖音分享｜Grok Bot土豆姐1个月600次训练方法论（AI樟榆树转述）",
-    "30_资料库/原始资料/未整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台\\",
-    "30_资料库/原始资料/未整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？\\",
     "30_资料库/原始资料/部分回流｜2026-11-15｜用户提供｜企业级Agent与通用Agent分界线：身份授权执行审计恢复控制链与WorkBuddy×ADP权限对照（ChatGPT总结）\\",
     "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业AI平台架构：业务工作台、统一控制面与运行服务\\",
     "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/生产级AI Agent成熟度评估框架：八维五阶评估模型与行业适配\\",
     "30_资料库/原始资料/部分回流｜2026-11-17｜用户提供｜自建Agent与Python对比腾讯ADP、零一万智万策与FDE两层复用（ChatGPT整理稿）\\",
+    "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台\\",
+    "40_专题知识库/AI Agent工程知识/08_项目运行记录/基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理",
+    "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？\\",
     "30_资料库/原始资料/已整理｜2026-11-17｜ChatGPT｜企业AI主框架核心讨论原文",
     "40_专题知识库/AI/01_企业AI与生产级Agent总框架",
     "40_专题知识库/AI/02_生产级AI Agent知识体系总览：层级·特性·术语",
@@ -7245,11 +7269,11 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-11-12｜公众号｜我用飞书官方 CLI + OpenClaw 搭了一套 AI 办公系统，同事以为我雇了助理.md",
     "30_资料库/原始资料/已整理｜2026-11-16｜财新周刊｜封面报道·资金涌入算力中心.md",
     "30_资料库/原始资料/已整理｜2026-11-16｜财新网｜特稿·马兴瑞家族腐败案探解：旧改项目背后的政商关系网.md",
-    "30_资料库/原始资料/未整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？.md",
-    "30_资料库/原始资料/未整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台.md"
+    "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？.md",
+    "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台.md"
    ],
    "desc": "上级：70知识流水线/知识流水线",
-   "wordCount": 52326
+   "wordCount": 52592
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -20621,6 +20645,38 @@ window.OBSIDIAN_DATA = {
    "wordCount": 41218
   },
   {
+   "path": "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？.md",
+   "title": "基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？",
+   "updated": "2026-11-18",
+   "updatedTime": "2026-11-18 11:36",
+   "topic": "raw",
+   "links": [
+    "70_知识流水线/A_原始资料",
+    "40_专题知识库/AI Agent工程知识/08_项目运行记录/基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理"
+   ],
+   "backlinks": [
+    "40_专题知识库/AI Agent工程知识/08_项目运行记录/基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理.md"
+   ],
+   "desc": "上级：70知识流水线/A原始资料",
+   "wordCount": 3065
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台.md",
+   "title": "基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台",
+   "updated": "2026-11-18",
+   "updatedTime": "2026-11-18 11:36",
+   "topic": "raw",
+   "links": [
+    "70_知识流水线/A_原始资料",
+    "40_专题知识库/AI Agent工程知识/08_项目运行记录/基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理"
+   ],
+   "backlinks": [
+    "40_专题知识库/AI Agent工程知识/08_项目运行记录/基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理.md"
+   ],
+   "desc": "上级：70知识流水线/A原始资料",
+   "wordCount": 4462
+  },
+  {
    "path": "30_资料库/原始资料/未整理｜2026-11-16｜抖音分享｜Grok Bot土豆姐1个月600次训练方法论（AI樟榆树转述）.md",
    "title": "Grok Bot 土豆姐 1 个月 600 次训练方法论（AI樟榆树转述）",
    "updated": "2026-11-18",
@@ -20638,32 +20694,6 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "- 来源：抖音账号「AI樟榆树」作品（口令标题：《Grok Bot土豆姐1个月600次训练方法论 A...》）。",
    "wordCount": 5386
-  },
-  {
-   "path": "30_资料库/原始资料/未整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？.md",
-   "title": "基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 11:10",
-   "topic": "raw",
-   "links": [
-    "70_知识流水线/A_原始资料"
-   ],
-   "backlinks": [],
-   "desc": "上级：70知识流水线/A原始资料",
-   "wordCount": 2984
-  },
-  {
-   "path": "30_资料库/原始资料/未整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台.md",
-   "title": "基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 11:10",
-   "topic": "raw",
-   "links": [
-    "70_知识流水线/A_原始资料"
-   ],
-   "backlinks": [],
-   "desc": "上级：70知识流水线/A原始资料",
-   "wordCount": 4381
   },
   {
    "path": "30_资料库/原始资料/部分回流｜2026-11-15｜用户提供｜企业级Agent与通用Agent分界线：身份授权执行审计恢复控制链与WorkBuddy×ADP权限对照（ChatGPT总结）.md",
@@ -20793,12 +20823,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "数据与知识资产",
-   "matched": 199,
+   "matched": 200,
    "status": "已形成"
   },
   {
    "name": "Agent Runtime",
-   "matched": 47,
+   "matched": 48,
    "status": "已形成"
   },
   {
@@ -20813,7 +20843,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "安全、权限与治理",
-   "matched": 33,
+   "matched": 34,
    "status": "已形成"
   },
   {
@@ -20931,7 +20961,7 @@ window.OBSIDIAN_DATA = {
      "path": "40_专题知识库/AI/02_生产级AI Agent知识体系总览：层级·特性·术语.md",
      "title": "02_生产级AI Agent知识体系总览：层级·特性·术语",
      "kind": "note",
-     "wordCount": 58029,
+     "wordCount": 58183,
      "excerpt": "生产级 AI Agent 知识体系总览：层级·特性·术语（含 Palantir Ontology 对标）一句话定义：生产级 AI Agent 不是更聪明的聊天机器人，而是把模型判断、工具执行、数据知识、记忆管理、流程编排",
      "hasBody": true
     }
@@ -21001,7 +21031,7 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 108159,
+     "wordCount": 108845,
      "excerpt": "2026-11-16 最新｜企业生产级 Agent 判断与交付顺序40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/企业生产级Agent判断与交付顺序：从业务切片到控制面：先定业务切片和任务契约，",
      "hasBody": true
     },
@@ -21065,7 +21095,7 @@ window.OBSIDIAN_DATA = {
      "path": "40_专题知识库/AI/01_企业AI与生产级Agent总框架.md",
      "title": "01_企业AI与生产级Agent总框架",
      "kind": "note",
-     "wordCount": 8757,
+     "wordCount": 8947,
      "excerpt": "企业 AI 与生产级 Agent 总框架[!important] AI 总专题第一核心框架本页正文是企业 AI 与生产级 Agent 的主判断框架。近期 ChatGPT 对话原文统一保存在 30_资料库/原始资料/已整理",
      "hasBody": true
     },
@@ -21213,7 +21243,7 @@ window.OBSIDIAN_DATA = {
      "path": "40_专题知识库/AI/02_生产级AI Agent知识体系总览：层级·特性·术语.md",
      "title": "02_生产级AI Agent知识体系总览：层级·特性·术语",
      "kind": "note",
-     "wordCount": 58029,
+     "wordCount": 58183,
      "excerpt": "生产级 AI Agent 知识体系总览：层级·特性·术语（含 Palantir Ontology 对标）一句话定义：生产级 AI Agent 不是更聪明的聊天机器人，而是把模型判断、工具执行、数据知识、记忆管理、流程编排",
      "hasBody": true
     },
@@ -22050,7 +22080,7 @@ window.OBSIDIAN_DATA = {
      "path": "40_专题知识库/AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
      "title": "AI时代演进史与数字基础设施总纲",
      "kind": "note",
-     "wordCount": 9624,
+     "wordCount": 12063,
      "excerpt": "AI时代演进史与数字基础设施总纲上级：40_专题知识库/AI产业链与数字基础设施/AI产业链与数字基础设施专题相关：40_专题知识库/AI Agent工程知识/AI Agent工程知识专题、40_专题知识库/企业AI与智",
      "hasBody": true
     },
@@ -22142,7 +22172,7 @@ window.OBSIDIAN_DATA = {
   "summary": {
    "in_progress": 19,
    "todo": 22,
-   "in_review": 24,
+   "in_review": 25,
    "blocked": 1
   },
   "recent": [
@@ -22159,6 +22189,13 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "urgent",
     "assignee": "伊森"
+   },
+   {
+    "id": "KP-182",
+    "title": "家庭知识电视实时 Session 状态桥接",
+    "status": "in_review",
+    "priority": "high",
+    "assignee": "Codex"
    },
    {
     "id": "KP-181",
@@ -22180,17 +22217,10 @@ window.OBSIDIAN_DATA = {
     "status": "in_review",
     "priority": "high",
     "assignee": "Ethan"
-   },
-   {
-    "id": "KP-80",
-    "title": "己未文化AI落地沟通推进",
-    "status": "in_progress",
-    "priority": "high",
-    "assignee": "Oliver"
    }
   ],
-  "total": 147,
-  "fetchedAt": "2026年11月18日 11:16"
+  "total": 148,
+  "fetchedAt": "2026年11月18日 15:19"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -22234,33 +22264,63 @@ window.OBSIDIAN_DATA = {
  "dailyWorkRecords": [],
  "recentUpdates": [
   {
+   "path": "40_专题知识库/AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
+   "title": "AI时代演进史与数字基础设施总纲",
+   "updated": "2026-11-18",
+   "updatedTime": "2026-11-18 13:48",
+   "topic": "infrastructure",
+   "topicName": "AI产业链与数字基础设施",
+   "wordCount": 12805,
+   "desc": "上级：40专题知识库/AI产业链与数字基础设施/AI产业链与数字基础设施专题"
+  },
+  {
+   "path": "40_专题知识库/AI Agent工程知识/08_项目运行记录/基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理.md",
+   "title": "基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理",
+   "updated": "2026-11-18",
+   "updatedTime": "2026-11-18 12:41",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 9905,
+   "desc": "上级：40专题知识库/AI Agent工程知识/AI Agent工程知识专题 · 关联 40专题知识库/AI Agent工程知识/08项目运行记录/Deepseek Harness"
+  },
+  {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
    "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 11:10",
+   "updatedTime": "2026-11-18 11:36",
    "topic": "pipeline",
    "topicName": "知识流水线",
-   "wordCount": 52326,
+   "wordCount": 52592,
    "desc": "上级：70知识流水线/知识流水线"
   },
   {
-   "path": "30_资料库/原始资料/未整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台.md",
+   "path": "40_专题知识库/AI Agent工程知识/AI Agent工程知识专题.md",
+   "title": "AI Agent 工程知识专题",
+   "updated": "2026-11-18",
+   "updatedTime": "2026-11-18 11:36",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 16157,
+   "desc": "上级：40专题知识库/AI/00AI专题总览"
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台.md",
    "title": "基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台",
    "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 11:10",
+   "updatedTime": "2026-11-18 11:36",
    "topic": "raw",
    "topicName": "原始资料 / 养料",
-   "wordCount": 4381,
+   "wordCount": 4462,
    "desc": "上级：70知识流水线/A原始资料"
   },
   {
-   "path": "30_资料库/原始资料/未整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？.md",
+   "path": "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？.md",
    "title": "基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？",
    "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 11:10",
+   "updatedTime": "2026-11-18 11:36",
    "topic": "raw",
    "topicName": "原始资料 / 养料",
-   "wordCount": 2984,
+   "wordCount": 3065,
    "desc": "上级：70知识流水线/A原始资料"
   },
   {
@@ -23402,36 +23462,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 1608,
    "desc": "- 日期：2026-10-28（周三）"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-30｜AI知识增量整理.md",
-   "title": "2026-10-30｜AI 知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 1698,
-   "desc": "- 日期：2026-10-30"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-11-02｜AI知识增量整理.md",
-   "title": "2026-11-02｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3054,
-   "desc": "- 日期：2026-11-02（生成于 23:00）"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-11-03｜AI知识增量整理.md",
-   "title": "2026-11-03｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3402,
-   "desc": "- 日期：2026-11-03（扫描窗口 2026-11-02 23:00 ～ 2026-11-03 23:00）"
   }
  ]
 };
