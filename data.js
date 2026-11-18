@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-18",
- "generatedTime": "2026-11-18 15:19",
+ "generatedTime": "2026-11-18 19:26",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 460,
  "weeklyChanges": 3878,
@@ -3790,8 +3790,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP文件说明.md",
    "title": "己未ADP文件说明（2026-11-15）",
-   "updated": "2026-11-17",
-   "updatedTime": "2026-11-17 23:10",
+   "updated": "2026-11-18",
+   "updatedTime": "2026-11-18 15:53",
    "topic": "enterprise",
    "links": [
     "40_专题知识库/AI/01_企业AI与生产级Agent总框架"
@@ -3804,7 +3804,7 @@ window.OBSIDIAN_DATA = {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
    "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
+   "updatedTime": "2026-11-18 15:53",
    "topic": "enterprise",
    "links": [
     "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -3824,7 +3824,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/企业AI专题索引.md"
    ],
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口",
-   "wordCount": 129160
+   "wordCount": 131410
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点运行契约与验收口径.md",
@@ -21031,7 +21031,7 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 108845,
+     "wordCount": 108989,
      "excerpt": "2026-11-16 最新｜企业生产级 Agent 判断与交付顺序40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/企业生产级Agent判断与交付顺序：从业务切片到控制面：先定业务切片和任务契约，",
      "hasBody": true
     },
@@ -22220,7 +22220,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 148,
-  "fetchedAt": "2026年11月18日 15:19"
+  "fetchedAt": "2026年11月18日 19:26"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -22263,6 +22263,26 @@ window.OBSIDIAN_DATA = {
  },
  "dailyWorkRecords": [],
  "recentUpdates": [
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP文件说明.md",
+   "title": "己未ADP文件说明（2026-11-15）",
+   "updated": "2026-11-18",
+   "updatedTime": "2026-11-18 15:53",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 1128,
+   "desc": "此后以知识库本目录为准。WorkBuddy 侧不再单独维护一份平行正文。本页只说明文件分工；方法与案例分析入口见实战手册，现行规则见运行契约，搭建过程见搭建记录。回溯总框架见 40"
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
+   "title": "己未ADP试点搭建记录",
+   "updated": "2026-11-18",
+   "updatedTime": "2026-11-18 15:53",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 131410,
+   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口"
+  },
   {
    "path": "40_专题知识库/AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
    "title": "AI时代演进史与数字基础设施总纲",
@@ -23442,26 +23462,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 2461,
    "desc": "- 日期：2026-10-26（扫描窗口 2026-10-25 23:00 ～ 2026-10-26 23:00 GMT+8）"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-27｜AI知识增量整理.md",
-   "title": "2026-10-27｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3571,
-   "desc": "- 日期：2026-10-27"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-28｜AI知识增量整理.md",
-   "title": "2026-10-28｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 1608,
-   "desc": "- 日期：2026-10-28（周三）"
   }
  ]
 };
