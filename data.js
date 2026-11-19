@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-19",
- "generatedTime": "2026-11-19 11:33",
+ "generatedTime": "2026-11-19 15:37",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 447,
  "weeklyChanges": 3736,
@@ -3804,7 +3804,7 @@ window.OBSIDIAN_DATA = {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
    "updated": "2026-11-19",
-   "updatedTime": "2026-11-19 09:42",
+   "updatedTime": "2026-11-19 14:03",
    "topic": "enterprise",
    "links": [
     "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -3824,7 +3824,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/企业AI专题索引.md"
    ],
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口",
-   "wordCount": 135083
+   "wordCount": 136040
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点运行契约与验收口径.md",
@@ -21102,8 +21102,8 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 111617,
-     "excerpt": "2026-11-19｜己未 ADP 客户编号与性别修复（R3.9）40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录 §85：杨悦敏 customer_id 从时间戳式编号改为 C65",
+     "wordCount": 112029,
+     "excerpt": "2026-11-19 修订｜直连与表触发入口均发布 R3.1040_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录 §83.4：表触发应用 Release 212329541910692",
      "hasBody": true
     },
     {
@@ -22241,9 +22241,9 @@ window.OBSIDIAN_DATA = {
  ],
  "tasks": {
   "summary": {
-   "in_progress": 19,
+   "in_progress": 20,
    "todo": 22,
-   "in_review": 25,
+   "in_review": 24,
    "blocked": 1
   },
   "recent": [
@@ -22264,7 +22264,7 @@ window.OBSIDIAN_DATA = {
    {
     "id": "KP-182",
     "title": "家庭知识电视实时 Session 状态桥接",
-    "status": "in_review",
+    "status": "in_progress",
     "priority": "high",
     "assignee": "Codex"
    },
@@ -22291,7 +22291,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 148,
-  "fetchedAt": "2026年11月19日 11:33"
+  "fetchedAt": "2026年11月19日 15:37"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -22335,6 +22335,16 @@ window.OBSIDIAN_DATA = {
  "dailyWorkRecords": [],
  "recentUpdates": [
   {
+   "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
+   "title": "己未ADP试点搭建记录",
+   "updated": "2026-11-19",
+   "updatedTime": "2026-11-19 14:03",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 136040,
+   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口"
+  },
+  {
    "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-11-18.md",
    "title": "2026-11-18",
    "updated": "2026-11-19",
@@ -22373,16 +22383,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "徐总每日随记",
    "wordCount": 701,
    "desc": "上级：10个人生活与个人管理/徐总每日随记/主题归档/主题归档说明"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
-   "title": "己未ADP试点搭建记录",
-   "updated": "2026-11-19",
-   "updatedTime": "2026-11-19 09:42",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 135083,
-   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口"
   },
   {
    "path": "40_专题知识库/AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
