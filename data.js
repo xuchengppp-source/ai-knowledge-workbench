@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-19",
- "generatedTime": "2026-11-19 15:37",
+ "generatedTime": "2026-11-19 19:40",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 447,
- "weeklyChanges": 3736,
+ "weeklyPages": 448,
+ "weeklyChanges": 3741,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-17｜AI知识增量整理.md",
  "topics": [
@@ -124,7 +124,7 @@ window.OBSIDIAN_DATA = {
    "key": "myinsights",
    "icon": "💡",
    "v3group": "question",
-   "count": 12
+   "count": 13
   },
   {
    "key": "raw",
@@ -1486,8 +1486,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/AI Agent工程知识/08_项目运行记录/基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理.md",
    "title": "基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 12:41",
+   "updated": "2026-11-19",
+   "updatedTime": "2026-11-19 17:26",
    "topic": "agent",
    "links": [
     "40_专题知识库/AI Agent工程知识/AI Agent工程知识专题",
@@ -1501,7 +1501,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台.md"
    ],
    "desc": "上级：40专题知识库/AI Agent工程知识/AI Agent工程知识专题 · 关联 40专题知识库/AI Agent工程知识/08项目运行记录/Deepseek Harness",
-   "wordCount": 9905
+   "wordCount": 12318
   },
   {
    "path": "40_专题知识库/AI Agent工程知识/08_项目运行记录/飞书多智能体连接故障恢复手册.md",
@@ -3804,7 +3804,7 @@ window.OBSIDIAN_DATA = {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
    "updated": "2026-11-19",
-   "updatedTime": "2026-11-19 14:03",
+   "updatedTime": "2026-11-19 16:24",
    "topic": "enterprise",
    "links": [
     "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -3824,7 +3824,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/企业AI专题索引.md"
    ],
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口",
-   "wordCount": 136040
+   "wordCount": 137471
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点运行契约与验收口径.md",
@@ -17048,6 +17048,7 @@ window.OBSIDIAN_DATA = {
     "50_资产库/AI工具与自动化资产/2026-10-30-重要问题客观答案四段式提示词.md",
     "50_资产库/AI工具与自动化资产/2026-10-31-AI判断阅读守则：把回答当证据不当结论.md",
     "60_问题与洞察/我的洞察/README.md",
+    "60_问题与洞察/我的洞察/会话洞察/2026-11-19-AI客服意图分类边界：从医院电话咨询看标准化客服的能力天花板.md",
     "30_资料库/原始资料/已整理｜2026-10-30｜用户提供｜AI咨询系统性偏差复盘：把能论证观点误当成已解决问题（机动车保险事故案例）.md",
     "30_资料库/原始资料/已整理｜2026-10-30｜用户提供｜成都荟锦路交通事故及保险理赔争议总结（机动车保险事故案例）.md"
    ],
@@ -17085,8 +17086,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "60_问题与洞察/我的洞察/README.md",
    "title": "我的洞察",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
+   "updated": "2026-11-19",
+   "updatedTime": "2026-11-19 18:54",
    "topic": "myinsights",
    "links": [
     "60_问题与洞察/我的洞察/AI商业化生态研究线：从六种形态到三条路径的商业判断",
@@ -17095,13 +17096,15 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/AI Agent工程知识/07_案例复盘与面试/AI咨询的系统性偏差复盘：从能论证观点到已解决问题——确认偏误、反向验证与提问框架",
     "60_问题与洞察/我的洞察/蜀道集团研究线",
     "60_问题与洞察/我的洞察/会话洞察/2026-10-05-统一骨架如何形成跨行业AI架构识别与生产判断力",
-    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/企业生产级AI体系框架：从基础设施到智能体与业务应用"
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/企业生产级AI体系框架：从基础设施到智能体与业务应用",
+    "60_问题与洞察/我的洞察/会话洞察/2026-11-19-AI客服意图分类边界：从医院电话咨询看标准化客服的能力天花板"
    ],
    "backlinks": [
-    "60_问题与洞察/我的洞察/会话洞察/2026-10-05-统一骨架如何形成跨行业AI架构识别与生产判断力.md"
+    "60_问题与洞察/我的洞察/会话洞察/2026-10-05-统一骨架如何形成跨行业AI架构识别与生产判断力.md",
+    "60_问题与洞察/我的洞察/会话洞察/2026-11-19-AI客服意图分类边界：从医院电话咨询看标准化客服的能力天花板.md"
    ],
    "desc": "跨专题洞察和主体研究线入口。",
-   "wordCount": 646
+   "wordCount": 799
   },
   {
    "path": "60_问题与洞察/我的洞察/企业AI交互设计研究线：从五种交互模式到业务动作契约.md",
@@ -17141,6 +17144,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/生产级企业AI Agent工程术语体系：从案例到可面试的专业表达（对标大厂面试）.md",
     "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未文化CRM演进复盘：从V1模型直写Base到V4异步Worker架构的四阶段工程演进.md",
     "60_问题与洞察/我的洞察/企业AI交互设计研究线：从五种交互模式到业务动作契约.md",
+    "60_问题与洞察/我的洞察/会话洞察/2026-11-19-AI客服意图分类边界：从医院电话咨询看标准化客服的能力天花板.md",
     "60_问题与洞察/我的洞察/己未CRM工程演进研究线：从V1直写Base到V4异步Worker的四阶段复盘与三维度归因.md",
     "30_资料库/原始资料/已整理｜2026-10-27｜用户提供｜己未CRM四次迭代演进复盘：从V1模型直写Base到V4异步Worker架构.md",
     "30_资料库/原始资料/已整理｜2026-10-29｜用户提供｜企业AI语义—业务执行架构：从零设计通用企业AI生产系统的参考设计.md"
@@ -17188,6 +17192,24 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "上级：60问题与洞察/我的洞察/README。",
    "wordCount": 2151
+  },
+  {
+   "path": "60_问题与洞察/我的洞察/会话洞察/2026-11-19-AI客服意图分类边界：从医院电话咨询看标准化客服的能力天花板.md",
+   "title": "AI客服意图分类边界：从医院电话咨询看标准化客服的能力天花板",
+   "updated": "2026-11-19",
+   "updatedTime": "2026-11-19 18:58",
+   "topic": "myinsights",
+   "links": [
+    "60_问题与洞察/我的洞察/README",
+    "60_问题与洞察/我的洞察/企业AI自然语言交互与业务执行机制研究线：从五种业务意图模式到有依据的业务行为",
+    "60_问题与洞察/我的洞察/AI交互有利性偏差研究线：从偏袒式答案到可验证的客观结论",
+    "10_个人生活与个人管理/个人健康/成都市第一人民医院就诊经验"
+   ],
+   "backlinks": [
+    "60_问题与洞察/我的洞察/README.md"
+   ],
+   "desc": "上级：60问题与洞察/我的洞察/README。",
+   "wordCount": 10032
   },
   {
    "path": "60_问题与洞察/我的洞察/己未CRM工程演进研究线：从V1直写Base到V4异步Worker的四阶段复盘与三维度归因.md",
@@ -21102,8 +21124,8 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 112029,
-     "excerpt": "2026-11-19 修订｜直连与表触发入口均发布 R3.1040_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录 §83.4：表触发应用 Release 212329541910692",
+     "wordCount": 112425,
+     "excerpt": "2026-11-19｜客户部署采用 ADP 直连异步模板40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录 §86：未来客户的目标是 Skill 澄清后调用受信任的 ADP Creat",
      "hasBody": true
     },
     {
@@ -21166,7 +21188,7 @@ window.OBSIDIAN_DATA = {
      "path": "40_专题知识库/AI/01_企业AI与生产级Agent总框架.md",
      "title": "01_企业AI与生产级Agent总框架",
      "kind": "note",
-     "wordCount": 8947,
+     "wordCount": 9194,
      "excerpt": "企业 AI 与生产级 Agent 总框架[!important] AI 总专题第一核心框架本页正文是企业 AI 与生产级 Agent 的主判断框架。近期 ChatGPT 对话原文统一保存在 30_资料库/原始资料/已整理",
      "hasBody": true
     },
@@ -22291,7 +22313,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 148,
-  "fetchedAt": "2026年11月19日 15:37"
+  "fetchedAt": "2026年11月19日 19:40"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -22335,13 +22357,43 @@ window.OBSIDIAN_DATA = {
  "dailyWorkRecords": [],
  "recentUpdates": [
   {
+   "path": "60_问题与洞察/我的洞察/会话洞察/2026-11-19-AI客服意图分类边界：从医院电话咨询看标准化客服的能力天花板.md",
+   "title": "AI客服意图分类边界：从医院电话咨询看标准化客服的能力天花板",
+   "updated": "2026-11-19",
+   "updatedTime": "2026-11-19 18:58",
+   "topic": "myinsights",
+   "topicName": "我的洞察",
+   "wordCount": 10032,
+   "desc": "上级：60问题与洞察/我的洞察/README。"
+  },
+  {
+   "path": "60_问题与洞察/我的洞察/README.md",
+   "title": "我的洞察",
+   "updated": "2026-11-19",
+   "updatedTime": "2026-11-19 18:54",
+   "topic": "myinsights",
+   "topicName": "我的洞察",
+   "wordCount": 799,
+   "desc": "跨专题洞察和主体研究线入口。"
+  },
+  {
+   "path": "40_专题知识库/AI Agent工程知识/08_项目运行记录/基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理.md",
+   "title": "基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理",
+   "updated": "2026-11-19",
+   "updatedTime": "2026-11-19 17:26",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 12318,
+   "desc": "上级：40专题知识库/AI Agent工程知识/AI Agent工程知识专题 · 关联 40专题知识库/AI Agent工程知识/08项目运行记录/Deepseek Harness"
+  },
+  {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
    "updated": "2026-11-19",
-   "updatedTime": "2026-11-19 14:03",
+   "updatedTime": "2026-11-19 16:24",
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
-   "wordCount": 136040,
+   "wordCount": 137471,
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口"
   },
   {
@@ -22423,16 +22475,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 1128,
    "desc": "此后以知识库本目录为准。WorkBuddy 侧不再单独维护一份平行正文。本页只说明文件分工；方法与案例分析入口见实战手册，现行规则见运行契约，搭建过程见搭建记录。回溯总框架见 40"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/08_项目运行记录/基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理.md",
-   "title": "基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 12:41",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 9905,
-   "desc": "上级：40专题知识库/AI Agent工程知识/AI Agent工程知识专题 · 关联 40专题知识库/AI Agent工程知识/08项目运行记录/Deepseek Harness"
   },
   {
    "path": "70_知识流水线/A_原始资料.md",
@@ -23513,26 +23555,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 3059,
    "desc": "- 日期：2026-10-16（周五）"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-17｜AI知识增量整理.md",
-   "title": "2026-10-17｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 2832,
-   "desc": "上级：70知识流水线/每日学习整理、70知识流水线/AI知识自动化整理入口"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-18｜AI知识增量整理.md",
-   "title": "2026-10-18｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 2887,
-   "desc": "上级：70知识流水线/每日学习整理、70知识流水线/AI知识自动化整理入口"
   }
  ]
 };
