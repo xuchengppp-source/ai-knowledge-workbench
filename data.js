@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-11-19",
- "generatedTime": "2026-11-19 23:03",
+ "generatedAt": "2026-11-20",
+ "generatedTime": "2026-11-20 08:40",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 449,
- "weeklyChanges": 3741,
+ "weeklyPages": 23,
+ "weeklyChanges": 491,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-19｜AI知识增量整理.md",
  "topics": [
@@ -40,7 +40,7 @@ window.OBSIDIAN_DATA = {
    "key": "codex",
    "icon": "🛠",
    "v3group": "system",
-   "count": 77
+   "count": 79
   },
   {
    "name": "DeepSeek Harness 项目",
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 92
+   "count": 93
   },
   {
    "name": "政府资源配置与政策落地",
@@ -124,7 +124,7 @@ window.OBSIDIAN_DATA = {
    "key": "myinsights",
    "icon": "💡",
    "v3group": "question",
-   "count": 13
+   "count": 15
   },
   {
    "key": "raw",
@@ -132,7 +132,7 @@ window.OBSIDIAN_DATA = {
    "icon": "🗂",
    "color": "raw",
    "v3group": "raw",
-   "count": 235
+   "count": 237
   }
  ],
  "nodes": [
@@ -223,8 +223,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/AI Agent工程知识/01_基础概念与术语/AI Agent发展路径：从会说到会做再到能操作业务.md",
    "title": "AI Agent发展路径：从会说到会做再到能操作业务",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 00:45",
    "topic": "agent",
    "links": [
     "40_专题知识库/AI Agent工程知识/AI Agent工程知识专题",
@@ -235,6 +235,11 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/甘食记经营系统完整演进时间线",
     "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/客户业务API到经营分析与飞书多维表格闭环SOP",
     "AI模型选型与订阅历史",
+    "30_资料库/原始资料/已整理｜2026-11-19｜抖音分享｜Agent技术演进综述：从ReAct到Grok Bot创新还是套壳（叫我Ryder就好）",
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/生产级AI Agent工程纪律稳定层方法论：埋点·日志·BadCase管理·回归测试（不随模型过时的底座）",
+    "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业级 Agent 四条落地路线：流程编排、自主 Agent、知识沉淀与产品壳封装——ADP 案例对照与定位判断",
+    "40_专题知识库/AI Agent工程知识/05_多Agent与运行治理/多智能体协作闭环方法：主控-规划-执行-验收",
+    "40_专题知识库/AI技术哲学与未来展望/从OpenClaw到Grok Bot：AI Agent产品范式从任务执行到持久化数字工作主体",
     "40_专题知识库/AI Agent工程知识/04_知识库与记忆/生产级AI Agent记忆系统与Context调度",
     "40_专题知识库/AI Agent工程知识/04_知识库与记忆/企业级知识基础设施架构：数据库、知识库、规则库（Ontology）与状态机",
     "40_专题知识库/AI Agent工程知识/02_业务语义与Ontology/Ontology基础概念：从本体论到企业业务对象"
@@ -246,12 +251,14 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络.md",
     "40_专题知识库/AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
     "40_专题知识库/AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
+    "70_知识流水线/A_原始资料.md",
     "70_知识流水线/每日学习整理/2026-08-05｜AI知识增量整理.md",
     "70_知识流水线/知识库健康巡检.md",
-    "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-10.md"
+    "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-10.md",
+    "30_资料库/原始资料/已整理｜2026-11-19｜抖音分享｜Agent技术演进综述：从ReAct到Grok Bot创新还是套壳（叫我Ryder就好）.md"
    ],
    "desc": "上级：40专题知识库/AI Agent工程知识/AI Agent工程知识专题",
-   "wordCount": 7471
+   "wordCount": 11047
   },
   {
    "path": "40_专题知识库/AI Agent工程知识/01_基础概念与术语/AI Agent工程的行业语言映射：从内部术语到Palantir与FDE数据治理标准.md",
@@ -1112,10 +1119,12 @@ window.OBSIDIAN_DATA = {
     "全局记忆/08_多平台知识库治理"
    ],
    "backlinks": [
+    "40_专题知识库/AI Agent工程知识/01_基础概念与术语/AI Agent发展路径：从会说到会做再到能操作业务.md",
     "40_专题知识库/AI Agent工程知识/AI Agent工程知识V3导航.md",
     "70_知识流水线/候选知识与调用/候选知识卡真实调用评估记录｜2026-09-08｜AI Agent工程知识.md",
     "70_知识流水线/候选知识与调用/候选知识卡试点｜AI Agent工程知识｜2026-09-08.md",
     "20_工作与项目/多智能体协作任务/2026-09-02｜全域主控与项目Agent协作流程搭建复盘.md",
+    "30_资料库/原始资料/已整理｜2026-11-19｜抖音分享｜Agent技术演进综述：从ReAct到Grok Bot创新还是套壳（叫我Ryder就好）.md",
     "30_资料库/原始资料/未整理｜2026-11-16｜抖音分享｜Grok Bot土豆姐1个月600次训练方法论（AI樟榆树转述）.md"
    ],
    "desc": "本文记录多智能体协作中“如何分工、如何传递、如何留痕、如何验收”的通用方法。AI Office 仅作为本次实践案例，用来暴露流程问题；本文不以 AI Office 的页面、版本或具",
@@ -3226,6 +3235,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/万策与万智平台落地机制：两个平台怎么跑起来"
    ],
    "backlinks": [
+    "40_专题知识库/AI Agent工程知识/01_基础概念与术语/AI Agent发展路径：从会说到会做再到能操作业务.md",
     "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/企业生产级Agent判断与交付顺序：从业务切片到控制面.md",
     "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/万策与万智平台落地机制：两个平台怎么跑起来.md",
     "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化V3导航.md",
@@ -6172,8 +6182,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
    "title": "AI时代演进史与数字基础设施总纲",
-   "updated": "2026-11-19",
-   "updatedTime": "2026-11-19 09:08",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 00:45",
    "topic": "infrastructure",
    "links": [
     "40_专题知识库/AI产业链与数字基础设施/AI产业链与数字基础设施专题",
@@ -6188,6 +6198,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/甘食记经营系统完整演进时间线",
     "40_专题知识库/Codex/Codex使用总结与知识库体系",
     "全局记忆/05_平台差异",
+    "30_资料库/原始资料/已整理｜2026-11-19｜抖音分享｜Agent技术演进综述：从ReAct到Grok Bot创新还是套壳（叫我Ryder就好）",
     "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/生产级AI Agent工程体系的完整链路",
     "40_专题知识库/AI Agent工程知识/04_知识库与记忆/三层知识库与RAG基础设施分型",
     "40_专题知识库/AI产业链与数字基础设施/APEC 2026 亚太工商领袖的AI判断：原话与产业含义"
@@ -6205,12 +6216,14 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
     "40_专题知识库/AI产业链与数字基础设施/APEC 2026 亚太工商领袖的AI判断：原话与产业含义.md",
     "40_专题知识库/AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路.md",
+    "70_知识流水线/A_原始资料.md",
     "70_知识流水线/知识库健康巡检.md",
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-11.md",
-    "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-28.md"
+    "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-28.md",
+    "30_资料库/原始资料/已整理｜2026-11-19｜抖音分享｜Agent技术演进综述：从ReAct到Grok Bot创新还是套壳（叫我Ryder就好）.md"
    ],
    "desc": "上级：40专题知识库/AI产业链与数字基础设施/AI产业链与数字基础设施专题",
-   "wordCount": 13265
+   "wordCount": 14987
   },
   {
    "path": "40_专题知识库/AI产业链与数字基础设施/AI时代资本支出链：从电力、算力、存储到Agent应用.md",
@@ -6859,8 +6872,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 11:36",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 00:36",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线",
@@ -6871,6 +6884,10 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业AI平台架构：业务工作台、统一控制面与运行服务\\",
     "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/生产级AI Agent成熟度评估框架：八维五阶评估模型与行业适配\\",
     "30_资料库/原始资料/部分回流｜2026-11-17｜用户提供｜自建Agent与Python对比腾讯ADP、零一万智万策与FDE两层复用（ChatGPT整理稿）\\",
+    "30_资料库/原始资料/已整理｜2026-11-19｜抖音分享｜Agent技术演进综述：从ReAct到Grok Bot创新还是套壳（叫我Ryder就好）\\",
+    "40_专题知识库/AI Agent工程知识/01_基础概念与术语/AI Agent发展路径：从会说到会做再到能操作业务",
+    "40_专题知识库/AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
+    "40_专题知识库/AI技术哲学与未来展望/从OpenClaw到Grok Bot：AI Agent产品范式从任务执行到持久化数字工作主体",
     "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台\\",
     "40_专题知识库/AI Agent工程知识/08_项目运行记录/基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理",
     "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？\\",
@@ -7300,7 +7317,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台.md"
    ],
    "desc": "上级：70知识流水线/知识流水线",
-   "wordCount": 52592
+   "wordCount": 53344
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -11275,7 +11292,8 @@ window.OBSIDIAN_DATA = {
     "90_系统与协作/Codex工作区/Codex多智能体副手矩阵与任务编排-完整建设总结.md",
     "90_系统与协作/Codex工作区/多智能体分派框架复核：Codex主控、DK子Agent与外部Agent协作.md",
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-07.md",
-    "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-08.md"
+    "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-08.md",
+    "90_系统与协作/Codex工作区/知识索引.md"
    ],
    "desc": "上级：90系统与协作/Codex工作区/新 Codex 对话启动入口、70知识流水线/支持系统通用Ontology：从电力合作伙伴沟通到主控-子Agent协作",
    "wordCount": 3692
@@ -11341,8 +11359,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "90_系统与协作/Codex工作区/Codex工作区.md",
    "title": "Codex 工作区",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 00:00",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:22",
    "topic": "codex",
    "links": [
     "徐总的知识库",
@@ -11353,6 +11371,7 @@ window.OBSIDIAN_DATA = {
     "当前状态",
     "Codex全局治理与工作区总结-2026-09-07",
     "决策记录",
+    "90_系统与协作/Codex工作区/知识索引",
     "项目索引",
     "全局记忆/08_多平台知识库治理",
     "多端 Codex 协作架构",
@@ -11365,6 +11384,7 @@ window.OBSIDIAN_DATA = {
     "DeepSeek Codex 搭建与双模型并行机制",
     "Codex Slides PPT 生产工作流",
     "20_工作与项目/DeepSeek Harness项目/DeepSeek Harness项目记录",
+    "90_系统与协作/Codex工作区/家庭知识电视AI洞察工作台搭建记录",
     "飞书多智能体会议流程：群协同与Obsidian拍板机制",
     "30_资料库/会议记录/2026-07-24-飞书多智能体会议流程首场会议纪要"
    ],
@@ -11393,12 +11413,13 @@ window.OBSIDIAN_DATA = {
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-09.md",
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-10.md",
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-11.md",
+    "90_系统与协作/Codex工作区/知识索引.md",
     "90_系统与协作/任务面板与知识库/智能体协作共享问答.md",
     "90_系统与协作/豆包工作区/豆包工作区.md",
     "40_专题知识库/Codex/Codex专题.md"
    ],
    "desc": "上级：徐总的知识库",
-   "wordCount": 3434
+   "wordCount": 3759
   },
   {
    "path": "90_系统与协作/Codex工作区/Codex的内部合作机制.md",
@@ -11624,7 +11645,9 @@ window.OBSIDIAN_DATA = {
    "links": [
     "徐总的知识库"
    ],
-   "backlinks": [],
+   "backlinks": [
+    "90_系统与协作/Codex工作区/知识索引.md"
+   ],
    "desc": "- 不把 ~/Documents/Codex 下的所有日期/会话目录默认视为正式项目。",
    "wordCount": 270
   },
@@ -11663,6 +11686,7 @@ window.OBSIDIAN_DATA = {
    "backlinks": [
     "70_知识流水线/每日学习整理/2026-08-04｜AI知识增量整理.md",
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-10.md",
+    "90_系统与协作/Codex工作区/知识索引.md",
     "90_系统与协作/Codex工作区/飞书多智能体连接基线与故障域.md",
     "10_个人生活与个人管理/徐总每日随记/当日记录/2026-07-04.md",
     "10_个人生活与个人管理/徐总每日随记/当日记录/2026-07-10.md",
@@ -11671,6 +11695,21 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "项目文件夹可以统一，聊天上下文不能自动合并。",
    "wordCount": 4743
+  },
+  {
+   "path": "90_系统与协作/Codex工作区/家庭知识电视AI洞察工作台搭建记录.md",
+   "title": "家庭知识电视 AI 洞察工作台搭建记录",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:26",
+   "topic": "codex",
+   "links": [],
+   "backlinks": [
+    "90_系统与协作/Codex工作区/Codex工作区.md",
+    "90_系统与协作/Codex工作区/知识索引.md",
+    "90_系统与协作/Codex工作区/项目索引.md"
+   ],
+   "desc": "电视从“项目和 Session 状态大屏”转为“主动 AI 洞察简报”。项目进度和 Agent 活跃度降为辅助背景；主视区由专门的 AI 洞察编辑给出每日趋势研判，让徐总看到 AI",
+   "wordCount": 3941
   },
   {
    "path": "90_系统与协作/Codex工作区/当前状态.md",
@@ -11685,7 +11724,8 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [
     "90_系统与协作/Codex工作区/DeepSeek Codex 搭建与双模型并行机制.md",
-    "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-10.md"
+    "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-10.md",
+    "90_系统与协作/Codex工作区/知识索引.md"
    ],
    "desc": "- 平板端 40专题知识库/Codex/GPT-5.5 已经可以通过 SSH 直接访问 Mac。",
    "wordCount": 26961
@@ -11722,6 +11762,7 @@ window.OBSIDIAN_DATA = {
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-27.md",
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-28.md",
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-29.md",
+    "90_系统与协作/Codex工作区/知识索引.md",
     "90_系统与协作/Codex工作区/项目索引.md"
    ],
    "desc": "上级：90系统与协作/Codex工作区/Codex工作区",
@@ -12870,6 +12911,30 @@ window.OBSIDIAN_DATA = {
    "wordCount": 666
   },
   {
+   "path": "90_系统与协作/Codex工作区/知识索引.md",
+   "title": "Codex工作区知识索引",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:12",
+   "topic": "codex",
+   "links": [
+    "90_系统与协作/Codex工作区/Codex工作区",
+    "知识库索引",
+    "90_系统与协作/Codex工作区/项目索引",
+    "90_系统与协作/Codex工作区/当前状态",
+    "90_系统与协作/Codex工作区/决策记录",
+    "90_系统与协作/Codex工作区/多端 Codex 协作架构",
+    "90_系统与协作/Codex工作区/Codex-MoonBridge多Agent任务面板与Obsidian归档机制",
+    "90_系统与协作/Codex工作区/家庭知识电视AI洞察工作台搭建记录",
+    "90_系统与协作/Codex工作区/文秘助手项目记录",
+    "20_工作与项目/DeepSeek Harness项目/DeepSeek Harness项目记录"
+   ],
+   "backlinks": [
+    "90_系统与协作/Codex工作区/Codex工作区.md"
+   ],
+   "desc": "本页按“工作入口、系统协作、项目与搭建记录”导航 Codex 工作区知识。主要工作入口仍见 90系统与协作/Codex工作区/Codex工作区，全库检索见 知识库索引。",
+   "wordCount": 808
+  },
+  {
    "path": "90_系统与协作/Codex工作区/自动路由与反馈编译真实测试记录.md",
    "title": "自动路由与反馈编译真实测试记录",
    "updated": "2026-08-26",
@@ -12885,13 +12950,14 @@ window.OBSIDIAN_DATA = {
   {
    "path": "90_系统与协作/Codex工作区/项目索引.md",
    "title": "项目索引",
-   "updated": "2026-09-10",
-   "updatedTime": "2026-09-10 00:00",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:22",
    "topic": "codex",
    "links": [
     "90_系统与协作/Codex工作区/文秘助手项目记录",
     "90_系统与协作/Codex工作区/Codex-DeepSeek内部智能体通信与编排-完整建设总结",
     "20_工作与项目/DeepSeek Harness项目/DeepSeek Harness项目记录",
+    "90_系统与协作/Codex工作区/家庭知识电视AI洞察工作台搭建记录",
     "90_系统与协作/Codex工作区/Mac Codex 主控化运行基线",
     "90_系统与协作/Codex工作区/Codex Workspace 低 Token 主控工作区方案",
     "90_系统与协作/Codex工作区/2026-05-28-29-model-routing-setup"
@@ -12919,10 +12985,11 @@ window.OBSIDIAN_DATA = {
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-27.md",
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-28.md",
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-29.md",
+    "90_系统与协作/Codex工作区/知识索引.md",
     "20_工作与项目/DeepSeek Harness项目/DeepSeek Harness项目记录.md"
    ],
    "desc": "这个文件用于区分“真正项目目录”“Codex 会话目录”和“长期知识库”，同时为平板 Codex 与 Mac Codex 提供统一的 工作区 入口。",
-   "wordCount": 3079
+   "wordCount": 3369
   },
   {
    "path": "90_系统与协作/Codex工作区/飞书多智能体会议流程：群协同与Obsidian拍板机制.md",
@@ -13335,6 +13402,7 @@ window.OBSIDIAN_DATA = {
     "70_知识流水线/知识库健康巡检.md",
     "90_系统与协作/Codex工作区/Codex工作区.md",
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-16.md",
+    "90_系统与协作/Codex工作区/知识索引.md",
     "90_系统与协作/Codex工作区/项目索引.md",
     "20_工作与项目/DeepSeek Harness项目/DeepSeek Harness 全流程拉通总结 2026-08-19~22.md",
     "20_工作与项目/DeepSeek Harness项目/DeepSeek Harness 官方资源与插件开发指南.md",
@@ -14308,6 +14376,17 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "上级：90系统与协作/Codex工作区/Codex工作区",
    "wordCount": 18648
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-11-20.md",
+   "title": "每日工作记录 2026-11-20",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:27",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 徐总现场指令：看 183 卡 → 接入平板 ADB → 从关注公众号里筛 AI 相关 → 列清单 → 验证能否每日抓热门 AI 稿（只是其中一条渠道）。",
+   "wordCount": 1755
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录-备份（停更于2026-10-20）/2026-09-08.md",
@@ -17097,8 +17176,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "60_问题与洞察/我的洞察/README.md",
    "title": "我的洞察",
-   "updated": "2026-11-19",
-   "updatedTime": "2026-11-19 18:54",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:38",
    "topic": "myinsights",
    "links": [
     "60_问题与洞察/我的洞察/AI商业化生态研究线：从六种形态到三条路径的商业判断",
@@ -17108,14 +17187,17 @@ window.OBSIDIAN_DATA = {
     "60_问题与洞察/我的洞察/蜀道集团研究线",
     "60_问题与洞察/我的洞察/会话洞察/2026-10-05-统一骨架如何形成跨行业AI架构识别与生产判断力",
     "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/企业生产级AI体系框架：从基础设施到智能体与业务应用",
+    "60_问题与洞察/我的洞察/会话洞察/2026-11-20-视觉陪诊Agent产品方案：医伴（MedMate）",
+    "60_问题与洞察/我的洞察/会话洞察/2026-11-20-医伴MVP实施清单",
     "60_问题与洞察/我的洞察/会话洞察/2026-11-19-AI客服意图分类边界：从医院电话咨询看标准化客服的能力天花板"
    ],
    "backlinks": [
     "60_问题与洞察/我的洞察/会话洞察/2026-10-05-统一骨架如何形成跨行业AI架构识别与生产判断力.md",
-    "60_问题与洞察/我的洞察/会话洞察/2026-11-19-AI客服意图分类边界：从医院电话咨询看标准化客服的能力天花板.md"
+    "60_问题与洞察/我的洞察/会话洞察/2026-11-19-AI客服意图分类边界：从医院电话咨询看标准化客服的能力天花板.md",
+    "60_问题与洞察/我的洞察/会话洞察/2026-11-20-视觉陪诊Agent产品方案：医伴（MedMate）.md"
    ],
    "desc": "跨专题洞察和主体研究线入口。",
-   "wordCount": 799
+   "wordCount": 1116
   },
   {
    "path": "60_问题与洞察/我的洞察/企业AI交互设计研究线：从五种交互模式到业务动作契约.md",
@@ -17207,20 +17289,57 @@ window.OBSIDIAN_DATA = {
   {
    "path": "60_问题与洞察/我的洞察/会话洞察/2026-11-19-AI客服意图分类边界：从医院电话咨询看标准化客服的能力天花板.md",
    "title": "AI客服意图分类边界：从医院电话咨询看标准化客服的能力天花板",
-   "updated": "2026-11-19",
-   "updatedTime": "2026-11-19 18:58",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:09",
    "topic": "myinsights",
    "links": [
     "60_问题与洞察/我的洞察/README",
+    "60_问题与洞察/我的洞察/会话洞察/2026-11-20-视觉陪诊Agent产品方案：医伴（MedMate）",
     "60_问题与洞察/我的洞察/企业AI自然语言交互与业务执行机制研究线：从五种业务意图模式到有依据的业务行为",
     "60_问题与洞察/我的洞察/AI交互有利性偏差研究线：从偏袒式答案到可验证的客观结论",
     "10_个人生活与个人管理/个人健康/成都市第一人民医院就诊经验"
    ],
    "backlinks": [
-    "60_问题与洞察/我的洞察/README.md"
+    "60_问题与洞察/我的洞察/README.md",
+    "60_问题与洞察/我的洞察/会话洞察/2026-11-20-视觉陪诊Agent产品方案：医伴（MedMate）.md"
    ],
    "desc": "上级：60问题与洞察/我的洞察/README。",
-   "wordCount": 10032
+   "wordCount": 12082
+  },
+  {
+   "path": "60_问题与洞察/我的洞察/会话洞察/2026-11-20-医伴MVP实施清单.md",
+   "title": "医伴 MVP 实施清单",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:37",
+   "topic": "myinsights",
+   "links": [
+    "60_问题与洞察/我的洞察/会话洞察/2026-11-20-视觉陪诊Agent产品方案：医伴（MedMate）"
+   ],
+   "backlinks": [
+    "60_问题与洞察/我的洞察/README.md",
+    "60_问题与洞察/我的洞察/会话洞察/2026-11-20-视觉陪诊Agent产品方案：医伴（MedMate）.md"
+   ],
+   "desc": "上级：60问题与洞察/我的洞察/会话洞察/2026-11-20-视觉陪诊Agent产品方案：医伴（MedMate）。",
+   "wordCount": 1261
+  },
+  {
+   "path": "60_问题与洞察/我的洞察/会话洞察/2026-11-20-视觉陪诊Agent产品方案：医伴（MedMate）.md",
+   "title": "视觉陪诊Agent产品方案：医伴（MedMate）——院内全流程AI就医助手",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:17",
+   "topic": "myinsights",
+   "links": [
+    "60_问题与洞察/我的洞察/README",
+    "60_问题与洞察/我的洞察/会话洞察/2026-11-19-AI客服意图分类边界：从医院电话咨询看标准化客服的能力天花板",
+    "60_问题与洞察/我的洞察/会话洞察/2026-11-20-医伴MVP实施清单"
+   ],
+   "backlinks": [
+    "60_问题与洞察/我的洞察/README.md",
+    "60_问题与洞察/我的洞察/会话洞察/2026-11-19-AI客服意图分类边界：从医院电话咨询看标准化客服的能力天花板.md",
+    "60_问题与洞察/我的洞察/会话洞察/2026-11-20-医伴MVP实施清单.md"
+   ],
+   "desc": "上级：60问题与洞察/我的洞察/README。",
+   "wordCount": 5184
   },
   {
    "path": "60_问题与洞察/我的洞察/己未CRM工程演进研究线：从V1直写Base到V4异步Worker的四阶段复盘与三维度归因.md",
@@ -20781,6 +20900,26 @@ window.OBSIDIAN_DATA = {
    "wordCount": 4462
   },
   {
+   "path": "30_资料库/原始资料/已整理｜2026-11-19｜抖音分享｜Agent技术演进综述：从ReAct到Grok Bot创新还是套壳（叫我Ryder就好）.md",
+   "title": "Agent 技术演进综述：从 ReAct 到 Grok Bot，创新还是套壳（叫我Ryder就好）",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 00:35",
+   "topic": "raw",
+   "links": [
+    "40_专题知识库/AI Agent工程知识/01_基础概念与术语/AI Agent发展路径：从会说到会做再到能操作业务",
+    "40_专题知识库/AI技术哲学与未来展望/从OpenClaw到Grok Bot：AI Agent产品范式从任务执行到持久化数字工作主体",
+    "40_专题知识库/AI Agent工程知识/05_多Agent与运行治理/多智能体协作闭环方法：主控-规划-执行-验收",
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/生产级AI Agent工程纪律稳定层方法论：埋点·日志·BadCase管理·回归测试（不随模型过时的底座）",
+    "40_专题知识库/AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲"
+   ],
+   "backlinks": [
+    "40_专题知识库/AI Agent工程知识/01_基础概念与术语/AI Agent发展路径：从会说到会做再到能操作业务.md",
+    "40_专题知识库/AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md"
+   ],
+   "desc": "- 来源：抖音账号「叫我Ryder就好」作品（口令标题：《创新还是套壳？一个视频讲透 Agent 这几年的发...》）。",
+   "wordCount": 9438
+  },
+  {
    "path": "30_资料库/原始资料/未整理｜2026-11-16｜抖音分享｜Grok Bot土豆姐1个月600次训练方法论（AI樟榆树转述）.md",
    "title": "Grok Bot 土豆姐 1 个月 600 次训练方法论（AI樟榆树转述）",
    "updated": "2026-11-18",
@@ -20798,6 +20937,17 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "- 来源：抖音账号「AI樟榆树」作品（口令标题：《Grok Bot土豆姐1个月600次训练方法论 A...》）。",
    "wordCount": 5386
+  },
+  {
+   "path": "30_资料库/原始资料/未整理｜2026-11-20｜微信公众号虎嗅APP｜一批濒临死亡机器人公司的最后挣扎.md",
+   "title": "一批濒临死亡机器人公司的最后挣扎",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:26",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [],
+   "desc": "文章来源：虎嗅APP（公众号）2026年11月6日 08:16 北京",
+   "wordCount": 4060
   },
   {
    "path": "30_资料库/原始资料/部分回流｜2026-11-15｜用户提供｜企业级Agent与通用Agent分界线：身份授权执行审计恢复控制链与WorkBuddy×ADP权限对照（ChatGPT总结）.md",
@@ -20929,7 +21079,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "数据与知识资产",
-   "matched": 201,
+   "matched": 202,
    "status": "已形成"
   },
   {
@@ -20959,7 +21109,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 186,
+   "matched": 187,
    "status": "已形成"
   },
   {
@@ -21137,7 +21287,7 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 112425,
+     "wordCount": 112736,
      "excerpt": "2026-11-19｜客户部署采用 ADP 直连异步模板40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录 §86：未来客户的目标是 Skill 澄清后调用受信任的 ADP Creat",
      "hasBody": true
     },
@@ -22186,7 +22336,7 @@ window.OBSIDIAN_DATA = {
      "path": "40_专题知识库/AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
      "title": "AI时代演进史与数字基础设施总纲",
      "kind": "note",
-     "wordCount": 12515,
+     "wordCount": 14141,
      "excerpt": "AI时代演进史与数字基础设施总纲上级：40_专题知识库/AI产业链与数字基础设施/AI产业链与数字基础设施专题相关：40_专题知识库/AI Agent工程知识/AI Agent工程知识专题、40_专题知识库/企业AI与智",
      "hasBody": true
     },
@@ -22276,8 +22426,8 @@ window.OBSIDIAN_DATA = {
  ],
  "tasks": {
   "summary": {
-   "in_progress": 20,
-   "todo": 22,
+   "in_progress": 21,
+   "todo": 26,
    "in_review": 24,
    "blocked": 1
   },
@@ -22325,8 +22475,8 @@ window.OBSIDIAN_DATA = {
     "assignee": "Ethan"
    }
   ],
-  "total": 148,
-  "fetchedAt": "2026年11月19日 23:03"
+  "total": 153,
+  "fetchedAt": "2026年11月20日 08:40"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -22367,8 +22517,157 @@ window.OBSIDIAN_DATA = {
    }
   ]
  },
- "dailyWorkRecords": [],
+ "dailyWorkRecords": [
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-11-20.md",
+   "title": "每日工作记录 2026-11-20",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:27",
+   "wordCount": 1755,
+   "desc": "- 徐总现场指令：看 183 卡 → 接入平板 ADB → 从关注公众号里筛 AI 相关 → 列清单 → 验证能否每日抓热门 AI 稿（只是其中一条渠道）。"
+  }
+ ],
  "recentUpdates": [
+  {
+   "path": "60_问题与洞察/我的洞察/README.md",
+   "title": "我的洞察",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:38",
+   "topic": "myinsights",
+   "topicName": "我的洞察",
+   "wordCount": 1116,
+   "desc": "跨专题洞察和主体研究线入口。"
+  },
+  {
+   "path": "60_问题与洞察/我的洞察/会话洞察/2026-11-20-医伴MVP实施清单.md",
+   "title": "医伴 MVP 实施清单",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:37",
+   "topic": "myinsights",
+   "topicName": "我的洞察",
+   "wordCount": 1261,
+   "desc": "上级：60问题与洞察/我的洞察/会话洞察/2026-11-20-视觉陪诊Agent产品方案：医伴（MedMate）。"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-11-20.md",
+   "title": "每日工作记录 2026-11-20",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:27",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 1755,
+   "desc": "- 徐总现场指令：看 183 卡 → 接入平板 ADB → 从关注公众号里筛 AI 相关 → 列清单 → 验证能否每日抓热门 AI 稿（只是其中一条渠道）。"
+  },
+  {
+   "path": "30_资料库/原始资料/未整理｜2026-11-20｜微信公众号虎嗅APP｜一批濒临死亡机器人公司的最后挣扎.md",
+   "title": "一批濒临死亡机器人公司的最后挣扎",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:26",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 4060,
+   "desc": "文章来源：虎嗅APP（公众号）2026年11月6日 08:16 北京"
+  },
+  {
+   "path": "90_系统与协作/Codex工作区/家庭知识电视AI洞察工作台搭建记录.md",
+   "title": "家庭知识电视 AI 洞察工作台搭建记录",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:26",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 3941,
+   "desc": "电视从“项目和 Session 状态大屏”转为“主动 AI 洞察简报”。项目进度和 Agent 活跃度降为辅助背景；主视区由专门的 AI 洞察编辑给出每日趋势研判，让徐总看到 AI"
+  },
+  {
+   "path": "90_系统与协作/Codex工作区/Codex工作区.md",
+   "title": "Codex 工作区",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:22",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 3759,
+   "desc": "上级：徐总的知识库"
+  },
+  {
+   "path": "90_系统与协作/Codex工作区/项目索引.md",
+   "title": "项目索引",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:22",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 3369,
+   "desc": "这个文件用于区分“真正项目目录”“Codex 会话目录”和“长期知识库”，同时为平板 Codex 与 Mac Codex 提供统一的 工作区 入口。"
+  },
+  {
+   "path": "60_问题与洞察/我的洞察/会话洞察/2026-11-20-视觉陪诊Agent产品方案：医伴（MedMate）.md",
+   "title": "视觉陪诊Agent产品方案：医伴（MedMate）——院内全流程AI就医助手",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:17",
+   "topic": "myinsights",
+   "topicName": "我的洞察",
+   "wordCount": 5184,
+   "desc": "上级：60问题与洞察/我的洞察/README。"
+  },
+  {
+   "path": "90_系统与协作/Codex工作区/知识索引.md",
+   "title": "Codex工作区知识索引",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:12",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 808,
+   "desc": "本页按“工作入口、系统协作、项目与搭建记录”导航 Codex 工作区知识。主要工作入口仍见 90系统与协作/Codex工作区/Codex工作区，全库检索见 知识库索引。"
+  },
+  {
+   "path": "60_问题与洞察/我的洞察/会话洞察/2026-11-19-AI客服意图分类边界：从医院电话咨询看标准化客服的能力天花板.md",
+   "title": "AI客服意图分类边界：从医院电话咨询看标准化客服的能力天花板",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 01:09",
+   "topic": "myinsights",
+   "topicName": "我的洞察",
+   "wordCount": 12082,
+   "desc": "上级：60问题与洞察/我的洞察/README。"
+  },
+  {
+   "path": "40_专题知识库/AI Agent工程知识/01_基础概念与术语/AI Agent发展路径：从会说到会做再到能操作业务.md",
+   "title": "AI Agent发展路径：从会说到会做再到能操作业务",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 00:45",
+   "topic": "agent",
+   "topicName": "AI Agent工程知识",
+   "wordCount": 11047,
+   "desc": "上级：40专题知识库/AI Agent工程知识/AI Agent工程知识专题"
+  },
+  {
+   "path": "40_专题知识库/AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
+   "title": "AI时代演进史与数字基础设施总纲",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 00:45",
+   "topic": "infrastructure",
+   "topicName": "AI产业链与数字基础设施",
+   "wordCount": 14987,
+   "desc": "上级：40专题知识库/AI产业链与数字基础设施/AI产业链与数字基础设施专题"
+  },
+  {
+   "path": "70_知识流水线/A_原始资料.md",
+   "title": "A_原始资料",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 00:36",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 53344,
+   "desc": "上级：70知识流水线/知识流水线"
+  },
+  {
+   "path": "30_资料库/原始资料/已整理｜2026-11-19｜抖音分享｜Agent技术演进综述：从ReAct到Grok Bot创新还是套壳（叫我Ryder就好）.md",
+   "title": "Agent 技术演进综述：从 ReAct 到 Grok Bot，创新还是套壳（叫我Ryder就好）",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 00:35",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 9438,
+   "desc": "- 来源：抖音账号「叫我Ryder就好」作品（口令标题：《创新还是套壳？一个视频讲透 Agent 这几年的发...》）。"
+  },
   {
    "path": "70_知识流水线/每日学习整理/2026-11-19｜AI知识增量整理.md",
    "title": "2026-11-19｜AI知识增量整理",
@@ -22378,26 +22677,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 3797,
    "desc": "- 报告日期：2026-11-19（周四）"
-  },
-  {
-   "path": "60_问题与洞察/我的洞察/会话洞察/2026-11-19-AI客服意图分类边界：从医院电话咨询看标准化客服的能力天花板.md",
-   "title": "AI客服意图分类边界：从医院电话咨询看标准化客服的能力天花板",
-   "updated": "2026-11-19",
-   "updatedTime": "2026-11-19 18:58",
-   "topic": "myinsights",
-   "topicName": "我的洞察",
-   "wordCount": 10032,
-   "desc": "上级：60问题与洞察/我的洞察/README。"
-  },
-  {
-   "path": "60_问题与洞察/我的洞察/README.md",
-   "title": "我的洞察",
-   "updated": "2026-11-19",
-   "updatedTime": "2026-11-19 18:54",
-   "topic": "myinsights",
-   "topicName": "我的洞察",
-   "wordCount": 799,
-   "desc": "跨专题洞察和主体研究线入口。"
   },
   {
    "path": "40_专题知识库/AI Agent工程知识/08_项目运行记录/基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理.md",
@@ -22470,16 +22749,6 @@ window.OBSIDIAN_DATA = {
    "desc": "上级：40专题知识库/AI/00AI专题总览"
   },
   {
-   "path": "40_专题知识库/AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲.md",
-   "title": "AI时代演进史与数字基础设施总纲",
-   "updated": "2026-11-19",
-   "updatedTime": "2026-11-19 09:08",
-   "topic": "infrastructure",
-   "topicName": "AI产业链与数字基础设施",
-   "wordCount": 13265,
-   "desc": "上级：40专题知识库/AI产业链与数字基础设施/AI产业链与数字基础设施专题"
-  },
-  {
    "path": "40_专题知识库/AI产业链与数字基础设施/APEC 2026 亚太工商领袖的AI判断：原话与产业含义.md",
    "title": "产业领袖的AI判断与预判：APEC 2026 与腾讯案例",
    "updated": "2026-11-19",
@@ -22488,1086 +22757,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "AI产业链与数字基础设施",
    "wordCount": 21097,
    "desc": "上级：40专题知识库/AI产业链与数字基础设施/AI产业链与数字基础设施专题"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP文件说明.md",
-   "title": "己未ADP文件说明（2026-11-15）",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 15:53",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 1128,
-   "desc": "此后以知识库本目录为准。WorkBuddy 侧不再单独维护一份平行正文。本页只说明文件分工；方法与案例分析入口见实战手册，现行规则见运行契约，搭建过程见搭建记录。回溯总框架见 40"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 11:36",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 52592,
-   "desc": "上级：70知识流水线/知识流水线"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/AI Agent工程知识专题.md",
-   "title": "AI Agent 工程知识专题",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 11:36",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 16157,
-   "desc": "上级：40专题知识库/AI/00AI专题总览"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台.md",
-   "title": "基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 11:36",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 4462,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？.md",
-   "title": "基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 11:36",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3065,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-11-17｜ChatGPT｜企业AI主框架核心讨论原文.md",
-   "title": "企业AI主框架核心讨论原文",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 09:53",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 41218,
-   "desc": "- [第01轮：万智、万策、ADP 与五种业务责任形态](nav-turn-01)"
-  },
-  {
-   "path": "70_知识流水线/知识流水线.md",
-   "title": "知识流水线",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 09:53",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 5583,
-   "desc": "上级：徐总的知识库"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-08-12｜抖音｜Solo们chat-FDE如何用ANC搭建AI原生组织.md",
-   "title": "「Solo们 chat」FDE如何用ANC搭建AI原生组织",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3730,
-   "desc": "上级：70知识流水线/A原始资料"
-  },
-  {
-   "path": "30_资料库/原始资料/已整理｜2026-09-11｜抖音视频文案｜100家企业AI落地实录：制造业痛点与AI中间层解决方案.md",
-   "title": "100家企业AI落地实录：制造业的痛点——系统承接不住非结构化临时性信息",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 781,
-   "desc": "- 不是没有系统（CRM/ERP/仓储系统全有）"
-  },
-  {
-   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-06-10.md",
-   "title": "2026-06-10",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 417,
-   "desc": "这两天主要的还是美签的这个申请过程，反正孩子和徐驰现在已经申请到了。8 月 14 号在沈阳的面签 到时候可能会提前去做一些资料的准备，希望一切能顺利"
-  },
-  {
-   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-07-04.md",
-   "title": "2026-07-04",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 1733,
-   "desc": "继续更新 Obsidian 中“生产级 AI Agent”知识体系，并测试成功手机 / 平板 ChatGPT 连接 Mac Codex。"
-  },
-  {
-   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-07-05.md",
-   "title": "2026-07-05",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 1023,
-   "desc": "今天围绕美团商家 AI 工具矩阵，补充更新了生产级 AI Agent 和甘食记经营系统的理解。"
-  },
-  {
-   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-07-08.md",
-   "title": "2026-07-08",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 3152,
-   "desc": "- 类型：个人想法 / 学习记录 / AI Agent 工程认知"
-  },
-  {
-   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-07-09.md",
-   "title": "2026-07-09",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 1588,
-   "desc": "- 类型：个人想法 / 学习记录 / AI Agent 工程认知"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-09.md",
-   "title": "2026-07-09 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 17810,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-10.md",
-   "title": "2026-07-10 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 18134,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-11.md",
-   "title": "2026-07-11 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 16692,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-12.md",
-   "title": "2026-07-12 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15440,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-13.md",
-   "title": "2026-07-13 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 17584,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-14.md",
-   "title": "2026-07-14 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 16818,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-15.md",
-   "title": "2026-07-15 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 16161,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-16.md",
-   "title": "2026-07-16 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15440,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-17.md",
-   "title": "2026-07-17 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15664,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-18.md",
-   "title": "2026-07-18 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15440,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-19.md",
-   "title": "2026-07-19 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15440,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-20.md",
-   "title": "2026-07-20 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15440,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-21.md",
-   "title": "2026-07-21 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 16145,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-22.md",
-   "title": "2026-07-22 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 16139,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-23.md",
-   "title": "2026-07-23 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 16293,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-24.md",
-   "title": "2026-07-24 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 16212,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-25.md",
-   "title": "2026-07-25 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 15954,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-26.md",
-   "title": "2026-07-26 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 16685,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-27.md",
-   "title": "2026-07-27 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 18840,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-28.md",
-   "title": "2026-07-28 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 22608,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-07-29.md",
-   "title": "2026-07-29 跨项目自动复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 19338,
-   "desc": "上级：90系统与协作/Codex工作区/项目索引"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-07-31｜AI知识增量整理.md",
-   "title": "2026-07-31｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4307,
-   "desc": "- 扫描日期：2026-07-31"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-01｜AI知识增量整理.md",
-   "title": "2026-08-01｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3705,
-   "desc": "- 扫描日期：2026-08-01"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-02｜AI知识增量整理.md",
-   "title": "2026-08-02｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3978,
-   "desc": "- 扫描日期：2026-08-02"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-03｜AI知识增量整理.md",
-   "title": "2026-08-03｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3859,
-   "desc": "- 日期：2026-08-03"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-04｜AI知识增量整理.md",
-   "title": "2026-08-04｜AI 知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4819,
-   "desc": "- 日期：2026-08-04（扫描窗口 00:00–23:59 GMT+8）"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-05｜AI知识增量整理.md",
-   "title": "2026-08-05｜AI 知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 8270,
-   "desc": "- 日期：2026-08-05（扫描窗口 2026-08-04 23:00 – 2026-08-05 22:55 GMT+8）"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-06｜AI知识增量整理.md",
-   "title": "2026-08-06｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 7386,
-   "desc": "- 日期： 2026-08-06。"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-07.md",
-   "title": "2026-08-07 工作进展日记",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 2352,
-   "desc": "上级：90系统与协作/Codex工作区/Codex工作区"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-07｜AI知识增量整理.md",
-   "title": "2026-08-07｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 6688,
-   "desc": "- 日期： 2026-08-07。"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-08.md",
-   "title": "2026-08-08 工作进展日记",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 4009,
-   "desc": "上级：90系统与协作/Codex工作区/Codex工作区"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-08｜AI知识增量整理.md",
-   "title": "2026-08-08｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3675,
-   "desc": "- 日期：2026-08-08（周六）"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-09｜AI知识增量整理.md",
-   "title": "2026-08-09｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3403,
-   "desc": "- 日期：2026-08-09（周日）"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-10｜AI知识增量整理.md",
-   "title": "2026-08-10｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 7257,
-   "desc": "- 日期：2026-08-10（周一）"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-11.md",
-   "title": "2026-08-11 工作进展日记",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 1631,
-   "desc": "上级：90系统与协作/Codex工作区/Codex工作区"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-11｜AI知识增量整理.md",
-   "title": "2026-08-11｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4363,
-   "desc": "上级：70知识流水线/AI知识自动化整理入口"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-12.md",
-   "title": "2026-08-12｜Codex 跨项目复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 1576,
-   "desc": "上级：90系统与协作/Codex工作区/每日跨项目复盘/每日跨项目复盘说明"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-13｜AI知识增量整理.md",
-   "title": "2026-08-13｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4241,
-   "desc": "上级：70知识流水线/AI知识自动化整理入口"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-13.md",
-   "title": "2026-08-13｜Codex 跨项目复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 2239,
-   "desc": "上级：90系统与协作/Codex工作区/每日跨项目复盘/每日跨项目复盘说明"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-14｜AI知识增量整理.md",
-   "title": "2026-08-14｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4293,
-   "desc": "上级：70知识流水线/AI知识自动化整理入口"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-14.md",
-   "title": "2026-08-14｜Codex 跨项目复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 1554,
-   "desc": "上级：90系统与协作/Codex工作区/每日跨项目复盘/每日跨项目复盘说明"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-15｜AI知识增量整理.md",
-   "title": "2026-08-15｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 6187,
-   "desc": "上级：70知识流水线/AI知识自动化整理入口"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-16｜AI知识增量整理.md",
-   "title": "2026-08-16｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 5926,
-   "desc": "上级：70知识流水线/AI知识自动化整理入口"
-  },
-  {
-   "path": "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-16.md",
-   "title": "2026-08-16｜Codex 跨项目复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "codex",
-   "topicName": "Codex 工作区",
-   "wordCount": 2094,
-   "desc": "上级：90系统与协作/Codex工作区/每日跨项目复盘/每日跨项目复盘说明"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-17｜AI知识增量整理.md",
-   "title": "2026-08-17｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4225,
-   "desc": "- 扫描日期：2026-08-17 22:55（过去 24 小时窗口：2026-08-16 22:55 → 2026-08-17 22:55）"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-24｜AI知识增量整理.md",
-   "title": "2026-08-24｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 5532,
-   "desc": "- 扫描日期：2026-08-24 23:00（过去 24 小时窗口：2026-08-23 23:00 → 2026-08-24 23:00）"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-25｜AI知识增量整理.md",
-   "title": "2026-08-25｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4948,
-   "desc": "- 日期：2026-08-25"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-26｜AI知识增量整理.md",
-   "title": "2026-08-26｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4251,
-   "desc": "上级：70知识流水线/AI知识自动化整理入口"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-29｜AI知识增量整理.md",
-   "title": "2026-08-29｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4372,
-   "desc": "上级：70知识流水线/AI知识自动化整理入口"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-30｜AI知识增量整理.md",
-   "title": "2026-08-30 AI 知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 5816,
-   "desc": "- 日期：2026-08-30（生成于 23:00，覆盖 2026-08-29 23:00 ～ 2026-08-30 23:00）"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-08-31｜AI知识增量整理.md",
-   "title": "2026-08-31 AI 知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 7685,
-   "desc": "- 日期：2026-08-31（生成于 23:00，覆盖 2026-08-30 23:00 ～ 2026-08-31 23:00）"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-01｜AI知识增量整理.md",
-   "title": "2026-09-01｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 9587,
-   "desc": "上级：70知识流水线/AI知识自动化整理入口"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-02｜AI知识增量整理.md",
-   "title": "2026-09-02｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 9531,
-   "desc": "上级：70知识流水线/AI知识自动化整理入口"
-  },
-  {
-   "path": "20_工作与项目/多智能体协作任务/2026-09-02｜全域主控与项目Agent协作流程搭建复盘.md",
-   "title": "2026-09-02｜全域主控与项目Agent协作流程搭建复盘",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "multiagent",
-   "topicName": "多智能体协作",
-   "wordCount": 3818,
-   "desc": "今天的核心目标不是把 AI Office 页面做得更复杂，而是确认一套可跨项目复用的协作架构：由 A000 作为全域总控，接收用户需求并选择项目；每个项目有自己的项目主控；项目主控"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-04｜AI知识增量整理.md",
-   "title": "2026-09-04｜AI 知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4112,
-   "desc": "- 日期：2026-09-04"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-05｜AI知识增量整理.md",
-   "title": "2026-09-05｜AI 知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4668,
-   "desc": "- 日期：2026-09-05"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-07｜AI知识增量整理.md",
-   "title": "2026-09-07｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3274,
-   "desc": "- 日期：2026-09-07"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-09｜AI知识增量整理.md",
-   "title": "2026-09-09｜AI 知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 5393,
-   "desc": "- 扫描日期：2026-09-09（窗口 2026-09-08 23:00 → 2026-09-09 23:00）"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-10｜AI知识增量整理.md",
-   "title": "2026-09-10｜AI 知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3582,
-   "desc": "- 日期：2026-09-10（生成于当日 23:00 自动化入口）"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-10｜企业AI落地5环节诊断框架｜增量整理.md",
-   "title": "2026-09-10｜企业AI落地5环节诊断框架｜增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3375,
-   "desc": "---|---------|---------|"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录-备份（停更于2026-10-20）/2026-09-10.md",
-   "title": "2026-09-10｜多智能体工作记录",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 13565,
-   "desc": "今天最重要的成果是 Codex 完成了 Obsidian 知识库 V3 重建（任务卡 KNOWLEDGEPIP-73）：从昨天晚上 10 点多开始，持续到今天，把知识库从平铺结构迁"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-11｜AI知识增量整理.md",
-   "title": "2026-09-11｜AI 知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 5003,
-   "desc": "- 日期：2026-09-11"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-11｜FDE第6课从能跑到敢用上线安全清单｜增量整理.md",
-   "title": "2026-09-11｜FDE第6课从能跑到敢用上线安全清单｜增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4497,
-   "desc": "---|------|"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-11｜制造业AI落地隐性鸿沟与AI中间层｜增量整理.md",
-   "title": "2026-09-11｜制造业AI落地隐性鸿沟与AI中间层｜增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3871,
-   "desc": "---|------|"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-11｜工信部414号文AI应用服务商培育专项行动｜增量整理.md",
-   "title": "2026-09-11｜工信部414号文AI应用服务商培育专项行动｜增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 6824,
-   "desc": "---|------|"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-11｜知识管理与认知内化｜增量整理.md",
-   "title": "2026-09-11｜知识管理与认知内化｜增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3648,
-   "desc": "---|--------|---------|---------|"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-12｜AI知识增量整理.md",
-   "title": "2026-09-12｜AI 知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3485,
-   "desc": "- 扫描窗口：2026-09-11 23:00 → 2026-09-12 23:00"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录-备份（停更于2026-10-20）/2026-09-12.md",
-   "title": "2026-09-12｜多智能体工作记录",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 2284,
-   "desc": "今天核心工作是生产级 AI 工程化标准深度调研与知识库专题录入：围绕 daily-work-summary 工程化改造后提出的\"我们做的是通用标准还是土办法\"这一问题，系统梳理了企"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-19｜AI知识增量整理.md",
-   "title": "2026-09-19｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 2251,
-   "desc": "- 日期：2026-09-19"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-22｜AI知识增量整理.md",
-   "title": "2026-09-22｜AI 知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4805,
-   "desc": "- 日期：2026-09-22（周二）"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-22｜AI经济范式迁移从流量逻辑到任务逻辑｜增量整理.md",
-   "title": "2026-09-22｜AI经济范式迁移从流量逻辑到任务逻辑｜增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3113,
-   "desc": "1. 一句话主张：互联网经济的关键词是\"流量\"，AI Agent 经济的关键词是\"任务\"；流量可以被廉价分发，任务必须被真实执行。因此 AI Agent 不是互联网商业模式的自然延"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-22｜Token工厂源稿校正与补强｜增量整理.md",
-   "title": "2026-09-22｜Token工厂源稿校正与补强｜增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 8155,
-   "desc": "本次不是新建，而是用源稿校正与补强蒸馏版。目标专题 40专题知识库/AI产业链与数字基础设施/Token工厂完整产业链洞察：六个加工动作、网络护城河与三层包装 本身就是从源稿《To"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-22｜乌兰察布东数西算与算电协同｜增量整理.md",
-   "title": "2026-09-22｜乌兰察布东数西算与算电协同｜增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 6488,
-   "desc": "1. 乌兰察布的可复制性来自三个条件同时成立，而不是单一优势：年均气温 4.3℃ 让自然冷却可用近 10 个月，风光资源换来约 0.35 元/度的到户电价（约北上广深工业电价的一半"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-22｜四川算电一体与算力政策｜增量整理.md",
-   "title": "2026-09-22｜四川算电一体与算力政策｜增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4713,
-   "desc": "1. 7810 万千瓦的实质不是\"用电变多\"，而是负荷成分分裂。算力是 8760 小时稳态基荷，降温与充电是脉冲尖峰，两类负荷对电网的要求相反，不能合并成一个总量来安排投资。"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-22｜庆阳央视口径词元工厂实证｜增量整理.md",
-   "title": "2026-09-22｜庆阳央视口径词元工厂实证｜增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3407,
-   "desc": "这份央视《新闻联播》稿与目标专题 40专题知识库/AI产业链与数字基础设施/甘肃庆阳AI算力产业崛起与Token工厂 同城同题，但不是重复稿：目标专题本身是一篇「Token 工厂框"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-22｜电网侧AI与新电力系统｜增量整理.md",
-   "title": "2026-09-22｜电网侧AI与新电力系统｜增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 7454,
-   "desc": "1. 这 6 份资料同时讲了两件互不相同的事：电网给 AI 供电（供给侧：5 万亿投资、设备商订单、AI 电源技术拐点、光储设备商切入）和AI 改造电网（电网自身用 AI：配网规划"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-22｜算力三级分工与国产十万卡集群｜增量整理.md",
-   "title": "2026-09-22｜算力三级分工与国产十万卡集群｜增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4377,
-   "desc": "1. 目标专题 40专题知识库/AI产业链与数字基础设施/AI基础设施发展路径：从服务器到智算中心再到AI算力网络 写的是 时间维度的演进路径（服务器→云→智算中心→推理服务→To"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-22｜算力出海成都节点实证｜增量整理.md",
-   "title": "2026-09-22｜算力出海成都节点实证｜增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4460,
-   "desc": "1. 这份界面新闻稿补的是出海链路里的「节点实证」，不是「链路方法」。目标专题 40专题知识库/AI产业链与数字基础设施/算力工厂与算力出海：从基础设施到跨境交付的完整链路 已经有"
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-22｜算力金融化资本侧证据链与源稿校正｜增量整理.md",
-   "title": "2026-09-22｜算力金融化资本侧证据链与源稿校正｜增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 6570,
-   "desc": "本次不是新建专题，而是融入 40专题知识库/AI产业链与数字基础设施/算力成为新一代房产——Token贷算力贷与算力金融化的中美双线观察，且分两层任务："
-  },
-  {
-   "path": "70_知识流水线/增量整理/2026-09-22｜资本支出链补充四源：六张网、内存股、算力组织方式、产业信用｜增量整理.md",
-   "title": "2026-09-22｜资本支出链补充四源：六张网、内存股、算力组织方式、产业信用｜增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 10500,
-   "desc": "1. 这 4 份资料从四个互不相同的切口补充同一条资本支出链：国家基建口径的投向结构（六张网）、需求侧的资本市场信号（内存股反弹）、算力如何被组织（护城河 vs 公共网络）、钱与信"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-23｜AI知识增量整理.md",
-   "title": "2026-09-23｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4078,
-   "desc": "- 日期：2026-09-23"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-26｜AI知识增量整理.md",
-   "title": "2026-09-26｜AI 知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3376,
-   "desc": "- 日期：2026-09-26"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-27｜AI知识增量整理.md",
-   "title": "2026-09-27｜AI 知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 1906,
-   "desc": "- 日期：2026-09-27"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-09-30｜AI知识增量整理.md",
-   "title": "2026-09-30｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3265,
-   "desc": "- 日期：2026-09-30"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-01｜AI知识增量整理.md",
-   "title": "2026-10-01｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 2834,
-   "desc": "- 日期：2026-10-01"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录-备份（停更于2026-10-20）/2026-10-03.md",
-   "title": "2026-10-03 每日工作记录",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 561,
-   "desc": "- 已确认：根据用户提供的课程架构截图，原样保存图片并核对现有案例；在原始纪要末尾追加截图转录，原正文未改写。"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-03｜AI知识增量整理.md",
-   "title": "2026-10-03｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 5336,
-   "desc": "- 日期：2026-10-03"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录-备份（停更于2026-10-20）/2026-10-04.md",
-   "title": "2026-10-04 每日工作记录",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 798,
-   "desc": "- 后续补充：文章标题收敛为“企业业务型 AI Agent 怎么选架构”，增加责任分类与适用范围；工具型、业务型、经营总览型按主要责任区分，生产流水线和多Agent作为组合维度。原"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-04｜AI知识增量整理.md",
-   "title": "2026-10-04｜AI 知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3812,
-   "desc": "- 日期：2026-10-04"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录-备份（停更于2026-10-20）/2026-10-05.md",
-   "title": "2026-10-05 每日工作记录",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 5611,
-   "desc": "- 用户确认“统一骨架↔案例↔招标交付↔验收证据”为核心用途，完整原文已存 30资料库/原始资料/已整理｜2026-10-05｜用户确认｜统一骨架与跨行业AI工程判断洞察。"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录-备份（停更于2026-10-20）/2026-10-07.md",
-   "title": "2026-10-07 每日工作记录",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 5324,
-   "desc": "- 已读方向页，当前活跃方向8条：企业AI与FDE落地方法论、AI Agent工程知识、DeepSeek Harness工程实验、生产级Agent运行治理/Ontology、任务面"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-07｜AI知识增量整理.md",
-   "title": "2026-10-07｜AI 知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 5499,
-   "desc": "- 日期：2026-10-07"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-08｜AI知识增量整理.md",
-   "title": "2026-10-08｜AI 知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4952,
-   "desc": "- 日期：2026-10-08"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-10-09｜AI知识增量整理.md",
-   "title": "2026-10-09｜AI知识增量整理",
-   "updated": "2026-11-18",
-   "updatedTime": "2026-11-18 01:08",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3446,
-   "desc": "- 日期：2026-10-09"
   }
  ]
 };
