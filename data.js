@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-20",
- "generatedTime": "2026-11-20 16:45",
+ "generatedTime": "2026-11-20 20:50",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 52,
  "weeklyChanges": 856,
@@ -3823,8 +3823,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
-   "updated": "2026-11-19",
-   "updatedTime": "2026-11-19 16:24",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 17:02",
    "topic": "enterprise",
    "links": [
     "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -3844,7 +3844,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/企业AI专题索引.md"
    ],
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口",
-   "wordCount": 137471
+   "wordCount": 137868
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点运行契约与验收口径.md",
@@ -22590,7 +22590,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 153,
-  "fetchedAt": "2026年11月20日 16:45"
+  "fetchedAt": "2026年11月20日 20:50"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -22642,6 +22642,16 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "recentUpdates": [
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
+   "title": "己未ADP试点搭建记录",
+   "updated": "2026-11-20",
+   "updatedTime": "2026-11-20 17:02",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 137868,
+   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口"
+  },
   {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
@@ -23110,16 +23120,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "AI Agent工程知识",
    "wordCount": 12318,
    "desc": "上级：40专题知识库/AI Agent工程知识/AI Agent工程知识专题 · 关联 40专题知识库/AI Agent工程知识/08项目运行记录/Deepseek Harness"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
-   "title": "己未ADP试点搭建记录",
-   "updated": "2026-11-19",
-   "updatedTime": "2026-11-19 16:24",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 137471,
-   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口"
   },
   {
    "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-11-18.md",
