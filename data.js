@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-11-20",
- "generatedTime": "2026-11-20 23:03",
+ "generatedAt": "2026-11-21",
+ "generatedTime": "2026-11-21 09:06",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 53,
- "weeklyChanges": 856,
+ "weeklyPages": 46,
+ "weeklyChanges": 796,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-20｜AI知识增量整理.md",
  "topics": [
@@ -3823,8 +3823,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
-   "updated": "2026-11-20",
-   "updatedTime": "2026-11-20 17:02",
+   "updated": "2026-11-21",
+   "updatedTime": "2026-11-21 01:23",
    "topic": "enterprise",
    "links": [
     "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -3844,7 +3844,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/企业AI专题索引.md"
    ],
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口",
-   "wordCount": 137868
+   "wordCount": 140743
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点运行契约与验收口径.md",
@@ -21408,8 +21408,8 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 112704,
-     "excerpt": "2026-11-19｜客户部署采用 ADP 直连异步模板40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录 §86：未来客户的目标是 Skill 澄清后调用受信任的 ADP Creat",
+     "wordCount": 113294,
+     "excerpt": "2026-11-21｜Base 读取超时与失败 Capture 复核40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录 §87：超时直接原因是 ADP Python 节点 Base G",
      "hasBody": true
     },
     {
@@ -22605,7 +22605,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 153,
-  "fetchedAt": "2026年11月20日 23:03"
+  "fetchedAt": "2026年11月21日 09:06"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -22658,6 +22658,16 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
+   "title": "己未ADP试点搭建记录",
+   "updated": "2026-11-21",
+   "updatedTime": "2026-11-21 01:23",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 140743,
+   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-11-20｜AI知识增量整理.md",
    "title": "2026-11-20｜AI知识增量整理",
    "updated": "2026-11-20",
@@ -22666,16 +22676,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 4469,
    "desc": "- 报告日期：2026-11-20（周五）"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
-   "title": "己未ADP试点搭建记录",
-   "updated": "2026-11-20",
-   "updatedTime": "2026-11-20 17:02",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 137868,
-   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口"
   },
   {
    "path": "70_知识流水线/A_原始资料.md",
@@ -23125,76 +23125,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "问题专题库",
    "wordCount": 11028,
    "desc": ""
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-11-19｜AI知识增量整理.md",
-   "title": "2026-11-19｜AI知识增量整理",
-   "updated": "2026-11-19",
-   "updatedTime": "2026-11-19 23:02",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3797,
-   "desc": "- 报告日期：2026-11-19（周四）"
-  },
-  {
-   "path": "40_专题知识库/AI Agent工程知识/08_项目运行记录/基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理.md",
-   "title": "基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理",
-   "updated": "2026-11-19",
-   "updatedTime": "2026-11-19 17:26",
-   "topic": "agent",
-   "topicName": "AI Agent工程知识",
-   "wordCount": 12318,
-   "desc": "上级：40专题知识库/AI Agent工程知识/AI Agent工程知识专题 · 关联 40专题知识库/AI Agent工程知识/08项目运行记录/Deepseek Harness"
-  },
-  {
-   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-11-18.md",
-   "title": "2026-11-18",
-   "updated": "2026-11-19",
-   "updatedTime": "2026-11-19 09:46",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 2369,
-   "desc": "只读盘点，未对手机做任何删除、改名、移动；设备侧只有读权限，实际清理需在手机手动执行。取数通道：Android MediaStore 索引分页（图片扫描 2600 条、去重后 26"
-  },
-  {
-   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-11-19.md",
-   "title": "2026-11-19",
-   "updated": "2026-11-19",
-   "updatedTime": "2026-11-19 09:46",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 946,
-   "desc": "- 类型：生活事件 / 待跟进事项"
-  },
-  {
-   "path": "10_个人生活与个人管理/徐总每日随记/徐总每日随记.md",
-   "title": "徐总每日随记",
-   "updated": "2026-11-19",
-   "updatedTime": "2026-11-19 09:46",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 2819,
-   "desc": "上级：徐总的知识库"
-  },
-  {
-   "path": "10_个人生活与个人管理/徐总每日随记/主题归档/待跟进事项/电话叫醒.md",
-   "title": "电话叫醒（待跟进）",
-   "updated": "2026-11-19",
-   "updatedTime": "2026-11-19 09:46",
-   "topic": "notes",
-   "topicName": "徐总每日随记",
-   "wordCount": 701,
-   "desc": "上级：10个人生活与个人管理/徐总每日随记/主题归档/主题归档说明"
-  },
-  {
-   "path": "40_专题知识库/AI产业链与数字基础设施/AI产业链与数字基础设施专题.md",
-   "title": "AI产业链与数字基础设施专题",
-   "updated": "2026-11-19",
-   "updatedTime": "2026-11-19 09:08",
-   "topic": "infrastructure",
-   "topicName": "AI产业链与数字基础设施",
-   "wordCount": 9354,
-   "desc": "上级：40专题知识库/AI/00AI专题总览"
   }
  ]
 };
