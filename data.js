@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-23",
- "generatedTime": "2026-11-23 13:56",
+ "generatedTime": "2026-11-23 18:03",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 5,
  "weeklyChanges": 165,
@@ -11773,7 +11773,7 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/Codex工作区/家庭知识电视AI洞察工作台搭建记录.md",
    "title": "家庭知识电视 AI 洞察工作台搭建记录",
    "updated": "2026-11-23",
-   "updatedTime": "2026-11-23 11:16",
+   "updatedTime": "2026-11-23 16:57",
    "topic": "codex",
    "links": [],
    "backlinks": [
@@ -11782,7 +11782,7 @@ window.OBSIDIAN_DATA = {
     "90_系统与协作/Codex工作区/项目索引.md"
    ],
    "desc": "电视从“项目和 Session 状态大屏”转为“主动 AI 洞察简报”。项目进度和 Agent 活跃度降为辅助背景；主视区由专门的 AI 洞察编辑给出每日趋势研判，让徐总看到 AI",
-   "wordCount": 15774
+   "wordCount": 23056
   },
   {
    "path": "90_系统与协作/Codex工作区/当前状态.md",
@@ -22659,7 +22659,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 154,
-  "fetchedAt": "2026年11月23日 13:56"
+  "fetchedAt": "2026年11月23日 18:03"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -22715,10 +22715,10 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/Codex工作区/家庭知识电视AI洞察工作台搭建记录.md",
    "title": "家庭知识电视 AI 洞察工作台搭建记录",
    "updated": "2026-11-23",
-   "updatedTime": "2026-11-23 11:16",
+   "updatedTime": "2026-11-23 16:57",
    "topic": "codex",
    "topicName": "Codex 工作区",
-   "wordCount": 15774,
+   "wordCount": 23056,
    "desc": "电视从“项目和 Session 状态大屏”转为“主动 AI 洞察简报”。项目进度和 Agent 活跃度降为辅助背景；主视区由专门的 AI 洞察编辑给出每日趋势研判，让徐总看到 AI"
   },
   {
