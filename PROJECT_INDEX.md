@@ -11,6 +11,12 @@
 
 知识工作台界面、编译、任务面板和知识反馈。
 
+## TV workbench portal
+
+- Homepage now contains three shortcuts: My Insights, Knowledge Discovery, and AI Future Trends.
+- `generate.js --nav-only --out <project-dir>` refreshes those generated navigation shells and injects `?tv=1` D-pad focus support without rebuilding the Obsidian data files.
+- The Android TV keeps its existing WebView APK. TV-origin requests to the Mac status bridge root redirect to the published homepage; the AI Trends link opens the local 8788 dashboard. Detailed route and acceptance state: `.project_context/STATE.md`.
+
 ## Task-based reading order
 
 ```text

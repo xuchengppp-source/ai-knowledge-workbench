@@ -8,6 +8,8 @@
 - 移动学习版：`mobile.html`
 - 两个页面共用 `data.js` 和 `docs.js`，内容同步，界面分开维护。
 - 手机宽度访问 `index.html` 会自动跳转到 `mobile.html`；带 `?desktop=1` 可强制查看桌面版。
+- The home quick links place “我的洞察”, “知识发现”, and “AI 未来发展趋势” side by side. The third link opens the live trend dashboard on the home network; Feed/API data remain local and are not published to GitHub Pages.
+- The TV keeps its installed generic WebView wrapper. TV-origin `/` requests redirect to this GitHub Pages home with `?tv=1`; that mode enables D-pad/select focus navigation.
 
 ## 数据流
 
@@ -27,6 +29,9 @@ GitHub Pages 自动部署
 ```bash
 # 重新生成数据（只读扫描 Obsidian → 编译 data.js/docs.js）
 node generate.js --out /Users/xucheng/Documents/Codex项目/AI知识学习工作台
+
+# 仅更新首页入口和电视遥控器导航，不重新扫描或重写 Obsidian 编译数据
+node generate.js --nav-only --out /Users/xucheng/Documents/Codex项目/AI知识学习工作台
 
 # 提交并发布
 git add -A

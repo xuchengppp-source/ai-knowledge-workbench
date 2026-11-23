@@ -2,8 +2,8 @@
 title: AI 知识学习工作台 · 产品需求文档（PRD）
 type: 项目文档
 status: 已确认（待原型定稿）
-version: v2.3
-updated: 2026-08-04
+version: v2.4
+updated: 2026-11-23
 ---
 
 # AI 知识学习工作台 · PRD
@@ -126,6 +126,14 @@ updated: 2026-08-04
 | 待归类 | 底部胶囊徽章：「3 条待归类 ›」 |
 
 原则：方向墙只回答「这个方向最近还活着吗」，不设完成态。专题会持续增长，不存在「已沉淀」终态；防囤积靠静置现形，不靠阶段标签。
+
+### 5.5 TV shortcut to AI Future Trends (2026-11-23)
+
+- Add a third shortcut, “AI 未来发展趋势”, beside “我的洞察” and “知识发现” on both desktop and mobile home pages.
+- The shortcut opens the Mac-hosted, read-only live trend workbench with the current Feed, priorities, research details, and knowledge relationships. Do not copy Feed data into GitHub Pages or modify Obsidian knowledge content.
+- The Android TV keeps using its installed generic WebView wrapper; no dedicated APK is created. Requests from the TV to the local 8788 root route to the existing GitHub Pages workbench home; the AI Trends shortcut returns to the local `/dashboard.html`. The WebView Back key must return to the workbench home.
+- In TV mode, the D-pad and select key navigate the three home shortcuts and open their pages. The trend page's existing tabs and detail navigation remain available.
+- Label the AI Trends shortcut as a home-network destination. Its API remains allowlisted to the Mac and registered TV; GitHub Pages serves only the link, not live trend data.
 
 ## 6. 互动环节（状态层的用户入口）
 

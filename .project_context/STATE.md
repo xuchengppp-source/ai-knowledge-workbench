@@ -1,5 +1,14 @@
 # AI 知识学习工作台状态
 
+## 2026-11-23 TV workbench portal integration
+
+- Added the requested third home shortcut for “AI 未来发展趋势” beside “我的洞察” and “知识发现”; the existing My Insights and Knowledge Discovery pages stay in place.
+- `generate.js --nav-only --out <project-dir>` injects the same shortcut into desktop/mobile home pages and query-gated D-pad support into the home and child pages without regenerating Obsidian payloads. `?tv=1` enables remote focus navigation; the initial focus is AI Future Trends.
+- The existing installed TV WebView wrapper continues to open local `http://192.168.31.27:8788/`. The read-only status bridge redirects TV-origin root requests to the GitHub Pages home with `?tv=1`; Mac/localhost root remains the AI Trends dashboard. The third shortcut returns to local `/dashboard.html?tv=1`.
+- The live Workbench is the GitHub Pages site documented in README. TV requests can reach the Mac bridge and the TV also resolves/reaches the GitHub Pages host. The live feed/API remain local and allowlisted; the public page contains only the home-network link.
+- Ego Lite local preview verified the third entry, its `tv=1` URL, initial focus, ArrowRight movement from AI Future Trends to My Insights and Knowledge Discovery, Enter navigation, and 960×540 layout. Direct navigation from the Ego container to the private LAN target is not used for acceptance; TV-origin HTTP checks cover that path.
+- No APK was rebuilt. Remaining: publish the selected Workbench files to the GitHub Pages `main` branch, restart the existing bridge to activate TV-only root redirect, and relaunch the already-installed TV wrapper to verify the homepage entry on device.
+
 ## 当前状态
 
 工作台已拆分为桌面网页版 `index.html` 和移动学习版 `mobile.html`，两端共用 Obsidian 编译数据，并接入三大 AI 知识主线、每日增量、每周架构复盘和“徐总问题专题库”。

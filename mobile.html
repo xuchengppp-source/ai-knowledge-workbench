@@ -1214,8 +1214,8 @@
   <div id="live-body" class="app-body"></div>
 </div>
 
-<script src="data.js?v=202611231356"></script>
-<script src="docs.js?v=202611231356" defer></script>
+<script src="data.js?v=202611230723"></script>
+<script src="docs.js?v=202611230723" defer></script>
 <script>
 /* 悬浮式底部控制条浏览器（华为/UC/夸克/小米/百度等）会覆盖页面底部，给 html 打标记以便上抬底部栏 */
 (function () {
@@ -2365,6 +2365,97 @@ switchTab('today');
   <a href="my-insights.html" style="display:flex;align-items:center;gap:6px;padding:10px 16px;background:linear-gradient(135deg,#fbbf24,#f97316);color:#1a1a3e;border-radius:20px;text-decoration:none;font-size:13px;font-weight:600;box-shadow:0 4px 16px rgba(251,191,36,0.4);">
     💡 我的洞察
   </a>
+<!-- AI_FUTURE_TRENDS_ENTRY:START -->
+<a class="ai-future-trends-entry" href="http://192.168.31.27:8788/dashboard.html" style="display:flex;align-items:center;justify-content:center;margin:0 3px;padding:10px 16px;background:linear-gradient(135deg,#1463d8,#12b7d4,#6b75ff);color:#fff;border-radius:20px;text-decoration:none;font-size:13px;font-weight:700;box-shadow:0 4px 16px rgba(36,132,224,0.34);white-space:nowrap;" title="电视与 Mac 需连接同一家庭网络" aria-label="打开 AI 未来发展趋势工作台">📡 AI 未来发展趋势</a>
+<!-- AI_FUTURE_TRENDS_ENTRY:END -->
+
+
+
+
+
+
 </div>
+
+
+
+
+
+
+<!-- TV_REMOTE_NAV:START -->
+<script id="AI_FUTURE_TRENDS_TV_REMOTE">
+(function () {
+  'use strict';
+  if (!/(?:^|[?&])tv=1(?:&|$)/.test(window.location.search)) return;
+  var selector = '[onclick],button,a[href],input,[role="button"]';
+  var current = null;
+  var style = document.createElement('style');
+  style.textContent = '.tv-focus{outline:4px solid #1463d8!important;outline-offset:3px!important;box-shadow:0 0 0 7px rgba(20,99,216,.2)!important;position:relative;z-index:999!important}';
+  document.head.appendChild(style);
+  function addTvQuery(link) {
+    var href = link.getAttribute('href') || '';
+    var route = href.split('?')[0].split('#')[0];
+    if (/^(index|mobile|my-insights|knowledge-discovery)\.html$/.test(route) || route === 'http://192.168.31.27:8788/dashboard.html') {
+      if (!/(?:^|[?&])tv=1(?:&|$)/.test(href)) {
+        var hashAt = href.indexOf('#');
+        var hash = hashAt < 0 ? '' : href.substring(hashAt);
+        var base = hashAt < 0 ? href : href.substring(0, hashAt);
+        link.setAttribute('href', base + (base.indexOf('?') < 0 ? '?' : '&') + 'tv=1' + hash);
+      }
+    }
+  }
+  var anchors = document.querySelectorAll('a[href]');
+  for (var a = 0; a < anchors.length; a++) addTvQuery(anchors[a]);
+  function candidates() {
+    var all = document.querySelectorAll(selector), result = [];
+    for (var i = 0; i < all.length; i++) {
+      var element = all[i], rect = element.getBoundingClientRect(), css = window.getComputedStyle(element);
+      if (rect.width > 12 && rect.height > 12 && css.display !== 'none' && css.visibility !== 'hidden' && !element.disabled) result.push(element);
+    }
+    return result;
+  }
+  function choose(next) {
+    if (!next) return;
+    if (current) current.classList.remove('tv-focus');
+    current = next;
+    current.classList.add('tv-focus');
+    if (document.activeElement && /^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName) && document.activeElement !== current) document.activeElement.blur();
+    try { current.scrollIntoView({block:'nearest',inline:'nearest'}); } catch (ignore) { current.scrollIntoView(false); }
+  }
+  function move(direction) {
+    var options = candidates();
+    if (!options.length) return;
+    if (!current || !document.documentElement.contains(current)) { choose(options[0]); return; }
+    var rect = current.getBoundingClientRect(), cx = rect.left + rect.width / 2, cy = rect.top + rect.height / 2;
+    var best = null, score = Infinity;
+    for (var i = 0; i < options.length; i++) {
+      var element = options[i];
+      if (element === current || element.contains(current) || current.contains(element)) continue;
+      var r = element.getBoundingClientRect(), dx = r.left + r.width / 2 - cx, dy = r.top + r.height / 2 - cy;
+      var primary = direction === 'down' ? dy : direction === 'up' ? -dy : direction === 'right' ? dx : -dx;
+      var cross = direction === 'down' || direction === 'up' ? Math.abs(dx) : Math.abs(dy);
+      if (primary < 5) continue;
+      var nextScore = primary + cross * 2.5;
+      if (nextScore < score) { score = nextScore; best = element; }
+    }
+    if (best) choose(best); else window.scrollBy(0, direction === 'down' ? 260 : direction === 'up' ? -260 : 0);
+  }
+  document.addEventListener('keydown', function (event) {
+    var code = event.keyCode, active = document.activeElement;
+    if (active && /^(INPUT|TEXTAREA)$/.test(active.tagName) && active === current && code !== 27) return;
+    var direction = {37:'left',38:'up',39:'right',40:'down'}[code];
+    if (direction) { event.preventDefault(); event.stopPropagation(); move(direction); }
+    else if ((code === 13 || code === 23 || code === 66) && current && document.documentElement.contains(current)) {
+      event.preventDefault(); event.stopPropagation();
+      var selected = current; current = null; selected.classList.remove('tv-focus'); selected.click();
+    }
+  }, true);
+  window.setTimeout(function () {
+    var list = candidates();
+    if (!list.length) return;
+    choose(document.querySelector('.ai-future-trends-entry') || list[0]);
+  }, 1200);
+}());
+</script>
+<!-- TV_REMOTE_NAV:END -->
 </body>
 </html>

@@ -40,6 +40,7 @@ const QUESTION_DIR = path.join(VAULT, '60_问题与洞察', '徐总问题专题�
 const OUT_DIR = process.argv.includes('--out')
   ? process.argv[process.argv.indexOf('--out') + 1]
   : '/Users/xucheng/Documents/知识库工作台-publish';
+const AI_TRENDS_LOCAL_URL = 'http://192.168.31.27:8788/dashboard.html';
 
 // 排除敏感/非精选文件（白名单策略：只发布学习向内容，跳过备份、内部维护页）
 // 注意：/原始资料/ 已移出排除列表——原始资料随各 TOPIC 的「原始资料」子目录（及根目录同名文件）
@@ -140,15 +141,132 @@ function stripMd(text, maxLen) {
   return maxLen ? clean.slice(0, maxLen) : clean;
 }
 
+function injectTvWorkbenchNavigation(html, file) {
+  const entryStart = '<!-- AI_FUTURE_TRENDS_ENTRY:START -->';
+  const entryEnd = '<!-- AI_FUTURE_TRENDS_ENTRY:END -->';
+  const remoteStart = '<!-- TV_REMOTE_NAV:START -->';
+  const remoteEnd = '<!-- TV_REMOTE_NAV:END -->';
+  const linkPattern = /<a href="my-insights\.html"[\s\S]*?<\/a>/i;
+  const mobile = file === 'mobile.html';
+  const entryStyle = mobile
+    ? 'display:flex;align-items:center;justify-content:center;margin:0 3px;padding:10px 16px;background:linear-gradient(135deg,#1463d8,#12b7d4,#6b75ff);color:#fff;border-radius:20px;text-decoration:none;font-size:13px;font-weight:700;box-shadow:0 4px 16px rgba(36,132,224,0.34);white-space:nowrap;'
+    : 'display:flex;align-items:center;justify-content:center;margin:0 4px;padding:12px 20px;background:linear-gradient(135deg,#1463d8,#12b7d4,#6b75ff);color:#fff;border-radius:24px;text-decoration:none;font-size:14px;font-weight:700;box-shadow:0 4px 20px rgba(36,132,224,0.34);white-space:nowrap;';
+
+  html = html.replace(/<!-- AI_FUTURE_TRENDS_ENTRY:START -->[\s\S]*?<!-- AI_FUTURE_TRENDS_ENTRY:END -->/g, '');
+  html = html.replace(/<!-- TV_REMOTE_NAV:START -->[\s\S]*?<!-- TV_REMOTE_NAV:END -->/g, '');
+
+  if (file === 'index.html' || file === 'mobile.html') {
+    if (!linkPattern.test(html)) throw new Error('Cannot find the My Insights home shortcut in ' + file);
+    const entry = entryStart + '\n'
+      + '<a class="ai-future-trends-entry" href="' + AI_TRENDS_LOCAL_URL + '" style="' + entryStyle + '" title="电视与 Mac 需连接同一家庭网络" aria-label="打开 AI 未来发展趋势工作台">📡 AI 未来发展趋势</a>\n'
+      + entryEnd;
+    html = html.replace(linkPattern, match => match + '\n' + entry);
+  }
+
+  const tvRemoteScript = `(function () {
+  'use strict';
+  if (!/(?:^|[?&])tv=1(?:&|$)/.test(window.location.search)) return;
+  var selector = '[onclick],button,a[href],input,[role="button"]';
+  var current = null;
+  var style = document.createElement('style');
+  style.textContent = '.tv-focus{outline:4px solid #1463d8!important;outline-offset:3px!important;box-shadow:0 0 0 7px rgba(20,99,216,.2)!important;position:relative;z-index:999!important}';
+  document.head.appendChild(style);
+  function addTvQuery(link) {
+    var href = link.getAttribute('href') || '';
+    var route = href.split('?')[0].split('#')[0];
+    if (/^(index|mobile|my-insights|knowledge-discovery)\\.html$/.test(route) || route === '${AI_TRENDS_LOCAL_URL}') {
+      if (!/(?:^|[?&])tv=1(?:&|$)/.test(href)) {
+        var hashAt = href.indexOf('#');
+        var hash = hashAt < 0 ? '' : href.substring(hashAt);
+        var base = hashAt < 0 ? href : href.substring(0, hashAt);
+        link.setAttribute('href', base + (base.indexOf('?') < 0 ? '?' : '&') + 'tv=1' + hash);
+      }
+    }
+  }
+  var anchors = document.querySelectorAll('a[href]');
+  for (var a = 0; a < anchors.length; a++) addTvQuery(anchors[a]);
+  function candidates() {
+    var all = document.querySelectorAll(selector), result = [];
+    for (var i = 0; i < all.length; i++) {
+      var element = all[i], rect = element.getBoundingClientRect(), css = window.getComputedStyle(element);
+      if (rect.width > 12 && rect.height > 12 && css.display !== 'none' && css.visibility !== 'hidden' && !element.disabled) result.push(element);
+    }
+    return result;
+  }
+  function choose(next) {
+    if (!next) return;
+    if (current) current.classList.remove('tv-focus');
+    current = next;
+    current.classList.add('tv-focus');
+    if (document.activeElement && /^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName) && document.activeElement !== current) document.activeElement.blur();
+    try { current.scrollIntoView({block:'nearest',inline:'nearest'}); } catch (ignore) { current.scrollIntoView(false); }
+  }
+  function move(direction) {
+    var options = candidates();
+    if (!options.length) return;
+    if (!current || !document.documentElement.contains(current)) { choose(options[0]); return; }
+    var rect = current.getBoundingClientRect(), cx = rect.left + rect.width / 2, cy = rect.top + rect.height / 2;
+    var best = null, score = Infinity;
+    for (var i = 0; i < options.length; i++) {
+      var element = options[i];
+      if (element === current || element.contains(current) || current.contains(element)) continue;
+      var r = element.getBoundingClientRect(), dx = r.left + r.width / 2 - cx, dy = r.top + r.height / 2 - cy;
+      var primary = direction === 'down' ? dy : direction === 'up' ? -dy : direction === 'right' ? dx : -dx;
+      var cross = direction === 'down' || direction === 'up' ? Math.abs(dx) : Math.abs(dy);
+      if (primary < 5) continue;
+      var nextScore = primary + cross * 2.5;
+      if (nextScore < score) { score = nextScore; best = element; }
+    }
+    if (best) choose(best); else window.scrollBy(0, direction === 'down' ? 260 : direction === 'up' ? -260 : 0);
+  }
+  document.addEventListener('keydown', function (event) {
+    var code = event.keyCode, active = document.activeElement;
+    if (active && /^(INPUT|TEXTAREA)$/.test(active.tagName) && active === current && code !== 27) return;
+    var direction = {37:'left',38:'up',39:'right',40:'down'}[code];
+    if (direction) { event.preventDefault(); event.stopPropagation(); move(direction); }
+    else if ((code === 13 || code === 23 || code === 66) && current && document.documentElement.contains(current)) {
+      event.preventDefault(); event.stopPropagation();
+      var selected = current; current = null; selected.classList.remove('tv-focus'); selected.click();
+    }
+  }, true);
+  window.setTimeout(function () {
+    var list = candidates();
+    if (!list.length) return;
+    choose(document.querySelector('.ai-future-trends-entry') || list[0]);
+  }, 1200);
+}());`;
+
+  if (!/<script[^>]+src="tv-remote\.js/.test(html) && !html.includes('AI_FUTURE_TRENDS_TV_REMOTE')) {
+    const remoteBlock = remoteStart + '\n<script id="AI_FUTURE_TRENDS_TV_REMOTE">\n' + tvRemoteScript + '\n</script>\n' + remoteEnd;
+    html = html.replace(/<\/body>/i, remoteBlock + '\n</body>');
+  }
+
+  return html;
+}
+
 function updateAssetVersions(outDir, version) {
-  ['index.html', 'mobile.html'].forEach(file => {
+  ['index.html', 'mobile.html', 'my-insights.html', 'knowledge-discovery.html'].forEach(file => {
     const full = path.join(outDir, file);
     if (!fs.existsSync(full)) return;
-    const html = fs.readFileSync(full, 'utf-8')
-      .replace(/<script src="data\.js(?:\?v=[^"]*)?"><\/script>/, `<script src="data.js?v=${version}"></script>`)
-      .replace(/<script src="docs\.js(?:\?v=[^"]*)?" defer><\/script>/, `<script src="docs.js?v=${version}" defer></script>`);
+    let html = injectTvWorkbenchNavigation(fs.readFileSync(full, 'utf-8'), file);
+    if (file === 'index.html' || file === 'mobile.html') {
+      html = html
+        .replace(/<script src="data\.js(?:\?v=[^"]*)?"><\/script>/, `<script src="data.js?v=${version}"></script>`)
+        .replace(/<script src="docs\.js(?:\?v=[^"]*)?" defer><\/script>/, `<script src="docs.js?v=${version}" defer></script>`);
+    }
     fs.writeFileSync(full, html, 'utf-8');
   });
+}
+
+function updateNavigationOnly() {
+  try {
+    const version = new Date().toISOString().replace(/\D/g, '').slice(0, 12);
+    updateAssetVersions(OUT_DIR, version);
+    console.log('✅ 工作台导航与电视遥控支持已生成:', OUT_DIR);
+  } catch (err) {
+    console.error('❌ 工作台导航生成失败:', err.message);
+    process.exit(1);
+  }
 }
 
 function parseMD(filePath) {
@@ -905,7 +1023,11 @@ async function build() {
   console.log('✅ 生成完成:', JSON.stringify(stats, null, 2));
 }
 
-build().catch(err => {
-  console.error('❌ 生成失败:', err.message);
-  process.exit(1);
-});
+if (process.argv.includes('--nav-only')) {
+  updateNavigationOnly();
+} else {
+  build().catch(err => {
+    console.error('❌ 生成失败:', err.message);
+    process.exit(1);
+  });
+}

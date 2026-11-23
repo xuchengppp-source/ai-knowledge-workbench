@@ -7,7 +7,6 @@ set -e
 # 配置
 VAULT_DIR="/Users/xucheng/Documents/c 徐的知识库"
 PROJECT_DIR="/Users/xucheng/Documents/Codex项目/AI知识学习工作台"
-PUBLISH_DIR="/Users/xucheng/Documents/知识库工作台-publish"
 FP_FILE="/Users/xucheng/.workbuddy/workbench_deploy_fp.txt"
 LOG_FILE="/Users/xucheng/.workbuddy/workbench_autodeploy.log"
 NODE_BIN="/opt/homebrew/bin/node"
@@ -48,19 +47,24 @@ log "检测到知识库变化，开始部署..."
 # 1. 运行 generate.js 编译
 log "运行 generate.js 编译..."
 cd "$PROJECT_DIR"
-$NODE_BIN generate.js >> "$LOG_FILE" 2>&1
+$NODE_BIN generate.js --out "$PROJECT_DIR" >> "$LOG_FILE" 2>&1
 log "✅ 编译完成"
 
-# 2. 同步编译产物到发布目录
-log "同步编译产物到发布目录..."
-cp "$PROJECT_DIR/index.html" "$PUBLISH_DIR/index.html"
-cp "$PROJECT_DIR/mobile.html" "$PUBLISH_DIR/mobile.html"
-log "✅ 同步完成"
-
-# 3. 提交并 push 到 GitHub Pages
-log "提交并 push 到 GitHub Pages..."
-cd "$PUBLISH_DIR"
-git add -A >> "$LOG_FILE" 2>&1
+# 2. Publish from the source checkout to avoid a stale, diverged publisher clone.
+log "准备从源仓库发布生成文件..."
+cd "$PROJECT_DIR"
+if ! git diff --cached --quiet; then
+    log "检测到预先暂存的变更，停止自动发布以避免合并无关提交"
+    exit 1
+fi
+git add -- index.html mobile.html my-insights.html knowledge-discovery.html data.js docs.js docs-*.js >> "$LOG_FILE" 2>&1
+if git diff --cached --quiet; then
+    log "没有生成文件变化，跳过 commit/push"
+    echo "$CURRENT_FP" > "$FP_FILE"
+    log "✅ 指纹已更新: $CURRENT_FP"
+    log "========== 自动部署检测结束 =========="
+    exit 0
+fi
 git commit -m "自动部署：知识库更新 $(date '+%Y-%m-%d %H:%M')" >> "$LOG_FILE" 2>&1
 git push origin main >> "$LOG_FILE" 2>&1
 log "✅ 部署完成"
