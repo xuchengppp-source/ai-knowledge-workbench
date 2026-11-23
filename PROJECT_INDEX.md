@@ -11,6 +11,14 @@
 
 知识工作台界面、编译、任务面板和知识反馈。
 
+## TV workbench entry
+
+- The published homepage now includes “AI 未来发展趋势” beside “我的洞察” and “知识发现”. TV access reuses the installed WebView wrapper and the TV-only 8788 redirect; no dedicated APK was rebuilt. Public HTML, TV-origin HTTP routes, and Ego Lite remote navigation were verified; physical remote selection on the TV remains unverified. Details: `.project_context/STATE.md`.
+
+- The homepage exposes “我的洞察”, “知识发现”, and “AI 未来发展趋势” as parallel shortcuts.
+- `generate.js --nav-only --out <project-dir>` regenerates the desktop/mobile navigation shell and TV D-pad focus support without rebuilding Obsidian data payloads.
+- The existing TV WebView is reused without an APK update. TV-origin requests to the Mac 8788 root redirect to the public workbench home; the AI Trends link opens the local live dashboard. See `.project_context/STATE.md` and PRD §5.5.
+
 ## TV workbench portal
 
 - Homepage now contains three shortcuts: My Insights, Knowledge Discovery, and AI Future Trends.

@@ -1,5 +1,21 @@
 # AI 知识学习工作台状态
 
+## Latest: AI Trends shortcut published in the TV workbench portal (2026-11-23)
+
+- Published commit `ed7554c` to the source repository `main`. The desktop and mobile Workbench home pages now show “AI 未来发展趋势” beside “我的洞察” and “知识发现”; `generate.js --nav-only --out <project-dir>` maintains the entry and TV navigation without rebuilding Obsidian data payloads.
+- TV mode is `?tv=1`: the inline TV remote helper gives the AI Trends shortcut initial focus, supports D-pad movement/select, and preserves TV mode in the My Insights and Knowledge Discovery links. Ego Lite verified D-pad movement and navigation on the local preview; the public GitHub Pages response contains the entry.
+- The existing TV app/APK was not changed or rebuilt. Its current WebView still opens Mac `8788/`; the TV-specific root route redirects to the published Workbench home with `?tv=1`. From Mac localhost, `/` continues to open the AI Trends dashboard; from the Workbench tile, `/dashboard.html` serves the live local dashboard.
+- TV-origin root GET returned HTTP 302 to GitHub Pages, direct TV GET `/dashboard.html` returned HTTP 200, and the TV can resolve/reach the GitHub Pages host. Relaunched the existing WebView app and confirmed it remains the resumed activity while the TV is awake. No screenshot was captured.
+- The previous auto-deploy run at 13:50 was rejected by GitHub because the separate publisher clone had diverged. `scripts/auto-deploy.sh` now builds in the source checkout and stages only generated site files, preserving unrelated working-tree changes; its syntax was checked, and no new schedule was created.
+
+## Portal completion readback (2026-11-23)
+
+- The published Workbench home is live at `https://xuchengppp-source.github.io/ai-knowledge-workbench/`; the third “AI 未来发展趋势” entry is present in the public HTML.
+- The TV-only redirect is active in the existing 8788 bridge. TV-origin `GET /` was verified as HTTP 302 to the Workbench home with `?tv=1`; direct TV-origin `/dashboard.html` returned HTTP 200. Mac localhost `/` still serves the local dashboard.
+- ADB currently sees `192.168.31.61:5555` as `MiTV4A`. The already-installed WebView app was relaunched earlier and no APK was rebuilt. Remote navigation was verified in Ego Lite on the public page; physical remote selection of the new home tile has not been independently read back from the TV.
+- The TV entry is published and routed, while final on-device tile navigation remains a user-side visual/remote confirmation. No screenshots were captured or viewed.
+- The companion AI Trends page now shows only each candidate's daily sequence (`03`). The user can request original-source staging with “录入 03”; Codex resolves the full stable key internally. No title, date, or source name is needed unless the number is ambiguous.
+
 ## 2026-11-23 TV workbench portal integration
 
 - Added the requested third home shortcut for “AI 未来发展趋势” beside “我的洞察” and “知识发现”; the existing My Insights and Knowledge Discovery pages stay in place.
@@ -7,7 +23,7 @@
 - The existing installed TV WebView wrapper continues to open local `http://192.168.31.27:8788/`. The read-only status bridge redirects TV-origin root requests to the GitHub Pages home with `?tv=1`; Mac/localhost root remains the AI Trends dashboard. The third shortcut returns to local `/dashboard.html?tv=1`.
 - The live Workbench is the GitHub Pages site documented in README. TV requests can reach the Mac bridge and the TV also resolves/reaches the GitHub Pages host. The live feed/API remain local and allowlisted; the public page contains only the home-network link.
 - Ego Lite local preview verified the third entry, its `tv=1` URL, initial focus, ArrowRight movement from AI Future Trends to My Insights and Knowledge Discovery, Enter navigation, and 960×540 layout. Direct navigation from the Ego container to the private LAN target is not used for acceptance; TV-origin HTTP checks cover that path.
-- No APK was rebuilt. Remaining: publish the selected Workbench files to the GitHub Pages `main` branch, restart the existing bridge to activate TV-only root redirect, and relaunch the already-installed TV wrapper to verify the homepage entry on device.
+- Completed: commit `ed7554c` was pushed to `main`; the TV-only bridge redirect is active; the installed wrapper was relaunched. No APK was rebuilt. Public page and TV-origin HTTP routes were verified. Physical remote selection of the tile remains unverified.
 
 ## 当前状态
 
