@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-11-22",
- "generatedTime": "2026-11-22 23:03",
+ "generatedAt": "2026-11-23",
+ "generatedTime": "2026-11-23 13:56",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 4,
- "weeklyChanges": 52,
+ "weeklyPages": 5,
+ "weeklyChanges": 165,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-22｜AI知识增量整理.md",
  "topics": [
@@ -40,7 +40,7 @@ window.OBSIDIAN_DATA = {
    "key": "codex",
    "icon": "🛠",
    "v3group": "system",
-   "count": 79
+   "count": 80
   },
   {
    "name": "DeepSeek Harness 项目",
@@ -96,7 +96,7 @@ window.OBSIDIAN_DATA = {
    "key": "notes",
    "icon": "📝",
    "v3group": "personal",
-   "count": 53
+   "count": 54
   },
   {
    "name": "豆包工作区",
@@ -10817,8 +10817,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "70_知识流水线/知识库健康巡检.md",
    "title": "知识库健康巡检",
-   "updated": "2026-11-20",
-   "updatedTime": "2026-11-20 12:00",
+   "updated": "2026-11-23",
+   "updatedTime": "2026-11-23 10:51",
    "topic": "pipeline",
    "links": [
     "30_资料库/原始资料/已整理｜2026-09-09｜用户提供｜分散探索与重新集中：D国共生张力下的组织重建与信用极限",
@@ -10962,8 +10962,8 @@ window.OBSIDIAN_DATA = {
     "90_系统与协作/Codex工作区/每日跨项目复盘/2026-08-15.md",
     "90_系统与协作/任务面板与知识库/方向推进与接力.md"
    ],
-   "desc": "- 按 Obsidian 当前实际解析结果，修复 25 处链接，涉及 23 个来源笔记：将 13 处旧 未整理 名称引用改指向原始资料中现存文件；修正 8 处重复拼接标题和 4 处",
-   "wordCount": 56125
+   "desc": "- 将已有 Ego Lite 网页操作细则提升为跨智能体规则：全局入口放在 全局记忆/08多平台知识库治理.md，全局记忆/03工作规则.md 加执行指针，DS Bot 工作区保留",
+   "wordCount": 56357
   },
   {
    "path": "70_知识流水线/知识库健康巡检执行规范.md",
@@ -11759,10 +11759,21 @@ window.OBSIDIAN_DATA = {
    "wordCount": 4743
   },
   {
-   "path": "90_系统与协作/Codex工作区/家庭知识电视AI洞察工作台搭建记录.md",
+   "path": "90_系统与协作/Codex工作区/家庭知识电视AI洞察工作台搭建记录.backup-20261123-1041.md",
    "title": "家庭知识电视 AI 洞察工作台搭建记录",
    "updated": "2026-11-20",
    "updatedTime": "2026-11-20 14:06",
+   "topic": "codex",
+   "links": [],
+   "backlinks": [],
+   "desc": "电视从“项目和 Session 状态大屏”转为“主动 AI 洞察简报”。项目进度和 Agent 活跃度降为辅助背景；主视区由专门的 AI 洞察编辑给出每日趋势研判，让徐总看到 AI",
+   "wordCount": 11249
+  },
+  {
+   "path": "90_系统与协作/Codex工作区/家庭知识电视AI洞察工作台搭建记录.md",
+   "title": "家庭知识电视 AI 洞察工作台搭建记录",
+   "updated": "2026-11-23",
+   "updatedTime": "2026-11-23 11:16",
    "topic": "codex",
    "links": [],
    "backlinks": [
@@ -11771,7 +11782,7 @@ window.OBSIDIAN_DATA = {
     "90_系统与协作/Codex工作区/项目索引.md"
    ],
    "desc": "电视从“项目和 Session 状态大屏”转为“主动 AI 洞察简报”。项目进度和 Agent 活跃度降为辅助背景；主视区由专门的 AI 洞察编辑给出每日趋势研判，让徐总看到 AI",
-   "wordCount": 11249
+   "wordCount": 15774
   },
   {
    "path": "90_系统与协作/Codex工作区/当前状态.md",
@@ -16837,6 +16848,21 @@ window.OBSIDIAN_DATA = {
    "wordCount": 946
   },
   {
+   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-11-23.md",
+   "title": "2026-11-23",
+   "updated": "2026-11-23",
+   "updatedTime": "2026-11-23 11:09",
+   "topic": "notes",
+   "links": [
+    "10_个人生活与个人管理/个人健康/体重管理",
+    "10_个人生活与个人管理/个人健康/皮肤毛囊炎",
+    "10_个人生活与个人管理/徐总每日随记/徐总每日随记"
+   ],
+   "backlinks": [],
+   "desc": "- 类型：健康身体 / 状态记录",
+   "wordCount": 765
+  },
+  {
    "path": "10_个人生活与个人管理/徐总每日随记/当日记录/当日记录说明.md",
    "title": "当日记录说明",
    "updated": "2026-09-09",
@@ -16881,6 +16907,7 @@ window.OBSIDIAN_DATA = {
     "10_个人生活与个人管理/徐总每日随记/当日记录/2026-10-09.md",
     "10_个人生活与个人管理/徐总每日随记/当日记录/2026-10-16.md",
     "10_个人生活与个人管理/徐总每日随记/当日记录/2026-11-19.md",
+    "10_个人生活与个人管理/徐总每日随记/当日记录/2026-11-23.md",
     "10_个人生活与个人管理/徐总每日随记/当日记录/当日记录说明.md",
     "10_个人生活与个人管理/徐总每日随记/月度复盘/月度复盘说明.md",
     "10_个人生活与个人管理/徐总每日随记/随记收件箱/随记收件箱说明.md",
@@ -21242,12 +21269,12 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "记忆与上下文",
-   "matched": 26,
+   "matched": 27,
    "status": "已形成"
   },
   {
    "name": "安全、权限与治理",
-   "matched": 35,
+   "matched": 36,
    "status": "已形成"
   },
   {
@@ -21435,7 +21462,7 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 113808,
+     "wordCount": 113857,
      "excerpt": "2026-11-21｜Base 读取超时与失败 Capture 复核40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录 §87：超时直接原因是 ADP Python 节点 Base G",
      "hasBody": true
     },
@@ -22582,7 +22609,7 @@ window.OBSIDIAN_DATA = {
  ],
  "tasks": {
   "summary": {
-   "in_progress": 21,
+   "in_progress": 22,
    "todo": 23,
    "in_review": 24,
    "blocked": 1
@@ -22601,6 +22628,13 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "urgent",
     "assignee": "伊森"
+   },
+   {
+    "id": "KP-188",
+    "title": "己未 ADP 多表写入恢复与 CONSULT 分支修复",
+    "status": "in_progress",
+    "priority": "high",
+    "assignee": "Codex"
    },
    {
     "id": "KP-182",
@@ -22622,17 +22656,10 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "high",
     "assignee": "伊森"
-   },
-   {
-    "id": "KP-172",
-    "title": "交通事故处理知识库：面对交警/面对保险公司/老司机12条原则（三梯次：随记→专题→原则）",
-    "status": "in_review",
-    "priority": "high",
-    "assignee": "Ethan"
    }
   ],
-  "total": 153,
-  "fetchedAt": "2026年11月22日 23:03"
+  "total": 154,
+  "fetchedAt": "2026年11月23日 13:56"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -22685,6 +22712,36 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/Codex工作区/家庭知识电视AI洞察工作台搭建记录.md",
+   "title": "家庭知识电视 AI 洞察工作台搭建记录",
+   "updated": "2026-11-23",
+   "updatedTime": "2026-11-23 11:16",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 15774,
+   "desc": "电视从“项目和 Session 状态大屏”转为“主动 AI 洞察简报”。项目进度和 Agent 活跃度降为辅助背景；主视区由专门的 AI 洞察编辑给出每日趋势研判，让徐总看到 AI"
+  },
+  {
+   "path": "10_个人生活与个人管理/徐总每日随记/当日记录/2026-11-23.md",
+   "title": "2026-11-23",
+   "updated": "2026-11-23",
+   "updatedTime": "2026-11-23 11:09",
+   "topic": "notes",
+   "topicName": "徐总每日随记",
+   "wordCount": 765,
+   "desc": "- 类型：健康身体 / 状态记录"
+  },
+  {
+   "path": "70_知识流水线/知识库健康巡检.md",
+   "title": "知识库健康巡检",
+   "updated": "2026-11-23",
+   "updatedTime": "2026-11-23 10:51",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 56357,
+   "desc": "- 将已有 Ego Lite 网页操作细则提升为跨智能体规则：全局入口放在 全局记忆/08多平台知识库治理.md，全局记忆/03工作规则.md 加执行指针，DS Bot 工作区保留"
+  },
+  {
    "path": "70_知识流水线/每日学习整理/2026-11-22｜AI知识增量整理.md",
    "title": "2026-11-22｜AI知识增量整理",
    "updated": "2026-11-22",
@@ -22703,26 +22760,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "AI产业链与数字基础设施",
    "wordCount": 9354,
    "desc": "上级：40专题知识库/AI/00AI专题总览"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-11-21｜AI知识增量整理.md",
-   "title": "2026-11-21｜AI知识增量整理",
-   "updated": "2026-11-21",
-   "updatedTime": "2026-11-21 23:02",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 3500,
-   "desc": "- 日期：2026-11-21（周六）"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
-   "title": "己未ADP试点搭建记录",
-   "updated": "2026-11-21",
-   "updatedTime": "2026-11-21 01:23",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 140743,
-   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口"
   }
  ]
 };
