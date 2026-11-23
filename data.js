@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-23",
- "generatedTime": "2026-11-23 21:52",
+ "generatedTime": "2026-11-23 22:08",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 10,
  "weeklyChanges": 570,
@@ -3829,7 +3829,7 @@ window.OBSIDIAN_DATA = {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
    "updated": "2026-11-23",
-   "updatedTime": "2026-11-23 21:47",
+   "updatedTime": "2026-11-23 22:03",
    "topic": "enterprise",
    "links": [
     "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -3849,7 +3849,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/企业AI专题索引.md"
    ],
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口",
-   "wordCount": 154146
+   "wordCount": 156273
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点运行契约与验收口径.md",
@@ -11783,7 +11783,7 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/Codex工作区/家庭知识电视AI洞察工作台搭建记录.md",
    "title": "家庭知识电视 AI 洞察工作台搭建记录",
    "updated": "2026-11-23",
-   "updatedTime": "2026-11-23 21:43",
+   "updatedTime": "2026-11-23 21:59",
    "topic": "codex",
    "links": [],
    "backlinks": [
@@ -11792,7 +11792,7 @@ window.OBSIDIAN_DATA = {
     "90_系统与协作/Codex工作区/项目索引.md"
    ],
    "desc": "电视从“项目和 Session 状态大屏”转为“主动 AI 洞察简报”。项目进度和 Agent 活跃度降为辅助背景；主视区由专门的 AI 洞察编辑给出每日趋势研判，让徐总看到 AI",
-   "wordCount": 26326
+   "wordCount": 26945
   },
   {
    "path": "90_系统与协作/Codex工作区/当前状态.md",
@@ -22684,7 +22684,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 155,
-  "fetchedAt": "2026年11月23日 21:52"
+  "fetchedAt": "2026年11月23日 22:08"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -22740,20 +22740,20 @@ window.OBSIDIAN_DATA = {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
    "updated": "2026-11-23",
-   "updatedTime": "2026-11-23 21:47",
+   "updatedTime": "2026-11-23 22:03",
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
-   "wordCount": 154146,
+   "wordCount": 156273,
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口"
   },
   {
    "path": "90_系统与协作/Codex工作区/家庭知识电视AI洞察工作台搭建记录.md",
    "title": "家庭知识电视 AI 洞察工作台搭建记录",
    "updated": "2026-11-23",
-   "updatedTime": "2026-11-23 21:43",
+   "updatedTime": "2026-11-23 21:59",
    "topic": "codex",
    "topicName": "Codex 工作区",
-   "wordCount": 26326,
+   "wordCount": 26945,
    "desc": "电视从“项目和 Session 状态大屏”转为“主动 AI 洞察简报”。项目进度和 Agent 活跃度降为辅助背景；主视区由专门的 AI 洞察编辑给出每日趋势研判，让徐总看到 AI"
   },
   {
