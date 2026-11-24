@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-24",
- "generatedTime": "2026-11-24 11:54",
+ "generatedTime": "2026-11-24 13:55",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 18,
  "weeklyChanges": 652,
@@ -21511,6 +21511,81 @@ window.OBSIDIAN_DATA = {
    "linkedCount": 8
   },
   {
+   "path": "60_问题与洞察/徐总问题专题库/02_企业AI与商业化/2026-11-24_游戏公司AI从节点提效到工作流沉淀.md",
+   "title": "游戏公司AI从节点提效到工作流沉淀",
+   "date": "2026-11-24",
+   "updated": "2026-11-24",
+   "category": "徐总问题专题库",
+   "status": "已回答 → 已入库",
+   "questionType": "",
+   "originalQuestion": "",
+   "direction": "围绕 Tim 公司（风际游戏）的 AI 现状，连追问十余轮，主线逐层收敛为四个问题： 1. Tim 说的\"AI 接入、性能早解决、技术解决不了人的问题\"到底是什么意思？ 2. 游戏开发的完整流程是什么，AI 在每个环节的接入点在哪？ 3. 风际游戏现在的架构怎么接 AI，对标行业标杆差在哪？ 4. 为什么光有数据分析不够——工作流、知识库留痕、业务面板三者是什么关系？ 徐总原话（逐字保留关键追问） 去调用一下我跟 Tim 的聊天记录 看一看他讲游戏的这个 接下来 我有点不太理解他说的这个问题 你去帮我分析一下 我是",
+   "directionHtml": "<p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">围绕 Tim 公司（风际游戏）的 AI 现状，连追问十余轮，主线逐层收敛为四个问题：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">Tim 说的\"AI 接入、性能早解决、技术解决不了人的问题\"到底是什么意思？</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">游戏开发的完整流程是什么，AI 在每个环节的接入点在哪？</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">风际游戏现在的架构怎么接 AI，对标行业标杆差在哪？</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">为什么光有数据分析不够——工作流、知识库留痕、业务面板三者是什么关系？</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">徐总原话（逐字保留关键追问）</h3><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">去调用一下我跟 Tim 的聊天记录 看一看他讲游戏的这个 接下来 我有点不太理解他说的这个问题 你去帮我分析一下</blockquote><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">我是让你根据游戏的开发的一个策略和一个进程 看看他说的这些是什么意思 比如说这个游戏上线跟不上线 明白吗</blockquote><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">那你给我梳理一下整个游戏制作过程 制作到上线 整个的一个开发的跟 AI 的结合的点 明白吗</blockquote><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">如果他没有全局的一个知识库 或者是把他们日常开会讨论的东西留痕 留存到知识库里面 让 agents 去进化的话 他只是通过数据分析 然后去分析 比如说游戏的一些相关的数据的话 他也只能说当时呈现出来的状态 并不能说 AI 去了解整个情况</blockquote><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">但提取的肯定不是说选角色的经验 而是说怎么样去做这个事情 从 0 到 1 完成这个角色的这么样一个工作流 今天出这个工作流 那不管你是益智型 古装类 反正各种类型的游戏啊 那你总能去完成这个角色的一个生成</blockquote><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">一个就是针对某一个具体的工种做的一个流程 那么一个就是业务具体的 落地的 游戏的 我都不知道自己在说什么</blockquote>",
+   "summary": "二、综合结论 风际游戏的 AI 只做到\"节点提效\"——本地数据喂 AI 分析、分析结果驱动热更；对标总框架停在\"工具提效＋完整任务交付\"，没到业务对象和经营分析层。真正的缺口不是 AI 不够快，是没有把\"为什么这么定\"留痕下来、抽象成跨游戏可复用的工作流。 徐总最终的自我梳理是对的，只是两句搅在一起： 工种工作流（角色设计六步）= 能力沉淀，给 agent ",
+   "answerHtml": "<h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">二、综合结论</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>风际游戏的 AI 只做到\"节点提效\"——本地数据喂 AI 分析、分析结果驱动热更；对标总框架停在\"工具提效＋完整任务交付\"，没到业务对象和经营分析层。真正的缺口不是 AI 不够快，是没有把\"为什么这么定\"留痕下来、抽象成跨游戏可复用的工作流。</b></p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">徐总最终的自我梳理是对的，只是两句搅在一起：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>工种工作流</b>（角色设计六步）= 能力沉淀，给 agent 复用，始终要做</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>全流程面板</b>（游戏进度看板）= 进度管理，给 CEO 看，小公司可以不做</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">三、游戏迭代机制（澄清前提）</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">徐总最初困惑\"服务器随时打包更新不就完了吗\"——混淆了客户端和服务端。更新分三条通道：</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">通道</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">改什么</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生效</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">玩家感知</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">服务端热更</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">数值、配置、活动、公告</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">分钟级</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">无感</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户端资源</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">美术、UI、文案</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">启动下小包</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">加载几秒</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">客户端原生代码</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">玩法、引擎、SDK</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">重装 App + 审核</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">手动更新</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>服务端先行</b>：服务端是权威判定方，且必须兼容旧客户端，所以顺序不能反。AI 分析再快，瓶颈仍在客户端那条线上。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">套回 Tim：\"一直在上线、线上又调整\"= 高频热更；\"略快\"= AI 只加速了\"分析→结论\"这一段。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">四、行业标杆对照（网络搜索，知识库仅参考）</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">徐总当场纠正：腾讯云是云厂商、积墨是 AI 平台商，<b>都不是游戏公司，剔除</b>。真正的游戏公司标杆只剩两家。</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">标杆</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">做法</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">关键数字（口径）</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">三七互娱</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">小七模型＋知七知识＋智七编排＋灵灵七应用四层，全公司共用</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">600+ 智能体（2025 年报）</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Pitch Labs</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">数据 Agent→产品 Agent→工程 Agent，单款游戏每日迭代循环</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">《Matchday》3 天迭代 12 款（厂商自述）</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">三条共识：先跑通一条最短闭环，不贪全链路；闭环必须回流，数据和判断回到生产与知识；底座先攒数据资产，再谈自训模型。</p><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>对 Tim 的判断</b>：走 Pitch Labs 路线（不自研模型，用 MCP 把数据接进 Agent），不要学三七——后者是 159.66 亿营收、6.86 亿研发投入（2025 年报口径）撑起来的。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">五、关键框架：价值三层递进</h2><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\">这是本轮讨论最核心的沉淀，回答\"光做数据分析为什么不够\"。</p><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">层级</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">内容</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">Tim 现状</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">1 数据快照</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">分析结果只呈现当下状态，看不到来龙去脉</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">已有</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">2 过程留痕</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">开会讨论、决策理由进知识库，agent 才懂全局并进化</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">缺失</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">3 工作流沉淀</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">抽象出从 0 到 1 的方法，跨游戏通用可复用</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">缺失</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>两个分离</b>：</p><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>数据 ≠ 知识</b>：数据分析给结果，过程留痕给上下文。没有留痕，agent 只能回答\"现在是什么\"，回答不了\"为什么这样、下次怎么调\"。</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\"><b>工作流 ≠ 判断结论</b>：选哪个角色是因游戏而异的一次性判断，跨类型不可复用；\"从 0 到 1 做出角色\"的流程（立项定义→生成候选→评审留痕→定版→复用规则）跨游戏通用。混为一谈就会误以为\"每个游戏都不同，没法沉淀\"。</li></ul><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>工作流向上延伸</b>：单环节工作流 → 复制到每个环节 → 单游戏进度 → 多游戏统筹 → 双层面板（进度看板给 CEO 认知 + 上线数据报表）。跳过工作流直接做面板，面板是空的。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">六、Agent 两类与自研边界</h2><div style=\"overflow-x:auto;margin:14px 0;\"><table style=\"width:100%;border-collapse:collapse;font-size:12.5px;\"><tbody><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">类型</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">做什么</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">价值</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生成型</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">生图、写代码、出文案</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">单点提效</td></tr><tr><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">工作流型</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">拆步骤、控状态、留痕</td><td style=\"border:1px solid #E3E8F0;padding:6px 10px;color:#47536B;line-height:1.6;\">全面跟踪＋数据汇总</td></tr></tbody></table></div><p style=\"font-size:14.5px;line-height:1.85;color:#47536B;margin-bottom:12px;\"><b>嵌入业务的是工作流型。</b> 门槛高，不可能每个公司自己搭整套平台——大厂自研（三七智七、米哈游 Echo Agent）是为了把判断力沉淀进组织，中小公司该采购或组合现成工具。</p><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">七、已确认事实 / 推断 / 待核验</h2><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">已确认（有来源）</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">风际游戏 08-11 走访记录：生产侧批量生图，一周数千张、极少数可用、需人工修</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">今天微信聊天：数据存本地 AI 直接分析、日报周报定时发、性能问题早解决</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">知识库写\"风际游戏\"、徐总说\"风纪游戏\"，指同一家（徐总已确认）</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">合理推断（非 Tim 明说）</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">Tim 是走访记录里那位\"亲自下场的一号位\"</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">他做的是服务端＋数据分析侧 AI 化，专攻\"快速分析→快速热更\"最短闭环</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">团队规模小、单款游戏，不必自研 Agent 平台</li></ul><h3 style=\"font-size:15px;font-weight:700;margin:20px 0 8px;color:#1E3A5F;\">待核验</h3><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">调数值、定角色的讨论理由有没有留下来给下次用？——答\"没有\"即停在快照层</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">具体哪款游戏、用什么工具链——记录里查不到</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">智七底层编排引擎是否基于开源框架——公开资料未披露</li></ul><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">八、给 Tim 的话（微信口吻备选）</h2><blockquote style=\"background:#EAF1FE;border-left:3px solid #2563EB;border-radius:0 10px 10px 0;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.8;color:#1E3A5F;\">懂了，你是把数据和分析全放服务端，日常调数值配置走热更，秒级生效、不用等停服。选角流程已经跑通，缺的是把\"为什么这么定\"记下来喂 agent；全流程面板你一人盯得过来，暂不用做。</blockquote><h2 style=\"font-size:16px;font-weight:700;margin:22px 0 10px;color:#1E3A5F;\">十、后续整理项</h2><ul style=\"margin:10px 0 14px;padding-left:20px;\"><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[x] 本笔记作为问题专题库问答资产入库</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[ ] 是否需要把\"数据→留痕→工作流→双层面板\"四层框架回流为正式专题页</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[ ] 是否需要进入工作台展示</li><li style=\"font-size:14px;line-height:1.85;color:#47536B;margin-bottom:6px;\">[ ] Tim 回复后补入核验结果</li></ul>",
+   "formalNotes": [
+    "60_问题与洞察/徐总问题专题库/02_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
+    "60_问题与洞察/徐总问题专题库/02_企业AI与商业化/2026-09-08_生产级Agent形态选择与案例演进",
+    "40_专题知识库/AI/01_企业AI与生产级Agent总框架",
+    "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/游戏公司AI组织落地：从流程提效到生产方式重构",
+    "20_工作与项目/DeepSeek Harness项目/游戏角色设计定版智能体-能力包设计草案V1"
+   ],
+   "rawMaterials": [],
+   "distillItems": [],
+   "nextQuestions": [],
+   "links": [
+    "60_问题与洞察/徐总问题专题库/02_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
+    "60_问题与洞察/徐总问题专题库/02_企业AI与商业化/2026-09-08_生产级Agent形态选择与案例演进",
+    "40_专题知识库/AI/01_企业AI与生产级Agent总框架",
+    "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/游戏公司AI组织落地：从流程提效到生产方式重构",
+    "20_工作与项目/DeepSeek Harness项目/游戏角色设计定版智能体-能力包设计草案V1"
+   ],
+   "wordCount": 3022,
+   "linkedNotes": [
+    {
+     "path": "60_问题与洞察/徐总问题专题库/02_企业AI与商业化/2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆.md",
+     "title": "2026-08-11_游戏公司AI落地通用执行框架：从生产侧库到组织记忆",
+     "kind": "note",
+     "wordCount": 7414,
+     "excerpt": "2026-08-11｜游戏公司 AI 落地通用执行框架：从生产侧库到组织记忆上级：60_问题与洞察/徐总问题专题库/00_问题专题库总览关联：40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/游戏公司AI组",
+     "hasBody": true
+    },
+    {
+     "path": "60_问题与洞察/徐总问题专题库/02_企业AI与商业化/2026-09-08_生产级Agent形态选择与案例演进.md",
+     "title": "2026-09-08_生产级Agent形态选择与案例演进",
+     "kind": "note",
+     "wordCount": 9390,
+     "excerpt": "生产级 Agent 形态选择与案例演进上级：60_问题与洞察/徐总问题专题库/00_问题专题库总览、知识库索引关联正式笔记：40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未文化咨询公司 FDE 落地与",
+     "hasBody": true
+    },
+    {
+     "path": "40_专题知识库/AI/01_企业AI与生产级Agent总框架.md",
+     "title": "01_企业AI与生产级Agent总框架",
+     "kind": "note",
+     "wordCount": 9194,
+     "excerpt": "企业 AI 与生产级 Agent 总框架[!important] AI 总专题第一核心框架本页正文是企业 AI 与生产级 Agent 的主判断框架。近期 ChatGPT 对话原文统一保存在 30_资料库/原始资料/已整理",
+     "hasBody": true
+    },
+    {
+     "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/游戏公司AI组织落地：从流程提效到生产方式重构.md",
+     "title": "游戏公司AI组织落地：从流程提效到生产方式重构",
+     "kind": "note",
+     "wordCount": 5945,
+     "excerpt": "游戏公司 AI 组织落地：从流程提效到生产方式重构上级：40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题关联：30_资料库/原始资料/已整理｜2026-08-11｜走访｜游戏公司AI组织落地、40_专",
+     "hasBody": true
+    },
+    {
+     "path": "20_工作与项目/DeepSeek Harness项目/游戏角色设计定版智能体-能力包设计草案V1.md",
+     "title": "游戏角色设计定版智能体-能力包设计草案V1",
+     "kind": "note",
+     "wordCount": 3366,
+     "excerpt": "游戏角色设计定版智能体-能力包设计草案 V1设计方法：按贾维斯模式落地配方（业务拆流程 → 九问定组件 → 打包能力包 → 设人设 → 主控编排 → 壳复用）。参考：搭建记录 §64 消费面、§70 Mode 模板、§2",
+     "hasBody": true
+    }
+   ],
+   "linkedCount": 5
+  },
+  {
    "path": "60_问题与洞察/徐总问题专题库/02_企业AI与商业化/2026-09-08_生产级Agent形态选择与案例演进.md",
    "title": "生产级 Agent 形态选择与案例演进",
    "date": "2026-09-08",
@@ -21565,7 +21640,7 @@ window.OBSIDIAN_DATA = {
      "path": "60_问题与洞察/徐总问题专题库/00_问题专题库总览.md",
      "title": "00_问题专题库总览",
      "kind": "note",
-     "wordCount": 5810,
+     "wordCount": 6050,
      "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
      "hasBody": true
     },
@@ -21847,7 +21922,7 @@ window.OBSIDIAN_DATA = {
      "path": "60_问题与洞察/徐总问题专题库/00_问题专题库总览.md",
      "title": "00_问题专题库总览",
      "kind": "note",
-     "wordCount": 5810,
+     "wordCount": 6050,
      "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
      "hasBody": true
     }
@@ -21895,7 +21970,7 @@ window.OBSIDIAN_DATA = {
      "path": "60_问题与洞察/徐总问题专题库/00_问题专题库总览.md",
      "title": "00_问题专题库总览",
      "kind": "note",
-     "wordCount": 5810,
+     "wordCount": 6050,
      "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
      "hasBody": true
     },
@@ -21988,7 +22063,7 @@ window.OBSIDIAN_DATA = {
      "path": "60_问题与洞察/徐总问题专题库/00_问题专题库总览.md",
      "title": "00_问题专题库总览",
      "kind": "note",
-     "wordCount": 5810,
+     "wordCount": 6050,
      "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
      "hasBody": true
     },
@@ -22090,7 +22165,7 @@ window.OBSIDIAN_DATA = {
      "path": "60_问题与洞察/徐总问题专题库/00_问题专题库总览.md",
      "title": "00_问题专题库总览",
      "kind": "note",
-     "wordCount": 5810,
+     "wordCount": 6050,
      "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
      "hasBody": true
     },
@@ -22239,7 +22314,7 @@ window.OBSIDIAN_DATA = {
      "path": "60_问题与洞察/徐总问题专题库/00_问题专题库总览.md",
      "title": "00_问题专题库总览",
      "kind": "note",
-     "wordCount": 5810,
+     "wordCount": 6050,
      "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
      "hasBody": true
     }
@@ -22479,7 +22554,7 @@ window.OBSIDIAN_DATA = {
      "path": "60_问题与洞察/徐总问题专题库/00_问题专题库总览.md",
      "title": "00_问题专题库总览",
      "kind": "note",
-     "wordCount": 5810,
+     "wordCount": 6050,
      "excerpt": "徐总问题专题库总览上级：徐总的知识库、知识库索引一、定位把徐总每一次的提问，从\"一次性对话\"沉淀为\"可检索的知识资产\"。问题专题库 = 按提问维度组织的问题 + 答案 + 判断框架沉淀不是每次对话原封不动存档是每次提问的",
      "hasBody": true
     },
@@ -22770,7 +22845,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 155,
-  "fetchedAt": "2026年11月24日 11:54"
+  "fetchedAt": "2026年11月24日 13:55"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -22911,6 +22986,15 @@ window.OBSIDIAN_DATA = {
    "topicName": "原始资料 / 养料",
    "wordCount": 2353,
    "desc": "- 来源：抖音视频，账号「小Lin说」；产业揭秘类出镜访谈，含机房/风电场/园区外景实地画面与一位男嘉宾受访片段。"
+  },
+  {
+   "path": "60_问题与洞察/徐总问题专题库/02_企业AI与商业化/2026-11-24_游戏公司AI从节点提效到工作流沉淀.md",
+   "title": "游戏公司AI从节点提效到工作流沉淀",
+   "updated": "2026-11-24",
+   "topic": "question",
+   "topicName": "问题专题库",
+   "wordCount": 3022,
+   "desc": ""
   },
   {
    "path": "30_资料库/原始资料/未整理｜2026-11-20｜极客公园｜腾讯AI投入叙事演进两篇合并（3月19日+11月19日）.md",
