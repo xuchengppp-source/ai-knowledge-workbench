@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-24",
- "generatedTime": "2026-11-24 21:57",
+ "generatedTime": "2026-11-24 22:47",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 20,
- "weeklyChanges": 654,
+ "weeklyPages": 21,
+ "weeklyChanges": 656,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-23｜AI知识增量整理.md",
  "topics": [
@@ -132,7 +132,7 @@ window.OBSIDIAN_DATA = {
    "icon": "🗂",
    "color": "raw",
    "v3group": "raw",
-   "count": 247
+   "count": 248
   }
  ],
  "nodes": [
@@ -6920,7 +6920,7 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
    "updated": "2026-11-24",
-   "updatedTime": "2026-11-24 15:37",
+   "updatedTime": "2026-11-24 22:05",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线",
@@ -6941,6 +6941,8 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/未整理｜2026-11-24｜抖音分享｜三Agent闭环：AI指挥AI干活你当老板（元探长）\\",
     "30_资料库/原始资料/未整理｜2026-11-24｜抖音分享｜三Agent闭环：AI指挥AI干活你当老板（元探长）",
     "30_资料库/原始资料/未整理｜2026-11-24｜证券日报网｜AI-1124-12 曙光云OneBox政企可信桌面智能体",
+    "30_资料库/原始资料/未整理｜2026-11-24｜抖音分享｜把Codex调顺手的4处配置（九目AI）\\",
+    "30_资料库/原始资料/未整理｜2026-11-24｜抖音分享｜把Codex调顺手的4处配置（九目AI）",
     "30_资料库/原始资料/部分回流｜2026-11-15｜用户提供｜企业级Agent与通用Agent分界线：身份授权执行审计恢复控制链与WorkBuddy×ADP权限对照（ChatGPT总结）\\",
     "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业AI平台架构：业务工作台、统一控制面与运行服务\\",
     "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/生产级AI Agent成熟度评估框架：八维五阶评估模型与行业适配\\",
@@ -7387,7 +7389,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/未整理｜2026-11-24｜证券日报网｜AI-1124-12 曙光云OneBox政企可信桌面智能体.md"
    ],
    "desc": "上级：70知识流水线/知识流水线",
-   "wordCount": 58390
+   "wordCount": 58762
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -21245,6 +21247,19 @@ window.OBSIDIAN_DATA = {
    "wordCount": 3840
   },
   {
+   "path": "30_资料库/原始资料/未整理｜2026-11-24｜抖音分享｜把Codex调顺手的4处配置（九目AI）.md",
+   "title": "吐槽 GPT 不好用？把 Codex 调顺手，就改这 4 处（九目AI）",
+   "updated": "2026-11-24",
+   "updatedTime": "2026-11-24 22:11",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "- 来源：抖音视频，账号「九目AI🌈」；AI 工程工具使用教程类，出镜讲解 + 代码/PPT 演示。",
+   "wordCount": 6839
+  },
+  {
    "path": "30_资料库/原始资料/未整理｜2026-11-24｜证券日报网｜AI-1124-12 曙光云OneBox政企可信桌面智能体.md",
    "title": "曙光云发布政企可信桌面级 AI 智能体协作平台 OneBox",
    "updated": "2026-11-24",
@@ -22873,7 +22888,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 155,
-  "fetchedAt": "2026年11月24日 21:57"
+  "fetchedAt": "2026年11月24日 22:47"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -22934,6 +22949,26 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "30_资料库/原始资料/未整理｜2026-11-24｜抖音分享｜把Codex调顺手的4处配置（九目AI）.md",
+   "title": "吐槽 GPT 不好用？把 Codex 调顺手，就改这 4 处（九目AI）",
+   "updated": "2026-11-24",
+   "updatedTime": "2026-11-24 22:11",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 6839,
+   "desc": "- 来源：抖音视频，账号「九目AI🌈」；AI 工程工具使用教程类，出镜讲解 + 代码/PPT 演示。"
+  },
+  {
+   "path": "70_知识流水线/A_原始资料.md",
+   "title": "A_原始资料",
+   "updated": "2026-11-24",
+   "updatedTime": "2026-11-24 22:05",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 58762,
+   "desc": "上级：70知识流水线/知识流水线"
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-11-24.md",
    "title": "每日工作记录 2026-11-24",
    "updated": "2026-11-24",
@@ -22942,16 +22977,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "任务面板与知识库",
    "wordCount": 940,
    "desc": "- 修改既有任务、未新建：id c747aaa6-3a92-4d3d-8fa4-76b04a7bc5b8，原名「AI 未来趋势 Discovery Agent 每日采集（08:30"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-11-24",
-   "updatedTime": "2026-11-24 15:37",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 58390,
-   "desc": "上级：70知识流水线/知识流水线"
   },
   {
    "path": "30_资料库/原始资料/未整理｜2026-11-24｜证券日报网｜AI-1124-12 曙光云OneBox政企可信桌面智能体.md",
