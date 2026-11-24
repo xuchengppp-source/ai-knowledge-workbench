@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-24",
- "generatedTime": "2026-11-24 13:55",
+ "generatedTime": "2026-11-24 17:56",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 18,
- "weeklyChanges": 652,
+ "weeklyPages": 20,
+ "weeklyChanges": 654,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-23｜AI知识增量整理.md",
  "topics": [
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 93
+   "count": 94
   },
   {
    "name": "政府资源配置与政策落地",
@@ -132,7 +132,7 @@ window.OBSIDIAN_DATA = {
    "icon": "🗂",
    "color": "raw",
    "v3group": "raw",
-   "count": 246
+   "count": 247
   }
  ],
  "nodes": [
@@ -6920,7 +6920,7 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
    "updated": "2026-11-24",
-   "updatedTime": "2026-11-24 09:43",
+   "updatedTime": "2026-11-24 15:37",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线",
@@ -6940,6 +6940,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/未整理｜2026-11-24｜抖音分享｜一大批企业软件已无存在意义（易论AI对谈马春荃）",
     "30_资料库/原始资料/未整理｜2026-11-24｜抖音分享｜三Agent闭环：AI指挥AI干活你当老板（元探长）\\",
     "30_资料库/原始资料/未整理｜2026-11-24｜抖音分享｜三Agent闭环：AI指挥AI干活你当老板（元探长）",
+    "30_资料库/原始资料/未整理｜2026-11-24｜证券日报网｜AI-1124-12 曙光云OneBox政企可信桌面智能体",
     "30_资料库/原始资料/部分回流｜2026-11-15｜用户提供｜企业级Agent与通用Agent分界线：身份授权执行审计恢复控制链与WorkBuddy×ADP权限对照（ChatGPT总结）\\",
     "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业AI平台架构：业务工作台、统一控制面与运行服务\\",
     "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/生产级AI Agent成熟度评估框架：八维五阶评估模型与行业适配\\",
@@ -7382,10 +7383,11 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-11-16｜财新周刊｜封面报道·资金涌入算力中心.md",
     "30_资料库/原始资料/已整理｜2026-11-16｜财新网｜特稿·马兴瑞家族腐败案探解：旧改项目背后的政商关系网.md",
     "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？.md",
-    "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台.md"
+    "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台.md",
+    "30_资料库/原始资料/未整理｜2026-11-24｜证券日报网｜AI-1124-12 曙光云OneBox政企可信桌面智能体.md"
    ],
    "desc": "上级：70知识流水线/知识流水线",
-   "wordCount": 58125
+   "wordCount": 58390
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -14516,6 +14518,17 @@ window.OBSIDIAN_DATA = {
    "wordCount": 5905
   },
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-11-24.md",
+   "title": "每日工作记录 2026-11-24",
+   "updated": "2026-11-24",
+   "updatedTime": "2026-11-24 16:57",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 修改既有任务、未新建：id c747aaa6-3a92-4d3d-8fa4-76b04a7bc5b8，原名「AI 未来趋势 Discovery Agent 每日采集（08:30",
+   "wordCount": 940
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录-备份（停更于2026-10-20）/2026-09-08.md",
    "title": "2026-09-08｜多智能体工作记录",
    "updated": "2026-09-10",
@@ -21232,6 +21245,21 @@ window.OBSIDIAN_DATA = {
    "wordCount": 3840
   },
   {
+   "path": "30_资料库/原始资料/未整理｜2026-11-24｜证券日报网｜AI-1124-12 曙光云OneBox政企可信桌面智能体.md",
+   "title": "曙光云发布政企可信桌面级 AI 智能体协作平台 OneBox",
+   "updated": "2026-11-24",
+   "updatedTime": "2026-11-24 15:37",
+   "topic": "raw",
+   "links": [
+    "70_知识流水线/A_原始资料"
+   ],
+   "backlinks": [
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "- 来源：证券日报网",
+   "wordCount": 583
+  },
+  {
    "path": "30_资料库/原始资料/部分回流｜2026-11-15｜用户提供｜企业级Agent与通用Agent分界线：身份授权执行审计恢复控制链与WorkBuddy×ADP权限对照（ChatGPT总结）.md",
    "title": "企业级 Agent 与个人通用 Agent 分界线：身份—授权—执行—审计—恢复控制链与 WorkBuddy×ADP 权限对照（ChatGPT 总结）",
    "updated": "2026-11-18",
@@ -22797,7 +22825,7 @@ window.OBSIDIAN_DATA = {
   "summary": {
    "in_progress": 21,
    "todo": 23,
-   "in_review": 24,
+   "in_review": 22,
    "blocked": 1
   },
   "recent": [
@@ -22837,15 +22865,15 @@ window.OBSIDIAN_DATA = {
     "assignee": "伊森"
    },
    {
-    "id": "KP-172",
-    "title": "交通事故处理知识库：面对交警/面对保险公司/老司机12条原则（三梯次：随记→专题→原则）",
-    "status": "in_review",
+    "id": "KP-80",
+    "title": "己未文化AI落地沟通推进",
+    "status": "in_progress",
     "priority": "high",
-    "assignee": "Ethan"
+    "assignee": "Oliver"
    }
   ],
   "total": 155,
-  "fetchedAt": "2026年11月24日 13:55"
+  "fetchedAt": "2026年11月24日 17:56"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -22888,6 +22916,14 @@ window.OBSIDIAN_DATA = {
  },
  "dailyWorkRecords": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-11-24.md",
+   "title": "每日工作记录 2026-11-24",
+   "updated": "2026-11-24",
+   "updatedTime": "2026-11-24 16:57",
+   "wordCount": 940,
+   "desc": "- 修改既有任务、未新建：id c747aaa6-3a92-4d3d-8fa4-76b04a7bc5b8，原名「AI 未来趋势 Discovery Agent 每日采集（08:30"
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-11-20.md",
    "title": "每日工作记录 2026-11-20",
    "updated": "2026-11-20",
@@ -22898,14 +22934,34 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-11-24.md",
+   "title": "每日工作记录 2026-11-24",
+   "updated": "2026-11-24",
+   "updatedTime": "2026-11-24 16:57",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 940,
+   "desc": "- 修改既有任务、未新建：id c747aaa6-3a92-4d3d-8fa4-76b04a7bc5b8，原名「AI 未来趋势 Discovery Agent 每日采集（08:30"
+  },
+  {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
    "updated": "2026-11-24",
-   "updatedTime": "2026-11-24 09:43",
+   "updatedTime": "2026-11-24 15:37",
    "topic": "pipeline",
    "topicName": "知识流水线",
-   "wordCount": 58125,
+   "wordCount": 58390,
    "desc": "上级：70知识流水线/知识流水线"
+  },
+  {
+   "path": "30_资料库/原始资料/未整理｜2026-11-24｜证券日报网｜AI-1124-12 曙光云OneBox政企可信桌面智能体.md",
+   "title": "曙光云发布政企可信桌面级 AI 智能体协作平台 OneBox",
+   "updated": "2026-11-24",
+   "updatedTime": "2026-11-24 15:37",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 583,
+   "desc": "- 来源：证券日报网"
   },
   {
    "path": "30_资料库/原始资料/未整理｜2026-11-24｜抖音分享｜三Agent闭环：AI指挥AI干活你当老板（元探长）.md",
