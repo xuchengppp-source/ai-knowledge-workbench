@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-24",
- "generatedTime": "2026-11-24 09:54",
+ "generatedTime": "2026-11-24 11:54",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 18,
  "weeklyChanges": 652,
@@ -22720,8 +22720,8 @@ window.OBSIDIAN_DATA = {
  ],
  "tasks": {
   "summary": {
-   "in_progress": 22,
-   "todo": 24,
+   "in_progress": 21,
+   "todo": 23,
    "in_review": 24,
    "blocked": 1
   },
@@ -22741,20 +22741,6 @@ window.OBSIDIAN_DATA = {
     "assignee": "伊森"
    },
    {
-    "id": "KP-189",
-    "title": "己未 ADP 直连：云端 bridge 函数已部署验证，待豆包 HTTP 连接器注册",
-    "status": "todo",
-    "priority": "high",
-    "assignee": "豆包助手"
-   },
-   {
-    "id": "KP-188",
-    "title": "己未 ADP 多表写入恢复与 CONSULT 分支修复",
-    "status": "in_progress",
-    "priority": "high",
-    "assignee": "Codex"
-   },
-   {
     "id": "KP-182",
     "title": "家庭知识电视实时 Session 状态桥接",
     "status": "in_progress",
@@ -22767,10 +22753,24 @@ window.OBSIDIAN_DATA = {
     "status": "todo",
     "priority": "high",
     "assignee": "贾维斯（Grok Bot）"
+   },
+   {
+    "id": "KP-177",
+    "title": "【四方统一主卡】己未 RC16 录入链路生产级验收测试",
+    "status": "in_progress",
+    "priority": "high",
+    "assignee": "伊森"
+   },
+   {
+    "id": "KP-172",
+    "title": "交通事故处理知识库：面对交警/面对保险公司/老司机12条原则（三梯次：随记→专题→原则）",
+    "status": "in_review",
+    "priority": "high",
+    "assignee": "Ethan"
    }
   ],
   "total": 155,
-  "fetchedAt": "2026年11月24日 09:54"
+  "fetchedAt": "2026年11月24日 11:54"
  },
  "knowledgeCardCenter": {
   "cards": [
