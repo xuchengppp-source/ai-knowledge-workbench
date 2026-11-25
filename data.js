@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-25",
- "generatedTime": "2026-11-25 01:57",
+ "generatedTime": "2026-11-25 09:58",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 26,
- "weeklyChanges": 719,
+ "weeklyPages": 27,
+ "weeklyChanges": 725,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-24｜AI知识增量整理.md",
  "topics": [
@@ -132,7 +132,7 @@ window.OBSIDIAN_DATA = {
    "icon": "🗂",
    "color": "raw",
    "v3group": "raw",
-   "count": 254
+   "count": 255
   }
  ],
  "nodes": [
@@ -722,7 +722,8 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/企业AI交互与业务执行架构：从五种交互模式到Business Action Layer.md",
     "40_专题知识库/AI Agent工程知识/AI Agent工程知识V3导航.md",
     "30_资料库/原始资料/已整理｜2026-10-23｜用户提供｜Agent意图识别工程化实现方案：三层分层架构与流量放大效应.md",
-    "30_资料库/原始资料/已整理｜2026-10-24｜用户提供｜企业AI交互与业务执行架构：从五种交互模式到Business Action Layer.md"
+    "30_资料库/原始资料/已整理｜2026-10-24｜用户提供｜企业AI交互与业务执行架构：从五种交互模式到Business Action Layer.md",
+    "30_资料库/原始资料/部分回流｜2026-11-25｜用户提供｜个人Agent形态研究时间线：从小龙虾大厂助手到Harness·Bot·Personal Agent与生产级底座（对话整理稿）.md"
    ],
    "desc": "生产级 Agent 的六个治理模块分别回答：调哪个、怎么调、调得怎样、谁能调、如何持续调好，以及工具调用格式如何稳定表达。",
    "wordCount": 3557
@@ -7019,7 +7020,7 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
    "updated": "2026-11-25",
-   "updatedTime": "2026-11-25 00:33",
+   "updatedTime": "2026-11-25 09:03",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线",
@@ -7050,6 +7051,9 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/未整理｜2026-11-25｜抖音分享｜旅行中Personal Agent实战：出行规划待办与家庭协同（珍妮丁丁说）\\",
     "10_个人生活与个人管理/个人出行/旅游AI辅助通用方法论",
     "30_资料库/原始资料/未整理｜2026-11-25｜抖音分享｜旅行中Personal Agent实战：出行规划待办与家庭协同（珍妮丁丁说）",
+    "30_资料库/原始资料/部分回流｜2026-11-25｜用户提供｜个人Agent形态研究时间线：从小龙虾大厂助手到Harness·Bot·Personal Agent与生产级底座（对话整理稿）\\",
+    "40_专题知识库/AI技术哲学与未来展望/从OpenClaw到Grok Bot：AI Agent产品范式从任务执行到持久化数字工作主体",
+    "30_资料库/原始资料/部分回流｜2026-11-25｜用户提供｜个人Agent形态研究时间线：从小龙虾大厂助手到Harness·Bot·Personal Agent与生产级底座（对话整理稿）",
     "30_资料库/原始资料/部分回流｜2026-11-15｜用户提供｜企业级Agent与通用Agent分界线：身份授权执行审计恢复控制链与WorkBuddy×ADP权限对照（ChatGPT总结）\\",
     "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业AI平台架构：业务工作台、统一控制面与运行服务\\",
     "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/生产级AI Agent成熟度评估框架：八维五阶评估模型与行业适配\\",
@@ -7064,7 +7068,6 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-11-19｜抖音分享｜Agent技术演进综述：从ReAct到Grok Bot创新还是套壳（叫我Ryder就好）\\",
     "40_专题知识库/AI Agent工程知识/01_基础概念与术语/AI Agent发展路径：从会说到会做再到能操作业务",
     "40_专题知识库/AI产业链与数字基础设施/AI时代演进史与数字基础设施总纲",
-    "40_专题知识库/AI技术哲学与未来展望/从OpenClaw到Grok Bot：AI Agent产品范式从任务执行到持久化数字工作主体",
     "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建，MOVO社区版｜开箱即用、私有化企业Agent平台\\",
     "40_专题知识库/AI Agent工程知识/08_项目运行记录/基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理",
     "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？\\",
@@ -7501,7 +7504,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/未整理｜2026-11-24｜通信产业报｜AI-1124-16｜联通桐昆FDE落地9个智能体.md"
    ],
    "desc": "上级：70知识流水线/知识流水线",
-   "wordCount": 61066
+   "wordCount": 61729
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -21308,7 +21311,8 @@ window.OBSIDIAN_DATA = {
    "topic": "raw",
    "links": [],
    "backlinks": [
-    "70_知识流水线/A_原始资料.md"
+    "70_知识流水线/A_原始资料.md",
+    "30_资料库/原始资料/部分回流｜2026-11-25｜用户提供｜个人Agent形态研究时间线：从小龙虾大厂助手到Harness·Bot·Personal Agent与生产级底座（对话整理稿）.md"
    ],
    "desc": "- 公众号：极客公园｜作者：连冉｜编辑：郑玄",
    "wordCount": 5141
@@ -21539,6 +21543,24 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "- 来源：用户与 ChatGPT 的讨论整理稿，2026-11-17 贴入知识库。",
    "wordCount": 5933
+  },
+  {
+   "path": "30_资料库/原始资料/部分回流｜2026-11-25｜用户提供｜个人Agent形态研究时间线：从小龙虾大厂助手到Harness·Bot·Personal Agent与生产级底座（对话整理稿）.md",
+   "title": "个人 Agent 形态研究时间线：从小龙虾与大厂助手，到 Harness、Bot、Personal Agent 与生产级底座（对话整理稿）",
+   "updated": "2026-11-25",
+   "updatedTime": "2026-11-25 09:03",
+   "topic": "raw",
+   "links": [
+    "40_专题知识库/AI技术哲学与未来展望/从OpenClaw到Grok Bot：AI Agent产品范式从任务执行到持久化数字工作主体",
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/生产级Agent六大治理模块与工程骨架",
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/生产级AI Agent工程纪律稳定层方法论：埋点·日志·BadCase管理·回归测试（不随模型过时的底座）",
+    "30_资料库/原始资料/未整理｜2026-11-20｜极客公园｜腾讯AI投入叙事演进两篇合并（3月19日+11月19日）"
+   ],
+   "backlinks": [
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "- 来源：用户 2026-11-25 口述的个人研究复盘，由豆包整理成结构化记录；非公开文章逐字稿，属对话总结（summaryonly）。",
+   "wordCount": 5295
   }
  ],
  "today": {
@@ -23107,7 +23129,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 155,
-  "fetchedAt": "2026年11月25日 01:57"
+  "fetchedAt": "2026年11月25日 09:58"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -23171,11 +23193,21 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
    "updated": "2026-11-25",
-   "updatedTime": "2026-11-25 00:33",
+   "updatedTime": "2026-11-25 09:03",
    "topic": "pipeline",
    "topicName": "知识流水线",
-   "wordCount": 61066,
+   "wordCount": 61729,
    "desc": "上级：70知识流水线/知识流水线"
+  },
+  {
+   "path": "30_资料库/原始资料/部分回流｜2026-11-25｜用户提供｜个人Agent形态研究时间线：从小龙虾大厂助手到Harness·Bot·Personal Agent与生产级底座（对话整理稿）.md",
+   "title": "个人 Agent 形态研究时间线：从小龙虾与大厂助手，到 Harness、Bot、Personal Agent 与生产级底座（对话整理稿）",
+   "updated": "2026-11-25",
+   "updatedTime": "2026-11-25 09:03",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 5295,
+   "desc": "- 来源：用户 2026-11-25 口述的个人研究复盘，由豆包整理成结构化记录；非公开文章逐字稿，属对话总结（summaryonly）。"
   },
   {
    "path": "30_资料库/原始资料/未整理｜2026-11-25｜抖音分享｜旅行中Personal Agent实战：出行规划待办与家庭协同（珍妮丁丁说）.md",
