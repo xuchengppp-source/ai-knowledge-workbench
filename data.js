@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
- "generatedAt": "2026-11-25",
- "generatedTime": "2026-11-25 23:21",
+ "generatedAt": "2026-11-26",
+ "generatedTime": "2026-11-26 00:00",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 38,
- "weeklyChanges": 753,
+ "weeklyPages": 28,
+ "weeklyChanges": 602,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-25｜AI知识增量整理.md",
  "topics": [
@@ -132,7 +132,7 @@ window.OBSIDIAN_DATA = {
    "icon": "🗂",
    "color": "raw",
    "v3group": "raw",
-   "count": 261
+   "count": 263
   }
  ],
  "nodes": [
@@ -7022,7 +7022,7 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
    "updated": "2026-11-25",
-   "updatedTime": "2026-11-25 14:30",
+   "updatedTime": "2026-11-25 23:27",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线",
@@ -7384,6 +7384,8 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/生物医疗与生物医药/IMA原始资料/09_创新药和科研医药消费品",
     "40_专题知识库/生物医疗与生物医药/IMA原始资料/10_生物医疗产业布局",
     "正式页",
+    "30_资料库/原始资料/未整理｜2026-11-25｜腾讯科技｜沈向洋Agent安全架构与商业模式预判",
+    "30_资料库/原始资料/未整理｜2026-11-25｜虎嗅APP｜AgenticInfra把Agent闯祸归因基础设施预判",
     "徐总的知识库"
    ],
    "backlinks": [
@@ -7518,7 +7520,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/未整理｜2026-11-25｜至顶网｜AI-1125-03｜联想敦煌城市超级智能体.md"
    ],
    "desc": "上级：70知识流水线/知识流水线",
-   "wordCount": 63836
+   "wordCount": 64624
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -14685,12 +14687,12 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-11-25.md",
    "title": "每日工作记录 2026-11-25",
    "updated": "2026-11-25",
-   "updatedTime": "2026-11-25 23:09",
+   "updatedTime": "2026-11-25 23:28",
    "topic": "taskboard",
    "links": [],
    "backlinks": [],
    "desc": "- 问题：右下角「知识积累与关联」只画专题间双链拓扑，看不出知识在长什么、今天候选和已有知识什么关系；徐总 11-25 指出\"没有任何意义\"并同意改。",
-   "wordCount": 2672
+   "wordCount": 3249
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录-备份（停更于2026-10-20）/2026-09-08.md",
@@ -21617,6 +21619,19 @@ window.OBSIDIAN_DATA = {
    "wordCount": 2198
   },
   {
+   "path": "30_资料库/原始资料/未整理｜2026-11-25｜腾讯科技｜沈向洋Agent安全架构与商业模式预判.md",
+   "title": "沈向洋把 Agent 安全落到硬件与权限：Harness 决定执行边界，沙箱让权限弹窗减少 84%，NIST 把智能体身份授权列入议程",
+   "updated": "2026-11-25",
+   "updatedTime": "2026-11-25 23:27",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "来源：腾讯科技（微信公众号）｜2026-11-25｜沈向洋第六届 IDEA 大会演讲实录",
+   "wordCount": 1158
+  },
+  {
    "path": "30_资料库/原始资料/未整理｜2026-11-25｜至顶网｜AI-1125-03｜联想敦煌城市超级智能体.md",
    "title": "敦煌样板：联想如何用超级智能体盘活一座城",
    "updated": "2026-11-25",
@@ -21630,6 +21645,19 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "来源：至顶网｜毛烁｜2026-11-23｜阅读约 14 分钟",
    "wordCount": 2640
+  },
+  {
+   "path": "30_资料库/原始资料/未整理｜2026-11-25｜虎嗅APP｜AgenticInfra把Agent闯祸归因基础设施预判.md",
+   "title": "虎嗅把 Agent 闯祸归因到基础设施：Agentic Infra 用强隔离沙箱＋权限下沉＋KVCache 复用，把安全／效率／性价比做成底座能力",
+   "updated": "2026-11-25",
+   "updatedTime": "2026-11-25 23:27",
+   "topic": "raw",
+   "links": [],
+   "backlinks": [
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "来源：虎嗅APP（微信公众号）｜2026-11-25｜原创",
+   "wordCount": 1082
   },
   {
    "path": "30_资料库/原始资料/部分回流｜2026-11-15｜用户提供｜企业级Agent与通用Agent分界线：身份授权执行审计恢复控制链与WorkBuddy×ADP权限对照（ChatGPT总结）.md",
@@ -21799,7 +21827,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "安全、权限与治理",
-   "matched": 39,
+   "matched": 41,
    "status": "已形成"
   },
   {
@@ -23259,7 +23287,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 157,
-  "fetchedAt": "2026年11月25日 23:21"
+  "fetchedAt": "2026年11月26日 00:00"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -23305,8 +23333,8 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-11-25.md",
    "title": "每日工作记录 2026-11-25",
    "updated": "2026-11-25",
-   "updatedTime": "2026-11-25 23:09",
-   "wordCount": 2672,
+   "updatedTime": "2026-11-25 23:28",
+   "wordCount": 3249,
    "desc": "- 问题：右下角「知识积累与关联」只画专题间双链拓扑，看不出知识在长什么、今天候选和已有知识什么关系；徐总 11-25 指出\"没有任何意义\"并同意改。"
   },
   {
@@ -23331,11 +23359,41 @@ window.OBSIDIAN_DATA = {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-11-25.md",
    "title": "每日工作记录 2026-11-25",
    "updated": "2026-11-25",
-   "updatedTime": "2026-11-25 23:09",
+   "updatedTime": "2026-11-25 23:28",
    "topic": "taskboard",
    "topicName": "任务面板与知识库",
-   "wordCount": 2672,
+   "wordCount": 3249,
    "desc": "- 问题：右下角「知识积累与关联」只画专题间双链拓扑，看不出知识在长什么、今天候选和已有知识什么关系；徐总 11-25 指出\"没有任何意义\"并同意改。"
+  },
+  {
+   "path": "70_知识流水线/A_原始资料.md",
+   "title": "A_原始资料",
+   "updated": "2026-11-25",
+   "updatedTime": "2026-11-25 23:27",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 64624,
+   "desc": "上级：70知识流水线/知识流水线"
+  },
+  {
+   "path": "30_资料库/原始资料/未整理｜2026-11-25｜腾讯科技｜沈向洋Agent安全架构与商业模式预判.md",
+   "title": "沈向洋把 Agent 安全落到硬件与权限：Harness 决定执行边界，沙箱让权限弹窗减少 84%，NIST 把智能体身份授权列入议程",
+   "updated": "2026-11-25",
+   "updatedTime": "2026-11-25 23:27",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1158,
+   "desc": "来源：腾讯科技（微信公众号）｜2026-11-25｜沈向洋第六届 IDEA 大会演讲实录"
+  },
+  {
+   "path": "30_资料库/原始资料/未整理｜2026-11-25｜虎嗅APP｜AgenticInfra把Agent闯祸归因基础设施预判.md",
+   "title": "虎嗅把 Agent 闯祸归因到基础设施：Agentic Infra 用强隔离沙箱＋权限下沉＋KVCache 复用，把安全／效率／性价比做成底座能力",
+   "updated": "2026-11-25",
+   "updatedTime": "2026-11-25 23:27",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 1082,
+   "desc": "来源：虎嗅APP（微信公众号）｜2026-11-25｜原创"
   },
   {
    "path": "70_知识流水线/每日学习整理/2026-11-25｜AI知识增量整理.md",
@@ -23356,16 +23414,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "Codex 工作区",
    "wordCount": 30180,
    "desc": "电视从“项目和 Session 状态大屏”转为“主动 AI 洞察简报”。项目进度和 Agent 活跃度降为辅助背景；主视区由专门的 AI 洞察编辑给出每日趋势研判，让徐总看到 AI"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-11-25",
-   "updatedTime": "2026-11-25 14:30",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 63836,
-   "desc": "上级：70知识流水线/知识流水线"
   },
   {
    "path": "30_资料库/原始资料/部分回流｜2026-11-25｜用户提供｜个人Agent形态研究时间线：从小龙虾大厂助手到Harness·Bot·Personal Agent与生产级底座（对话整理稿）.md",
@@ -23586,135 +23634,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 4322,
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题"
-  },
-  {
-   "path": "70_知识流水线/知识库健康巡检.md",
-   "title": "知识库健康巡检",
-   "updated": "2026-11-24",
-   "updatedTime": "2026-11-24 23:40",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 56649,
-   "desc": "- 将徐总对抖音视频的口述转述，作为“合格输出再次进入知识评估”的候选思路，补入 70知识流水线/Obsidian知识底座治理与知识自主生长方案。未提供原视频链接或逐字稿，因此只记"
-  },
-  {
-   "path": "70_知识流水线/AI知识自动化整理入口.md",
-   "title": "AI知识自动化整理入口",
-   "updated": "2026-11-24",
-   "updatedTime": "2026-11-24 23:37",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 2918,
-   "desc": "上级：70知识流水线/知识流水线"
-  },
-  {
-   "path": "70_知识流水线/Obsidian知识底座治理与知识自主生长方案.md",
-   "title": "Obsidian知识底座治理与知识自主生长方案",
-   "updated": "2026-11-24",
-   "updatedTime": "2026-11-24 23:36",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 6564,
-   "desc": "上级：70知识流水线/知识流水线、徐总的知识库"
-  },
-  {
-   "path": "70_知识流水线/每日学习整理/2026-11-24｜AI知识增量整理.md",
-   "title": "2026-11-24｜AI知识增量整理",
-   "updated": "2026-11-24",
-   "updatedTime": "2026-11-24 23:03",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 4257,
-   "desc": "- 日期：2026-11-24（周二）"
-  },
-  {
-   "path": "30_资料库/原始资料/未整理｜2026-11-24｜抖音分享｜把Codex调顺手的4处配置（九目AI）.md",
-   "title": "吐槽 GPT 不好用？把 Codex 调顺手，就改这 4 处（九目AI）",
-   "updated": "2026-11-24",
-   "updatedTime": "2026-11-24 22:11",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 6839,
-   "desc": "- 来源：抖音视频，账号「九目AI🌈」；AI 工程工具使用教程类，出镜讲解 + 代码/PPT 演示。"
-  },
-  {
-   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-11-24.md",
-   "title": "每日工作记录 2026-11-24",
-   "updated": "2026-11-24",
-   "updatedTime": "2026-11-24 16:57",
-   "topic": "taskboard",
-   "topicName": "任务面板与知识库",
-   "wordCount": 940,
-   "desc": "- 修改既有任务、未新建：id c747aaa6-3a92-4d3d-8fa4-76b04a7bc5b8，原名「AI 未来趋势 Discovery Agent 每日采集（08:30"
-  },
-  {
-   "path": "30_资料库/原始资料/未整理｜2026-11-24｜抖音分享｜三Agent闭环：AI指挥AI干活你当老板（元探长）.md",
-   "title": "让AI指挥AI干活，你负责当老板：三Agent闭环（Codex规划终审 × WorkBuddy执行 × Muse监工，元探长）",
-   "updated": "2026-11-24",
-   "updatedTime": "2026-11-24 09:43",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 3840,
-   "desc": "- 来源：抖音视频，账号「元探长」；出镜讲解 + PPT 演示的 AI 工具教程类视频。"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/企业级MaaS架构与落地路径：从六个案例看AI控制面的具象化.md",
-   "title": "企业级 MaaS 架构与落地路径",
-   "updated": "2026-11-24",
-   "updatedTime": "2026-11-24 09:18",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 13040,
-   "desc": ""
-  },
-  {
-   "path": "30_资料库/原始资料/未整理｜2026-11-24｜抖音分享｜一大批企业软件已无存在意义（易论AI对谈马春荃）.md",
-   "title": "一大批企业软件已无存在意义：SaaS 厂商视角下 AI 手搓软件替代企业软件（易论AI对谈·马春荃）",
-   "updated": "2026-11-24",
-   "updatedTime": "2026-11-24 09:14",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2088,
-   "desc": "- 来源：抖音视频，账号「易论AI」；演播室三人对谈切片（主持人亚婷，嘉宾许丹青、马春荃）。"
-  },
-  {
-   "path": "40_专题知识库/企业AI与智能体商业化/01_FDE与企业AI交付方法/垂直深耕与交付壁垒：个人小团队FDE与小型软件公司的可行出路.md",
-   "title": "垂直深耕与交付壁垒：个人/小团队FDE与小型软件公司的可行出路",
-   "updated": "2026-11-24",
-   "updatedTime": "2026-11-24 00:30",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 7222,
-   "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题"
-  },
-  {
-   "path": "30_资料库/原始资料/未整理｜2026-11-20｜抖音分享｜2027年AI应用将爆发：AI应用是不是一门好生意（易论AI对谈许丹青×马春荃）.md",
-   "title": "2027年AI应用将爆发：AI应用到底是不是一门好生意（易论AI对谈 许丹青 × 马春荃）",
-   "updated": "2026-11-24",
-   "updatedTime": "2026-11-24 00:03",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2348,
-   "desc": "- 来源：抖音视频，账号「易论AI」；双人对谈 + 主持人形式，完整播客访谈切片。"
-  },
-  {
-   "path": "30_资料库/原始资料/未整理｜2026-11-23｜抖音分享｜小县城靠AI拿到大结果凭什么：乌兰察布算力与绿电产业揭秘（小Lin说）.md",
-   "title": "小县城靠 AI 拿到大结果，它凭什么：乌兰察布算力与绿电产业揭秘（小Lin说）",
-   "updated": "2026-11-24",
-   "updatedTime": "2026-11-24 00:03",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 2353,
-   "desc": "- 来源：抖音视频，账号「小Lin说」；产业揭秘类出镜访谈，含机房/风电场/园区外景实地画面与一位男嘉宾受访片段。"
-  },
-  {
-   "path": "60_问题与洞察/徐总问题专题库/02_企业AI与商业化/2026-11-24_游戏公司AI从节点提效到工作流沉淀.md",
-   "title": "游戏公司AI从节点提效到工作流沉淀",
-   "updated": "2026-11-24",
-   "topic": "question",
-   "topicName": "问题专题库",
-   "wordCount": 3022,
-   "desc": ""
   }
  ]
 };
