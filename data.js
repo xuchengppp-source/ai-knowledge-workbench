@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-26",
- "generatedTime": "2026-11-26 04:01",
+ "generatedTime": "2026-11-26 06:01",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 43,
  "weeklyChanges": 647,
@@ -6899,7 +6899,7 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/00_采集与发现.md",
    "title": "采集与发现",
    "updated": "2026-11-26",
-   "updatedTime": "2026-11-26 02:46",
+   "updatedTime": "2026-11-26 05:00",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线V3导航",
@@ -6923,7 +6923,7 @@ window.OBSIDIAN_DATA = {
     "70_知识流水线/A_原始资料.md"
    ],
    "desc": "上级：70知识流水线/知识流水线V3导航、00入口与导航/知识库V3逻辑导航",
-   "wordCount": 3526
+   "wordCount": 3584
   },
   {
    "path": "70_知识流水线/AI原生组织与多Agent工作空间增量整理（2026-08-28）.md",
@@ -23551,7 +23551,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 157,
-  "fetchedAt": "2026年11月26日 04:01"
+  "fetchedAt": "2026年11月26日 06:01"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -23631,10 +23631,10 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/00_采集与发现.md",
    "title": "采集与发现",
    "updated": "2026-11-26",
-   "updatedTime": "2026-11-26 02:46",
+   "updatedTime": "2026-11-26 05:00",
    "topic": "pipeline",
    "topicName": "知识流水线",
-   "wordCount": 3526,
+   "wordCount": 3584,
    "desc": "上级：70知识流水线/知识流水线V3导航、00入口与导航/知识库V3逻辑导航"
   },
   {
