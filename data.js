@@ -1,8 +1,8 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-25",
- "generatedTime": "2026-11-25 14:00",
+ "generatedTime": "2026-11-25 15:16",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 35,
+ "weeklyPages": 37,
  "weeklyChanges": 753,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-24｜AI知识增量整理.md",
@@ -61,7 +61,7 @@ window.OBSIDIAN_DATA = {
    "key": "taskboard",
    "icon": "🧭",
    "v3group": "system",
-   "count": 94
+   "count": 95
   },
   {
    "name": "政府资源配置与政策落地",
@@ -7022,7 +7022,7 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
    "updated": "2026-11-25",
-   "updatedTime": "2026-11-25 10:12",
+   "updatedTime": "2026-11-25 14:30",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线",
@@ -7518,7 +7518,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/未整理｜2026-11-25｜至顶网｜AI-1125-03｜联想敦煌城市超级智能体.md"
    ],
    "desc": "上级：70知识流水线/知识流水线",
-   "wordCount": 63830
+   "wordCount": 63836
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -11970,8 +11970,8 @@ window.OBSIDIAN_DATA = {
   {
    "path": "90_系统与协作/Codex工作区/家庭知识电视AI洞察工作台搭建记录.md",
    "title": "家庭知识电视 AI 洞察工作台搭建记录",
-   "updated": "2026-11-23",
-   "updatedTime": "2026-11-23 21:59",
+   "updated": "2026-11-25",
+   "updatedTime": "2026-11-25 14:30",
    "topic": "codex",
    "links": [],
    "backlinks": [
@@ -11980,7 +11980,7 @@ window.OBSIDIAN_DATA = {
     "90_系统与协作/Codex工作区/项目索引.md"
    ],
    "desc": "电视从“项目和 Session 状态大屏”转为“主动 AI 洞察简报”。项目进度和 Agent 活跃度降为辅助背景；主视区由专门的 AI 洞察编辑给出每日趋势研判，让徐总看到 AI",
-   "wordCount": 26945
+   "wordCount": 29357
   },
   {
    "path": "90_系统与协作/Codex工作区/当前状态.md",
@@ -14669,6 +14669,17 @@ window.OBSIDIAN_DATA = {
    "backlinks": [],
    "desc": "- 修改既有任务、未新建：id c747aaa6-3a92-4d3d-8fa4-76b04a7bc5b8，原名「AI 未来趋势 Discovery Agent 每日采集（08:30",
    "wordCount": 940
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-11-25.md",
+   "title": "每日工作记录 2026-11-25",
+   "updated": "2026-11-25",
+   "updatedTime": "2026-11-25 14:30",
+   "topic": "taskboard",
+   "links": [],
+   "backlinks": [],
+   "desc": "- 问题：右下角「知识积累与关联」只画专题间双链拓扑，看不出知识在长什么、今天候选和已有知识什么关系；徐总 11-25 指出\"没有任何意义\"并同意改。",
+   "wordCount": 686
   },
   {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录-备份（停更于2026-10-20）/2026-09-08.md",
@@ -21652,7 +21663,7 @@ window.OBSIDIAN_DATA = {
    "path": "30_资料库/原始资料/部分回流｜2026-11-25｜用户提供｜个人Agent形态研究时间线：从小龙虾大厂助手到Harness·Bot·Personal Agent与生产级底座（对话整理稿）.md",
    "title": "个人 Agent 形态研究时间线：从小龙虾与大厂助手，到 Harness、Bot、Personal Agent 与生产级底座（对话整理稿）",
    "updated": "2026-11-25",
-   "updatedTime": "2026-11-25 09:03",
+   "updatedTime": "2026-11-25 14:29",
    "topic": "raw",
    "links": [
     "40_专题知识库/AI技术哲学与未来展望/从OpenClaw到Grok Bot：AI Agent产品范式从任务执行到持久化数字工作主体",
@@ -21664,7 +21675,7 @@ window.OBSIDIAN_DATA = {
     "70_知识流水线/A_原始资料.md"
    ],
    "desc": "- 来源：用户 2026-11-25 口述的个人研究复盘，由豆包整理成结构化记录；非公开文章逐字稿，属对话总结（summaryonly）。",
-   "wordCount": 5295
+   "wordCount": 5512
   }
  ],
  "today": {
@@ -23233,7 +23244,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 156,
-  "fetchedAt": "2026年11月25日 14:00"
+  "fetchedAt": "2026年11月25日 15:16"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -23276,6 +23287,14 @@ window.OBSIDIAN_DATA = {
  },
  "dailyWorkRecords": [
   {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-11-25.md",
+   "title": "每日工作记录 2026-11-25",
+   "updated": "2026-11-25",
+   "updatedTime": "2026-11-25 14:30",
+   "wordCount": 686,
+   "desc": "- 问题：右下角「知识积累与关联」只画专题间双链拓扑，看不出知识在长什么、今天候选和已有知识什么关系；徐总 11-25 指出\"没有任何意义\"并同意改。"
+  },
+  {
    "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-11-24.md",
    "title": "每日工作记录 2026-11-24",
    "updated": "2026-11-24",
@@ -23293,6 +23312,46 @@ window.OBSIDIAN_DATA = {
   }
  ],
  "recentUpdates": [
+  {
+   "path": "70_知识流水线/A_原始资料.md",
+   "title": "A_原始资料",
+   "updated": "2026-11-25",
+   "updatedTime": "2026-11-25 14:30",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 63836,
+   "desc": "上级：70知识流水线/知识流水线"
+  },
+  {
+   "path": "90_系统与协作/Codex工作区/家庭知识电视AI洞察工作台搭建记录.md",
+   "title": "家庭知识电视 AI 洞察工作台搭建记录",
+   "updated": "2026-11-25",
+   "updatedTime": "2026-11-25 14:30",
+   "topic": "codex",
+   "topicName": "Codex 工作区",
+   "wordCount": 29357,
+   "desc": "电视从“项目和 Session 状态大屏”转为“主动 AI 洞察简报”。项目进度和 Agent 活跃度降为辅助背景；主视区由专门的 AI 洞察编辑给出每日趋势研判，让徐总看到 AI"
+  },
+  {
+   "path": "90_系统与协作/任务面板与知识库/每日工作记录/2026-11-25.md",
+   "title": "每日工作记录 2026-11-25",
+   "updated": "2026-11-25",
+   "updatedTime": "2026-11-25 14:30",
+   "topic": "taskboard",
+   "topicName": "任务面板与知识库",
+   "wordCount": 686,
+   "desc": "- 问题：右下角「知识积累与关联」只画专题间双链拓扑，看不出知识在长什么、今天候选和已有知识什么关系；徐总 11-25 指出\"没有任何意义\"并同意改。"
+  },
+  {
+   "path": "30_资料库/原始资料/部分回流｜2026-11-25｜用户提供｜个人Agent形态研究时间线：从小龙虾大厂助手到Harness·Bot·Personal Agent与生产级底座（对话整理稿）.md",
+   "title": "个人 Agent 形态研究时间线：从小龙虾与大厂助手，到 Harness、Bot、Personal Agent 与生产级底座（对话整理稿）",
+   "updated": "2026-11-25",
+   "updatedTime": "2026-11-25 14:29",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 5512,
+   "desc": "- 来源：用户 2026-11-25 口述的个人研究复盘，由豆包整理成结构化记录；非公开文章逐字稿，属对话总结（summaryonly）。"
+  },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
@@ -23322,16 +23381,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 28541,
    "desc": "己未目前是内部实践与局部机制验证，不是已交付企业生产系统。现有框架、技能和虚构场景测试只能说明对应机制，不证明真实业务准确性、权限隔离、服务等级或通用行业能力。"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-11-25",
-   "updatedTime": "2026-11-25 10:12",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 63830,
-   "desc": "上级：70知识流水线/知识流水线"
   },
   {
    "path": "30_资料库/原始资料/未整理｜2026-11-25｜亿欧网｜AI-1125-04｜FDE标准化菜单与真假判据.md",
@@ -23392,16 +23441,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "原始资料 / 养料",
    "wordCount": 2640,
    "desc": "来源：至顶网｜毛烁｜2026-11-23｜阅读约 14 分钟"
-  },
-  {
-   "path": "30_资料库/原始资料/部分回流｜2026-11-25｜用户提供｜个人Agent形态研究时间线：从小龙虾大厂助手到Harness·Bot·Personal Agent与生产级底座（对话整理稿）.md",
-   "title": "个人 Agent 形态研究时间线：从小龙虾与大厂助手，到 Harness、Bot、Personal Agent 与生产级底座（对话整理稿）",
-   "updated": "2026-11-25",
-   "updatedTime": "2026-11-25 09:03",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 5295,
-   "desc": "- 来源：用户 2026-11-25 口述的个人研究复盘，由豆包整理成结构化记录；非公开文章逐字稿，属对话总结（summaryonly）。"
   },
   {
    "path": "30_资料库/原始资料/未整理｜2026-11-25｜抖音分享｜旅行中Personal Agent实战：出行规划待办与家庭协同（珍妮丁丁说）.md",
