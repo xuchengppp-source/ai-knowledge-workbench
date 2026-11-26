@@ -35,9 +35,23 @@ else
     log "上一次部署指纹: 无（首次运行）"
 fi
 
+# 采集发现数据：独立于知识库指纹，每次都重算，保证「采集发现」页跟随每 2 小时采集轮次
+log "重建采集发现数据（build-collected.js）..."
+cd "$PROJECT_DIR"
+$NODE_BIN build-collected.js >> "$LOG_FILE" 2>&1 && log "✅ 采集数据已重建" || log "⚠️ 采集数据重建失败，沿用上一版"
+
 # 对比指纹
 if [ "$CURRENT_FP" = "$LAST_FP" ]; then
-    log "知识库无变化，跳过部署"
+    # 知识库没变化，但采集数据可能有更新，仍需提交 collected.js
+    git add -- collected.js >> "$LOG_FILE" 2>&1
+    if git diff --cached --quiet; then
+        log "知识库与采集数据均无变化，跳过部署"
+        log "========== 自动部署检测结束 =========="
+        exit 0
+    fi
+    git commit -m "自动部署：采集发现数据 $(date '+%Y-%m-%d %H:%M')" >> "$LOG_FILE" 2>&1
+    git push origin main >> "$LOG_FILE" 2>&1
+    log "✅ 采集数据已部署"
     log "========== 自动部署检测结束 =========="
     exit 0
 fi
@@ -57,7 +71,7 @@ if ! git diff --cached --quiet; then
     log "检测到预先暂存的变更，停止自动发布以避免合并无关提交"
     exit 1
 fi
-git add -- index.html mobile.html my-insights.html knowledge-discovery.html data.js docs.js docs-*.js >> "$LOG_FILE" 2>&1
+git add -- index.html mobile.html my-insights.html knowledge-discovery.html data.js docs.js docs-*.js collected.js >> "$LOG_FILE" 2>&1
 if git diff --cached --quiet; then
     log "没有生成文件变化，跳过 commit/push"
     echo "$CURRENT_FP" > "$FP_FILE"
