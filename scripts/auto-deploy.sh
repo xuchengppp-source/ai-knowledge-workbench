@@ -71,7 +71,7 @@ if ! git diff --cached --quiet; then
     log "检测到预先暂存的变更，停止自动发布以避免合并无关提交"
     exit 1
 fi
-git add -- index.html mobile.html my-insights.html knowledge-discovery.html data.js docs.js docs-*.js collected.js >> "$LOG_FILE" 2>&1
+git add -- index.html mobile.html my-insights.html knowledge-discovery.html data.js docs.js docs-*.js collected.js build-collected.js collected-id-map.json >> "$LOG_FILE" 2>&1
 if git diff --cached --quiet; then
     log "没有生成文件变化，跳过 commit/push"
     echo "$CURRENT_FP" > "$FP_FILE"
