@@ -63,7 +63,7 @@ const removed = readJSON(path.join(DATA_DIR, 'feed-removed-archived.json')) || {
 const feedByUrl = {};
 const feedByTitle = {};
 for (const item of feed.items || []) {
-  const src = (item.sources || [])[0] || {};
+  const sources = item.sources || [];
   const rec = {
     displayId: item.displayId,
     priority: item.priority,
@@ -71,7 +71,9 @@ for (const item of feed.items || []) {
     why: item.whyItMatters || '',
     archived: archived.has(item.displayId),
   };
-  if (src.url) feedByUrl[normUrl(src.url)] = rec;
+  for (const src of sources) {
+    if (src.url) feedByUrl[normUrl(src.url)] = rec;
+  }
   if (item.title) feedByTitle[normTitle(item.title)] = rec;
 }
 // 已录入原始资料并从 Feed 移出的卡片，仍要标出「已入库」，避免看漏或重复挑
@@ -220,8 +222,8 @@ const stat = {
   // 公众号全量：梳理出来就算数，不看历史判定（徐总 2026-11-26 口径）
   wechatAll: items.filter(x => x.tier === 'wechat' && !x.placeholder).length,
   wechatImportant: items.filter(x => x.tier === 'wechat' && x.rank <= 5).length,
-  // 待 Codex 评：公众号来源里还没上屏、也没入库的
-  wechatPendingReview: items.filter(x => x.tier === 'wechat' && !x.placeholder && !x.displayId && !x.archived).length,
+  // Pending Codex review: WeChat items not on Feed, not archived, and not yet decided.
+  wechatPendingReview: items.filter(x => x.tier === 'wechat' && !x.placeholder && !x.displayId && !x.archived && !x.codexDecision).length,
   sogou: items.filter(x => x.tier === 'sogou').length,
   web: items.filter(x => x.tier === 'web').length,
   webImportant: items.filter(x => x.tier === 'web' && x.rank <= 5).length,
