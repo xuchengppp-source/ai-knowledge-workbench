@@ -25,6 +25,25 @@ function readJSON(p) {
   try { return JSON.parse(fs.readFileSync(p, 'utf-8')); } catch (e) { return null; }
 }
 
+// 去重键归一化：同一链接只算一条（历史上有全半角冒号/标题微差导致同文重复入库）
+function normUrl(u) {
+  const s = String(u || '').trim();
+  if (!s) return '';
+  try {
+    const x = new URL(s);
+    x.hash = '';
+    ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'spm', 'from', 'from_source', 'share_token', 'shareId'].forEach(k => x.searchParams.delete(k));
+    const host = x.hostname.replace(/^www\./, '');
+    const p = x.pathname.replace(/\/+$/, '');
+    return host + p + (x.search || '');
+  } catch (e) { return s.replace(/\/+$/, ''); }
+}
+function normTitle(t) {
+  return String(t || '').toLowerCase()
+    .replace(/[：:，,。.、；;！!？?“”"'‘’（）()\[\]【】《》〈〉\-—_·\s]/g, '');
+}
+
+
 // 1) 已录入原始资料的编号
 const archived = new Set();
 if (fs.existsSync(RAW_DIR)) {
@@ -48,8 +67,8 @@ for (const item of feed.items || []) {
     why: item.whyItMatters || '',
     archived: archived.has(item.displayId),
   };
-  if (src.url) feedByUrl[src.url] = rec;
-  if (item.title) feedByTitle[item.title] = rec;
+  if (src.url) feedByUrl[normUrl(src.url)] = rec;
+  if (item.title) feedByTitle[normTitle(item.title)] = rec;
 }
 // 已录入原始资料并从 Feed 移出的卡片，仍要标出「已入库」，避免看漏或重复挑
 for (const item of removed.items || []) {
@@ -60,8 +79,26 @@ for (const item of removed.items || []) {
     why: '',
     archived: true,
   };
-  if (item.matchedArchivedUrl) feedByUrl[item.matchedArchivedUrl] = rec;
-  if (item.title) feedByTitle[item.title] = rec;
+  if (item.matchedArchivedUrl) feedByUrl[normUrl(item.matchedArchivedUrl)] = rec;
+  if (item.title) feedByTitle[normTitle(item.title)] = rec;
+}
+
+// 2.5) 采集编号：给每条采集记录一个稳定短号（C0001…），录入时按号指认，不必复述标题。
+// 编号一经分配永不改号（map 只增不减），避免历史指认失效。
+const ID_MAP_FILE = path.join(__dirname, 'collected-id-map.json');
+const idMap = readJSON(ID_MAP_FILE) || {};
+let idSeq = 0;
+for (const v of Object.values(idMap)) {
+  const n = parseInt(String(v).slice(1), 10);
+  if (n > idSeq) idSeq = n;
+}
+function cidOf(url) {
+  if (!url) return '';
+  if (idMap[url]) return idMap[url];
+  idSeq += 1;
+  const v = 'C' + String(idSeq).padStart(4, '0');
+  idMap[url] = v;
+  return v;
 }
 
 // 3) 合并全部来源池（跨轮去重）
@@ -72,6 +109,7 @@ const files = fs.existsSync(poolDir)
 const seen = new Map();
 const rounds = [];
 let rawTotal = 0;
+let dupMerged = 0;
 
 // 采集渠道分档：公众号清单（星标关注号）优先，其次搜狗补充，最后通用网页扩展。
 // 徐总 2026-11-26 明确：采集顺序是公众号星标在前，扩展渠道在后，页面呈现必须按这个优先级。
@@ -97,10 +135,10 @@ for (const f of files) {
   const runId = d.runId || f.replace(/\.json$/, '');
   let added = 0;
   for (const s of srcs) {
-    const key = (s.canonicalUrl || '') + '|' + (s.title || '');
-    if (seen.has(key)) continue;
+    const key = normUrl(s.canonicalUrl) || ('T:' + normTitle(s.title));
+    if (seen.has(key)) { dupMerged++; continue; }
     if (s.dedup === 'duplicate' || s.decision === 'duplicate') continue;
-    const card = feedByUrl[s.canonicalUrl] || feedByTitle[s.title] || null;
+    const card = feedByUrl[normUrl(s.canonicalUrl)] || feedByTitle[normTitle(s.title)] || null;
     const rec = {
       title: s.title || '',
       publisher: s.publisher || '',
@@ -110,6 +148,7 @@ for (const f of files) {
       decision: s.decision || '',
       reason: s.excludeReason || '',
       url: s.canonicalUrl || '',
+      cid: cidOf(normUrl(s.canonicalUrl) || ('T:' + normTitle(s.title))),
       readStatus: s.readStatus || '',
       displayId: card ? card.displayId : '',
       priority: card ? card.priority : '',
@@ -138,6 +177,7 @@ items.sort((a, b) => {
 
 const stat = {
   all: items.length,
+  mergedDuplicates: dupMerged,
   onFeed: items.filter(x => x.displayId).length,
   archived: items.filter(x => x.archived).length,
   notOnFeed: items.filter(x => !x.displayId).length,
@@ -167,6 +207,7 @@ const out = {
   generatedAt: localStamp(),
   sourceRounds: rounds.length,
   rawTotal,
+  mergedDuplicates: dupMerged,
   feedRunId: feed.runId || '',
   feedGeneratedAt: feed.generatedAt || '',
   stat,
@@ -175,6 +216,11 @@ const out = {
 };
 
 fs.writeFileSync(OUT, 'window.OBSIDIAN_COLLECTED = ' + JSON.stringify(out) + ';\n', 'utf-8');
+
+// 采集编号映射回写（键排序，diff 稳定；只增不减）
+const sortedMap = {};
+Object.keys(idMap).sort().forEach(k => { sortedMap[k] = idMap[k]; });
+fs.writeFileSync(ID_MAP_FILE, JSON.stringify(sortedMap, null, 1), 'utf-8');
 
 // 每次生成后刷新两页的 collected.js 版本号，避免浏览器读旧缓存
 const stamp = out.generatedAt.replace(/[-: ]/g, '');

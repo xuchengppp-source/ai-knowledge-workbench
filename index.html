@@ -1191,7 +1191,7 @@
 </div>
 
 <script src="data.js?v=202611261401"></script>
-<script src="collected.js?v=202611261401"></script>
+<script src="collected.js?v=202611261504"></script>
 <script src="docs.js?v=202611261401" defer></script>
 <script>
 /* 悬浮式底部控制条浏览器（华为/UC/夸克/小米/百度等）会覆盖页面底部，给 html 打标记以便上抬底部栏 */
@@ -2168,9 +2168,12 @@ function collectedMatches(x, f){
 
 function collectedCardHtml(x, showTier){
   var badge, bg, fg;
-  if (x.archived) { badge = '已入库' + (x.displayId ? ' ' + x.displayId : ''); bg = '#ECFDF5'; fg = '#047857'; }
+  var cid = x.cid ? (' · ' + x.cid) : '';
+  if (x.archived) { badge = '已入库' + (x.displayId ? ' ' + x.displayId : cid); bg = '#ECFDF5'; fg = '#047857'; }
   else if (x.displayId) { badge = '已上屏 ' + x.displayId + ' · ' + (x.priority || ''); bg = '#EEF4FF'; fg = '#1D4ED8'; }
-  else { badge = '候选未上屏'; bg = '#FFF7E6'; fg = '#9A6700'; }
+  else if (x.decision === 'candidate') { badge = '候选未上屏' + cid; bg = '#FFF7E6'; fg = '#9A6700'; }
+  else if (x.decision === 'excluded') { badge = '已排除' + cid; bg = '#F4F5F7'; fg = '#6B7280'; }
+  else { badge = '背景未上屏' + cid; bg = '#F4F5F7'; fg = '#6B7280'; }
   var note = x.summary || x.reason || '';
   var meta = [x.publisher, x.channel ? ('渠道 ' + x.channel) : '', x.readStatus === 'read' ? '已核正文' : ''].filter(Boolean).join(' · ');
   var tierTag = (showTier && x.tier) ? ('<span style="display:inline-block;padding:2px 7px;border-radius:6px;font-size:10.5px;background:#F1F5F9;color:#47536B;margin-right:5px">' + escapeHtml(COLLECTED_TIER_LABEL[x.tier] || x.tier) + '</span>') : '';
