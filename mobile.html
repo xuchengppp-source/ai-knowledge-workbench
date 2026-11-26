@@ -2141,7 +2141,7 @@ function renderCollectedPage(){
   var d = window.OBSIDIAN_COLLECTED;
   var body = document.getElementById('live-body');
   if (!d || !d.items) {
-    body.innerHTML = '<div class="page"><div class="head-row"><div class="title" style="cursor:pointer" onclick="switchTab(\'today\')">‹ 返回<span class="sub-line">采集发现 · 数据未生成</span></div></div><div class="desktop-panel"><p>collected.js 尚未生成，运行 build-collected.js 后刷新。</p></div></div>';
+    body.innerHTML = '<div class="page"><div class="head-row"><div class="title" style="cursor:pointer" onclick="switchTab(\'today\')">‹ 返回<span class="sub-line">采集发现 · 数据未生成</span></div></div><div class="desktop-panel"><p>采集数据未加载（collected.js 未取到），按返回键重进本页重试。</p></div></div>';
     return;
   }
   var stat = d.stat || {};
