@@ -1209,12 +1209,14 @@
       <div class="t" data-tab="question"><span class="ic">？</span>问题</div>
       <div class="t" data-tab="topic"><span class="ic">▤</span>地图</div>
       <div class="t" data-tab="fav"><span class="ic">☆</span>架构</div>
+      <div class="t" data-tab="collected"><span class="ic">🗂</span>采集</div>
     </div>
   </div>
   <div id="live-body" class="app-body"></div>
 </div>
 
 <script src="data.js?v=202611261001"></script>
+<script src="collected.js?v=202611261049"></script>
 <script src="docs.js?v=202611261001" defer></script>
 <script>
 /* 悬浮式底部控制条浏览器（华为/UC/夸克/小米/百度等）会覆盖页面底部，给 html 打标记以便上抬底部栏 */
@@ -2073,6 +2075,142 @@ function docEmptyBlock(n){
 
 function openGraphNodeByIndex(i){ var n = OBSIDIAN_GRAPH.nodes[i]; if(n) openGraphNode(n); }
 
+/* ===== 采集发现：只看筛选后的重要文章，公众号星标优先，扩展渠道在后 ===== */
+var _collectedFilter = 'key';
+var _collectedShown = 60;
+var _collectedList = [];
+
+var COLLECTED_TIER_LABEL = { wechat: '公众号清单（星标关注号）', sogou: '搜狗微信补充', web: '网页检索扩展' };
+
+function showCollected(filter){
+  pushNav();
+  _collectedFilter = (typeof filter === 'string' && filter) ? filter : 'key';
+  _collectedShown = 60;
+  renderCollectedPage();
+}
+
+function setCollectedFilter(f){
+  _collectedFilter = f;
+  _collectedShown = 60;
+  renderCollectedPage();
+}
+
+function loadMoreCollected(){
+  _collectedShown += 60;
+  renderCollectedPage();
+}
+
+function collectedChip(label, key, count){
+  var on = _collectedFilter === key;
+  return '<button onclick="setCollectedFilter(\'' + key + '\')" style="flex:0 0 auto;border-radius:999px;padding:6px 13px;font-size:12px;cursor:pointer;border:1px solid ' + (on ? '#2563EB' : 'rgba(30,58,95,.16)') + ';background:' + (on ? '#2563EB' : '#fff') + ';color:' + (on ? '#fff' : '#47536B') + ';font-weight:' + (on ? '700' : '400') + '">' + label + (count !== undefined ? ' ' + count : '') + '</button>';
+}
+
+function collectedMatches(x, f){
+  if (f === 'key') return x.rank <= 5;          // 已上屏 或 来源池候选
+  if (f === 'wechat') return x.tier === 'wechat' && x.rank <= 5;
+  if (f === 'web') return x.tier !== 'wechat' && x.rank <= 5;
+  if (f === 'feed') return !!x.displayId && !x.archived;
+  if (f === 'archived') return !!x.archived;
+  if (f === 'other') return x.rank > 5;          // 背景 / 排除，备查
+  return true;
+}
+
+function collectedCardHtml(x, showTier){
+  var badge, bg, fg;
+  if (x.archived) { badge = '已入库' + (x.displayId ? ' ' + x.displayId : ''); bg = '#ECFDF5'; fg = '#047857'; }
+  else if (x.displayId) { badge = '已上屏 ' + x.displayId + ' · ' + (x.priority || ''); bg = '#EEF4FF'; fg = '#1D4ED8'; }
+  else { badge = '候选未上屏'; bg = '#FFF7E6'; fg = '#9A6700'; }
+  var note = x.summary || x.reason || '';
+  var meta = [x.publisher, x.channel ? ('渠道 ' + x.channel) : '', x.readStatus === 'read' ? '已核正文' : ''].filter(Boolean).join(' · ');
+  var tierTag = (showTier && x.tier) ? ('<span style="display:inline-block;padding:2px 7px;border-radius:6px;font-size:10.5px;background:#F1F5F9;color:#47536B;margin-right:5px">' + escapeHtml(COLLECTED_TIER_LABEL[x.tier] || x.tier) + '</span>') : '';
+  return '<div class="doc-item" style="align-items:flex-start">'
+    + '<div class="d-ic ' + (x.tier === 'wechat' ? 'agent' : 'enterprise') + '">' + (x.archived ? '✅' : (x.displayId ? '📌' : '📄')) + '</div>'
+    + '<div class="d-body">'
+    + '<h4 style="margin-bottom:4px">' + escapeHtml(x.title) + '</h4>'
+    + '<div class="d-meta">' + escapeHtml(meta) + '</div>'
+    + '<div style="margin-top:4px">' + tierTag + '<span style="display:inline-block;padding:2px 7px;border-radius:6px;font-size:10.5px;background:' + bg + ';color:' + fg + '">' + escapeHtml(badge) + '</span></div>'
+    + (note ? '<div style="font-size:12px;color:#5B6779;line-height:1.6;margin-top:5px">' + escapeHtml(note.slice(0, 140)) + '</div>' : '')
+    + (x.url ? '<div style="margin-top:5px"><a href="' + escapeHtml(x.url) + '" target="_blank" rel="noopener" style="font-size:11.5px;color:#2563EB;text-decoration:none">原文 ↗</a></div>' : '')
+    + '</div></div>';
+}
+
+function renderCollectedPage(){
+  var d = window.OBSIDIAN_COLLECTED;
+  var body = document.getElementById('live-body');
+  if (!d || !d.items) {
+    body.innerHTML = '<div class="page"><div class="head-row"><div class="title" style="cursor:pointer" onclick="switchTab(\'today\')">‹ 返回<span class="sub-line">采集发现 · 数据未生成</span></div></div><div class="desktop-panel"><p>collected.js 尚未生成，运行 build-collected.js 后刷新。</p></div></div>';
+    return;
+  }
+  var stat = d.stat || {};
+  var items = (d.items || []).slice();
+  var f = _collectedFilter;
+  var list = items.filter(function(x){ return collectedMatches(x, f); });
+
+  // 重要视图按重要度排：P1 → P2 → P3 → 其他上屏 → 候选；同档内新日期在前
+  if (f === 'key' || f === 'wechat' || f === 'web') {
+    list.sort(function(a, b){
+      if (a.rank !== b.rank) return a.rank - b.rank;
+      return String(b.date || '').localeCompare(String(a.date || ''));
+    });
+  } else {
+    list.sort(function(a, b){ return String(b.date || '').localeCompare(String(a.date || '')); });
+  }
+  _collectedList = list;
+
+  var h = '<div class="page"><div class="head-row"><div class="title" style="cursor:pointer" onclick="switchTab(\'today\')">‹ 返回<span class="sub-line">采集发现 · 筛选后 ' + (stat.important || 0) + ' 篇重要 · 共采集 ' + stat.all + ' 篇 / ' + d.sourceRounds + ' 轮 · 编译 ' + escapeHtml(d.generatedAt) + '</span></div></div>';
+
+  h += '<div style="display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 10px;font-size:12px;color:#47536B">'
+    + '<span style="padding:5px 10px;border-radius:8px;background:#EEF4FF;color:#1D4ED8">公众号星标 <b>' + (stat.wechatImportant || 0) + '</b></span>'
+    + '<span style="padding:5px 10px;border-radius:8px;background:#FFF7E6;color:#9A6700">扩展渠道 <b>' + (stat.webImportant || 0) + '</b></span>'
+    + '<span style="padding:5px 10px;border-radius:8px;background:#F1F5F9">P1 <b>' + (stat.p1 || 0) + '</b> · P2 <b>' + (stat.p2 || 0) + '</b></span>'
+    + '<span style="padding:5px 10px;border-radius:8px;background:#ECFDF5;color:#047857">已入库 <b>' + (stat.archived || 0) + '</b></span></div>';
+
+  h += '<div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;margin-bottom:6px">'
+    + collectedChip('重要', 'key', stat.important)
+    + collectedChip('公众号星标', 'wechat', stat.wechatImportant)
+    + collectedChip('扩展渠道', 'web', stat.webImportant)
+    + collectedChip('已上屏', 'feed', (stat.onFeed || 0) - (stat.archived || 0))
+    + collectedChip('已入库', 'archived', stat.archived)
+    + collectedChip('全部采集', 'all', stat.all)
+    + '</div>';
+
+  h += '<div style="font-size:11.5px;color:#8A94A6;margin:2px 0 10px">默认只显示过筛选的重要文章：公众号星标在前，扩展渠道在后；被排除的进「全部采集」备查。点「原文」看全文，觉得该进原始资料就把编号告诉我。</div>';
+
+  if (!list.length) {
+    h += '<div class="desktop-panel"><p>该筛选下没有条目。</p></div>';
+  } else {
+    var shown = 0;
+    if (f === 'key') {
+      // 重要视图固定两段：公众号星标 → 扩展渠道
+      [['wechat', '公众号清单（星标关注号）'], ['web', '扩展渠道（搜狗 / 网页检索）']].forEach(function(pair){
+        var seg = list.filter(function(x){ return pair[0] === 'wechat' ? x.tier === 'wechat' : x.tier !== 'wechat'; });
+        if (!seg.length || shown >= _collectedShown) return;
+        h += '<div class="kp-zone-title" style="margin-top:' + (shown ? 16 : 4) + 'px"><span class="dot"></span><b>' + pair[1] + '</b><span style="font-size:11px;color:#8A94A6;margin-left:6px">' + seg.length + ' 篇</span></div>';
+        seg.slice(0, _collectedShown - shown).forEach(function(x){ h += collectedCardHtml(x, false); shown++; });
+      });
+    } else {
+      var lastDay = '';
+      list.slice(0, _collectedShown).forEach(function(x, i){
+        var day = x.date || '日期未知';
+        if (day !== lastDay) {
+          lastDay = day;
+          h += '<div class="kp-zone-title" style="margin-top:' + (i ? 14 : 4) + 'px"><span class="dot"></span><b>' + escapeHtml(day) + '</b></div>';
+        }
+        h += collectedCardHtml(x, true);
+        shown++;
+      });
+    }
+    if (list.length > _collectedShown) {
+      h += '<button onclick="loadMoreCollected()" style="width:100%;margin:14px 0 24px;padding:11px;border-radius:10px;border:1px solid rgba(30,58,95,.16);background:#fff;font-size:13px;cursor:pointer;color:#47536B">继续加载（已显示 ' + _collectedShown + ' / ' + list.length + '）</button>';
+    } else {
+      h += '<div style="text-align:center;font-size:11.5px;color:#9AA4B2;margin:16px 0 24px">已显示全部 ' + list.length + ' 条</div>';
+    }
+  }
+  h += '</div>';
+  body.innerHTML = h;
+  body.scrollTop = 0;
+}
+
 function showRecentUpdates(){
   pushNav();
   var ru = OBSIDIAN_DATA.recentUpdates || [];
@@ -2335,6 +2473,7 @@ function switchTab(tab){
   else if(tab==='topic') body.innerHTML = renderTopic();
   else if(tab==='fav') body.innerHTML = renderFav();
   else if(tab==='me') body.innerHTML = renderMe();
+  else if(tab==='collected'){ body.innerHTML = ''; _collectedFilter='key'; _collectedShown=60; renderCollectedPage(); return; }
   setReadingMode(false);
   body.scrollTop = 0;
 }
