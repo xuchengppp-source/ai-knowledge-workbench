@@ -1191,7 +1191,7 @@
 </div>
 
 <script src="data.js?v=202611262302"></script>
-<script src="collected.js?v=202611262202"></script>
+<script src="collected.js?v=202611262326"></script>
 <script src="docs.js?v=202611262302" defer></script>
 <script>
 /* 悬浮式底部控制条浏览器（华为/UC/夸克/小米/百度等）会覆盖页面底部，给 html 打标记以便上抬底部栏 */
@@ -2171,6 +2171,8 @@ function collectedCardHtml(x, showTier){
   var cid = x.cid ? (' · ' + x.cid) : '';
   if (x.archived) { badge = '已入库' + (x.displayId ? ' ' + x.displayId : cid); bg = '#ECFDF5'; fg = '#047857'; }
   else if (x.displayId) { badge = '已上屏 ' + x.displayId + ' · ' + (x.priority || ''); bg = '#EEF4FF'; fg = '#1D4ED8'; }
+  else if (x.reviewOwner === 'codex') { badge = '待 Codex 评' + cid; bg = '#EEF6FF'; fg = '#1D4ED8'; }
+  else if (x.codexDecision) { badge = 'Codex 判 ' + x.codexDecision.toUpperCase() + (x.codexPriority ? ' · ' + x.codexPriority : '') + cid; bg = '#F5F3FF'; fg = '#6D28D9'; }
   else if (x.decision === 'candidate') { badge = '候选未上屏' + cid; bg = '#FFF7E6'; fg = '#9A6700'; }
   else if (x.decision === 'excluded') { badge = '已排除' + cid; bg = '#F4F5F7'; fg = '#6B7280'; }
   else { badge = '背景未上屏' + cid; bg = '#F4F5F7'; fg = '#6B7280'; }
@@ -2214,21 +2216,21 @@ function renderCollectedPage(){
   var h = '<div class="page"><div class="head-row"><div class="title" style="cursor:pointer" onclick="switchTab(\'today\')">‹ 返回<span class="sub-line">采集发现 · 筛选后 ' + (stat.important || 0) + ' 篇重要 · 共采集 ' + stat.all + ' 篇 / ' + d.sourceRounds + ' 轮 · 编译 ' + escapeHtml(d.generatedAt) + '</span></div></div>';
 
   h += '<div style="display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 10px;font-size:12px;color:#47536B">'
-    + '<span style="padding:5px 10px;border-radius:8px;background:#EEF4FF;color:#1D4ED8">公众号星标 <b>' + (stat.wechatImportant || 0) + '</b></span>'
+    + '<span style="padding:5px 10px;border-radius:8px;background:#EEF4FF;color:#1D4ED8">公众号星标（全列） <b>' + (stat.wechatAll || 0) + '</b></span>'
     + '<span style="padding:5px 10px;border-radius:8px;background:#FFF7E6;color:#9A6700">扩展渠道 <b>' + (stat.webImportant || 0) + '</b></span>'
     + '<span style="padding:5px 10px;border-radius:8px;background:#F1F5F9">P1 <b>' + (stat.p1 || 0) + '</b> · P2 <b>' + (stat.p2 || 0) + '</b></span>'
     + '<span style="padding:5px 10px;border-radius:8px;background:#ECFDF5;color:#047857">已入库 <b>' + (stat.archived || 0) + '</b></span></div>';
 
   h += '<div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;margin-bottom:6px">'
     + collectedChip('重要', 'key', stat.important)
-    + collectedChip('公众号星标', 'wechat', stat.wechatImportant)
+    + collectedChip('公众号星标全量', 'wechat', stat.wechatAll)
     + collectedChip('扩展渠道', 'web', stat.webImportant)
     + collectedChip('已上屏', 'feed', (stat.onFeed || 0) - (stat.archived || 0))
     + collectedChip('已入库', 'archived', stat.archived)
     + collectedChip('全部采集', 'all', stat.all)
     + '</div>';
 
-  h += '<div style="font-size:11.5px;color:#8A94A6;margin:2px 0 10px">默认只显示过筛选的重要文章：公众号星标在前，扩展渠道在后；被排除的进「全部采集」备查。点「原文」看全文，觉得该进原始资料就把编号告诉我。</div>';
+  h += '<div style="font-size:11.5px;color:#8A94A6;margin:2px 0 10px">星标公众号的文章全部列出、不做淘汰（判定权在 Codex）；扩展渠道仍只显示过筛后的重要篇。点「原文」看全文，要入库直接说编号。</div>';
 
   if (!list.length) {
     h += '<div class="desktop-panel"><p>该筛选下没有条目。</p></div>';
@@ -2236,7 +2238,7 @@ function renderCollectedPage(){
     var shown = 0;
     if (f === 'key') {
       // 重要视图固定两段：公众号星标 → 扩展渠道
-      [['wechat', '公众号清单（星标关注号）'], ['web', '扩展渠道（搜狗 / 网页检索）']].forEach(function(pair){
+      [['wechat', '星标公众号 · 全量待评（伊森只梳理，Codex 判定）'], ['web', '扩展渠道 · 过筛后重要']].forEach(function(pair){
         var seg = list.filter(function(x){ return pair[0] === 'wechat' ? x.tier === 'wechat' : x.tier !== 'wechat'; });
         if (!seg.length || shown >= _collectedShown) return;
         h += '<div class="kp-zone-title" style="margin-top:' + (shown ? 16 : 4) + 'px"><span class="dot"></span><b>' + pair[1] + '</b><span style="font-size:11px;color:#8A94A6;margin-left:6px">' + seg.length + ' 篇</span></div>';

@@ -106,6 +106,13 @@ function cidOf(url) {
 }
 
 // 3) 合并全部来源池（跨轮去重）
+// Codex 的判定回写文件（公众号待评清单的答案）：键为 cid
+const DECISIONS_FILE = path.join(DATA_DIR, 'codex-review-decisions.json');
+let codexDecisions = {};
+try {
+  if (fs.existsSync(DECISIONS_FILE)) codexDecisions = JSON.parse(fs.readFileSync(DECISIONS_FILE, 'utf-8')) || {};
+} catch (e) { codexDecisions = {}; }
+
 const poolDir = path.join(DATA_DIR, 'source-pools');
 const files = fs.existsSync(poolDir)
   ? fs.readdirSync(poolDir).filter(f => f.endsWith('.json')).sort()
@@ -118,17 +125,22 @@ let dupMerged = 0;
 // 采集渠道分档：公众号清单（星标关注号）优先，其次搜狗补充，最后通用网页扩展。
 // 徐总 2026-11-26 明确：采集顺序是公众号星标在前，扩展渠道在后，页面呈现必须按这个优先级。
 const PRIORITY_RANK = { P1: 1, P2: 2, P3: 3 };
+// 号主页占位/无新内容，不是文章，不进待评队列
+const PLACEHOLDER_RE = /主页|常看流|推送列表|无新内容|暂无文章|未发现新稿/;
 function tierOf(channel) {
   const c = String(channel || '');
   if (c.indexOf('公众号清单') === 0) return 'wechat';
   if (c.indexOf('搜狗') === 0) return 'sogou';
   return 'web';
 }
-function rankOf(priority, hasFeed, decision) {
+function rankOf(priority, hasFeed, decision, tier) {
   if (PRIORITY_RANK[priority]) return PRIORITY_RANK[priority];
   if (hasFeed) return 4;
+  // 徐总 2026-11-26 明确：公众号星标的文章由伊森全量梳理出来即可，谁候选、谁上屏交给 Codex 评。
+  // 因此公众号来源一律 rank 5（默认可见），不再因历史 background/excluded 判定被藏起来。
+  if (tier === 'wechat') return 5;
   if (decision === 'candidate') return 5;
-  return 9; // 背景 / 排除：默认隐藏，只在「全部」里看
+  return 9; // 扩展渠道的背景 / 排除：默认隐藏，只在「全部」里看
 }
 
 for (const f of files) {
@@ -158,11 +170,22 @@ for (const f of files) {
       priority: card ? card.priority : '',
       summary: card ? card.summary : '',
       round: runId,
+      // 公众号来源：只要梳理出来就算待评，判定权在 Codex，不在伊森。
+      reviewOwner: tierOf(s.discoveryChannel) === 'wechat' ? 'codex' : '',
+      myPriorDecision: s.decision || '', // 保留我原来的判定留痕，仅供 Codex 参考，不作为过滤依据
+      placeholder: tierOf(s.discoveryChannel) === 'wechat' && PLACEHOLDER_RE.test(String(s.title || '')) ? true : false,
     };
     if (card && (card.archived || archived.has(card.displayId))) rec.archived = true;
     else rec.archived = false;
     if (rec.cid && archivedCids.has(rec.cid)) rec.archived = true;
-    rec.rank = rankOf(rec.priority, !!rec.displayId, rec.decision);
+    rec.rank = rankOf(rec.priority, !!rec.displayId, rec.decision, rec.tier);
+    // Codex 的判定（若已回写）优先于我的历史判定展示
+    const cdec = rec.cid ? codexDecisions[rec.cid] : null;
+    if (cdec) {
+      rec.codexDecision = cdec.decision || '';
+      rec.codexPriority = cdec.priority || '';
+      rec.codexNote = cdec.note || '';
+    }
     seen.set(key, rec);
     added++;
   }
@@ -194,7 +217,11 @@ const stat = {
   p1: items.filter(x => x.priority === 'P1').length,
   p2: items.filter(x => x.priority === 'P2').length,
   wechat: items.filter(x => x.tier === 'wechat').length,
+  // 公众号全量：梳理出来就算数，不看历史判定（徐总 2026-11-26 口径）
+  wechatAll: items.filter(x => x.tier === 'wechat' && !x.placeholder).length,
   wechatImportant: items.filter(x => x.tier === 'wechat' && x.rank <= 5).length,
+  // 待 Codex 评：公众号来源里还没上屏、也没入库的
+  wechatPendingReview: items.filter(x => x.tier === 'wechat' && !x.placeholder && !x.displayId && !x.archived).length,
   sogou: items.filter(x => x.tier === 'sogou').length,
   web: items.filter(x => x.tier === 'web').length,
   webImportant: items.filter(x => x.tier === 'web' && x.rank <= 5).length,
@@ -221,6 +248,49 @@ const out = {
 };
 
 fs.writeFileSync(OUT, 'window.OBSIDIAN_COLLECTED = ' + JSON.stringify(out) + ';\n', 'utf-8');
+
+// 给 Codex 的待评队列：公众号星标全量梳理清单。
+// 分工（徐总 2026-11-26 拍板）：伊森只负责"梳理出来"（抓全、去重、编号、给链接），
+// 谁进候选、谁上屏由 Codex 判。Codex 把判定写进 codex-review-decisions.json，本文件下次重建时带出来。
+const reviewQueue = items
+  .filter(x => x.tier === 'wechat' && !x.placeholder)
+  .map(x => {
+    const dec = codexDecisions[x.cid] || null;
+    return {
+      cid: x.cid,
+      title: x.title,
+      publisher: x.publisher,
+      date: x.date,
+      url: x.url,
+      channel: x.channel,
+      round: x.round,
+      readStatus: x.readStatus,
+      onFeed: x.displayId || '',
+      archived: !!x.archived,
+      myPriorDecision: x.myPriorDecision || '',  // 仅供参考，不作判定
+      codexDecision: dec ? (dec.decision || '') : '',
+      codexPriority: dec ? (dec.priority || '') : '',
+      codexNote: dec ? (dec.note || '') : '',
+      codexReviewedAt: dec ? (dec.reviewedAt || '') : '',
+    };
+  })
+  .sort((a, b) => {
+    const da = a.date || '0000', db = b.date || '0000';
+    if (da !== db) return db.localeCompare(da);
+    return String(a.cid).localeCompare(String(b.cid));
+  });
+
+const queueOut = {
+  schemaVersion: 1,
+  generatedAt: localStamp(),
+  owner: 'codex',
+  note: '星标公众号全量梳理清单，伊森只梳理不淘汰。Codex 判定写进 data/codex-review-decisions.json，键为 cid，值形如 {"decision":"feed|candidate|background|excluded","priority":"P1|P2|P3","note":"理由","reviewedAt":"2026-11-27"}。',
+  count: reviewQueue.length,
+  unreviewed: reviewQueue.filter(x => !x.codexDecision).length,
+  items: reviewQueue,
+};
+fs.writeFileSync(path.join(DATA_DIR, 'codex-review-queue.json'), JSON.stringify(queueOut, null, 1), 'utf-8');
+
 
 // 采集编号映射回写（键排序，diff 稳定；只增不减）
 const sortedMap = {};
