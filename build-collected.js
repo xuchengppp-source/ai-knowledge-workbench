@@ -46,10 +46,14 @@ function normTitle(t) {
 
 // 1) 已录入原始资料的编号
 const archived = new Set();
+// 未上屏候选按采集编号（C0001…）入库的，同样要标「已入库」，否则回看时会被当候选重复挑。
+const archivedCids = new Set();
 if (fs.existsSync(RAW_DIR)) {
   for (const name of fs.readdirSync(RAW_DIR)) {
     const m = name.match(/AI-\d{4}-\d{2}/);
     if (m) archived.add(m[0]);
+    const c = name.match(/C\d{4}/);
+    if (c) archivedCids.add(c[0]);
   }
 }
 
@@ -157,6 +161,7 @@ for (const f of files) {
     };
     if (card && (card.archived || archived.has(card.displayId))) rec.archived = true;
     else rec.archived = false;
+    if (rec.cid && archivedCids.has(rec.cid)) rec.archived = true;
     rec.rank = rankOf(rec.priority, !!rec.displayId, rec.decision);
     seen.set(key, rec);
     added++;
