@@ -1,5 +1,11 @@
 # AI 知识学习工作台状态
 
+## Latest: Codex review decisions in the collection view (2026-11-27)
+
+- The starred-source queue has 13 accumulated entries. `data/codex-review-decisions.json` now records Codex decisions for all 13; generated `codex-review-queue.json` shows 0 undecided. Decisions: feed=3 (C0341 already on AI-1126-41, C0205 and C0355 on AI-1126-49/50), candidate=3, background=4, excluded=3. Original WorkBuddy `myPriorDecision` fields remain as history.
+- `build-collected.js` and `generate.js --nav-only` rebuilt the local collection page. The pending counter now excludes Codex-decided items; source-to-Feed matching checks all sources on a card. The page shows all 13 starred entries and 0 awaiting Codex. Latest Feed now contains 48 cards, four AI-1127 candidates from WorkBuddy run `workbuddy-20261127-0007` still awaiting Codex's second review.
+- Changes are local and uncommitted; no GitHub Pages publication was made. Data readback passed; the most recent browser visual check was not performed because the retained page had been returned to the user.
+
 ## Latest: AI Trends shortcut published in the TV workbench portal (2026-11-23)
 
 - Published commit `ed7554c` to the source repository `main`. The desktop and mobile Workbench home pages now show “AI 未来发展趋势” beside “我的洞察” and “知识发现”; `generate.js --nav-only --out <project-dir>` maintains the entry and TV navigation without rebuilding Obsidian data payloads.

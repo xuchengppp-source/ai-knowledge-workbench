@@ -250,6 +250,14 @@ function updateAssetVersions(outDir, version) {
     if (!fs.existsSync(full)) return;
     let html = injectTvWorkbenchNavigation(fs.readFileSync(full, 'utf-8'), file);
     if (file === 'index.html' || file === 'mobile.html') {
+      const oldReviewHeading = "['wechat', '星标公众号 · 全量待评（伊森只梳理，Codex 判定）']";
+      const newReviewHeading = "['wechat', '星标公众号 · 全量梳理（伊森只梳理，Codex 判定）']";
+      if (html.includes(oldReviewHeading)) html = html.replace(oldReviewHeading, newReviewHeading);
+
+      const oldReviewHint = '星标公众号的文章全部列出、不做淘汰（判定权在 Codex）；扩展渠道仍只显示过筛后的重要篇。点「原文」看全文，要入库直接说编号。';
+      const newReviewHint = "星标公众号全部列出；伊森只梳理不淘汰，Codex负责最终判定。当前待 Codex 评 ' + (stat.wechatPendingReview || 0) + ' 篇。扩展渠道仍只显示过筛后的重要篇。点「原文」看全文，要入库直接说编号。";
+      if (html.includes(oldReviewHint)) html = html.replace(oldReviewHint, newReviewHint);
+
       html = html
         .replace(/<script src="data\.js(?:\?v=[^"]*)?"><\/script>/, `<script src="data.js?v=${version}"></script>`)
         .replace(/<script src="docs\.js(?:\?v=[^"]*)?" defer><\/script>/, `<script src="docs.js?v=${version}" defer></script>`);
