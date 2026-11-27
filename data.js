@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-27",
- "generatedTime": "2026-11-27 20:04",
+ "generatedTime": "2026-11-27 22:04",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 51,
  "weeklyChanges": 750,
@@ -7020,7 +7020,7 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/00_采集与发现.md",
    "title": "采集与发现",
    "updated": "2026-11-27",
-   "updatedTime": "2026-11-27 19:22",
+   "updatedTime": "2026-11-27 21:26",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线V3导航",
@@ -7056,7 +7056,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-11-25｜用户提供｜FDE乙方商业链条与缺口驱动采集方向：教育认知商务竞争到工程交付.md"
    ],
    "desc": "上级：70知识流水线/知识流水线V3导航、00入口与导航/知识库V3逻辑导航",
-   "wordCount": 8119
+   "wordCount": 8174
   },
   {
    "path": "70_知识流水线/01_选题缺口台账.md",
@@ -24102,7 +24102,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 158,
-  "fetchedAt": "2026年11月27日 20:04"
+  "fetchedAt": "2026年11月27日 22:04"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -24182,10 +24182,10 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/00_采集与发现.md",
    "title": "采集与发现",
    "updated": "2026-11-27",
-   "updatedTime": "2026-11-27 19:22",
+   "updatedTime": "2026-11-27 21:26",
    "topic": "pipeline",
    "topicName": "知识流水线",
-   "wordCount": 8119,
+   "wordCount": 8174,
    "desc": "上级：70知识流水线/知识流水线V3导航、00入口与导航/知识库V3逻辑导航"
   },
   {
