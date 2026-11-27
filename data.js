@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-27",
- "generatedTime": "2026-11-27 13:15",
+ "generatedTime": "2026-11-27 14:03",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 50,
- "weeklyChanges": 745,
+ "weeklyPages": 51,
+ "weeklyChanges": 750,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-26｜AI知识增量整理.md",
  "topics": [
@@ -132,7 +132,7 @@ window.OBSIDIAN_DATA = {
    "icon": "🗂",
    "color": "raw",
    "v3group": "raw",
-   "count": 294
+   "count": 295
   }
  ],
  "nodes": [
@@ -732,6 +732,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-10-24｜用户提供｜企业AI交互与业务执行架构：从五种交互模式到Business Action Layer.md",
     "30_资料库/原始资料/未整理｜2026-11-26｜Google Developers Blog｜AI-1126-01｜工具调用前用户意图闸门.md",
     "30_资料库/原始资料/未整理｜2026-11-26｜腾讯云开发者社区｜AI-1126-18｜企业Agent从自动化到可审计的业务执行体.md",
+    "30_资料库/原始资料/未整理｜2026-11-27｜澎湃政务（中国信通院）｜AI-1127-25｜智能体Harness工程能力标准与评估.md",
     "30_资料库/原始资料/部分回流｜2026-11-25｜用户提供｜个人Agent形态研究时间线：从小龙虾大厂助手到Harness·Bot·Personal Agent与生产级底座（对话整理稿）.md"
    ],
    "desc": "生产级 Agent 的六个治理模块分别回答：调哪个、怎么调、调得怎样、谁能调、如何持续调好，以及工具调用格式如何稳定表达。",
@@ -7210,7 +7211,7 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
    "updated": "2026-11-27",
-   "updatedTime": "2026-11-27 11:27",
+   "updatedTime": "2026-11-27 13:59",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/00_采集与发现",
@@ -7612,7 +7613,8 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-11-25｜笔记侠｜C0204｜Manus张涛：Chatbot形态限制AI能力表达",
     "30_资料库/原始资料/未整理｜2026-11-26｜ANO Lab（虎嗅转载）｜AI-1126-42｜Agent进入企业核心系统与组织控制权.md",
     "30_资料库/原始资料/未整理｜2026-11-26｜港股研究社（新浪财经转载）｜AI-1126-47｜腾讯WorkBuddy日活破千万与商业兑现.md",
-    "30_资料库/原始资料/未整理｜2026-11-27｜齐鲁网财经（华泰研报）｜AI-1127-07｜百融硅基客服岗位化交付与RaaS计费.md"
+    "30_资料库/原始资料/未整理｜2026-11-27｜齐鲁网财经（华泰研报）｜AI-1127-07｜百融硅基客服岗位化交付与RaaS计费.md",
+    "30_资料库/原始资料/未整理｜2026-11-27｜澎湃政务（中国信通院）｜AI-1127-25｜智能体Harness工程能力标准与评估.md"
    ],
    "backlinks": [
     "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业AI专题轻量编译流程.md",
@@ -7758,7 +7760,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/未整理｜2026-11-25｜至顶网｜AI-1125-03｜联想敦煌城市超级智能体.md"
    ],
    "desc": "前序：70知识流水线/00采集与发现（采集台账）",
-   "wordCount": 77311
+   "wordCount": 77964
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -18753,7 +18755,8 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/AI Agent工程知识/08_项目运行记录/Deepseek Harness：框架概念与专属智能体搭建.md",
     "70_知识流水线/A_原始资料.md",
     "70_知识流水线/知识库健康巡检.md",
-    "20_工作与项目/DeepSeek Harness项目/DeepSeek Harness项目索引.md"
+    "20_工作与项目/DeepSeek Harness项目/DeepSeek Harness项目索引.md",
+    "30_资料库/原始资料/未整理｜2026-11-27｜澎湃政务（中国信通院）｜AI-1127-25｜智能体Harness工程能力标准与评估.md"
    ],
    "desc": "1. 定位：Harness Agent Control Center 是官方 Harness 之上的「决策与执行」编排层，不修改 packages/core agent-loop，",
    "wordCount": 3480
@@ -19222,7 +19225,8 @@ window.OBSIDIAN_DATA = {
    ],
    "backlinks": [
     "40_专题知识库/AI Agent工程知识/08_项目运行记录/DeepSeek Harness与Agent运行时增量整理（2026-08-21至08-28）.md",
-    "70_知识流水线/A_原始资料.md"
+    "70_知识流水线/A_原始资料.md",
+    "30_资料库/原始资料/未整理｜2026-11-27｜澎湃政务（中国信通院）｜AI-1127-25｜智能体Harness工程能力标准与评估.md"
    ],
    "desc": "上级：70知识流水线/A原始资料",
    "wordCount": 4319
@@ -21493,7 +21497,8 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/AI Agent工程知识/08_项目运行记录/基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理"
    ],
    "backlinks": [
-    "40_专题知识库/AI Agent工程知识/08_项目运行记录/基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理.md"
+    "40_专题知识库/AI Agent工程知识/08_项目运行记录/基于DeepSeek Harness的企业级Agent平台：MOVO社区版的产品增强层与多用户运行时治理.md",
+    "30_资料库/原始资料/未整理｜2026-11-27｜澎湃政务（中国信通院）｜AI-1127-25｜智能体Harness工程能力标准与评估.md"
    ],
    "desc": "上级：70知识流水线/A原始资料",
    "wordCount": 3065
@@ -22433,6 +22438,24 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "用户在豆包对话框里说\"帮我找一件冬天穿的羽绒服，预算两千以内，要轻薄款\"。豆包理解意图、拆解条件、生成推荐。然后用户点侧边栏的购物按钮——跳转到抖音商城，商品流已经按刚才的对话条件",
    "wordCount": 6603
+  },
+  {
+   "path": "30_资料库/原始资料/未整理｜2026-11-27｜澎湃政务（中国信通院）｜AI-1127-25｜智能体Harness工程能力标准与评估.md",
+   "title": "智能体 Harness 工程能力标准：四维能力清单与评估流程（11-26 团体标准立项，7-29 已发布并启动首批评估）",
+   "updated": "2026-11-27",
+   "updatedTime": "2026-11-27 13:59",
+   "topic": "raw",
+   "links": [
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/生产级Agent六大治理模块与工程骨架",
+    "30_资料库/原始资料/已整理｜2026-08-16｜DeepSeek Harness｜Harness控制中心架构闭环",
+    "30_资料库/原始资料/已整理｜2026-08-28｜腾讯科技｜DeepSeek的Harness为何是一头黑色鲸鱼",
+    "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？"
+   ],
+   "backlinks": [
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "收录理由成立：这是目前唯一一份把 Harness 从「各家自建的做法」写成可对照、可评估的工程能力清单的官方文件，且四维划分与自建 Harness（DSH／AI Office Ru",
+   "wordCount": 5149
   },
   {
    "path": "30_资料库/原始资料/未整理｜2026-11-27｜齐鲁网财经（华泰研报）｜AI-1127-07｜百融硅基客服岗位化交付与RaaS计费.md",
@@ -24079,7 +24102,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 158,
-  "fetchedAt": "2026年11月27日 13:15"
+  "fetchedAt": "2026年11月27日 14:03"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -24156,6 +24179,26 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "70_知识流水线/A_原始资料.md",
+   "title": "A_原始资料",
+   "updated": "2026-11-27",
+   "updatedTime": "2026-11-27 13:59",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 77964,
+   "desc": "前序：70知识流水线/00采集与发现（采集台账）"
+  },
+  {
+   "path": "30_资料库/原始资料/未整理｜2026-11-27｜澎湃政务（中国信通院）｜AI-1127-25｜智能体Harness工程能力标准与评估.md",
+   "title": "智能体 Harness 工程能力标准：四维能力清单与评估流程（11-26 团体标准立项，7-29 已发布并启动首批评估）",
+   "updated": "2026-11-27",
+   "updatedTime": "2026-11-27 13:59",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 5149,
+   "desc": "收录理由成立：这是目前唯一一份把 Harness 从「各家自建的做法」写成可对照、可评估的工程能力清单的官方文件，且四维划分与自建 Harness（DSH／AI Office Ru"
+  },
+  {
    "path": "70_知识流水线/00_采集与发现.md",
    "title": "采集与发现",
    "updated": "2026-11-27",
@@ -24164,16 +24207,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 7950,
    "desc": "上级：70知识流水线/知识流水线V3导航、00入口与导航/知识库V3逻辑导航"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-11-27",
-   "updatedTime": "2026-11-27 11:27",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 77311,
-   "desc": "前序：70知识流水线/00采集与发现（采集台账）"
   },
   {
    "path": "30_资料库/原始资料/未整理｜2026-11-26｜腾讯云开发者社区｜AI-1126-18｜企业Agent从自动化到可审计的业务执行体.md",
