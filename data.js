@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-27",
- "generatedTime": "2026-11-27 14:03",
+ "generatedTime": "2026-11-27 16:04",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 51,
  "weeklyChanges": 750,
@@ -7020,7 +7020,7 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/00_采集与发现.md",
    "title": "采集与发现",
    "updated": "2026-11-27",
-   "updatedTime": "2026-11-27 13:07",
+   "updatedTime": "2026-11-27 15:11",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线V3导航",
@@ -7056,7 +7056,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-11-25｜用户提供｜FDE乙方商业链条与缺口驱动采集方向：教育认知商务竞争到工程交付.md"
    ],
    "desc": "上级：70知识流水线/知识流水线V3导航、00入口与导航/知识库V3逻辑导航",
-   "wordCount": 7950
+   "wordCount": 8006
   },
   {
    "path": "70_知识流水线/01_选题缺口台账.md",
@@ -24102,7 +24102,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 158,
-  "fetchedAt": "2026年11月27日 14:03"
+  "fetchedAt": "2026年11月27日 16:04"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -24179,6 +24179,16 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "70_知识流水线/00_采集与发现.md",
+   "title": "采集与发现",
+   "updated": "2026-11-27",
+   "updatedTime": "2026-11-27 15:11",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 8006,
+   "desc": "上级：70知识流水线/知识流水线V3导航、00入口与导航/知识库V3逻辑导航"
+  },
+  {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
    "updated": "2026-11-27",
@@ -24197,16 +24207,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "原始资料 / 养料",
    "wordCount": 5149,
    "desc": "收录理由成立：这是目前唯一一份把 Harness 从「各家自建的做法」写成可对照、可评估的工程能力清单的官方文件，且四维划分与自建 Harness（DSH／AI Office Ru"
-  },
-  {
-   "path": "70_知识流水线/00_采集与发现.md",
-   "title": "采集与发现",
-   "updated": "2026-11-27",
-   "updatedTime": "2026-11-27 13:07",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 7950,
-   "desc": "上级：70知识流水线/知识流水线V3导航、00入口与导航/知识库V3逻辑导航"
   },
   {
    "path": "30_资料库/原始资料/未整理｜2026-11-26｜腾讯云开发者社区｜AI-1126-18｜企业Agent从自动化到可审计的业务执行体.md",
