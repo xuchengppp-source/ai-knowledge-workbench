@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-28",
- "generatedTime": "2026-11-28 08:05",
+ "generatedTime": "2026-11-28 09:43",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 23,
- "weeklyChanges": 532,
+ "weeklyPages": 24,
+ "weeklyChanges": 536,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-27｜AI知识增量整理.md",
  "topics": [
@@ -132,7 +132,7 @@ window.OBSIDIAN_DATA = {
    "icon": "🗂",
    "color": "raw",
    "v3group": "raw",
-   "count": 307
+   "count": 308
   }
  ],
  "nodes": [
@@ -733,6 +733,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/未整理｜2026-11-26｜Google Developers Blog｜AI-1126-01｜工具调用前用户意图闸门.md",
     "30_资料库/原始资料/未整理｜2026-11-26｜腾讯云开发者社区｜AI-1126-18｜企业Agent从自动化到可审计的业务执行体.md",
     "30_资料库/原始资料/未整理｜2026-11-27｜澎湃政务（中国信通院）｜AI-1127-25｜智能体Harness工程能力标准与评估.md",
+    "30_资料库/原始资料/未整理｜2026-11-28｜CSDN（weixin_29051149）｜腾讯Agent Suite办公智能体套件落地复盘.md",
     "30_资料库/原始资料/部分回流｜2026-11-25｜用户提供｜个人Agent形态研究时间线：从小龙虾大厂助手到Harness·Bot·Personal Agent与生产级底座（对话整理稿）.md"
    ],
    "desc": "生产级 Agent 的六个治理模块分别回答：调哪个、怎么调、调得怎样、谁能调、如何持续调好，以及工具调用格式如何稳定表达。",
@@ -7224,7 +7225,7 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/A_原始资料.md",
    "title": "A_原始资料",
    "updated": "2026-11-28",
-   "updatedTime": "2026-11-28 01:16",
+   "updatedTime": "2026-11-28 09:18",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/00_采集与发现",
@@ -7640,7 +7641,8 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-11-28｜黄有璨公众号｜HYC-09｜我的工作和生活已经完全被AI改变了.md",
     "30_资料库/原始资料/已整理｜2026-11-28｜黄有璨公众号｜HYC-10｜关于AI我花了10个月获得的那些认知1.md",
     "30_资料库/原始资料/已整理｜2026-11-28｜黄有璨公众号｜HYC-11｜微信AI正在悄然改变游戏规则.md",
-    "30_资料库/原始资料/已整理｜2026-11-28｜黄有璨公众号｜HYC-12｜老板们是不是更应该把自己先AI化.md"
+    "30_资料库/原始资料/已整理｜2026-11-28｜黄有璨公众号｜HYC-12｜老板们是不是更应该把自己先AI化.md",
+    "30_资料库/原始资料/未整理｜2026-11-28｜CSDN（weixin_29051149）｜腾讯Agent Suite办公智能体套件落地复盘.md"
    ],
    "backlinks": [
     "40_专题知识库/企业AI与智能体商业化/02_企业AI架构与知识资产/企业AI专题轻量编译流程.md",
@@ -7786,7 +7788,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/未整理｜2026-11-25｜至顶网｜AI-1125-03｜联想敦煌城市超级智能体.md"
    ],
    "desc": "前序：70知识流水线/00采集与发现（采集台账）",
-   "wordCount": 82072
+   "wordCount": 82717
   },
   {
    "path": "70_知识流水线/Agent Notifier统一通知机制.md",
@@ -22645,7 +22647,8 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-11-18｜公众号｜基于DeepSeek Harness构建的企业级Agent，如何让几百人同时使用？"
    ],
    "backlinks": [
-    "70_知识流水线/A_原始资料.md"
+    "70_知识流水线/A_原始资料.md",
+    "30_资料库/原始资料/未整理｜2026-11-28｜CSDN（weixin_29051149）｜腾讯Agent Suite办公智能体套件落地复盘.md"
    ],
    "desc": "收录理由成立：这是目前唯一一份把 Harness 从「各家自建的做法」写成可对照、可评估的工程能力清单的官方文件，且四维划分与自建 Harness（DSH／AI Office Ru",
    "wordCount": 5149
@@ -22662,10 +22665,28 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/未整理｜2026-11-26｜亚布力论坛（新浪财经转载）｜AI-1126-13｜智能体时代三类企业分化"
    ],
    "backlinks": [
-    "70_知识流水线/A_原始资料.md"
+    "70_知识流水线/A_原始资料.md",
+    "30_资料库/原始资料/未整理｜2026-11-28｜CSDN（weixin_29051149）｜腾讯Agent Suite办公智能体套件落地复盘.md"
    ],
    "desc": "这个判断抓住了这篇稿子真正的方法论内核，也是本文的阅读主线：",
    "wordCount": 9535
+  },
+  {
+   "path": "30_资料库/原始资料/未整理｜2026-11-28｜CSDN（weixin_29051149）｜腾讯Agent Suite办公智能体套件落地复盘.md",
+   "title": "腾讯 Agent Suite 办公智能体套件落地复盘（CSDN）——通用实施经验可用，产品事实需纠偏",
+   "updated": "2026-11-28",
+   "updatedTime": "2026-11-28 09:18",
+   "topic": "raw",
+   "links": [
+    "30_资料库/原始资料/未整理｜2026-11-27｜澎湃政务（中国信通院）｜AI-1127-25｜智能体Harness工程能力标准与评估",
+    "30_资料库/原始资料/未整理｜2026-11-27｜齐鲁网财经（华泰研报）｜AI-1127-07｜百融硅基客服岗位化交付与RaaS计费",
+    "40_专题知识库/AI Agent工程知识/03_生产级工程与架构/生产级Agent六大治理模块与工程骨架"
+   ],
+   "backlinks": [
+    "70_知识流水线/A_原始资料.md"
+   ],
+   "desc": "按「内容丰富即收录」处理。收录价值集中在第 4、5 节：接入前三个问题、Agent 定义四要素、评测维度表（意图识别准确率 ≥90%、工具调用成功率 ≥95%、异常兜底不许静默失败",
+   "wordCount": 9718
   },
   {
    "path": "30_资料库/原始资料/部分回流｜2026-11-15｜用户提供｜企业级Agent与通用Agent分界线：身份授权执行审计恢复控制链与WorkBuddy×ADP权限对照（ChatGPT总结）.md",
@@ -22825,7 +22846,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "工具与协议",
-   "matched": 18,
+   "matched": 19,
    "status": "已形成"
   },
   {
@@ -22840,7 +22861,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "评测与可观测性",
-   "matched": 7,
+   "matched": 8,
    "status": "已形成"
   },
   {
@@ -24245,7 +24266,7 @@ window.OBSIDIAN_DATA = {
  ],
  "tasks": {
   "summary": {
-   "in_progress": 22,
+   "in_progress": 23,
    "todo": 23,
    "in_review": 22,
    "blocked": 1
@@ -24264,6 +24285,13 @@ window.OBSIDIAN_DATA = {
     "status": "in_progress",
     "priority": "urgent",
     "assignee": "伊森"
+   },
+   {
+    "id": "KP-193",
+    "title": "【Codex】隔离测试应用「己未客户资产管理AgentV1的副本01」模型判断层改造",
+    "status": "in_progress",
+    "priority": "high",
+    "assignee": "Codex"
    },
    {
     "id": "KP-191",
@@ -24285,17 +24313,10 @@ window.OBSIDIAN_DATA = {
     "status": "todo",
     "priority": "high",
     "assignee": "贾维斯（Grok Bot）"
-   },
-   {
-    "id": "KP-177",
-    "title": "【四方统一主卡】己未 RC16 录入链路生产级验收测试",
-    "status": "in_progress",
-    "priority": "high",
-    "assignee": "伊森"
    }
   ],
-  "total": 158,
-  "fetchedAt": "2026年11月28日 08:05"
+  "total": 159,
+  "fetchedAt": "2026年11月28日 09:43"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -24372,6 +24393,26 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "70_知识流水线/A_原始资料.md",
+   "title": "A_原始资料",
+   "updated": "2026-11-28",
+   "updatedTime": "2026-11-28 09:18",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 82717,
+   "desc": "前序：70知识流水线/00采集与发现（采集台账）"
+  },
+  {
+   "path": "30_资料库/原始资料/未整理｜2026-11-28｜CSDN（weixin_29051149）｜腾讯Agent Suite办公智能体套件落地复盘.md",
+   "title": "腾讯 Agent Suite 办公智能体套件落地复盘（CSDN）——通用实施经验可用，产品事实需纠偏",
+   "updated": "2026-11-28",
+   "updatedTime": "2026-11-28 09:18",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 9718,
+   "desc": "按「内容丰富即收录」处理。收录价值集中在第 4、5 节：接入前三个问题、Agent 定义四要素、评测维度表（意图识别准确率 ≥90%、工具调用成功率 ≥95%、异常兜底不许静默失败"
+  },
+  {
    "path": "70_知识流水线/00_采集与发现.md",
    "title": "采集与发现",
    "updated": "2026-11-28",
@@ -24400,16 +24441,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "企业AI与智能体商业化",
    "wordCount": 36754,
    "desc": "- 40专题知识库/企业AI与智能体商业化/01FDE与企业AI交付方法/FDE售前商务与销售推进：信任建立、需求翻译、定价回款与责任保密：补商业链条前半段（教育认知—需求形成—采"
-  },
-  {
-   "path": "70_知识流水线/A_原始资料.md",
-   "title": "A_原始资料",
-   "updated": "2026-11-28",
-   "updatedTime": "2026-11-28 01:16",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 82072,
-   "desc": "前序：70知识流水线/00采集与发现（采集台账）"
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/黄有璨AI认知全景：三个AI化、三个杠杆与临界点判断.md",
