@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-28",
- "generatedTime": "2026-11-28 12:05",
+ "generatedTime": "2026-11-28 13:50",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 75,
- "weeklyChanges": 660,
+ "weeklyPages": 77,
+ "weeklyChanges": 666,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-27｜AI知识增量整理.md",
  "topics": [
@@ -117,7 +117,7 @@ window.OBSIDIAN_DATA = {
    "key": "aitools",
    "icon": "📖",
    "v3group": "asset",
-   "count": 5
+   "count": 6
   },
   {
    "name": "我的洞察",
@@ -4045,7 +4045,7 @@ window.OBSIDIAN_DATA = {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
    "updated": "2026-11-28",
-   "updatedTime": "2026-11-28 11:28",
+   "updatedTime": "2026-11-28 13:32",
    "topic": "enterprise",
    "links": [
     "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -4066,7 +4066,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/企业AI专题索引.md"
    ],
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口",
-   "wordCount": 176582
+   "wordCount": 182266
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点运行契约与验收口径.md",
@@ -7052,7 +7052,7 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/00_采集与发现.md",
    "title": "采集与发现",
    "updated": "2026-11-28",
-   "updatedTime": "2026-11-28 10:30",
+   "updatedTime": "2026-11-28 12:51",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线V3导航",
@@ -7089,7 +7089,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-11-25｜用户提供｜FDE乙方商业链条与缺口驱动采集方向：教育认知商务竞争到工程交付.md"
    ],
    "desc": "上级：70知识流水线/知识流水线V3导航、00入口与导航/知识库V3逻辑导航",
-   "wordCount": 8842
+   "wordCount": 8952
   },
   {
    "path": "70_知识流水线/01_选题缺口台账.md",
@@ -7189,7 +7189,8 @@ window.OBSIDIAN_DATA = {
     "70_知识流水线/00_采集与发现.md",
     "70_知识流水线/D_输出成果.md",
     "70_知识流水线/Obsidian知识底座治理与知识自主生长方案.md",
-    "70_知识流水线/知识流水线V3导航.md"
+    "70_知识流水线/知识流水线V3导航.md",
+    "50_资产库/AI工具与自动化资产/2026-11-28-Obsidian官方Agent连接器技能包.md"
    ],
    "desc": "真正的 AI 知识系统不是高级收藏夹，而是一条可循环的生产链：",
    "wordCount": 2504
@@ -17843,20 +17844,34 @@ window.OBSIDIAN_DATA = {
    "wordCount": 1887
   },
   {
-   "path": "50_资产库/AI工具与自动化资产/README.md",
-   "title": "50_资产库/AI工具与自动化资产",
-   "updated": "2026-11-03",
-   "updatedTime": "2026-11-03 08:39",
+   "path": "50_资产库/AI工具与自动化资产/2026-11-28-Obsidian官方Agent连接器技能包.md",
+   "title": "Obsidian 官方 Agent 连接器与技能包",
+   "updated": "2026-11-28",
+   "updatedTime": "2026-11-28 13:19",
    "topic": "aitools",
    "links": [
+    "70_知识流水线/AI知识系统：从原始资料到可调用知识与反馈循环"
+   ],
+   "backlinks": [],
+   "desc": "这是 Obsidian 官方发布的 Agent Skills / Connector 包，教 Agent 按 Obsidian 的开放文件格式和 CLI 操作本地知识库。它不是 O",
+   "wordCount": 1466
+  },
+  {
+   "path": "50_资产库/AI工具与自动化资产/README.md",
+   "title": "50_资产库/AI工具与自动化资产",
+   "updated": "2026-11-28",
+   "updatedTime": "2026-11-28 13:19",
+   "topic": "aitools",
+   "links": [
+    "2026-11-28-Obsidian官方Agent连接器技能包",
     "2026-08-08-飞书妙记工作流整合",
     "2026-10-30-重要问题客观答案四段式提示词",
     "2026-10-31-AI判断阅读守则：把回答当证据不当结论",
     "2026-11-03-腾讯位置服务（LBS）接入与Key配置"
    ],
    "backlinks": [],
-   "desc": "- 2026-08-08-飞书妙记工作流整合 — 飞书妙记录制 + WorkBuddy 经飞书 API 直读会谈记录的工作流（移动端体验、阶段边界、待补环节）",
-   "wordCount": 573
+   "desc": "- 2026-11-28-Obsidian官方Agent连接器技能包 — Obsidian 官方 7 项 Agent Skills；Mac Codex 已安装并启用 v1.2.0，",
+   "wordCount": 692
   },
   {
    "path": "60_问题与洞察/我的洞察/AGI认知研究线：从定义分歧到技术范式局限.md",
@@ -22847,7 +22862,7 @@ window.OBSIDIAN_DATA = {
    "path": "30_资料库/原始资料/未整理｜2026-11-28｜CSDN（weixin_29051149）｜腾讯Agent Suite办公智能体套件落地复盘.md",
    "title": "腾讯 Agent Suite 办公智能体套件落地复盘（CSDN）——通用实施经验可用，产品事实需纠偏",
    "updated": "2026-11-28",
-   "updatedTime": "2026-11-28 09:18",
+   "updatedTime": "2026-11-28 12:46",
    "topic": "raw",
    "links": [
     "30_资料库/原始资料/未整理｜2026-11-27｜澎湃政务（中国信通院）｜AI-1127-25｜智能体Harness工程能力标准与评估",
@@ -23661,7 +23676,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "数据与知识资产",
-   "matched": 217,
+   "matched": 218,
    "status": "已形成"
   },
   {
@@ -23671,7 +23686,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "工具与协议",
-   "matched": 22,
+   "matched": 21,
    "status": "已形成"
   },
   {
@@ -23944,7 +23959,7 @@ window.OBSIDIAN_DATA = {
      "path": "知识库索引.md",
      "title": "知识库索引",
      "kind": "note",
-     "wordCount": 115351,
+     "wordCount": 115530,
      "excerpt": "2026-11-25｜己未 MC-001 主控接续与 ADP v120 / Skill v1.19.9 当前验收边界20_工作与项目/己未文化项目入口：项目当前主控为 MC-001（Codex thread 01a210",
      "hasBody": true
     },
@@ -25141,7 +25156,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 159,
-  "fetchedAt": "2026年11月28日 12:05"
+  "fetchedAt": "2026年11月28日 13:50"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -25221,11 +25236,51 @@ window.OBSIDIAN_DATA = {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
    "updated": "2026-11-28",
-   "updatedTime": "2026-11-28 11:28",
+   "updatedTime": "2026-11-28 13:32",
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
-   "wordCount": 176582,
+   "wordCount": 182266,
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口"
+  },
+  {
+   "path": "50_资产库/AI工具与自动化资产/README.md",
+   "title": "50_资产库/AI工具与自动化资产",
+   "updated": "2026-11-28",
+   "updatedTime": "2026-11-28 13:19",
+   "topic": "aitools",
+   "topicName": "AI 工具操作手册",
+   "wordCount": 692,
+   "desc": "- 2026-11-28-Obsidian官方Agent连接器技能包 — Obsidian 官方 7 项 Agent Skills；Mac Codex 已安装并启用 v1.2.0，"
+  },
+  {
+   "path": "50_资产库/AI工具与自动化资产/2026-11-28-Obsidian官方Agent连接器技能包.md",
+   "title": "Obsidian 官方 Agent 连接器与技能包",
+   "updated": "2026-11-28",
+   "updatedTime": "2026-11-28 13:19",
+   "topic": "aitools",
+   "topicName": "AI 工具操作手册",
+   "wordCount": 1466,
+   "desc": "这是 Obsidian 官方发布的 Agent Skills / Connector 包，教 Agent 按 Obsidian 的开放文件格式和 CLI 操作本地知识库。它不是 O"
+  },
+  {
+   "path": "70_知识流水线/00_采集与发现.md",
+   "title": "采集与发现",
+   "updated": "2026-11-28",
+   "updatedTime": "2026-11-28 12:51",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 8952,
+   "desc": "上级：70知识流水线/知识流水线V3导航、00入口与导航/知识库V3逻辑导航"
+  },
+  {
+   "path": "30_资料库/原始资料/未整理｜2026-11-28｜CSDN（weixin_29051149）｜腾讯Agent Suite办公智能体套件落地复盘.md",
+   "title": "腾讯 Agent Suite 办公智能体套件落地复盘（CSDN）——通用实施经验可用，产品事实需纠偏",
+   "updated": "2026-11-28",
+   "updatedTime": "2026-11-28 12:46",
+   "topic": "raw",
+   "topicName": "原始资料 / 养料",
+   "wordCount": 9718,
+   "desc": "按「内容丰富即收录」处理。收录价值集中在第 4、5 节：接入前三个问题、Agent 定义四要素、评测维度表（意图识别准确率 ≥90%、工具调用成功率 ≥95%、异常兜底不许静默失败"
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP改造项目结构.md",
@@ -25266,16 +25321,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "知识流水线",
    "wordCount": 1143,
    "desc": "上级：00入口与导航/知识库V3逻辑导航、70知识流水线/知识流水线"
-  },
-  {
-   "path": "70_知识流水线/00_采集与发现.md",
-   "title": "采集与发现",
-   "updated": "2026-11-28",
-   "updatedTime": "2026-11-28 10:30",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 8842,
-   "desc": "上级：70知识流水线/知识流水线V3导航、00入口与导航/知识库V3逻辑导航"
   },
   {
    "path": "70_知识流水线/D_输出成果.md",
@@ -25756,16 +25801,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "原始资料 / 养料",
    "wordCount": 11527,
    "desc": "- 来源：抖音分享，账号「锐驰说RICHTALK」（粉丝 5.2 万、获赞 42.1 万，合集《New Money》第 32 集）；嘉宾为 FDE（AI 前沿部署工程师）@曲率出逃"
-  },
-  {
-   "path": "30_资料库/原始资料/未整理｜2026-11-28｜CSDN（weixin_29051149）｜腾讯Agent Suite办公智能体套件落地复盘.md",
-   "title": "腾讯 Agent Suite 办公智能体套件落地复盘（CSDN）——通用实施经验可用，产品事实需纠偏",
-   "updated": "2026-11-28",
-   "updatedTime": "2026-11-28 09:18",
-   "topic": "raw",
-   "topicName": "原始资料 / 养料",
-   "wordCount": 9718,
-   "desc": "按「内容丰富即收录」处理。收录价值集中在第 4、5 节：接入前三个问题、Agent 定义四要素、评测维度表（意图识别准确率 ≥90%、工具调用成功率 ≥95%、异常兜底不许静默失败"
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/企业AI专题索引.md",
