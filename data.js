@@ -1,9 +1,9 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-28",
- "generatedTime": "2026-11-28 14:06",
+ "generatedTime": "2026-11-28 16:06",
  "rootTitle": "徐总的知识库",
- "weeklyPages": 77,
- "weeklyChanges": 666,
+ "weeklyPages": 79,
+ "weeklyChanges": 669,
  "sourceIndex": "知识库索引.md",
  "digest": "70_知识流水线/每日学习整理/2026-11-27｜AI知识增量整理.md",
  "topics": [
@@ -19,7 +19,7 @@ window.OBSIDIAN_DATA = {
    "key": "enterprise",
    "icon": "🏢",
    "v3group": "core",
-   "count": 162
+   "count": 163
   },
   {
    "name": "AI产业链与数字基础设施",
@@ -4045,7 +4045,7 @@ window.OBSIDIAN_DATA = {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
    "updated": "2026-11-28",
-   "updatedTime": "2026-11-28 13:32",
+   "updatedTime": "2026-11-28 14:33",
    "topic": "enterprise",
    "links": [
     "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -4066,13 +4066,13 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/企业AI专题索引.md"
    ],
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口",
-   "wordCount": 182266
+   "wordCount": 184035
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点运行契约与验收口径.md",
    "title": "己未ADP试点运行契约与验收口径",
-   "updated": "2026-11-25",
-   "updatedTime": "2026-11-25 10:26",
+   "updated": "2026-11-28",
+   "updatedTime": "2026-11-28 14:33",
    "topic": "enterprise",
    "links": [
     "40_专题知识库/AI/01_企业AI与生产级Agent总框架",
@@ -4086,7 +4086,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/部分回流｜2026-11-17｜用户提供｜自建Agent与Python对比腾讯ADP、零一万智万策与FDE两层复用（ChatGPT整理稿）.md"
    ],
    "desc": "版本：v1（2026-11-14）",
-   "wordCount": 16448
+   "wordCount": 18213
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未AI系统×腾讯ADP目标架构基线.md",
@@ -4829,6 +4829,17 @@ window.OBSIDIAN_DATA = {
    ],
    "desc": "上级：40专题知识库/企业AI与智能体商业化/05行业案例与外部证据/零一万物企业AI落地专题",
    "wordCount": 9083
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/五粮液H321营销AI采购公告拆解：一年期八项服务怎么交付.md",
+   "title": "五粮液H321营销AI采购公告拆解：一年期八项服务怎么交付",
+   "updated": "2026-11-28",
+   "updatedTime": "2026-11-28 15:34",
+   "topic": "enterprise",
+   "links": [],
+   "backlinks": [],
+   "desc": "公告能证明的\"交付方式\"只有三条硬骨架：一个包、一年期、一家统包（不接受联合体、不允许分包转包）；交付节奏、验收和付款全部留在不公开的第三章。真正可核的交付细节，只能从供应商侧（明",
+   "wordCount": 2634
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/待整理稿｜AI商业落地第一步是数据治理（Corvera案例）.md",
@@ -23706,7 +23717,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "业务交付与 FDE",
-   "matched": 210,
+   "matched": 211,
    "status": "已形成"
   },
   {
@@ -25128,7 +25139,7 @@ window.OBSIDIAN_DATA = {
    },
    {
     "id": "KP-193",
-    "title": "【Codex】隔离测试应用「己未客户资产管理AgentV1的副本01」模型判断层改造",
+    "title": "己未ADP关键判断模型兜底覆盖扩展",
     "status": "in_progress",
     "priority": "high",
     "assignee": "Codex"
@@ -25156,7 +25167,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 159,
-  "fetchedAt": "2026年11月28日 14:06"
+  "fetchedAt": "2026年11月28日 16:06"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -25233,14 +25244,34 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
+   "path": "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/五粮液H321营销AI采购公告拆解：一年期八项服务怎么交付.md",
+   "title": "五粮液H321营销AI采购公告拆解：一年期八项服务怎么交付",
+   "updated": "2026-11-28",
+   "updatedTime": "2026-11-28 15:34",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 2634,
+   "desc": "公告能证明的\"交付方式\"只有三条硬骨架：一个包、一年期、一家统包（不接受联合体、不允许分包转包）；交付节奏、验收和付款全部留在不公开的第三章。真正可核的交付细节，只能从供应商侧（明"
+  },
+  {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
    "updated": "2026-11-28",
-   "updatedTime": "2026-11-28 13:32",
+   "updatedTime": "2026-11-28 14:33",
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
-   "wordCount": 182266,
+   "wordCount": 184035,
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口"
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点运行契约与验收口径.md",
+   "title": "己未ADP试点运行契约与验收口径",
+   "updated": "2026-11-28",
+   "updatedTime": "2026-11-28 14:33",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 18213,
+   "desc": "版本：v1（2026-11-14）"
   },
   {
    "path": "50_资产库/AI工具与自动化资产/README.md",
