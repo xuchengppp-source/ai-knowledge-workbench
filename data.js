@@ -1,6 +1,6 @@
 window.OBSIDIAN_DATA = {
  "generatedAt": "2026-11-28",
- "generatedTime": "2026-11-28 16:06",
+ "generatedTime": "2026-11-28 18:06",
  "rootTitle": "徐总的知识库",
  "weeklyPages": 79,
  "weeklyChanges": 669,
@@ -4045,7 +4045,7 @@ window.OBSIDIAN_DATA = {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
    "updated": "2026-11-28",
-   "updatedTime": "2026-11-28 14:33",
+   "updatedTime": "2026-11-28 16:30",
    "topic": "enterprise",
    "links": [
     "40_专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题",
@@ -4066,7 +4066,7 @@ window.OBSIDIAN_DATA = {
     "40_专题知识库/企业AI与智能体商业化/企业AI专题索引.md"
    ],
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口",
-   "wordCount": 184035
+   "wordCount": 187798
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点运行契约与验收口径.md",
@@ -4832,14 +4832,14 @@ window.OBSIDIAN_DATA = {
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/五粮液H321营销AI采购公告拆解：一年期八项服务怎么交付.md",
-   "title": "五粮液H321营销AI采购公告拆解：一年期八项服务怎么交付",
+   "title": "五粮液H321营销AI采购：交付全过程与技术栈拆解",
    "updated": "2026-11-28",
-   "updatedTime": "2026-11-28 15:34",
+   "updatedTime": "2026-11-28 16:21",
    "topic": "enterprise",
    "links": [],
    "backlinks": [],
-   "desc": "公告能证明的\"交付方式\"只有三条硬骨架：一个包、一年期、一家统包（不接受联合体、不允许分包转包）；交付节奏、验收和付款全部留在不公开的第三章。真正可核的交付细节，只能从供应商侧（明",
-   "wordCount": 2634
+   "desc": "这份标不是\"买一套系统\"，而是把一条营销流水线拆成 8 个能力模块外包一年：数据资产 → 洞察 → 策略 → 内容 → 分发 → 监测 → 复盘 → 迭代。技术上是 Octo 承载",
+   "wordCount": 3492
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/待整理稿｜AI商业落地第一步是数据治理（Corvera案例）.md",
@@ -7063,7 +7063,7 @@ window.OBSIDIAN_DATA = {
    "path": "70_知识流水线/00_采集与发现.md",
    "title": "采集与发现",
    "updated": "2026-11-28",
-   "updatedTime": "2026-11-28 12:51",
+   "updatedTime": "2026-11-28 16:58",
    "topic": "pipeline",
    "links": [
     "70_知识流水线/知识流水线V3导航",
@@ -7100,7 +7100,7 @@ window.OBSIDIAN_DATA = {
     "30_资料库/原始资料/已整理｜2026-11-25｜用户提供｜FDE乙方商业链条与缺口驱动采集方向：教育认知商务竞争到工程交付.md"
    ],
    "desc": "上级：70知识流水线/知识流水线V3导航、00入口与导航/知识库V3逻辑导航",
-   "wordCount": 8952
+   "wordCount": 9064
   },
   {
    "path": "70_知识流水线/01_选题缺口台账.md",
@@ -23687,7 +23687,7 @@ window.OBSIDIAN_DATA = {
   },
   {
    "name": "数据与知识资产",
-   "matched": 218,
+   "matched": 219,
    "status": "已形成"
   },
   {
@@ -25167,7 +25167,7 @@ window.OBSIDIAN_DATA = {
    }
   ],
   "total": 159,
-  "fetchedAt": "2026年11月28日 16:06"
+  "fetchedAt": "2026年11月28日 18:06"
  },
  "knowledgeCardCenter": {
   "cards": [
@@ -25244,24 +25244,34 @@ window.OBSIDIAN_DATA = {
  ],
  "recentUpdates": [
   {
-   "path": "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/五粮液H321营销AI采购公告拆解：一年期八项服务怎么交付.md",
-   "title": "五粮液H321营销AI采购公告拆解：一年期八项服务怎么交付",
+   "path": "70_知识流水线/00_采集与发现.md",
+   "title": "采集与发现",
    "updated": "2026-11-28",
-   "updatedTime": "2026-11-28 15:34",
-   "topic": "enterprise",
-   "topicName": "企业AI与智能体商业化",
-   "wordCount": 2634,
-   "desc": "公告能证明的\"交付方式\"只有三条硬骨架：一个包、一年期、一家统包（不接受联合体、不允许分包转包）；交付节奏、验收和付款全部留在不公开的第三章。真正可核的交付细节，只能从供应商侧（明"
+   "updatedTime": "2026-11-28 16:58",
+   "topic": "pipeline",
+   "topicName": "知识流水线",
+   "wordCount": 9064,
+   "desc": "上级：70知识流水线/知识流水线V3导航、00入口与导航/知识库V3逻辑导航"
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点搭建记录.md",
    "title": "己未ADP试点搭建记录",
    "updated": "2026-11-28",
-   "updatedTime": "2026-11-28 14:33",
+   "updatedTime": "2026-11-28 16:30",
    "topic": "enterprise",
    "topicName": "企业AI与智能体商业化",
-   "wordCount": 184035,
+   "wordCount": 187798,
    "desc": "上级：40专题知识库/企业AI与智能体商业化/企业AI与智能体商业化专题、40专题知识库/企业AI与智能体商业化/04项目与客户落地/己未文化资料速查入口"
+  },
+  {
+   "path": "40_专题知识库/企业AI与智能体商业化/05_行业案例与外部证据/五粮液H321营销AI采购公告拆解：一年期八项服务怎么交付.md",
+   "title": "五粮液H321营销AI采购：交付全过程与技术栈拆解",
+   "updated": "2026-11-28",
+   "updatedTime": "2026-11-28 16:21",
+   "topic": "enterprise",
+   "topicName": "企业AI与智能体商业化",
+   "wordCount": 3492,
+   "desc": "这份标不是\"买一套系统\"，而是把一条营销流水线拆成 8 个能力模块外包一年：数据资产 → 洞察 → 策略 → 内容 → 分发 → 监测 → 复盘 → 迭代。技术上是 Octo 承载"
   },
   {
    "path": "40_专题知识库/企业AI与智能体商业化/04_项目与客户落地/己未ADP试点运行契约与验收口径.md",
@@ -25292,16 +25302,6 @@ window.OBSIDIAN_DATA = {
    "topicName": "AI 工具操作手册",
    "wordCount": 1466,
    "desc": "这是 Obsidian 官方发布的 Agent Skills / Connector 包，教 Agent 按 Obsidian 的开放文件格式和 CLI 操作本地知识库。它不是 O"
-  },
-  {
-   "path": "70_知识流水线/00_采集与发现.md",
-   "title": "采集与发现",
-   "updated": "2026-11-28",
-   "updatedTime": "2026-11-28 12:51",
-   "topic": "pipeline",
-   "topicName": "知识流水线",
-   "wordCount": 8952,
-   "desc": "上级：70知识流水线/知识流水线V3导航、00入口与导航/知识库V3逻辑导航"
   },
   {
    "path": "30_资料库/原始资料/未整理｜2026-11-28｜CSDN（weixin_29051149）｜腾讯Agent Suite办公智能体套件落地复盘.md",
